@@ -8,7 +8,7 @@ The map of the London Underground is one of my favorite visualizations just as a
 
 After returning from working in London over the summer and experiencing the Tube and how user friendly it is compared to other metros in Europe I looked into what kind of data is available about it. Come to find out that the TFL has very accurate data that they make public as well as put on their API for developers. I want to use this data and take advantage of the unique structure of the Tube map to explore this landscape. 
 
-I also had some inspiration from other developers that have made incredible visualizations off the Oyster card data such as the animation 'day on the tube' where time, entry, and exit information are uitilzed to show people as dots riding the tube on the map. 
+I also had some inspiration from other developers that have made incredible visualizations off the Oyster Card data such as the animation 'day on the tube' where time, entry, and exit information are uitilzed to show people as dots riding the tube on the map. 
 
 ![alt text](https://i.pinimg.com/736x/5f/84/8e/5f848ee26df8d48187cd3176cda11fba.jpg)
 
@@ -19,7 +19,9 @@ I also had some inspiration from other developers that have made incredible visu
 
 ![alt text](https://i.pinimg.com/originals/6c/57/ce/6c57ce5c9760b795a47d4dab624a7cdd.jpg)
 
+My personal favorite is the live 3D tube map using the API to show where trains are as well as how the lines are spatially related. Link below
+
 ![alt text](https://cdn.searchenginejournal.com/wp-content/uploads/2013/09/london.png)
 
 
-
+http://brunoimbrizi.com/experiments/#/07
