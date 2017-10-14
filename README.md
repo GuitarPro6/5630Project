@@ -10,14 +10,16 @@ After returning from working in London over the summer and experiencing the Tube
 
 I also had some inspiration from other developers that have made incredible visualizations off the Oyster card data such as the animation 'day on the tube' where time, entry, and exit information are uitilzed to show people as dots riding the tube on the map. 
 
-![alt text](https://goo.gl/images/USycuf)
+![alt text](https://i.pinimg.com/736x/5f/84/8e/5f848ee26df8d48187cd3176cda11fba.jpg)
 
 
-![alt text](https://goo.gl/images/Xnp5A9)
+![alt text](https://i.pinimg.com/736x/32/b7/c9/32b7c90679afb8c2f552ae7d4e0a0bc5--london-underground-tube-map-data-visualization.jpg)
 
 
 
-![alt text](https://goo.gl/images/wJY893)
+![alt text](https://i.pinimg.com/originals/6c/57/ce/6c57ce5c9760b795a47d4dab624a7cdd.jpg)
+
+![alt text](https://cdn.searchenginejournal.com/wp-content/uploads/2013/09/london.png)
 
 
 
