@@ -25,3 +25,14 @@ My personal favorite is the live 3D tube map using the API to show where trains 
 
 
 http://brunoimbrizi.com/experiments/#/07
+
+
+The 4 main components of the project will be:
+
+1: Drawing a scale Tube Map using the d3.tube package that draws nice maps from json files. (This just involves typing in each station to the json file and making sure the cooridnate system matches)
+
+2: Displaying aggregate data on the full map, this will involve creating a selection menu and filtering the data for days of the week/entries/exits etc. 
+
+3: Animating the lines when clicked so that we get just the stations on a particular line (similar to how the Tube displays an individual line to the user)
+
+4: Allowing the user to select individual stations. Here we will select a station and show data that was compiled from a 2016 study that shows demographic, origin, destination, and other metrics for people who used the station. 
