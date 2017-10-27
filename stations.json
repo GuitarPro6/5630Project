@@ -1066,7 +1066,7 @@
       }
     },
     "SouthGate": {
-      "title": "Southgate",
+      "title": "South Gate",
       "address": "11 Covent Garden, Cambridge CB1 2HS",
       "website": "http://sixbellspub.co.uk/",
       "phone": "01223 355559",
@@ -1713,6 +1713,103 @@
         "name": "LeicesterSquare",
         "labelPos": "SE"
     },
+    {
+        "coords": [-84, -25],
+        "name": "ConventGarden",
+        "labelPos": "SE"
+    },
+    {
+        "coords": [-84, -25],
+        "name": "Holborn",
+        "labelPos": "SE"
+    },
+    {
+        "coords": [-84, -25],
+        "name": "RussellSquare",
+        "labelPos": "SE"
+    },
+    {
+        "coords": [-84, -25],
+        "name": "KingsCrossStPancras",
+        "labelPos": "SE"
+    },
+    {
+        "coords": [-84, -25],
+        "name": "CaledonianRoad",
+        "labelPos": "SE"
+    },
+    {
+        "coords": [-84, -25],
+        "name": "HollowayRoad",
+        "labelPos": "SE"
+    },
+    {
+        "coords": [-84, -25],
+        "name": "Arsenal",
+        "labelPos": "SE"
+    },
+    {
+        "coords": [-84, -25],
+        "name": "FinsburyPark",
+        "labelPos": "SE"
+    },
+
+    {
+        "coords": [-84, -25],
+        "name": "ManorHouse",
+        "labelPos": "SE"
+    },
+    {
+        "coords": [-84, -25],
+        "name": "TurnpikeLane",
+        "labelPos": "SE"
+    },
+    {
+        "coords": [-84, -25],
+        "name": "WoodGreen",
+        "labelPos": "SE"
+    },
+    {
+        "coords": [-84, -25],
+        "name": "BoundsGreen",
+        "labelPos": "SE"
+    },
+    {
+        "coords": [-84, -25],
+        "name": "ArnosGrove",
+        "labelPos": "SE"
+    },
+    {
+        "coords": [-84, -25],
+        "name": "SouthGate",
+        "labelPos": "SE"
+    },
+    {
+        "coords": [-84, -25],
+        "name": "Oakwood",
+        "labelPos": "SE"
+    },
+    {
+        "coords": [-84, -25],
+        "name": "Cockfosters",
+        "labelPos": "SE"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     {
       "coords": [-70, -10]
