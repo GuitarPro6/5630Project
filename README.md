@@ -1,6 +1,7 @@
 # 5630 Project
 Visualization of London Underground
 
+Github IO Page: https://guitarpro6.github.io/dataviscourse-pr-TubeVis/
 
 In this project I am looking to make a visualization of the London Underground with aggregate, line, and station data obtained from the TFL (Transport For London) API website. The idea is to show interesting trends that have occured over time in the entry/exit information as well as highlight data obtained in 2016 on demographic/origin&destination information from each station. 
 
@@ -36,3 +37,7 @@ The 4 main components of the project will be:
 3: Animating the lines when clicked so that we get just the stations on a particular line (similar to how the Tube displays an individual line to the user)
 
 4: Allowing the user to select individual stations. Here we will select a station and show data that was compiled from a 2016 study that shows demographic, origin, destination, and other metrics for people who used the station. 
+
+
+
+Link to program: https://guitarpro6.github.io/dataviscourse-pr-TubeVis/
