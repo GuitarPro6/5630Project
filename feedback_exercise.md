@@ -1,7 +1,7 @@
 # Feedback Exercise
  Presentors: Jon Bown / Pablo Napan / Andrew Yang
  
- Feedback given by: Rajath P. Jawah / Diana Ngo
+ Feedback given by: Rajath P. Jawali / Diana Ngo
  
  November 2nd, 2017
 
