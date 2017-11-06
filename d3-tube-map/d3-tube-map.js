@@ -13,7 +13,7 @@ function tubeMap() {
   var xGeoScale = d3.scaleLinear();
   var yGeoScale = d3.scaleLinear();
   var lineWidth;
-  var lineWidthMultiplier = 1.2;
+  var lineWidthMultiplier = 1.0;
 
   var dispatch$$1 = d3.dispatch("click");
 
@@ -161,7 +161,7 @@ function tubeMap() {
         return d.highlighted ? lineWidth * 1.3 : lineWidth;
       }).classed("line", true);
 
-			//Aadd click events here 
+			//Aadd click events here
 
       var fgColor = "#000000";
       var bgColor = "#ffffff";
@@ -442,7 +442,13 @@ function tubeMap() {
           lastSectionType = "diagonal";
           path += "L" + points[1][0] + "," + points[1][1];
         } else if (Math.abs(xDiff) == 1 && Math.abs(yDiff) == 1) {
+					console.log(nextNode);
+					if(nextNode.dir != null){
           direction = nextNode.dir.toLowerCase();
+				}
+				else{
+					direction = "s";
+				}
 
           switch (direction) {
             case "e":
@@ -703,7 +709,6 @@ Stations.prototype.toArray = function () {
 
 Stations.prototype.interchanges = function () {
   var interchangeStations = this.toArray();
-
   return interchangeStations.filter(function (station) {
     return station.marker[0].marker === "interchange";
   });
