@@ -7,14 +7,20 @@
 	<head>
   <link rel="stylesheet" href="tubeMap.css">
   <script src="https://d3js.org/d3.v4.js"></script>
-  <script src="https://unpkg.com/d3-tube-map@latest/build/d3-tube-map.js"></script>
+	<script src=d3-tube-map/d3-tube-map.js></script>
   <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
 </head>
-
+<nav>
+  <ul>
+    <li><strong>Home</strong></li>
+    <li><a href="map.html">Google Map</a></li>
+	</ul>
+</nav>
 <body>
   <div id="tube-map">
   </div>
   <script>
+	/*  <script src="https://unpkg.com/d3-tube-map@latest/build/d3-tube-map.js"></scr>  */
     var el = document.getElementById('tube-map');
 		var width = 1600;
 		var height = 1024;
@@ -37,9 +43,13 @@
       });
 
     d3.json("stations.json", function(error, data) {
+			if(error != null){
+				console.log("something went wrong");
+			}
       svg.datum(data).call(map);
     });
   </script>
+
 </body>
 <script>
 
