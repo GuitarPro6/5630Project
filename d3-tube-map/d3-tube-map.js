@@ -105,6 +105,7 @@ function tubeMap() {
       // Select the svg element, if it exists
       svg = d3.select(this).selectAll("svg").data([data]);
 
+
       var g = svg.enter().append("svg").append("g");
 
       // Fill with white rectangle to capture zoom events
@@ -122,7 +123,7 @@ function tubeMap() {
         return [d.river];
       });
 
-      var lines = gEnter.append("g").attr("class", "lines").selectAll("path").data(function (d) {
+      var lines = gEnter.append("g").attr("class", "lines").attr("id", "line").selectAll("path").data(function (d) {
         return d.lines.lines;
       });
 
@@ -149,9 +150,11 @@ function tubeMap() {
       // Update the outer dimensions
       svg.attr("width", '100%').attr("height", '100%');
 
+
       // Update the river
       river.enter().append("path").attr("d", drawLine).attr("stroke", "#C4E8F8").attr("fill", "none").attr("stroke-width", 1.8 * lineWidth);
 
+			var pathStorage = [];
       // Update the lines
       lines.enter().append("path").attr("d", drawLine).attr("id", function (d) {
         return d.name;
@@ -159,7 +162,62 @@ function tubeMap() {
         return d.color;
       }).attr("fill", "none").attr("stroke-width", function (d) {
         return d.highlighted ? lineWidth * 1.3 : lineWidth;
-      }).classed("line", true);
+      }).classed("line", true).on("click", function(){
+					//Here we would add the code to transform the path
+					//keep this path so we can use it later
+
+					var pathElement = d3.select(this).node();
+					var pathSegList = pathElement.pathSegList;
+
+
+				var newPath = "M";
+
+				var name = d3.select(this).attr("id");
+
+				var idIndicator = false;
+				var index = -1;
+
+				for(var k = 0; k < pathStorage.length; k++){
+					if(pathStorage[k].id != null){
+						if(pathStorage[k].id == name){
+							idIndicator = true;
+							index = k;
+						}
+					}
+				}
+				//The line is not currently transformed
+				if(idIndicator == false){
+					var path = d3.select(this).attr('d');
+					//Store the old path to transition back to
+					pathStorage.push({"id": name, "path": path});
+
+		for(var j = 0; j < pathSegList.numberOfItems; j++){
+			if(j !== 0){
+				newPath += "L" + j*10 + "," + 50;
+			}
+			else{
+				newPath +=  j*10 + "," + 50;
+			}
+
+		}
+	}
+	else{
+		newPath = pathStorage[index].path;
+		pathStorage.splice(k,1);
+
+	}
+
+	if(pathStorage.length !== 0){
+
+				d3.select(this).transition().duration(5000).attr("d", newPath);
+
+	}
+
+
+
+
+
+			});
 
 			//Aadd click events here
 
