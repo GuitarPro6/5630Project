@@ -711,7 +711,7 @@
     },
 
     "Elephant&Castle": {
-      "title": "Elephant&Castle",
+      "title": "Elephant & Castle",
       "address": "16A Orchard St, Cambridge CB1 1JT",
       "website": "http://www.theelmtreecambridge.co.uk/",
       "phone": "01223 502632",
@@ -805,7 +805,7 @@
       }
     },
     "FinsburyPark": {
-      "title": "Finsbury Park",
+      "title": "Finsbury\n Park",
       "address": "106 Hills Rd, Cambridge, CB2 1LQ",
       "phone": "01223 354623",
       "position": {
@@ -873,7 +873,7 @@
       }
     },
     "GrangeHill": {
-      "title": "Grange Hill",
+      "title": "Grange\nHill",
       "address": "5 Water St, Cambridge CB4 1NZ",
       "website": "http://www.greendragon-cambridge.co.uk/",
       "phone": "01223 505035",
@@ -1467,7 +1467,7 @@
       }
     },
     "MorningtonCrescent": {
-      "title": "Mornington Crescent",
+      "title": "Mornington\n Crescent",
       "address": "14 Mill Ln, Cambridge CB2 1RX",
       "website": "http://www.themillpubcambridge.com/",
       "phone": "01223 311829",
@@ -1487,7 +1487,7 @@
       }
     },
     "NewburyPark": {
-      "title": "Newbury Park",
+      "title": "Newbury\nPark",
       "address": "17 Bridge St, Cambridge CB2 1UF",
       "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
       "phone": "01223 358403",
@@ -1684,7 +1684,7 @@
       }
     },
     "Perivale": {
-      "title": "Parsons Green",
+      "title": "Perivale",
       "address": "43 Panton St, Cambridge CB2 1HL",
       "phone": "01223 464351",
       "position": {
@@ -1725,7 +1725,6 @@
     "Plaistow": {
       "title": "Plaistow",
       "address": "30 Magdalene St, Cambridge CB3 0AF",
-      "website": "http://www.taylor-walker.co.uk/pub/pickerel-cambridge",
       "phone": "01223 355068",
       "position": {
         "lat": 51.53122,
@@ -1735,7 +1734,6 @@
     "PrestonRoad": {
       "title": "Preston Road",
       "address": "30 Magdalene St, Cambridge CB3 0AF",
-      "website": "http://www.taylor-walker.co.uk/pub/pickerel-cambridge",
       "phone": "01223 355068",
       "position": {
         "lat": 51.57229051,
@@ -1746,7 +1744,6 @@
       "title": "Putney Bridge",
       "place_id": "ChIJIwqxlbhw2EcRQYT52kWYXhQ",
       "address": "3 Pound Hill, Cambridge CB3 0AE",
-      "website": "http://www.thepuntercambridge.com/",
       "phone": "01223 363322",
       "position": {
         "lat": 51.46868,
@@ -1843,7 +1840,7 @@
       }
     },
     "RodingValley": {
-      "title": "RodingValley",
+      "title": "Roding\nValley",
       "address": "292 Mill Rd, Cambridge CB1 3NL",
       "website": "http://royalstandardcambridge.com/",
       "phone": "01223 569065",
@@ -2342,7 +2339,7 @@
       }
     },
     "WalthamstowCentral": {
-      "title": "Walthamstow Central",
+      "title": "Walthamstow \n Central",
       "address": "32 Chesterton Rd, Cambridge CB4 3AX",
       "website": "http://www.thewaterman-cambridge.co.uk/",
       "phone": "01223 323813",
@@ -2964,10 +2961,11 @@
     {
       "coords": [3.76, -31.14],
       "name": "Elephant&Castle",
-      "labelPos": "N"
+      "labelPos": "SE",
+      "hide": true
     },
     {
-      "coords": [1, 33]
+      "coords": [3.76, -31.14]
     }]
   }, {
     "name": "Victoria",
@@ -2979,7 +2977,6 @@
       "marker": "interchange",
       "name": "WalthamstowCentral",
       "labelPos": "S",
-      "shiftCoords": [0, -1],
       "canonical": true
     }, {
       "coords": [50.36, 42.06],
@@ -3002,7 +2999,7 @@
     {
       "coords": [33.48, 38.68],
       "name": "FinsburyPark",
-      "labelPos": "S"
+      "labelPos": "NW"
     },
     {
       "coords": [28.06, 32.96]
@@ -3176,7 +3173,7 @@
     {
       "coords": [9.44, 18.6],
       "name": "KingsCrossStPancras",
-      "labelPos": "S",
+      "labelPos": "N",
       "hide": true
     },
 
@@ -3184,22 +3181,28 @@
     {
       "coords": [18.16, 18.6],
       "name": "Angel",
-      "labelPos": "N"
-    }, {
-      "coords": [22.44, 16.5],
+      "labelPos": "S"
+    },
+
+    {
+      "coords": [22.66, 18.6]
+    },
+
+     {
+      "coords": [22.66, 16.5],
       "name": "OldStreet",
-      "labelPos": "SW"
+      "labelPos": "E"
     },
     {
-      "coords": [22.44, 7.14],
+      "coords": [22.66, 7.14],
       "name": "Moorgate",
       "labelPos": "NW"
     }, {
-      "coords": [22.14, 7.46],
+      "coords": [22.66, 7.46],
       "name": "Bank",
       "labelPos": "S"
     }, {
-      "coords": [22.6, -12.18],
+      "coords": [22.66, -12.18],
       "name": "LondonBridge",
       "labelPos": "N"
     }, {
@@ -3209,7 +3212,7 @@
     }, {
       "coords": [3.74, -31.18],
       "name": "Elephant&Castle",
-      "labelPos": "N"
+      "labelPos": "SE"
     }, {
       "coords": [-0.88, -35.8],
       "name": "Kennington",
@@ -3791,9 +3794,7 @@
                    "name": "ChanceryLane",
                    "labelPos": "W"
                  },
-                 {
-                    "coords": [13.94, 4.82]
-                  },
+                
                  {
                     "coords": [15.28, 3.7],
                     "name": "StPauls",
@@ -3924,9 +3925,6 @@
             "coords": [-80.36, 25.68]
           },
           {
-            "coords": [-79.36, 24]
-          },
-          {
             "coords": [-77.7, 22.72],
             "name": "Perivale",
             "labelPos": "SW"
@@ -3959,60 +3957,78 @@
       {
         "name": "Central(viaRodingValley)",
         "label": "Central",
-        "color": "#a0a5a9",
+        "color": "#E32017",
         "shiftCoords": [0, 0],
         "nodes": [  {
-            "coords": [88, 38],
+            "coords": [65.28, 49.94],
             "name": "Woodford",
-            "labelPos": "SE"
-          },   {
-              "coords": [88, 38],
+            "labelPos": "SE",
+            "hide": true
+          },    {
+              "coords": [65.48, 54.8]
+            },
+            {
+              "coords": [68.12, 54.82],
               "name": "RodingValley",
-              "labelPos": "SE"
+              "labelPos": "N"
             },
             {
-              "coords": [88, 38],
+              "coords": [71.42, 54.82],
               "name": "Chigwell",
-              "labelPos": "SE"
+              "labelPos": "S"
             },
             {
-              "coords": [88, 38],
+              "coords": [74.5, 54.82],
               "name": "GrangeHill",
-              "labelPos": "SE"
+              "labelPos": "N"
             },
             {
-              "coords": [88, 38],
+               "coords": [77.14, 54.82]
+             },
+            {
+              "coords": [77.14, 51.74],
               "name": "Hainault",
-              "labelPos": "SE"
+              "labelPos": "E"
             },
             {
-              "coords": [88, 38],
+              "coords": [77.14, 49.2],
               "name": "Fairlop",
-              "labelPos": "SE"
+              "labelPos": "E"
             },
             {
-              "coords": [88, 38],
+              "coords": [77.14, 46.44],
               "name": "Barkingside",
-              "labelPos": "SE"
+              "labelPos": "E"
             },
             {
-              "coords": [88, 38],
+              "coords": [77.14, 43.26],
               "name": "NewburyPark",
-              "labelPos": "SE"
+              "labelPos": "E"
             },
             {
-              "coords": [88, 38],
+              "coords": [77.14, 40]
+            },
+            {
+              "coords": [74.28, 40],
               "name": "GantsHill",
-              "labelPos": "SE"
+              "labelPos": "S"
             },
             {
-              "coords": [88, 38],
+              "coords": [71.64, 40],
               "name": "Redbridge",
-              "labelPos": "SE"
+              "labelPos": "N"
             },
             {
-              "coords": [88, 38],
+              "coords": [68.34, 40],
               "name": "Wanstead",
+              "labelPos": "S"
+            },
+            {
+              "coords": [65.30, 40]
+            },
+            {
+              "coords": [65.28, 36.32],
+              "name": "LeytonStone",
               "labelPos": "SE"
             }
           ]
@@ -4045,7 +4061,7 @@
      {
     "name": "Metropolitan(viaUxbridge)",
     "label": "Metropolitan",
-    "color": "#a0a5a9",
+    "color": "#9B0056",
     "shiftCoords": [0, 1],
     "nodes": [{
       "coords": [-98.16, 49.52],
@@ -4288,9 +4304,6 @@
 },
 {
  "coords": [-37.46,  42.86]
-},
-{
- "coords": [-36.2,  41.5]
 },
 {
  "coords": [-34.5, 40.02 ],
@@ -4784,10 +4797,10 @@
     {
         "coords": [32.14, 39.8],
         "name": "FinsburyPark",
-        "labelPos": "NW"
+        "labelPos": "S"
     },
     {
-        "coords": [33.65, 41.26]
+        "coords": [33.6, 42.2]
     },
 
     {
@@ -4931,37 +4944,56 @@
     "label": "River",
     "shiftCoords": [0, 0],
     "nodes": [{
-      "coords": [-97, -39]
+      "coords": [-101.92, -39.76]
     },{
-      "coords": [-62.5, -39]
+      "coords": [-68.88, -39.76]
     },{
-      "coords": [-62.5, -19]
+      "coords": [-68.24, -39.44]
     },{
-      "coords": [-52, -19]
+      "coords": [-67.92, -38.44]
     },{
-      "coords": [-45, -30]
+      "coords": [-67.92, -23.02]
     }, {
-      "coords": [-17, -30]
+      "coords": [-67.14, -21.82]
     }, {
-      "coords": [-5, -5]
+      "coords": [-65.82, -21.16]
     }, {
-      "coords": [5, -5]
+      "coords": [-54.432, -21.36]
     }, {
-      "coords": [7.5, -3]
+      "coords": [-44.68, -30.74]
     }, {
-      "coords": [22.5, -3]
+      "coords": [-12.22, -30.74]
     }, {
-      "coords": [22.5, -14]
+      "coords": [-11.9, -15.2]
     }, {
-      "coords": [29, -14]
+      "coords": [10, -15.2]
     }, {
-      "coords": [29, -3.5]
+      "coords": [17.5, -7.84]
     }, {
-      "coords": [36, -3.5]
+      "coords": [45.22, -7.84]
     },{
-      "coords": [36, -12]
+      "coords": [46.88, -7.84]
     },{
-      "coords": [50, -12]
+      "coords": [46.88, -26]
+    },
+    {
+      "coords": [48.2, -26.66]
+    },{
+      "coords": [59.32, -26.66]
+    },{
+      "coords": [59.76, -10.36]
+    },
+    {
+      "coords": [61.84, -8.38]
+    },{
+      "coords": [75.5, -8.38]
+    },{
+      "coords": [77.58, -10.48]
+    },
+    {
+      "coords": [77.92, -21.92]
+    },{
+      "coords": [110.7, -21.92]
     }]
   }
 
