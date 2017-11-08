@@ -1338,7 +1338,7 @@
       }
     },
     "LondonBridge": {
-      "title": "London Bridge",
+      "title": "London\n Bridge",
       "address": "22 Church Ln, Trumpington, Cambridge CB2 9LA",
       "website": "http://www.lordbyroninn.co.uk/",
       "phone": "01223 845102",
@@ -2469,7 +2469,7 @@
       }
     },
     "WestHarrow": {
-      "title": "West Ham",
+      "title": "West Harrow",
       "address": "32 Chesterton Rd, Cambridge CB4 3AX",
       "website": "http://www.thewaterman-cambridge.co.uk/",
       "phone": "01223 323813",
@@ -3204,7 +3204,8 @@
     }, {
       "coords": [22.66, -12.18],
       "name": "LondonBridge",
-      "labelPos": "N"
+      "labelPos": "SE",
+      "marker": "interchange"
     }, {
       "coords": [10.12, -24.78],
       "name": "Borough",
@@ -3794,7 +3795,7 @@
                    "name": "ChanceryLane",
                    "labelPos": "W"
                  },
-                
+
                  {
                     "coords": [15.28, 3.7],
                     "name": "StPauls",
@@ -4064,12 +4065,9 @@
     "color": "#9B0056",
     "shiftCoords": [0, 1],
     "nodes": [{
-      "coords": [-98.16, 49.52],
-      "shiftCoords": [0,-1]
-    }, {
         "coords": [-98.5, 49.32],
         "name": "Uxbridge",
-        "labelPos": "S",
+        "labelPos": "N",
         "hide": true
       },   {
           "coords": [-91.46, 49.32],
@@ -4101,13 +4099,14 @@
           "name": "RaynersLane",
           "labelPos": "SW"
         },{
-      "coords": [56, -20],
+      "coords": [-65.8, 45.6],
       "name": "WestHarrow",
       "labelPos": "SW"
     }, {
-      "coords": [58, -22],
+      "coords": [-56.06, 45.6],
       "name": "Harrow-on-the-Hill",
-      "labelPos": "N"
+      "labelPos": "N",
+      "hide": true
     },
     {
       "coords": [58, -22],
@@ -4224,11 +4223,8 @@
  }, {
     "coords": [-59.7, 45.7]
   },
-  {
-    "coords": [-58.54, 45.6]
-  },
  {
-   "coords": [-56.06, 45.4],
+   "coords": [-56.06, 45.6],
    "name": "Harrow-on-the-Hill",
    "labelPos": "N",
    "marker": "interchange"
@@ -4406,7 +4402,8 @@
  "coords": [22.6, -12.18],
  "name": "LondonBridge",
  "labelPos": "SE",
- "marker": "interchange"
+ "marker": "interchange",
+ "hide": true
 },
 {
  "coords": [31, -12.18],
