@@ -1,11 +1,7 @@
 {
   "stations": {
     "ActonTown": {
-      "title": "Alexandra\nArms",
-      "place_id": "ChIJaVrou4hw2EcROetQMMOP12M",
-      "address": "22 Gwydir St, Cambridge CB1 2LL",
-      "website": "http://www.thealexcambridge.com/",
-      "phone": "01223 324441",
+      "title": "Acton Town",
       "position": {
         "lat": 51.502500,
         "lon": 0.278126
@@ -13,10 +9,7 @@
     },
     "Aldgate": {
       "title": "Alexandra\nArms",
-      "place_id": "ChIJaVrou4hw2EcROetQMMOP12M",
-      "address": "22 Gwydir St, Cambridge CB1 2LL",
-      "website": "http://www.thealexcambridge.com/",
-      "phone": "01223 324441",
+
       "position": {
         "lat": 51.51394,
         "lon": 0.07537
@@ -24,10 +17,7 @@
     },
     "AldgateEast": {
       "title": "Aldgate East",
-      "place_id": "ChIJaVrou4hw2EcROetQMMOP12M",
-      "address": "22 Gwydir St, Cambridge CB1 2LL",
-      "website": "http://www.thealexcambridge.com/",
-      "phone": "01223 324441",
+
       "position": {
         "lat": 51.51514,
         "lon": 0.07178
@@ -35,10 +25,6 @@
     },
     "Alperton": {
       "title": "Alperton",
-      "place_id": "ChIJaVrou4hw2EcROetQMMOP12M",
-      "address": "22 Gwydir St, Cambridge CB1 2LL",
-      "website": "http://www.thealexcambridge.com/",
-      "phone": "01223 324441",
       "position": {
         "lat": 51.51514,
         "lon": 0.07178
@@ -46,10 +32,6 @@
     },
     "Amersham": {
       "title": "Amersham",
-      "place_id": "hIJocwdyrxw2EcRnogp-KBkY_o",
-      "address": "Silver Street, Cambridge, CB3 9EL",
-      "website": "http://www.anchorcambridge.com",
-      "phone": "01223 353554",
       "position": {
         "lat": 51.67435,
         "lon": 0.60732
@@ -57,10 +39,6 @@
     },
     "Angel": {
       "title": "Angel",
-      "place_id": "ChIJI5agpzlw2EcR55ZT5vZy_ok",
-      "address": "5 High St, Fen Ditton, Cambridge, CB5 8ST",
-      "website": "http://www.theancientshepherds.co.uk/",
-      "phone": "01223 293280",
       "position": {
         "lat": 51.53253,
         "lon": 0.10579
@@ -68,10 +46,6 @@
     },
     "Archway": {
       "title": "Archway",
-      "place_id": "ChIJX3Dbo7hw2EcR4iVxgX74BlU",
-      "address": "43 Castle St, Cambridge, CB3 0AH",
-      "website": "http://www.thearchitectcambridge.co.uk/",
-      "phone": "01223 563779",
       "position": {
         "lat": 51.56536,
         "lon": 0.13474
@@ -79,10 +53,6 @@
     },
     "ArnosGrove": {
       "title": "Arnos Grove",
-      "place_id": "ChIJX3Dbo7hw2EcR4iVxgX74BlU",
-      "address": "43 Castle St, Cambridge, CB3 0AH",
-      "website": "http://www.thearchitectcambridge.co.uk/",
-      "phone": "01223 563779",
       "position": {
         "lat": 51.61625,
         "lon": 0.13355
@@ -90,21 +60,14 @@
     },
     "Arsenal": {
       "title": "Architect",
-      "place_id": "ChIJX3Dbo7hw2EcR4iVxgX74BlU",
-      "address": "43 Castle St, Cambridge, CB3 0AH",
-      "website": "http://www.thearchitectcambridge.co.uk/",
-      "phone": "01223 563779",
       "position": {
         "lat": 51.55847,
         "lon": 0.10561
       }
     },
     "BakerStreet": {
-      "title": "BakerStreet",
-      "place_id": "ChIJVeAxW75w2EcRkM91IuEN_oU",
-      "address": "19 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.baronofbeef-cambridge.co.uk/",
-      "phone": "01223 505022",
+      "title": "Baker Street",
+
       "position": {
         "lat": 51.52265,
         "lon": 0.15704
@@ -112,9 +75,9 @@
     },
     "Balham": {
       "title": "Balham",
-      "address": "3 Benet Street, Cambridge, CB2 3QN",
-      "website": "http://www.bathhouse-cambridge.co.uk/",
-      "phone": "01223 350969",
+
+
+
       "position": {
         "lat": 51.44344113,
         "lon": 0.152945844
@@ -122,9 +85,9 @@
     },
     "Bank": {
       "title": "Bank",
-      "address": "3 Benet Street, Cambridge, CB2 3QN",
-      "website": "http://www.bathhouse-cambridge.co.uk/",
-      "phone": "01223 350969",
+
+
+
       "position": {
         "lat": 51.5134047,
         "lon": 0.08905843
@@ -132,9 +95,9 @@
     },
     "Barbican": {
       "title": "Barbican",
-      "address": "3 Benet Street, Cambridge, CB2 3QN",
-      "website": "http://www.bathhouse-cambridge.co.uk/",
-      "phone": "01223 350969",
+
+
+
       "position": {
         "lat": 51.520865,
         "lon": 0.097758
@@ -143,9 +106,9 @@
 
     "Barking": {
       "title": "Barking",
-      "address": "3 Benet Street, Cambridge, CB2 3QN",
-      "website": "http://www.bathhouse-cambridge.co.uk/",
-      "phone": "01223 350969",
+
+
+
       "position": {
         "lat": 51.54079,
         "lon": 0.08018
@@ -153,9 +116,9 @@
     },
     "Barkingside": {
       "title": "Barkingside",
-      "address": "3 Benet Street, Cambridge, CB2 3QN",
-      "website": "http://www.bathhouse-cambridge.co.uk/",
-      "phone": "01223 350969",
+
+
+
       "position": {
         "lat": 51.58543,
         "lon": 0.08854
@@ -163,9 +126,6 @@
     },
     "BaronsCourt": {
       "title": "Barons Court",
-      "address": "3 Benet Street, Cambridge, CB2 3QN",
-      "website": "http://www.bathhouse-cambridge.co.uk/",
-      "phone": "01223 350969",
       "position": {
         "lat": 51.490281,
         "lon": 0.214340
@@ -173,9 +133,6 @@
     },
     "Bayswater": {
       "title": "Blue Ball Inn",
-      "address": "57 Broadway, Grantchester, Cambridge CB3 9NQ",
-      "website": "http://www.blueballgrantchester.co.uk/",
-      "phone": "01223 846004",
       "position": {
         "lat": 51.51224,
         "lon": 0.187569
@@ -183,9 +140,6 @@
     },
     "Becontree": {
       "title": "Blue Moon",
-      "address": "2 Norfolk St, Cambridge CB1 2LF",
-      "website": "https://www.facebook.com/bluemooncambridge/",
-      "phone": "01223 500238",
       "position": {
         "lat": 51.54029,
         "lon": 0.12620
@@ -193,9 +147,6 @@
     },
     "BelsizePark": {
       "title": "Belsize Park",
-      "address": "14 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.boathouse-cambridge.co.uk/",
-      "phone": "01223 460905",
       "position": {
         "lat": 51.55036,
         "lon": 0.16465
@@ -203,9 +154,6 @@
     },
     "Bermondsey": {
       "title": "Belsize Park",
-      "address": "14 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.boathouse-cambridge.co.uk/",
-      "phone": "01223 460905",
       "position": {
         "lat": 51.49813,
         "lon": 0.06350
@@ -213,9 +161,6 @@
     },
     "BethnalGreen": {
       "title": "Bethnal\n Green",
-      "address": "14 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.boathouse-cambridge.co.uk/",
-      "phone": "01223 460905",
       "position": {
         "lat": 51.52718,
         "lon": 0.05504
@@ -223,10 +168,7 @@
     },
 
     "Blackfriars": {
-      "title": "Bethnal Green",
-      "address": "14 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.boathouse-cambridge.co.uk/",
-      "phone": "01223 460905",
+      "title": "Blackfriars",
       "position": {
         "lat": 51.5114403,
         "lon": 0.10419050
@@ -234,9 +176,6 @@
     },
     "BlackhorseRoad": {
       "title": "Blackhorse\n Road",
-      "address": "14 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.boathouse-cambridge.co.uk/",
-      "phone": "01223 460905",
       "position": {
         "lat": 51.58698,
         "lon": 0.04104
@@ -244,9 +183,6 @@
     },
     "BondStreet": {
       "title": "Bond\nStreet",
-      "address": "14 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.boathouse-cambridge.co.uk/",
-      "phone": "01223 460905",
       "position": {
         "lat": 51.58698,
         "lon": 0.04104
@@ -254,9 +190,6 @@
     },
     "Borough": {
       "title": "Borough",
-      "address": "14 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.boathouse-cambridge.co.uk/",
-      "phone": "01223 460905",
       "position": {
         "lat": 51.50095,
         "lon": 0.09446
@@ -264,9 +197,6 @@
     },
     "BostonManor": {
       "title": "Borough Manor",
-      "address": "14 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.boathouse-cambridge.co.uk/",
-      "phone": "01223 460905",
       "position": {
         "lat": 51.495371,
         "lon": 0.325573
@@ -277,9 +207,6 @@
 
     "BostonManor": {
       "title": "Boston Manor",
-      "address": "14 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.boathouse-cambridge.co.uk/",
-      "phone": "01223 460905",
       "position": {
         "lat": 51.495371,
         "lon": 0.325573
@@ -288,9 +215,6 @@
 
     "BoundsGreen": {
       "title": "Bounds Green",
-      "address": "14 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.boathouse-cambridge.co.uk/",
-      "phone": "01223 460905",
       "position": {
         "lat": 51.60700,
         "lon": 0.12418
@@ -298,9 +222,6 @@
     },
     "BowRoad": {
       "title": "Bow Road",
-      "address": "14 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.boathouse-cambridge.co.uk/",
-      "phone": "01223 460905",
       "position": {
         "lat": 51.52709,
         "lon": 0.02482
@@ -308,9 +229,6 @@
     },
     "BrentCross": {
       "title": "Brent Cross",
-      "address": "1 King St, Cambridge CB1 1LH",
-      "website": "http://www.thecambridgebrewhouse.com/",
-      "phone": "01223 855185",
       "position": {
         "lat": 51.57693,
         "lon": 0.21414
@@ -318,9 +236,6 @@
     },
     "Brixton": {
       "title": "Brixton",
-      "address": "1 King St, Cambridge CB1 1LH",
-      "website": "http://www.thecambridgebrewhouse.com/",
-      "phone": "01223 855185",
       "position": {
         "lat": 51.46239,
         "lon": 0.115421
@@ -328,9 +243,6 @@
     },
     "Bromley-by-Bow": {
       "title": "Bromley-by-Bow",
-      "address": "25 Brookfields, Cambridge CB1 3NW",
-      "website": "http://www.thebrookpub.co.uk/",
-      "phone": "01223 566929",
       "position": {
         "lat": 51.52466,
         "lon": 0.01282
@@ -338,9 +250,6 @@
     },
     "BuckhurstHill": {
       "title": "Buckhurst Hill",
-      "address": "9-11 Newmarket Rd, Cambridge CB5 8EG",
-      "website": "http://www.burleigharmscambridge.co.uk/",
-      "phone": "01223 301547",
       "position": {
         "lat": 51.62611,
         "lon": 0.04705
@@ -348,9 +257,6 @@
     },
     "BurntOak": {
       "title": "Burnt Oak",
-      "address": "9-11 Newmarket Rd, Cambridge CB5 8EG",
-      "website": "http://www.burleigharmscambridge.co.uk/",
-      "phone": "01223 301547",
       "position": {
         "lat": 51.60300,
         "lon": 0.26427
@@ -359,9 +265,6 @@
 
     "CaledonianRoad": {
       "title": "Caledonian Road",
-      "address": "85-87 Gwydir St, Cambridge CB1 2LG",
-      "website": "http://www.the-cambridgeblue.co.uk/",
-      "phone": "01223 471680",
       "position": {
         "lat": 51.54850,
         "lon": 0.11802
@@ -369,9 +272,6 @@
     },
     "CamdenTown": {
       "title": "Camden Town",
-      "address": "Carlton Way, Cambridge CB4 2DF",
-      "website": "http://thecarltonarmscambridge.co.uk/",
-      "phone": "01223 367422",
       "position": {
         "lat": 51.53930,
         "lon": 0.14316
@@ -379,9 +279,6 @@
     },
     "CanadaWater": {
       "title": "Canada Water",
-      "address": "184-186 Victoria Rd, Cambridge, CB4 3DZ",
-      "website": "http://www.carpentersarmscambridge.co.uk/",
-      "phone": "01223 367050",
       "position": {
         "lat": 51.49787,
         "lon": 0.04967
@@ -389,9 +286,7 @@
     },
     "CanaryWharf": {
       "title": "Canary Wharf",
-      "place_id": "ChIJoccoXsdw2EcROG63agLdFi4",
-      "website": "http://thecastleinncambridge.com/",
-      "phone": "01223 353194",
+
       "position": {
         "lat": 51.50362,
         "lon": 0.01987
@@ -399,7 +294,7 @@
     },
     "CanningTown": {
       "title": "Canning Town",
-      "address": "68 King St, Cambridge CB1 1LN",
+
       "position": {
         "lat": 51.51141,
         "lon": 0.09047
@@ -407,7 +302,7 @@
     },
     "CannonStreet": {
       "title": "Champion\nof the\nThames",
-      "address": "68 King St, Cambridge CB1 1LN",
+
       "position": {
         "lat": 51.51141,
         "lon": 0.09047
@@ -415,7 +310,7 @@
     },
     "CanonsPark": {
       "title": "Canons Park",
-      "address": "68 King St, Cambridge CB1 1LN",
+
       "position": {
         "lat": 51.60810,
         "lon": 0.29487
@@ -423,7 +318,7 @@
     },
     "Chalfont&Latimer": {
       "title": "Chalfont & Latimer",
-      "address": "68 King St, Cambridge CB1 1LN",
+
       "position": {
         "lat": 51.66822,
         "lon": 0.56053
@@ -431,7 +326,7 @@
     },
     "ChalkFarm": {
       "title": "Chalk Farm",
-      "address": "68 King St, Cambridge CB1 1LN",
+
       "position": {
         "lat": 51.54390,
         "lon": 0.15384
@@ -439,7 +334,7 @@
     },
     "ChanceryLane": {
       "title": "Chancery Lane",
-      "address": "68 King St, Cambridge CB1 1LN",
+
       "position": {
         "lat": 51.51836,
         "lon": 0.11115
@@ -447,7 +342,7 @@
     },
     "CharingCross": {
       "title": "Chancery Lane",
-      "address": "68 King St, Cambridge CB1 1LN",
+
       "position": {
         "lat": 51.507108,
         "lon": 0.122963
@@ -455,7 +350,7 @@
     },
     "Chesham": {
       "title": "Chesham",
-      "address": "68 King St, Cambridge CB1 1LN",
+
       "position": {
         "lat": 51.70522733,
         "lon": 0.610986426
@@ -463,7 +358,7 @@
     },
     "Chigwell": {
       "title": "Chesham",
-      "address": "68 King St, Cambridge CB1 1LN",
+
       "position": {
         "lat": 51.61795,
         "lon": 0.07511
@@ -471,7 +366,7 @@
     },
     "ChiswickPark": {
       "title": "Chiswick\n Park",
-      "address": "68 King St, Cambridge CB1 1LN",
+
       "position": {
         "lat": 51.49466,
         "lon": 0.26866
@@ -479,7 +374,7 @@
     },
     "Chorleywood": {
       "title": "Chorleywood",
-      "address": "68 King St, Cambridge CB1 1LN",
+
       "position": {
         "lat": 51.65429872,
         "lon": 0.518373353
@@ -487,8 +382,8 @@
     },
     "ClaphamCommon": {
       "title": "Clapham Common",
-      "address": "35-36 Clarendon St, Cambridge CB1 1JX",
-      "phone": "01223 778272",
+
+
       "position": {
         "lat": 51.46156,
         "lon": 0.13802
@@ -497,8 +392,8 @@
 
     "ClaphamNorth": {
       "title": "Clapham North",
-      "address": "35-36 Clarendon St, Cambridge CB1 1JX",
-      "phone": "01223 778272",
+
+
       "position": {
         "lat": 51.46522,
         "lon": 0.12950
@@ -506,8 +401,8 @@
     },
     "ClaphamSouth": {
       "title": "Clapham South",
-      "address": "35-36 Clarendon St, Cambridge CB1 1JX",
-      "phone": "01223 778272",
+
+
       "position": {
         "lat": 51.45292257,
         "lon": 0.147562148
@@ -516,8 +411,8 @@
 
     "Cockfosters": {
       "title": "Cockfosters",
-      "address": "231 Newmarket Rd, Cambridge CB5 8JE",
-      "phone": "01223 352047",
+
+
       "position": {
         "lat": 51.65117,
         "lon": 0.14811
@@ -525,8 +420,8 @@
     },
     "Colindale": {
       "title": "Colindale",
-      "address": "35-36 Clarendon St, Cambridge CB1 1JX",
-      "phone": "01223 778272",
+
+
       "position": {
         "lat": 51.59556,
         "lon": 0.24996
@@ -534,8 +429,8 @@
     },
     "ColliersWood": {
       "title": "Colliers Wood",
-      "address": "35-36 Clarendon St, Cambridge CB1 1JX",
-      "phone": "01223 778272",
+
+
       "position": {
         "lat": 51.41823649,
         "lon": 0.17800983
@@ -543,8 +438,8 @@
     },
     "ConventGarden": {
       "title": "Convent Garden",
-      "address": "231 Newmarket Rd, Cambridge CB5 8JE",
-      "phone": "01223 352047",
+
+
       "position": {
         "lat": 51.51308,
         "lon": 0.12427
@@ -552,8 +447,8 @@
     },
     "Croxley": {
       "title": "Croxley",
-      "address": "231 Newmarket Rd, Cambridge CB5 8JE",
-      "phone": "01223 352047",
+
+
       "position": {
         "lat": 51.64733268,
         "lon": 0.441479115
@@ -561,8 +456,6 @@
     },
     "DagenhamEast": {
       "title": "Dagenham East",
-      "address": "231 Newmarket Rd, Cambridge CB5 8JE",
-      "phone": "01223 352047",
       "position": {
         "lat": 51.54396,
         "lon": 0.16439
@@ -570,9 +463,6 @@
     },
     "DagenhamHeathway": {
       "title": "Dagenham Heathway",
-      "address": "18 Melbourne Pl, Cambridge CB1 1EQ",
-      "website": "http://lukthai.com/",
-      "phone": "01223 778871",
       "position": {
         "lat": 51.54173,
         "lon": 0.14543
@@ -580,9 +470,6 @@
     },
     "Debden": {
       "title": "Debden",
-      "address": "184 Sturton St, Cambridge, CB1 2QF",
-      "website": "http://www.thedobblers.com/",
-      "phone": "01223 576092",
       "position": {
         "lat": 51.64535,
         "lon": 0.08364
@@ -590,9 +477,6 @@
     },
     "DollisHill": {
       "title": "Dollis Hill",
-      "address": "176 East Rd, Cambridge CB1 1BG",
-      "website": "http://www.dukeofcambridge-cambridge.co.uk/",
-      "phone": "01223 304121",
       "position": {
         "lat": 51.55250,
         "lon": 0.23884
@@ -601,9 +485,6 @@
 
     "DollisHill": {
       "title": "Dollis Hill",
-      "address": "176 East Rd, Cambridge CB1 1BG",
-      "website": "http://www.dukeofcambridge-cambridge.co.uk/",
-      "phone": "01223 304121",
       "position": {
         "lat": 51.55250,
         "lon": 0.23884
@@ -611,9 +492,6 @@
     },
     "EalingBroadway": {
       "title": "Ealing\nBroadway",
-      "address": "8 Benet Street, Cambridge, CB2 3QN",
-      "website": "http://www.eagle-cambridge.co.uk/",
-      "phone": "01223 505020",
       "position": {
         "lat": 51.51482,
         "lon": 0.30118
@@ -621,9 +499,6 @@
     },
     "EalingCommon": {
       "title": "Ealing Common",
-      "address": "133 Mill Rd, Cambridge CB1 3AA",
-      "website": "http://www.earlofbeaconsfield.co.uk/",
-      "phone": "01223 410703",
       "position": {
         "lat": 51.50997,
         "lon": 0.28825
@@ -631,9 +506,6 @@
     },
     "EarlsCourt": {
       "title": "Earl's\n Court",
-      "address": "129 Hills Rd, Cambridge CB2 1PG",
-      "website": "http://www.theearlofderby.com/",
-      "phone": "01223 352785",
       "position": {
         "lat": 51.491521,
         "lon": 0.193906
@@ -641,9 +513,8 @@
     },
     "EastActon": {
       "title": "East\nActon",
-      "address": "129 Hills Rd, Cambridge CB2 1PG",
-      "website": "http://www.theearlofderby.com/",
-      "phone": "01223 352785",
+
+
       "position": {
         "lat": 51.51753,
         "lon": 0.24827
@@ -651,9 +522,6 @@
     },
     "EastFinchley": {
       "title": "East Acton",
-      "address": "129 Hills Rd, Cambridge CB2 1PG",
-      "website": "http://www.theearlofderby.com/",
-      "phone": "01223 352785",
       "position": {
         "lat": 51.5872974705487,
         "lon": 0.16495632312818
@@ -661,9 +529,7 @@
     },
     "EastHam": {
       "title": "East Ham",
-      "address": "129 Hills Rd, Cambridge CB2 1PG",
-      "website": "http://www.theearlofderby.com/",
-      "phone": "01223 352785",
+
       "position": {
         "lat": 51.53931,
         "lon": 0.05260
@@ -671,9 +537,6 @@
     },
     "EastPutney": {
       "title": "East Putney",
-      "address": "129 Hills Rd, Cambridge CB2 1PG",
-      "website": "http://www.theearlofderby.com/",
-      "phone": "01223 352785",
       "position": {
         "lat": 51.459015,
         "lon": 51.459015
@@ -681,9 +544,6 @@
     },
     "Eastcote": {
       "title": "Eastcote",
-      "address": "129 Hills Rd, Cambridge CB2 1PG",
-      "website": "http://www.theearlofderby.com/",
-      "phone": "01223 352785",
       "position": {
         "lat": 51.57676,
         "lon": 0.39629
@@ -691,9 +551,9 @@
     },
     "Edgware": {
       "title": "Edgware",
-      "address": "16A Orchard St, Cambridge CB1 1JT",
-      "website": "http://www.theelmtreecambridge.co.uk/",
-      "phone": "01223 502632",
+
+
+
       "position": {
         "lat": 51.61385,
         "lon": -0.27515
@@ -701,9 +561,9 @@
     },
     "EdgwareRoad": {
       "title": "Eddgeware Road",
-      "address": "16A Orchard St, Cambridge CB1 1JT",
-      "website": "http://www.theelmtreecambridge.co.uk/",
-      "phone": "01223 502632",
+
+
+
       "position": {
         "lat": 51.520195,
         "lon": 0.166986
@@ -712,9 +572,9 @@
 
     "Elephant&Castle": {
       "title": "Elephant & Castle",
-      "address": "16A Orchard St, Cambridge CB1 1JT",
-      "website": "http://www.theelmtreecambridge.co.uk/",
-      "phone": "01223 502632",
+
+
+
       "position": {
         "lat": 51.49467,
         "lon": 0.10047
@@ -723,9 +583,9 @@
 
     "ElmPark": {
       "title": "Elm Park",
-      "address": "16A Orchard St, Cambridge CB1 1JT",
-      "website": "http://www.theelmtreecambridge.co.uk/",
-      "phone": "01223 502632",
+
+
+
       "position": {
         "lat": 51.54969,
         "lon": 0.19779
@@ -733,8 +593,8 @@
     },
     "Embankment": {
       "title": "Embankment",
-      "address": "72 Thoday St, Cambridge, CB1 3AX",
-      "phone": "01223 247236",
+
+
       "position": {
         "lat": 51.50717,
         "lon": 0.12195
@@ -742,8 +602,8 @@
     },
     "Epping": {
       "title": "Epping",
-      "address": "72 Thoday St, Cambridge, CB1 3AX",
-      "phone": "01223 247236",
+
+
       "position": {
         "lat": 51.69365,
         "lon": 0.11495
@@ -752,8 +612,8 @@
 
     "Euston": {
       "title": "Euston",
-      "address": "72 Thoday St, Cambridge, CB1 3AX",
-      "phone": "01223 247236",
+
+
       "position": {
         "lat": 51.52774,
         "lon": -0.13303
@@ -761,8 +621,8 @@
     },
     "EustonSquare": {
       "title": "Euston Square",
-      "address": "72 Thoday St, Cambridge, CB1 3AX",
-      "phone": "01223 247236",
+
+
       "position": {
         "lat": 51.52584,
         "lon": -0.13570
@@ -770,8 +630,8 @@
     },
     "Fairlop": {
       "title": "Fairlop",
-      "address": "72 Thoday St, Cambridge, CB1 3AX",
-      "phone": "01223 247236",
+
+
       "position": {
         "lat": 51.59634,
         "lon": 0.09125
@@ -779,8 +639,8 @@
     },
     "Farringdon": {
       "title": "Farringdon",
-      "address": "72 Thoday St, Cambridge, CB1 3AX",
-      "phone": "01223 247236",
+
+
       "position": {
         "lat": 51.520362948,
         "lon": -0.105126482
@@ -788,8 +648,8 @@
     },
     "FinchleyCentral": {
       "title": "Finchley Central",
-      "address": "72 Thoday St, Cambridge, CB1 3AX",
-      "phone": "01223 247236",
+
+
       "position": {
         "lat": 51.60102,
         "lon": -0.19240
@@ -797,8 +657,8 @@
     },
     "FinchleyRoad": {
       "title": "Finchley Road",
-      "address": "72 Thoday St, Cambridge, CB1 3AX",
-      "phone": "01223 247236",
+
+
       "position": {
         "lat": 51.546701,
         "lon": -0.179867
@@ -806,8 +666,8 @@
     },
     "FinsburyPark": {
       "title": "Finsbury\n Park",
-      "address": "106 Hills Rd, Cambridge, CB2 1LQ",
-      "phone": "01223 354623",
+
+
       "position": {
         "lat": 51.56498,
         "lon": 0.10543
@@ -815,8 +675,8 @@
     },
     "FulhamBroadway": {
       "title": "Fulham Broadway",
-      "address": "106 Hills Rd, Cambridge, CB2 1LQ",
-      "phone": "01223 354623",
+
+
       "position": {
         "lat": 52.194474,
         "lon": 0.131747
@@ -825,8 +685,7 @@
     "GantsHill": {
       "title": "Gants Hill",
       "address": "Cambridge CB4 1HA",
-      "website": "http://www.fortstgeorge-cambridge.co.uk/",
-      "phone": "01223 305523",
+
       "position": {
         "lat": 51.57649,
         "lon": 0.06637
@@ -834,8 +693,6 @@
     },
     "GloucsterRoad": {
       "title": "Gloucster Road",
-      "address": "1 Ainsworth St, Cambridge, CB1 2PF",
-      "website": "http://www.the-geldart.co.uk/",
       "phone": "01223 314264",
       "position": {
         "lat": 51.49408266,
@@ -844,8 +701,6 @@
     },
     "GoldersGreen": {
       "title": "GoldersGreen",
-      "address": "355 Milton Rd, Cambridge, CB4 1SP",
-      "website": "http://www.golden-hind-pub-cambridge.co.uk/",
       "phone": "01223 420816",
       "position": {
         "lat": 52.227922,
@@ -854,8 +709,6 @@
     },
     "GoldhawkRoad": {
       "title": "Goldhawk Road",
-      "address": "69-76 Regent St, Cambridge CB2 1AA",
-      "website": "http://www.grainandhopstore-cambridge.co.uk/",
       "phone": "01223 323405",
       "position": {
         "lat": 52.200689,
@@ -864,8 +717,6 @@
     },
     "GoodgeStreet": {
       "title": "Goodge Street",
-      "address": "14 Newnham Rd, Cambridge, CB3 9EX",
-      "website": "http://www.granta-cambridge.co.uk/",
       "phone": "01223 505016",
       "position": {
         "lat": 51.52060,
@@ -874,8 +725,6 @@
     },
     "GrangeHill": {
       "title": "Grange\nHill",
-      "address": "5 Water St, Cambridge CB4 1NZ",
-      "website": "http://www.greendragon-cambridge.co.uk/",
       "phone": "01223 505035",
       "position": {
         "lat": 51.61326,
@@ -884,8 +733,8 @@
     },
     "GreatPortlandStreet": {
       "title": "Great Portland Street",
-      "address": "59 High St, Grantchester, Cambridge CB3 9NF",
-      "website": "http://www.thegreenmangrantchester.co.uk/",
+
+
       "phone": "01223 844669",
       "position": {
         "lat": 51.52391,
@@ -894,8 +743,8 @@
     },
     "Greenford": {
       "title": "Greenford",
-      "address": "55 High St, Cambridge, Trumpington CB2 9HZ",
-      "website": "http://www.thegreenmantrumpington.com/",
+
+
       "phone": "01223 844903",
       "position": {
         "lat": 51.542346,
@@ -904,8 +753,8 @@
     },
     "Gunnersbury": {
       "title": "Gunnersbury",
-      "address": "55 High St, Cambridge, Trumpington CB2 9HZ",
-      "website": "http://www.thegreenmantrumpington.com/",
+
+
       "phone": "01223 844903",
       "position": {
         "lat": 51.49126844,
@@ -914,8 +763,8 @@
     },
     "GreenPark": {
       "title": "Green Park",
-      "address": "55 High St, Cambridge, Trumpington CB2 9HZ",
-      "website": "http://www.thegreenmantrumpington.com/",
+
+
       "phone": "01223 844903",
       "position": {
         "lat": 51.50674,
@@ -924,8 +773,8 @@
     },
     "Hainault": {
       "title": "Hainault",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.60288,
@@ -934,8 +783,8 @@
     },
     "Hammersmith": {
       "title": "Hammersmith",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 52.217339,
@@ -944,8 +793,8 @@
     },
     "Hampstead": {
       "title": "Hampstead",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.55645,
@@ -954,8 +803,8 @@
     },
     "HangerLane": {
       "title": "Hanger Lane",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.5300,
@@ -964,8 +813,8 @@
     },
     "Harlesden": {
       "title": "Harlesden",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.53628278,
@@ -974,8 +823,8 @@
     },
     "Harrow&Wealdstone": {
       "title": "Harrow & Wealdstone",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.59205973,
@@ -984,8 +833,8 @@
     },
     "Harrow-on-the-Hill": {
       "title": "Harrow-\non-the-Hill",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.579335,
@@ -994,8 +843,8 @@
     },
     "HattonCross": {
       "title": "Hatton Cross",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.466988,
@@ -1004,8 +853,8 @@
     },
     "HeathrowTerminal5": {
       "title": "Heathrow Terminal 5",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.4715,
@@ -1014,8 +863,8 @@
     },
     "HeathrowTerminals123": {
       "title": "Heathrow Terminals 123",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.4715,
@@ -1023,8 +872,8 @@
       }
     },"HeathrowTerminal4": {
       "title": "Heathrow Terminal 4",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.4715,
@@ -1034,8 +883,8 @@
 
     "HendonCentral": {
       "title": "Hendon Central",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.4715,
@@ -1044,8 +893,8 @@
     },
     "HighBarnet": {
       "title": "High Barnet",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.6506519031751,
@@ -1053,9 +902,9 @@
       }
     },
     "HighStreetKensingtion": {
-      "title": "High Street Kensington",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+      "title": "High Street\n Kensington",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.5003459144,
@@ -1064,8 +913,8 @@
     },
     "Highbury&Islington": {
       "title": "Highbury\n & Islington",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.54502,
@@ -1074,8 +923,8 @@
     },
     "Highgate": {
       "title": "Highgate",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.57722,
@@ -1084,8 +933,8 @@
     },
     "Hillingdon": {
       "title": "Hillingdon",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.55364,
@@ -1094,8 +943,8 @@
     },
     "Holborn": {
       "title": "Holborn",
-      "address": "11-12 Fair St, Cambridge, CB1 1HA",
-      "website": "http://www.thehopbine.co.uk/",
+
+
       "phone": "01223 367204",
       "position": {
         "lat": 51.51711,
@@ -1104,8 +953,8 @@
     },
     "HollandPark": {
       "title": "Holland\nPark",
-      "address": "11-12 Fair St, Cambridge, CB1 1HA",
-      "website": "http://www.thehopbine.co.uk/",
+
+
       "phone": "01223 367204",
       "position": {
         "lat": 51.50722,
@@ -1114,8 +963,8 @@
     },
     "HollowayRoad": {
       "title": "Holloway Road",
-      "address": "11-12 Fair St, Cambridge, CB1 1HA",
-      "website": "http://www.thehopbine.co.uk/",
+
+
       "phone": "01223 367204",
       "position": {
         "lat": 51.55290,
@@ -1124,8 +973,8 @@
     },
     "Hornchurch": {
       "title": "Hornchurch",
-      "address": "11-12 Fair St, Cambridge, CB1 1HA",
-      "website": "http://www.thehopbine.co.uk/",
+
+
       "phone": "01223 367204",
       "position": {
         "lat": 51.55387,
@@ -1134,8 +983,8 @@
     },
 "HunslowCentral": {
       "title": "Hunslow Central",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.471290,
@@ -1143,8 +992,8 @@
       }
     },"HunslowWest": {
       "title": "Hunslow West",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.4715,
@@ -1152,8 +1001,8 @@
       }
     },"HunslowEast": {
       "title": "Hunslow East",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.473540,
@@ -1162,8 +1011,8 @@
     },
     "HydeParkCorner": {
       "title": "Hyde Park Corner",
-      "address": "54 High St, Cambridge CB4 1NG",
-      "website": "https://www.facebook.com/cambridgehaymakers",
+
+
       "phone": "01223 311077",
       "position": {
         "lat": 51.50313,
@@ -1172,7 +1021,6 @@
     },
     "Ickenham": {
       "title": "Ickenham",
-      "address": "St Kilda Ave, Cambridge, CB4 2QA",
       "position": {
         "lat": 51.56147,
         "lon": -0.44257
@@ -1180,7 +1028,7 @@
     },
     "Kennington": {
       "title": "Kennington",
-      "address": "St Kilda Ave, Cambridge, CB4 2QA",
+
       "position": {
         "lat": 51.48823,
         "lon": -0.10587
@@ -1188,7 +1036,7 @@
     },
     "KensalGreen": {
       "title": "Kensal Green",
-      "address": "St Kilda Ave, Cambridge, CB4 2QA",
+
       "position": {
         "lat": 51.53060655,
         "lon": -0.224253545
@@ -1196,7 +1044,6 @@
     },
     "KentishTown": {
       "title": "Kentish Town",
-      "address": "St Kilda Ave, Cambridge, CB4 2QA",
       "position": {
         "lat": 51.53060655,
         "lon": -0.224253545
@@ -1204,7 +1051,6 @@
     },
     "Kenton": {
       "title": "Kentish Town West",
-      "address": "St Kilda Ave, Cambridge, CB4 2QA",
       "position": {
         "lat": 51.58173809,
         "lon": -0.316870809
@@ -1212,7 +1058,6 @@
     },
     "KewGardens": {
       "title": "Kew Gardens",
-      "address": "St Kilda Ave, Cambridge, CB4 2QA",
       "position": {
         "lat": 51.58173809,
         "lon": -0.316870809
@@ -1220,7 +1065,6 @@
     },
     "Kilburn": {
       "title": "Kilburn",
-      "address": "St Kilda Ave, Cambridge, CB4 2QA",
       "position": {
         "lat": 51.5471715,
         "lon": -0.2050020
@@ -1228,7 +1072,6 @@
     },
     "KilburnPark": {
       "title": "Kilburn Park",
-      "address": "St Kilda Ave, Cambridge, CB4 2QA",
       "position": {
         "lat": 51.53495818,
         "lon": -0.193963023
@@ -1236,8 +1079,6 @@
     },
     "KingsCrossStPancras": {
       "title": "King's Cross\n St. Pancras",
-      "address": "50 High St, Fen Ditton, Cambridge CB5 8ST",
-      "phone": "01223 293861",
       "position": {
         "lat": 51.53057,
         "lon": 0.12399
@@ -1245,8 +1086,6 @@
     },
     "Kingsbury": {
       "title": "Kingsbury",
-      "address": "50 High St, Fen Ditton, Cambridge CB5 8ST",
-      "phone": "01223 293861",
       "position": {
         "lat": 51.58422,
         "lon": -0.27880
@@ -1254,8 +1093,6 @@
     },
     "Knightsbridge": {
       "title": "Knightsbridge",
-      "address": "86 King St, Cambridge CB1 1LN",
-      "phone": "01223 328900",
       "position": {
         "lat": 51.50169,
         "lon": 0.16030
@@ -1263,8 +1100,6 @@
     },
     "LadbrokeGrove": {
       "title": "Ladbroke Grove",
-      "address": "40 Mawson Rd, Cambridge, CB1 2EA",
-      "phone": "01223 460261",
       "position": {
         "lat": 51.517300,
         "lon": -0.211140
@@ -1272,8 +1107,6 @@
     },
     "LambethNorth": {
       "title": "Lambeth North",
-      "address": "40 Mawson Rd, Cambridge, CB1 2EA",
-      "phone": "01223 460261",
       "position": {
         "lat": 51.49894,
         "lon": -0.11216
@@ -1281,8 +1114,6 @@
     },
     "LancasterGate": {
       "title": "Lancaster\nGate",
-      "address": "40 Mawson Rd, Cambridge, CB1 2EA",
-      "phone": "01223 460261",
       "position": {
         "lat": 51.512083,
         "lon": -0.175067
@@ -1290,8 +1121,6 @@
     },
     "LatimerRoad": {
       "title": "Latimer Road",
-      "address": "40 Mawson Rd, Cambridge, CB1 2EA",
-      "phone": "01223 460261",
       "position": {
         "lat": 51.513125,
         "lon": -0.218428
@@ -1299,8 +1128,6 @@
     },
     "LeicesterSquare": {
       "title": "Leicester Square",
-      "address": "40 Mawson Rd, Cambridge, CB1 2EA",
-      "phone": "01223 460261",
       "position": {
         "lat": 51.51148,
         "lon": 0.12849
@@ -1309,9 +1136,6 @@
 
     "Leyton": {
       "title": "Leyton",
-      "address": "22 Church Ln, Trumpington, Cambridge CB2 9LA",
-      "website": "http://www.lordbyroninn.co.uk/",
-      "phone": "01223 845102",
       "position": {
         "lat": 51.556483,
         "lon": -0.005669
@@ -1319,9 +1143,6 @@
     },
     "LeytonStone": {
       "title": "Leytonstone",
-      "address": "22 Church Ln, Trumpington, Cambridge CB2 9LA",
-      "website": "http://www.lordbyroninn.co.uk/",
-      "phone": "01223 845102",
       "position": {
         "lat": 51.56828,
         "lon": 0.00739
@@ -1329,9 +1150,6 @@
     },
     "LiverpoolStreet": {
       "title": "Liverpool Street",
-      "address": "22 Church Ln, Trumpington, Cambridge CB2 9LA",
-      "website": "http://www.lordbyroninn.co.uk/",
-      "phone": "01223 845102",
       "position": {
         "lat": 51.517675,
         "lon": -0.0824580
@@ -1339,9 +1157,6 @@
     },
     "LondonBridge": {
       "title": "London\n Bridge",
-      "address": "22 Church Ln, Trumpington, Cambridge CB2 9LA",
-      "website": "http://www.lordbyroninn.co.uk/",
-      "phone": "01223 845102",
       "position": {
         "lat": 51.505353,
         "lon": -0.084826
@@ -1349,9 +1164,6 @@
     },
     "Loughton": {
       "title": "Loughton",
-      "address": "22 Church Ln, Trumpington, Cambridge CB2 9LA",
-      "website": "http://www.lordbyroninn.co.uk/",
-      "phone": "01223 845102",
       "position": {
         "lat": 51.64170,
         "lon": 0.05583
@@ -1359,9 +1171,6 @@
     },
     "MaidaVale": {
       "title": "Maida Vale",
-      "address": "20A Portugal Pl, Cambridge CB5 8AF",
-      "website": "http://www.maypolefreehouse.co.uk/",
-      "phone": "01223 352999",
       "position": {
         "lat": 51.52989409,
         "lon": -0.185888819
@@ -1369,9 +1178,6 @@
     },
     "ManorHouse": {
       "title": "Manor House",
-      "address": "20A Portugal Pl, Cambridge CB5 8AF",
-      "website": "http://www.maypolefreehouse.co.uk/",
-      "phone": "01223 352999",
       "position": {
         "lat": 51.57038,
         "lon": 0.09601
@@ -1379,9 +1185,6 @@
     },
     "MansionHouse": {
       "title": "Mansion House",
-      "address": "20A Portugal Pl, Cambridge CB5 8AF",
-      "website": "http://www.maypolefreehouse.co.uk/",
-      "phone": "01223 352999",
       "position": {
         "lat": 51.51256,
         "lon": -0.09397
@@ -1389,9 +1192,6 @@
     },
     "MarbleArch": {
       "title": "Marble\nArch",
-      "address": "20A Portugal Pl, Cambridge CB5 8AF",
-      "website": "http://www.maypolefreehouse.co.uk/",
-      "phone": "01223 352999",
       "position": {
         "lat": 52.209671,
         "lon": 0.119232
@@ -1399,9 +1199,6 @@
     },
     "Marylebone": {
       "title": "Marylebone",
-      "address": "20A Portugal Pl, Cambridge CB5 8AF",
-      "website": "http://www.maypolefreehouse.co.uk/",
-      "phone": "01223 352999",
       "position": {
         "lat": 51.522660,
         "lon": -0.162996
@@ -1409,9 +1206,6 @@
     },
     "MileEnd": {
       "title": "Mile End",
-      "address": "20A Portugal Pl, Cambridge CB5 8AF",
-      "website": "http://www.maypolefreehouse.co.uk/",
-      "phone": "01223 352999",
       "position": {
         "lat": 51.522660,
         "lon": -0.162996
@@ -1419,9 +1213,6 @@
     },
     "MillHillEast": {
       "title": "MillHillEast",
-      "address": "20A Portugal Pl, Cambridge CB5 8AF",
-      "website": "http://www.maypolefreehouse.co.uk/",
-      "phone": "01223 352999",
       "position": {
         "lat": 51.60892,
         "lon": -0.20965
@@ -1429,9 +1220,6 @@
     },
     "Monument": {
       "title": "Monument",
-      "address": "20A Portugal Pl, Cambridge CB5 8AF",
-      "website": "http://www.maypolefreehouse.co.uk/",
-      "phone": "01223 352999",
       "position": {
         "lat": 51.510165,
         "lon": -0.085991
@@ -1439,9 +1227,6 @@
     },
     "MoorPark": {
       "title": "MoorPark",
-      "address": "20A Portugal Pl, Cambridge CB5 8AF",
-      "website": "http://www.maypolefreehouse.co.uk/",
-      "phone": "01223 352999",
       "position": {
         "lat": 51.510165,
         "lon": -0.085991
@@ -1449,9 +1234,6 @@
     },
     "Moorgate": {
       "title": "Moorgate",
-      "address": "20A Portugal Pl, Cambridge CB5 8AF",
-      "website": "http://www.maypolefreehouse.co.uk/",
-      "phone": "01223 352999",
       "position": {
         "lat": 51.51817,
         "lon": -0.08859
@@ -1459,8 +1241,6 @@
     },
     "Morden": {
       "title": "Morden",
-      "address": "Perne Rd, Cambridge, CB1 3RX",
-      "phone": "01223 240808",
       "position": {
         "lat": 51.40222413,
         "lon": -0.194599126
@@ -1468,9 +1248,6 @@
     },
     "MorningtonCrescent": {
       "title": "Mornington\n Crescent",
-      "address": "14 Mill Ln, Cambridge CB2 1RX",
-      "website": "http://www.themillpubcambridge.com/",
-      "phone": "01223 311829",
       "position": {
         "lat": 52.201552,
         "lon": 0.116128
@@ -1478,9 +1255,6 @@
     },
     "Neasden": {
       "title": "Neasden",
-      "address": "17 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
-      "phone": "01223 358403",
       "position": {
         "lat": 51.55427,
         "lon": -0.25042
@@ -1488,9 +1262,6 @@
     },
     "NewburyPark": {
       "title": "Newbury\nPark",
-      "address": "17 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
-      "phone": "01223 358403",
       "position": {
         "lat": 51.57565,
         "lon": 0.08927
@@ -1498,9 +1269,6 @@
     },
     "NorthActon": {
       "title": "North\nActon",
-      "address": "17 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
-      "phone": "01223 358403",
       "position": {
         "lat": 51.52370,
         "lon": -0.26019
@@ -1508,9 +1276,6 @@
     },
     "NorthEaling": {
       "title": "North\nEaling",
-      "address": "17 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
-      "phone": "01223 358403",
       "position": {
         "lat": 51.51807,
         "lon": -0.26019
@@ -1518,29 +1283,20 @@
     },
     "NorthGreenwich": {
       "title": "North Greenwich",
-      "address": "17 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
-      "phone": "01223 358403",
       "position": {
         "lat": 51.50056,
         "lon": 0.00360
       }
     },
     "NorthHarrow": {
-      "title": "NorthHarrow",
-      "address": "17 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
-      "phone": "01223 358403",
+      "title": "North Harrow",
       "position": {
         "lat": 51.58503612,
         "lon": -0.362595264
       }
     },
     "NorthWembley": {
-      "title": "NorthHarrow",
-      "address": "17 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
-      "phone": "01223 358403",
+      "title": "North Wembley",
       "position": {
         "lat": 51.56258091,
         "lon": -0.304072648
@@ -1548,9 +1304,6 @@
     },
     "Northfields": {
       "title": "Northfields",
-      "address": "17 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
-      "phone": "01223 358403",
       "position": {
         "lat": 52.208852,
         "lon": 0.118185
@@ -1558,9 +1311,6 @@
     },
     "Northholt": {
       "title": "Northholt",
-      "address": "17 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
-      "phone": "01223 358403",
       "position": {
         "lat": 51.548054,
         "lon": -0.368257
@@ -1568,9 +1318,6 @@
     },
     "NorthwickPark": {
       "title": "Northwick Park",
-      "address": "17 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
-      "phone": "01223 358403",
       "position": {
         "lat": 51.548054,
         "lon": -0.368257
@@ -1578,9 +1325,6 @@
     },
     "Northwood": {
       "title": "Northwick Park",
-      "address": "17 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
-      "phone": "01223 358403",
       "position": {
         "lat": 51.61098984,
         "lon": -0.423584422
@@ -1588,9 +1332,6 @@
     },
     "NorthwoodHills": {
       "title": "Northwood Hills",
-      "address": "17 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
-      "phone": "01223 358403",
       "position": {
         "lat": 51.60043795,
         "lon": -0.408812575
@@ -1598,9 +1339,6 @@
     },
     "NottingHillGate": {
       "title": "Notting\nHill Gate",
-      "address": "17 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
-      "phone": "01223 358403",
       "position": {
         "lat": 51.509028,
         "lon": -0.1962847
@@ -1608,9 +1346,6 @@
     },
     "Oakwood": {
       "title": "Oakwood",
-      "address": "17 Bridge St, Cambridge CB2 1UF",
-      "website": "http://www.nicholsonspubs.co.uk/restaurants/eastofengland/themitrecambridge",
-      "phone": "01223 358403",
       "position": {
         "lat": 51.64739,
         "lon": 0.13192
@@ -1618,9 +1353,6 @@
     },
     "OldStreet": {
       "title": "Old Street",
-      "address": "1 Ferry Path, Cambridge CB4 1HB",
-      "website": "http://www.theoldspring.co.uk/",
-      "phone": "01223 357228",
       "position": {
         "lat": 51.52618,
         "lon": -0.08751
@@ -1628,9 +1360,6 @@
     },
     "Osterly": {
       "title": "Osterly",
-      "address": "1 Ferry Path, Cambridge CB4 1HB",
-      "website": "http://www.theoldspring.co.uk/",
-      "phone": "01223 357228",
       "position": {
         "lat": 51.481569,
         "lon": 0.351960
@@ -1638,9 +1367,6 @@
     },
     "Oval": {
       "title": "Oval",
-      "address": "1 Ferry Path, Cambridge CB4 1HB",
-      "website": "http://www.theoldspring.co.uk/",
-      "phone": "01223 357228",
       "position": {
         "lat": 51.48214,
         "lon": -0.11284
@@ -1648,9 +1374,6 @@
     },
     "OxfordCircus": {
       "title": "Oxford Circus",
-      "address": "1 Ferry Path, Cambridge CB4 1HB",
-      "website": "http://www.theoldspring.co.uk/",
-      "phone": "01223 357228",
       "position": {
         "lat": 51.51517,
         "lon": -0.14119
@@ -1658,8 +1381,6 @@
     },
     "Paddington": {
       "title": "Paddington",
-      "address": "43 Panton St, Cambridge CB2 1HL",
-      "phone": "01223 464351",
       "position": {
         "lat": 51.5151846554,
         "lon": -0.17553880792
@@ -1667,8 +1388,6 @@
     },
     "ParkRoyal": {
       "title": "Paddington",
-      "address": "43 Panton St, Cambridge CB2 1HL",
-      "phone": "01223 464351",
       "position": {
         "lat": 51.52671,
         "lon": -0.28417
@@ -1676,8 +1395,6 @@
     },
     "ParsonsGreen": {
       "title": "Parsons Green",
-      "address": "43 Panton St, Cambridge CB2 1HL",
-      "phone": "01223 464351",
       "position": {
         "lat": 51.47488,
         "lon": -0.20205
@@ -1685,8 +1402,6 @@
     },
     "Perivale": {
       "title": "Perivale",
-      "address": "43 Panton St, Cambridge CB2 1HL",
-      "phone": "01223 464351",
       "position": {
         "lat": 51.536673,
         "lon": -0.32391
@@ -1694,9 +1409,6 @@
     },
     "PiccadillyCircus": {
       "title": "Piccadilly Circus",
-      "address": "30 Magdalene St, Cambridge CB3 0AF",
-      "website": "http://www.taylor-walker.co.uk/pub/pickerel-cambridge",
-      "phone": "01223 355068",
       "position": {
         "lat": 51.51022,
         "lon": 0.13392
@@ -1704,9 +1416,6 @@
     },
     "Pimlico": {
       "title": "Pimlico",
-      "address": "30 Magdalene St, Cambridge CB3 0AF",
-      "website": "http://www.taylor-walker.co.uk/pub/pickerel-cambridge",
-      "phone": "01223 355068",
       "position": {
         "lat": 51.489081,
         "lon": -0.133037
@@ -1714,9 +1423,6 @@
     },
     "Pinner": {
       "title": "Pinner",
-      "address": "30 Magdalene St, Cambridge CB3 0AF",
-      "website": "http://www.taylor-walker.co.uk/pub/pickerel-cambridge",
-      "phone": "01223 355068",
       "position": {
         "lat": 51.59270271,
         "lon": -0.380539158
@@ -1724,8 +1430,6 @@
     },
     "Plaistow": {
       "title": "Plaistow",
-      "address": "30 Magdalene St, Cambridge CB3 0AF",
-      "phone": "01223 355068",
       "position": {
         "lat": 51.53122,
         "lon": 0.01659
@@ -1733,8 +1437,6 @@
     },
     "PrestonRoad": {
       "title": "Preston Road",
-      "address": "30 Magdalene St, Cambridge CB3 0AF",
-      "phone": "01223 355068",
       "position": {
         "lat": 51.57229051,
         "lon": -0.295813875
@@ -1742,9 +1444,6 @@
     },
     "PutneyBridge": {
       "title": "Putney Bridge",
-      "place_id": "ChIJIwqxlbhw2EcRQYT52kWYXhQ",
-      "address": "3 Pound Hill, Cambridge CB3 0AE",
-      "phone": "01223 363322",
       "position": {
         "lat": 51.46868,
         "lon": -0.2088141
@@ -1752,9 +1451,6 @@
     },
     "QueensPark": {
       "title": "Queens Park",
-      "address": "Wulfstan Way, Cambridge, CB1 8QN",
-      "website": "https://www.individualpubs.co.uk/queenedith/",
-      "phone": "01223 244536",
       "position": {
         "lat": 51.534179,
         "lon": -0.205257721
@@ -1762,9 +1458,6 @@
     },
     "Queensbury": {
       "title": "Queensbury",
-      "address": "Wulfstan Way, Cambridge, CB1 8QN",
-      "website": "https://www.individualpubs.co.uk/queenedith/",
-      "phone": "01223 244536",
       "position": {
         "lat": 51.59437,
         "lon": -0.28655
@@ -1772,9 +1465,6 @@
     },
     "Queensway": {
       "title": "Queensway",
-      "address": "Wulfstan Way, Cambridge, CB1 8QN",
-      "website": "https://www.individualpubs.co.uk/queenedith/",
-      "phone": "01223 244536",
       "position": {
         "lat": 51.510484,
         "lon": -0.187050
@@ -1782,8 +1472,6 @@
     },
     "RavenscourtPark": {
       "title": "Ravenscourt\n Park",
-      "address": "11 Barton Rd, Newnham, Cambridge CB3 9JZ",
-      "phone": "01223 300943",
       "position": {
         "lat": 51.494190,
         "lon": -0.235600
@@ -1791,9 +1479,6 @@
     },
     "RaynersLane": {
       "title": "Rayners Lane",
-      "address": "33 High St, Grantchester, Cambridge CB3 9NF",
-      "website": "http://www.redliongrantchester.co.uk/",
-      "phone": "01223 840121",
       "position": {
         "lat": 51.57534,
         "lon": -0.37240
@@ -1801,9 +1486,6 @@
     },
     "Redbridge": {
       "title": "Redbridge",
-      "address": "38-39 St Andrew's St, Cambridge, Cambridgeshire CB2 3AR",
-      "website": "https://www.jdwetherspoon.com/pubs/all-pubs/england/cambridgeshire/the-regal-cambridge",
-      "phone": "01223 366459",
       "position": {
         "lat": 51.57618,
         "lon": 0.04542
@@ -1811,9 +1493,6 @@
     },
     "RegentsPark": {
       "title": "RegentsPark",
-      "address": "38-39 St Andrew's St, Cambridge, Cambridgeshire CB2 3AR",
-      "website": "https://www.jdwetherspoon.com/pubs/all-pubs/england/cambridgeshire/the-regal-cambridge",
-      "phone": "01223 366459",
       "position": {
         "lat": 51.52344,
         "lon": -0.14713
@@ -1821,9 +1500,6 @@
     },
     "Richmond": {
       "title": "Richmond",
-      "address": "200 Cherry Hinton Rd, Cambridge CB1 7AW",
-      "website": "http://www.rock-cambridge.co.uk/",
-      "phone": "01223 505005",
       "position": {
         "lat": 51.46343247,
         "lon": -0.302033247
@@ -1831,9 +1507,6 @@
     },
     "Rickmansworth": {
       "title": "Rickmansworth",
-      "address": "200 Cherry Hinton Rd, Cambridge CB1 7AW",
-      "website": "http://www.rock-cambridge.co.uk/",
-      "phone": "01223 505005",
       "position": {
         "lat": 51.64027898,
         "lon": -0.473521454
@@ -1841,9 +1514,6 @@
     },
     "RodingValley": {
       "title": "Roding\nValley",
-      "address": "292 Mill Rd, Cambridge CB1 3NL",
-      "website": "http://royalstandardcambridge.com/",
-      "phone": "01223 569065",
       "position": {
         "lat": 51.61691,
         "lon": 0.04264
@@ -1851,9 +1521,6 @@
     },
     "RoyalOak": {
       "title": "RoyalOak",
-      "address": "292 Mill Rd, Cambridge CB1 3NL",
-      "website": "http://royalstandardcambridge.com/",
-      "phone": "01223 569065",
       "position": {
         "lat": 51.519383,
         "lon": -0.187785
@@ -1861,9 +1528,6 @@
     },
     "Ruislip": {
       "title": "Ruislip",
-      "address": "2 Broadway, Grantchester CB3 9NQ",
-      "website": "http://www.therupertbrooke.com/",
-      "phone": "01223 841875",
       "position": {
         "lat": 51.57146,
         "lon": -0.42157
@@ -1871,9 +1535,6 @@
     },
     "RuislipGardens": {
       "title": "Ruislip Gardens",
-      "address": "2 Broadway, Grantchester CB3 9NQ",
-      "website": "http://www.therupertbrooke.com/",
-      "phone": "01223 841875",
       "position": {
         "lat": 51.560711,
         "lon": -0.410587
@@ -1881,9 +1542,6 @@
     },
     "RuislipManor": {
       "title": "Ruislip\n Manor",
-      "address": "2 Broadway, Grantchester CB3 9NQ",
-      "website": "http://www.therupertbrooke.com/",
-      "phone": "01223 841875",
       "position": {
         "lat": 51.57349,
         "lon": -0.41185
@@ -1891,19 +1549,13 @@
     },
     "RussellSquare": {
       "title": "Russell Square",
-      "address": "2 Broadway, Grantchester CB3 9NQ",
-      "website": "http://www.therupertbrooke.com/",
-      "phone": "01223 841875",
       "position": {
         "lat": 51.523243,
         "lon": 0.124336
       }
     },
     "StJamessPark": {
-      "title": "St. James's Park",
-      "address": "76 Tenison Rd, Cambridge, CB1 2DW",
-      "website": "http://www.salisburyarmscambridge.co.uk/",
-      "phone": "01223 576363",
+      "title": "St. James's \nPark",
       "position": {
         "lat": 51.49971,
         "lon": -0.13394
@@ -1911,9 +1563,6 @@
     },
     "SevenSisters": {
       "title": "Seven Sisters",
-      "address": "76 Tenison Rd, Cambridge, CB1 2DW",
-      "website": "http://www.salisburyarmscambridge.co.uk/",
-      "phone": "01223 576363",
       "position": {
         "lat": 51.58318,
         "lon": -0.07495
@@ -1921,29 +1570,20 @@
     },
     "ShepardsBush": {
       "title": "Shepard's\nBush",
-      "address": "84 Castle St, Cambridge CB3 0AJ",
-      "website": "http://www.sirisaacnewton-cambridge.co.uk/",
-      "phone": "01223 305555",
       "position": {
         "lat": 51.50474,
         "lon": -0.21881
       }
     },
     "ShepardsBushMarket": {
-      "title": "Shepard's Bush Market",
-      "address": "84 Castle St, Cambridge CB3 0AJ",
-      "website": "http://www.sirisaacnewton-cambridge.co.uk/",
-      "phone": "01223 305555",
+      "title": "Shepard's Bush\n Market",
       "position": {
         "lat": 51.506063,
         "lon": -0.226231
       }
     },
     "SloaneSquare": {
-      "title": "SloaneSquare",
-      "address": "11 Covent Garden, Cambridge CB1 2HS",
-      "website": "http://sixbellspub.co.uk/",
-      "phone": "01223 355559",
+      "title": "Sloane\nSquare",
       "position": {
         "lat": 51.49258474,
         "lon": -0.156090904
@@ -1951,9 +1591,6 @@
     },
     "Snaresbrook": {
       "title": "Snaresbrook",
-      "address": "11 Covent Garden, Cambridge CB1 2HS",
-      "website": "http://sixbellspub.co.uk/",
-      "phone": "01223 355559",
       "position": {
         "lat": 51.58002,
         "lon": 0.02133
@@ -1961,9 +1598,6 @@
     },
     "SouthEaling": {
       "title": "South Ealing",
-      "address": "11 Covent Garden, Cambridge CB1 2HS",
-      "website": "http://sixbellspub.co.uk/",
-      "phone": "01223 355559",
       "position": {
         "lat": 51.500801,
         "lon": 0.307856
@@ -1971,28 +1605,19 @@
     },
     "SouthHarrow": {
       "title": "South Harrow",
-      "address": "11 Covent Garden, Cambridge CB1 2HS",
-      "website": "http://sixbellspub.co.uk/",
-      "phone": "01223 355559",
       "position": {
         "lat": 51.56461,
         "lon": -0.35210
       }
     },
     "SouthKensington": {
-      "title": "South Ealing",
-      "address": "11 Covent Garden, Cambridge CB1 2HS",
-      "website": "http://sixbellspub.co.uk/",
-      "phone": "01223 355559",
+      "title": "South \nKensington",
       "position": {
         "lat": 51.494066,
         "lon": 0.172791
       }
     },"SouthKenton": {
       "title": "South Kenton",
-      "address": "11 Covent Garden, Cambridge CB1 2HS",
-      "website": "http://sixbellspub.co.uk/",
-      "phone": "01223 355559",
       "position": {
         "lat": 51.57044666,
         "lon": -0.308566354
@@ -2000,9 +1625,6 @@
     },
     "SouthRuislip": {
       "title": "South Ruislip",
-      "address": "11 Covent Garden, Cambridge CB1 2HS",
-      "website": "http://sixbellspub.co.uk/",
-      "phone": "01223 355559",
       "position": {
         "lat": 51.556795,
         "lon": -0.398708
@@ -2010,9 +1632,6 @@
     },
     "SouthWimbledon": {
       "title": "South Wimbledon",
-      "address": "11 Covent Garden, Cambridge CB1 2HS",
-      "website": "http://sixbellspub.co.uk/",
-      "phone": "01223 355559",
       "position": {
         "lat": 51.41543048,
         "lon": -0.192262754
@@ -2020,9 +1639,6 @@
     },
     "SouthWoodford": {
       "title": "South Woodford",
-      "address": "11 Covent Garden, Cambridge CB1 2HS",
-      "website": "http://sixbellspub.co.uk/",
-      "phone": "01223 355559",
       "position": {
         "lat": 51.59088,
         "lon": 0.02726
@@ -2030,9 +1646,6 @@
     },
     "Southfields": {
       "title": "Southfields",
-      "address": "11 Covent Garden, Cambridge CB1 2HS",
-      "website": "http://sixbellspub.co.uk/",
-      "phone": "01223 355559",
       "position": {
         "lat": 51.444941,
         "lon": -0.206466
@@ -2040,9 +1653,6 @@
     },
     "SouthGate": {
       "title": "South Gate",
-      "address": "11 Covent Garden, Cambridge CB1 2HS",
-      "website": "http://sixbellspub.co.uk/",
-      "phone": "01223 355559",
       "position": {
         "lat": 51.63240,
         "lon": 0.12765
@@ -2051,8 +1661,6 @@
 
     "Southwark": {
       "title": "Southwark",
-      "address": "129 King St, Cambridge, CB1 1LD",
-      "phone": "01223 311794",
       "position": {
         "lat": 51.50384,
         "lon": -0.10478
@@ -2060,8 +1668,6 @@
     },
     "StJohnsWood": {
       "title": "St. Johns Wood",
-      "address": "129 King St, Cambridge, CB1 1LD",
-      "phone": "01223 311794",
       "position": {
         "lat": 51.53472,
         "lon": -0.17428
@@ -2069,8 +1675,6 @@
     },
     "StPauls": {
       "title": "St. Paul's",
-      "address": "129 King St, Cambridge, CB1 1LD",
-      "phone": "01223 311794",
       "position": {
         "lat": 51.515285,
         "lon": -0.097598
@@ -2078,8 +1682,6 @@
     },
     "StamfordBrook": {
       "title": "Stamford\n Brook",
-      "address": "129 King St, Cambridge, CB1 1LD",
-      "phone": "01223 311794",
       "position": {
         "lat": 51.494935,
         "lon": -0.246190
@@ -2087,8 +1689,6 @@
     },
     "Stanmore": {
       "title": "Stanmore",
-      "address": "129 King St, Cambridge, CB1 1LD",
-      "phone": "01223 311794",
       "position": {
         "lat": 51.61895,
         "lon": -0.30241
@@ -2096,8 +1696,6 @@
     },
     "StepneyGreen": {
       "title": "Stepney Green",
-      "address": "129 King St, Cambridge, CB1 1LD",
-      "phone": "01223 311794",
       "position": {
         "lat": 51.521884,
         "lon": -0.046546
@@ -2105,8 +1703,6 @@
     },
     "Stockwell": {
       "title": "Stockwell",
-      "address": "129 King St, Cambridge, CB1 1LD",
-      "phone": "01223 311794",
       "position": {
         "lat": 51.47224,
         "lon": -0.12270
@@ -2114,8 +1710,6 @@
     },
     "StonebridgePark": {
       "title": "Stonebridge Park",
-      "address": "129 King St, Cambridge, CB1 1LD",
-      "phone": "01223 311794",
       "position": {
         "lat": 51.54402388,
         "lon": -0.275978856
@@ -2123,8 +1717,6 @@
     },
     "Stratford": {
       "title": "Stratford",
-      "address": "129 King St, Cambridge, CB1 1LD",
-      "phone": "01223 311794",
       "position": {
         "lat": 51.541208,
         "lon": -0.003776
@@ -2132,8 +1724,6 @@
     },
     "SudburyHill": {
       "title": "SudburyHill",
-      "address": "129 King St, Cambridge, CB1 1LD",
-      "phone": "01223 311794",
       "position": {
         "lat": 51.556998,
         "lon": -0.335949
@@ -2141,8 +1731,6 @@
     },
     "SudburyTown": {
       "title": "Sudbury Town",
-      "address": "129 King St, Cambridge, CB1 1LD",
-      "phone": "01223 311794",
       "position": {
         "lat": 51.55093,
         "lon": -0.31598
@@ -2150,8 +1738,6 @@
     },
     "SwissCottage": {
       "title": "Swiss Cottage",
-      "address": "129 King St, Cambridge, CB1 1LD",
-      "phone": "01223 311794",
       "position": {
         "lat": 51.54333,
         "lon": -0.17436
@@ -2159,9 +1745,6 @@
     },
     "Temple": {
       "title": "Temple",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.51114,
         "lon": -0.11341
@@ -2169,9 +1752,6 @@
     },
     "TheydonBois": {
       "title": "Theydon Bois",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.67246,
         "lon": 0.10354
@@ -2179,9 +1759,6 @@
     },
     "TootingBec": {
       "title": "Tooting Bec",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.43578971,
         "lon": -0.159635693
@@ -2189,9 +1766,6 @@
     },
     "TootingBroadway": {
       "title": "Tooting Broadway",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.42780008,
         "lon": -0.167910811
@@ -2199,9 +1773,6 @@
     },
     "TottenhamCourtRoad": {
       "title": "Tottenham\n Court Road",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.51640,
         "lon": -0.13027
@@ -2209,9 +1780,6 @@
     },
     "TottenhamHale": {
       "title": "Tottenham\n Hale",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.588878,
         "lon": -0.059808
@@ -2219,29 +1787,20 @@
     },
     "Totteridge&Whetstone": {
       "title": "Totteridge\n & Whetstone",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.63022,
         "lon": -0.17917
       }
     },
     "TowerHill": {
-      "title": "TowerHille",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
+      "title": "Tower\n Hill",
       "position": {
         "lat": 51.509910,
         "lon": -0.076813
       }
     },
     "TufnellPark": {
-      "title": "TowerHille",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
+      "title": "Tufnell Park",
       "position": {
         "lat": 51.55663,
         "lon": -0.13813
@@ -2249,9 +1808,6 @@
     },
     "TurnhamGreen": {
       "title": "Turnham\n Green",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.495143,
         "lon": 0.254060
@@ -2259,9 +1815,6 @@
     },
     "TurnpikeLane": {
       "title": "Turnpike Lane",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.59031,
         "lon": 0.10308
@@ -2270,19 +1823,13 @@
 
     "Upminster": {
       "title": "Upminster",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.55925,
         "lon": 0.25177
       }
     },
     "UpminsterBridge": {
-      "title": "UpminsterBridge",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
+      "title": "Upminster Bridge",
       "position": {
         "lat": 51.55847,
         "lon": 0.23509
@@ -2290,9 +1837,6 @@
     },
     "Upney": {
       "title": "Upney",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.55847,
         "lon": 0.23509
@@ -2300,9 +1844,6 @@
     },
     "UptonPark": {
       "title": "UptonPark",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.53514,
         "lon": 0.03373
@@ -2310,9 +1851,6 @@
     },
     "Uxbridge": {
       "title": "Uxbridge",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.54687,
         "lon": -0.47725
@@ -2320,9 +1858,6 @@
     },
     "Vauxhall": {
       "title": "Vauxhall",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.54687,
         "lon": -0.47725
@@ -2330,9 +1865,6 @@
     },
     "Victoria": {
       "title": "Victoria",
-      "address": "3-5 Dover St, Cambridge CB1 1DY",
-      "website": "https://sites.google.com/site/tramdepotcambs/",
-      "phone": "01223 324553",
       "position": {
         "lat": 51.54687,
         "lon": -0.47725
@@ -2340,9 +1872,6 @@
     },
     "WalthamstowCentral": {
       "title": "Walthamstow \n Central",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.58293,
         "lon": -0.01996
@@ -2350,9 +1879,6 @@
     },
     "Wanstead": {
       "title": "Wanstead",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.57565,
         "lon": 0.02864
@@ -2360,9 +1886,6 @@
     },
     "WarrenStreet": {
       "title": "Warren Street",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.52450,
         "lon": -0.13810
@@ -2370,9 +1893,6 @@
     },
     "WarwickAvenue": {
       "title": "Warwick Avenue",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.52329728,
         "lon": -0.183777837
@@ -2380,9 +1900,6 @@
     },
     "Waterloo": {
       "title": "Waterloo",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.50322,
         "lon": -0.11328
@@ -2390,9 +1907,6 @@
     },
     "Watford": {
       "title": "Watford",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.65741058,
         "lon": -0.41745306
@@ -2400,9 +1914,6 @@
     },
     "WembleyCentral": {
       "title": "Wembley Central",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.55122817,
         "lon": -0.29577538
@@ -2410,9 +1921,6 @@
     },
     "WembleyPark": {
       "title": "Wembley Park",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.56355598,
         "lon": -0.279770242
@@ -2420,9 +1928,6 @@
     },
     "WestActon": {
       "title": "West\nActon",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.51818,
         "lon": -0.28064
@@ -2430,9 +1935,6 @@
     },
     "WestBrompton": {
       "title": "West Brompton",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.48681,
         "lon": -0.19475
@@ -2440,9 +1942,6 @@
     },
     "WestFinchley": {
       "title": "West Finchley",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.60922281219,
         "lon": -0.188711152265457
@@ -2450,19 +1949,13 @@
     },
     "WestHam": {
       "title": "West Ham",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.527917,
         "lon": 0.004141
       }
     },
     "WestHampstead": {
-      "title": "West Ham",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
+      "title": "West Hampstead",
       "position": {
         "lat": 51.54678865,
         "lon": -0.191016868
@@ -2470,9 +1963,6 @@
     },
     "WestHarrow": {
       "title": "West Harrow",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.5795432,
         "lon": -0.353144584
@@ -2480,9 +1970,6 @@
     },
     "WestKensington": {
       "title": "West\n Kensington",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.490850,
         "lon": -0.205320
@@ -2490,9 +1977,6 @@
     },
     "WestRuislip": {
       "title": "West Ruislip",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.569324,
         "lon": -0.436740
@@ -2500,9 +1984,6 @@
     },
     "WestbournePark": {
       "title": "WestbournePark",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.520995,
         "lon": -0.201778
@@ -2510,9 +1991,6 @@
     },
     "Westminster": {
       "title": "WestbournePark",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.50121,
         "lon": -0.12489
@@ -2520,9 +1998,6 @@
     },
     "WhiteCity": {
       "title": "White\nCity",
-      "address": "32 Chesterton Rd, Cambridge CB4 3AX",
-      "website": "http://www.thewaterman-cambridge.co.uk/",
-      "phone": "01223 323813",
       "position": {
         "lat": 51.512206,
         "lon": -0.224226
@@ -2530,7 +2005,6 @@
     },
     "WhiteChapel": {
       "title": "White Chapel",
-      "website": "http://www.whiteswancambridge.co.uk/",
       "position": {
         "lat": 51.51946,
         "lon": -0.05951
@@ -2538,7 +2012,6 @@
     },
     "WillesdenGreen": {
       "title": "Willesden Green",
-      "website": "http://www.whiteswancambridge.co.uk/",
       "position": {
         "lat": 51.54919,
         "lon": -0.22106
@@ -2546,7 +2019,6 @@
     },
     "WillesdenJunction": {
       "title": "Willesden Junction",
-      "website": "http://www.whiteswancambridge.co.uk/",
       "position": {
         "lat": 51.53181,
         "lon": -0.242350
@@ -2554,7 +2026,6 @@
     },
     "Wimbledon": {
       "title": "Wimbledon",
-      "website": "http://www.whiteswancambridge.co.uk/",
       "position": {
         "lat": 	51.42200,
         "lon": -0.20544
@@ -2562,7 +2033,6 @@
     },
     "WimbledonPark": {
       "title": "Wimbledon Park",
-      "website": "http://www.whiteswancambridge.co.uk/",
       "position": {
         "lat": 51.43391,
         "lon": -0.19864
@@ -2570,7 +2040,6 @@
     },
     "WoodGreen": {
       "title": "Wimbledon Park",
-      "website": "http://www.whiteswancambridge.co.uk/",
       "position": {
         "lat": 51.59709,
         "lon": -0.10939
@@ -2578,7 +2047,6 @@
     },
     "WoodLane": {
       "title": "Wimbledon Park",
-      "website": "http://www.whiteswancambridge.co.uk/",
       "position": {
         "lat": 51.59709,
         "lon": -0.10939
@@ -2586,7 +2054,6 @@
     },
     "Woodford": {
       "title": "Woodford",
-      "website": "http://www.whiteswancambridge.co.uk/",
       "position": {
         "lat": 51.60582,
         "lon": 0.03328
@@ -2604,68 +2071,68 @@
     "name": "Circle",
     "label": "Circle Line",
     "color": "#FFD300",
-    "shiftCoords": [1, -1],
+    "shiftCoords": [0,0],
     "nodes": [{
-      "coords": [-46.46, -10.26],
+      "coords": [-45.46, -10.26],
       "name": "Hammersmith",
       "labelPos": "S"
     }, {
-      "coords": [-46.46, -5.62],
+      "coords": [-45.46, -5.58],
       "marker": "interchange",
       "name": "GoldhawkRoad",
       "labelPos": "NW",
       "shiftCoords": [0, 0],
       "canonical": true
     }, {
-      "coords": [-46.46, -2.88],
+      "coords": [-45.46, -2.72],
       "name": "ShepardsBushMarket",
-      "labelPos": "S"
+      "labelPos": "W"
     },{
-      "coords": [-46.46, 2.96],
+      "coords": [-45.46, 3.04],
       "name": "WoodLane",
       "labelPos": "S"
     },{
-      "coords": [-46.46, 9.78],
+      "coords": [-45.46, 9.94],
       "name": "LatimerRoad",
       "labelPos": "S"
     },
     {
-     "coords": [-44.36, 12.76],
+     "coords": [-44.32, 12.86],
      "name": "LadbrokeGrove",
      "labelPos": "NE"
     },
     {
-     "coords": [-42.82, 14.74],
+     "coords": [-42.04, 14.74],
      "name": "WestbournePark",
      "labelPos": "NW"
     },
     {
-     "coords": [-40.84, 16.72],
+     "coords": [-40.74, 16.6],
      "name": "RoyalOak",
      "labelPos": "NW"
     },{
-      "coords": [-34.12, 17.16],
+      "coords": [-34, 17.6],
       "name": "Paddington",
       "labelPos": "S"
     },{
-      "coords": [-27.86, 17.16],
+      "coords": [-27.84, 17.6],
       "name": "EdgwareRoad",
       "labelPos": "S"
     },{
-      "coords": [-14.42, 17.16],
+      "coords": [-14.36, 17.6],
       "name": "BakerStreet",
       "labelPos": "S"
     },
     {
-      "coords": [-7.28, 17.16],
+      "coords": [-7.34, 17.6],
       "name": "GreatPortlandStreet",
       "labelPos": "S"
     },{
-      "coords": [3.52,  17.16],
+      "coords": [3.56,  17.6],
       "name": "EustonSquare",
       "labelPos": "S"
     },{
-      "coords": [9.24, 17.16],
+      "coords": [9.22, 17.6],
       "name": "KingsCrossStPancras",
       "labelPos": "S",
       "hide": true
@@ -2706,109 +2173,108 @@
     },
 
     {
-      "coords": [14, -4],
+      "coords": [32.48, -1.42],
       "name": "TowerHill",
       "labelPos": "S"
     },{
-      "coords": [14, -4],
+      "coords": [24.86, -1.42],
       "name": "Monument",
       "labelPos": "S"
-    },{
-      "coords": [14, -4],
+    },
+    {
+      "coords": [18.78, -1.42]
+    },
+
+    {
+      "coords": [16.54, -2.16],
       "name": "CannonStreet",
       "labelPos": "S"
     },
     {
-      "coords": [14, -4],
+      "coords": [14.18, -4.24],
       "name": "MansionHouse",
-      "labelPos": "S"
+      "labelPos": "NW"
     },
     {
-      "coords": [14, -4],
+      "coords": [12.06, -6.56],
+      "name": "Blackfriars",
+      "labelPos": "NW"
+    },
+    {
+      "coords": [10.06, -10.34]
+    },
+    {
+      "coords": [8.75, -10.34],
       "name": "Temple",
-      "labelPos": "S"
+      "labelPos": "S",
+      "hide": true
     },  {
-        "coords": [14, -4],
+        "coords": [0, -10.34],
         "name": "Embankment",
-        "labelPos": "S"
+        "labelPos": "S",
+        "hide": true
       },
       {
-        "coords": [14, -4],
-        "name": "Embankment",
-        "labelPos": "S"
-      },
-      {
-        "coords": [14, -4],
+        "coords": [-4.98, -10.34],
         "name": "Westminster",
         "labelPos": "S"
       },
       {
-        "coords": [14, -4],
+        "coords": [-11.38, -10.34],
         "name": "StJamessPark",
         "labelPos": "S"
       },
       {
-        "coords": [14, -4],
+        "coords": [-14.46, -10.34],
         "name": "Victoria",
         "labelPos": "S"
       },
       {
-        "coords": [14, -4],
-        "name": "Temple",
-        "labelPos": "S"
-      },
-      {
-        "coords": [14, -4],
+        "coords": [-20.76, -10.34],
         "name": "SloaneSquare",
-        "labelPos": "S"
+        "labelPos": "S",
+        "hide": true
       },
       {
-        "coords": [14, -4],
+        "coords": [-26.34, -10.34],
         "name": "SouthKensington",
         "labelPos": "S"
       },
       {
-        "coords": [14, -4],
+        "coords": [-29.28, -10.34],
         "name": "GloucsterRoad",
-        "labelPos": "S"
+        "labelPos": "N"
       },
       {
-        "coords": [14, -4],
+        "coords": [-32.26, -10.34]
+      },
+      {
+        "coords": [-32.58, 0.02],
         "name": "HighStreetKensingtion",
         "labelPos": "S"
       },
       {
-        "coords": [14, -4],
+        "coords": [-32.58, 5.06],
         "name": "NottingHillGate",
         "labelPos": "S",
         "hide": true
       },
       {
-        "coords": [14, -4],
+        "coords": [-32.58, 10],
         "name": "Bayswater",
         "labelPos": "S"
       },
       {
-        "coords": [14, -4],
-        "name": "Paddington",
-        "labelPos": "S"
+        "coords": [-32.58, 14.62]
       },
       {
-        "coords": [14, -4],
+        "coords": [-32.36, 15.52]
+      },
+      {
+        "coords": [-27.86, 15.96],
         "name": "EdgwareRoad",
         "labelPos": "S"
-      },
-    {
-      "coords": [31, -3],
-      "dir": "E"
-    }, {
-      "coords": [30, 10],
-      "dir": "N"
-    }, {
-      "coords": [23, 10],
-      "marker": "interchange",
-      "canonical": true
-    }]
+      }]
   }, {
     "name": "Bakerloo",
     "label": "Bakerloo",
@@ -2885,25 +2351,26 @@
       "dir": "S"
     },
     {
-      "coords": [-40.74, 19.02]
+      "coords": [-40.74, 20.38]
     },
     {
-      "coords": [-35.64, 18.8],
+      "coords": [-35.64, 20.38],
       "name": "Paddington",
       "labelPos": "N"
     },
     {
-      "coords": [-26.62, 18.8],
+      "coords": [-26.62, 20.38],
       "name": "EdgwareRoad",
-      "labelPos": "N"
+      "labelPos": "N",
+      "hide": true
     },
     {
-      "coords": [-23.16, 18.8],
+      "coords": [-23.16, 20.38],
       "name": "Marylebone",
       "labelPos": "N"
     },
     {
-      "coords": [-20.88, 18.68]
+      "coords": [-20.88, 20.38]
     },
     {
       "coords": [-16.6, 14.6],
@@ -3403,31 +2870,32 @@
     "name": "District(viaEaling)",
     "label": "District",
     "color": "#00782a",
-    "shiftCoords": [-1,-1],
+    "shiftCoords": [0,-1],
     "nodes": [{
-      "coords": [-71.48, 4.82],
+      "coords": [-72.48, 4.82],
       "name": "EalingBroadway",
-      "shiftCoords": [0,0],
-      "labelPos": "W"
+      "labelPos": "W",
+      "marker": "interchange"
     },
     {
-      "coords": [-69.92, 4.82]
+      "coords": [-69.5, 4.82]
     },
 
     {
-      "coords": [-69.12, 2.24],
+      "coords": [-69.5, 2.24],
       "name": "EalingCommon",
       "shiftCoords": [0,0],
       "labelPos": "W",
       "hide": true
     },
     {
-      "coords": [-68.6, -8.16]
+      "coords": [-69.5, -8.16]
     },
     {
       "coords": [-67.68, -10],
       "name": "ActonTown",
-      "labelPos": "NE"
+      "labelPos": "NE",
+      "hide": true
     }, {
       "coords": [-65.26, -11.34],
       "name": "ChiswickPark",
@@ -3510,9 +2978,9 @@
       "coords": [10.34, -11.34]
     },
     {
-      "coords": [13.4, -7.76],
+      "coords": [13.4, -8],
       "name": "Blackfriars",
-      "labelPos": "W"
+      "labelPos": "NW"
     },
     {
       "coords": [15.1, -5.26],
@@ -4058,9 +3526,7 @@
       "color": "#00782a",
       "shiftCoords": [0, 0],
       "nodes": [  {
-          "coords": [88, 38],
-          "name": "TurnhamGreen",
-          "labelPos": "SE"
+          "coords": [88, 38]
         },   {
             "coords": [88, 38],
             "name": "Gunnersbury",
@@ -4081,35 +3547,35 @@
     "name": "Metropolitan(viaUxbridge)",
     "label": "Metropolitan",
     "color": "#9B0056",
-    "shiftCoords": [0, 1],
+    "shiftCoords": [0, 0],
     "nodes": [{
-        "coords": [-98.5, 49.32],
+        "coords": [-98.5, 50.32],
         "name": "Uxbridge",
         "labelPos": "N",
         "hide": true
       },   {
-          "coords": [-91.46, 49.32],
+          "coords": [-91.46, 50.32],
           "name": "Hillingdon",
           "labelPos": "N"
         },
         {
-          "coords": [-85.74, 49.32],
+          "coords": [-85.74, 50.32],
           "name": "Ickenham",
           "labelPos": "S",
           "hide": true
         },
         {
-          "coords": [-77.38, 49.32],
+          "coords": [-77.38, 50.32],
           "name": "Ruislip",
           "labelPos": "SE"
         },
         {
-          "coords": [-73.74, 48.44],
+          "coords": [-73.74, 49.44],
           "name": "RuislipManor",
           "labelPos": "NE"
         },
         {
-          "coords": [-71.88, 46.56],
+          "coords": [-71.88, 47.56],
           "name": "Eastcote",
           "labelPos": "NE"
         },
@@ -4161,22 +3627,28 @@
       "coords": [-13.32, 16.62]
     },
     {
-      "coords": [-7.28, 15.72],
+      "coords": [-7.34, 16.6],
       "name": "GreatPortlandStreet",
       "labelPos": "SW"
     },
     {
-      "coords": [3.52, 15.62],
+      "coords": [3.52, 16.6],
       "name": "EustonSquare",
       "labelPos": "SW"
     },
     {
-      "coords": [58, -22],
+      "coords": [58, 16.6],
       "name": "Farringdon",
       "labelPos": "SW"
     },
     {
-      "coords": [58, -22],
+      "coords": [9.22, 16.6]
+    },
+    {
+      "coords": [12.54, 16.6]
+    },
+    {
+      "coords": [16.78, 12.9],
       "name": "Barbican",
       "labelPos": "SW"
     },
@@ -4440,7 +3912,7 @@
 {
  "coords": [42.34, -12.18],
  "name": "CanadaWater",
- "labelPos": "SW"
+ "labelPos": "S"
 },
 {
  "coords": [58.02, -12.18],
@@ -4491,81 +3963,81 @@
 "color": "#F3A9BB",
 "shiftCoords": [0, 0],
 "nodes": [ {
- "coords": [-46.46, -10.26],
+ "coords": [-46.76, -10.26],
  "name": "Hammersmith",
  "labelPos": "W",
  "marker" : "interchange"
 },{
- "coords": [-46.46, -5.62],
+ "coords": [-46.76, -5.58],
  "name": "GoldhawkRoad",
  "labelPos": "W"
 },
 {
- "coords": [-46.46, -2.88],
+ "coords": [-46.76, -2.72],
  "name": "ShepardsBushMarket",
  "labelPos": "W"
 },
 {
- "coords": [-46.46, -2.96],
+ "coords": [-46.76, 3.04],
  "name": "WoodLane",
  "labelPos": "W"
 },
 {
- "coords": [-46.46, 9.78],
+ "coords": [-46.76, 9.94],
  "name": "LatimerRoad",
  "labelPos": "E"
 },
 {
- "coords": [-44.36, 12.76],
+ "coords": [-44.82, 13.34],
  "name": "LadbrokeGrove",
  "labelPos": "NE",
  "hide": true
 },
 {
- "coords": [-42.82, 14.74],
+ "coords": [-43.08, 15.12],
  "name": "WestbournePark",
  "labelPos": "NW"
 },
 {
- "coords": [-40.84, 16.72],
+ "coords": [-41.04, 17.02],
  "name": "RoyalOak",
  "labelPos": "NW"
 },
 {
- "coords": [-39.74, 17.16]
+ "coords": [-39.5, 18.6]
 },
 {
- "coords": [-34.12, 17.16],
+ "coords": [-34, 18.6],
  "name": "Paddington",
  "marker":"interchange",
  "labelPos": "NE",
  "hide":true
 },
 {
- "coords": [-27.86, 17.16],
+ "coords": [-27.84, 18.6],
  "marker":"interchange",
  "name": "EdgwareRoad",
  "labelPos": "NE",
  "hide" : true
 },
 {
- "coords": [-14.42, 17.16],
+ "coords": [-14.6, 18.6],
  "name": "BakerStreet",
  "labelPos": "NE",
  "marker": "interchange"
 },
 {
- "coords": [-7.28, 17.16],
+ "coords": [-7.34, 18.6],
  "name": "GreatPortlandStreet",
  "labelPos": "NE"
 },
 {
- "coords": [3.52, 17.16],
+ "coords": [3.56, 18.6],
  "name": "EustonSquare",
  "labelPos": "NE"
 },
 {
- "coords": [9.24, 17.16],
+ "coords": [9.22, 18.6],
  "marker": "interchange"
 },
 {
@@ -4710,22 +4182,22 @@
         "labelPos": "SE"
     },
     {
-        "coords": [-72.08, -12.08]
+        "coords": [-72.08, -10.02]
     },
     {
         "coords": [-71.2, -10.02],
         "name": "SouthEaling",
-        "labelPos": "SE"
+        "labelPos": "NW"
     },
     {
         "coords": [-67.88, -10.02],
         "name": "ActonTown",
-        "labelPos": "SE"
+        "labelPos": "NE"
     },
     {
         "coords": [-60.5, -10.02],
         "name": "TurnhamGreen",
-        "labelPos": "SE"
+        "labelPos": "S"
     },
     {
         "coords": [-46.42, -10.02],
@@ -4943,7 +4415,7 @@
           "labelPos": "W"
         },
         {
-          "coords": [-68.6, 2.24],
+          "coords": [-68.6, -1],
           "name": "EalingCommon",
           "labelPos": "SE"
         },
@@ -4955,11 +4427,9 @@
           "coords": [-67.68, -10],
           "name": "ActonTown",
           "labelPos": "NE",
-          "color": "#9b0056"
-        },
-        {
-        "coords": [-67.68, -12]
-      }
+          "color": "#9b0056",
+          "hide": true
+        }
 
       ]
     }],
