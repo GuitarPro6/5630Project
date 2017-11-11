@@ -57,6 +57,7 @@ setCircles(map){
                     da.Exit_Sat = +da.Exit_Saturday;
                       da.Exit_Sun = +da.Exit_Sunday;
 
+                      console.log(csvData);
 
 
         });
