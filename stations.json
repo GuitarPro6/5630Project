@@ -4,7 +4,7 @@
       "title": "Acton Town",
       "position": {
         "lat": 51.502500,
-        "lon": 0.278126
+        "lon": -0.278126
       }
     },
     "Aldgate": {
@@ -12,7 +12,7 @@
 
       "position": {
         "lat": 51.51394,
-        "lon": 0.07537
+        "lon": -0.07537
       }
     },
     "AldgateEast": {
@@ -20,49 +20,49 @@
 
       "position": {
         "lat": 51.51514,
-        "lon": 0.07178
+        "lon": -0.07178
       }
     },
     "Alperton": {
       "title": "Alperton",
       "position": {
-        "lat": 51.51514,
-        "lon": 0.07178
+        "lat": 51.54097,
+        "lon": -0.30061
       }
     },
     "Amersham": {
       "title": "Amersham",
       "position": {
         "lat": 51.67435,
-        "lon": 0.60732
+        "lon": -0.60732
       }
     },
     "Angel": {
       "title": "Angel",
       "position": {
         "lat": 51.53253,
-        "lon": 0.10579
+        "lon": -0.10579
       }
     },
     "Archway": {
       "title": "Archway",
       "position": {
         "lat": 51.56536,
-        "lon": 0.13474
+        "lon": -0.13474
       }
     },
     "ArnosGrove": {
       "title": "Arnos Grove",
       "position": {
         "lat": 51.61625,
-        "lon": 0.13355
+        "lon": -0.13355
       }
     },
     "Arsenal": {
-      "title": "Architect",
+      "title": "Arsenal",
       "position": {
         "lat": 51.55847,
-        "lon": 0.10561
+        "lon": -0.10561
       }
     },
     "BakerStreet": {
@@ -70,7 +70,7 @@
 
       "position": {
         "lat": 51.52265,
-        "lon": 0.15704
+        "lon": -0.15704
       }
     },
     "Balham": {
@@ -80,7 +80,7 @@
 
       "position": {
         "lat": 51.44344113,
-        "lon": 0.152945844
+        "lon": -0.152945844
       }
     },
     "Bank": {
@@ -90,7 +90,7 @@
 
       "position": {
         "lat": 51.5134047,
-        "lon": 0.08905843
+        "lon": -0.08905843
       }
     },
     "Barbican": {
@@ -100,7 +100,7 @@
 
       "position": {
         "lat": 51.520865,
-        "lon": 0.097758
+        "lon": -0.097758
       }
     },
 
@@ -128,18 +128,18 @@
       "title": "Barons Court",
       "position": {
         "lat": 51.490281,
-        "lon": 0.214340
+        "lon": -0.214340
       }
     },
     "Bayswater": {
-      "title": "Blue Ball Inn",
+      "title": "Bayswater",
       "position": {
         "lat": 51.51224,
-        "lon": 0.187569
+        "lon": -0.187569
       }
     },
     "Becontree": {
-      "title": "Blue Moon",
+      "title": "Becontree",
       "position": {
         "lat": 51.54029,
         "lon": 0.12620
@@ -149,21 +149,21 @@
       "title": "Belsize Park",
       "position": {
         "lat": 51.55036,
-        "lon": 0.16465
+        "lon": -0.16465
       }
     },
     "Bermondsey": {
       "title": "Bermondsey",
       "position": {
         "lat": 51.49813,
-        "lon": 0.06350
+        "lon": -0.06350
       }
     },
     "BethnalGreen": {
       "title": "Bethnal Green",
       "position": {
         "lat": 51.52718,
-        "lon": 0.05504
+        "lon": -0.05504
       }
     },
 
@@ -171,35 +171,28 @@
       "title": "Blackfriars",
       "position": {
         "lat": 51.5114403,
-        "lon": 0.10419050
+        "lon": -0.10419050
       }
     },
     "BlackhorseRoad": {
       "title": "Blackhorse Road",
       "position": {
         "lat": 51.58698,
-        "lon": 0.04104
+        "lon": -0.04104
       }
     },
     "BondStreet": {
       "title": "Bond Street",
       "position": {
-        "lat": 51.58698,
-        "lon": 0.04104
+        "lat": 51.51461,
+        "lon": -0.14897
       }
     },
     "Borough": {
       "title": "Borough",
       "position": {
         "lat": 51.50095,
-        "lon": 0.09446
-      }
-    },
-    "BostonManor": {
-      "title": "Borough Manor",
-      "position": {
-        "lat": 51.495371,
-        "lon": 0.325573
+        "lon": -0.09446
       }
     },
 
@@ -209,7 +202,7 @@
       "title": "Boston Manor",
       "position": {
         "lat": 51.495371,
-        "lon": 0.325573
+        "lon": -0.325573
       }
     },
 
@@ -217,35 +210,35 @@
       "title": "Bounds Green",
       "position": {
         "lat": 51.60700,
-        "lon": 0.12418
+        "lon": -0.12418
       }
     },
     "BowRoad": {
       "title": "Bow Road",
       "position": {
         "lat": 51.52709,
-        "lon": 0.02482
+        "lon": -0.02482
       }
     },
     "BrentCross": {
       "title": "Brent Cross",
       "position": {
         "lat": 51.57693,
-        "lon": 0.21414
+        "lon": -0.21414
       }
     },
     "Brixton": {
       "title": "Brixton",
       "position": {
         "lat": 51.46239,
-        "lon": 0.115421
+        "lon": -0.115421
       }
     },
     "Bromley-by-Bow": {
       "title": "Bromley-by-Bow",
       "position": {
         "lat": 51.52466,
-        "lon": 0.01282
+        "lon": -0.01282
       }
     },
     "BuckhurstHill": {
@@ -259,7 +252,7 @@
       "title": "Burnt Oak",
       "position": {
         "lat": 51.60300,
-        "lon": 0.26427
+        "lon": -0.26427
       }
     },
 
@@ -267,21 +260,21 @@
       "title": "Caledonian Road",
       "position": {
         "lat": 51.54850,
-        "lon": 0.11802
+        "lon": -0.11802
       }
     },
     "CamdenTown": {
       "title": "Camden Town",
       "position": {
         "lat": 51.53930,
-        "lon": 0.14316
+        "lon": -0.14316
       }
     },
     "CanadaWater": {
       "title": "Canada Water",
       "position": {
         "lat": 51.49787,
-        "lon": 0.04967
+        "lon": -0.04967
       }
     },
     "CanaryWharf": {
@@ -289,7 +282,7 @@
 
       "position": {
         "lat": 51.50362,
-        "lon": 0.01987
+        "lon": -0.01987
       }
     },
     "CanningTown": {
@@ -301,11 +294,11 @@
       }
     },
     "CannonStreet": {
-      "title": "Championof theThames",
+      "title": "Cannon Street",
 
       "position": {
         "lat": 51.51141,
-        "lon": 0.09047
+        "lon": -0.09047
       }
     },
     "CanonsPark": {
@@ -313,7 +306,7 @@
 
       "position": {
         "lat": 51.60810,
-        "lon": 0.29487
+        "lon": -0.29487
       }
     },
     "Chalfont&Latimer": {
@@ -321,7 +314,7 @@
 
       "position": {
         "lat": 51.66822,
-        "lon": 0.56053
+        "lon": -0.56053
       }
     },
     "ChalkFarm": {
@@ -329,7 +322,7 @@
 
       "position": {
         "lat": 51.54390,
-        "lon": 0.15384
+        "lon": -0.15384
       }
     },
     "ChanceryLane": {
@@ -337,15 +330,15 @@
 
       "position": {
         "lat": 51.51836,
-        "lon": 0.11115
+        "lon": -0.11115
       }
     },
     "CharingCross": {
-      "title": "Chancery Lane",
+      "title": "Charing Cross",
 
       "position": {
         "lat": 51.507108,
-        "lon": 0.122963
+        "lon": -0.122963
       }
     },
     "Chesham": {
@@ -353,7 +346,7 @@
 
       "position": {
         "lat": 51.70522733,
-        "lon": 0.610986426
+        "lon": -0.610986426
       }
     },
     "Chigwell": {
@@ -369,7 +362,7 @@
 
       "position": {
         "lat": 51.49466,
-        "lon": 0.26866
+        "lon": -0.26866
       }
     },
     "Chorleywood": {
@@ -377,26 +370,22 @@
 
       "position": {
         "lat": 51.65429872,
-        "lon": 0.518373353
+        "lon": -0.518373353
       }
     },
     "ClaphamCommon": {
       "title": "Clapham Common",
-
-
       "position": {
         "lat": 51.46156,
-        "lon": 0.13802
+        "lon": -0.13802
       }
     },
 
     "ClaphamNorth": {
       "title": "Clapham North",
-
-
       "position": {
         "lat": 51.46522,
-        "lon": 0.12950
+        "lon": -0.12950
       }
     },
     "ClaphamSouth": {
@@ -405,26 +394,22 @@
 
       "position": {
         "lat": 51.45292257,
-        "lon": 0.147562148
+        "lon": -0.147562148
       }
     },
 
     "Cockfosters": {
       "title": "Cockfosters",
-
-
       "position": {
         "lat": 51.65117,
-        "lon": 0.14811
+        "lon": -0.14811
       }
     },
     "Colindale": {
       "title": "Colindale",
-
-
       "position": {
         "lat": 51.59556,
-        "lon": 0.24996
+        "lon": -0.24996
       }
     },
     "ColliersWood": {
@@ -433,16 +418,14 @@
 
       "position": {
         "lat": 51.41823649,
-        "lon": 0.17800983
+        "lon": -0.17800983
       }
     },
     "ConventGarden": {
       "title": "Convent Garden",
-
-
       "position": {
         "lat": 51.51308,
-        "lon": 0.12427
+        "lon": -0.12427
       }
     },
     "Croxley": {
@@ -451,7 +434,7 @@
 
       "position": {
         "lat": 51.64733268,
-        "lon": 0.441479115
+        "lon": -0.441479115
       }
     },
     "DagenhamEast": {
@@ -479,49 +462,46 @@
       "title": "Dollis Hill",
       "position": {
         "lat": 51.55250,
-        "lon": 0.23884
+        "lon": -0.23884
       }
     },
     "EalingBroadway": {
       "title": "EalingBroadway",
       "position": {
         "lat": 51.51482,
-        "lon": 0.30118
+        "lon": -0.30118
       }
     },
     "EalingCommon": {
       "title": "Ealing Common",
       "position": {
         "lat": 51.50997,
-        "lon": 0.28825
+        "lon": -0.28825
       }
     },
     "EarlsCourt": {
       "title": "Earl's Court",
       "position": {
         "lat": 51.491521,
-        "lon": 0.193906
+        "lon": -0.193906
       }
     },
     "EastActon": {
       "title": "East Acton",
-
-
       "position": {
         "lat": 51.51753,
-        "lon": 0.24827
+        "lon": -0.24827
       }
     },
     "EastFinchley": {
       "title": "East Finchley",
       "position": {
         "lat": 51.5872974705487,
-        "lon": 0.16495632312818
+        "lon": -0.16495632312818
       }
     },
     "EastHam": {
       "title": "East Ham",
-
       "position": {
         "lat": 51.53931,
         "lon": 0.05260
@@ -531,21 +511,18 @@
       "title": "East Putney",
       "position": {
         "lat": 51.459015,
-        "lon": 51.459015
+        "lon": -0.211138
       }
     },
     "Eastcote": {
       "title": "Eastcote",
       "position": {
         "lat": 51.57676,
-        "lon": 0.39629
+        "lon": -0.39629
       }
     },
     "Edgware": {
       "title": "Edgware",
-
-
-
       "position": {
         "lat": 51.61385,
         "lon": -0.27515
@@ -553,31 +530,22 @@
     },
     "EdgwareRoad": {
       "title": "Eddgeware Road",
-
-
-
       "position": {
         "lat": 51.520195,
-        "lon": 0.166986
+        "lon": -0.166986
       }
     },
 
     "Elephant&Castle": {
       "title": "Elephant & Castle",
-
-
-
       "position": {
         "lat": 51.49467,
-        "lon": 0.10047
+        "lon": -0.10047
       }
     },
 
     "ElmPark": {
       "title": "Elm Park",
-
-
-
       "position": {
         "lat": 51.54969,
         "lon": 0.19779
@@ -585,17 +553,13 @@
     },
     "Embankment": {
       "title": "Embankment",
-
-
       "position": {
         "lat": 51.50717,
-        "lon": 0.12195
+        "lon": -0.12195
       }
     },
     "Epping": {
       "title": "Epping",
-
-
       "position": {
         "lat": 51.69365,
         "lon": 0.11495
@@ -604,8 +568,6 @@
 
     "Euston": {
       "title": "Euston",
-
-
       "position": {
         "lat": 51.52774,
         "lon": -0.13303
@@ -662,16 +624,14 @@
 
       "position": {
         "lat": 51.56498,
-        "lon": 0.10543
+        "lon": -0.10543
       }
     },
     "FulhamBroadway": {
       "title": "Fulham Broadway",
-
-
       "position": {
-        "lat": 52.194474,
-        "lon": 0.131747
+        "lat": 51.48033,
+        "lon": -0.19488
       }
     },
     "GantsHill": {
@@ -685,23 +645,23 @@
       "title": "Gloucster Road",
       "position": {
         "lat": 51.49408266,
-        "lon": 0.17295341
+        "lon": -0.17295341
       }
     },
     "GoldersGreen": {
       "title": "Golders Green",
       "phone": "01223 420816",
       "position": {
-        "lat": 52.227922,
-        "lon": 0.145524
+        "lat": 51.57249,
+        "lon": -0.19410
       }
     },
     "GoldhawkRoad": {
       "title": "Goldhawk Road",
       "phone": "01223 323405",
       "position": {
-        "lat": 52.200689,
-        "lon": 0.126622
+        "lat": 51.501248,
+        "lon": -0.226776
       }
     },
     "GoodgeStreet": {
@@ -743,19 +703,13 @@
     },
     "GreenPark": {
       "title": "Green Park",
-
-
-      "phone": "01223 844903",
       "position": {
         "lat": 51.50674,
-        "lon": 0.14276
+        "lon": -0.14276
       }
     },
     "Hainault": {
       "title": "Hainault",
-
-
-      "phone": "01223 311077",
       "position": {
         "lat": 51.60288,
         "lon": 0.09332
@@ -763,12 +717,9 @@
     },
     "Hammersmith": {
       "title": "Hammersmith",
-
-
-      "phone": "01223 311077",
       "position": {
         "lat": 52.217339,
-        "lon": 0.139439
+        "lon": -0.222825
       }
     },
     "Hampstead": {
@@ -811,7 +762,7 @@
       "title": "Hatton Cross",
       "position": {
         "lat": 51.466988,
-        "lon": 0.423035
+        "lon": -0.423035
       }
     },
     "HeathrowTerminal5": {
@@ -824,22 +775,22 @@
     "HeathrowTerminals123": {
       "title": "Heathrow Terminals 123",
       "position": {
-        "lat": 51.4715,
-        "lon": 0.4880
+        "lat": 51.4712899,
+        "lon": -0.4527438
       }
     },"HeathrowTerminal4": {
       "title": "Heathrow Terminal 4",
       "position": {
-        "lat": 51.4715,
-        "lon": 0.4880
+        "lat": 51.4594777,
+        "lon": -0.44689658
       }
     },
 
     "HendonCentral": {
       "title": "Hendon Central",
       "position": {
-        "lat": 51.4715,
-        "lon": 0.4880
+        "lat": 51.58346,
+        "lon": -0.22653
       }
     },
     "HighBarnet": {
@@ -853,7 +804,7 @@
       "title": "High Street Kensington",
       "position": {
         "lat": 51.5003459144,
-        "lon": 0.1923516640
+        "lon": -0.1923516640
       }
     },
     "Highbury&Islington": {
@@ -881,7 +832,7 @@
       "title": "Holborn",
       "position": {
         "lat": 51.51711,
-        "lon": 0.12055
+        "lon": -0.12055
       }
     },
     "HollandPark": {
@@ -895,7 +846,7 @@
       "title": "Holloway Road",
       "position": {
         "lat": 51.55290,
-        "lon": 0.11278
+        "lon": -0.11278
       }
     },
     "Hornchurch": {
@@ -909,13 +860,13 @@
       "title": "Hunslow Central",
       "position": {
         "lat": 51.471290,
-        "lon": 0.365853
+        "lon": -0.365853
       }
     },"HunslowWest": {
       "title": "Hunslow West",
       "position": {
         "lat": 51.4715,
-        "lon": 0.386471
+        "lon": -0.386471
       }
     },"HunslowEast": {
       "title": "Hunslow East",
@@ -924,7 +875,7 @@
       "phone": "01223 311077",
       "position": {
         "lat": 51.473540,
-        "lon": 0.356000
+        "lon": -0.356000
       }
     },
     "HydeParkCorner": {
@@ -964,7 +915,7 @@
       "title": "Kentish Town",
       "position": {
         "lat": 51.53060655,
-        "lon": -0.224253545
+        "lon": -0.14067
       }
     },
     "Kenton": {
@@ -999,7 +950,7 @@
       "title": "King's Cross St. Pancras",
       "position": {
         "lat": 51.53057,
-        "lon": 0.12399
+        "lon": -0.12399
       }
     },
     "Kingsbury": {
@@ -1013,7 +964,7 @@
       "title": "Knightsbridge",
       "position": {
         "lat": 51.50169,
-        "lon": 0.16030
+        "lon": -0.16030
       }
     },
     "LadbrokeGrove": {
@@ -1098,7 +1049,7 @@
       "title": "Manor House",
       "position": {
         "lat": 51.57038,
-        "lon": 0.09601
+        "lon": -0.09601
       }
     },
     "MansionHouse": {
@@ -1111,8 +1062,8 @@
     "MarbleArch": {
       "title": "Marble Arch",
       "position": {
-        "lat": 52.209671,
-        "lon": 0.119232
+        "lat": 51.5135970,
+        "lon": -0.15869195
       }
     },
     "Marylebone": {
@@ -1125,8 +1076,8 @@
     "MileEnd": {
       "title": "Mile End",
       "position": {
-        "lat": 51.522660,
-        "lon": -0.162996
+        "lat": 51.525306,
+        "lon": -0.033471
       }
     },
     "MillHillEast": {
@@ -1144,10 +1095,10 @@
       }
     },
     "MoorPark": {
-      "title": "MoorPark",
+      "title": "Moor Park",
       "position": {
-        "lat": 51.510165,
-        "lon": -0.085991
+        "lat": 51.62970512,
+        "lon": -0.432070848
       }
     },
     "Moorgate": {
@@ -1167,8 +1118,8 @@
     "MorningtonCrescent": {
       "title": "Mornington Crescent",
       "position": {
-        "lat": 52.201552,
-        "lon": 0.116128
+        "lat": 51.53427,
+        "lon": -0.13901
       }
     },
     "Neasden": {
@@ -1196,7 +1147,7 @@
       "title": "North Ealing",
       "position": {
         "lat": 51.51807,
-        "lon": -0.26019
+        "lon": -0.28838
       }
     },
     "NorthGreenwich": {
@@ -1223,8 +1174,8 @@
     "Northfields": {
       "title": "Northfields",
       "position": {
-        "lat": 52.208852,
-        "lon": 0.118185
+        "lat": 51.499856,
+        "lon": -0.313188
       }
     },
     "Northholt": {
@@ -1237,12 +1188,12 @@
     "NorthwickPark": {
       "title": "Northwick Park",
       "position": {
-        "lat": 51.548054,
-        "lon": -0.368257
+        "lat": 51.57850117,
+        "lon": -0.317857023
       }
     },
     "Northwood": {
-      "title": "Northwick Park",
+      "title": "Northwood",
       "position": {
         "lat": 51.61098984,
         "lon": -0.423584422
@@ -1266,7 +1217,7 @@
       "title": "Oakwood",
       "position": {
         "lat": 51.64739,
-        "lon": 0.13192
+        "lon": -0.13192
       }
     },
     "OldStreet": {
@@ -1280,7 +1231,7 @@
       "title": "Osterly",
       "position": {
         "lat": 51.481569,
-        "lon": 0.351960
+        "lon": -0.351960
       }
     },
     "Oval": {
@@ -1329,7 +1280,7 @@
       "title": "Piccadilly Circus",
       "position": {
         "lat": 51.51022,
-        "lon": 0.13392
+        "lon": -0.13392
       }
     },
     "Pimlico": {
@@ -1385,7 +1336,7 @@
       "title": "Queensway",
       "position": {
         "lat": 51.59437,
-        "lon": -0.28655
+        "lon": -0.187050
       }
     },
     "RavenscourtPark": {
@@ -1469,7 +1420,7 @@
       "title": "Russell Square",
       "position": {
         "lat": 51.523243,
-        "lon": 0.124336
+        "lon": -0.124336
       }
     },
     "StJamessPark": {
@@ -1518,7 +1469,7 @@
       "title": "South Ealing",
       "position": {
         "lat": 51.500801,
-        "lon": 0.307856
+        "lon": -0.307856
       }
     },
     "SouthHarrow": {
@@ -1532,7 +1483,7 @@
       "title": "South Kensington",
       "position": {
         "lat": 51.494066,
-        "lon": 0.172791
+        "lon": -0.172791
       }
     },"SouthKenton": {
       "title": "South Kenton",
@@ -1573,7 +1524,7 @@
       "title": "South Gate",
       "position": {
         "lat": 51.63240,
-        "lon": 0.12765
+        "lon": -0.12765
       }
     },
 
@@ -1728,14 +1679,14 @@
       "title": "Turnham Green",
       "position": {
         "lat": 51.495143,
-        "lon": 0.254060
+        "lon": -0.254060
       }
     },
     "TurnpikeLane": {
       "title": "Turnpike Lane",
       "position": {
         "lat": 51.59031,
-        "lon": 0.10308
+        "lon": -0.10308
       }
     },
 
@@ -1777,15 +1728,15 @@
     "Vauxhall": {
       "title": "Vauxhall",
       "position": {
-        "lat": 51.54687,
-        "lon": -0.47725
+        "lat": 51.48603,
+        "lon": -0.12369
       }
     },
     "Victoria": {
       "title": "Victoria",
       "position": {
-        "lat": 51.54687,
-        "lon": -0.47725
+        "lat": 51.49662869,
+        "lon": -0.14400853
       }
     },
     "WalthamstowCentral": {
