@@ -2437,8 +2437,8 @@
       "coords": [-0.6, -46]
     }]
   }, {
-  "name": "Northern(viaMillHillEast)",
-  "label": "Northern",
+  "name": "Northern",
+  "label": "Northern(viaMillHillEast)",
   "color": "#a0a5a9",
   "shiftCoords": [0, 0],
   "nodes": [ {
@@ -2452,8 +2452,8 @@
     "labelPos": "NW"
   }]
   }, {
-    "name": "Northern(viaHighBarnet)",
-    "label": "Northern",
+    "name": "Northern",
+    "label": "Northern(viaHighBarnet)",
     "color": "#000000",
     "shiftCoords": [0, 0],
     "nodes": [ {
@@ -2635,8 +2635,8 @@
   },
 {
 
-  "name": "Northern(viaEdgware)",
-  "label": "Northern",
+  "name": "Northern",
+  "label": "Northern(viaEdgware)",
   "color": "#000000",
   "shiftCoords": [0, 0],
   "nodes": [{
@@ -2758,8 +2758,8 @@
 },
 
   {
-    "name": "District(viaEaling)",
-    "label": "District",
+    "name": "District",
+    "label": "District(viaEaling)",
     "color": "#00782a",
     "shiftCoords": [0,-1],
     "nodes": [{
@@ -2993,8 +2993,8 @@
       "labelPos": "SE"
     }]
   },{
-    "name": "District(viaWimbledon)",
-    "label": "District",
+    "name": "District",
+    "label": "District(viaWimbledon)",
     "color": "#00782a",
     "shiftCoords": [0, 0],
     "nodes": [{
@@ -3086,8 +3086,8 @@
 
   ]
     },{
-      "name": "Central(ViaEalingB)",
-      "label": "Central",
+      "name": "Central",
+      "label": "Central(ViaEalingB)",
       "color": "#E32017",
       "shiftCoords": [0, 0],
       "nodes": [{
@@ -3269,8 +3269,8 @@
                         }]
     },
     {
-      "name": "Central(viaWestRuislip)",
-      "label": "Central",
+      "name": "Central",
+      "label": "Central(viaWestRuislip)",
       "color": "#E32017",
       "shiftCoords": [0, 0],
       "nodes": [  {
@@ -3333,8 +3333,8 @@
       },
 
       {
-        "name": "Central(viaRodingValley)",
-        "label": "Central",
+        "name": "Central",
+        "label": "Central(viaRodingValley)",
         "color": "#E32017",
         "shiftCoords": [0, 0],
         "nodes": [  {
@@ -3412,8 +3412,8 @@
           ]
         },
     {
-      "name": "District(viaRichmond)",
-      "label": "District",
+      "name": "District",
+      "label": "District(viaRichmond)",
       "color": "#00782a",
       "shiftCoords": [0, 0],
       "nodes": [  {
@@ -3440,8 +3440,8 @@
           }]
       },
      {
-    "name": "Metropolitan(viaUxbridge)",
-    "label": "Metropolitan",
+    "name": "Metropolitan",
+    "label": "Metropolitan(viaUxbridge)",
     "color": "#9B0056",
     "shiftCoords": [0, 0],
     "nodes": [{
@@ -3569,8 +3569,8 @@
       "labelPos": "SW"
     }]
   },{
- "name": "Metropolitan(viaAmersham)",
- "label": "Metropolitan",
+ "name": "Metropolitan",
+ "label": "Metropolitan(viaAmersham)",
  "color": "#9B0056",
  "shiftCoords": [0, 0],
  "nodes": [{
@@ -3632,8 +3632,8 @@
 ]
  },
  {
-"name": "Metropolitan(viaChesham)",
-"label": "Metropolitan",
+"name": "Metropolitan",
+"label": "Metropolitan(viaChesham)",
 "color": "#a0a5a9",
 "shiftCoords": [0, 0],
 "nodes": [ {
@@ -3649,8 +3649,8 @@
 ]
 },
 {
-"name": "Metropolitan(viaWatford)",
-"label": "Metropolitan",
+"name": "Metropolitan",
+"label": "Metropolitan(viaWatford)",
 "color": "#9B0056",
 "shiftCoords": [0, 0],
 "nodes": [ {
@@ -3859,8 +3859,8 @@
 },
 
 {
-"name": "Hammersmith&City",
-"label": "City",
+"name": "City",
+"label": "Hammersmith&City",
 "color": "#F3A9BB",
 "shiftCoords": [0, 0],
 "nodes": [ {
@@ -4262,8 +4262,8 @@
   ]
   },
   {
-    "name": "Picadilly(viaUxbridge)",
-    "label": "Picadilly",
+    "name": "Picadilly",
+    "label": "Picadilly(viaUxbridge)",
     "color": "#0016BF",
     "shiftCoords": [0, 0],
     "nodes": [  {
