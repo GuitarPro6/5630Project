@@ -21,6 +21,7 @@
     <script src="https://d3js.org/d3.v4.js"></script>
     <script type = "application/javascript" src="js/Map.js"></script>
     <script type = "application/javascript" src="js/SurveyMap.js"></script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
   <nav>
     <ul>
       <li><a href="project.html">Tube Map</a></li>
@@ -81,6 +82,17 @@ Select Entry Data
 <option value="access">Mode of Access</option>
 </select>
 
+<select id = "vis-type2" onchange="changeVis();">
+<option value="heat">Heatmap</option>
+<option value="cluster">Cluster</option>
+</select>
+<button onclick="toggleData2()">Toggle Data</button>
+<button onclick="changeGradient2()">Change gradient</button>
+<button onclick="addRadius2()">Add Radius</button>
+<button onclick="reduceRadius2()">Reduce Radius</button>
+<button onclick="addOpacity2()">Add Opacity</button>
+<button onclick="reduceOpacity2()">Reduce Opacity</button>
+
  </div>
  <div id="map_canvas2" style="width:1000px; height:500px; margin-left:80px;  margin-bottom:10px;"></div>
     <script>
@@ -91,15 +103,40 @@ Select Entry Data
     //the actual google map objects
     var globalMap1, globalMap2;
 
+    //keeps track of the stations
+    var keyValues = [];
+
     //Initialize the google map
       function initMap() {
+
+        //obtain all the station information
+        d3.json("stations.json", function(error, data) {
+          if(error != null){
+            console.log("something went wrong");
+          }
+
+            var keys = Object.keys(data.stations);
+
+
+            var vals = Object.keys(data.stations).map(function(key) {
+
+              //combine this object to use later.
+              keyValues.push({k: key, title: data.stations[key].title, position: data.stations[key].position});
+              return data.stations[key];
+          });
+
+
         //Create the google map and center it in london
          var map1 = new google.maps.Map(document.getElementById('map_canvas'), {
           zoom: 11,
-          center: {lat: 51.501904, lng: -0.115871}
+          center: {lat: 51.501904, lng: -0.115871},
+          heading: 90,
+          tilt: 45
         });
         globalMap1 = map1;
          globeEntry = new MAP(map1);
+
+
 
          //Create the survey map and center it in London
          var map2 = new google.maps.Map(document.getElementById('map_canvas2'),{
@@ -107,13 +144,17 @@ Select Entry Data
           center: {lat: 51.501904, lng: -0.115871}
         });
         globalMap2 = map2;
+        globeSurvey = new SurveyMap(map2, keyValues);
 
          //Make the vis according to what is selected
         changeVis();
+        //Set the transit layer
         var transitLayer = new google.maps.TransitLayer();
         transitLayer.setMap(map1);
         transitLayer.setMap(map2);
         surveyCallback();
+
+          });
       }
 
 
@@ -133,6 +174,7 @@ Select Entry Data
       //Dynamically adds and removes menus based on what is selected
       function surveyCallback(){
 
+        globeSurvey.clearMarkers();
         d3.selectAll('.tempSelect').remove();
         var menu = document.getElementById("survey-stat");
         var type = menu.options[menu.selectedIndex].value;
@@ -147,24 +189,34 @@ Select Entry Data
         }
         else if(type === "distancekm"){
           //create the new options for the menu
-        var kilometers = ["< 1 km","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"
+        var kilometers = ["<1 km","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"
         ,"25","26","27","28","29","30","30+ kms"]
-        var select = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "categoryMenu");
-        //.attr('onChange',method for changing categories )
+        var select = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "categoryMenu")
+        .on('change',function(){
+          globeSurvey.clearMarkers();
+          globeSurvey.setHeatmap(globalMap2, "kilometers");
+        });
         select.selectAll('option').data(kilometers).enter().append('option').attr('value', function(d){ return d;}).text(function(d){return d;})
         }
         else if(type === 'avdistance'){
           //create the new options for the menu
         var distances = ["Total passenger kilometres","Average journey length (kms)"]
-        var select = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "categoryMenu");
-        //.attr('onChange',method for changing categories )
-        select.selectAll('option').data(distances).enter().append('option').attr('value', function(d){ return d;}).text(function(d){return d;})
+        var select = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "categoryMenu")
+        .on('change',function(){
+          globeSurvey.clearMarkers();
+          globeSurvey.setHeatmap(globalMap2, "avDistance");
+        });
+        select.selectAll('option').data(distances).enter().append('option').attr('value', function(d){ return d;}).text(function(d){return d;});
+        globeSurvey.setHeatmap(globalMap2, "avDistance");
         }
         else if(type === 'avtime'){
           //create the new options for the menu
         var times = ["Average","< 15 mins","15 - 30","30 - 45","45 - 60","60 - 90","over 90"]
-        var select = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "categoryMenu");
-        //.attr('onChange',method for changing categories )
+        var select = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "categoryMenu")
+        .on('change',function(){
+          globeSurvey.clearMarkers();
+          globeSurvey.setHeatmap(globalMap2, "avJourneyTime");
+        });
         select.selectAll('option').data(times).enter().append('option').attr('value', function(d){ return d;}).text(function(d){return d;})
         //Should also further subset based on time section of day
 
@@ -177,14 +229,21 @@ Select Entry Data
         else if(type === 'access'){
           //create the new options for the menu
         var access = ["NR/DLR/ Tram","Bus/ Coach","Bicycle" ,"Motorcycle","Car/Van Parked","Car/Van driven away","Walked","Taxi/ Minicab","RiverBus/Ferry","Other","Heathrow Terminal 1","Heathrow Terminal 2","Heathrow Terminal 3","Heathrow Terminal 4","Heathrow Terminal 5"]
-        var select = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "categoryMenu");
+        var select1 = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "categoryMenu");
         //.attr('onChange',method for changing categories )
-        select.selectAll('option').data(access).enter().append('option').attr('value', function(d){ return d;}).text(function(d){return d;});
+        select1.selectAll('option').data(access).enter().append('option').attr('value', function(d){ return d;}).text(function(d){return d;})
+        .on('change',function(){
+          globeSurvey.clearMarkers();
+          globeSurvey.setHeatmap(globalMap2, "access");
+        });
 
         var sections = ["Early","AM Peak","Midday","PM Peak","Evening","Late", "Total Day"]
-        var select = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "dayMenu");
-        //.attr('onChange',method for changing categories )
-        select.selectAll('option').data(sections).enter().append('option').attr('value', function(d){ return d;}).text(function(d){return d;})
+        var select2 = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "dayMenu")
+        .on('change',function(){
+          globeSurvey.clearMarkers();
+          globeSurvey.setHeatmap(globalMap2, "access");
+        });
+        select2.selectAll('option').data(sections).enter().append('option').attr('value', function(d){ return d;}).text(function(d){return d;})
         }
 
 
@@ -251,6 +310,74 @@ Select Entry Data
         globeEntry.setCircles(globalMap1);
       }
     }
+
+//Callback functions for global survey map
+
+    //CLears the heat map on the entry/exit map
+    function toggleData2() {
+      globeSurvey.clearMarkers();
+    }
+
+//Changes the gradient on the entry/exit heatmap
+ function changeGradient2() {
+   var gradient = [
+     'rgba(0, 255, 255, 0)',
+     'rgba(0, 255, 255, 1)',
+     'rgba(0, 191, 255, 1)',
+     'rgba(0, 127, 255, 1)',
+     'rgba(0, 63, 255, 1)',
+     'rgba(0, 0, 255, 1)',
+     'rgba(0, 0, 223, 1)',
+     'rgba(0, 0, 191, 1)',
+     'rgba(0, 0, 159, 1)',
+     'rgba(0, 0, 127, 1)',
+     'rgba(63, 0, 91, 1)',
+     'rgba(127, 0, 63, 1)',
+     'rgba(191, 0, 31, 1)',
+     'rgba(255, 0, 0, 1)'
+   ]
+   globeSurvey.changeGradient(gradient);
+   }
+   //Adds to the radius of the heatmap around an area or the circles around an area.
+   function addRadius2() {
+
+     globeSurvey.changeRadius(1);
+ }
+ //Reduces the radius of the heatmap around an area or the circles around an area.
+ function reduceRadius2(){
+   globeSurvey.changeRadius(-1);
+ }
+
+ //Changes the opacity of the circles and the heatmap
+ function addOpacity2() {
+   globeSurvey.changeOpacity(0.1)
+  }
+
+  //Changes the opacity of the circles and the heatmap
+  function reduceOpacity2() {
+
+     globeSurvey.changeOpacity(-0.1);
+   }
+
+
+  //Changes the vis type of the google map according to what the user selects
+  function changeVis2(){
+
+    globeSurvey.clearMarkers();
+    var menu = document.getElementById("vis-type2");
+    var type = menu.options[menu.selectedIndex].value;
+
+    //need to add some more code to the SurveyMap class to get this working
+    //
+    // if(type === "heat"){
+    //   globeSurvey.setHeatmap(globalMap1);
+    // }
+    // else if(type === "circle"){
+    //   //create circle chart.
+    //   globeSurvey.setCircles(globalMap1);
+    // }
+  }
+
 
 
     </script>
