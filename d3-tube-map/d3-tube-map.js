@@ -198,7 +198,7 @@ function tubeMap() {
 
 
 //here we have the list of paths that correspond to the stations
-				console.log(thisLineStations._groups[0]);
+
 
 
 				var idIndicator = false;
@@ -419,7 +419,7 @@ function tubeMap() {
     labels.classed("translucent", true);
 
 
-    labels.filter("." + name).classed("translucent", false);
+    //labels.filter("." + name).classed("translucent", false);
 
   };
 
