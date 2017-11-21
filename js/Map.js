@@ -157,11 +157,13 @@ setCircles(map){
 
       }
 
+//
 setMapOnAll(map) {
             for (var i = 0; i < this.markers.length; i++) {
               this.markers[i].setMap(map);
             }
           }
+//Clears all markers on the map
 clearMarkers() {
              this.setMapOnAll(null);
            }
@@ -235,11 +237,7 @@ setHeatmap(map){
 
 
 
-          //here we construct an object that stores the information we need.
-          //Construct heat map data
-          // {location: new google.maps.LatLng(37.782, -122.443), weight: 2}
 
-          heatMapData.push({location: new google.maps.LatLng(d.position.lat, d.position.lon), weight: val[0].Entry_Week});
 
           //Construct object with all the information for the bubble chart
           citymap.push({title: d.title, center: {lat: d.position.lat, lng: d.position.lon}, entWeek: val[0].Entry_Week,
@@ -252,16 +250,27 @@ setHeatmap(map){
 
           });
 
+          //here we construct an object that stores the information we need.
+          //Construct heat map data
+          // {location: new google.maps.LatLng(37.782, -122.443), weight: 2}
+
+
+
 
 
         })
 
+            for (var city in citymap) {
+                  heatMapData.push({location: new google.maps.LatLng(citymap[city].center.lat, citymap[city].center.lng), weight: citymap[city][""+ type + week+ ""]});
+                }
 
       self_item.heatmap = new google.maps.visualization.HeatmapLayer({
   data: heatMapData
 });
+
+
 self_item.heatmap.setMap(map);
-self_item.heatmap.setOptions({radius: 15, maxIntensity: 10000, gradient: ['#010107', '#02020C', '#030312', '#050417', '#07051D', '#0A0723', '#0D0829', '#100A2F', '#140B35', '#170C3B', '#1B0C41',
+self_item.heatmap.setOptions({radius: 15, maxIntensity: d3.max(heatMapData).weight, gradient: ['#010107', '#02020C', '#030312', '#050417', '#07051D', '#0A0723', '#0D0829', '#100A2F', '#140B35', '#170C3B', '#1B0C41',
  '#1F0C48', '#230C4E', '#280B53', '#2C0B58', '#310A5D', '#350960', '#3A0963', '#3E0966', '#430A68', '#470B6A', '#4B0C6B', '#4F0D6C', '#540F6D', '#58106E', '#5C126E', '#60136E', '#64156E', '#68166E', '#6C186E', '#70196E',
  '#741B6E', '#781C6D', '#7D1E6D', '#811F6C', '#85216B', '#89226A', '#8D2369', '#912568', '#952667', '#992865', '#9D2964', '#A12B62', '#A52D60', '#A92E5E', '#AD305C', '#B1325A', '#B53458', '#B93656', '#BD3853', '#C03A51',
  '#C43C4E', '#C83F4C', '#CB4149', '#CF4446', '#D24644', '#D54941', '#D84C3E', '#DB4F3B', '#DE5338', '#E15635', '#E45A32', '#E65D2F', '#E9612B', '#EB6528', '#ED6925', '#EF6D22', '#F1711E', '#F3751B', '#F47A18', '#F67E14',
