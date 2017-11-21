@@ -154,7 +154,9 @@ function tubeMap() {
       // Update the river
       river.enter().append("path").attr("d", drawLine).attr("stroke", "#C4E8F8").attr("fill", "none").attr("stroke-width", 1.8 * lineWidth);
 
+			var self_item = this;
 			var pathStorage = [];
+
       // Update the lines
       lines.enter().append("path").attr("d", drawLine).attr("id", function (d) {
         return d.name;
@@ -162,17 +164,42 @@ function tubeMap() {
         return d.color;
       }).attr("fill", "none").attr("stroke-width", function (d) {
         return d.highlighted ? lineWidth * 1.3 : lineWidth;
-      }).classed("line", true).on("click", function(){
-					//Here we would add the code to transform the path
+      })
+			.attr("class", function(d){
+
+				return d.name;
+			})
+			.classed("line", true).on("click", function(){
+					//Here we transform the path
 					//keep this path so we can use it later
+
+
 
 					var pathElement = d3.select(this).node();
 					var pathSegList = pathElement.pathSegList;
 
+					//var stations = d3.select("#map").selectAll(".station");
+
+					//console.log(stations);
+
+					//stations.filter("." + name);
+
+					//Construct new path string
 
 				var newPath = "M";
 
 				var name = d3.select(this).attr("id");
+
+
+
+				//These are all the stations that are on the selected line
+
+				var thisLineStations = d3.selectAll(".stations").selectAll("." + name);
+
+
+//here we have the list of paths that correspond to the stations
+				console.log(thisLineStations._groups[0]);
+
 
 				var idIndicator = false;
 				var index = -1;
@@ -188,6 +215,7 @@ function tubeMap() {
 				//The line is not currently transformed
 				if(idIndicator == false){
 					var path = d3.select(this).attr('d');
+					map.highlightLine(name);
 					//Store the old path to transition back to
 					pathStorage.push({"id": name, "path": path});
 
@@ -195,13 +223,15 @@ function tubeMap() {
 			if(j !== 0){
 				newPath += "L" + j*10 + "," + 50;
 			}
-			else{
-				newPath +=  j*10 + "," + 50;
-			}
 
+			else{
+				newPath +=  j*20 + "," + 100;
+
+			}
 		}
 	}
 	else{
+		map.unhighlightAll();
 		newPath = pathStorage[index].path;
 		pathStorage.splice(k,1);
 
@@ -209,7 +239,8 @@ function tubeMap() {
 
 	if(pathStorage.length !== 0){
 
-				d3.select(this).transition().duration(5000).attr("d", newPath);
+				d3.select(this).transition().duration(5000).attr("d", newPath).style("opacity", 1);
+
 
 	}
 
@@ -369,23 +400,33 @@ function tubeMap() {
   };
 
   map.highlightLine = function (name) {
-    var lines = d3.select("#map").selectAll(".line");
-    var stations = d3.select("#map").selectAll(".station");
-    var labels = d3.select("#map").selectAll(".label");
 
-    lines.classed("translucent", true);
+    var lines = d3.select("#tube-map").selectAll(".lines");
+    var stations = d3.select("#tube-map").selectAll(".stations");
+    var labels = d3.select("#tube-map").selectAll(".labels");
+
+
+
+
+
+		lines.classed("translucent", true);
+
+
+
+
+
     stations.classed("translucent", true);
     labels.classed("translucent", true);
 
-    stations.filter("." + name).classed("translucent", false);
+
     labels.filter("." + name).classed("translucent", false);
-    d3.select("#" + name).classed("translucent", false);
+
   };
 
   map.unhighlightAll = function () {
-    var lines = d3.select("#map").selectAll(".line");
-    var stations = d3.select("#map").selectAll(".station");
-    var labels = d3.select("#map").selectAll(".label");
+    var lines = d3.select("#tube-map").selectAll(".lines");
+    var stations = d3.select("#tube-map").selectAll(".stations");
+    var labels = d3.select("#tube-map").selectAll(".labels");
 
     lines.classed("translucent", false);
     stations.classed("translucent", false);
@@ -500,7 +541,6 @@ function tubeMap() {
           lastSectionType = "diagonal";
           path += "L" + points[1][0] + "," + points[1][1];
         } else if (Math.abs(xDiff) == 1 && Math.abs(yDiff) == 1) {
-					console.log(nextNode);
 					if(nextNode.dir != null){
           direction = nextNode.dir.toLowerCase();
 				}
