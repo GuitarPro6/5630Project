@@ -1,7 +1,21 @@
 html, body {
   width: 100%;
   height: 100%;
+
 }
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
 
 body {
   overflow: hidden;
@@ -71,7 +85,7 @@ h2.name {
 text {
   font-family: 'Hammersmith One', sans-serif;
   fill: #0019A8;
-  font-size: 14px;
+  font-size: 12px;
   cursor: pointer;
   font-weight: normal;
 }
@@ -91,6 +105,7 @@ text.highlighted {
   text-decoration: line-through;
 }
 .line {
+  opacity: 1.0;
   transition-property: opacity;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
@@ -115,9 +130,19 @@ text.highlighted {
   opacity: 0.3;
 }
 
+.translucent {
+  opacity: 0.1;
+}
+.notTranslucent{
+  opacity: 1;
+}
+.line.notTranslucent{
+
+  opacity: 1;
+}
 .label {
-  transition: opacity 0.5s ease-out;
-  transition: transform 0.5s ease-in-out;
+  transition-property: opacity;
+  transition-duration: .5s;
   transform-origin: 50% 50%;
 }
 
