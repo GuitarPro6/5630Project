@@ -123,7 +123,7 @@ function tubeMap() {
         return [d.river];
       });
 
-      var lines = gEnter.append("g").attr("class", "lines").attr("id", "line").selectAll("path").data(function (d) {
+      var lines = gEnter.append("g").attr("class", "line").attr("id", "line").selectAll("path").data(function (d) {
         return d.lines.lines;
       });
 
@@ -131,9 +131,10 @@ function tubeMap() {
         return d.stations.interchanges();
       });
 
-      var stations = gEnter.append("g").attr("class", "stations").selectAll("path").data(function (d) {
+      var stations = gEnter.append("g").attr("class", "station").selectAll("path").data(function (d) {
         return d.stations.normalStations();
       });
+
 
       var labels = gEnter.append("g").attr("class", "labels").selectAll("text").data(function (d) {
         return d.stations.toArray();
@@ -159,7 +160,8 @@ function tubeMap() {
 
       // Update the lines
       lines.enter().append("path").attr("d", drawLine).attr("id", function (d) {
-        return d.name;
+
+        return d.title;
       }).attr("stroke", function (d) {
         return d.color;
       }).attr("fill", "none").attr("stroke-width", function (d) {
@@ -192,9 +194,29 @@ function tubeMap() {
 
 
 
+
+
+				  var lines = d3.select("#tube-map").selectAll(".line");
+
+				var stationOrder = [];
+
+				var lineName;
+
+
+								lines.style("opacity",function(d){
+									if(d.title === name){
+
+										stationOrder = d.stations;
+										lineName = d.name;
+									}
+								})
+
+
 				//These are all the stations that are on the selected line
 
-				var thisLineStations = d3.selectAll(".stations").selectAll("." + name);
+				var thisLineStations = d3.selectAll(".station").selectAll("." + lineName);
+
+				console.log(stationOrder);
 
 
 //here we have the list of paths that correspond to the stations
@@ -219,13 +241,13 @@ function tubeMap() {
 					//Store the old path to transition back to
 					pathStorage.push({"id": name, "path": path});
 
-		for(var j = 0; j < pathSegList.numberOfItems; j++){
+		for(var j = 0; j < stationOrder.length; j++){
 			if(j !== 0){
-				newPath += "L" + j*10 + "," + 50;
+				newPath += "L" + j*80 + "," + 200;
 			}
 
 			else{
-				newPath +=  j*20 + "," + 100;
+				newPath +=  (200 + j*80) + "," + 200;
 
 			}
 		}
@@ -239,7 +261,7 @@ function tubeMap() {
 
 	if(pathStorage.length !== 0){
 
-				d3.select(this).transition().duration(5000).attr("d", newPath).style("opacity", 1);
+				d3.select(this).transition().duration(5000).attr("d", newPath);
 
 
 	}
@@ -250,7 +272,7 @@ function tubeMap() {
 
 			});
 
-			//Aadd click events here
+			//Add click events here
 
       var fgColor = "#000000";
       var bgColor = "#ffffff";
@@ -401,36 +423,78 @@ function tubeMap() {
 
   map.highlightLine = function (name) {
 
-    var lines = d3.select("#tube-map").selectAll(".lines");
-    var stations = d3.select("#tube-map").selectAll(".stations");
+
+
+    var lines = d3.select("#tube-map").selectAll(".line");
+    var stations = d3.select("#tube-map").selectAll(".station");
     var labels = d3.select("#tube-map").selectAll(".labels");
+		var interchanges = d3.select("#tube-map").selectAll(".interchanges");
+
+
+		interchanges.style("visibility", "hidden");
 
 
 
+		// lines.style("opacity", function(e) {
+    //     return (e.name === name) ? 1.0 : 0.2;
+    // });
+
+		lines.style("visibility", function(e) {
+        return (e.title === name) ? "visible" : "hidden";
+    });
+
+		stations.style("visibility", function(e) {
+				return (e.title === name) ? "visible" : "hidden";
+		});
+
+		labels.style("visibility", function(e) {
+				return (e.title === name) ? "visible" : "hidden";
+		});
+
+    //
+		// lines.classed("translucent", true);
+    // stations.classed("translucent", true);
+    // labels.classed("translucent", true);
+    //
+		// var selectedLine = d3.select("#tube-map").selectAll("." +  name).filter(".line");
+    //
+		// console.log(lines);
+		// console.log(selectedLine);
+
+		//selectedLine.classed("translucent", false);
 
 
-		lines.classed("translucent", true);
+		//selectedLine.classed("notTranslucent", true);
 
-
-
-
-
-    stations.classed("translucent", true);
-    labels.classed("translucent", true);
-
-
-    //labels.filter("." + name).classed("translucent", false);
 
   };
 
+	map.startTimer = function(csvData){
+
+		//create a data structure that ties each station to the time passed through, and whether it was an entry or exit
+		//Take that data and tie the count to the circles that will be at each staation
+
+
+		//Start timer
+	};
+
   map.unhighlightAll = function () {
-    var lines = d3.select("#tube-map").selectAll(".lines");
-    var stations = d3.select("#tube-map").selectAll(".stations");
+    var lines = d3.select("#tube-map").selectAll(".line");
+    var stations = d3.select("#tube-map").selectAll(".station");
     var labels = d3.select("#tube-map").selectAll(".labels");
 
-    lines.classed("translucent", false);
-    stations.classed("translucent", false);
-    labels.classed("translucent", false);
+		var interchanges = d3.select("#tube-map").selectAll(".interchanges");
+
+
+		interchanges.style("visibility", "visible");
+
+    // lines.classed("translucent", false);
+    // stations.classed("translucent", false);
+    // labels.classed("translucent", false);
+
+		lines.style("visibility", "visible");
+		stations.style("visibility", "visible");
+		labels.style("visibility", "visible");
   };
 
   map.unhighlightLine = function () {
