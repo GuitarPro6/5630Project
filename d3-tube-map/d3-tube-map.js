@@ -158,6 +158,8 @@ function tubeMap() {
 			var self_item = this;
 			var pathStorage = [];
 
+			var markerFunction = d3.arc().innerRadius(0).outerRadius(lineWidth).startAngle(0).endAngle(2 * Math.PI);
+
       // Update the lines
       lines.enter().append("path").attr("d", drawLine).attr("id", function (d) {
 
@@ -180,6 +182,9 @@ function tubeMap() {
 					var pathElement = d3.select(this).node();
 					var pathSegList = pathElement.pathSegList;
 
+
+					//d3.selectAll(".station-circle").remove();
+
 					//var stations = d3.select("#map").selectAll(".station");
 
 					//console.log(stations);
@@ -198,7 +203,12 @@ function tubeMap() {
 
 				  var lines = d3.select("#tube-map").selectAll(".line");
 
+					//List that contains all names of the stations on selected line
 				var stationOrder = [];
+
+				//List that contains all the points together with the names
+
+				var stationPoints = [];
 
 				var lineName;
 
@@ -216,7 +226,6 @@ function tubeMap() {
 
 				var thisLineStations = d3.selectAll(".station").selectAll("." + lineName);
 
-				console.log(stationOrder);
 
 
 //here we have the list of paths that correspond to the stations
@@ -227,6 +236,7 @@ function tubeMap() {
 				var index = -1;
 
 				for(var k = 0; k < pathStorage.length; k++){
+
 					if(pathStorage[k].id != null){
 						if(pathStorage[k].id == name){
 							idIndicator = true;
@@ -234,20 +244,25 @@ function tubeMap() {
 						}
 					}
 				}
+
+				console.log(pathStorage);
 				//The line is not currently transformed
 				if(idIndicator == false){
 					var path = d3.select(this).attr('d');
 					map.highlightLine(name);
 					//Store the old path to transition back to
 					pathStorage.push({"id": name, "path": path});
-
+//Construct the object that ties names to stations and coordinates
 		for(var j = 0; j < stationOrder.length; j++){
 			if(j !== 0){
-				newPath += "L" + j*80 + "," + 200;
+				newPath += "L" + (90 + j*90) + "," + 200;
+				stationPoints.push({name: stationOrder[j], coords: [(90 + j*90), 200]});
 			}
 
 			else{
-				newPath +=  (200 + j*80) + "," + 200;
+
+				newPath +=  (90) + "," + 200;
+				stationPoints.push({name: stationOrder[j], coords: [(90), 200]});
 
 			}
 		}
@@ -255,18 +270,61 @@ function tubeMap() {
 	else{
 		map.unhighlightAll();
 		newPath = pathStorage[index].path;
-		pathStorage.splice(k,1);
-
-	}
-
-	if(pathStorage.length !== 0){
-
-				d3.select(this).transition().duration(5000).attr("d", newPath);
-
+		pathStorage.splice(index,1);
 
 	}
 
 
+//Here we append circles that represent each station on the line
+
+		var svgCir = d3.select("#line").selectAll("g").data(stationPoints);
+
+		svgCir.exit().remove();
+
+		svgCir = svgCir.enter().append("g").merge(svgCir);
+
+
+
+		svgCir.append("circle").attr("class", "station-circle").attr("cx", function(d,i){return d.coords[0]})
+		.attr("cy", function(d){ return d.coords[1]}).attr("r", 6).style("visibility", "visible")
+		.on("click", function(d){})
+		.on("mouseover", function(d){})
+		.attr("stroke", fgColor)
+		.attr("fill", bgColor)
+		.attr("stroke-width", lineWidth / 2);
+
+//Set the staion names, first append g
+var station_text = d3.select("#line").selectAll("g").data(stationPoints);
+
+station_text.exit().remove();
+
+station_text = station_text.enter().append("g").attr("display", "inline").merge(station_text);
+
+
+					var text = station_text.selectAll('text')
+		                               .data(stationPoints);
+
+		                           text.exit().remove();
+
+		                         text = text.enter()
+		                               .append('text').merge(text);
+
+										//Set station names
+										text.attr('x', function(d){
+
+											return d.coords[0];
+										}).attr('y', function(d){
+											return d.coords[1] + 20;
+										}).text(function(d){
+											return d.name;
+										}).attr("dy", ".5em")
+										.style("visibility", "visible")// change dx and dy in order to center in the circle.
+  								.style("text-anchor", "middle");
+
+
+
+
+				d3.select(this).transition().duration(4000).attr("d", newPath);
 
 
 
@@ -277,7 +335,7 @@ function tubeMap() {
       var fgColor = "#000000";
       var bgColor = "#ffffff";
 
-      var markerFunction = d3.arc().innerRadius(0).outerRadius(lineWidth).startAngle(0).endAngle(2 * Math.PI);
+
 
       // Update the interchanges
       interchanges.enter().append("g").attr("id", function (d) {
