@@ -67,7 +67,9 @@ setCircles(map){
 
           //Retrieve the necessary data
           d3.csv("tubedata/counts/"+year+"_Entry_Exit.csv", function(error, csvData){
+            console.log("read function");
             csvData.forEach(function (da, i) {
+
             da.Entry_Week = +da.Entry_Week;
               da.Entry_Sat = +da.Entry_Saturday;
                 da.Entry_Sun = +da.Entry_Sunday;
@@ -205,7 +207,7 @@ setHeatmap(map){
 
 
           //Retrieve the necessary data
-          d3.csv("tubedata/counts/2007_Entry_Exit.csv", function(error, csvData){
+          d3.csv("tubedata/counts/"+ year + "_Entry_Exit.csv", function(error, csvData){
             csvData.forEach(function (da, i) {
             da.Entry_Week = +da.Entry_Week;
               da.Entry_Sat = +da.Entry_Saturday;
