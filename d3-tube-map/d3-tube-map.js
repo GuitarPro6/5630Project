@@ -216,6 +216,7 @@ function tubeMap() {
 								lines.style("opacity",function(d){
 									if(d.title === name){
 
+
 										stationOrder = d.stations;
 										lineName = d.name;
 									}
@@ -315,11 +316,13 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 											return d.coords[0];
 										}).attr('y', function(d){
 											return d.coords[1] + 20;
+										}).attr("position", "absolute").attr("transform", function(d){
+											return "rotate(-45) translate(0%,0%)";
 										}).text(function(d){
 											return d.name;
-										}).attr("dy", ".5em")
+										}).attr("dy", ".3em")
 										.style("visibility", "visible")// change dx and dy in order to center in the circle.
-  								.style("text-anchor", "middle");
+  								.style("text-anchor", "end");
 
 
 
@@ -425,7 +428,8 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
         dispatch$$1.call("click", this, name);
       }).append("text").text(function (d) {
-        return d.label;
+				console.log(d);
+        return d.text;
       }).attr("dy", 0.1).attr("x", function (d) {
         return xScale(d.x + d.labelShiftX) + textPos(d).pos[0];
       }).attr("y", function (d) {
@@ -769,6 +773,8 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
         var station = data.stations[d.name];
 
+				console.log(data.stations);
+
         station.x = d.coords[0];
         station.y = d.coords[1];
 
@@ -783,8 +789,8 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
           station.labelShiftY = d.hasOwnProperty("shiftCoords") ? d.shiftCoords[1] : line$$1.shiftCoords[1];
           station.labelPos = d.labelPos;
         }
-
         station.label = data.stations[d.name].title;
+				station.text = data.stations[d.name].text;
         station.position = data.stations[d.name].position;
         station.visited = false;
 
