@@ -27,6 +27,9 @@ My personal favorite is the live 3D tube map using the API to show where trains 
 http://brunoimbrizi.com/experiments/#/07
 
 
+https://guitarpro6.github.io/dataviscourse-pr-TubeVis/
+
+
 The 4 main components of the project will be:
 
 1: Drawing a scale Tube Map using the d3.tube package that draws nice maps from json files. (This just involves typing in each station to the json file and making sure the cooridnate system matches)
