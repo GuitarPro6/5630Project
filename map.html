@@ -26,7 +26,7 @@
     <ul>
       <li><a href="index.html">Tube Map</a></li>
   	</ul>
-<h1>Yearly Entry and Exit Tube Data</h1>
+<h1 style = "margin-left:30px;">Yearly Entry and Exit Tube Data</h1>
   </nav>
   <body>
 
@@ -163,9 +163,21 @@ Select Entry Data
       //Callback on the first map options
       function callback(){
         //Need to condition of it is circles or heatmap
-        globeEntry.clearMarkers();
 
-        globeEntry.setCircles(globalMap1);
+        var menu = document.getElementById("vis-type");
+        var type = menu.options[menu.selectedIndex].value;
+
+        if(type === "heat"){
+          globeEntry.clearMarkers();
+
+          globeEntry.setHeatmap(globalMap1);
+        }
+        else if(type === "circle"){
+          globeEntry.clearMarkers();
+
+          globeEntry.setCircles(globalMap1);
+        }
+
 
       }
 
