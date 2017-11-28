@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="tubeMap.css">
   <script src="https://d3js.org/d3.v4.js"></script>
 	<script src=d3-tube-map/d3-tube-map.js></script>
+	<script src=script.js></script>
   <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+
 </head>
 <nav>
   <ul>
@@ -16,7 +18,23 @@
 	</ul>
 </nav>
 <body>
-  <div id="tube-map">
+
+	<div id="floating-panel1" style ="margin-left:30px;  margin-bottom:10px;">
+		Select Vis Type
+	<select id = "data-year" onchange="callback();">
+<option value="time">Time Series</option>
+<option value="routes">Routes</option>
+<!-- <option value="2009">2009</option>
+<option value="2010">2010</option> -->
+</select>
+
+<button onclick = "startTimeAnimation()">24 Hour Animation</button>
+</div>
+
+
+
+
+  <div id="tube-map" style ="margin-left:30px;">
   </div>
   <script>
 	/*  <script src="https://unpkg.com/d3-tube-map@latest/build/d3-tube-map.js"></scr>  */
@@ -27,7 +45,7 @@
     var svg = d3.select(el)
         .append('svg')
         .style('width', width)
-        .style('height', height);;
+        .style('height', height).attr("id", "container");
 
 
 
@@ -47,6 +65,35 @@
 			}
       svg.datum(data).call(map);
     });
+
+
+		function startTimeAnimation(){
+			//Change aesthetics so that the visualization looks Good
+
+			//start a timer
+
+			//map.highlightLine("Metropolitan");
+
+			d3.csv("tubedata/Nov09JnyExport.csv", function(error, csvData){
+
+				var filteredCsvData = csvData.filter(function(d){
+
+					return d.SubSystem === "LUL" && d.StartStn !== "Unstarted";
+				})
+
+				//map.createSructure(filteredCsvData);
+
+				map.startTimer(filteredCsvData);
+
+
+			});
+
+			//select the data that meets the timer
+
+
+		}
+
+
   </script>
 
 </body>
