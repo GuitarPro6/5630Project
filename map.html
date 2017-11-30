@@ -56,13 +56,13 @@
     </select>
     Select Week/Weekend
     <select id="data-week" onchange="callback();" selected="selected">
-        <option disabled selected value> -- select an option -- </option>
+        <option disabled selected value> -- select an option --</option>
         <option value="Week">Week</option>
         <option value="Sat">Saturday</option>
         <option value="Sun">Sunday</option>
     </select>
-    <select id="vis-type" onchange="changeVis();" selected="selected">
-        <option disabled selected value> -- select an option -- </option>
+    <select id="vis-type" onchange="changeVis(); changeDisplayBox1();" selected="selected">
+        <option disabled selected value> -- select an option --</option>
         <option value="heat">Heatmap</option>
         <option value="circle">Bubbles</option>
     </select>
@@ -73,14 +73,23 @@
     <button onclick="addOpacity()">Add Opacity</button>
     <button onclick="reduceOpacity()">Reduce Opacity</button>
 </div>
-<div id="map_canvas" style="width:1000px; height:500px; margin-left:80px;"></div>
+<div id="container">
+    <div id="map_canvas" style="width:70%; height:500px; margin-left:4%; display:inline-block; float:left">
+
+    </div>
+    <div id="2nd_container" style="width:20%; height:500px; display:inline-block; float:left; margin-right:4%; padding-left: 2%">
+        <div id="display-vis-type"><b>Current Map Type:</b></div>
+    </div>
+</div>
+
+
 <div id="floating-panel2" style="margin-left:50px;">
 
 
     <h2>2016 Tube Survey Data</h2>
     Select Entry Data
     <select id="survey-stat" onchange="surveyCallback()" selected="selected">
-        <option disabled selected value> -- select an option -- </option>
+        <option disabled selected value> -- select an option --</option>
         <option value="purpose">Ride Purpose</option>
         <option value="distancekm">Kms Travelled</option>
         <option value="avdistance">Average Distance Travelled</option>
@@ -89,7 +98,7 @@
     </select>
 
     <select id="vis-type2" onchange="changeVis();" selected="selected">
-        <option disabled selected value> -- select an option -- </option>
+        <option disabled selected value> -- select an option --</option>
         <option value="heat">Heatmap</option>
         <option value="cluster">Cluster</option>
     </select>
@@ -358,6 +367,11 @@
         }
     }
 
+    //Changes the display box to the right of the map based on options selected
+    function changeDisplayBox1() {
+        document.getElementById("display-vis-type").value
+    }
+
     //Callback functions for global survey map
 
     //CLears the heat map on the entry/exit map
@@ -426,6 +440,8 @@
         //   globeSurvey.setCircles(globalMap1);
         // }
     }
+
+
 
 
 </script>
