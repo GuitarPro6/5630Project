@@ -463,6 +463,7 @@ function tubeMap() {
       var stations = d3.select("#tube-map").selectAll(".station");
       var labels = d3.select("#tube-map").selectAll(".labels");
       var interchanges = d3.select("#tube-map").selectAll(".interchanges");
+      var river = d3.select("#tube-map").selectAll(".river");
 
       interchanges.style("visibility", "hidden");
 
@@ -477,6 +478,8 @@ function tubeMap() {
       labels.style("visibility", function(e) {
           return (e.title === name) ? "visible" : "hidden";
       });
+
+      river.style("visibility", "hidden");
   };
 
 	map.startTimer = function(csvData){
@@ -492,6 +495,7 @@ function tubeMap() {
     var lines = d3.select("#tube-map").selectAll(".line");
     var stations = d3.select("#tube-map").selectAll(".station");
     var labels = d3.select("#tube-map").selectAll(".labels");
+    var river = d3.select("#tube-map").selectAll(".river");
 
     var interchanges = d3.select("#tube-map").selectAll(".interchanges");
 
@@ -500,6 +504,7 @@ function tubeMap() {
     lines.style("visibility", "visible");
     stations.style("visibility", "visible");
     labels.style("visibility", "visible");
+    river.style("visibility", "visible");
   };
 
   map.unhighlightLine = function () {
