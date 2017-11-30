@@ -79,6 +79,7 @@
 
     </div>
     <div id="2nd_container" style="width:20%; height:500px; display:inline-block; float:left; margin-right:4%; padding-left: 2%; margin-bottom:20px;">
+		<br>
         <div id="display-vis-type"><b>Current Map Type:</b></div>
 		<div id="display-data-year"><b>Selected Year:</b></div>
 		<div id="display-data-type"><b>Selected Data Type:</b></div>
@@ -92,7 +93,7 @@
 <div id="floating-panel2" style="margin-left:30px; ">
     <h2>2016 Tube Survey Data</h2>
     Select Entry Data
-    <select id="survey-stat" onchange="surveyCallback()" selected="selected">
+    <select id="survey-stat" onchange="surveyCallback(); changeDisplayBox2()" selected="selected">
         <option disabled selected value> -- select an option --</option>
         <option value="purpose">Ride Purpose</option>
         <option value="distancekm">Kms Travelled</option>
@@ -101,7 +102,7 @@
         <option value="access">Mode of Access</option>
     </select>
 
-    <select id="vis-type2" onchange="changeVis();" selected="selected">
+    <select id="vis-type2" onchange="changeVis(); changeDisplayBox2()" selected="selected">
         <option disabled selected value> -- select an option --</option>
         <option value="heat">Heatmap</option>
         <option value="cluster">Cluster</option>
@@ -117,6 +118,9 @@
 <div id="container">
 	<div id="map_canvas2" style="width:70%; height:500px; margin-left:4%; display:inline-block; float:left"></div>
 	<div id="2nd_container" style="width:20%; height:500px; display:inline-block; float:left; margin-right:4%; padding-left: 2%">
+		<br>
+		<div id="display-vis-type2"> <b>Current Map Type: </b> </div>
+		<div id="display-survey-stat"> <b>Selected Survey: </b> </div>
 	</div>
 </div>
 
@@ -216,18 +220,22 @@
         if (type === "purpose") {
 
             //create the new options for the menu
-            var purposes = ['Work', 'Home', 'School']
+            var purposes = ['-- select an option --', 'Work', 'Home', 'School']
             var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu");
             //.attr('onChange',method for changing categories )
             select.selectAll('option').data(purposes).enter().append('option').attr('value', function (d) {
                 return d;
             }).text(function (d) {
                 return d;
-            })
+            }).property("disabled", function(d) {
+				if (d === "-- select an option --")
+					return true;
+				else return false;
+			});
         }
         else if (type === "distancekm") {
             //create the new options for the menu
-            var kilometers = ["<1 km", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24"
+            var kilometers = ['-- select an option --', "<1 km", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24"
                 , "25", "26", "27", "28", "29", "30", "30+ kms"]
             var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
                 .on('change', function () {
@@ -238,11 +246,15 @@
                 return d;
             }).text(function (d) {
                 return d;
-            })
+            }).property("disabled", function(d) {
+				if (d === "-- select an option --")
+					return true;
+				else return false;
+			});
         }
         else if (type === 'avdistance') {
             //create the new options for the menu
-            var distances = ["Total passenger kilometres", "Average journey length (kms)"]
+            var distances = ['-- select an option --', "Total passenger kilometres", "Average journey length (kms)"]
             var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
                 .on('change', function () {
                     globeSurvey.clearMarkers();
@@ -252,12 +264,16 @@
                 return d;
             }).text(function (d) {
                 return d;
-            });
+            }).property("disabled", function(d) {
+				if (d === "-- select an option --")
+					return true;
+				else return false;
+			});
             globeSurvey.setHeatmap(globalMap2, "avDistance");
         }
         else if (type === 'avtime') {
             //create the new options for the menu
-            var times = ["Average", "< 15 mins", "15 - 30", "30 - 45", "45 - 60", "60 - 90", "over 90"]
+            var times = ['-- select an option --', "Average", "< 15 mins", "15 - 30", "30 - 45", "45 - 60", "60 - 90", "over 90"]
             var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
                 .on('change', function () {
                     globeSurvey.clearMarkers();
@@ -267,22 +283,30 @@
                 return d;
             }).text(function (d) {
                 return d;
-            })
+            }).property("disabled", function(d) {
+				if (d === "-- select an option --")
+					return true;
+				else return false;
+			})
             //Should also further subset based on time section of day
 
-            var sections = ["Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
+            var sections = ['-- select an option --', "Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
             var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu");
             //.attr('onChange',method for changing categories )
             select.selectAll('option').data(sections).enter().append('option').attr('value', function (d) {
                 return d;
             }).text(function (d) {
                 return d;
-            })
+            }).property("disabled", function(d) {
+				if (d === "-- select an option --")
+					return true;
+				else return false;
+			})
 
         }
         else if (type === 'access') {
             //create the new options for the menu
-            var access = ["NR/DLR/ Tram", "Bus/ Coach", "Bicycle", "Motorcycle", "Car/Van Parked", "Car/Van driven away", "Walked", "Taxi/ Minicab", "RiverBus/Ferry", "Other", "Heathrow Terminal 1", "Heathrow Terminal 2", "Heathrow Terminal 3", "Heathrow Terminal 4", "Heathrow Terminal 5"]
+            var access = ['-- select an option --', "NR/DLR/ Tram", "Bus/ Coach", "Bicycle", "Motorcycle", "Car/Van Parked", "Car/Van driven away", "Walked", "Taxi/ Minicab", "RiverBus/Ferry", "Other", "Heathrow Terminal 1", "Heathrow Terminal 2", "Heathrow Terminal 3", "Heathrow Terminal 4", "Heathrow Terminal 5"]
             var select1 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu");
             //.attr('onChange',method for changing categories )
             select1.selectAll('option').data(access).enter().append('option').attr('value', function (d) {
@@ -293,9 +317,13 @@
                 .on('change', function () {
                     globeSurvey.clearMarkers();
                     globeSurvey.setHeatmap(globalMap2, "access");
-                });
+                }).property("disabled", function(d) {
+				if (d === "-- select an option --")
+					return true;
+				else return false;
+			});
 
-            var sections = ["Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
+            var sections = ['-- select an option --', "Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
             var select2 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu")
                 .on('change', function () {
                     globeSurvey.clearMarkers();
@@ -305,7 +333,11 @@
                 return d;
             }).text(function (d) {
                 return d;
-            })
+            }).property("disabled", function(d) {
+				if (d === "-- select an option --")
+					return true;
+				else return false;
+			})
         }
 
 
@@ -466,6 +498,18 @@
         // }
     }
 
+	//Changes the display box to the right of the map based on options selected
+	function changeDisplayBox2() {
+		let badText = "-- select an option --";
+		let visType = document.getElementById("vis-type2").selectedOptions[0].text;
+		if (visType === badText)
+			visType = "";
+		let surveyStat = document.getElementById("survey-stat").selectedOptions[0].text;
+		if (surveyStat === badText)
+			surveyStat = "";
+        document.getElementById("display-vis-type2").innerHTML = "Current Map Type: ".bold() + visType;
+		document.getElementById("display-survey-stat").innerHTML = "Selected Survey: ".bold() + surveyStat;
+	}
 
 
 
