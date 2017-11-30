@@ -384,7 +384,6 @@ function tubeMap() {
               var label = d3.select(this);
               var name = label.attr("id");
               selectStation(name);
-
               dispatch$$1.call("click", this, name);
           })
           .append("text").text(function (d) {
@@ -438,6 +437,8 @@ function tubeMap() {
           })
           .attr("stroke", '#AAAAAA').attr("stroke-width", lineWidth / 4).style("stroke-dasharray", "3, 3");
     });
+
+
   }
 
   map.width = function (w) {
@@ -503,7 +504,7 @@ function tubeMap() {
 
     lines.style("visibility", "visible");
     stations.style("visibility", "visible");
-    labels.style("visibility", "visible");
+    //labels.style("visibility", "visible");
     river.style("visibility", "visible");
   };
 
