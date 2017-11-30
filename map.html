@@ -80,6 +80,7 @@
     <h2>2016 Tube Survey Data</h2>
     Select Entry Data
     <select id="survey-stat" onchange="surveyCallback()" selected="selected">
+        <option disabled selected value> -- select an option -- </option>
         <option value="purpose">Ride Purpose</option>
         <option value="distancekm">Kms Travelled</option>
         <option value="avdistance">Average Distance Travelled</option>
@@ -88,6 +89,7 @@
     </select>
 
     <select id="vis-type2" onchange="changeVis();" selected="selected">
+        <option disabled selected value> -- select an option -- </option>
         <option value="heat">Heatmap</option>
         <option value="cluster">Cluster</option>
     </select>
