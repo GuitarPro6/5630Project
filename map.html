@@ -32,7 +32,7 @@
 </nav>
 <body>
 
-<div id="floating-panel1" style="margin-left:30px;  margin-bottom:10px;">
+<div id="floating-panel1" style="margin-left:30px;">
     Select Year
     <select id="data-year" onchange="callback(); changeDisplayBox1()" selected="selected">
         <option disabled selected value> -- select an option --</option>
@@ -72,12 +72,13 @@
     <button onclick="reduceRadius()">Reduce Radius</button>
     <button onclick="addOpacity()">Add Opacity</button>
     <button onclick="reduceOpacity()">Reduce Opacity</button>
-</div>
-<div id="container">
-    <div id="map_canvas" style="width:70%; height:500px; margin-left:4%; display:inline-block; float:left">
+
+
+<div id="container" style="">
+    <div id="map_canvas" style="width:70%; height:500px; margin-left:4%; display:inline-block; float:left; margin-bottom:20px;">
 
     </div>
-    <div id="2nd_container" style="width:20%; height:500px; display:inline-block; float:left; margin-right:4%; padding-left: 2%">
+    <div id="2nd_container" style="width:20%; height:500px; display:inline-block; float:left; margin-right:4%; padding-left: 2%; margin-bottom:20px;">
         <div id="display-vis-type"><b>Current Map Type:</b></div>
 		<div id="display-data-year"><b>Selected Year:</b></div>
 		<div id="display-data-type"><b>Selected Data Type:</b></div>
@@ -85,10 +86,10 @@
     </div>
 </div>
 
+<hr style="width:98%; margin-right:2%">
 
-<div id="floating-panel2" style="margin-left:50px;">
-
-
+</div>
+<div id="floating-panel2" style="margin-left:30px; ">
     <h2>2016 Tube Survey Data</h2>
     Select Entry Data
     <select id="survey-stat" onchange="surveyCallback()" selected="selected">
@@ -111,9 +112,14 @@
     <button onclick="reduceRadius2()">Reduce Radius</button>
     <button onclick="addOpacity2()">Add Opacity</button>
     <button onclick="reduceOpacity2()">Reduce Opacity</button>
-
 </div>
-<div id="map_canvas2" style="width:1000px; height:500px; margin-left:80px;  margin-bottom:10px;"></div>
+
+<div id="container">
+	<div id="map_canvas2" style="width:70%; height:500px; margin-left:4%; display:inline-block; float:left"></div>
+	<div id="2nd_container" style="width:20%; height:500px; display:inline-block; float:left; margin-right:4%; padding-left: 2%">
+	</div>
+</div>
+
 <script>
 
     //The globe objects manage the instances of the data over each seperate google map
@@ -211,7 +217,7 @@
 
             //create the new options for the menu
             var purposes = ['Work', 'Home', 'School']
-            var select = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "categoryMenu");
+            var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu");
             //.attr('onChange',method for changing categories )
             select.selectAll('option').data(purposes).enter().append('option').attr('value', function (d) {
                 return d;
@@ -223,7 +229,7 @@
             //create the new options for the menu
             var kilometers = ["<1 km", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24"
                 , "25", "26", "27", "28", "29", "30", "30+ kms"]
-            var select = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "categoryMenu")
+            var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
                 .on('change', function () {
                     globeSurvey.clearMarkers();
                     globeSurvey.setHeatmap(globalMap2, "kilometers");
@@ -237,7 +243,7 @@
         else if (type === 'avdistance') {
             //create the new options for the menu
             var distances = ["Total passenger kilometres", "Average journey length (kms)"]
-            var select = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "categoryMenu")
+            var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
                 .on('change', function () {
                     globeSurvey.clearMarkers();
                     globeSurvey.setHeatmap(globalMap2, "avDistance");
@@ -252,7 +258,7 @@
         else if (type === 'avtime') {
             //create the new options for the menu
             var times = ["Average", "< 15 mins", "15 - 30", "30 - 45", "45 - 60", "60 - 90", "over 90"]
-            var select = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "categoryMenu")
+            var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
                 .on('change', function () {
                     globeSurvey.clearMarkers();
                     globeSurvey.setHeatmap(globalMap2, "avJourneyTime");
@@ -265,7 +271,7 @@
             //Should also further subset based on time section of day
 
             var sections = ["Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
-            var select = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "dayMenu");
+            var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu");
             //.attr('onChange',method for changing categories )
             select.selectAll('option').data(sections).enter().append('option').attr('value', function (d) {
                 return d;
@@ -277,7 +283,7 @@
         else if (type === 'access') {
             //create the new options for the menu
             var access = ["NR/DLR/ Tram", "Bus/ Coach", "Bicycle", "Motorcycle", "Car/Van Parked", "Car/Van driven away", "Walked", "Taxi/ Minicab", "RiverBus/Ferry", "Other", "Heathrow Terminal 1", "Heathrow Terminal 2", "Heathrow Terminal 3", "Heathrow Terminal 4", "Heathrow Terminal 5"]
-            var select1 = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "categoryMenu");
+            var select1 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu");
             //.attr('onChange',method for changing categories )
             select1.selectAll('option').data(access).enter().append('option').attr('value', function (d) {
                 return d;
@@ -290,7 +296,7 @@
                 });
 
             var sections = ["Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
-            var select2 = d3.select('#floating-panel2').append('select').attr('class', 'tempSelect').attr("id", "dayMenu")
+            var select2 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu")
                 .on('change', function () {
                     globeSurvey.clearMarkers();
                     globeSurvey.setHeatmap(globalMap2, "access");
