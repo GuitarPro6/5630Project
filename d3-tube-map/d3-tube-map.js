@@ -301,6 +301,7 @@ station_text.exit().remove();
 
 station_text = station_text.enter().append("g").attr("display", "inline").merge(station_text);
 
+console.log(stationPoints);
 
 					var text = station_text.selectAll('text')
 		                               .data(stationPoints);
@@ -312,10 +313,12 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
 										//Set station names
 										text.attr('x', function(d){
-
-											return d.coords[0];
-										}).attr('y', function(d){
-											return d.coords[1] + 20;
+											return d.coords[0] + 30;
+										}).attr('y', function(d, i){
+										    if (i % 2 === 0) {
+                                                return d.coords[1] + 20;
+                                            }
+                                            else return d.coords[1] - 20;
 										}).attr("position", "absolute").attr("transform", function(d){
 											return "rotate(-45) translate(0%,0%)";
 										}).text(function(d){
