@@ -228,9 +228,7 @@
             }).text(function (d) {
                 return d;
             }).property("disabled", function(d) {
-				if (d === "-- select an option --")
-					return true;
-				else return false;
+				return d === "-- select an option --"
 			});
         }
         else if (type === "distancekm") {
@@ -247,9 +245,7 @@
             }).text(function (d) {
                 return d;
             }).property("disabled", function(d) {
-				if (d === "-- select an option --")
-					return true;
-				else return false;
+				return d === "-- select an option --"
 			});
         }
         else if (type === 'avdistance') {
@@ -265,9 +261,7 @@
             }).text(function (d) {
                 return d;
             }).property("disabled", function(d) {
-				if (d === "-- select an option --")
-					return true;
-				else return false;
+				return d === "-- select an option --"
 			});
             globeSurvey.setHeatmap(globalMap2, "avDistance");
         }
@@ -284,9 +278,7 @@
             }).text(function (d) {
                 return d;
             }).property("disabled", function(d) {
-				if (d === "-- select an option --")
-					return true;
-				else return false;
+				return d === "-- select an option --"
 			})
             //Should also further subset based on time section of day
 
@@ -298,9 +290,7 @@
             }).text(function (d) {
                 return d;
             }).property("disabled", function(d) {
-				if (d === "-- select an option --")
-					return true;
-				else return false;
+				return d === "-- select an option --"
 			})
 
         }
@@ -318,9 +308,7 @@
                     globeSurvey.clearMarkers();
                     globeSurvey.setHeatmap(globalMap2, "access");
                 }).property("disabled", function(d) {
-				if (d === "-- select an option --")
-					return true;
-				else return false;
+				return d === "-- select an option --"
 			});
 
             var sections = ['-- select an option --', "Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
@@ -334,9 +322,7 @@
             }).text(function (d) {
                 return d;
             }).property("disabled", function(d) {
-				if (d === "-- select an option --")
-					return true;
-				else return false;
+				return d === "-- select an option --"
 			})
         }
 
