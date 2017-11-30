@@ -34,7 +34,7 @@
 
 <div id="floating-panel1" style="margin-left:30px;  margin-bottom:10px;">
     Select Year
-    <select id="data-year" onchange="callback();" selected="selected">
+    <select id="data-year" onchange="callback(); changeDisplayBox1()" selected="selected">
         <option disabled selected value> -- select an option --</option>
         <option value="2007">2007</option>
         <option value="2008">2008</option>
@@ -49,13 +49,13 @@
     </select>
     Select Data Type
 
-    <select id="data-type" onchange="callback();">
+    <select id="data-type" onchange="callback(); changeDisplayBox1()">
         <option disabled selected value> -- select an option --</option>
         <option value="ent">Entry</option>
         <option value="ext">Exit</option>
     </select>
     Select Week/Weekend
-    <select id="data-week" onchange="callback();" selected="selected">
+    <select id="data-week" onchange="callback(); changeDisplayBox1()" selected="selected">
         <option disabled selected value> -- select an option --</option>
         <option value="Week">Week</option>
         <option value="Sat">Saturday</option>
@@ -79,6 +79,9 @@
     </div>
     <div id="2nd_container" style="width:20%; height:500px; display:inline-block; float:left; margin-right:4%; padding-left: 2%">
         <div id="display-vis-type"><b>Current Map Type:</b></div>
+		<div id="display-data-year"><b>Selected Year:</b></div>
+		<div id="display-data-type"><b>Selected Data Type:</b></div>
+		<div id="display-data-week"><b>Selected Weekday(s):</b></div>
     </div>
 </div>
 
@@ -369,7 +372,23 @@
 
     //Changes the display box to the right of the map based on options selected
     function changeDisplayBox1() {
-        document.getElementById("display-vis-type").value
+		let badText = "-- select an option --";
+		let visType = document.getElementById("vis-type").selectedOptions[0].text;
+		if (visType === badText)
+			visType = "";
+		let dataYear = document.getElementById("data-year").selectedOptions[0].text;
+		if (dataYear === badText)
+			dataYear = "";
+		let dataType = document.getElementById("data-type").selectedOptions[0].text;
+		if (dataType === badText)
+			dataType = "";
+		let dataWeek = document.getElementById("data-week").selectedOptions[0].text;
+		if (dataWeek === badText)
+			dataWeek = "";
+        document.getElementById("display-vis-type").innerHTML = "Current Map Type: ".bold() + visType;
+		document.getElementById("display-data-year").innerHTML = "Selected Year: ".bold() + dataYear;
+		document.getElementById("display-data-type").innerHTML = "Selected Data Type: ".bold() + dataType;
+		document.getElementById("display-data-week").innerHTML = "Selected Weekday(s): ".bold() + dataWeek;
     }
 
     //Callback functions for global survey map
