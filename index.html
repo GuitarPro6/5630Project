@@ -75,17 +75,49 @@
 
 			//map.highlightLine("Metropolitan");
 
-			d3.csv("tubedata/Nov09JnyExport.csv", function(error, csvData){
+			d3.json("stations.json", function(error, data) {
+				if(error != null){
+					console.log("something went wrong");
+				}
 
-				var filteredCsvData = csvData.filter(function(d){
 
-					return d.SubSystem === "LUL" && d.StartStn !== "Unstarted";
-				})
+
+
+			d3.csv("tubedata/RODS_2016/Misc/Stationflows/AEI-Summary.csv", function(error, csvData){
+
+				var timeTable = [];
+						var myDate = new Date();
+						let stripMilliseconds_all = function(s) { return s.slice(0, -1); };
+									var format_entry = d3.timeFormat("%H:%M");
+
+				for(var i = 0; i < 24; i++){
+
+					for(var min = 0; min < 60; min++){
+						myDate.setHours(i, min, 0, 0);
+						time_stamp = format_entry(myDate);
+						timeTable.push(time_stamp);
+					}
+
+				}
+
+
+
+				// var filteredCsvData = csvData.filter(function(d){
+				//
+				//
+				// 	//Here we initially filter the data to give to the map
+				//
+				// 	return d.StartStn !== "Unstarted";
+				// })
+
+				//console.log(csvData);
 
 				//map.createSructure(filteredCsvData);
 
-				map.startTimer(filteredCsvData);
+				map.startTimer(csvData, timeTable, data);
 
+
+			});
 
 			});
 
