@@ -74,20 +74,22 @@
     <button onclick="reduceOpacity()">Reduce Opacity</button>
 
 
-<div id="container" style="">
-    <div id="map_canvas" style="width:70%; height:500px; margin-left:4%; display:inline-block; float:left; margin-bottom:20px;">
+    <div id="container" style="">
+        <div id="map_canvas"
+             style="width:70%; height:500px; margin-left:4%; display:inline-block; float:left; margin-bottom:20px;">
 
+        </div>
+        <div id="2nd_container"
+             style="width:20%; height:500px; display:inline-block; float:left; margin-right:4%; padding-left: 2%; margin-bottom:20px;">
+            <br>
+            <div id="display-vis-type"><b>Current Map Type:</b></div>
+            <div id="display-data-year"><b>Selected Year:</b></div>
+            <div id="display-data-type"><b>Selected Data Type:</b></div>
+            <div id="display-data-week"><b>Selected Weekday(s):</b></div>
+        </div>
     </div>
-    <div id="2nd_container" style="width:20%; height:500px; display:inline-block; float:left; margin-right:4%; padding-left: 2%; margin-bottom:20px;">
-		<br>
-        <div id="display-vis-type"><b>Current Map Type:</b></div>
-		<div id="display-data-year"><b>Selected Year:</b></div>
-		<div id="display-data-type"><b>Selected Data Type:</b></div>
-		<div id="display-data-week"><b>Selected Weekday(s):</b></div>
-    </div>
-</div>
 
-<hr style="width:98%; margin-right:2%">
+    <hr style="width:98%; margin-right:2%">
 
 </div>
 <div id="floating-panel2" style="margin-left:30px; ">
@@ -116,12 +118,13 @@
 </div>
 
 <div id="container">
-	<div id="map_canvas2" style="width:70%; height:500px; margin-left:4%; display:inline-block; float:left"></div>
-	<div id="2nd_container" style="width:20%; height:500px; display:inline-block; float:left; margin-right:4%; padding-left: 2%">
-		<br>
-		<div id="display-vis-type2"> <b>Current Map Type: </b> </div>
-		<div id="display-survey-stat"> <b>Selected Survey: </b> </div>
-	</div>
+    <div id="map_canvas2" style="width:70%; height:500px; margin-left:4%; display:inline-block; float:left"></div>
+    <div id="2nd_container"
+         style="width:20%; height:500px; display:inline-block; float:left; margin-right:4%; padding-left: 2%">
+        <br>
+        <div id="display-vis-type2"><b>Current Map Type: </b></div>
+        <div id="display-survey-stat"><b>Selected Survey: </b></div>
+    </div>
 </div>
 
 <script>
@@ -227,9 +230,9 @@
                 return d;
             }).text(function (d) {
                 return d;
-            }).property("disabled", function(d) {
-				return d === "-- select an option --"
-			});
+            }).property("disabled", function (d) {
+                return d === "-- select an option --"
+            });
         }
         else if (type === "distancekm") {
             //create the new options for the menu
@@ -244,9 +247,9 @@
                 return d;
             }).text(function (d) {
                 return d;
-            }).property("disabled", function(d) {
-				return d === "-- select an option --"
-			});
+            }).property("disabled", function (d) {
+                return d === "-- select an option --"
+            });
         }
         else if (type === 'avdistance') {
             //create the new options for the menu
@@ -260,9 +263,9 @@
                 return d;
             }).text(function (d) {
                 return d;
-            }).property("disabled", function(d) {
-				return d === "-- select an option --"
-			});
+            }).property("disabled", function (d) {
+                return d === "-- select an option --"
+            });
             globeSurvey.setHeatmap(globalMap2, "avDistance");
         }
         else if (type === 'avtime') {
@@ -277,9 +280,9 @@
                 return d;
             }).text(function (d) {
                 return d;
-            }).property("disabled", function(d) {
-				return d === "-- select an option --"
-			})
+            }).property("disabled", function (d) {
+                return d === "-- select an option --"
+            })
             //Should also further subset based on time section of day
 
             var sections = ['-- select an option --', "Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
@@ -289,9 +292,9 @@
                 return d;
             }).text(function (d) {
                 return d;
-            }).property("disabled", function(d) {
-				return d === "-- select an option --"
-			})
+            }).property("disabled", function (d) {
+                return d === "-- select an option --"
+            })
 
         }
         else if (type === 'access') {
@@ -307,9 +310,9 @@
                 .on('change', function () {
                     globeSurvey.clearMarkers();
                     globeSurvey.setHeatmap(globalMap2, "access");
-                }).property("disabled", function(d) {
-				return d === "-- select an option --"
-			});
+                }).property("disabled", function (d) {
+                return d === "-- select an option --"
+            });
 
             var sections = ['-- select an option --', "Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
             var select2 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu")
@@ -321,9 +324,9 @@
                 return d;
             }).text(function (d) {
                 return d;
-            }).property("disabled", function(d) {
-				return d === "-- select an option --"
-			})
+            }).property("disabled", function (d) {
+                return d === "-- select an option --"
+            })
         }
 
 
@@ -396,23 +399,23 @@
 
     //Changes the display box to the right of the map based on options selected
     function changeDisplayBox1() {
-		let badText = "-- select an option --";
-		let visType = document.getElementById("vis-type").selectedOptions[0].text;
-		if (visType === badText)
-			visType = "";
-		let dataYear = document.getElementById("data-year").selectedOptions[0].text;
-		if (dataYear === badText)
-			dataYear = "";
-		let dataType = document.getElementById("data-type").selectedOptions[0].text;
-		if (dataType === badText)
-			dataType = "";
-		let dataWeek = document.getElementById("data-week").selectedOptions[0].text;
-		if (dataWeek === badText)
-			dataWeek = "";
+        let badText = "-- select an option --";
+        let visType = document.getElementById("vis-type").selectedOptions[0].text;
+        if (visType === badText)
+            visType = "";
+        let dataYear = document.getElementById("data-year").selectedOptions[0].text;
+        if (dataYear === badText)
+            dataYear = "";
+        let dataType = document.getElementById("data-type").selectedOptions[0].text;
+        if (dataType === badText)
+            dataType = "";
+        let dataWeek = document.getElementById("data-week").selectedOptions[0].text;
+        if (dataWeek === badText)
+            dataWeek = "";
         document.getElementById("display-vis-type").innerHTML = "Current Map Type: ".bold() + visType;
-		document.getElementById("display-data-year").innerHTML = "Selected Year: ".bold() + dataYear;
-		document.getElementById("display-data-type").innerHTML = "Selected Data Type: ".bold() + dataType;
-		document.getElementById("display-data-week").innerHTML = "Selected Weekday(s): ".bold() + dataWeek;
+        document.getElementById("display-data-year").innerHTML = "Selected Year: ".bold() + dataYear;
+        document.getElementById("display-data-type").innerHTML = "Selected Data Type: ".bold() + dataType;
+        document.getElementById("display-data-week").innerHTML = "Selected Weekday(s): ".bold() + dataWeek;
     }
 
     //Callback functions for global survey map
@@ -484,19 +487,18 @@
         // }
     }
 
-	//Changes the display box to the right of the map based on options selected
-	function changeDisplayBox2() {
-		let badText = "-- select an option --";
-		let visType = document.getElementById("vis-type2").selectedOptions[0].text;
-		if (visType === badText)
-			visType = "";
-		let surveyStat = document.getElementById("survey-stat").selectedOptions[0].text;
-		if (surveyStat === badText)
-			surveyStat = "";
+    //Changes the display box to the right of the map based on options selected
+    function changeDisplayBox2() {
+        let badText = "-- select an option --";
+        let visType = document.getElementById("vis-type2").selectedOptions[0].text;
+        if (visType === badText)
+            visType = "";
+        let surveyStat = document.getElementById("survey-stat").selectedOptions[0].text;
+        if (surveyStat === badText)
+            surveyStat = "";
         document.getElementById("display-vis-type2").innerHTML = "Current Map Type: ".bold() + visType;
-		document.getElementById("display-survey-stat").innerHTML = "Selected Survey: ".bold() + surveyStat;
-	}
-
+        document.getElementById("display-survey-stat").innerHTML = "Selected Survey: ".bold() + surveyStat;
+    }
 
 
 </script>
