@@ -2,104 +2,170 @@
 <html lang="en">
 <head>
 
-	<meta charset="UTF-8">
-	<title>Jonathan Bown, jonvzw6@gmail.com, U0696785</title>
-	<head>
-  <link rel="stylesheet" href="tubeMap.css">
-  <script src="https://d3js.org/d3.v4.js"></script>
-	<script src=d3-tube-map/d3-tube-map.js></script>
-	<script src=script.js></script>
-  <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>Jonathan Bown, jonvzw6@gmail.com, U0696785</title>
+    <head>
+        <link rel="stylesheet" href="tubeMap.css">
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <script src=d3-tube-map/d3-tube-map.js></script>
+        <script src=script.js></script>
+        <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
 
-</head>
-<nav>
-  <ul>
-    <li><a href="map.html">Google Map</a></li>
-      <li><a href="video.html">Video</a></li>
-	</ul>
-</nav>
+    </head>
+    <div class="linechart">
+        <div class="close">Close</div>
+        <div class="station"></div>
+        <div class="legends">
+            <div class="sunday">Sunday</div>
+            <div class="saturday">Saturday</div>
+            <div class="week">Week</div>
+        </div>
+        <div class="chartWrapper">
+            <div class="entry"></div>
+            <div class="exit"></div>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="map.html">Google Map</a></li>
+            <li><a href="video.html">Video</a></li>
+        </ul>
+    </nav>
+
 <body>
 
-	<div id="floating-panel1" style ="margin-left:30px;  margin-bottom:10px;">
-		Select Vis Type
-	<select id = "data-year" onchange="callback();">
-<option value="time">Time Series</option>
-<option value="routes">Routes</option>
-<!-- <option value="2009">2009</option>
-<option value="2010">2010</option> -->
-</select>
+<div id="floating-panel1" style="margin-left:30px;  margin-bottom:10px;">
+    Select Vis Type
+    <select id="data-year" onchange="callback();">
+        <option value="time">Time Series</option>
+        <option value="routes">Routes</option>
+        <!-- <option value="2009">2009</option>
+        <option value="2010">2010</option> -->
+    </select>
 
-<button onclick = "startTimeAnimation()">24 Hour Animation</button>
+    <button onclick="startTimeAnimation()">24 Hour Animation</button>
 </div>
 
 
-
-
-  <div id="tube-map" style ="margin-left:30px;">
-  </div>
-  <script>
-	/*  <script src="https://unpkg.com/d3-tube-map@latest/build/d3-tube-map.js"></scr>  */
+<div id="tube-map" style="margin-left:30px;">
+</div>
+<script>
+    /*  <script src="https://unpkg.com/d3-tube-map@latest/build/d3-tube-map.js"></scr>  */
     var el = document.getElementById('tube-map');
-		var width = 1600;
-		var height = 1024;
+    var width = 1600;
+    var height = 1024;
 
     var svg = d3.select(el)
-        .append('svg')
-        .style('width', width)
-        .style('height', height).attr("id", "container");
-
+            .append('svg')
+            .style('width', width)
+            .style('height', height).attr("id", "container");
 
 
     const map = tubeMap.tubeMap()
-      .width(width)
-      .height(height)
-      .margin({
-        top: height / 50,
-        right: width / 7,
-        bottom: height / 10,
-        left: width / 7,
-      });
+            .width(width)
+            .height(height)
+            .margin({
+                top: height / 50,
+                right: width / 7,
+                bottom: height / 10,
+                left: width / 7,
+            });
 
-    d3.json("stations.json", function(error, data) {
-			if(error != null){
-				console.log("something went wrong");
-			}
-      svg.datum(data).call(map);
-    });
+    d3.queue()
+            .defer(d3.json, 'stations.json')
+            .defer(d3.csv, 'tubedata/counts/2007_Entry_Exit.csv')
+            .defer(d3.csv, 'tubedata/counts/2008_Entry_Exit.csv')
+            .defer(d3.csv, 'tubedata/counts/2009_Entry_Exit.csv')
+            .defer(d3.csv, 'tubedata/counts/2010_Entry_Exit.csv')
+            .defer(d3.csv, 'tubedata/counts/2011_Entry_Exit.csv')
+            .defer(d3.csv, 'tubedata/counts/2012_Entry_Exit.csv')
+            .defer(d3.csv, 'tubedata/counts/2013_Entry_Exit.csv')
+            .defer(d3.csv, 'tubedata/counts/2014_Entry_Exit.csv')
+            .defer(d3.csv, 'tubedata/counts/2015_Entry_Exit.csv')
+            .defer(d3.csv, 'tubedata/counts/2016_Entry_Exit.csv')
+            .awaitAll(readyForData);
+
+    function readyForData(error, response) {
+
+        if (error != null) {
+            console.log("something went wrong");
+        }
+
+        const dataFactory = {
+            stations: response[0],
+            yeardata: [
+                {year: '2007', data: response[1]},
+                {year: '2008', data: response[2]},  // To Do other year attribute rename
+                {year: '2009', data: response[3]},
+                {year: '2010', data: response[4]},
+                {year: '2011', data: response[5]},
+                {year: '2012', data: response[6]},
+                {year: '2013', data: response[7]},
+                {year: '2014', data: response[8]},
+                {year: '2015', data: response[9]},
+                {year: '2016', data: response[10]}
+            ]
+        };
+
+        const yearData = formatEntryExit(dataFactory);
+        console.log(response[8])
+        const dataStore = {stations: response[0], yearData}
+        svg.datum(dataStore).call(map);
+
+    }
+
+    function formatEntryExit({yeardata}) {
+        const yearCollection = yeardata.map(year=> {
+            return year.data.map(d=> ({
+                year: year.year,
+                entry_saturday: parseFloat(d.Entry_Saturday),
+                entry_sunday: parseFloat(d.Entry_Sunday),
+                entry_week: isNaN(parseFloat(d.Entry_Week)) ? 0 : parseFloat(d.Entry_Week),
+                exit_saturday: parseFloat(d.Exit_Saturday),
+                exit_sunday: parseFloat(d.Exit_Sunday),
+                exit_week: parseFloat(d.Exit_Week),
+                station: d.Station.trim().replace(/ /g, ''),
+                milliion: d.million,
+                nlc: d.nlc
+            }))
+        })
+
+        return yearCollection.reduce((a, b)=>a.concat(b), []);
+    }
 
 
-		function startTimeAnimation(){
-			//Change aesthetics so that the visualization looks Good
+    function startTimeAnimation() {
+        //Change aesthetics so that the visualization looks Good
 
-			//start a timer
+        //start a timer
 
-			//map.highlightLine("Metropolitan");
+        //map.highlightLine("Metropolitan");
 
-			d3.csv("tubedata/Nov09JnyExport.csv", function(error, csvData){
+        d3.csv("tubedata/Nov09JnyExport.csv", function (error, csvData) {
 
-				var filteredCsvData = csvData.filter(function(d){
+            var filteredCsvData = csvData.filter(function (d) {
 
-					return d.SubSystem === "LUL" && d.StartStn !== "Unstarted";
-				})
+                return d.SubSystem === "LUL" && d.StartStn !== "Unstarted";
+            })
 
-				//map.createSructure(filteredCsvData);
+            //map.createSructure(filteredCsvData);
 
-				map.startTimer(filteredCsvData);
-
-
-			});
-
-			//select the data that meets the timer
+            map.startTimer(filteredCsvData);
 
 
-		}
+        });
+
+        //select the data that meets the timer
 
 
-  </script>
+    }
+
+
+</script>
 
 </body>
 <script>
-
 
 
 </script>
