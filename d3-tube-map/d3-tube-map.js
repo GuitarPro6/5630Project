@@ -481,7 +481,7 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
             river.style("visibility", "hidden");
         };
 
-	map.startTimer = async function(csvData, timeTable, stationData){
+	map.startTimer = function(csvData, timeTable, stationData){
 
 		//append circles to the stations with initial counts
 
@@ -698,7 +698,7 @@ console.log(d3.select(this.parentNode));
   if (elapsed > 72000) t.stop();
 }, 50,2000);
 
-		//Start timer
+	
 	};
 
         map.unhighlightAll = function () {
