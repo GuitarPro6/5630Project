@@ -562,8 +562,8 @@
       }
     },
     "EdgwareRoad": {
-      "title": "Edgeware Road",
-      "text": "Edgeware \nRoad",
+      "title": "Edgware Road",
+      "text": "Edgware \nRoad",
       "position": {
         "lat": 51.520195,
         "lon": -0.166986
@@ -852,7 +852,7 @@
         "lon": -0.194138165994553
       }
     },
-    "HighStreetKensingtion": {
+    "HighStreetKensington": {
       "title": "High Street Kensington",
       "text": "High Street \nKensington",
       "position": {
@@ -1077,7 +1077,7 @@
       }
     },
     "LeytonStone": {
-      "title": "Leytonstone",
+      "title": "LeytonStone",
       "position": {
         "lat": 51.56828,
         "lon": 0.00739
@@ -2144,7 +2144,6 @@
       "labelPos": "S"
     }, {
       "coords": [-45.8, -5.58],
-      "marker": "interchange",
       "name": "GoldhawkRoad",
       "labelPos": "NW",
       "shiftCoords": [0, 0],
@@ -2338,7 +2337,7 @@
       },
       {
         "coords": [-31.58, 0.02],
-        "name": "HighStreetKensingtion",
+        "name": "HighStreetKensington",
         "labelPos": "S"
       },
       {
@@ -2530,7 +2529,6 @@
     "shiftCoords": [0, 0],
     "nodes": [{
       "coords": [57.82, 42.06],
-      "marker": "interchange",
       "name": "WalthamstowCentral",
       "labelPos": "S",
       "canonical": true
@@ -2591,8 +2589,7 @@
     {
       "coords": [-9.78, 4.82],
       "name": "OxfordCircus",
-      "labelPos": "S",
-      "marker": "interchange"
+      "labelPos": "S"
     },
     {
       "coords": [-14.48, 0.02]
@@ -2760,8 +2757,7 @@
     }, {
       "coords": [22.66, -12.18],
       "name": "LondonBridge",
-      "labelPos": "SE",
-      "marker": "interchange"
+      "labelPos": "SE"
     }, {
       "coords": [10.12, -24.78],
       "name": "Borough",
@@ -2962,8 +2958,7 @@
     "nodes": [{
       "coords": [-72.48, 4.82],
       "name": "EalingBroadway",
-      "labelPos": "W",
-      "marker": "interchange"
+      "labelPos": "W"
     },
     {
       "coords": [-69.5, 4.82]
@@ -3202,8 +3197,7 @@
       "coords": [-27.8, 15.4],
       "name": "EdgwareRoad",
       "labelPos": "SE",
-      "hide":true,
-      "marker": "interchange"
+      "hide":true
     },
     {
       "coords": [-31.98, 16.6]
@@ -3224,13 +3218,14 @@
     },
     {
       "coords": [-32.48, 0.24],
-      "name": "HighStreetKensingtion",
+      "name": "HighStreetKensington",
       "labelPos": "SE"
     },
     {
       "coords": [-32.48, -11.34],
       "name": "EarlsCourt",
-      "labelPos": "SE"
+      "labelPos": "SE",
+      "hide": true
     },
     {
       "coords": [-37, -12.44],
@@ -3412,8 +3407,7 @@
                       {
                          "coords": [64.16, 20.98],
                          "name": "Stratford",
-                         "labelPos": "W",
-                         "marker": "interchange"
+                         "labelPos": "W"
                       },
                       {
                          "coords": [65.28, 22.52]
@@ -3486,8 +3480,7 @@
           {
             "coords": [-80.36, 38.78],
             "name": "SouthRuislip",
-            "labelPos": "W",
-            "marker" : "interchange"
+            "labelPos": "W"
           },
           {
             "coords": [-80.36, 34.48],
@@ -3497,8 +3490,7 @@
           {
             "coords": [-80.36, 30.08],
             "name": "Greenford",
-            "labelPos": "W",
-            "marker": "interchange"
+            "labelPos": "W"
           },
           {
             "coords": [-80.36, 25.68]
@@ -3827,8 +3819,7 @@
  {
    "coords": [-56.06, 45.6],
    "name": "Harrow-on-the-Hill",
-   "labelPos": "N",
-   "marker": "interchange"
+   "labelPos": "N"
  }
 ]
  },
@@ -3949,14 +3940,12 @@
  "coords": [-16, 14.6],
  "name": "BakerStreet",
  "labelPos": "NE",
- "marker": "interchange",
  "hide" : true
 },
 {
  "coords": [-16, 4.82],
  "name": "BondStreet",
- "labelPos": "SW",
- "marker": "interchange"
+ "labelPos": "SW"
 },
 {
  "coords": [-16, 0.86]
@@ -3964,14 +3953,12 @@
 {
  "coords": [-14.76, -3.9],
  "name": "GreenPark",
- "labelPos": "NE",
- "marker" : "interchange"
+ "labelPos": "NE"
 },
 {
  "coords": [-4.98, -11.16],
  "name": "Westminster",
- "labelPos": "SW",
- "marker" : "interchange"
+ "labelPos": "SW"
 },
 {
  "coords": [-2.5, -13.78]
@@ -3979,8 +3966,7 @@
 {
  "coords": [-2.5, -17.06],
  "name": "Waterloo",
- "labelPos": "W",
- "marker" : "interchange"
+ "labelPos": "W"
 },
 {
  "coords": [-2.26, -18.66]
@@ -4003,7 +3989,6 @@
  "coords": [22.6, -12.18],
  "name": "LondonBridge",
  "labelPos": "SE",
- "marker": "interchange",
  "hide": true
 },
 {
@@ -4038,8 +4023,7 @@
 {
  "coords": [70.28, -2.54],
  "name": "CanningTown",
- "labelPos": "NE",
- "marker": "interchange"
+ "labelPos": "NE"
 },
 {
  "coords": [70.28, 12.32]
@@ -4065,8 +4049,7 @@
 "nodes": [ {
  "coords": [-46.76, -10.26],
  "name": "Hammersmith",
- "labelPos": "W",
- "marker" : "interchange"
+ "labelPos": "W"
 },{
  "coords": [-46.76, -5.58],
  "name": "GoldhawkRoad",
@@ -4110,13 +4093,11 @@
 {
  "coords": [-34, 18.6],
  "name": "Paddington",
- "marker":"interchange",
  "labelPos": "NE",
  "hide":true
 },
 {
  "coords": [-27.84, 18.6],
- "marker":"interchange",
  "name": "EdgwareRoad",
  "labelPos": "NE",
  "hide" : true
@@ -4124,8 +4105,7 @@
 {
  "coords": [-14.6, 18.6],
  "name": "BakerStreet",
- "labelPos": "NE",
- "marker": "interchange"
+ "labelPos": "NE"
 },
 {
  "coords": [-7.34, 18.6],
@@ -4138,8 +4118,7 @@
  "labelPos": "NE"
 },
 {
- "coords": [9.22, 18.6],
- "marker": "interchange"
+ "coords": [9.22, 18.6]
 },
 {
  "coords": [11.62, 18.6]
@@ -4330,7 +4309,8 @@
     {
         "coords": [-34.74, -10.02],
         "name": "EarlsCourt",
-        "labelPos": "SE"
+        "labelPos": "SE",
+        "hide": true
     },
     {
         "coords": [-29.4, -10.02],
