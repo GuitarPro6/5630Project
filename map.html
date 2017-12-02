@@ -239,7 +239,10 @@
             //create the new options for the menu
             let purposes = ['-- select an option --', 'Work', 'Home', 'School'];
             let select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu");
-            select.on('change', changeDisplayBox2);
+            select.on('change', function() {
+              changeDisplayBox2();
+              changeVis2(type);
+            });
             //.attr('onChange',method for changing categories )
             select.selectAll('option').data(purposes).enter().append('option').attr('value', function (d) {
                 return d;
@@ -270,10 +273,9 @@
             //create the new options for the menu
             let distances = ['-- select an option --', "Total passenger kilometres", "Average journey length (kms)"]
             let select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
-                .on('change', function () {
-                    changeDisplayBox2();
-                    globeSurvey.clearMarkers();
-                    globeSurvey.setHeatmap(globalMap2, "avDistance");
+                .on('change', function() {
+                  changeDisplayBox2();
+                  changeVis2(type);
                 });
             select.selectAll('option').data(distances).enter().append('option').attr('value', function (d) {
                 return d;
@@ -319,8 +321,9 @@
             //create the new options for the menu
             let access = ['-- select an option --', "NR/DLR/ Tram", "Bus/ Coach", "Bicycle", "Motorcycle", "Car/Van Parked", "Car/Van driven away", "Walked", "Taxi/ Minicab", "RiverBus/Ferry", "Other", "Heathrow Terminal 1", "Heathrow Terminal 2", "Heathrow Terminal 3", "Heathrow Terminal 4", "Heathrow Terminal 5"]
             let select1 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
-                .on('change', function () {
-                    changeDisplayBox2();
+                .on('change', function() {
+                  changeDisplayBox2();
+                  changeVis2(type);
                 });
             select1.selectAll('option').data(access).enter().append('option').attr('value', function (d) {
                 return d;
@@ -336,10 +339,9 @@
 
             let sections = ['-- select an option --', "Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
             let select2 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu")
-                .on('change', function () {
-                    changeDisplayBox2();
-                    globeSurvey.clearMarkers();
-                    globeSurvey.setHeatmap(globalMap2, "access");
+                .on('change', function() {
+                  changeDisplayBox2();
+                  changeVis2(type);
                 });
             select2.selectAll('option').data(sections).enter().append('option').attr('value', function (d) {
                 return d;
