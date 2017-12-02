@@ -1,4 +1,4 @@
-nlc,Station,Note,Entry_Week,Entry_Saturday,Entry_Sunday,Exit_Week,Exit_Saturday,Exit_Sunday,million,
+nlc,Station,Note,Weekday,Saturday,Sunday,Weekday,Saturday,Sunday,million,,,,
 500,Acton Town, ,8905,6408,4360,8619,5960,4254,5.58,,,,
 502,Aldgate   , ,12031,2384,1946,11942,3471,2760,6.65,,,,
 503,Aldgate East                       , ,16210,11047,10285,15070,9593,9154,10.13,,,,
@@ -267,6 +267,7 @@ nlc,Station,Note,Entry_Week,Entry_Saturday,Entry_Sunday,Exit_Week,Exit_Saturday,
 599,Wood Lane , ,5337,4366,2949,5828,4834,2958,3.65,,,,
 769,Woodford  , ,9028,6125,3489,6375,5013,3015,4.86,,,,
 771,Woodside Park                      , ,4424,2504,1607,4254,2575,1793,2.66,,,,
-774,Edgware Road (Bak)                 , ,7132,4691,3000,7071,4753,2774,4.43,,,,
-
-
+ ,,,,,,,,,,,,,
+,Total,,4210075,3017207,2015392,4129263,2910595,1958597,2652.56,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
