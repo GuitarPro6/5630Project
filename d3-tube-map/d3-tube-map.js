@@ -214,7 +214,6 @@
                             }
                         }
                     }
-                    console.log(pathStorage);
                     //The line is not currently transformed
                     if (idIndicator == false) {
                         var path = d3.select(this).attr('d');
@@ -487,11 +486,14 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
 
 		    var lines = d3.select("#tube-map").selectAll(".line");
-		    var stations = d3.select("#tube-map").selectAll(".station");
 		    var labels = d3.select("#tube-map").selectAll(".labels");
 				var interchanges = d3.select("#tube-map").selectAll(".interchanges");
+        var river = d3.select("#tube-map").selectAll(".river");
 
-				lines.classed("translucent", true);
+
+        river.style("visibility", "hidden");
+
+				lines.style("opacity", 0.5);
 				// stations.classed("translucent", true);
 				//labels.classed("translucent", true);
 
@@ -520,7 +522,7 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
 		svg.attr("class", "time_circle").attr("r", 6).attr("cx", function(d){
 
-console.log(d3.select(this.parentNode));
+
 			if(d === "entry"){
 					return xScale(d3.select(this.parentNode)._groups[0][0].__data__.x + 1);
 			}
@@ -603,6 +605,7 @@ console.log(d3.select(this.parentNode));
 		var format_entry = d3.timeFormat("%S:%L");
 
 		var tick = 0;
+
 		//create a data structure that ties each station to the time passed through, and whether it was an entry or exit
 		//Take that data and tie the count to the circles that will be at each staation
 		var t = d3.interval(function(elapsed) {
@@ -610,8 +613,10 @@ console.log(d3.select(this.parentNode));
 
 			console.log(time);
 			console.log(tick);
-			if(tick % 15 === 0){
+      d3.select("#clock").text(time);
 
+			if(tick % 15 === 0){
+        var journeys = 0;
 
 
 		time_data.forEach(function(d){
@@ -636,7 +641,9 @@ console.log(d3.select(this.parentNode));
 				if(d != null){
 					if(d.ent[0] != null){
 						if(d.ent[0][""+ time + ""] != null){
+              journeys+=+d.ent[0][""+ time + ""];
 							return (d.ent[0][""+ time + ""])/30;
+
 						}
 					// 	else if(d.ent[0] != null){
 					// 		return d.ent[0][""+ time + ""]/30;
@@ -649,6 +656,8 @@ console.log(d3.select(this.parentNode));
 						return 0;
 					};
 				}});
+
+        d3.select("#journey").text("" + journeys + " Journeys");
 
 				exits.transition().duration(1000).attr("r", function(c){
 
@@ -687,18 +696,18 @@ console.log(d3.select(this.parentNode));
 
 
 
-// time_data.filter(function(d){
-//
-// 	return d.time === time1;
-// });
-
 
 	tick++;
 
-  if (elapsed > 72000) t.stop();
+  if (elapsed > 72000){
+    t.stop();
+    river.style("visibility", "visible");
+    d3.selectAll("time_circle").remove();
+    lines.style("opacity", 1);
+  }
 }, 50,2000);
 
-	
+
 	};
 
         map.unhighlightAll = function () {
@@ -713,7 +722,7 @@ console.log(d3.select(this.parentNode));
 
             lines.style("visibility", "visible");
             stations.style("visibility", "visible");
-            //labels.style("visibility", "visible");
+            labels.style("visibility", "visible");
             river.style("visibility", "visible");
         };
 
@@ -786,7 +795,7 @@ console.log(d3.select(this.parentNode));
 				var format_exit = d3.timeFormat("%S:%L");
 
 
-console.log(stationData.stations);
+
 
 		var time_stamp = 0;
 
