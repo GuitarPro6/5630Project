@@ -86,6 +86,9 @@
             <div id="display-data-year"><b>Selected Year:</b></div>
             <div id="display-data-type"><b>Selected Data Type:</b></div>
             <div id="display-data-week"><b>Selected Weekday(s):</b></div>
+            <br>
+            <div id="display-radius"><b>Radius: </b></div>
+            <div id="display-opacity"><b>Opacity: </b></div>
         </div>
     </div>
 
@@ -117,46 +120,46 @@
     <button onclick="reduceOpacity2()">Reduce Opacity</button>
 </div>
 
-<div id="container">
+<div id="container-2">
     <div id="map_canvas2" style="width:70%; height:500px; margin-left:4%; display:inline-block; float:left"></div>
-    <div id="2nd_container"
+    <div id="2nd_container-2"
          style="width:20%; height:500px; display:inline-block; float:left; margin-right:4%; padding-left: 2%">
         <br>
         <div id="display-vis-type2"><b>Current Map Type: </b></div>
         <div id="display-survey-stat"><b>Selected Survey: </b></div>
-<div id="disp-category"></div>
-<div id="disp-day"></div>
+        <div id="disp-category"></div>
+        <div id="disp-day"></div>
     </div>
 </div>
 
 <script>
 
     //The globe objects manage the instances of the data over each seperate google map
-    var globeEntry, globeSurvey;
+    let globeEntry, globeSurvey;
 
     //the actual google map objects
-    var globalMap1, globalMap2;
+    let globalMap1, globalMap2;
 
     //keeps track of the stations
-    var keyValues = [];
+    let keyValues = [];
 
-	//keeps track if the heatmap is visible
-	let map1Vis = false;
-	let map2Vis = false;
+    //keeps track if the heatmap is visible
+    let map1Vis = false;
+    let map2Vis = false;
 
     //Initialize the google map
     function initMap() {
 
         //obtain all the station information
         d3.json("stations.json", function (error, data) {
-            if (error != null) {
+            if (error) {
                 console.log("something went wrong");
             }
 
-            var keys = Object.keys(data.stations);
+            let keys = Object.keys(data.stations);
 
 
-            var vals = Object.keys(data.stations).map(function (key) {
+            let vals = Object.keys(data.stations).map(function (key) {
 
                 //combine this object to use later.
                 keyValues.push({k: key, title: data.stations[key].title, position: data.stations[key].position});
@@ -165,7 +168,7 @@
 
 
             //Create the google map and center it in london
-            var map1 = new google.maps.Map(document.getElementById('map_canvas'), {
+            let map1 = new google.maps.Map(document.getElementById('map_canvas'), {
                 zoom: 11,
                 center: {lat: 51.501904, lng: -0.115871},
                 heading: 90,
@@ -176,7 +179,7 @@
 
 
             //Create the survey map and center it in London
-            var map2 = new google.maps.Map(document.getElementById('map_canvas2'), {
+            let map2 = new google.maps.Map(document.getElementById('map_canvas2'), {
                 zoom: 11,
                 center: {lat: 51.501904, lng: -0.115871}
             });
@@ -186,7 +189,7 @@
             //Make the vis according to what is selected
             changeVis();
             //Set the transit layer
-            var transitLayer = new google.maps.TransitLayer();
+            let transitLayer = new google.maps.TransitLayer();
             transitLayer.setMap(map1);
             transitLayer.setMap(map2);
             surveyCallback();
@@ -199,8 +202,8 @@
     function callback() {
         //Need to condition of it is circles or heatmap
 
-        var menu = document.getElementById("vis-type");
-        var type = menu.options[menu.selectedIndex].value;
+        let menu = document.getElementById("vis-type");
+        let type = menu.options[menu.selectedIndex].value;
 
         if (type === "heat") {
             globeEntry.clearMarkers();
@@ -212,7 +215,6 @@
 
             globeEntry.setCircles(globalMap1);
         }
-		map1Vis = true;
     }
 
 
@@ -222,15 +224,15 @@
 
         globeSurvey.clearMarkers();
         d3.selectAll('.tempSelect').remove();
-        var menu = document.getElementById("survey-stat");
-        var type = menu.options[menu.selectedIndex].value;
+        let menu = document.getElementById("survey-stat");
+        let type = menu.options[menu.selectedIndex].value;
 
         if (type === "purpose") {
 
             //create the new options for the menu
-            var purposes = ['-- select an option --', 'Work', 'Home', 'School']
-            var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu");
-			select.on('change', changeDisplayBox2);
+            let purposes = ['-- select an option --', 'Work', 'Home', 'School'];
+            let select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu");
+            select.on('change', changeDisplayBox2);
             //.attr('onChange',method for changing categories )
             select.selectAll('option').data(purposes).enter().append('option').attr('value', function (d) {
                 return d;
@@ -242,11 +244,11 @@
         }
         else if (type === "distancekm") {
             //create the new options for the menu
-            var kilometers = ['-- select an option --', "<1 km", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24"
-                , "25", "26", "27", "28", "29", "30", "30+ kms"]
-            var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
+            let kilometers = ['-- select an option --', "<1 km", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24"
+                , "25", "26", "27", "28", "29", "30", "30+ kms"];
+            let select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
                 .on('change', function () {
-					changeDisplayBox2();
+                    changeDisplayBox2();
                     globeSurvey.clearMarkers();
                     globeSurvey.setHeatmap(globalMap2, "kilometers");
                 });
@@ -260,10 +262,10 @@
         }
         else if (type === 'avdistance') {
             //create the new options for the menu
-            var distances = ['-- select an option --', "Total passenger kilometres", "Average journey length (kms)"]
-            var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
+            let distances = ['-- select an option --', "Total passenger kilometres", "Average journey length (kms)"]
+            let select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
                 .on('change', function () {
-					changeDisplayBox2();
+                    changeDisplayBox2();
                     globeSurvey.clearMarkers();
                     globeSurvey.setHeatmap(globalMap2, "avDistance");
                 });
@@ -278,27 +280,27 @@
         }
         else if (type === 'avtime') {
             //create the new options for the menu
-            var times = ['-- select an option --', "Average", "< 15 mins", "15 - 30", "30 - 45", "45 - 60", "60 - 90", "over 90"]
-            var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
+            let times = ['-- select an option --', "Average", "< 15 mins", "15 - 30", "30 - 45", "45 - 60", "60 - 90", "over 90"]
+            let select1 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
                 .on('change', function () {
-					changeDisplayBox2();
+                    changeDisplayBox2();
                     globeSurvey.clearMarkers();
                     globeSurvey.setHeatmap(globalMap2, "avJourneyTime");
                 });
-            select.selectAll('option').data(times).enter().append('option').attr('value', function (d) {
+            select1.selectAll('option').data(times).enter().append('option').attr('value', function (d) {
                 return d;
             }).text(function (d) {
                 return d;
             }).property("disabled", function (d) {
                 return d === "-- select an option --"
-            })
+            });
             //Should also further subset based on time section of day
 
-            var sections = ['-- select an option --', "Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
-            var select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu")
-            	.on('change',function() {
-					changeDisplayBox2();
-			});
+            let sections = ['-- select an option --', "Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
+            let select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu")
+                .on('change', function () {
+                    changeDisplayBox2();
+                });
             select.selectAll('option').data(sections).enter().append('option').attr('value', function (d) {
                 return d;
             }).text(function (d) {
@@ -310,11 +312,11 @@
         }
         else if (type === 'access') {
             //create the new options for the menu
-            var access = ['-- select an option --', "NR/DLR/ Tram", "Bus/ Coach", "Bicycle", "Motorcycle", "Car/Van Parked", "Car/Van driven away", "Walked", "Taxi/ Minicab", "RiverBus/Ferry", "Other", "Heathrow Terminal 1", "Heathrow Terminal 2", "Heathrow Terminal 3", "Heathrow Terminal 4", "Heathrow Terminal 5"]
-            var select1 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
-            	.on('change',function() {
-					changeDisplayBox2();
-			});
+            let access = ['-- select an option --', "NR/DLR/ Tram", "Bus/ Coach", "Bicycle", "Motorcycle", "Car/Van Parked", "Car/Van driven away", "Walked", "Taxi/ Minicab", "RiverBus/Ferry", "Other", "Heathrow Terminal 1", "Heathrow Terminal 2", "Heathrow Terminal 3", "Heathrow Terminal 4", "Heathrow Terminal 5"]
+            let select1 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
+                .on('change', function () {
+                    changeDisplayBox2();
+                });
             select1.selectAll('option').data(access).enter().append('option').attr('value', function (d) {
                 return d;
             }).text(function (d) {
@@ -327,10 +329,10 @@
                 return d === "-- select an option --"
             });
 
-            var sections = ['-- select an option --', "Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
-            var select2 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu")
+            let sections = ['-- select an option --', "Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
+            let select2 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu")
                 .on('change', function () {
-					changeDisplayBox2();
+                    changeDisplayBox2();
                     globeSurvey.clearMarkers();
                     globeSurvey.setHeatmap(globalMap2, "access");
                 });
@@ -348,20 +350,19 @@
 
     //CLears the heat map on the entry/exit map
     function toggleData() {
-		console.log(map1Vis);
-		if (map1Vis) {
-	        globeEntry.clearMarkers();
-			map1Vis = false;
-		}
-		else {
-			changeVis();
-			map1Vis = true;
-		}
+        if (map1Vis) {
+            globeEntry.clearMarkers();
+            map1Vis = false;
+        }
+        else {
+            changeVis();
+            map1Vis = true;
+        }
     }
 
     //Changes the gradient on the entry/exit heatmap
     function changeGradient() {
-        var gradient = [
+        let gradient = [
             'rgba(0, 255, 255, 0)',
             'rgba(0, 255, 255, 1)',
             'rgba(0, 191, 255, 1)',
@@ -382,24 +383,34 @@
 
     //Adds to the radius of the heatmap around an area or the circles around an area.
     function addRadius() {
-
-        globeEntry.changeRadius(1);
+        let newR = globeEntry.changeRadius(1);
+        document.getElementById("display-radius").innerHTML = "Radius: ".bold() + newR;
     }
 
     //Reduces the radius of the heatmap around an area or the circles around an area.
     function reduceRadius() {
-        globeEntry.changeRadius(-1);
+        let newR = globeEntry.changeRadius(-1);
+        document.getElementById("display-radius").innerHTML = "Radius: ".bold() + newR;
     }
 
     //Changes the opacity of the circles and the heatmap
     function addOpacity() {
-        globeEntry.changeOpacity(0.1)
+        let newO = globeEntry.changeOpacity(0.1);
+        if (newO > 1)
+            newO = 1;
+        else if (newO < 0)
+            newO = 0;
+        document.getElementById("display-opacity").innerHTML = "Opacity: ".bold() + newO;
     }
 
     //Changes the opacity of the circles and the heatmap
     function reduceOpacity() {
-
-        globeEntry.changeOpacity(-0.1);
+        let newO = globeEntry.changeOpacity(-0.1);
+        if (newO > 1)
+            newO = 1;
+        else if (newO < 0)
+            newO = 0;
+        document.getElementById("display-opacity").innerHTML = "Opacity: ".bold() + newO;
     }
 
 
@@ -407,8 +418,8 @@
     function changeVis() {
 
         globeEntry.clearMarkers();
-        var menu = document.getElementById("vis-type");
-        var type = menu.options[menu.selectedIndex].value;
+        let menu = document.getElementById("vis-type");
+        let type = menu.options[menu.selectedIndex].value;
 
         if (type === "heat") {
             globeEntry.setHeatmap(globalMap1);
@@ -449,7 +460,7 @@
 
     //Changes the gradient on the entry/exit heatmap
     function changeGradient2() {
-        var gradient = [
+        let gradient = [
             'rgba(0, 255, 255, 0)',
             'rgba(0, 255, 255, 1)',
             'rgba(0, 191, 255, 1)',
@@ -470,24 +481,22 @@
 
     //Adds to the radius of the heatmap around an area or the circles around an area.
     function addRadius2() {
-
-        globeSurvey.changeRadius(1);
+        return globeSurvey.changeRadius(1);
     }
 
     //Reduces the radius of the heatmap around an area or the circles around an area.
     function reduceRadius2() {
-        globeSurvey.changeRadius(-1);
+        return globeSurvey.changeRadius(-1);
     }
 
     //Changes the opacity of the circles and the heatmap
     function addOpacity2() {
-        globeSurvey.changeOpacity(0.1)
+        return globeSurvey.changeOpacity(0.1)
     }
 
     //Changes the opacity of the circles and the heatmap
     function reduceOpacity2() {
-
-        globeSurvey.changeOpacity(-0.1);
+        return globeSurvey.changeOpacity(-0.1);
     }
 
 
@@ -495,8 +504,8 @@
     function changeVis2() {
 
         globeSurvey.clearMarkers();
-        var menu = document.getElementById("vis-type2");
-        var type = menu.options[menu.selectedIndex].value;
+        let menu = document.getElementById("vis-type2");
+        let type = menu.options[menu.selectedIndex].value;
 
         //need to add some more code to the SurveyMap class to get this working
         //
@@ -521,27 +530,27 @@
         document.getElementById("display-vis-type2").innerHTML = "Current Map Type: ".bold() + visType;
         document.getElementById("display-survey-stat").innerHTML = "Selected Survey: ".bold() + surveyStat;
 
-		if (!!document.getElementById("categoryMenu")) {
-			let cate = document.getElementById("categoryMenu").selectedOptions[0].text;
-			if (cate === badText)
-				cate = "";
-			console.log(cate);
-			document.getElementById("disp-category").innerHTML = "Category: ".bold() + cate;
-		}
-		else {
-			document.getElementById("disp-category").innerHTML = "";
-		}
+        if (!!document.getElementById("categoryMenu")) {
+            let cate = document.getElementById("categoryMenu").selectedOptions[0].text;
+            if (cate === badText)
+                cate = "";
+            console.log(cate);
+            document.getElementById("disp-category").innerHTML = "Category: ".bold() + cate;
+        }
+        else {
+            document.getElementById("disp-category").innerHTML = "";
+        }
 
-		if (!!document.getElementById("dayMenu")) {
-			let cate = document.getElementById("dayMenu").selectedOptions[0].text;
-			if (cate === badText)
-				cate = "";
-			console.log(cate);
-			document.getElementById("disp-day").innerHTML = "Time: ".bold() + cate;
-		}
-		else {
-			document.getElementById("disp-day").innerHTML = "";
-		}
+        if (!!document.getElementById("dayMenu")) {
+            let cate = document.getElementById("dayMenu").selectedOptions[0].text;
+            if (cate === badText)
+                cate = "";
+            console.log(cate);
+            document.getElementById("disp-day").innerHTML = "Time: ".bold() + cate;
+        }
+        else {
+            document.getElementById("disp-day").innerHTML = "";
+        }
     }
 
 

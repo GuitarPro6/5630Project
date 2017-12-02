@@ -3,24 +3,18 @@
 *
 */
 class MAP {
-
     /**
      *Constructor for the map class
      * @param map instance of google map object
      *
      */
     constructor(map) {
-
         this.map = map;
-
-//instance of heatmap
+        //instance of heatmap
         this.heatmap = null;
-
-//Keeps track of the current markers on the map
+        //Keeps track of the current markers on the map
         this.markers = [];
-
     }
-
 
     /**
      *
@@ -28,40 +22,34 @@ class MAP {
      *
      */
     setCircles(map) {
-
         d3.selectAll(".circle").remove();
 
-        var keyValues = [];
+        let keyValues = [];
+        let self_item = this;
+        let citymap = [];
+        let heatMapData = [];
 
-        var self_item = this;
-
-        var citymap = [];
-
-        var heatMapData = [];
         d3.json("stations.json", function (error, data) {
-            if (error != null) {
+            if (error) {
                 console.log("something went wrong");
             }
 
-            var keys = Object.keys(data.stations);
-
-
-            var vals = Object.keys(data.stations).map(function (key) {
-
+            let keys = Object.keys(data.stations);
+            let vals = Object.keys(data.stations).map(function (key) {
                 //combine this object to use later.
                 keyValues.push({k: key, title: data.stations[key].title, position: data.stations[key].position});
                 return data.stations[key];
             });
 
             //Get the selected year, type, and week/weekend for the data
-            var e = document.getElementById("data-type");
-            var type = e.options[e.selectedIndex].value;
+            let e = document.getElementById("data-type");
+            let type = e.options[e.selectedIndex].value;
 
-            var f = document.getElementById("data-week");
-            var week = f.options[f.selectedIndex].value;
+            let f = document.getElementById("data-week");
+            let week = f.options[f.selectedIndex].value;
 
-            var g = document.getElementById("data-year");
-            var year = g.options[g.selectedIndex].value;
+            let g = document.getElementById("data-year");
+            let year = g.options[g.selectedIndex].value;
 
             console.log(year);
 
@@ -69,37 +57,25 @@ class MAP {
             d3.csv("tubedata/counts/" + year + "_Entry_Exit.csv", function (error, csvData) {
                 console.log("read function");
                 csvData.forEach(function (da, i) {
-
                     da.Entry_Week = +da.Entry_Week;
-                    da.Entry_Sat = +da.Entry_Saturday;
-                    da.Entry_Sun = +da.Entry_Sunday;
+                    da.Entry_Sat = +da.Entry_Sat;
+                    da.Entry_Sun = +da.Entry_Sun;
                     da.Exit_Week = +da.Exit_Week;
-                    da.Exit_Sat = +da.Exit_Saturday;
-                    da.Exit_Sun = +da.Exit_Sunday;
-
-
+                    da.Exit_Sat = +da.Exit_Sat;
+                    da.Exit_Sun = +da.Exit_Sun;
                 });
 
-
                 keyValues.forEach(function (d, i) {
-
-
-                    var val = csvData.filter(function (n) {
-
-
+                    let val = csvData.filter(function (n) {
                         return n.Station === d.title;
                     });
-
-
                     if (val.length === 0) {
                         val.push({entry: 0});
                     }
 
-
                     //here we construct an object that stores the information we need.
                     //Construct heat map data
                     // {location: new google.maps.LatLng(37.782, -122.443), weight: 2}
-
                     heatMapData.push({
                         location: new google.maps.LatLng(d.position.lat, d.position.lon),
                         weight: val[0].Entry_Week
@@ -113,19 +89,14 @@ class MAP {
                         extWeek: val[0].Exit_Week,
                         extSat: val[0].Exit_Sat,
                         extSun: val[0].Exit_Sun
-
-
                     });
+                });
 
-
-                })
-
-
-                for (var city in citymap) {
+                for (let city in citymap) {
                     // Add the circle for this city to the map.
                     //  console.log(""+ type + week+ "");
                     //  console.log(citymap[city][""+ type + week+ ""]);
-                    var cityCircle = new google.maps.Circle({
+                    let cityCircle = new google.maps.Circle({
                         class: "circle",
                         strokeColor: '#FF0000',
                         strokeOpacity: 0.8,
@@ -139,21 +110,15 @@ class MAP {
 
                         //Math.sqrt(citymap[city].population) * 100
                     });
-
                     self_item.markers.push(cityCircle);
                 }
-
-
             });
-
-
         });
-
     }
 
 //
     setMapOnAll(map) {
-        for (var i = 0; i < this.markers.length; i++) {
+        for (let i = 0; i < this.markers.length; i++) {
             this.markers[i].setMap(map);
         }
     }
@@ -166,67 +131,52 @@ class MAP {
     setHeatmap(map) {
         d3.selectAll(".circle").remove();
 
-        var keyValues = [];
+        let keyValues = [];
+        let self_item = this;
+        let citymap = [];
+        let heatMapData = [];
 
-        var self_item = this;
-
-        var citymap = [];
-
-        var heatMapData = [];
         d3.json("stations.json", function (error, data) {
-            if (error != null) {
+            if (error) {
                 console.log("something went wrong");
             }
 
-            var keys = Object.keys(data.stations);
-
-
-            var vals = Object.keys(data.stations).map(function (key) {
-
+            let keys = Object.keys(data.stations);
+            let vals = Object.keys(data.stations).map(function (key) {
                 //combine this object to use later.
                 keyValues.push({k: key, title: data.stations[key].title, position: data.stations[key].position});
                 return data.stations[key];
             });
 
             //Get the selected year, type, and week/weekend for the data
-            var e = document.getElementById("data-type");
-            var type = e.options[e.selectedIndex].value;
+            let e = document.getElementById("data-type");
+            let type = e.options[e.selectedIndex].value;
 
-            var f = document.getElementById("data-week");
-            var week = f.options[f.selectedIndex].value;
+            let f = document.getElementById("data-week");
+            let week = f.options[f.selectedIndex].value;
 
-            var g = document.getElementById("data-year");
-            var year = g.options[g.selectedIndex].value;
-
+            let g = document.getElementById("data-year");
+            let year = g.options[g.selectedIndex].value;
 
             //Retrieve the necessary data
             d3.csv("tubedata/counts/" + year + "_Entry_Exit.csv", function (error, csvData) {
                 csvData.forEach(function (da, i) {
                     da.Entry_Week = +da.Entry_Week;
-                    da.Entry_Sat = +da.Entry_Saturday;
-                    da.Entry_Sun = +da.Entry_Sunday;
+                    da.Entry_Sat = +da.Entry_Sat;
+                    da.Entry_Sun = +da.Entry_Sun;
                     da.Exit_Week = +da.Exit_Week;
-                    da.Exit_Sat = +da.Exit_Saturday;
-                    da.Exit_Sun = +da.Exit_Sunday;
-
-
+                    da.Exit_Sat = +da.Exit_Sat;
+                    da.Exit_Sun = +da.Exit_Sun;
                 });
 
-
                 keyValues.forEach(function (d, i) {
-
-
-                    var val = csvData.filter(function (n) {
-
-
+                    let val = csvData.filter(function (n) {
                         return n.Station === d.title;
                     });
-
 
                     if (val.length === 0) {
                         val.push({entry: 0});
                     }
-
 
                     //Construct object with all the information for the bubble chart
                     citymap.push({
@@ -236,18 +186,14 @@ class MAP {
                         extWeek: val[0].Exit_Week,
                         extSat: val[0].Exit_Sat,
                         extSun: val[0].Exit_Sun
-
-
                     });
 
                     //here we construct an object that stores the information we need.
                     //Construct heat map data
                     // {location: new google.maps.LatLng(37.782, -122.443), weight: 2}
+                });
 
-
-                })
-
-                for (var city in citymap) {
+                for (let city in citymap) {
                     heatMapData.push({
                         location: new google.maps.LatLng(citymap[city].center.lat, citymap[city].center.lng),
                         weight: citymap[city]["" + type + week + ""]
@@ -257,7 +203,6 @@ class MAP {
                 self_item.heatmap = new google.maps.visualization.HeatmapLayer({
                     data: heatMapData
                 });
-
 
                 self_item.heatmap.setMap(map);
                 self_item.heatmap.setOptions({
@@ -271,53 +216,43 @@ class MAP {
                 });
 
                 self_item.markers.push(self_item.heatmap);
-
-
             });
-
         });
     }
 
     changeGradient(gradient) {
+        let menu = document.getElementById("vis-type");
+        let type = menu.options[menu.selectedIndex].value;
 
-        var menu = document.getElementById("vis-type");
-        var type = menu.options[menu.selectedIndex].value;
-
-
-        if (this.heatmap != null) {
-
+        if (this.heatmap) {
             this.heatmap.set('gradient', this.heatmap.get('gradient') ? null : gradient);
-
-
         }
-
-
     }
 
     changeRadius(radius) {
+        let menu = document.getElementById("vis-type");
+        let type = menu.options[menu.selectedIndex].value;
 
-        var menu = document.getElementById("vis-type");
-        var type = menu.options[menu.selectedIndex].value;
-
-        var currRadius = this.heatmap.get('radius');
-
-        var newRadius = currRadius + radius;
+        let currRadius = this.heatmap.get('radius');
+        let newRadius = currRadius + radius;
 
         this.heatmap.set('radius', newRadius >= 0 ? newRadius : 0);
+
+        return newRadius;
     }
 
 
 //Changes the opacity of the circles and the heatmap
     changeOpacity(opacity) {
+        let menu = document.getElementById("vis-type");
+        let type = menu.options[menu.selectedIndex].value;
 
-        var menu = document.getElementById("vis-type");
-        var type = menu.options[menu.selectedIndex].value;
+        let currOpacity = this.heatmap.get('opacity');
+        let newOpacity = currOpacity + opacity;
 
-        var currOpacity = this.heatmap.get('opacity');
+        newOpacity = newOpacity > 1 ? 1 : newOpacity;
 
-        var newOpacity = currOpacity + opacity;
         this.heatmap.set('opacity', newOpacity >= 0 ? newOpacity : 0);
+        return newOpacity;
     }
-
-
 }
