@@ -27,354 +27,12 @@
 
         var t;
         var s;
-        let dataStore = null;
-        const parseTime = d3.timeParse("%Y");
-        const lineChartWidth = 600;
-        const lineChartHeight = 400;
-        const lineChartMargin = {top: 20, right: 20, bottom: 30, left: 40};
-        const entryChartSVG = d3.select('.entry').append('svg')
-            .attr('width', lineChartWidth + lineChartMargin.left + lineChartMargin.right)
-            .attr('height', lineChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-
-        const exitChartSVG = d3.select('.exit').append('svg')
-            .attr('width', lineChartWidth + lineChartMargin.left + lineChartMargin.right)
-            .attr('height', lineChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-
-        const barChartWidth = 400;
-        const barChartHeight = 250;
-        const BAR_OFFSET = 20;
-        const BAR_TOP_OFFSET = 10;
-
-        const ageSVG = d3.select('.ageChart').append('svg')
-            .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
-            .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-            .append("g")
-            .classed('ageBarChart', true)
-            .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
-
-        const sexSVG = d3.select('.sexChart').append('svg')
-            .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
-            .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-            .append("g")
-            .classed('sexChart', true)
-            .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
-
-        const journeyChartSVG = d3.select('.journeyChart').append('svg')
-            .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
-            .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-            .append("g")
-            .classed('journeyChart', true)
-            .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
-
-        const marketSVG = d3.select('.marketChart').append('svg')
-            .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
-            .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-            .append("g")
-            .classed('marketChart', true)
-            .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
-
-        const calcExtents = data => {
-            let yExtents = [0, 0];
-            data.forEach((d)=> {
-                const temp = d3.extent([d.saturday, d.sunday, d.week])
-                yExtents = [Math.min(temp[0], yExtents[0]), Math.max(temp[1], yExtents[1])];
-            });
-
-            return yExtents
-
-        }
-
-
-        const formatEntryData = data=> {
-            return data.map(d=>({
-                saturday: d.entry_saturday,
-                sunday: d.entry_sunday,
-                week: d.entry_week,
-                station: d.station,
-                year: parseTime(d.year)
-            }));
-        }
-        const formatExitData = data => {
-
-            return data.map(d=>({
-                saturday: d.exit_saturday,
-                sunday: d.exit_sunday,
-                week: d.exit_week,
-                station: d.station,
-                year: parseTime(d.year)
-            }));
-
-        }
-
-        const aggregateData = ({yearData}) => {
-            const entryData = formatEntryData(yearData);
-            const exitData = formatExitData(yearData);
-            return prepareDataForLine(entryData, exitData);
-        }
-
-
-        const filterDataByCity = city => {
-            const filtered = dataStore.yearData.filter(d=>d.station === city);
-            const entryData = formatEntryData(filtered);
-            const exitData = formatExitData(filtered);
-            return prepareDataForLine(entryData, exitData)
-        };
-
-        const prepareDataForLine = (entryData, exitData) => {
-            const entryExtents = calcExtents(entryData);
-            const entrySaturday = entryData.map(d=>({
-                day: 'saturday',
-                value: d.saturday,
-                year: d.year,
-                type: 'entry',
-                color: 'green',
-                extents: entryExtents
-            })).filter(d=>!isNaN(d.value));
-            const entrySunday = entryData.map(d=>({
-                day: 'sunday',
-                value: d.sunday,
-                year: d.year,
-                type: 'entry',
-                color: 'blue',
-                extents: entryExtents
-            })).filter(d=>!isNaN(d.value));
-            const entryWeek = entryData.map(d=>({
-                day: 'week',
-                value: d.week,
-                year: d.year,
-                type: 'entry',
-                color: 'orange',
-                extents: entryExtents
-            })).filter(d=>!isNaN(d.value));
-
-            const exitExtents = calcExtents(exitData);
-            const exitSaturday = exitData.map(d=>({
-                day: 'saturday',
-                value: d.saturday,
-                year: d.year,
-                type: 'exit',
-                color: 'green',
-                extents: exitExtents
-            })).filter(d=>!isNaN(d.value));
-            const exitSunday = exitData.map(d=>({
-                day: 'sunday',
-                value: d.sunday,
-                year: d.year,
-                type: 'exit',
-                color: 'blue',
-                extents: exitExtents
-            })).filter(d=>!isNaN(d.value));
-            const exitWeek = exitData.map(d=>({
-                day: 'week',
-                value: d.week,
-                year: d.year,
-                type: 'exit',
-                color: 'orange',
-                extents: exitExtents
-            })).filter(d=>!isNaN(d.value));
-
-            return [entrySaturday, entrySunday, entryWeek, exitSaturday, exitSunday, exitWeek];
-
-        }
-
-        const formatBarData = (data)=> {
-            if(!data) return;
-            const {age, journey, market} = data;
-            const ageData = [];
-            ageMap.forEach((category, key)=> ageData.push({category, value: age[0][key] + age[1][key]}));
-
-            const sexData = [{category: 'Male', value: age[0].male + age[1].male},
-                {category: 'Female', value: age[0].female + age[1].female}];
-
-            const journeyData = [];
-            journeyMap.forEach((category, key)=> journeyData.push({
-                category,
-                value: journey[0][key] + journey[1][key]
-            }))
-
-            const marketData = [];
-            marketMap.forEach((category, key)=> marketData.push({category, value: market[0][key] + market[1][key]}));
-
-            return [
-                {label: 'Age', data: ageData, selector: 'ageChart', color: 'green'},
-                {label: 'Sex', data: sexData, selector: 'sexChart', color: 'steelblue'},
-                {label: 'Journey', data: journeyData, selector: 'journeyChart', color: 'orange'},
-                {label: 'Market', data: marketData, selector: 'marketChart', color: 'grey'}];
-        }
-        const filetBarDataByStation = station => {
-            const {ageData, marketData, journeyData} = dataStore;
-            const age = ageData.filter(d=>d.station === station);
-            const journey = journeyData.filter(d=>d.station === station);
-            const market = marketData.filter(d=>d.station === station);
-            return formatBarData({age, journey, market});
-
-        }
-
-        const makeBarChart = (bardata) => {
-            const {label, selector, data, color} = bardata;
-            const x = d3.scaleBand()
-                .range([0, barChartWidth])
-                .padding(0.1);
-            const y = d3.scaleLinear()
-                .range([barChartHeight - BAR_OFFSET, 0]);
-
-            x.domain(data.map(d=>d.category));
-            y.domain([0, d3.max(data, d=>d.value)]);
-
-            let barChart = null;
-
-            switch (label) {
-                case 'Age':
-                    barChart = ageSVG;
-                    break;
-                case 'Sex':
-                    barChart = sexSVG
-                    break;
-                case 'Journey':
-                    barChart = journeyChartSVG;
-                    break;
-                case 'Market':
-                    barChart = marketSVG;
-                    break;
-                default:
-                    return barChart;
-            }
-
-            const barGroup = barChart.append('g').classed('barGroup', true);
-            barGroup.selectAll(".bar")
-                .data(data)
-                .enter().append("rect")
-                .attr("class", "bar")
-                .attr('fill', color ? color : 'steelblue')
-                .attr("x", d=>x(d.category))
-                .attr("width", x.bandwidth())
-                .attr("y", d=>y(d.value))
-                .attr("height", d=> barChartHeight - BAR_OFFSET - y(d.value));
-
-
-            barGroup.append("g")
-                .attr("transform", "translate(0," + (barChartHeight - BAR_OFFSET) + ")")
-                .call(d3.axisBottom(x))
-                .selectAll("text")
-                .style("text-anchor", "end")
-                .attr("dx", "-.8em")
-                .attr("dy", ".15em")
-                .attr("transform", "rotate(-65)");
-
-
-            barGroup.append("g")
-                .call(d3.axisLeft(y)
-                    .ticks(6, 's'));
-            d3.select('body').classed('modal', true);
-            d3.select('.zoomRect').classed('modal', true);
-            d3.select('.closebarChart').on('click', ()=> {
-                d3.select('body').classed('modal', false);
-                d3.select('.zoomRect').classed('modal', false);
-                d3.select('.barChartWrapper').classed('showMe', false);
-            })
-
-        }
-
-        const barChartFactory = station => {
-            console.log(station, 'clicked')
-            const bardata = filetBarDataByStation(station);
-            d3.select('.barChartWrapper').classed('showMe', true);
-            d3.selectAll('.barGroup').remove();
-            bardata.forEach(bar=>makeBarChart(bar))
-
-        }
-
-
-        const makeLine = (data, station) => {
-            if (data.length < 1) return;
-            d3.select('.linechart').classed('showMe', true);
-            const {type, extents, color, day} = data[0];
-            const x = d3.scaleTime().range([0, lineChartWidth]);
-            const y = d3.scaleLinear().range([lineChartHeight, 0]);
-            const mySVG = (type === 'entry') ? entryChartSVG : exitChartSVG;
-            const xAxis = d3.axisBottom(x);
-            const yAxis = d3.axisLeft(y)
-                .ticks(6, 's')
-
-            const valueline = d3.line()
-                .x(d=>x(d.year))
-                .y(d=>y(d.value));
-
-            x.domain(d3.extent(data, d=> d.year));
-            y.domain(extents);
-
-            const line = mySVG.append("g")
-                .classed('lineGroup', true)
-                .classed(`line-${day}`, true)
-                .classed('visible', true)
-                .attr("transform", "translate(" + lineChartMargin.left + "," + lineChartMargin.top + ")");
-
-            line.append("g")
-                .attr("class", "axis axis--x")
-                .attr("transform", "translate(0," + lineChartHeight + ")")
-                .call(xAxis);
-
-            line.append("g")
-                .attr("class", "axis axis--y")
-                .attr("transform", 'translate(0,0 )')
-                .call(yAxis)
-                .append("text")
-                .attr("class", "axis-title")
-                .attr("transform", "rotate(-90)")
-                .attr("y", 6)
-                .attr("dy", ".71em")
-                .style("text-anchor", "end")
-                .attr("fill", "#5D6971")
-                .text("Unit");
-
-            line.append("path")
-                .datum(data)
-                .attr("class", "line")
-                .attr("d", valueline)
-                .attr('stroke', color)
-
-            d3.select(`.${day}`).style('background', color)
-            d3.select('.station').text(station ? station : 'Summary Data');
-            d3.select('body').classed('modal', true);
-            d3.select('.zoomRect').classed('modal', true);
-            d3.select('.close').on('click', ()=> {
-                d3.select('body').classed('modal', false);
-                d3.select('.zoomRect').classed('modal', false);
-                d3.select('.linechart').classed('showMe', false);
-            })
-
-            d3.select(`.${day}`).on('click', ()=> {
-                const isVisible = d3.select(`.line-${day}`).attr('class').indexOf('notVisible') > 0;
-                d3.selectAll(`.line-${day}`).classed('notVisible', !isVisible);
-                d3.select(`.${day}`).classed('notVisibleLegend', !isVisible);
-
-            })
-
-        }
-
-
-        const lineFactory = station => {
-            const lineData = filterDataByCity(station)
-            d3.selectAll('.lineGroup').remove();
-            lineData.forEach(line=>makeLine(line, station))
-
-        }
-
-        const addSummaryListener = ()=> {
-            const aggData = aggregateData(dataStore);
-            d3.select('.summary').on('click', ()=> {
-                d3.selectAll('.lineGroup').remove();
-                aggData.forEach(line=>makeLine(line))
-            })
-        }
 
         function map(selection) {
             selection.each(function (data) {
                 // Convert data to standard representation
-                dataStore = data;
-                console.log(dataStore, 'store')
-                data = mangleData(data.stations);
-                addSummaryListener();
+                data = mangleData(data);
+
                 model = data;
 
                 var minX = d3.min(data.raw, function (line$$1) {
@@ -452,11 +110,7 @@
                 var g = svg.enter().append("svg").append("g");
 
                 // Fill with white rectangle to capture zoom events
-                g.append("rect")
-                    .attr("width", "100%")
-                    .attr("height", "100%")
-                    .attr('fill', 'white')
-                    .classed('zoomRect', true);
+                g.append("rect").attr("width", "100%").attr("height", "100%").attr('fill', 'white');
 
                 var zoomed = function zoomed() {
                     gEnter.attr("transform", d3.event.transform.toString());
@@ -597,11 +251,7 @@
                             return d.coords[1]
                         })
                         .attr("r", 6).style("visibility", "visible")
-                        .on("click", d=> {
-
-                            barChartFactory(d.name)
-                            // lineFactory(d.name)
-
+                        .on("click", function (d) {
                         })
                         .on("mouseover", function (d) {
                         })
@@ -732,44 +382,34 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
                     })
                     .classed("station", true);
 
-                // Update the label text
-                labels.enter().append("g")
-                    .attr("id", function (d) {
-                        return d.name;
-                    })
-                    .classed("label", true).on("click", function () {
-                    var label = d3.select(this);
-                    var name = label.attr("id");
-                    selectStation(name);
-                    dispatch$$1.call("click", this, name);
-                })
-                    .append("text").text(function (d) {
-                    // console.log(d);
-                    return d.text;
-                })
-                    .attr("dy", 0.1).attr("x", function (d) {
-                    return xScale(d.x + d.labelShiftX) + textPos(d).pos[0];
-                })
-                    .attr("y", function (d) {
-                        return yScale(d.y + d.labelShiftY) - textPos(d).pos[1];
-                    }) // Flip y-axis
-                    .attr("text-anchor", function (d) {
-                        return textPos(d).textAnchor;
-                    })
-                    .style("display", function (d) {
-                        return d.hide !== true ? "block" : "none";
-                    })
-                    .style("font-size", 1.2 * lineWidth / lineWidthMultiplier + "px")
-                    .style("-webkit-user-select", "none")
-                    .attr("class", function (d) {
-                        return d.marker.map(function (marker) {
-                            return marker.line;
-                        }).join(" ");
-                    })
-                    .classed("highlighted", function (d) {
-                        return d.visited;
-                    })
-                    .call(wrap);
+      // Update the label text
+      labels.enter().append("g").attr("id", function (d) {
+        return d.name;
+      }).classed("label", true).on("click", function () {
+        var label = d3.select(this);
+        var name = label.attr("id");
+
+        selectStation(name);
+
+        dispatch$$1.call("click", this, name);
+      }).append("text").text(function (d) {
+        return d.text;
+      }).attr("dy", 0.1).attr("x", function (d) {
+        return xScale(d.x + d.labelShiftX) + textPos(d).pos[0];
+      }).attr("y", function (d) {
+        return yScale(d.y + d.labelShiftY) - textPos(d).pos[1];
+      }) // Flip y-axis
+      .attr("text-anchor", function (d) {
+        return textPos(d).textAnchor;
+      }).style("display", function (d) {
+        return d.hide !== true ? "block" : "none";
+      }).style("font-size", 1.2 * lineWidth / lineWidthMultiplier + "px").style("-webkit-user-select", "none").attr("class", function (d) {
+        return d.marker.map(function (marker) {
+          return marker.line;
+        }).join(" ");
+      }).classed("highlighted", function (d) {
+        return d.visited;
+      }).call(wrap);
 
                 var markerGeoFunction = d3.arc().innerRadius(0).outerRadius(lineWidth / 4).startAngle(0).endAngle(2 * Math.PI);
 
@@ -1363,7 +1003,7 @@ stations_array.forEach(function(da){
             return path;
         }
 
-        function mangleData(data, test) {
+        function mangleData(data) {
             var mangledData = {};
 
             // Data manipulation
