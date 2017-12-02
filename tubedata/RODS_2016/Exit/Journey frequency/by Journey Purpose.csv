@@ -1,3 +1,2315 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5f5fc11fd8f35080cb7f89d09c2c2e49c5a6f822a3864fb16c9e4a81005eac09
-size 166293
+ RODS report2f created at 13:27:42 on 29-03-2017,,,,,,,,,,
+ based on survey data up to 2016 and reconciled to Autumn 2016 counts,,,,,,,,,,
+ ,,,,,,,,,,
+ Report 2f - Analysis by journey frequency and journey purpose and exit station,,,,,,,,,,
+ NLC,Station name,Journey Purpose,Total,Not Stated          ,5 or more days per week,1-4 days per week   ,Once a fortnight    ,Once a month        ,Less than once a month,First Time Ever
+500,Acton Town          ,Home                ,4853,43,2624,992,183,82,554,375
+500,Acton Town          ,Work                ,2187,74,1137,536,150,5,184,101
+500,Acton Town          ,Shop                ,10,2,0,2,1,0,0,5
+500,Acton Town          ,Education           ,295,0,142,115,0,0,0,39
+500,Acton Town          ,Hotel               ,37,0,4,1,0,0,0,32
+500,Acton Town          ,Other               ,888,69,148,207,104,88,215,56
+500,Acton Town          ,Unknown/Not Given   ,1334,1111,94,78,51,0,0,0
+502,Aldgate             ,Home                ,1349,14,550,460,62,0,0,264
+502,Aldgate             ,Work                ,7839,46,4711,1545,389,201,441,506
+502,Aldgate             ,Shop                ,88,0,0,41,0,12,27,8
+502,Aldgate             ,Education           ,994,2,281,654,0,0,56,0
+502,Aldgate             ,Tourist             ,256,0,0,0,0,0,24,232
+502,Aldgate             ,Hotel               ,25,0,0,0,9,0,0,16
+502,Aldgate             ,Other               ,895,5,43,283,63,75,251,175
+502,Aldgate             ,Unknown/Not Given   ,2158,2082,22,54,0,0,0,0
+503,Aldgate East        ,Home                ,3471,46,1257,782,436,363,435,153
+503,Aldgate East        ,Work                ,9259,222,5446,2529,282,158,322,300
+503,Aldgate East        ,Shop                ,192,0,0,0,73,24,66,28
+503,Aldgate East        ,Education           ,1742,11,403,1213,12,0,25,79
+503,Aldgate East        ,Tourist             ,161,0,0,0,0,0,128,32
+503,Aldgate East        ,Hotel               ,283,0,16,108,3,0,22,134
+503,Aldgate East        ,Other               ,2308,0,26,636,91,155,823,577
+503,Aldgate East        ,Unknown/Not Given   ,3279,3147,28,64,0,0,29,11
+505,Alperton            ,Home                ,2835,88,1653,313,234,32,117,398
+505,Alperton            ,Work                ,773,9,497,228,0,0,14,26
+505,Alperton            ,Shop                ,98,0,0,41,39,0,18,0
+505,Alperton            ,Education           ,68,0,50,18,0,0,0,0
+505,Alperton            ,Tourist             ,61,0,0,0,0,0,0,61
+505,Alperton            ,Hotel               ,184,0,0,89,90,0,5,0
+505,Alperton            ,Other               ,475,0,167,108,5,0,189,6
+505,Alperton            ,Unknown/Not Given   ,487,454,26,0,7,0,0,0
+506,Amersham            ,Home                ,1310,8,559,289,64,250,68,72
+506,Amersham            ,Work                ,142,0,113,18,0,0,9,1
+506,Amersham            ,Shop                ,29,0,0,26,1,2,0,0
+506,Amersham            ,Education           ,32,0,15,17,0,0,0,0
+506,Amersham            ,Tourist             ,2,0,0,0,0,0,0,2
+506,Amersham            ,Hotel               ,10,0,9,0,0,0,0,0
+506,Amersham            ,Other               ,372,0,0,3,6,3,139,222
+506,Amersham            ,Unknown/Not Given   ,477,445,5,4,23,0,0,0
+507,Angel               ,Home                ,6643,103,2421,2230,150,174,808,758
+507,Angel               ,Work                ,11140,163,5690,2439,386,280,1226,956
+507,Angel               ,Shop                ,576,30,57,176,42,15,109,148
+507,Angel               ,Education           ,3352,27,1272,1802,51,17,83,98
+507,Angel               ,Tourist             ,66,0,0,0,18,40,0,8
+507,Angel               ,Hotel               ,234,0,80,0,38,5,16,95
+507,Angel               ,Other               ,6663,200,233,799,403,558,2993,1478
+507,Angel               ,Unknown/Not Given   ,3107,2664,39,122,38,15,128,102
+508,Archway             ,Home                ,8450,6,4118,2172,605,239,940,369
+508,Archway             ,Work                ,2934,22,1307,1073,45,200,81,206
+508,Archway             ,Shop                ,200,28,14,46,9,13,71,19
+508,Archway             ,Education           ,622,0,163,306,98,9,14,32
+508,Archway             ,Tourist             ,62,0,0,0,0,0,14,48
+508,Archway             ,Hotel               ,45,0,0,0,0,7,17,21
+508,Archway             ,Other               ,1928,77,163,226,356,124,370,611
+508,Archway             ,Unknown/Not Given   ,1567,1123,166,216,39,0,9,14
+509,Arnos Grove         ,Home                ,4852,27,2361,1304,192,264,499,206
+509,Arnos Grove         ,Work                ,833,8,441,131,33,1,49,171
+509,Arnos Grove         ,Shop                ,65,19,0,9,0,37,0,0
+509,Arnos Grove         ,Education           ,105,0,47,55,0,0,3,0
+509,Arnos Grove         ,Hotel               ,46,0,0,35,0,0,0,11
+509,Arnos Grove         ,Other               ,573,0,68,34,13,48,185,225
+509,Arnos Grove         ,Unknown/Not Given   ,694,616,21,38,0,0,19,0
+510,Arsenal             ,Home                ,2476,283,828,880,41,76,198,171
+510,Arsenal             ,Work                ,677,0,186,274,0,7,14,197
+510,Arsenal             ,Shop                ,10,0,0,1,10,0,0,0
+510,Arsenal             ,Education           ,81,0,15,51,0,0,0,15
+510,Arsenal             ,Tourist             ,11,0,0,0,0,0,0,11
+510,Arsenal             ,Hotel               ,32,0,0,0,0,0,32,0
+510,Arsenal             ,Other               ,754,117,17,136,211,1,165,109
+510,Arsenal             ,Unknown/Not Given   ,440,343,71,26,0,0,0,0
+511,Baker Street        ,Home                ,7599,60,3100,2292,283,492,611,760
+511,Baker Street        ,Work                ,18319,253,10611,4342,644,391,969,1108
+511,Baker Street        ,Shop                ,668,3,58,180,66,33,228,100
+511,Baker Street        ,Education           ,5354,59,2194,2509,154,45,57,336
+511,Baker Street        ,Tourist             ,1074,8,0,5,4,6,148,903
+511,Baker Street        ,Hotel               ,699,0,0,169,86,0,157,287
+511,Baker Street        ,Other               ,6612,218,248,1609,879,492,1576,1590
+511,Baker Street        ,Unknown/Not Given   ,6683,5511,233,93,1,43,168,633
+512,Balham              ,Home                ,15634,100,7363,4300,918,461,1712,780
+512,Balham              ,Work                ,3202,23,2142,674,32,53,245,33
+512,Balham              ,Shop                ,175,0,36,37,45,15,40,1
+512,Balham              ,Education           ,322,0,120,192,0,0,3,7
+512,Balham              ,Hotel               ,301,0,0,57,124,37,70,12
+512,Balham              ,Other               ,2380,54,601,502,170,199,361,493
+512,Balham              ,Unknown/Not Given   ,1923,1428,261,226,0,0,8,0
+513,Bank / Monument     ,Home                ,15270,34,8553,3707,821,352,969,836
+513,Bank / Monument     ,Work                ,79606,876,49385,17263,2471,1862,3570,4180
+513,Bank / Monument     ,Shop                ,1765,16,27,205,149,318,603,447
+513,Bank / Monument     ,Education           ,3031,87,807,1768,47,52,136,132
+513,Bank / Monument     ,Tourist             ,2244,15,37,10,0,11,363,1808
+513,Bank / Monument     ,Hotel               ,784,0,5,267,160,0,215,137
+513,Bank / Monument     ,Other               ,15121,263,694,2941,1512,1333,3398,4980
+513,Bank / Monument     ,Unknown/Not Given   ,16586,14725,938,377,159,0,131,256
+501,Barbican            ,Home                ,1672,46,623,399,73,76,274,180
+501,Barbican            ,Work                ,10759,211,5980,2470,391,154,908,646
+501,Barbican            ,Shop                ,48,0,0,31,0,0,0,17
+501,Barbican            ,Education           ,1390,0,707,472,1,62,12,137
+501,Barbican            ,Tourist             ,67,0,7,0,0,2,32,26
+501,Barbican            ,Hotel               ,150,0,0,0,10,65,3,71
+501,Barbican            ,Other               ,3432,144,121,656,358,248,992,912
+501,Barbican            ,Unknown/Not Given   ,3343,3065,189,6,0,0,34,50
+514,Barking             ,Home                ,9499,123,6111,2341,63,148,446,267
+514,Barking             ,Work                ,4469,21,3506,546,118,26,197,55
+514,Barking             ,Shop                ,549,28,37,364,32,6,25,58
+514,Barking             ,Education           ,630,0,355,203,0,0,0,72
+514,Barking             ,Tourist             ,179,0,0,0,0,0,52,127
+514,Barking             ,Hotel               ,247,0,110,49,7,0,30,51
+514,Barking             ,Other               ,1567,202,329,366,58,370,176,67
+514,Barking             ,Unknown/Not Given   ,9595,8750,562,89,0,21,11,161
+515,Barkingside         ,Home                ,1883,33,1224,436,0,53,84,54
+515,Barkingside         ,Work                ,325,1,176,105,0,0,38,4
+515,Barkingside         ,Shop                ,138,0,0,137,0,1,0,0
+515,Barkingside         ,Education           ,13,0,13,0,0,0,0,0
+515,Barkingside         ,Other               ,77,0,0,1,0,0,47,30
+515,Barkingside         ,Unknown/Not Given   ,133,113,0,20,0,0,0,0
+516,Barons Court        ,Home                ,4635,34,2276,1010,326,104,414,471
+516,Barons Court        ,Work                ,3903,44,2181,1117,242,29,144,146
+516,Barons Court        ,Shop                ,50,0,0,32,0,0,19,0
+516,Barons Court        ,Education           ,869,7,425,392,24,3,1,18
+516,Barons Court        ,Hotel               ,55,0,0,23,20,0,0,13
+516,Barons Court        ,Other               ,869,116,87,244,57,47,151,167
+516,Barons Court        ,Unknown/Not Given   ,902,787,77,4,7,0,0,26
+517,Bayswater           ,Home                ,1601,19,754,360,95,37,162,174
+517,Bayswater           ,Work                ,1096,62,573,223,40,88,31,77
+517,Bayswater           ,Shop                ,210,0,0,83,43,0,0,83
+517,Bayswater           ,Education           ,309,71,152,86,0,0,0,0
+517,Bayswater           ,Tourist             ,108,0,0,12,0,0,0,96
+517,Bayswater           ,Hotel               ,712,65,8,58,0,8,118,455
+517,Bayswater           ,Other               ,1151,22,57,264,150,57,283,320
+517,Bayswater           ,Unknown/Not Given   ,979,909,1,0,0,0,69,0
+518,Becontree           ,Home                ,2184,43,1217,678,69,2,116,59
+518,Becontree           ,Work                ,402,0,342,57,0,2,0,0
+518,Becontree           ,Shop                ,46,16,0,28,2,0,0,0
+518,Becontree           ,Education           ,13,0,13,0,0,0,0,0
+518,Becontree           ,Hotel               ,251,0,0,121,0,0,129,0
+518,Becontree           ,Other               ,330,0,0,53,15,200,50,12
+518,Becontree           ,Unknown/Not Given   ,2607,2423,176,3,0,0,5,0
+519,Belsize Park        ,Home                ,3568,44,1489,1119,196,141,319,261
+519,Belsize Park        ,Work                ,2516,12,1227,764,75,22,221,195
+519,Belsize Park        ,Shop                ,32,0,0,20,6,0,3,3
+519,Belsize Park        ,Education           ,250,4,32,199,4,9,0,1
+519,Belsize Park        ,Tourist             ,81,0,0,0,0,25,0,56
+519,Belsize Park        ,Hotel               ,175,0,0,5,0,0,154,16
+519,Belsize Park        ,Other               ,2688,130,202,537,172,276,753,619
+519,Belsize Park        ,Unknown/Not Given   ,742,730,7,2,0,0,0,2
+787,Bermondsey          ,Home                ,6773,8,3496,1512,507,293,733,224
+787,Bermondsey          ,Work                ,3655,22,2212,688,136,139,106,352
+787,Bermondsey          ,Shop                ,72,0,0,72,0,0,0,0
+787,Bermondsey          ,Education           ,360,47,210,103,0,0,0,0
+787,Bermondsey          ,Tourist             ,31,0,21,0,0,0,0,10
+787,Bermondsey          ,Hotel               ,229,0,0,86,0,0,141,1
+787,Bermondsey          ,Other               ,1801,78,20,499,219,113,329,543
+787,Bermondsey          ,Unknown/Not Given   ,3905,3780,84,20,20,0,0,0
+520,Bethnal Green       ,Home                ,8619,74,3478,2435,689,236,793,913
+520,Bethnal Green       ,Work                ,4729,129,2760,1478,38,29,137,158
+520,Bethnal Green       ,Shop                ,242,0,3,41,81,13,34,69
+520,Bethnal Green       ,Education           ,651,0,146,451,0,0,5,48
+520,Bethnal Green       ,Tourist             ,51,0,9,0,0,0,0,42
+520,Bethnal Green       ,Hotel               ,453,1,11,59,194,0,113,75
+520,Bethnal Green       ,Other               ,3033,51,415,369,407,709,508,573
+520,Bethnal Green       ,Unknown/Not Given   ,6154,5917,149,22,0,2,1,62
+521,Blackfriars         ,Home                ,3626,24,2197,503,181,196,279,245
+521,Blackfriars         ,Work                ,15873,81,9971,3098,729,211,586,1196
+521,Blackfriars         ,Shop                ,103,0,0,61,0,0,42,0
+521,Blackfriars         ,Education           ,154,0,82,5,0,0,58,9
+521,Blackfriars         ,Tourist             ,204,0,0,0,0,0,41,163
+521,Blackfriars         ,Hotel               ,222,0,0,88,0,0,96,39
+521,Blackfriars         ,Other               ,1987,57,64,228,261,128,507,741
+521,Blackfriars         ,Unknown/Not Given   ,3471,3302,140,8,0,0,0,20
+522,Blackhorse Road     ,Home                ,8385,82,4295,2175,409,428,510,486
+522,Blackhorse Road     ,Work                ,1254,15,763,214,23,146,27,66
+522,Blackhorse Road     ,Shop                ,74,0,46,0,0,0,29,0
+522,Blackhorse Road     ,Education           ,361,62,146,133,20,0,0,0
+522,Blackhorse Road     ,Hotel               ,299,0,0,27,237,0,0,35
+522,Blackhorse Road     ,Other               ,602,9,65,109,107,61,81,171
+522,Blackhorse Road     ,Unknown/Not Given   ,1836,1711,60,41,0,24,0,0
+524,Bond Street         ,Home                ,2849,21,1798,445,204,161,161,59
+524,Bond Street         ,Work                ,26666,305,15505,5343,1168,1308,1680,1358
+524,Bond Street         ,Shop                ,10971,307,767,1456,1999,1451,3275,1716
+524,Bond Street         ,Education           ,1592,0,625,579,23,21,36,307
+524,Bond Street         ,Tourist             ,377,101,0,130,0,29,51,65
+524,Bond Street         ,Hotel               ,1142,6,58,0,61,7,66,944
+524,Bond Street         ,Other               ,11695,278,368,2688,1227,1432,3300,2401
+524,Bond Street         ,Unknown/Not Given   ,7134,6129,358,197,18,123,122,188
+525,Borough             ,Home                ,1748,38,555,545,223,35,313,39
+525,Borough             ,Work                ,3837,17,1882,1246,63,87,256,286
+525,Borough             ,Shop                ,20,0,0,0,0,20,0,0
+525,Borough             ,Education           ,972,0,176,705,0,21,25,45
+525,Borough             ,Tourist             ,162,0,0,0,0,0,50,112
+525,Borough             ,Hotel               ,132,4,0,55,0,0,45,28
+525,Borough             ,Other               ,1400,81,85,305,66,165,375,322
+525,Borough             ,Unknown/Not Given   ,1017,962,27,28,0,0,0,0
+526,Boston Manor        ,Home                ,1886,26,696,565,188,30,294,87
+526,Boston Manor        ,Work                ,624,0,305,170,7,0,98,44
+526,Boston Manor        ,Education           ,111,17,28,34,0,0,31,0
+526,Boston Manor        ,Tourist             ,26,0,0,0,0,0,0,26
+526,Boston Manor        ,Hotel               ,140,0,0,1,0,19,117,3
+526,Boston Manor        ,Other               ,274,2,50,62,0,0,145,15
+526,Boston Manor        ,Unknown/Not Given   ,507,476,0,30,2,0,0,0
+527,Bounds Green        ,Home                ,6933,69,3196,2146,228,265,748,281
+527,Bounds Green        ,Work                ,951,0,646,232,7,4,1,62
+527,Bounds Green        ,Shop                ,3,0,0,2,1,0,0,0
+527,Bounds Green        ,Education           ,353,0,139,135,1,64,0,13
+527,Bounds Green        ,Hotel               ,55,0,0,35,0,0,0,20
+527,Bounds Green        ,Other               ,539,15,6,206,6,96,65,146
+527,Bounds Green        ,Unknown/Not Given   ,1178,982,35,127,0,0,35,0
+528,Bow Road            ,Home                ,4574,12,2435,1013,384,54,569,107
+528,Bow Road            ,Work                ,1372,83,693,267,37,153,20,118
+528,Bow Road            ,Shop                ,22,0,0,20,2,0,0,0
+528,Bow Road            ,Education           ,92,0,36,56,0,0,0,0
+528,Bow Road            ,Tourist             ,56,0,0,0,0,0,0,56
+528,Bow Road            ,Hotel               ,38,0,0,24,0,0,14,0
+528,Bow Road            ,Other               ,974,19,293,202,20,0,57,383
+528,Bow Road            ,Unknown/Not Given   ,1895,1832,53,2,0,0,0,7
+529,Brent Cross         ,Home                ,2195,5,1089,673,47,49,262,70
+529,Brent Cross         ,Work                ,561,11,230,47,46,74,82,71
+529,Brent Cross         ,Shop                ,155,0,0,1,0,0,44,110
+529,Brent Cross         ,Education           ,46,0,2,44,0,0,0,0
+529,Brent Cross         ,Hotel               ,115,0,0,0,0,0,57,58
+529,Brent Cross         ,Other               ,264,0,4,106,111,4,5,35
+529,Brent Cross         ,Unknown/Not Given   ,513,412,0,33,0,0,67,0
+778,Brixton             ,Home                ,26880,374,14018,6210,1415,727,2672,1464
+778,Brixton             ,Work                ,6157,13,2840,1957,310,130,526,381
+778,Brixton             ,Shop                ,446,11,78,44,26,109,177,1
+778,Brixton             ,Education           ,432,2,154,248,0,21,6,0
+778,Brixton             ,Tourist             ,48,0,0,0,0,0,47,1
+778,Brixton             ,Hotel               ,784,7,11,201,17,115,421,12
+778,Brixton             ,Other               ,4980,113,204,1050,496,837,1313,966
+778,Brixton             ,Unknown/Not Given   ,10872,10189,171,125,228,82,21,56
+530,Bromley-by-Bow      ,Home                ,1954,0,1149,436,27,84,120,137
+530,Bromley-by-Bow      ,Work                ,1562,36,1069,242,29,34,42,110
+530,Bromley-by-Bow      ,Shop                ,12,0,0,12,0,0,0,0
+530,Bromley-by-Bow      ,Education           ,60,0,30,6,0,0,24,0
+530,Bromley-by-Bow      ,Tourist             ,50,0,0,0,0,0,2,48
+530,Bromley-by-Bow      ,Hotel               ,90,0,0,56,0,0,34,0
+530,Bromley-by-Bow      ,Other               ,545,0,77,203,42,14,12,198
+530,Bromley-by-Bow      ,Unknown/Not Given   ,1933,1871,4,5,53,0,0,0
+531,Buckhurst Hill      ,Home                ,2689,57,1516,683,38,80,213,102
+531,Buckhurst Hill      ,Work                ,317,0,173,117,0,0,0,28
+531,Buckhurst Hill      ,Shop                ,7,0,0,2,0,0,6,0
+531,Buckhurst Hill      ,Education           ,36,0,0,9,0,0,28,0
+531,Buckhurst Hill      ,Hotel               ,10,0,0,0,1,0,9,0
+531,Buckhurst Hill      ,Other               ,274,5,0,161,34,0,39,35
+531,Buckhurst Hill      ,Unknown/Not Given   ,188,148,0,3,0,0,1,36
+532,Burnt Oak           ,Home                ,5073,115,3375,929,0,45,193,415
+532,Burnt Oak           ,Work                ,860,7,541,119,0,17,56,119
+532,Burnt Oak           ,Shop                ,80,41,4,6,2,2,25,0
+532,Burnt Oak           ,Education           ,106,0,103,0,0,2,0,0
+532,Burnt Oak           ,Hotel               ,27,0,0,1,0,26,0,0
+532,Burnt Oak           ,Other               ,408,1,35,103,106,66,53,44
+532,Burnt Oak           ,Unknown/Not Given   ,768,616,64,80,0,0,9,0
+534,Caledonian Road     ,Home                ,3719,6,1723,863,104,41,664,317
+534,Caledonian Road     ,Work                ,2299,27,1595,380,124,3,95,75
+534,Caledonian Road     ,Shop                ,178,16,102,55,0,0,5,0
+534,Caledonian Road     ,Education           ,249,0,54,181,1,13,0,0
+534,Caledonian Road     ,Hotel               ,32,0,0,0,0,0,32,0
+534,Caledonian Road     ,Other               ,853,2,71,169,8,0,259,344
+534,Caledonian Road     ,Unknown/Not Given   ,1581,1521,6,50,3,0,1,0
+535,Camden Town         ,Home                ,6007,106,2883,1599,445,256,444,273
+535,Camden Town         ,Work                ,10452,86,6290,1935,283,435,713,709
+535,Camden Town         ,Shop                ,2282,13,54,304,244,238,576,851
+535,Camden Town         ,Education           ,708,0,350,247,34,0,0,76
+535,Camden Town         ,Tourist             ,709,0,97,0,0,100,95,416
+535,Camden Town         ,Hotel               ,321,0,0,159,0,1,151,10
+535,Camden Town         ,Other               ,6444,176,525,1074,948,735,1834,1152
+535,Camden Town         ,Unknown/Not Given   ,4756,4484,11,109,2,0,77,73
+788,Canada Water        ,Home                ,39001,415,18019,10227,1756,2654,4003,1927
+788,Canada Water        ,Work                ,13191,308,9208,1846,239,66,562,962
+788,Canada Water        ,Shop                ,1038,35,246,136,155,3,274,188
+788,Canada Water        ,Education           ,2731,81,671,1589,0,195,0,195
+788,Canada Water        ,Tourist             ,495,58,0,164,3,0,246,24
+788,Canada Water        ,Hotel               ,796,0,0,108,0,0,573,115
+788,Canada Water        ,Other               ,5517,53,340,1402,457,407,838,2021
+788,Canada Water        ,Unknown/Not Given   ,11534,10924,237,93,2,9,248,22
+852,Canary Wharf        ,Home                ,12043,150,5895,2996,984,465,780,772
+852,Canary Wharf        ,Work                ,64061,440,43602,13503,1593,1215,2091,1617
+852,Canary Wharf        ,Shop                ,1307,150,111,193,570,47,170,66
+852,Canary Wharf        ,Education           ,1259,24,254,869,0,0,55,57
+852,Canary Wharf        ,Tourist             ,651,0,122,131,0,0,45,353
+852,Canary Wharf        ,Hotel               ,229,0,1,86,0,0,61,82
+852,Canary Wharf        ,Other               ,5782,0,474,747,799,852,1400,1510
+852,Canary Wharf        ,Unknown/Not Given   ,14829,13543,711,299,121,14,142,0
+884,Canning Town        ,Home                ,16900,66,9600,3204,1446,86,1000,1499
+884,Canning Town        ,Work                ,12488,304,6451,2631,514,395,1033,1160
+884,Canning Town        ,Shop                ,424,0,7,103,202,111,0,0
+884,Canning Town        ,Education           ,2059,0,269,1744,24,0,22,0
+884,Canning Town        ,Tourist             ,636,0,0,0,0,31,590,14
+884,Canning Town        ,Hotel               ,409,0,32,66,0,0,169,141
+884,Canning Town        ,Other               ,5342,140,514,1037,602,252,1573,1224
+884,Canning Town        ,Unknown/Not Given   ,11032,9356,882,330,29,0,255,181
+536,Cannon Street       ,Home                ,3774,17,1747,1201,107,142,432,128
+536,Cannon Street       ,Work                ,6734,74,4131,1237,159,118,433,583
+536,Cannon Street       ,Shop                ,108,0,0,0,49,0,16,43
+536,Cannon Street       ,Education           ,36,0,22,13,0,0,0,0
+536,Cannon Street       ,Tourist             ,3,3,0,0,0,0,0,0
+536,Cannon Street       ,Hotel               ,7,0,0,0,0,0,6,1
+536,Cannon Street       ,Other               ,1492,0,171,235,230,18,367,472
+536,Cannon Street       ,Unknown/Not Given   ,1435,1285,121,0,0,29,0,0
+537,Canons Park         ,Home                ,2648,9,1547,566,96,8,263,159
+537,Canons Park         ,Work                ,534,0,335,149,32,0,10,8
+537,Canons Park         ,Shop                ,138,0,0,0,0,34,0,104
+537,Canons Park         ,Education           ,34,0,34,0,0,0,0,0
+537,Canons Park         ,Hotel               ,21,0,21,0,0,0,0,0
+537,Canons Park         ,Other               ,254,19,4,51,65,0,14,101
+537,Canons Park         ,Unknown/Not Given   ,1114,1007,29,41,0,0,13,23
+539,Chalfont & Latimer  ,Home                ,1074,34,495,248,11,71,135,79
+539,Chalfont & Latimer  ,Work                ,40,0,14,17,9,0,0,0
+539,Chalfont & Latimer  ,Shop                ,7,0,0,3,0,0,3,0
+539,Chalfont & Latimer  ,Education           ,45,3,26,0,16,0,0,0
+539,Chalfont & Latimer  ,Hotel               ,15,0,0,7,0,0,8,0
+539,Chalfont & Latimer  ,Other               ,75,0,0,13,41,13,8,1
+539,Chalfont & Latimer  ,Unknown/Not Given   ,172,168,0,0,0,0,4,0
+540,Chalk Farm          ,Home                ,3034,10,1150,899,235,178,206,357
+540,Chalk Farm          ,Work                ,2081,63,1283,492,49,62,19,112
+540,Chalk Farm          ,Shop                ,60,0,1,0,41,0,7,10
+540,Chalk Farm          ,Education           ,77,0,12,51,0,0,0,14
+540,Chalk Farm          ,Hotel               ,302,0,0,25,153,86,14,24
+540,Chalk Farm          ,Other               ,1447,83,104,274,21,140,552,274
+540,Chalk Farm          ,Unknown/Not Given   ,679,650,5,13,10,0,0,1
+541,Chancery Lane       ,Home                ,1083,10,319,215,93,187,233,27
+541,Chancery Lane       ,Work                ,23701,258,13371,5039,1229,468,1398,1938
+541,Chancery Lane       ,Shop                ,439,0,9,2,26,38,219,145
+541,Chancery Lane       ,Education           ,1625,126,472,855,0,26,116,30
+541,Chancery Lane       ,Tourist             ,146,0,0,0,0,0,9,137
+541,Chancery Lane       ,Hotel               ,165,0,56,0,0,0,110,0
+541,Chancery Lane       ,Other               ,3927,192,118,429,318,435,1503,932
+541,Chancery Lane       ,Unknown/Not Given   ,2826,2522,123,104,17,38,4,18
+718,Charing Cross       ,Home                ,8593,31,4236,1738,324,343,1108,812
+718,Charing Cross       ,Work                ,7274,69,3597,1648,418,231,612,700
+718,Charing Cross       ,Shop                ,507,70,47,16,79,12,250,33
+718,Charing Cross       ,Education           ,805,0,305,460,14,6,1,19
+718,Charing Cross       ,Tourist             ,784,1,6,93,10,33,126,514
+718,Charing Cross       ,Hotel               ,430,0,0,4,38,27,45,316
+718,Charing Cross       ,Other               ,7561,293,183,1167,535,1164,2222,1996
+718,Charing Cross       ,Unknown/Not Given   ,1666,1101,284,66,10,12,148,45
+543,Chesham             ,Home                ,1375,1,865,324,3,2,46,135
+543,Chesham             ,Work                ,184,0,137,25,0,0,9,13
+543,Chesham             ,Shop                ,55,0,0,0,0,42,14,0
+543,Chesham             ,Education           ,1,0,1,0,0,0,0,0
+543,Chesham             ,Hotel               ,1,0,0,1,0,0,0,0
+543,Chesham             ,Other               ,43,0,0,3,32,3,4,0
+543,Chesham             ,Unknown/Not Given   ,175,162,0,0,12,0,0,0
+544,Chigwell            ,Home                ,332,4,265,29,0,6,0,28
+544,Chigwell            ,Work                ,216,0,171,44,0,0,0,0
+544,Chigwell            ,Other               ,113,0,0,80,0,0,2,30
+544,Chigwell            ,Unknown/Not Given   ,131,131,0,0,0,0,0,0
+545,Chiswick Park       ,Home                ,1824,10,785,517,141,67,182,123
+545,Chiswick Park       ,Work                ,1423,3,825,221,85,107,104,79
+545,Chiswick Park       ,Shop                ,4,0,0,3,0,0,1,0
+545,Chiswick Park       ,Education           ,13,0,8,4,0,0,0,0
+545,Chiswick Park       ,Tourist             ,13,0,0,0,0,0,3,9
+545,Chiswick Park       ,Hotel               ,28,0,0,0,0,0,0,28
+545,Chiswick Park       ,Other               ,246,3,18,118,16,6,36,50
+545,Chiswick Park       ,Unknown/Not Given   ,501,446,4,31,19,0,0,0
+546,Chorleywood         ,Home                ,772,29,311,332,4,0,65,30
+546,Chorleywood         ,Work                ,30,0,8,12,0,0,5,5
+546,Chorleywood         ,Shop                ,11,0,0,11,0,0,0,0
+546,Chorleywood         ,Education           ,26,0,3,20,0,0,4,0
+546,Chorleywood         ,Other               ,166,27,0,75,18,0,0,46
+546,Chorleywood         ,Unknown/Not Given   ,240,240,0,0,0,0,0,0
+547,Clapham Common      ,Home                ,8946,114,4391,1516,728,509,972,716
+547,Clapham Common      ,Work                ,1966,111,955,524,20,95,39,222
+547,Clapham Common      ,Shop                ,140,0,0,105,18,8,0,9
+547,Clapham Common      ,Education           ,572,1,142,349,47,0,14,20
+547,Clapham Common      ,Tourist             ,140,0,0,0,0,0,127,12
+547,Clapham Common      ,Hotel               ,195,35,1,16,0,0,24,118
+547,Clapham Common      ,Other               ,2187,39,49,609,245,163,588,494
+547,Clapham Common      ,Unknown/Not Given   ,2224,2011,147,15,0,0,43,8
+548,Clapham North       ,Home                ,6722,0,2687,1850,490,334,451,910
+548,Clapham North       ,Work                ,1135,0,530,352,4,51,74,125
+548,Clapham North       ,Shop                ,42,0,0,3,0,0,0,39
+548,Clapham North       ,Education           ,129,0,61,4,0,0,16,48
+548,Clapham North       ,Tourist             ,95,0,0,86,0,0,0,9
+548,Clapham North       ,Hotel               ,188,0,0,1,105,29,48,5
+548,Clapham North       ,Other               ,1566,66,70,475,383,75,249,249
+548,Clapham North       ,Unknown/Not Given   ,1691,1172,267,31,53,1,0,167
+549,Clapham South       ,Home                ,10017,45,4410,2191,405,535,1640,791
+549,Clapham South       ,Work                ,1151,38,690,300,34,0,33,57
+549,Clapham South       ,Shop                ,85,0,0,54,30,0,0,1
+549,Clapham South       ,Education           ,604,0,306,168,0,18,112,1
+549,Clapham South       ,Hotel               ,304,0,3,7,0,26,102,167
+549,Clapham South       ,Other               ,737,5,93,248,13,77,173,127
+549,Clapham South       ,Unknown/Not Given   ,1464,1343,4,61,0,0,0,56
+550,Cockfosters         ,Home                ,1574,5,661,383,73,57,242,153
+550,Cockfosters         ,Work                ,271,0,140,61,0,42,28,0
+550,Cockfosters         ,Shop                ,27,1,0,0,16,8,2,0
+550,Cockfosters         ,Education           ,99,0,22,26,0,0,0,51
+550,Cockfosters         ,Tourist             ,2,0,0,0,0,0,0,2
+550,Cockfosters         ,Hotel               ,61,0,0,0,0,4,57,0
+550,Cockfosters         ,Other               ,294,8,7,70,0,36,78,95
+550,Cockfosters         ,Unknown/Not Given   ,811,683,63,28,0,0,37,0
+551,Colindale           ,Home                ,4867,10,2784,952,129,203,588,201
+551,Colindale           ,Work                ,1499,10,957,364,0,4,102,61
+551,Colindale           ,Shop                ,102,40,6,0,11,28,0,17
+551,Colindale           ,Education           ,82,0,37,45,0,0,0,0
+551,Colindale           ,Hotel               ,84,0,84,0,0,0,0,0
+551,Colindale           ,Other               ,736,19,45,296,6,0,64,306
+551,Colindale           ,Unknown/Not Given   ,2689,2402,236,22,30,0,0,0
+552,Colliers Wood       ,Home                ,6194,17,3526,1374,164,146,399,569
+552,Colliers Wood       ,Work                ,661,82,328,161,0,1,19,69
+552,Colliers Wood       ,Shop                ,536,5,34,168,7,6,187,129
+552,Colliers Wood       ,Education           ,44,0,9,35,0,0,0,0
+552,Colliers Wood       ,Other               ,793,4,20,355,54,114,50,195
+552,Colliers Wood       ,Unknown/Not Given   ,2137,1913,204,20,0,0,0,0
+553,Covent Garden       ,Home                ,505,20,195,35,68,7,46,134
+553,Covent Garden       ,Work                ,6663,81,3371,1595,369,196,512,540
+553,Covent Garden       ,Shop                ,2512,9,157,327,262,166,873,718
+553,Covent Garden       ,Education           ,1163,6,366,567,48,2,0,175
+553,Covent Garden       ,Tourist             ,819,0,0,9,0,10,243,557
+553,Covent Garden       ,Hotel               ,303,0,0,44,0,29,123,106
+553,Covent Garden       ,Other               ,9155,241,177,1263,887,842,2777,2969
+553,Covent Garden       ,Unknown/Not Given   ,2410,2088,19,33,3,135,123,8
+554,Croxley             ,Home                ,1190,3,587,409,30,0,57,103
+554,Croxley             ,Work                ,269,0,195,54,0,0,0,20
+554,Croxley             ,Education           ,6,0,6,0,0,0,0,0
+554,Croxley             ,Other               ,114,0,0,13,0,0,95,6
+554,Croxley             ,Unknown/Not Given   ,140,136,0,4,0,0,0,0
+555,Dagenham East       ,Home                ,2805,45,2010,492,76,0,109,72
+555,Dagenham East       ,Work                ,819,24,403,300,8,6,3,75
+555,Dagenham East       ,Shop                ,14,0,14,0,0,0,0,0
+555,Dagenham East       ,Education           ,43,0,43,0,0,0,0,0
+555,Dagenham East       ,Hotel               ,21,0,0,21,0,0,0,0
+555,Dagenham East       ,Other               ,494,2,13,278,16,3,32,150
+555,Dagenham East       ,Unknown/Not Given   ,657,374,253,11,0,0,20,0
+556,Dagenham Heathway   ,Home                ,4114,134,2170,964,93,347,380,27
+556,Dagenham Heathway   ,Work                ,577,16,406,119,13,0,19,4
+556,Dagenham Heathway   ,Shop                ,285,0,0,218,15,0,7,45
+556,Dagenham Heathway   ,Education           ,265,0,69,178,0,0,0,19
+556,Dagenham Heathway   ,Tourist             ,20,0,0,0,0,0,0,20
+556,Dagenham Heathway   ,Hotel               ,81,0,28,52,0,0,0,0
+556,Dagenham Heathway   ,Other               ,511,21,9,220,107,40,53,61
+556,Dagenham Heathway   ,Unknown/Not Given   ,3895,3695,187,9,0,0,5,0
+557,Debden              ,Home                ,2003,0,1054,560,83,9,256,41
+557,Debden              ,Work                ,746,0,285,267,9,0,59,126
+557,Debden              ,Shop                ,19,0,0,0,0,0,19,0
+557,Debden              ,Education           ,451,41,360,50,0,0,0,0
+557,Debden              ,Other               ,347,0,0,47,0,16,178,106
+557,Debden              ,Unknown/Not Given   ,373,363,0,9,0,0,0,0
+558,Dollis Hill         ,Home                ,3666,241,2146,556,76,137,451,59
+558,Dollis Hill         ,Work                ,943,0,569,278,52,0,43,0
+558,Dollis Hill         ,Shop                ,51,0,12,0,32,0,7,0
+558,Dollis Hill         ,Education           ,592,0,385,183,0,0,0,24
+558,Dollis Hill         ,Hotel               ,105,0,0,105,0,0,0,0
+558,Dollis Hill         ,Other               ,402,0,36,45,0,68,180,73
+558,Dollis Hill         ,Unknown/Not Given   ,587,467,120,0,0,0,0,0
+560,Ealing Broadway     ,Home                ,20097,214,10485,4375,947,821,1731,1525
+560,Ealing Broadway     ,Work                ,4765,135,2716,1060,133,84,218,419
+560,Ealing Broadway     ,Shop                ,477,0,48,277,50,4,81,18
+560,Ealing Broadway     ,Education           ,1275,0,252,898,0,32,28,65
+560,Ealing Broadway     ,Tourist             ,44,0,0,0,0,0,1,42
+560,Ealing Broadway     ,Hotel               ,991,0,49,125,244,288,57,228
+560,Ealing Broadway     ,Other               ,3098,7,285,902,274,366,959,306
+560,Ealing Broadway     ,Unknown/Not Given   ,3889,2694,644,314,45,5,21,166
+561,Ealing Common       ,Home                ,2828,47,1463,611,93,87,271,257
+561,Ealing Common       ,Work                ,828,77,536,154,12,19,25,6
+561,Ealing Common       ,Shop                ,40,11,7,19,3,0,0,0
+561,Ealing Common       ,Education           ,236,0,170,51,0,15,0,0
+561,Ealing Common       ,Hotel               ,86,0,0,0,12,0,41,32
+561,Ealing Common       ,Other               ,385,19,19,124,5,70,53,96
+561,Ealing Common       ,Unknown/Not Given   ,551,497,41,14,0,0,0,0
+562,Earl's Court        ,Home                ,9031,110,3977,2397,825,440,734,548
+562,Earl's Court        ,Work                ,7220,59,4395,1580,148,234,369,435
+562,Earl's Court        ,Shop                ,236,4,0,119,51,11,9,43
+562,Earl's Court        ,Education           ,432,31,213,120,0,0,0,69
+562,Earl's Court        ,Tourist             ,86,35,7,0,0,0,34,10
+562,Earl's Court        ,Hotel               ,2854,85,115,434,16,30,1073,1101
+562,Earl's Court        ,Other               ,5110,188,366,777,191,431,1621,1535
+562,Earl's Court        ,Unknown/Not Given   ,4833,4343,201,216,46,14,0,13
+563,East Acton          ,Home                ,3252,16,1871,674,225,83,282,102
+563,East Acton          ,Work                ,1610,7,790,540,99,52,78,44
+563,East Acton          ,Shop                ,87,2,5,79,0,0,1,0
+563,East Acton          ,Education           ,86,0,76,0,0,0,0,9
+563,East Acton          ,Hotel               ,73,0,0,0,72,0,0,1
+563,East Acton          ,Other               ,822,1,52,94,24,45,432,173
+563,East Acton          ,Unknown/Not Given   ,631,590,17,24,0,0,0,0
+565,East Finchley       ,Home                ,8343,200,3025,2540,722,258,866,731
+565,East Finchley       ,Work                ,909,8,498,238,22,70,55,18
+565,East Finchley       ,Shop                ,81,0,34,0,4,44,0,0
+565,East Finchley       ,Education           ,898,0,48,149,0,12,0,689
+565,East Finchley       ,Tourist             ,22,0,0,0,0,0,0,22
+565,East Finchley       ,Hotel               ,114,24,0,32,0,27,1,30
+565,East Finchley       ,Other               ,934,41,31,353,44,29,252,185
+565,East Finchley       ,Unknown/Not Given   ,1176,916,46,125,0,0,68,21
+566,East Ham            ,Home                ,9455,223,6231,1839,506,249,264,144
+566,East Ham            ,Work                ,2244,23,1468,505,165,48,18,17
+566,East Ham            ,Shop                ,390,1,44,131,52,113,41,8
+566,East Ham            ,Education           ,577,0,197,195,0,8,177,0
+566,East Ham            ,Tourist             ,46,3,0,0,1,0,41,0
+566,East Ham            ,Hotel               ,12,12,0,0,0,0,0,0
+566,East Ham            ,Other               ,1453,31,272,528,87,129,39,367
+566,East Ham            ,Unknown/Not Given   ,9027,8183,717,99,0,0,0,27
+567,East Putney         ,Home                ,6246,56,2936,1354,350,185,1093,272
+567,East Putney         ,Work                ,1837,3,951,493,114,8,70,199
+567,East Putney         ,Shop                ,34,0,0,3,0,29,3,0
+567,East Putney         ,Education           ,219,0,126,68,0,21,0,4
+567,East Putney         ,Hotel               ,17,0,0,0,0,0,7,10
+567,East Putney         ,Other               ,1076,6,100,449,113,161,104,143
+567,East Putney         ,Unknown/Not Given   ,824,791,0,33,0,0,0,0
+564,Eastcote            ,Home                ,3722,50,1738,960,61,289,282,342
+564,Eastcote            ,Work                ,381,0,297,46,9,2,13,14
+564,Eastcote            ,Shop                ,108,0,0,2,14,57,1,34
+564,Eastcote            ,Education           ,44,0,35,9,0,0,0,0
+564,Eastcote            ,Hotel               ,18,18,0,0,0,0,0,0
+564,Eastcote            ,Other               ,324,21,0,61,34,35,54,120
+564,Eastcote            ,Unknown/Not Given   ,367,293,52,17,0,0,0,4
+568,Edgware             ,Home                ,4405,15,2423,1013,185,71,410,289
+568,Edgware             ,Work                ,1587,0,717,297,117,76,44,336
+568,Edgware             ,Shop                ,296,5,23,62,75,16,74,42
+568,Edgware             ,Education           ,333,0,221,39,73,0,0,0
+568,Edgware             ,Tourist             ,18,0,0,0,0,0,18,0
+568,Edgware             ,Hotel               ,323,0,49,70,0,0,32,172
+568,Edgware             ,Other               ,740,0,4,168,16,72,245,235
+568,Edgware             ,Unknown/Not Given   ,664,508,38,114,2,0,1,0
+774,Edgware Road (Bak)  ,Home                ,1177,0,610,374,0,59,6,127
+774,Edgware Road (Bak)  ,Work                ,3851,45,2238,753,309,105,164,238
+774,Edgware Road (Bak)  ,Shop                ,128,0,22,21,13,0,13,59
+774,Edgware Road (Bak)  ,Education           ,413,56,84,245,0,0,3,25
+774,Edgware Road (Bak)  ,Hotel               ,256,0,28,83,0,0,27,118
+774,Edgware Road (Bak)  ,Other               ,665,17,31,162,39,3,242,170
+774,Edgware Road (Bak)  ,Unknown/Not Given   ,1519,1283,29,0,56,0,151,0
+569,Edgware Road (Cir)  ,Home                ,2022,57,854,793,43,50,70,154
+569,Edgware Road (Cir)  ,Work                ,5059,86,2812,947,215,81,362,557
+569,Edgware Road (Cir)  ,Shop                ,278,24,9,21,39,0,86,99
+569,Edgware Road (Cir)  ,Education           ,281,0,24,244,0,14,0,0
+569,Edgware Road (Cir)  ,Tourist             ,56,0,18,0,0,0,0,38
+569,Edgware Road (Cir)  ,Hotel               ,149,0,3,31,0,60,9,46
+569,Edgware Road (Cir)  ,Other               ,1788,30,52,398,111,213,581,403
+569,Edgware Road (Cir)  ,Unknown/Not Given   ,1323,1140,95,9,48,0,0,31
+570,Elephant & Castle   ,Home                ,9023,63,4353,2229,653,121,812,793
+570,Elephant & Castle   ,Work                ,7813,10,4462,1786,231,310,625,389
+570,Elephant & Castle   ,Shop                ,374,122,25,15,56,38,51,69
+570,Elephant & Castle   ,Education           ,3983,11,1237,2498,82,25,78,53
+570,Elephant & Castle   ,Tourist             ,6,5,0,0,1,0,0,0
+570,Elephant & Castle   ,Hotel               ,610,0,0,340,0,0,0,271
+570,Elephant & Castle   ,Other               ,2546,57,337,587,125,239,498,702
+570,Elephant & Castle   ,Unknown/Not Given   ,4941,4348,150,206,68,0,169,0
+571,Elm Park            ,Home                ,2325,0,1501,583,2,12,102,125
+571,Elm Park            ,Work                ,233,81,71,80,0,0,0,1
+571,Elm Park            ,Shop                ,41,1,0,30,0,0,11,0
+571,Elm Park            ,Education           ,1,0,0,1,0,0,0,0
+571,Elm Park            ,Hotel               ,3,0,0,3,0,0,0,0
+571,Elm Park            ,Other               ,283,17,20,188,12,0,38,8
+571,Elm Park            ,Unknown/Not Given   ,2501,2442,59,0,0,0,0,0
+542,Embankment          ,Home                ,4828,40,1976,1483,118,240,422,549
+542,Embankment          ,Work                ,13937,185,6884,2838,1073,732,1210,1016
+542,Embankment          ,Shop                ,755,5,95,192,44,111,275,31
+542,Embankment          ,Education           ,363,0,93,157,51,23,0,39
+542,Embankment          ,Tourist             ,1339,134,42,61,7,33,231,831
+542,Embankment          ,Hotel               ,680,0,16,1,56,61,374,172
+542,Embankment          ,Other               ,9198,385,219,1537,1253,1344,2827,1633
+542,Embankment          ,Unknown/Not Given   ,3347,2809,217,111,24,7,30,151
+572,Epping              ,Home                ,3562,147,1814,756,48,67,369,361
+572,Epping              ,Work                ,300,16,133,92,0,0,59,0
+572,Epping              ,Shop                ,6,0,0,0,0,0,5,0
+572,Epping              ,Education           ,128,0,0,128,0,0,0,0
+572,Epping              ,Tourist             ,92,0,0,11,0,34,0,47
+572,Epping              ,Hotel               ,135,40,0,95,0,0,0,0
+572,Epping              ,Other               ,123,0,12,15,13,0,65,18
+572,Epping              ,Unknown/Not Given   ,1958,1876,54,18,9,0,2,0
+574,Euston              ,Home                ,23041,632,6735,4733,1719,1479,4277,3466
+574,Euston              ,Work                ,17560,304,7638,3533,1091,1192,2019,1784
+574,Euston              ,Shop                ,1494,0,8,26,0,135,1306,20
+574,Euston              ,Education           ,4681,129,2477,1643,31,37,160,205
+574,Euston              ,Tourist             ,677,26,0,4,0,3,226,417
+574,Euston              ,Hotel               ,2161,0,6,46,35,189,1218,666
+574,Euston              ,Other               ,7927,70,70,925,487,755,3647,1973
+574,Euston              ,Unknown/Not Given   ,5997,4560,170,149,154,130,502,333
+575,Euston Square       ,Home                ,4931,3,2311,1136,106,176,773,427
+575,Euston Square       ,Work                ,9988,63,5058,2038,429,426,1135,839
+575,Euston Square       ,Shop                ,369,0,6,0,2,54,59,248
+575,Euston Square       ,Education           ,3550,26,1845,1454,41,53,43,89
+575,Euston Square       ,Tourist             ,83,0,0,0,0,0,28,54
+575,Euston Square       ,Hotel               ,368,38,11,6,187,16,43,68
+575,Euston Square       ,Other               ,3499,27,209,329,972,171,967,824
+575,Euston Square       ,Unknown/Not Given   ,2065,1920,61,37,0,18,12,16
+576,Fairlop             ,Home                ,763,0,621,104,12,0,8,18
+576,Fairlop             ,Work                ,218,0,134,13,72,0,0,0
+576,Fairlop             ,Shop                ,25,0,0,0,0,0,0,25
+576,Fairlop             ,Education           ,11,0,1,11,0,0,0,0
+576,Fairlop             ,Other               ,324,0,174,128,1,0,19,2
+576,Fairlop             ,Unknown/Not Given   ,450,450,0,0,0,0,0,0
+577,Farringdon          ,Home                ,6234,14,3067,1481,309,334,747,283
+577,Farringdon          ,Work                ,17558,235,10563,4101,540,483,907,729
+577,Farringdon          ,Shop                ,266,0,24,0,0,21,6,216
+577,Farringdon          ,Education           ,943,0,387,455,7,61,33,1
+577,Farringdon          ,Tourist             ,59,0,0,34,13,0,13,0
+577,Farringdon          ,Hotel               ,80,0,0,0,0,48,2,30
+577,Farringdon          ,Other               ,1997,66,300,144,156,155,527,649
+577,Farringdon          ,Unknown/Not Given   ,2959,2492,198,118,4,0,131,16
+578,Finchley Central    ,Home                ,6797,31,2854,2046,377,303,721,465
+578,Finchley Central    ,Work                ,1802,12,850,475,21,138,206,99
+578,Finchley Central    ,Shop                ,264,0,20,45,142,3,34,20
+578,Finchley Central    ,Education           ,186,0,89,57,31,10,0,0
+578,Finchley Central    ,Hotel               ,170,0,0,96,0,0,7,67
+578,Finchley Central    ,Other               ,986,19,155,252,160,12,293,95
+578,Finchley Central    ,Unknown/Not Given   ,1391,1063,204,36,0,0,26,62
+579,Finchley Road       ,Home                ,6081,48,3259,1535,211,162,665,201
+579,Finchley Road       ,Work                ,3461,124,1787,1112,34,35,190,178
+579,Finchley Road       ,Shop                ,809,43,155,306,156,22,77,49
+579,Finchley Road       ,Education           ,485,0,137,337,2,3,0,6
+579,Finchley Road       ,Tourist             ,185,0,0,0,144,0,20,21
+579,Finchley Road       ,Hotel               ,343,0,18,12,165,0,69,79
+579,Finchley Road       ,Other               ,2149,84,199,613,279,225,431,318
+579,Finchley Road       ,Unknown/Not Given   ,1749,1386,242,11,17,37,8,47
+580,Finsbury Park       ,Home                ,32893,471,14068,7288,1737,1595,4749,2984
+580,Finsbury Park       ,Work                ,9400,160,5115,2808,251,207,600,259
+580,Finsbury Park       ,Shop                ,678,6,50,92,57,107,97,268
+580,Finsbury Park       ,Education           ,1103,2,273,533,34,7,246,8
+580,Finsbury Park       ,Tourist             ,74,0,0,20,0,0,49,5
+580,Finsbury Park       ,Hotel               ,522,6,32,89,111,74,122,88
+580,Finsbury Park       ,Other               ,5265,221,679,1748,706,445,640,825
+580,Finsbury Park       ,Unknown/Not Given   ,6678,5528,309,182,19,361,210,70
+581,Fulham Broadway     ,Home                ,5137,1,2677,940,239,367,495,419
+581,Fulham Broadway     ,Work                ,4797,42,3099,924,112,96,269,255
+581,Fulham Broadway     ,Shop                ,437,0,127,64,17,3,92,134
+581,Fulham Broadway     ,Education           ,577,8,304,172,42,51,0,0
+581,Fulham Broadway     ,Tourist             ,58,0,0,0,0,0,0,58
+581,Fulham Broadway     ,Hotel               ,407,0,26,225,0,8,103,45
+581,Fulham Broadway     ,Other               ,3208,60,115,671,249,386,840,887
+581,Fulham Broadway     ,Unknown/Not Given   ,1778,1625,143,0,0,0,0,11
+582,Gants Hill          ,Home                ,6837,201,3487,1811,268,44,820,206
+582,Gants Hill          ,Work                ,978,17,326,343,215,1,9,66
+582,Gants Hill          ,Shop                ,152,1,0,8,1,52,28,62
+582,Gants Hill          ,Education           ,268,63,14,190,0,0,0,1
+582,Gants Hill          ,Hotel               ,44,0,0,0,0,0,44,0
+582,Gants Hill          ,Other               ,722,6,12,329,113,47,153,62
+582,Gants Hill          ,Unknown/Not Given   ,2018,1933,85,1,0,0,0,0
+583,Gloucester Road     ,Home                ,4781,178,2176,901,332,268,560,366
+583,Gloucester Road     ,Work                ,5779,58,3321,1201,196,93,432,477
+583,Gloucester Road     ,Shop                ,326,0,50,129,7,3,106,32
+583,Gloucester Road     ,Education           ,1215,17,853,250,0,14,52,30
+583,Gloucester Road     ,Tourist             ,92,0,0,0,0,0,83,9
+583,Gloucester Road     ,Hotel               ,3390,124,151,263,51,1,1143,1656
+583,Gloucester Road     ,Other               ,2545,29,97,597,381,112,598,730
+583,Gloucester Road     ,Unknown/Not Given   ,2746,2488,32,0,0,0,205,21
+584,Golders Green       ,Home                ,8060,133,4036,2167,341,376,746,262
+584,Golders Green       ,Work                ,1799,6,867,748,37,4,109,27
+584,Golders Green       ,Shop                ,132,0,0,6,16,0,70,39
+584,Golders Green       ,Education           ,395,0,95,120,0,19,23,138
+584,Golders Green       ,Tourist             ,58,0,0,0,0,3,0,55
+584,Golders Green       ,Hotel               ,304,0,0,91,31,78,35,69
+584,Golders Green       ,Other               ,1446,77,167,315,65,39,406,377
+584,Golders Green       ,Unknown/Not Given   ,1588,1220,220,31,117,0,0,0
+585,Goldhawk Road       ,Home                ,1469,0,856,282,37,143,150,2
+585,Goldhawk Road       ,Work                ,483,43,212,162,45,0,0,21
+585,Goldhawk Road       ,Shop                ,147,0,0,0,21,0,0,125
+585,Goldhawk Road       ,Education           ,190,0,28,120,32,0,0,11
+585,Goldhawk Road       ,Hotel               ,59,0,52,0,7,0,0,0
+585,Goldhawk Road       ,Other               ,402,0,70,70,41,2,55,164
+585,Goldhawk Road       ,Unknown/Not Given   ,424,407,6,11,0,0,0,0
+586,Goodge Street       ,Home                ,309,10,134,75,42,0,38,8
+586,Goodge Street       ,Work                ,7683,161,4667,1360,329,266,443,457
+586,Goodge Street       ,Shop                ,322,25,4,56,79,17,95,46
+586,Goodge Street       ,Education           ,2696,30,1305,1053,31,3,168,108
+586,Goodge Street       ,Tourist             ,23,0,0,0,0,4,0,19
+586,Goodge Street       ,Hotel               ,133,0,16,25,0,0,11,81
+586,Goodge Street       ,Other               ,2576,93,88,486,154,180,690,886
+586,Goodge Street       ,Unknown/Not Given   ,769,732,22,5,0,8,1,0
+587,Grange Hill         ,Home                ,559,0,351,103,0,96,0,10
+587,Grange Hill         ,Work                ,18,0,18,0,0,0,0,0
+587,Grange Hill         ,Hotel               ,2,0,0,2,0,0,0,0
+587,Grange Hill         ,Other               ,22,0,0,11,0,0,10,1
+587,Grange Hill         ,Unknown/Not Given   ,529,221,294,0,13,0,0,0
+588,Great Portland Stree,Home                ,1448,2,438,364,59,39,19,528
+588,Great Portland Stree,Work                ,8322,168,4573,2151,156,273,568,434
+588,Great Portland Stree,Shop                ,174,0,0,76,0,0,21,78
+588,Great Portland Stree,Education           ,656,78,170,229,1,0,47,131
+588,Great Portland Stree,Tourist             ,105,0,0,0,32,0,0,73
+588,Great Portland Stree,Hotel               ,501,37,0,85,0,4,181,195
+588,Great Portland Stree,Other               ,1939,76,49,372,94,293,660,394
+588,Great Portland Stree,Unknown/Not Given   ,1654,1374,73,51,0,0,133,23
+590,Green Park          ,Home                ,3038,5,1673,421,214,187,190,348
+590,Green Park          ,Work                ,38616,791,23163,7160,1777,1269,2363,2093
+590,Green Park          ,Shop                ,2213,10,17,335,270,304,878,399
+590,Green Park          ,Education           ,616,25,381,140,0,6,31,33
+590,Green Park          ,Tourist             ,2024,50,0,94,42,137,662,1040
+590,Green Park          ,Hotel               ,1758,0,227,28,111,80,556,756
+590,Green Park          ,Other               ,15167,268,440,1768,1953,3026,4465,3247
+590,Green Park          ,Unknown/Not Given   ,6827,6098,293,121,18,137,122,38
+589,Greenford           ,Home                ,4809,13,3062,844,173,370,348,0
+589,Greenford           ,Work                ,994,21,655,190,1,13,36,77
+589,Greenford           ,Shop                ,52,0,0,36,8,7,2,0
+589,Greenford           ,Education           ,111,0,0,57,0,0,0,53
+589,Greenford           ,Tourist             ,0,0,0,0,0,0,0,0
+589,Greenford           ,Other               ,362,37,112,102,4,43,1,63
+589,Greenford           ,Unknown/Not Given   ,1009,653,43,249,65,0,0,0
+591,Gunnersbury         ,Home                ,824,0,357,248,24,16,163,15
+591,Gunnersbury         ,Work                ,1114,3,1042,47,10,2,7,4
+591,Gunnersbury         ,Shop                ,25,0,0,0,10,0,15,0
+591,Gunnersbury         ,Education           ,0,0,0,0,0,0,0,0
+591,Gunnersbury         ,Hotel               ,77,25,0,47,0,0,0,4
+591,Gunnersbury         ,Other               ,116,12,5,84,0,8,4,3
+591,Gunnersbury         ,Unknown/Not Given   ,330,330,0,0,0,0,0,0
+592,Hainault            ,Home                ,4353,34,2861,877,60,42,374,106
+592,Hainault            ,Work                ,276,29,145,46,0,0,33,23
+592,Hainault            ,Shop                ,100,0,0,39,0,0,61,0
+592,Hainault            ,Education           ,130,6,112,13,0,0,0,0
+592,Hainault            ,Hotel               ,128,0,0,128,0,0,0,0
+592,Hainault            ,Other               ,205,0,6,65,0,0,134,0
+592,Hainault            ,Unknown/Not Given   ,662,515,49,88,0,0,9,0
+593,Hammersmith (Dis)   ,Home                ,13367,175,5617,2952,765,762,2246,850
+593,Hammersmith (Dis)   ,Work                ,14942,213,9656,3036,429,378,479,751
+593,Hammersmith (Dis)   ,Shop                ,1133,15,113,342,174,113,268,108
+593,Hammersmith (Dis)   ,Education           ,1213,1,682,387,0,31,58,54
+593,Hammersmith (Dis)   ,Tourist             ,117,4,0,10,0,7,0,97
+593,Hammersmith (Dis)   ,Hotel               ,908,11,180,203,134,61,134,184
+593,Hammersmith (Dis)   ,Other               ,6471,167,440,1538,537,637,1779,1374
+593,Hammersmith (Dis)   ,Unknown/Not Given   ,5094,4353,425,178,33,1,63,41
+773,Hammersmith (H&C)   ,Home                ,3858,24,1784,960,146,243,267,433
+773,Hammersmith (H&C)   ,Work                ,3743,70,2204,756,192,69,124,327
+773,Hammersmith (H&C)   ,Shop                ,430,1,58,74,101,38,26,132
+773,Hammersmith (H&C)   ,Education           ,436,24,256,155,2,0,0,0
+773,Hammersmith (H&C)   ,Tourist             ,203,0,0,0,0,0,0,203
+773,Hammersmith (H&C)   ,Hotel               ,263,0,0,0,0,0,0,263
+773,Hammersmith (H&C)   ,Other               ,1743,30,96,526,111,268,294,418
+773,Hammersmith (H&C)   ,Unknown/Not Given   ,857,762,14,37,0,0,33,11
+594,Hampstead           ,Home                ,2461,59,1018,705,92,47,231,307
+594,Hampstead           ,Work                ,1559,1,939,390,69,3,85,74
+594,Hampstead           ,Shop                ,104,0,0,0,15,2,56,31
+594,Hampstead           ,Education           ,509,34,316,81,67,0,5,6
+594,Hampstead           ,Tourist             ,141,0,1,2,0,0,0,138
+594,Hampstead           ,Hotel               ,259,15,0,93,71,0,63,17
+594,Hampstead           ,Other               ,1751,14,102,356,198,154,357,569
+594,Hampstead           ,Unknown/Not Given   ,444,418,0,27,0,0,0,0
+595,Hanger Lane         ,Home                ,3117,3,2018,650,184,66,119,77
+595,Hanger Lane         ,Work                ,2024,174,1348,111,32,62,181,116
+595,Hanger Lane         ,Education           ,59,0,47,13,0,0,0,0
+595,Hanger Lane         ,Hotel               ,70,0,23,34,0,12,0,1
+595,Hanger Lane         ,Other               ,237,0,95,96,14,0,4,29
+595,Hanger Lane         ,Unknown/Not Given   ,1251,1134,19,98,0,0,0,0
+596,Harlesden           ,Home                ,915,0,441,257,81,36,38,61
+596,Harlesden           ,Work                ,1401,12,966,91,122,65,111,35
+596,Harlesden           ,Shop                ,84,0,0,81,0,0,3,0
+596,Harlesden           ,Education           ,80,0,20,40,0,0,0,20
+596,Harlesden           ,Hotel               ,175,0,0,0,0,0,175,0
+596,Harlesden           ,Other               ,99,3,0,20,3,30,42,1
+596,Harlesden           ,Unknown/Not Given   ,581,515,6,46,0,14,0,0
+597,Harrow & Wealdstone ,Home                ,3622,16,2291,773,188,83,119,152
+597,Harrow & Wealdstone ,Work                ,1170,1,732,177,101,20,79,60
+597,Harrow & Wealdstone ,Shop                ,75,25,0,3,42,3,0,0
+597,Harrow & Wealdstone ,Education           ,80,0,3,76,0,0,0,0
+597,Harrow & Wealdstone ,Hotel               ,36,0,0,0,33,0,3,0
+597,Harrow & Wealdstone ,Other               ,506,88,82,75,14,9,112,127
+597,Harrow & Wealdstone ,Unknown/Not Given   ,782,534,196,0,0,0,0,52
+598,Harrow-on-the-Hill  ,Home                ,6871,69,3918,1541,256,200,593,294
+598,Harrow-on-the-Hill  ,Work                ,2962,112,1468,691,133,46,257,255
+598,Harrow-on-the-Hill  ,Shop                ,1201,67,56,327,252,73,196,231
+598,Harrow-on-the-Hill  ,Education           ,366,2,161,169,0,0,33,0
+598,Harrow-on-the-Hill  ,Tourist             ,4,0,0,0,0,4,0,0
+598,Harrow-on-the-Hill  ,Hotel               ,71,0,1,11,0,0,3,56
+598,Harrow-on-the-Hill  ,Other               ,1825,48,23,638,255,122,478,261
+598,Harrow-on-the-Hill  ,Unknown/Not Given   ,2437,2205,92,56,31,33,18,1
+779,Hatton Cross        ,Home                ,2089,13,1291,437,4,0,261,81
+779,Hatton Cross        ,Work                ,1506,29,988,246,17,21,95,111
+779,Hatton Cross        ,Education           ,47,0,0,47,0,0,0,0
+779,Hatton Cross        ,Tourist             ,36,0,0,0,0,0,0,36
+779,Hatton Cross        ,Hotel               ,35,0,0,0,0,29,2,4
+779,Hatton Cross        ,Other               ,281,0,73,143,37,4,15,8
+779,Hatton Cross        ,Unknown/Not Given   ,860,859,0,0,0,0,1,0
+781,Heathrow Terminal 4 ,Home                ,85,3,0,27,0,0,54,0
+781,Heathrow Terminal 4 ,Work                ,1068,0,579,349,57,0,74,9
+781,Heathrow Terminal 4 ,Tourist             ,39,0,0,0,0,0,0,39
+781,Heathrow Terminal 4 ,Hotel               ,83,3,0,0,0,0,13,66
+781,Heathrow Terminal 4 ,Other               ,979,7,30,13,0,5,784,140
+781,Heathrow Terminal 4 ,Unknown/Not Given   ,339,216,0,0,0,0,0,123
+783,Heathrow Terminal 5 ,Home                ,458,0,159,16,149,77,57,0
+783,Heathrow Terminal 5 ,Work                ,1673,11,575,798,0,159,0,131
+783,Heathrow Terminal 5 ,Tourist             ,70,0,0,0,0,0,46,24
+783,Heathrow Terminal 5 ,Hotel               ,118,0,0,0,0,39,79,0
+783,Heathrow Terminal 5 ,Other               ,1305,89,0,25,339,102,635,116
+783,Heathrow Terminal 5 ,Unknown/Not Given   ,1686,1641,0,0,0,45,0,0
+780,Heathrow Terminals 1,Home                ,1499,16,99,102,60,97,822,303
+780,Heathrow Terminals 1,Work                ,3566,91,1687,779,75,48,694,192
+780,Heathrow Terminals 1,Tourist             ,41,0,0,0,0,7,22,12
+780,Heathrow Terminals 1,Hotel               ,411,81,10,115,0,84,107,14
+780,Heathrow Terminals 1,Other               ,2641,28,4,153,67,207,1314,868
+780,Heathrow Terminals 1,Unknown/Not Given   ,1361,1116,4,2,0,3,235,0
+601,Hendon Central      ,Home                ,6145,146,3104,1242,171,471,408,603
+601,Hendon Central      ,Work                ,1870,13,833,740,6,39,188,52
+601,Hendon Central      ,Shop                ,94,12,44,10,0,15,12,0
+601,Hendon Central      ,Education           ,2768,5,989,1610,1,86,71,6
+601,Hendon Central      ,Hotel               ,156,0,104,52,0,0,0,0
+601,Hendon Central      ,Other               ,1053,6,0,520,42,215,71,199
+601,Hendon Central      ,Unknown/Not Given   ,1089,969,68,8,22,0,22,0
+602,High Barnet         ,Home                ,4027,90,1745,1042,165,140,610,236
+602,High Barnet         ,Work                ,648,4,423,123,28,0,14,56
+602,High Barnet         ,Shop                ,97,0,63,0,2,0,32,0
+602,High Barnet         ,Education           ,235,0,149,87,0,0,0,0
+602,High Barnet         ,Tourist             ,0,0,0,0,0,0,0,0
+602,High Barnet         ,Hotel               ,115,0,0,57,27,0,0,32
+602,High Barnet         ,Other               ,626,0,45,114,112,40,202,114
+602,High Barnet         ,Unknown/Not Given   ,666,512,105,32,6,0,5,7
+605,High Street Kensingt,Home                ,2515,14,1293,509,204,91,136,265
+605,High Street Kensingt,Work                ,8924,64,5021,1849,282,237,718,754
+605,High Street Kensingt,Shop                ,1324,42,1,241,135,292,276,338
+605,High Street Kensingt,Education           ,588,71,85,370,11,0,45,4
+605,High Street Kensingt,Tourist             ,247,0,29,0,3,1,125,89
+605,High Street Kensingt,Hotel               ,916,21,34,80,56,29,282,415
+605,High Street Kensingt,Other               ,3334,167,261,412,514,257,878,845
+605,High Street Kensingt,Unknown/Not Given   ,2794,2427,153,16,3,91,86,18
+603,Highbury & Islington,Home                ,18905,342,9227,4401,744,977,1803,1410
+603,Highbury & Islington,Work                ,12194,158,7880,2923,223,128,455,428
+603,Highbury & Islington,Shop                ,536,0,5,216,49,28,97,141
+603,Highbury & Islington,Education           ,923,14,439,406,43,0,0,20
+603,Highbury & Islington,Tourist             ,52,2,0,15,0,0,33,1
+603,Highbury & Islington,Hotel               ,690,0,1,268,42,100,29,249
+603,Highbury & Islington,Other               ,6177,156,508,1479,940,508,1564,1022
+603,Highbury & Islington,Unknown/Not Given   ,21682,21193,210,98,4,0,85,93
+604,Highgate            ,Home                ,6954,52,2911,2358,421,168,467,577
+604,Highgate            ,Work                ,626,14,207,304,2,5,33,61
+604,Highgate            ,Shop                ,106,0,0,0,98,0,0,7
+604,Highgate            ,Education           ,232,0,168,64,0,0,0,0
+604,Highgate            ,Tourist             ,63,0,0,12,0,51,0,0
+604,Highgate            ,Hotel               ,101,0,2,2,0,0,97,0
+604,Highgate            ,Other               ,775,38,14,187,17,124,187,208
+604,Highgate            ,Unknown/Not Given   ,607,561,4,42,0,0,0,0
+606,Hillingdon          ,Home                ,1852,22,1085,434,31,1,268,11
+606,Hillingdon          ,Work                ,180,0,68,57,0,0,55,0
+606,Hillingdon          ,Shop                ,2,0,0,0,0,0,0,2
+606,Hillingdon          ,Education           ,131,7,121,0,3,0,0,0
+606,Hillingdon          ,Hotel               ,22,0,12,0,0,10,0,0
+606,Hillingdon          ,Other               ,117,0,16,3,0,0,67,31
+606,Hillingdon          ,Unknown/Not Given   ,427,353,14,0,0,0,61,0
+607,Holborn             ,Home                ,1791,7,866,398,98,34,240,147
+607,Holborn             ,Work                ,29836,531,16929,6874,745,1048,2168,1541
+607,Holborn             ,Shop                ,1002,35,73,45,100,103,489,157
+607,Holborn             ,Education           ,9504,186,3917,4454,37,138,394,377
+607,Holborn             ,Tourist             ,297,0,0,19,0,62,121,95
+607,Holborn             ,Hotel               ,1340,0,18,244,72,90,293,622
+607,Holborn             ,Other               ,11061,357,344,1782,955,1260,3495,2868
+607,Holborn             ,Unknown/Not Given   ,4697,4222,204,181,32,9,20,28
+608,Holland Park        ,Home                ,2068,35,1129,499,70,54,159,121
+608,Holland Park        ,Work                ,1594,25,966,388,40,41,8,125
+608,Holland Park        ,Shop                ,96,0,0,70,0,0,1,24
+608,Holland Park        ,Education           ,119,5,94,6,9,0,3,2
+608,Holland Park        ,Tourist             ,43,0,12,0,0,0,13,18
+608,Holland Park        ,Hotel               ,99,30,0,7,16,0,22,25
+608,Holland Park        ,Other               ,543,37,18,55,90,28,190,127
+608,Holland Park        ,Unknown/Not Given   ,364,305,59,0,0,0,0,0
+609,Holloway Road       ,Home                ,4142,43,2050,776,206,231,634,201
+609,Holloway Road       ,Work                ,2019,65,937,617,33,62,111,194
+609,Holloway Road       ,Shop                ,207,0,3,60,41,1,31,69
+609,Holloway Road       ,Education           ,2408,17,357,1714,31,1,104,184
+609,Holloway Road       ,Tourist             ,33,0,6,0,0,0,0,27
+609,Holloway Road       ,Hotel               ,156,0,96,4,0,0,0,56
+609,Holloway Road       ,Other               ,893,30,64,216,123,64,298,98
+609,Holloway Road       ,Unknown/Not Given   ,824,722,90,13,0,0,0,0
+610,Hornchurch          ,Home                ,2603,2,1885,449,70,17,122,58
+610,Hornchurch          ,Work                ,214,0,159,10,8,0,0,37
+610,Hornchurch          ,Shop                ,59,0,0,12,0,0,47,0
+610,Hornchurch          ,Education           ,213,0,112,101,0,0,0,0
+610,Hornchurch          ,Hotel               ,102,0,7,0,0,0,73,22
+610,Hornchurch          ,Other               ,222,0,4,68,3,19,109,18
+610,Hornchurch          ,Unknown/Not Given   ,456,402,48,0,0,0,0,6
+611,Hounslow Central    ,Home                ,3132,148,2045,628,66,11,203,30
+611,Hounslow Central    ,Work                ,1368,1,767,239,170,2,124,66
+611,Hounslow Central    ,Shop                ,115,0,22,31,0,4,15,44
+611,Hounslow Central    ,Education           ,45,0,33,11,0,0,1,0
+611,Hounslow Central    ,Tourist             ,7,0,0,0,0,0,0,7
+611,Hounslow Central    ,Hotel               ,167,0,95,10,0,0,0,62
+611,Hounslow Central    ,Other               ,503,0,123,39,19,15,180,127
+611,Hounslow Central    ,Unknown/Not Given   ,818,616,194,7,0,0,0,0
+612,Hounslow East       ,Home                ,3540,68,1993,785,52,184,384,73
+612,Hounslow East       ,Work                ,543,0,328,52,6,22,28,107
+612,Hounslow East       ,Shop                ,40,0,0,10,24,0,5,0
+612,Hounslow East       ,Education           ,383,0,85,291,0,0,0,7
+612,Hounslow East       ,Hotel               ,7,0,0,7,0,0,0,0
+612,Hounslow East       ,Other               ,275,0,20,130,20,2,82,21
+612,Hounslow East       ,Unknown/Not Given   ,1415,1343,71,0,0,0,1,0
+613,Hounslow West       ,Home                ,2991,46,1767,650,25,174,125,204
+613,Hounslow West       ,Work                ,576,16,357,56,39,1,5,100
+613,Hounslow West       ,Shop                ,42,0,0,16,17,0,9,0
+613,Hounslow West       ,Education           ,50,0,40,10,0,0,0,0
+613,Hounslow West       ,Hotel               ,130,0,0,0,0,62,2,66
+613,Hounslow West       ,Other               ,448,0,134,220,6,62,21,6
+613,Hounslow West       ,Unknown/Not Given   ,1065,811,43,165,0,0,0,46
+614,Hyde Park Corner    ,Home                ,178,0,70,45,24,0,17,22
+614,Hyde Park Corner    ,Work                ,4258,58,2194,836,197,237,514,222
+614,Hyde Park Corner    ,Shop                ,52,0,0,30,0,0,2,20
+614,Hyde Park Corner    ,Education           ,64,0,32,32,0,0,0,0
+614,Hyde Park Corner    ,Tourist             ,633,137,62,10,0,0,47,377
+614,Hyde Park Corner    ,Hotel               ,517,0,0,257,84,136,0,41
+614,Hyde Park Corner    ,Other               ,1288,43,4,295,28,135,474,309
+614,Hyde Park Corner    ,Unknown/Not Given   ,1631,1572,21,6,11,22,0,0
+615,Ickenham            ,Home                ,1323,2,515,530,55,127,87,7
+615,Ickenham            ,Work                ,293,0,256,37,0,0,0,0
+615,Ickenham            ,Shop                ,67,0,26,1,33,1,5,0
+615,Ickenham            ,Education           ,94,4,1,52,8,0,0,29
+615,Ickenham            ,Tourist             ,0,0,0,0,0,0,0,0
+615,Ickenham            ,Hotel               ,24,0,24,0,0,0,0,0
+615,Ickenham            ,Other               ,133,22,2,6,8,35,58,1
+615,Ickenham            ,Unknown/Not Given   ,103,103,0,0,0,0,0,0
+616,Kennington          ,Home                ,4331,131,1504,1485,278,125,338,471
+616,Kennington          ,Work                ,1801,8,724,632,49,71,156,160
+616,Kennington          ,Shop                ,70,9,0,16,0,0,0,45
+616,Kennington          ,Education           ,138,4,82,48,0,0,0,4
+616,Kennington          ,Hotel               ,50,0,0,1,0,0,36,13
+616,Kennington          ,Other               ,964,0,59,343,54,144,262,104
+616,Kennington          ,Unknown/Not Given   ,853,706,123,18,0,0,0,6
+617,Kensal Green        ,Home                ,1862,22,804,445,125,15,250,202
+617,Kensal Green        ,Work                ,310,8,182,95,12,0,2,12
+617,Kensal Green        ,Shop                ,32,0,0,16,7,0,9,0
+617,Kensal Green        ,Education           ,73,0,59,13,0,0,1,0
+617,Kensal Green        ,Tourist             ,13,0,0,0,0,0,13,0
+617,Kensal Green        ,Other               ,308,4,59,91,48,0,40,65
+617,Kensal Green        ,Unknown/Not Given   ,350,212,139,0,0,0,0,0
+618,Kensington (Olympia),Home                ,689,0,418,272,0,0,0,0
+618,Kensington (Olympia),Work                ,197,0,0,183,14,0,0,0
+618,Kensington (Olympia),Shop                ,85,0,0,0,0,0,85,0
+618,Kensington (Olympia),Other               ,410,172,0,0,0,0,135,103
+618,Kensington (Olympia),Unknown/Not Given   ,4,4,0,0,0,0,0,0
+619,Kentish Town        ,Home                ,5535,91,2104,1305,519,225,452,840
+619,Kentish Town        ,Work                ,4290,72,2437,937,140,110,227,367
+619,Kentish Town        ,Shop                ,114,0,0,38,0,18,0,58
+619,Kentish Town        ,Education           ,280,0,67,205,0,7,0,0
+619,Kentish Town        ,Hotel               ,176,0,0,51,0,0,93,32
+619,Kentish Town        ,Other               ,1429,65,24,211,108,150,254,617
+619,Kentish Town        ,Unknown/Not Given   ,1757,1674,21,14,0,0,16,31
+620,Kenton              ,Home                ,859,8,412,229,137,2,58,14
+620,Kenton              ,Work                ,526,0,325,173,0,2,10,17
+620,Kenton              ,Shop                ,44,0,7,19,18,0,0,0
+620,Kenton              ,Education           ,115,17,56,42,0,0,0,0
+620,Kenton              ,Tourist             ,1,0,0,0,0,0,0,1
+620,Kenton              ,Hotel               ,70,0,0,0,0,0,6,64
+620,Kenton              ,Other               ,87,0,0,48,7,0,11,21
+620,Kenton              ,Unknown/Not Given   ,333,255,79,0,0,0,0,0
+621,Kew Gardens         ,Home                ,2863,52,1268,910,160,216,217,40
+621,Kew Gardens         ,Work                ,875,17,421,165,6,99,114,54
+621,Kew Gardens         ,Shop                ,9,0,0,6,0,0,0,3
+621,Kew Gardens         ,Education           ,74,0,12,1,10,0,3,48
+621,Kew Gardens         ,Tourist             ,322,0,11,14,7,57,180,53
+621,Kew Gardens         ,Hotel               ,58,0,26,17,0,0,0,15
+621,Kew Gardens         ,Other               ,1152,24,1,388,65,28,185,462
+621,Kew Gardens         ,Unknown/Not Given   ,790,611,16,156,0,0,7,0
+622,Kilburn             ,Home                ,8064,105,3981,2086,387,318,665,523
+622,Kilburn             ,Work                ,1577,46,1015,359,29,60,45,25
+622,Kilburn             ,Shop                ,385,7,9,122,119,86,1,41
+622,Kilburn             ,Education           ,153,0,17,135,0,0,0,0
+622,Kilburn             ,Hotel               ,558,0,0,326,35,0,16,181
+622,Kilburn             ,Other               ,1495,0,109,447,27,42,134,736
+622,Kilburn             ,Unknown/Not Given   ,1151,1065,24,48,12,0,0,2
+623,Kilburn Park        ,Home                ,2901,128,1236,709,212,297,206,113
+623,Kilburn Park        ,Work                ,883,34,418,174,35,6,32,183
+623,Kilburn Park        ,Shop                ,200,0,6,0,9,0,59,126
+623,Kilburn Park        ,Education           ,57,11,41,5,0,0,0,0
+623,Kilburn Park        ,Hotel               ,54,0,4,0,49,0,1,0
+623,Kilburn Park        ,Other               ,776,63,161,240,29,29,101,152
+623,Kilburn Park        ,Unknown/Not Given   ,249,218,1,27,0,0,3,0
+625,King's Cross St. Pan,Home                ,54563,484,16303,14828,2260,3249,10432,7007
+625,King's Cross St. Pan,Work                ,35635,383,16844,8013,1467,1437,3955,3537
+625,King's Cross St. Pan,Shop                ,899,36,203,25,32,9,394,199
+625,King's Cross St. Pan,Education           ,4649,36,1228,2293,211,217,240,426
+625,King's Cross St. Pan,Tourist             ,2362,8,70,174,16,121,904,1070
+625,King's Cross St. Pan,Hotel               ,4940,69,298,617,84,1159,1625,1089
+625,King's Cross St. Pan,Other               ,21551,957,874,2909,2517,1830,7353,5110
+625,King's Cross St. Pan,Unknown/Not Given   ,16342,13936,422,740,87,134,720,303
+624,Kingsbury           ,Home                ,3255,17,1990,847,194,44,155,8
+624,Kingsbury           ,Work                ,653,0,463,58,59,34,22,18
+624,Kingsbury           ,Shop                ,145,0,18,9,14,0,104,0
+624,Kingsbury           ,Education           ,249,0,94,155,0,0,0,0
+624,Kingsbury           ,Tourist             ,13,0,0,0,0,0,13,0
+624,Kingsbury           ,Hotel               ,274,0,0,274,0,0,0,0
+624,Kingsbury           ,Other               ,590,71,112,71,102,198,17,18
+624,Kingsbury           ,Unknown/Not Given   ,2883,2730,82,71,0,0,0,0
+626,Knightsbridge       ,Home                ,1220,2,430,407,113,152,53,63
+626,Knightsbridge       ,Work                ,10258,128,6295,2142,171,210,660,650
+626,Knightsbridge       ,Shop                ,4546,233,47,686,226,745,1276,1332
+626,Knightsbridge       ,Education           ,223,0,42,103,8,34,0,36
+626,Knightsbridge       ,Tourist             ,1239,0,0,51,60,33,263,833
+626,Knightsbridge       ,Hotel               ,328,7,0,0,0,0,242,79
+626,Knightsbridge       ,Other               ,4112,54,148,515,149,545,1440,1261
+626,Knightsbridge       ,Unknown/Not Given   ,3557,3350,14,35,0,2,95,61
+627,Ladbroke Grove      ,Home                ,2866,115,1242,918,48,129,264,150
+627,Ladbroke Grove      ,Work                ,2612,12,1407,590,86,51,161,305
+627,Ladbroke Grove      ,Shop                ,107,0,0,0,7,0,81,19
+627,Ladbroke Grove      ,Education           ,480,0,135,274,1,70,0,0
+627,Ladbroke Grove      ,Hotel               ,152,0,0,57,0,0,78,17
+627,Ladbroke Grove      ,Other               ,1001,14,28,320,175,132,172,159
+627,Ladbroke Grove      ,Unknown/Not Given   ,1098,1002,47,31,0,0,16,2
+628,Lambeth North       ,Home                ,906,80,277,282,55,15,132,64
+628,Lambeth North       ,Work                ,1729,43,591,399,105,43,349,200
+628,Lambeth North       ,Shop                ,26,1,0,0,0,0,25,0
+628,Lambeth North       ,Education           ,641,5,9,497,1,0,25,105
+628,Lambeth North       ,Tourist             ,75,45,0,0,0,0,4,26
+628,Lambeth North       ,Hotel               ,101,0,16,14,1,0,37,33
+628,Lambeth North       ,Other               ,768,3,1,262,27,26,83,365
+628,Lambeth North       ,Unknown/Not Given   ,566,517,2,2,45,0,0,0
+629,Lancaster Gate      ,Home                ,3789,79,1383,882,247,151,887,161
+629,Lancaster Gate      ,Work                ,2820,21,1397,594,35,68,212,493
+629,Lancaster Gate      ,Shop                ,92,0,0,3,52,0,37,0
+629,Lancaster Gate      ,Education           ,41,0,18,23,0,0,0,0
+629,Lancaster Gate      ,Tourist             ,346,0,0,0,17,0,41,288
+629,Lancaster Gate      ,Hotel               ,1205,18,0,74,95,69,328,622
+629,Lancaster Gate      ,Other               ,721,0,57,117,133,1,257,157
+629,Lancaster Gate      ,Unknown/Not Given   ,1560,1433,24,0,0,0,97,6
+630,Latimer Road        ,Home                ,1080,100,605,178,57,6,115,18
+630,Latimer Road        ,Work                ,1583,1,995,460,1,22,41,62
+630,Latimer Road        ,Shop                ,37,0,0,37,0,0,0,0
+630,Latimer Road        ,Education           ,42,0,1,41,0,0,0,0
+630,Latimer Road        ,Hotel               ,63,0,13,0,0,49,0,0
+630,Latimer Road        ,Other               ,516,0,16,129,135,23,9,205
+630,Latimer Road        ,Unknown/Not Given   ,982,982,0,0,0,0,0,0
+631,Leicester Square    ,Home                ,1839,50,823,317,64,142,294,149
+631,Leicester Square    ,Work                ,14767,248,7993,2875,545,713,1038,1356
+631,Leicester Square    ,Shop                ,2451,35,14,424,399,320,630,630
+631,Leicester Square    ,Education           ,699,2,377,176,3,0,93,49
+631,Leicester Square    ,Tourist             ,1190,24,153,49,308,130,331,194
+631,Leicester Square    ,Hotel               ,475,103,0,58,0,39,212,62
+631,Leicester Square    ,Other               ,19294,390,906,4045,2462,2693,4822,3977
+631,Leicester Square    ,Unknown/Not Given   ,7641,7129,110,167,16,78,76,64
+632,Leyton              ,Home                ,13560,206,7933,2847,757,243,955,619
+632,Leyton              ,Work                ,1833,2,1211,374,165,34,6,40
+632,Leyton              ,Shop                ,189,0,0,44,9,51,85,0
+632,Leyton              ,Education           ,182,0,23,109,0,17,0,32
+632,Leyton              ,Tourist             ,257,0,0,159,98,0,0,0
+632,Leyton              ,Hotel               ,116,0,0,38,4,0,73,0
+632,Leyton              ,Other               ,2417,177,274,818,181,285,227,454
+632,Leyton              ,Unknown/Not Given   ,3031,2439,422,1,24,0,54,89
+633,Leytonstone         ,Home                ,12187,149,7118,2921,472,393,668,467
+633,Leytonstone         ,Work                ,1429,58,824,264,37,118,44,83
+633,Leytonstone         ,Shop                ,492,31,381,49,2,0,26,2
+633,Leytonstone         ,Education           ,626,0,320,306,0,0,0,0
+633,Leytonstone         ,Hotel               ,130,0,0,5,10,5,45,65
+633,Leytonstone         ,Other               ,1117,59,179,389,80,124,192,94
+633,Leytonstone         ,Unknown/Not Given   ,1629,1376,91,53,47,46,16,0
+634,Liverpool Street    ,Home                ,38941,495,17763,9810,2035,2066,4164,2608
+634,Liverpool Street    ,Work                ,43583,443,26290,8514,1522,1287,2564,2963
+634,Liverpool Street    ,Shop                ,1973,26,33,545,135,254,488,493
+634,Liverpool Street    ,Education           ,2079,11,857,1080,57,0,28,46
+634,Liverpool Street    ,Tourist             ,610,0,92,21,28,2,84,382
+634,Liverpool Street    ,Hotel               ,1296,67,47,301,65,131,405,279
+634,Liverpool Street    ,Other               ,14788,362,939,2709,1762,1226,3736,4055
+634,Liverpool Street    ,Unknown/Not Given   ,11234,9194,914,310,202,43,337,233
+635,London Bridge       ,Home                ,37495,762,16349,9108,1365,1211,5197,3504
+635,London Bridge       ,Work                ,38688,343,21533,9203,1278,1175,2532,2624
+635,London Bridge       ,Shop                ,904,7,0,218,176,99,290,114
+635,London Bridge       ,Education           ,4925,2,2152,2148,103,19,379,122
+635,London Bridge       ,Tourist             ,1930,0,31,15,34,18,483,1347
+635,London Bridge       ,Hotel               ,1719,0,6,333,209,29,475,666
+635,London Bridge       ,Other               ,17096,69,384,2725,1855,2007,4923,5133
+635,London Bridge       ,Unknown/Not Given   ,10549,8725,914,451,56,12,243,147
+636,Loughton            ,Home                ,3842,5,1865,1009,88,296,334,245
+636,Loughton            ,Work                ,705,0,412,191,0,0,32,70
+636,Loughton            ,Shop                ,150,0,14,53,1,8,30,45
+636,Loughton            ,Education           ,59,0,3,2,0,0,0,54
+636,Loughton            ,Tourist             ,26,0,26,0,0,0,0,0
+636,Loughton            ,Hotel               ,48,0,39,9,0,0,0,0
+636,Loughton            ,Other               ,367,3,10,52,3,79,95,124
+636,Loughton            ,Unknown/Not Given   ,362,296,26,7,0,3,12,17
+637,Maida Vale          ,Home                ,2820,16,1220,845,230,89,346,74
+637,Maida Vale          ,Work                ,889,21,309,340,34,78,53,54
+637,Maida Vale          ,Shop                ,15,0,0,8,7,0,0,0
+637,Maida Vale          ,Education           ,254,0,159,88,8,0,0,0
+637,Maida Vale          ,Hotel               ,158,0,2,106,0,14,32,4
+637,Maida Vale          ,Other               ,745,0,30,353,97,20,97,148
+637,Maida Vale          ,Unknown/Not Given   ,406,361,35,0,0,0,5,5
+638,Manor House         ,Home                ,9260,93,4831,1660,847,622,735,470
+638,Manor House         ,Work                ,1117,81,608,274,38,10,19,87
+638,Manor House         ,Shop                ,319,0,4,0,251,0,52,12
+638,Manor House         ,Education           ,155,0,115,30,0,0,0,10
+638,Manor House         ,Tourist             ,52,0,0,0,51,0,0,1
+638,Manor House         ,Hotel               ,332,55,2,166,0,0,50,59
+638,Manor House         ,Other               ,1110,36,145,337,81,151,187,171
+638,Manor House         ,Unknown/Not Given   ,1493,1225,121,47,78,0,0,22
+639,Mansion House       ,Home                ,280,0,114,39,3,32,62,31
+639,Mansion House       ,Work                ,8386,55,5222,1671,161,237,657,384
+639,Mansion House       ,Shop                ,44,0,0,44,0,0,0,0
+639,Mansion House       ,Education           ,187,0,109,4,0,0,32,42
+639,Mansion House       ,Tourist             ,114,0,0,0,0,0,0,114
+639,Mansion House       ,Hotel               ,71,0,64,0,0,0,2,5
+639,Mansion House       ,Other               ,1221,0,68,132,282,107,321,312
+639,Mansion House       ,Unknown/Not Given   ,1122,1016,17,2,29,0,13,44
+640,Marble Arch         ,Home                ,1859,111,1069,313,164,14,101,87
+640,Marble Arch         ,Work                ,7886,41,4985,1410,316,94,386,653
+640,Marble Arch         ,Shop                ,2519,34,272,384,84,142,923,680
+640,Marble Arch         ,Education           ,96,0,55,25,3,0,6,7
+640,Marble Arch         ,Tourist             ,181,0,48,0,0,1,82,50
+640,Marble Arch         ,Hotel               ,1485,4,136,412,17,0,147,768
+640,Marble Arch         ,Other               ,2549,35,236,356,243,278,623,777
+640,Marble Arch         ,Unknown/Not Given   ,3770,3539,55,54,12,17,4,89
+641,Marylebone          ,Home                ,10993,105,4309,2629,826,517,1401,1205
+641,Marylebone          ,Work                ,5566,65,3035,1101,271,145,386,564
+641,Marylebone          ,Shop                ,140,0,0,13,0,29,12,86
+641,Marylebone          ,Education           ,227,0,54,152,13,0,1,7
+641,Marylebone          ,Tourist             ,41,0,0,0,0,0,11,31
+641,Marylebone          ,Hotel               ,203,70,0,20,0,0,0,114
+641,Marylebone          ,Other               ,2086,2,59,463,152,97,764,549
+641,Marylebone          ,Unknown/Not Given   ,1769,1171,229,70,12,14,11,263
+642,Mile End            ,Home                ,9054,76,3656,2505,707,339,1081,690
+642,Mile End            ,Work                ,4295,31,2946,816,68,84,220,131
+642,Mile End            ,Shop                ,196,0,5,5,55,51,21,59
+642,Mile End            ,Education           ,3784,53,1676,1417,148,49,287,154
+642,Mile End            ,Tourist             ,94,1,0,0,32,0,0,60
+642,Mile End            ,Hotel               ,257,0,14,24,0,115,18,87
+642,Mile End            ,Other               ,2636,83,173,981,43,131,738,487
+642,Mile End            ,Unknown/Not Given   ,3887,2769,1003,66,39,0,8,2
+643,Mill Hill East      ,Home                ,1322,0,657,253,34,177,201,0
+643,Mill Hill East      ,Work                ,425,7,261,130,0,0,18,10
+643,Mill Hill East      ,Other               ,200,0,61,24,22,49,3,41
+643,Mill Hill East      ,Unknown/Not Given   ,244,243,1,0,0,0,0,0
+646,Moor Park           ,Home                ,848,26,454,198,41,8,21,100
+646,Moor Park           ,Work                ,370,44,262,18,0,42,4,0
+646,Moor Park           ,Shop                ,1,1,0,0,0,0,0,0
+646,Moor Park           ,Education           ,80,0,80,0,0,0,0,0
+646,Moor Park           ,Other               ,87,0,0,0,0,81,1,5
+646,Moor Park           ,Unknown/Not Given   ,125,125,0,0,0,0,0,0
+645,Moorgate            ,Home                ,2872,0,1265,361,165,640,176,265
+645,Moorgate            ,Work                ,35604,395,21764,8571,759,1101,2046,968
+645,Moorgate            ,Shop                ,410,0,0,0,137,3,75,194
+645,Moorgate            ,Education           ,3335,79,1579,1344,85,62,160,25
+645,Moorgate            ,Tourist             ,190,0,0,0,0,0,19,171
+645,Moorgate            ,Hotel               ,105,0,0,0,0,2,103,0
+645,Moorgate            ,Other               ,5100,218,386,670,312,617,1146,1750
+645,Moorgate            ,Unknown/Not Given   ,8887,8577,45,144,6,55,53,7
+647,Morden              ,Home                ,11510,44,6006,2918,466,858,787,431
+647,Morden              ,Work                ,1911,14,1089,572,44,141,9,43
+647,Morden              ,Shop                ,248,0,58,33,15,0,76,67
+647,Morden              ,Education           ,231,47,138,37,0,4,0,5
+647,Morden              ,Hotel               ,162,20,4,12,13,111,0,0
+647,Morden              ,Other               ,825,0,141,157,48,319,66,95
+647,Morden              ,Unknown/Not Given   ,1091,872,176,19,3,18,0,2
+648,Mornington Crescent ,Home                ,1193,9,393,312,43,61,142,233
+648,Mornington Crescent ,Work                ,3792,50,2627,629,123,24,272,67
+648,Mornington Crescent ,Shop                ,121,0,0,61,0,10,50,0
+648,Mornington Crescent ,Education           ,447,13,150,253,3,0,0,27
+648,Mornington Crescent ,Tourist             ,1,0,0,0,0,0,0,1
+648,Mornington Crescent ,Hotel               ,4,0,4,0,0,0,0,0
+648,Mornington Crescent ,Other               ,815,0,32,250,10,121,94,308
+648,Mornington Crescent ,Unknown/Not Given   ,577,543,16,2,17,0,0,0
+649,Neasden             ,Home                ,2429,14,1695,548,15,74,32,53
+649,Neasden             ,Work                ,1447,14,722,410,18,6,72,204
+649,Neasden             ,Shop                ,244,0,18,4,14,0,43,164
+649,Neasden             ,Education           ,111,0,104,7,0,0,0,0
+649,Neasden             ,Tourist             ,4,0,0,0,0,0,0,4
+649,Neasden             ,Hotel               ,43,0,0,25,12,0,6,0
+649,Neasden             ,Other               ,470,0,38,265,113,42,0,12
+649,Neasden             ,Unknown/Not Given   ,890,844,11,33,0,0,2,0
+650,Newbury Park        ,Home                ,5470,93,3131,1006,128,227,462,424
+650,Newbury Park        ,Work                ,676,7,329,186,72,0,78,3
+650,Newbury Park        ,Shop                ,156,0,0,40,3,0,111,2
+650,Newbury Park        ,Education           ,143,0,114,27,0,2,0,0
+650,Newbury Park        ,Hotel               ,47,0,1,12,0,0,4,30
+650,Newbury Park        ,Other               ,573,3,219,40,34,49,179,50
+650,Newbury Park        ,Unknown/Not Given   ,737,409,243,77,0,0,8,0
+653,North Acton         ,Home                ,4040,23,1852,1298,149,81,357,279
+653,North Acton         ,Work                ,3775,31,2434,795,116,127,180,92
+653,North Acton         ,Shop                ,59,0,3,15,37,3,0,1
+653,North Acton         ,Education           ,86,0,57,12,16,0,0,0
+653,North Acton         ,Hotel               ,73,0,0,0,70,0,0,3
+653,North Acton         ,Other               ,460,5,76,120,141,0,2,116
+653,North Acton         ,Unknown/Not Given   ,1851,1819,21,12,0,0,0,0
+654,North Ealing        ,Home                ,706,12,255,223,30,34,150,2
+654,North Ealing        ,Work                ,297,20,185,69,1,0,22,0
+654,North Ealing        ,Shop                ,25,0,0,0,0,0,25,0
+654,North Ealing        ,Education           ,140,1,137,0,1,0,0,0
+654,North Ealing        ,Hotel               ,13,0,0,0,13,0,0,0
+654,North Ealing        ,Other               ,112,0,0,2,83,0,7,20
+654,North Ealing        ,Unknown/Not Given   ,153,152,1,0,0,0,0,0
+789,North Greenwich     ,Home                ,13922,165,6481,3881,476,638,1283,998
+789,North Greenwich     ,Work                ,5407,33,2965,1445,365,135,240,225
+789,North Greenwich     ,Shop                ,317,0,0,54,86,64,112,0
+789,North Greenwich     ,Education           ,761,0,298,424,26,0,8,5
+789,North Greenwich     ,Tourist             ,222,11,0,0,5,0,89,118
+789,North Greenwich     ,Hotel               ,560,0,53,8,0,17,15,467
+789,North Greenwich     ,Other               ,7793,49,224,785,595,369,3096,2675
+789,North Greenwich     ,Unknown/Not Given   ,11942,11367,307,85,14,0,32,136
+656,North Harrow        ,Home                ,2467,65,1427,721,32,49,162,11
+656,North Harrow        ,Work                ,367,0,163,121,0,1,79,4
+656,North Harrow        ,Shop                ,27,0,6,0,6,0,15,0
+656,North Harrow        ,Education           ,52,0,46,5,0,0,0,0
+656,North Harrow        ,Tourist             ,3,0,0,0,0,0,0,3
+656,North Harrow        ,Hotel               ,2,2,0,0,0,0,0,0
+656,North Harrow        ,Other               ,166,0,68,15,1,11,13,58
+656,North Harrow        ,Unknown/Not Given   ,322,295,27,0,0,0,0,0
+659,North Wembley       ,Home                ,1081,13,653,151,21,96,50,96
+659,North Wembley       ,Work                ,326,28,184,83,0,24,0,7
+659,North Wembley       ,Education           ,72,48,5,18,0,0,0,0
+659,North Wembley       ,Tourist             ,17,0,0,0,0,0,0,17
+659,North Wembley       ,Hotel               ,46,0,0,32,15,0,0,0
+659,North Wembley       ,Other               ,82,0,1,22,0,0,6,51
+659,North Wembley       ,Unknown/Not Given   ,456,435,19,0,0,2,0,0
+655,Northfields         ,Home                ,3853,61,1911,933,112,33,546,256
+655,Northfields         ,Work                ,501,0,347,96,23,19,8,7
+655,Northfields         ,Shop                ,19,0,0,1,0,0,2,17
+655,Northfields         ,Education           ,23,0,22,1,0,0,0,0
+655,Northfields         ,Hotel               ,129,0,0,102,7,0,15,5
+655,Northfields         ,Other               ,406,4,110,80,125,0,80,7
+655,Northfields         ,Unknown/Not Given   ,1458,1285,110,34,0,0,18,11
+657,Northolt            ,Home                ,5643,59,3374,1032,95,232,397,453
+657,Northolt            ,Work                ,827,42,573,56,29,0,62,65
+657,Northolt            ,Shop                ,171,0,0,1,170,0,0,0
+657,Northolt            ,Education           ,106,0,51,55,0,0,0,0
+657,Northolt            ,Hotel               ,85,0,0,32,24,0,0,30
+657,Northolt            ,Other               ,454,0,132,100,79,0,101,43
+657,Northolt            ,Unknown/Not Given   ,961,703,98,124,10,26,0,0
+660,Northwick Park      ,Home                ,2953,60,1722,828,39,8,277,19
+660,Northwick Park      ,Work                ,1607,39,812,495,64,16,156,25
+660,Northwick Park      ,Shop                ,0,0,0,0,0,0,0,0
+660,Northwick Park      ,Education           ,950,34,237,607,55,0,6,11
+660,Northwick Park      ,Tourist             ,25,25,0,0,0,0,0,0
+660,Northwick Park      ,Hotel               ,36,0,16,10,10,0,0,0
+660,Northwick Park      ,Other               ,638,43,34,51,10,24,346,130
+660,Northwick Park      ,Unknown/Not Given   ,1069,805,96,108,0,0,60,0
+661,Northwood           ,Home                ,2181,1,1129,533,40,144,305,29
+661,Northwood           ,Work                ,695,6,526,76,6,0,67,12
+661,Northwood           ,Shop                ,69,0,0,34,0,35,0,0
+661,Northwood           ,Education           ,230,0,144,36,0,0,49,0
+661,Northwood           ,Hotel               ,96,0,0,64,0,14,11,7
+661,Northwood           ,Other               ,156,1,26,47,0,27,15,40
+661,Northwood           ,Unknown/Not Given   ,731,597,24,44,66,0,0,0
+662,Northwood Hills     ,Home                ,1963,2,1228,306,49,202,161,15
+662,Northwood Hills     ,Work                ,294,4,270,7,6,0,7,0
+662,Northwood Hills     ,Shop                ,70,0,0,0,0,57,13,0
+662,Northwood Hills     ,Education           ,73,0,62,11,0,0,0,0
+662,Northwood Hills     ,Hotel               ,42,0,0,0,40,2,0,0
+662,Northwood Hills     ,Other               ,177,20,0,113,19,0,22,4
+662,Northwood Hills     ,Unknown/Not Given   ,431,386,44,1,0,0,0,0
+663,Notting Hill Gate   ,Home                ,7063,146,3107,1878,235,257,835,604
+663,Notting Hill Gate   ,Work                ,7545,137,3912,2105,207,294,434,455
+663,Notting Hill Gate   ,Shop                ,741,3,15,93,154,105,205,166
+663,Notting Hill Gate   ,Education           ,1232,107,692,386,28,0,1,18
+663,Notting Hill Gate   ,Tourist             ,291,0,0,0,0,16,29,246
+663,Notting Hill Gate   ,Hotel               ,907,0,175,282,0,121,146,183
+663,Notting Hill Gate   ,Other               ,3137,152,141,635,455,259,672,824
+663,Notting Hill Gate   ,Unknown/Not Given   ,3196,2781,67,147,57,0,62,82
+664,Oakwood             ,Home                ,1339,0,434,354,59,155,234,102
+664,Oakwood             ,Work                ,257,0,143,72,0,19,2,20
+664,Oakwood             ,Shop                ,21,0,3,0,4,2,13,0
+664,Oakwood             ,Education           ,446,29,113,234,10,0,0,59
+664,Oakwood             ,Tourist             ,5,0,0,0,5,0,0,0
+664,Oakwood             ,Hotel               ,9,0,0,1,0,0,9,0
+664,Oakwood             ,Other               ,265,15,34,80,41,15,34,47
+664,Oakwood             ,Unknown/Not Given   ,2147,2089,11,47,0,0,0,0
+665,Old Street          ,Home                ,4950,174,1996,1134,205,66,1143,231
+665,Old Street          ,Work                ,20401,94,10540,4979,663,681,1776,1668
+665,Old Street          ,Shop                ,167,0,0,0,16,0,66,84
+665,Old Street          ,Education           ,945,1,448,133,98,0,37,229
+665,Old Street          ,Tourist             ,250,0,61,0,0,0,22,167
+665,Old Street          ,Hotel               ,625,0,0,178,0,1,84,361
+665,Old Street          ,Other               ,6393,218,142,1292,1050,626,1786,1279
+665,Old Street          ,Unknown/Not Given   ,8010,7576,78,45,134,143,16,18
+667,Osterley            ,Home                ,2510,28,1450,642,56,121,102,111
+667,Osterley            ,Work                ,530,11,291,100,10,0,30,87
+667,Osterley            ,Shop                ,5,0,0,5,0,0,0,0
+667,Osterley            ,Education           ,129,0,56,32,0,0,0,42
+667,Osterley            ,Tourist             ,33,0,0,0,0,12,0,21
+667,Osterley            ,Hotel               ,48,39,6,3,0,0,0,0
+667,Osterley            ,Other               ,59,0,0,1,0,17,4,37
+667,Osterley            ,Unknown/Not Given   ,436,348,18,70,0,0,0,0
+668,Oval                ,Home                ,4452,38,1890,869,534,347,320,453
+668,Oval                ,Work                ,2873,40,1509,761,70,57,246,191
+668,Oval                ,Shop                ,10,0,0,0,9,1,0,0
+668,Oval                ,Education           ,91,0,50,39,0,0,0,2
+668,Oval                ,Hotel               ,161,0,0,41,0,28,0,92
+668,Oval                ,Other               ,1251,35,10,326,269,180,235,197
+668,Oval                ,Unknown/Not Given   ,1336,1183,34,25,0,0,65,28
+669,Oxford Circus       ,Home                ,4574,51,1711,665,237,189,999,722
+669,Oxford Circus       ,Work                ,56924,673,32842,13693,2661,1599,2984,2472
+669,Oxford Circus       ,Shop                ,21728,386,720,3355,4535,3193,7119,2420
+669,Oxford Circus       ,Education           ,5388,105,2016,2828,45,35,144,216
+669,Oxford Circus       ,Tourist             ,1330,113,22,60,0,10,800,326
+669,Oxford Circus       ,Hotel               ,704,0,0,18,3,48,280,355
+669,Oxford Circus       ,Other               ,21215,353,796,5148,2867,1897,5846,4309
+669,Oxford Circus       ,Unknown/Not Given   ,14432,12072,1112,361,219,67,179,422
+670,Paddington          ,Home                ,35860,324,11360,9520,2655,2261,5956,3784
+670,Paddington          ,Work                ,22635,318,10276,5668,1254,1353,1944,1823
+670,Paddington          ,Shop                ,465,0,14,67,32,64,108,180
+670,Paddington          ,Education           ,1208,61,153,442,31,186,235,99
+670,Paddington          ,Tourist             ,672,12,0,3,9,33,66,549
+670,Paddington          ,Hotel               ,2714,6,41,230,154,27,630,1627
+670,Paddington          ,Other               ,10066,87,538,1208,817,1263,3185,2970
+670,Paddington          ,Unknown/Not Given   ,6667,5157,332,331,95,234,424,94
+671,Park Royal          ,Home                ,908,3,606,125,52,33,35,54
+671,Park Royal          ,Work                ,1491,78,796,274,174,126,31,12
+671,Park Royal          ,Shop                ,24,0,0,0,0,0,1,23
+671,Park Royal          ,Education           ,35,0,0,35,0,0,0,0
+671,Park Royal          ,Hotel               ,32,0,0,0,0,6,2,24
+671,Park Royal          ,Other               ,308,0,0,28,70,0,67,142
+671,Park Royal          ,Unknown/Not Given   ,437,373,55,2,0,0,8,0
+672,Parsons Green       ,Home                ,5332,20,2158,1290,328,344,759,433
+672,Parsons Green       ,Work                ,2969,108,1823,499,282,29,95,133
+672,Parsons Green       ,Shop                ,40,0,0,0,0,0,6,34
+672,Parsons Green       ,Education           ,481,0,242,47,11,0,159,21
+672,Parsons Green       ,Hotel               ,45,0,10,35,0,0,0,0
+672,Parsons Green       ,Other               ,1207,0,61,501,144,80,124,297
+672,Parsons Green       ,Unknown/Not Given   ,1220,941,177,11,91,0,1,0
+673,Perivale            ,Home                ,2531,40,1466,731,25,23,168,78
+673,Perivale            ,Work                ,823,0,337,373,6,5,48,55
+673,Perivale            ,Shop                ,37,0,37,0,0,0,0,0
+673,Perivale            ,Education           ,27,0,27,0,0,0,0,0
+673,Perivale            ,Hotel               ,60,0,0,60,0,0,0,0
+673,Perivale            ,Other               ,73,0,0,6,0,15,0,51
+673,Perivale            ,Unknown/Not Given   ,408,334,62,7,0,0,0,4
+674,Piccadilly Circus   ,Home                ,1743,125,525,517,36,240,229,72
+674,Piccadilly Circus   ,Work                ,21524,435,11567,4513,1181,812,1784,1232
+674,Piccadilly Circus   ,Shop                ,4227,47,209,692,399,240,1377,1263
+674,Piccadilly Circus   ,Education           ,779,0,319,187,79,22,13,159
+674,Piccadilly Circus   ,Tourist             ,878,4,0,62,6,90,124,592
+674,Piccadilly Circus   ,Hotel               ,692,22,35,13,40,25,135,422
+674,Piccadilly Circus   ,Other               ,17008,516,561,3253,2220,2014,4174,4271
+674,Piccadilly Circus   ,Unknown/Not Given   ,9902,9067,437,65,53,120,104,56
+776,Pimlico             ,Home                ,4138,30,1899,1037,194,194,620,164
+776,Pimlico             ,Work                ,7039,24,4053,1822,321,317,243,260
+776,Pimlico             ,Shop                ,69,0,9,42,0,2,16,0
+776,Pimlico             ,Education           ,750,5,478,134,5,42,71,16
+776,Pimlico             ,Tourist             ,335,0,0,1,0,0,75,259
+776,Pimlico             ,Hotel               ,866,0,65,328,43,25,116,290
+776,Pimlico             ,Other               ,3242,154,71,406,214,327,1133,938
+776,Pimlico             ,Unknown/Not Given   ,1665,1606,19,4,3,0,31,3
+675,Pinner              ,Home                ,3843,16,2391,823,55,48,309,200
+675,Pinner              ,Work                ,293,13,166,70,19,2,16,8
+675,Pinner              ,Shop                ,142,4,1,89,23,0,25,0
+675,Pinner              ,Tourist             ,95,36,0,57,0,0,0,1
+675,Pinner              ,Hotel               ,24,0,0,0,0,0,23,1
+675,Pinner              ,Other               ,416,12,54,85,1,74,26,164
+675,Pinner              ,Unknown/Not Given   ,475,414,36,23,0,0,0,2
+676,Plaistow            ,Home                ,4512,32,2496,1118,294,46,261,266
+676,Plaistow            ,Work                ,921,0,622,207,1,24,56,11
+676,Plaistow            ,Shop                ,55,0,55,0,0,0,0,0
+676,Plaistow            ,Education           ,394,0,70,12,312,0,0,0
+676,Plaistow            ,Hotel               ,42,0,0,42,0,0,0,0
+676,Plaistow            ,Other               ,1623,45,172,681,419,105,120,83
+676,Plaistow            ,Unknown/Not Given   ,1218,649,146,378,0,45,0,0
+677,Preston Road        ,Home                ,3459,98,1819,889,222,66,227,139
+677,Preston Road        ,Work                ,401,0,204,173,1,0,0,22
+677,Preston Road        ,Shop                ,112,0,0,8,31,0,0,73
+677,Preston Road        ,Education           ,75,0,2,13,0,0,0,60
+677,Preston Road        ,Tourist             ,36,0,0,36,0,0,0,0
+677,Preston Road        ,Hotel               ,41,0,0,4,0,2,36,0
+677,Preston Road        ,Other               ,417,120,104,56,0,0,95,41
+677,Preston Road        ,Unknown/Not Given   ,670,633,32,4,0,1,0,0
+678,Putney Bridge       ,Home                ,4393,14,1746,1067,212,271,738,345
+678,Putney Bridge       ,Work                ,2238,2,1654,341,55,24,136,25
+678,Putney Bridge       ,Shop                ,39,0,0,0,0,0,28,11
+678,Putney Bridge       ,Education           ,353,0,13,142,53,13,0,132
+678,Putney Bridge       ,Tourist             ,19,0,0,19,0,0,0,0
+678,Putney Bridge       ,Hotel               ,248,45,0,0,0,0,176,27
+678,Putney Bridge       ,Other               ,1358,16,115,434,44,97,331,323
+678,Putney Bridge       ,Unknown/Not Given   ,488,426,48,0,0,12,2,0
+680,Queen's Park        ,Home                ,4743,162,2023,987,175,282,747,367
+680,Queen's Park        ,Work                ,1250,0,632,319,99,20,93,87
+680,Queen's Park        ,Shop                ,324,0,1,313,10,0,0,0
+680,Queen's Park        ,Education           ,55,0,36,19,0,0,0,0
+680,Queen's Park        ,Hotel               ,276,0,0,0,0,89,84,103
+680,Queen's Park        ,Other               ,896,45,137,208,141,63,80,221
+680,Queen's Park        ,Unknown/Not Given   ,661,333,126,60,0,33,45,64
+679,Queensbury          ,Home                ,3977,12,2690,822,92,87,94,179
+679,Queensbury          ,Work                ,375,0,342,6,1,6,2,19
+679,Queensbury          ,Shop                ,121,57,0,0,0,1,2,59
+679,Queensbury          ,Education           ,272,0,165,107,0,0,0,0
+679,Queensbury          ,Hotel               ,149,0,0,0,0,0,0,149
+679,Queensbury          ,Other               ,449,0,88,151,165,0,23,21
+679,Queensbury          ,Unknown/Not Given   ,2149,1988,161,0,0,0,0,0
+681,Queensway           ,Home                ,4207,43,2226,1041,262,246,137,251
+681,Queensway           ,Work                ,2375,13,1527,406,95,48,178,107
+681,Queensway           ,Shop                ,109,57,1,15,1,9,17,9
+681,Queensway           ,Education           ,380,0,353,0,0,0,27,0
+681,Queensway           ,Tourist             ,551,0,0,53,132,0,184,183
+681,Queensway           ,Hotel               ,1149,0,69,234,0,0,247,599
+681,Queensway           ,Other               ,1822,30,89,591,189,139,425,359
+681,Queensway           ,Unknown/Not Given   ,1913,1843,50,21,0,0,0,0
+682,Ravenscourt Park    ,Home                ,1558,0,828,453,18,47,120,91
+682,Ravenscourt Park    ,Work                ,1769,1,1098,497,23,13,63,74
+682,Ravenscourt Park    ,Shop                ,50,0,3,3,0,39,5,0
+682,Ravenscourt Park    ,Education           ,356,0,235,51,14,7,47,2
+682,Ravenscourt Park    ,Hotel               ,344,0,88,35,29,0,148,45
+682,Ravenscourt Park    ,Other               ,562,36,69,105,80,4,175,94
+682,Ravenscourt Park    ,Unknown/Not Given   ,567,528,20,0,0,15,4,0
+683,Rayners Lane        ,Home                ,4257,28,2365,1237,101,86,345,95
+683,Rayners Lane        ,Work                ,829,1,494,279,23,5,20,6
+683,Rayners Lane        ,Shop                ,230,22,0,24,60,33,8,83
+683,Rayners Lane        ,Education           ,71,0,43,18,0,0,0,9
+683,Rayners Lane        ,Hotel               ,223,0,0,109,88,0,26,0
+683,Rayners Lane        ,Other               ,718,43,314,189,18,49,58,47
+683,Rayners Lane        ,Unknown/Not Given   ,943,851,63,14,0,15,0,1
+684,Redbridge           ,Home                ,3359,55,1601,691,137,109,580,185
+684,Redbridge           ,Work                ,224,5,130,31,0,0,58,0
+684,Redbridge           ,Education           ,294,0,154,140,0,0,0,0
+684,Redbridge           ,Tourist             ,0,0,0,0,0,0,0,0
+684,Redbridge           ,Hotel               ,27,0,0,27,0,0,0,0
+684,Redbridge           ,Other               ,380,56,151,0,0,0,171,3
+684,Redbridge           ,Unknown/Not Given   ,196,196,0,0,0,0,0,0
+685,Regent's Park       ,Home                ,356,2,30,139,33,11,83,58
+685,Regent's Park       ,Work                ,3257,34,1382,1029,104,372,170,165
+685,Regent's Park       ,Shop                ,29,0,0,5,10,0,0,14
+685,Regent's Park       ,Education           ,291,0,37,109,0,15,81,49
+685,Regent's Park       ,Tourist             ,208,0,46,0,8,0,81,74
+685,Regent's Park       ,Hotel               ,119,0,0,0,11,23,18,68
+685,Regent's Park       ,Other               ,1316,68,68,117,111,81,455,417
+685,Regent's Park       ,Unknown/Not Given   ,345,275,2,5,0,11,3,50
+686,Richmond            ,Home                ,6811,33,2747,1624,323,315,1196,572
+686,Richmond            ,Work                ,4873,157,2521,1438,101,84,366,206
+686,Richmond            ,Shop                ,204,0,0,23,48,47,87,0
+686,Richmond            ,Education           ,641,0,354,206,22,8,2,49
+686,Richmond            ,Tourist             ,256,4,0,0,0,0,167,86
+686,Richmond            ,Hotel               ,685,0,0,271,27,0,283,103
+686,Richmond            ,Other               ,2163,2,180,662,99,134,513,574
+686,Richmond            ,Unknown/Not Given   ,1973,1743,10,60,0,0,150,10
+687,Rickmansworth       ,Home                ,2213,103,1068,533,61,184,175,89
+687,Rickmansworth       ,Work                ,864,118,602,98,0,23,19,5
+687,Rickmansworth       ,Shop                ,13,0,0,0,11,2,0,0
+687,Rickmansworth       ,Education           ,24,0,23,0,0,0,0,0
+687,Rickmansworth       ,Tourist             ,43,0,0,0,0,0,8,34
+687,Rickmansworth       ,Hotel               ,43,0,0,0,0,0,0,43
+687,Rickmansworth       ,Other               ,185,0,19,103,27,1,3,32
+687,Rickmansworth       ,Unknown/Not Given   ,407,395,11,0,0,1,0,0
+688,Roding Valley       ,Home                ,453,0,281,113,25,0,34,0
+688,Roding Valley       ,Work                ,31,0,19,12,0,0,0,0
+688,Roding Valley       ,Education           ,1,0,1,0,0,0,0,0
+688,Roding Valley       ,Other               ,80,0,0,0,0,34,22,24
+688,Roding Valley       ,Unknown/Not Given   ,53,53,0,0,0,0,0,0
+690,Royal Oak           ,Home                ,1841,8,1041,358,145,164,111,14
+690,Royal Oak           ,Work                ,1001,1,516,272,125,24,52,11
+690,Royal Oak           ,Shop                ,34,0,26,9,0,0,0,0
+690,Royal Oak           ,Education           ,87,0,31,54,0,0,3,0
+690,Royal Oak           ,Tourist             ,4,0,0,0,4,0,0,0
+690,Royal Oak           ,Hotel               ,105,0,0,95,0,0,10,0
+690,Royal Oak           ,Other               ,326,18,4,212,31,8,22,30
+690,Royal Oak           ,Unknown/Not Given   ,571,465,63,0,0,0,0,42
+691,Ruislip             ,Home                ,2111,91,1070,564,36,102,181,67
+691,Ruislip             ,Work                ,333,0,222,20,72,0,6,12
+691,Ruislip             ,Shop                ,204,0,0,114,48,10,31,0
+691,Ruislip             ,Education           ,48,0,45,3,0,0,0,0
+691,Ruislip             ,Other               ,356,6,21,34,20,111,108,54
+691,Ruislip             ,Unknown/Not Given   ,212,201,1,1,0,0,10,0
+692,Ruislip Gardens     ,Home                ,1298,40,779,253,6,64,89,66
+692,Ruislip Gardens     ,Work                ,126,24,71,2,0,18,0,11
+692,Ruislip Gardens     ,Shop                ,11,0,0,0,11,0,0,0
+692,Ruislip Gardens     ,Education           ,12,0,0,11,0,0,0,0
+692,Ruislip Gardens     ,Hotel               ,57,0,0,57,0,0,0,0
+692,Ruislip Gardens     ,Other               ,100,0,0,69,0,0,31,0
+692,Ruislip Gardens     ,Unknown/Not Given   ,53,47,6,0,0,0,0,0
+693,Ruislip Manor       ,Home                ,2105,67,1294,296,182,8,190,67
+693,Ruislip Manor       ,Work                ,198,0,85,59,7,24,8,15
+693,Ruislip Manor       ,Shop                ,42,0,19,8,0,0,15,1
+693,Ruislip Manor       ,Education           ,190,5,131,54,0,0,0,0
+693,Ruislip Manor       ,Hotel               ,23,0,0,0,23,0,0,0
+693,Ruislip Manor       ,Other               ,309,10,31,67,39,0,106,56
+693,Ruislip Manor       ,Unknown/Not Given   ,495,381,50,37,0,26,0,0
+694,Russell Square      ,Home                ,1560,190,282,231,236,206,271,144
+694,Russell Square      ,Work                ,5861,80,2944,1401,172,117,531,617
+694,Russell Square      ,Shop                ,123,0,1,43,1,6,36,36
+694,Russell Square      ,Education           ,3250,93,887,1670,148,62,116,274
+694,Russell Square      ,Tourist             ,470,0,0,1,38,17,246,168
+694,Russell Square      ,Hotel               ,2193,0,249,138,193,39,860,714
+694,Russell Square      ,Other               ,3350,26,79,461,455,195,1044,1091
+694,Russell Square      ,Unknown/Not Given   ,1844,1556,201,56,0,0,31,0
+698,Seven Sisters       ,Home                ,32444,591,17806,6787,1934,842,2900,1584
+698,Seven Sisters       ,Work                ,8069,354,3979,2155,260,87,810,424
+698,Seven Sisters       ,Shop                ,827,382,66,144,1,182,0,52
+698,Seven Sisters       ,Education           ,1956,38,1339,578,0,0,1,0
+698,Seven Sisters       ,Tourist             ,87,0,0,0,0,0,87,0
+698,Seven Sisters       ,Hotel               ,707,0,0,0,0,219,452,36
+698,Seven Sisters       ,Other               ,2786,159,146,928,373,347,317,515
+698,Seven Sisters       ,Unknown/Not Given   ,6824,6159,239,303,37,52,0,34
+700,Shepherd's Bush (Cen,Home                ,11948,254,7242,2166,378,281,903,725
+700,Shepherd's Bush (Cen,Work                ,6127,118,3959,1171,213,97,91,479
+700,Shepherd's Bush (Cen,Shop                ,2069,32,370,257,440,147,325,499
+700,Shepherd's Bush (Cen,Education           ,1268,0,444,577,165,17,2,63
+700,Shepherd's Bush (Cen,Tourist             ,16,0,0,0,0,16,0,0
+700,Shepherd's Bush (Cen,Hotel               ,1164,0,171,254,81,0,211,447
+700,Shepherd's Bush (Cen,Other               ,3724,99,166,802,512,431,1147,566
+700,Shepherd's Bush (Cen,Unknown/Not Given   ,5370,4908,154,49,189,0,15,56
+775,Shepherd's Bush Mark,Home                ,2572,22,1231,897,69,114,100,139
+775,Shepherd's Bush Mark,Work                ,999,3,462,313,10,4,189,19
+775,Shepherd's Bush Mark,Shop                ,154,0,13,1,0,0,77,63
+775,Shepherd's Bush Mark,Education           ,160,0,55,55,21,0,4,24
+775,Shepherd's Bush Mark,Hotel               ,15,0,0,0,0,0,0,15
+775,Shepherd's Bush Mark,Other               ,605,0,95,114,21,132,121,123
+775,Shepherd's Bush Mark,Unknown/Not Given   ,568,555,8,0,0,0,0,5
+702,Sloane Square       ,Home                ,4339,39,2045,1051,116,288,627,173
+702,Sloane Square       ,Work                ,9317,100,5211,2297,379,302,368,661
+702,Sloane Square       ,Shop                ,2321,27,9,292,345,211,1276,162
+702,Sloane Square       ,Education           ,703,0,433,171,8,43,16,33
+702,Sloane Square       ,Tourist             ,393,0,0,31,1,21,21,319
+702,Sloane Square       ,Hotel               ,499,0,6,97,32,38,146,180
+702,Sloane Square       ,Other               ,6341,297,125,1087,561,370,2029,1871
+702,Sloane Square       ,Unknown/Not Given   ,3117,2821,134,41,2,0,28,91
+703,Snaresbrook         ,Home                ,2535,8,1089,732,192,18,246,250
+703,Snaresbrook         ,Work                ,432,0,85,220,0,31,20,77
+703,Snaresbrook         ,Shop                ,5,0,0,0,1,4,0,0
+703,Snaresbrook         ,Education           ,140,0,126,13,0,0,0,0
+703,Snaresbrook         ,Hotel               ,12,0,0,1,0,0,11,0
+703,Snaresbrook         ,Other               ,332,0,36,83,14,0,131,68
+703,Snaresbrook         ,Unknown/Not Given   ,543,294,107,53,0,88,1,0
+704,South Ealing        ,Home                ,3565,20,1518,1072,113,131,448,263
+704,South Ealing        ,Work                ,533,59,277,79,0,21,36,61
+704,South Ealing        ,Shop                ,43,1,0,0,0,6,36,0
+704,South Ealing        ,Education           ,613,3,219,341,4,0,32,13
+704,South Ealing        ,Hotel               ,59,0,0,40,11,0,8,0
+704,South Ealing        ,Other               ,377,0,20,174,29,36,56,61
+704,South Ealing        ,Unknown/Not Given   ,514,398,22,40,0,53,1,0
+707,South Harrow        ,Home                ,2514,13,1286,496,166,63,285,205
+707,South Harrow        ,Work                ,539,22,312,88,80,24,11,3
+707,South Harrow        ,Shop                ,107,9,10,50,18,12,8,0
+707,South Harrow        ,Education           ,40,7,25,0,7,0,0,0
+707,South Harrow        ,Other               ,411,13,29,156,41,28,55,88
+707,South Harrow        ,Unknown/Not Given   ,454,332,117,0,0,0,0,5
+708,South Kensington    ,Home                ,5293,28,2009,1313,246,174,1003,520
+708,South Kensington    ,Work                ,15941,113,8651,3938,801,479,833,1126
+708,South Kensington    ,Shop                ,646,0,0,33,88,19,163,344
+708,South Kensington    ,Education           ,5553,70,3608,1439,32,128,115,162
+708,South Kensington    ,Tourist             ,1412,12,0,3,21,6,591,779
+708,South Kensington    ,Hotel               ,1351,0,122,39,0,92,349,749
+708,South Kensington    ,Other               ,16138,390,499,2370,1292,1114,6027,4447
+708,South Kensington    ,Unknown/Not Given   ,4053,3407,141,134,72,95,76,127
+709,South Kenton        ,Home                ,778,16,447,242,22,16,15,21
+709,South Kenton        ,Work                ,143,0,127,15,0,0,0,0
+709,South Kenton        ,Shop                ,11,0,0,11,0,0,0,0
+709,South Kenton        ,Education           ,6,0,6,0,0,0,0,0
+709,South Kenton        ,Unknown/Not Given   ,320,227,93,0,0,0,0,0
+710,South Ruislip       ,Home                ,1732,22,970,418,16,21,181,104
+710,South Ruislip       ,Work                ,374,22,140,141,0,0,35,36
+710,South Ruislip       ,Shop                ,88,0,1,65,19,0,0,2
+710,South Ruislip       ,Education           ,21,0,11,10,0,0,0,0
+710,South Ruislip       ,Hotel               ,14,0,0,8,0,0,0,6
+710,South Ruislip       ,Other               ,112,0,21,23,68,0,0,0
+710,South Ruislip       ,Unknown/Not Given   ,245,105,53,0,0,26,0,61
+711,South Wimbledon     ,Home                ,3747,6,1738,1175,110,136,176,407
+711,South Wimbledon     ,Work                ,1383,15,798,367,54,44,41,65
+711,South Wimbledon     ,Shop                ,116,0,0,47,50,0,15,4
+711,South Wimbledon     ,Education           ,199,0,145,9,45,0,0,0
+711,South Wimbledon     ,Hotel               ,542,0,78,7,0,64,293,101
+711,South Wimbledon     ,Other               ,825,4,30,155,62,51,156,367
+711,South Wimbledon     ,Unknown/Not Given   ,572,572,0,0,0,0,0,0
+712,South Woodford      ,Home                ,6088,7,3239,1421,256,157,932,77
+712,South Woodford      ,Work                ,1243,0,834,276,0,28,57,48
+712,South Woodford      ,Shop                ,160,10,0,130,11,0,9,1
+712,South Woodford      ,Education           ,148,0,33,113,0,0,0,1
+712,South Woodford      ,Tourist             ,54,0,0,0,0,0,0,54
+712,South Woodford      ,Hotel               ,383,0,0,2,38,0,343,0
+712,South Woodford      ,Other               ,998,0,87,479,89,52,218,73
+712,South Woodford      ,Unknown/Not Given   ,415,395,11,0,0,0,9,0
+705,Southfields         ,Home                ,6316,55,3539,1696,221,141,421,243
+705,Southfields         ,Work                ,1213,0,951,163,3,23,68,7
+705,Southfields         ,Shop                ,51,0,0,16,1,3,30,1
+705,Southfields         ,Education           ,527,0,225,125,0,0,11,166
+705,Southfields         ,Tourist             ,5,0,0,0,0,0,0,5
+705,Southfields         ,Hotel               ,25,5,0,1,0,15,0,4
+705,Southfields         ,Other               ,712,9,265,188,25,5,160,60
+705,Southfields         ,Unknown/Not Given   ,1032,624,276,115,7,0,10,0
+706,Southgate           ,Home                ,5632,72,2859,1657,100,189,557,198
+706,Southgate           ,Work                ,1210,30,565,332,96,73,59,55
+706,Southgate           ,Shop                ,118,0,0,15,88,5,6,4
+706,Southgate           ,Education           ,268,0,131,111,0,0,0,26
+706,Southgate           ,Tourist             ,34,15,0,0,0,0,0,19
+706,Southgate           ,Hotel               ,150,0,59,92,0,0,0,0
+706,Southgate           ,Other               ,1056,12,137,269,50,373,90,123
+706,Southgate           ,Unknown/Not Given   ,636,493,68,0,2,73,0,0
+784,Southwark           ,Home                ,5642,316,2976,1646,263,87,201,154
+784,Southwark           ,Work                ,15901,186,8455,3666,786,413,1506,890
+784,Southwark           ,Shop                ,53,0,0,0,0,0,53,0
+784,Southwark           ,Education           ,681,0,37,580,0,15,30,20
+784,Southwark           ,Tourist             ,89,0,21,0,0,0,0,68
+784,Southwark           ,Hotel               ,445,0,0,0,55,0,249,141
+784,Southwark           ,Other               ,4401,445,65,340,73,271,1284,1923
+784,Southwark           ,Unknown/Not Given   ,3106,3020,67,12,0,0,4,3
+695,St. James's Park    ,Home                ,1900,23,761,273,485,22,225,111
+695,St. James's Park    ,Work                ,18859,155,9804,4880,835,606,1682,898
+695,St. James's Park    ,Shop                ,175,2,0,24,70,2,76,2
+695,St. James's Park    ,Education           ,285,0,178,77,4,0,25,3
+695,St. James's Park    ,Tourist             ,495,14,0,52,0,1,15,414
+695,St. James's Park    ,Hotel               ,261,0,1,0,132,3,0,125
+695,St. James's Park    ,Other               ,2473,8,35,552,126,186,738,827
+695,St. James's Park    ,Unknown/Not Given   ,2342,2113,152,45,0,0,9,23
+696,St. John's Wood     ,Home                ,3604,17,1605,694,339,106,742,102
+696,St. John's Wood     ,Work                ,3812,13,2395,884,138,29,217,137
+696,St. John's Wood     ,Shop                ,176,0,0,29,0,3,88,55
+696,St. John's Wood     ,Education           ,289,0,159,123,0,0,0,6
+696,St. John's Wood     ,Tourist             ,404,78,0,0,0,2,0,325
+696,St. John's Wood     ,Hotel               ,270,0,2,61,0,0,89,118
+696,St. John's Wood     ,Other               ,1892,4,320,371,7,101,691,398
+696,St. John's Wood     ,Unknown/Not Given   ,2137,1909,174,18,15,4,18,0
+697,St. Paul's          ,Home                ,698,7,249,67,104,56,108,106
+697,St. Paul's          ,Work                ,18010,143,10556,3136,717,388,1403,1667
+697,St. Paul's          ,Shop                ,365,3,0,0,0,57,225,80
+697,St. Paul's          ,Education           ,610,0,260,153,34,0,36,127
+697,St. Paul's          ,Tourist             ,1955,0,0,80,47,149,162,1517
+697,St. Paul's          ,Hotel               ,459,8,121,87,234,0,3,5
+697,St. Paul's          ,Other               ,5624,126,463,882,591,1056,917,1589
+697,St. Paul's          ,Unknown/Not Given   ,3505,3237,182,32,0,5,47,2
+713,Stamford Brook      ,Home                ,2328,5,1075,544,103,108,450,43
+713,Stamford Brook      ,Work                ,874,0,632,185,1,0,48,8
+713,Stamford Brook      ,Shop                ,78,0,0,0,0,0,0,78
+713,Stamford Brook      ,Education           ,21,0,19,2,0,0,0,0
+713,Stamford Brook      ,Tourist             ,8,0,0,0,0,0,8,0
+713,Stamford Brook      ,Hotel               ,80,33,0,0,0,24,13,9
+713,Stamford Brook      ,Other               ,432,0,72,111,30,32,139,47
+713,Stamford Brook      ,Unknown/Not Given   ,351,339,7,0,0,5,0,0
+714,Stanmore            ,Home                ,4297,96,1761,1139,43,154,467,636
+714,Stanmore            ,Work                ,1069,0,643,175,6,25,120,100
+714,Stanmore            ,Shop                ,128,81,0,4,20,11,0,12
+714,Stanmore            ,Education           ,78,0,74,4,0,0,0,0
+714,Stanmore            ,Tourist             ,69,0,0,50,0,0,19,0
+714,Stanmore            ,Hotel               ,104,0,0,84,20,0,0,0
+714,Stanmore            ,Other               ,254,1,11,42,32,5,66,97
+714,Stanmore            ,Unknown/Not Given   ,462,436,14,0,0,0,12,0
+715,Stepney Green       ,Home                ,2275,7,884,688,254,141,261,41
+715,Stepney Green       ,Work                ,2032,7,1206,445,40,77,192,66
+715,Stepney Green       ,Shop                ,52,0,0,52,0,0,0,0
+715,Stepney Green       ,Education           ,1295,56,756,408,0,0,0,74
+715,Stepney Green       ,Tourist             ,2,0,2,0,0,0,0,0
+715,Stepney Green       ,Hotel               ,150,0,0,117,0,0,0,33
+715,Stepney Green       ,Other               ,593,9,68,158,60,69,113,116
+715,Stepney Green       ,Unknown/Not Given   ,3916,3838,26,52,0,0,0,0
+716,Stockwell           ,Home                ,7954,224,3415,1515,381,725,860,834
+716,Stockwell           ,Work                ,2000,77,1008,579,42,48,61,185
+716,Stockwell           ,Shop                ,378,0,1,108,1,12,0,256
+716,Stockwell           ,Education           ,307,40,128,140,0,0,0,0
+716,Stockwell           ,Tourist             ,3,0,0,0,3,0,0,0
+716,Stockwell           ,Hotel               ,402,0,5,275,0,25,7,89
+716,Stockwell           ,Other               ,1608,479,114,493,140,54,204,124
+716,Stockwell           ,Unknown/Not Given   ,3176,2820,354,0,1,0,0,0
+717,Stonebridge Park    ,Home                ,1525,53,732,507,0,138,94,0
+717,Stonebridge Park    ,Work                ,653,0,394,120,1,5,61,73
+717,Stonebridge Park    ,Shop                ,34,0,0,25,0,0,0,9
+717,Stonebridge Park    ,Education           ,95,0,28,63,0,4,0,0
+717,Stonebridge Park    ,Other               ,165,5,22,93,44,0,0,0
+717,Stonebridge Park    ,Unknown/Not Given   ,1014,896,60,7,0,0,6,45
+719,Stratford           ,Home                ,48657,664,27095,11743,1916,1410,3471,2358
+719,Stratford           ,Work                ,24846,482,14763,6000,1025,444,686,1446
+719,Stratford           ,Shop                ,8313,286,477,939,2172,1068,1787,1583
+719,Stratford           ,Education           ,4891,272,1742,2678,49,15,70,65
+719,Stratford           ,Tourist             ,1432,6,55,199,12,209,125,826
+719,Stratford           ,Hotel               ,1764,171,0,481,1,90,336,684
+719,Stratford           ,Other               ,9197,141,1164,2183,1256,918,2125,1409
+719,Stratford           ,Unknown/Not Given   ,23923,20947,1374,972,258,131,84,158
+720,Sudbury Hill        ,Home                ,2132,24,1230,588,91,64,101,34
+720,Sudbury Hill        ,Work                ,409,5,276,122,2,0,0,3
+720,Sudbury Hill        ,Education           ,91,0,90,1,0,0,0,0
+720,Sudbury Hill        ,Hotel               ,70,0,31,31,0,0,8,0
+720,Sudbury Hill        ,Other               ,363,0,60,82,6,41,61,113
+720,Sudbury Hill        ,Unknown/Not Given   ,157,98,13,40,6,0,0,0
+721,Sudbury Town        ,Home                ,1846,0,1165,358,28,110,99,86
+721,Sudbury Town        ,Work                ,254,15,170,29,20,0,4,16
+721,Sudbury Town        ,Shop                ,44,0,37,0,0,7,0,0
+721,Sudbury Town        ,Education           ,21,0,0,21,0,0,0,0
+721,Sudbury Town        ,Hotel               ,52,0,0,52,0,0,0,0
+721,Sudbury Town        ,Other               ,299,1,53,106,0,21,46,71
+721,Sudbury Town        ,Unknown/Not Given   ,330,260,38,32,0,0,0,0
+723,Swiss Cottage       ,Home                ,4665,244,2097,1040,385,204,227,468
+723,Swiss Cottage       ,Work                ,2882,23,1422,838,47,147,153,252
+723,Swiss Cottage       ,Shop                ,146,0,4,64,4,0,23,52
+723,Swiss Cottage       ,Education           ,819,0,437,243,1,0,26,113
+723,Swiss Cottage       ,Tourist             ,11,0,0,0,0,11,0,0
+723,Swiss Cottage       ,Hotel               ,382,28,19,44,105,0,128,57
+723,Swiss Cottage       ,Other               ,1552,20,62,709,180,68,182,331
+723,Swiss Cottage       ,Unknown/Not Given   ,1730,1580,5,40,61,0,0,44
+724,Temple              ,Home                ,204,0,36,88,52,0,6,21
+724,Temple              ,Work                ,8545,126,4198,2442,407,298,582,492
+724,Temple              ,Shop                ,65,0,20,30,0,0,0,15
+724,Temple              ,Education           ,2534,44,1188,1108,121,34,24,14
+724,Temple              ,Tourist             ,172,0,0,30,0,0,71,71
+724,Temple              ,Hotel               ,103,0,0,0,0,0,18,85
+724,Temple              ,Other               ,2105,152,146,123,113,60,593,918
+724,Temple              ,Unknown/Not Given   ,967,907,7,2,0,0,23,29
+725,Theydon Bois        ,Home                ,919,9,417,344,19,8,123,0
+725,Theydon Bois        ,Work                ,97,0,3,63,0,13,17,0
+725,Theydon Bois        ,Education           ,9,0,0,0,0,0,9,0
+725,Theydon Bois        ,Tourist             ,9,0,0,0,0,4,4,0
+725,Theydon Bois        ,Hotel               ,44,0,0,39,5,0,0,0
+725,Theydon Bois        ,Other               ,97,0,0,43,33,6,14,1
+725,Theydon Bois        ,Unknown/Not Given   ,93,72,0,21,0,0,0,0
+726,Tooting Bec         ,Home                ,8348,204,4267,1630,475,443,1032,296
+726,Tooting Bec         ,Work                ,1495,0,684,423,241,14,89,44
+726,Tooting Bec         ,Shop                ,113,4,37,15,56,1,0,0
+726,Tooting Bec         ,Education           ,197,0,33,96,0,0,0,68
+726,Tooting Bec         ,Hotel               ,354,0,173,60,0,2,15,105
+726,Tooting Bec         ,Other               ,1037,4,134,292,167,83,206,150
+726,Tooting Bec         ,Unknown/Not Given   ,821,639,80,89,13,0,0,0
+727,Tooting Broadway    ,Home                ,13493,150,7529,2725,863,535,773,916
+727,Tooting Broadway    ,Work                ,5012,124,2893,1335,149,150,269,92
+727,Tooting Broadway    ,Shop                ,653,4,68,230,27,123,89,112
+727,Tooting Broadway    ,Education           ,1016,0,451,466,17,80,0,3
+727,Tooting Broadway    ,Tourist             ,16,0,0,8,0,0,8,0
+727,Tooting Broadway    ,Hotel               ,348,0,0,23,78,45,54,148
+727,Tooting Broadway    ,Other               ,2498,102,225,343,237,304,520,767
+727,Tooting Broadway    ,Unknown/Not Given   ,2295,1467,281,248,33,209,37,20
+728,Tottenham Court Road,Home                ,2041,85,806,414,10,183,238,304
+728,Tottenham Court Road,Work                ,23966,365,14362,4757,925,338,1786,1432
+728,Tottenham Court Road,Shop                ,5039,166,154,500,487,697,1404,1630
+728,Tottenham Court Road,Education           ,3444,45,1259,1722,36,162,190,30
+728,Tottenham Court Road,Tourist             ,579,25,0,98,21,67,149,217
+728,Tottenham Court Road,Hotel               ,903,19,0,142,38,0,358,346
+728,Tottenham Court Road,Other               ,13854,325,735,2119,1772,1609,2953,4342
+728,Tottenham Court Road,Unknown/Not Given   ,9715,9036,370,48,118,0,2,141
+729,Tottenham Hale      ,Home                ,11634,131,6258,2709,715,572,751,500
+729,Tottenham Hale      ,Work                ,2771,42,1801,391,101,61,108,268
+729,Tottenham Hale      ,Shop                ,1098,0,0,130,111,148,364,345
+729,Tottenham Hale      ,Education           ,32,0,12,17,3,0,0,0
+729,Tottenham Hale      ,Tourist             ,4,0,0,0,0,0,2,1
+729,Tottenham Hale      ,Hotel               ,798,0,332,89,0,0,199,178
+729,Tottenham Hale      ,Other               ,1547,4,62,428,36,321,597,100
+729,Tottenham Hale      ,Unknown/Not Given   ,1820,1667,60,3,0,39,42,8
+730,Totteridge & Whetsto,Home                ,2588,66,1512,574,59,49,307,21
+730,Totteridge & Whetsto,Work                ,410,45,195,120,2,1,20,27
+730,Totteridge & Whetsto,Shop                ,4,0,0,0,0,4,0,0
+730,Totteridge & Whetsto,Education           ,13,0,0,4,0,8,0,0
+730,Totteridge & Whetsto,Hotel               ,135,0,0,61,35,0,0,39
+730,Totteridge & Whetsto,Other               ,196,7,12,71,0,0,45,61
+730,Totteridge & Whetsto,Unknown/Not Given   ,311,293,11,0,0,0,0,7
+731,Tower Hill          ,Home                ,8680,33,5069,1863,350,242,541,581
+731,Tower Hill          ,Work                ,12059,154,6316,2157,835,340,997,1260
+731,Tower Hill          ,Shop                ,129,45,0,0,13,27,31,13
+731,Tower Hill          ,Education           ,464,0,83,381,0,0,0,0
+731,Tower Hill          ,Tourist             ,3104,0,3,222,33,294,794,1759
+731,Tower Hill          ,Hotel               ,941,67,0,27,81,183,37,546
+731,Tower Hill          ,Other               ,3418,55,286,231,173,127,1266,1280
+731,Tower Hill          ,Unknown/Not Given   ,3477,2794,407,127,0,3,25,122
+733,Tufnell Park        ,Home                ,3361,1,1403,1232,67,160,390,108
+733,Tufnell Park        ,Work                ,579,3,169,320,4,7,52,24
+733,Tufnell Park        ,Shop                ,58,0,0,7,50,0,0,0
+733,Tufnell Park        ,Education           ,90,30,19,41,0,0,0,0
+733,Tufnell Park        ,Hotel               ,252,0,18,27,0,0,59,147
+733,Tufnell Park        ,Other               ,888,2,18,295,106,131,153,184
+733,Tufnell Park        ,Unknown/Not Given   ,439,292,56,65,0,3,1,22
+734,Turnham Green       ,Home                ,5301,38,2315,1450,181,227,700,390
+734,Turnham Green       ,Work                ,1463,23,745,361,76,70,11,178
+734,Turnham Green       ,Shop                ,165,0,0,6,0,2,52,105
+734,Turnham Green       ,Education           ,269,0,145,108,0,1,14,0
+734,Turnham Green       ,Tourist             ,7,0,0,0,0,0,0,7
+734,Turnham Green       ,Hotel               ,291,0,75,35,0,0,50,131
+734,Turnham Green       ,Other               ,1098,44,54,292,85,114,214,296
+734,Turnham Green       ,Unknown/Not Given   ,684,594,35,39,10,6,0,0
+735,Turnpike Lane       ,Home                ,11686,93,5894,3201,613,389,769,727
+735,Turnpike Lane       ,Work                ,1623,155,875,359,11,58,163,2
+735,Turnpike Lane       ,Shop                ,565,1,33,194,150,149,31,7
+735,Turnpike Lane       ,Education           ,129,1,0,30,95,0,0,4
+735,Turnpike Lane       ,Hotel               ,109,0,14,2,0,41,0,52
+735,Turnpike Lane       ,Other               ,1306,51,120,217,130,64,148,577
+735,Turnpike Lane       ,Unknown/Not Given   ,1338,1097,55,75,47,4,59,0
+736,Upminster           ,Home                ,2288,34,1326,411,31,31,255,200
+736,Upminster           ,Work                ,699,13,343,146,7,13,1,176
+736,Upminster           ,Shop                ,177,0,2,74,13,0,88,0
+736,Upminster           ,Education           ,72,0,46,19,0,0,7,0
+736,Upminster           ,Tourist             ,0,0,0,0,0,0,0,0
+736,Upminster           ,Hotel               ,24,0,0,18,4,0,2,0
+736,Upminster           ,Other               ,367,40,0,135,82,6,44,59
+736,Upminster           ,Unknown/Not Given   ,463,399,63,0,0,0,0,1
+737,Upminster Bridge    ,Home                ,1075,50,581,242,7,0,35,160
+737,Upminster Bridge    ,Work                ,378,0,192,186,0,0,0,0
+737,Upminster Bridge    ,Shop                ,33,0,0,0,0,33,0,0
+737,Upminster Bridge    ,Education           ,407,0,406,1,0,0,0,0
+737,Upminster Bridge    ,Hotel               ,85,0,0,0,52,0,33,0
+737,Upminster Bridge    ,Other               ,14,0,0,12,0,0,2,0
+737,Upminster Bridge    ,Unknown/Not Given   ,107,107,0,0,0,0,0,0
+738,Upney               ,Home                ,3081,64,2246,556,129,57,27,1
+738,Upney               ,Work                ,206,0,131,20,0,0,0,55
+738,Upney               ,Shop                ,16,0,16,0,0,0,0,0
+738,Upney               ,Education           ,55,0,55,0,0,0,0,0
+738,Upney               ,Hotel               ,20,0,0,0,0,20,0,0
+738,Upney               ,Other               ,372,11,0,82,49,15,0,215
+738,Upney               ,Unknown/Not Given   ,406,381,25,0,0,0,0,0
+739,Upton Park          ,Home                ,9316,137,6137,1975,184,107,441,335
+739,Upton Park          ,Work                ,2028,13,1303,195,218,66,72,161
+739,Upton Park          ,Shop                ,742,7,151,135,134,20,144,151
+739,Upton Park          ,Education           ,150,32,49,66,0,3,0,0
+739,Upton Park          ,Hotel               ,206,55,0,26,49,0,0,77
+739,Upton Park          ,Other               ,1187,0,289,165,160,119,394,60
+739,Upton Park          ,Unknown/Not Given   ,1608,760,342,475,29,1,0,0
+740,Uxbridge            ,Home                ,4390,47,2427,996,398,126,172,225
+740,Uxbridge            ,Work                ,3929,69,2469,923,113,75,144,136
+740,Uxbridge            ,Shop                ,1181,134,60,514,263,156,53,0
+740,Uxbridge            ,Education           ,1360,6,592,684,19,14,1,43
+740,Uxbridge            ,Tourist             ,50,0,0,3,0,0,0,48
+740,Uxbridge            ,Hotel               ,70,0,18,17,0,8,8,20
+740,Uxbridge            ,Other               ,1224,7,148,402,114,157,194,203
+740,Uxbridge            ,Unknown/Not Given   ,1329,1066,220,43,0,0,0,0
+777,Vauxhall            ,Home                ,19730,125,7587,4745,1927,1112,2927,1306
+777,Vauxhall            ,Work                ,14791,288,8067,3582,450,313,1175,916
+777,Vauxhall            ,Shop                ,382,24,35,49,4,5,110,155
+777,Vauxhall            ,Education           ,499,0,153,149,7,0,61,129
+777,Vauxhall            ,Tourist             ,94,0,0,0,74,0,0,20
+777,Vauxhall            ,Hotel               ,820,0,0,165,0,71,43,539
+777,Vauxhall            ,Other               ,4684,176,248,1076,841,341,1018,984
+777,Vauxhall            ,Unknown/Not Given   ,9133,8485,177,145,196,2,47,81
+741,Victoria            ,Home                ,52102,492,19845,12127,2758,2728,8753,5400
+741,Victoria            ,Work                ,34671,650,17928,6732,1516,1801,3696,2347
+741,Victoria            ,Shop                ,1612,13,74,138,225,167,408,586
+741,Victoria            ,Education           ,2032,2,738,653,42,149,284,164
+741,Victoria            ,Tourist             ,1715,34,0,454,1,42,494,691
+741,Victoria            ,Hotel               ,4988,275,461,415,77,503,1179,2079
+741,Victoria            ,Other               ,23492,298,1694,3218,2427,2169,8004,5682
+741,Victoria            ,Unknown/Not Given   ,14300,11634,947,480,139,223,297,579
+742,Walthamstow Central ,Home                ,26688,134,13712,5846,1180,740,2676,2399
+742,Walthamstow Central ,Work                ,3229,139,1870,782,68,18,56,297
+742,Walthamstow Central ,Shop                ,991,55,52,135,376,6,279,88
+742,Walthamstow Central ,Education           ,525,8,209,203,0,0,104,0
+742,Walthamstow Central ,Tourist             ,127,0,0,0,0,0,22,105
+742,Walthamstow Central ,Hotel               ,538,0,387,0,0,62,47,41
+742,Walthamstow Central ,Other               ,3226,80,508,1088,283,192,718,356
+742,Walthamstow Central ,Unknown/Not Given   ,2334,1574,245,114,95,37,177,92
+743,Wanstead            ,Home                ,3054,32,1143,1017,71,158,538,95
+743,Wanstead            ,Work                ,538,0,400,89,30,0,14,5
+743,Wanstead            ,Shop                ,78,0,0,2,20,0,8,48
+743,Wanstead            ,Education           ,133,80,44,9,0,0,0,0
+743,Wanstead            ,Hotel               ,108,0,0,89,0,18,0,0
+743,Wanstead            ,Other               ,655,0,89,194,133,22,151,65
+743,Wanstead            ,Unknown/Not Given   ,343,268,74,0,0,0,0,0
+745,Warren Street       ,Home                ,1417,0,457,388,48,62,189,272
+745,Warren Street       ,Work                ,21582,320,13564,4878,397,453,1316,654
+745,Warren Street       ,Shop                ,883,1,2,118,221,16,98,428
+745,Warren Street       ,Education           ,2828,24,958,1596,48,9,71,121
+745,Warren Street       ,Tourist             ,95,0,64,15,0,10,0,5
+745,Warren Street       ,Hotel               ,598,0,0,161,33,0,370,34
+745,Warren Street       ,Other               ,5244,56,421,989,268,518,1441,1550
+745,Warren Street       ,Unknown/Not Given   ,2662,2337,102,18,14,104,60,27
+746,Warwick Avenue      ,Home                ,3385,73,1609,746,270,252,346,89
+746,Warwick Avenue      ,Work                ,1694,39,956,407,72,24,136,59
+746,Warwick Avenue      ,Shop                ,67,8,0,25,0,2,1,32
+746,Warwick Avenue      ,Education           ,216,0,129,67,6,0,14,0
+746,Warwick Avenue      ,Tourist             ,57,0,0,0,12,0,1,43
+746,Warwick Avenue      ,Hotel               ,121,0,0,39,0,46,29,8
+746,Warwick Avenue      ,Other               ,752,35,60,235,104,48,211,58
+746,Warwick Avenue      ,Unknown/Not Given   ,460,403,9,48,0,0,0,0
+747,Waterloo            ,Home                ,75717,748,35302,17017,2476,3667,9911,6597
+747,Waterloo            ,Work                ,28333,415,12672,8322,1731,867,2048,2278
+747,Waterloo            ,Shop                ,990,11,221,96,157,44,382,77
+747,Waterloo            ,Education           ,3483,93,924,1895,40,138,157,237
+747,Waterloo            ,Tourist             ,2281,1,0,109,26,225,776,1145
+747,Waterloo            ,Hotel               ,2108,6,69,404,167,43,777,643
+747,Waterloo            ,Other               ,22882,142,831,3181,3347,2898,7438,5045
+747,Waterloo            ,Unknown/Not Given   ,11808,9214,1480,341,11,43,305,415
+748,Watford             ,Home                ,1515,29,742,412,2,136,165,30
+748,Watford             ,Work                ,326,0,265,27,0,0,13,21
+748,Watford             ,Shop                ,77,0,0,63,0,0,14,0
+748,Watford             ,Education           ,296,0,241,55,0,0,0,0
+748,Watford             ,Hotel               ,44,0,0,27,0,0,0,16
+748,Watford             ,Other               ,219,0,52,23,24,0,24,97
+748,Watford             ,Unknown/Not Given   ,412,368,3,41,0,0,0,0
+751,Wembley Central     ,Home                ,2073,1,1475,273,174,0,2,149
+751,Wembley Central     ,Work                ,1502,9,664,448,33,192,153,2
+751,Wembley Central     ,Shop                ,244,1,24,21,56,0,88,55
+751,Wembley Central     ,Education           ,121,0,55,66,0,0,0,0
+751,Wembley Central     ,Tourist             ,1,0,0,0,0,0,0,1
+751,Wembley Central     ,Hotel               ,309,0,0,28,130,0,0,151
+751,Wembley Central     ,Other               ,932,11,248,236,112,28,170,127
+751,Wembley Central     ,Unknown/Not Given   ,508,266,9,232,0,2,0,0
+752,Wembley Park        ,Home                ,7151,280,4266,1093,241,504,474,292
+752,Wembley Park        ,Work                ,5357,214,3043,914,124,195,631,236
+752,Wembley Park        ,Shop                ,500,9,1,88,162,42,176,22
+752,Wembley Park        ,Education           ,611,0,343,260,0,3,5,0
+752,Wembley Park        ,Tourist             ,11,0,0,0,0,7,3,0
+752,Wembley Park        ,Hotel               ,425,0,167,130,0,0,9,119
+752,Wembley Park        ,Other               ,2205,131,224,352,160,141,741,456
+752,Wembley Park        ,Unknown/Not Given   ,6664,6350,125,15,32,17,105,20
+753,West Acton          ,Home                ,1904,62,1000,460,88,25,168,101
+753,West Acton          ,Work                ,268,1,202,13,50,1,0,1
+753,West Acton          ,Shop                ,2,1,0,1,0,0,0,0
+753,West Acton          ,Education           ,116,0,61,37,0,18,0,0
+753,West Acton          ,Other               ,157,0,0,130,3,0,23,0
+753,West Acton          ,Unknown/Not Given   ,308,220,0,23,58,0,7,0
+755,West Brompton       ,Home                ,1857,4,1106,194,211,39,190,114
+755,West Brompton       ,Work                ,2990,57,1748,455,35,128,419,148
+755,West Brompton       ,Shop                ,45,0,0,0,0,40,0,5
+755,West Brompton       ,Education           ,194,0,134,41,19,0,0,1
+755,West Brompton       ,Tourist             ,27,0,0,1,0,0,5,22
+755,West Brompton       ,Hotel               ,79,0,13,1,7,15,3,40
+755,West Brompton       ,Other               ,1216,40,0,183,18,12,599,364
+755,West Brompton       ,Unknown/Not Given   ,1134,922,157,27,3,0,5,20
+756,West Finchley       ,Home                ,2086,35,1035,491,37,46,262,181
+756,West Finchley       ,Work                ,212,0,107,82,4,1,0,17
+756,West Finchley       ,Shop                ,1,0,0,0,0,0,1,0
+756,West Finchley       ,Education           ,51,0,13,36,0,0,1,0
+756,West Finchley       ,Hotel               ,18,0,0,0,0,0,0,18
+756,West Finchley       ,Other               ,308,0,25,176,1,14,66,27
+756,West Finchley       ,Unknown/Not Given   ,101,75,26,0,0,0,0,0
+757,West Ham            ,Home                ,3312,108,1520,1108,367,133,53,22
+757,West Ham            ,Work                ,1302,1,996,236,1,21,21,26
+757,West Ham            ,Shop                ,49,0,0,0,2,13,0,34
+757,West Ham            ,Education           ,216,2,74,140,0,0,0,0
+757,West Ham            ,Tourist             ,35,0,0,0,0,0,0,35
+757,West Ham            ,Hotel               ,189,0,0,189,0,0,0,0
+757,West Ham            ,Other               ,760,2,39,511,113,13,48,36
+757,West Ham            ,Unknown/Not Given   ,18044,17866,103,55,0,3,18,0
+758,West Hampstead      ,Home                ,10111,37,5079,2800,410,346,731,708
+758,West Hampstead      ,Work                ,2656,117,1312,945,91,48,52,90
+758,West Hampstead      ,Shop                ,146,0,0,50,23,0,1,71
+758,West Hampstead      ,Education           ,368,32,270,63,0,0,2,0
+758,West Hampstead      ,Tourist             ,81,0,0,0,0,0,0,81
+758,West Hampstead      ,Hotel               ,161,0,0,99,0,5,11,47
+758,West Hampstead      ,Other               ,1496,154,107,313,172,140,389,220
+758,West Hampstead      ,Unknown/Not Given   ,2289,2023,160,52,55,0,0,0
+759,West Harrow         ,Home                ,1725,52,986,425,54,20,121,68
+759,West Harrow         ,Work                ,242,0,175,67,0,0,0,0
+759,West Harrow         ,Shop                ,1,0,0,1,0,0,0,0
+759,West Harrow         ,Education           ,77,0,77,0,0,0,0,0
+759,West Harrow         ,Tourist             ,18,0,0,0,18,0,0,0
+759,West Harrow         ,Other               ,179,0,0,133,0,0,46,0
+759,West Harrow         ,Unknown/Not Given   ,114,114,0,0,0,0,0,0
+760,West Kensington     ,Home                ,3851,19,1898,1310,138,134,246,106
+760,West Kensington     ,Work                ,1795,16,999,378,105,12,157,129
+760,West Kensington     ,Shop                ,143,0,0,0,0,2,1,140
+760,West Kensington     ,Education           ,102,0,80,23,0,0,0,0
+760,West Kensington     ,Hotel               ,41,13,0,0,3,0,0,25
+760,West Kensington     ,Other               ,1003,6,93,132,394,26,198,153
+760,West Kensington     ,Unknown/Not Given   ,910,701,31,0,0,0,0,178
+762,West Ruislip        ,Home                ,1749,7,1084,354,36,23,121,124
+762,West Ruislip        ,Work                ,154,0,86,2,0,30,17,18
+762,West Ruislip        ,Shop                ,25,0,0,3,0,22,0,0
+762,West Ruislip        ,Education           ,97,0,68,29,1,0,0,0
+762,West Ruislip        ,Other               ,41,0,0,15,0,4,2,19
+762,West Ruislip        ,Unknown/Not Given   ,166,104,59,2,0,0,0,0
+754,Westbourne Park     ,Home                ,2567,29,1250,718,132,39,113,286
+754,Westbourne Park     ,Work                ,1972,21,582,893,39,62,155,221
+754,Westbourne Park     ,Shop                ,19,0,0,0,12,0,7,0
+754,Westbourne Park     ,Education           ,228,0,169,58,0,0,0,0
+754,Westbourne Park     ,Hotel               ,109,0,0,83,26,0,0,0
+754,Westbourne Park     ,Other               ,609,4,0,116,42,26,85,336
+754,Westbourne Park     ,Unknown/Not Given   ,561,522,4,3,0,15,16,0
+761,Westminster         ,Home                ,2821,8,1052,589,250,34,713,174
+761,Westminster         ,Work                ,24256,369,11866,5856,994,1019,2577,1575
+761,Westminster         ,Shop                ,375,0,0,0,0,64,28,283
+761,Westminster         ,Education           ,218,0,53,42,0,21,2,100
+761,Westminster         ,Tourist             ,3831,75,152,200,55,204,793,2351
+761,Westminster         ,Hotel               ,714,0,47,46,0,0,181,440
+761,Westminster         ,Other               ,6533,157,141,842,311,325,2010,2747
+761,Westminster         ,Unknown/Not Given   ,3824,3242,94,16,129,12,23,307
+764,White City          ,Home                ,2768,24,1897,526,132,90,68,31
+764,White City          ,Work                ,8015,103,4676,2129,263,189,453,201
+764,White City          ,Shop                ,262,63,9,12,52,14,25,87
+764,White City          ,Education           ,102,0,88,13,0,0,0,0
+764,White City          ,Tourist             ,9,0,0,0,0,0,0,9
+764,White City          ,Hotel               ,85,0,0,0,0,85,0,0
+764,White City          ,Other               ,787,39,11,92,14,40,266,326
+764,White City          ,Unknown/Not Given   ,1754,1710,4,30,8,0,0,1
+763,Whitechapel         ,Home                ,7970,90,4159,1999,298,302,697,424
+763,Whitechapel         ,Work                ,12151,151,7540,2955,428,151,298,628
+763,Whitechapel         ,Shop                ,262,2,0,139,57,23,36,4
+763,Whitechapel         ,Education           ,1514,46,699,667,0,0,89,11
+763,Whitechapel         ,Tourist             ,79,0,0,48,0,0,6,25
+763,Whitechapel         ,Hotel               ,63,0,6,0,0,0,37,20
+763,Whitechapel         ,Other               ,4905,46,293,1358,327,619,866,1396
+763,Whitechapel         ,Unknown/Not Given   ,6339,6157,148,3,0,0,12,19
+765,Willesden Green     ,Home                ,9769,560,5352,1582,730,277,771,496
+765,Willesden Green     ,Work                ,1186,113,816,175,30,2,44,5
+765,Willesden Green     ,Shop                ,436,0,54,137,89,67,90,0
+765,Willesden Green     ,Education           ,281,0,190,90,0,0,2,0
+765,Willesden Green     ,Tourist             ,50,0,0,0,0,0,5,45
+765,Willesden Green     ,Hotel               ,181,0,1,0,0,45,0,135
+765,Willesden Green     ,Other               ,1159,0,39,550,203,263,59,44
+765,Willesden Green     ,Unknown/Not Given   ,764,684,32,30,0,18,0,0
+766,Willesden Junction  ,Home                ,3248,8,1863,853,140,40,322,22
+766,Willesden Junction  ,Work                ,2134,93,1333,250,142,33,93,191
+766,Willesden Junction  ,Shop                ,118,0,0,0,0,9,23,86
+766,Willesden Junction  ,Education           ,376,49,210,117,0,0,0,0
+766,Willesden Junction  ,Hotel               ,97,0,0,0,0,0,65,32
+766,Willesden Junction  ,Other               ,613,0,69,209,241,0,30,64
+766,Willesden Junction  ,Unknown/Not Given   ,1069,930,84,56,0,0,0,0
+767,Wimbledon           ,Home                ,12774,282,5960,2939,633,292,1678,989
+767,Wimbledon           ,Work                ,3341,17,1885,616,130,50,363,280
+767,Wimbledon           ,Shop                ,811,0,2,351,226,107,93,32
+767,Wimbledon           ,Education           ,342,6,288,47,0,0,0,0
+767,Wimbledon           ,Tourist             ,33,0,0,0,0,0,25,8
+767,Wimbledon           ,Hotel               ,451,0,19,92,0,13,7,321
+767,Wimbledon           ,Other               ,2128,124,164,565,241,207,293,534
+767,Wimbledon           ,Unknown/Not Given   ,1482,1174,181,70,0,52,4,0
+768,Wimbledon Park      ,Home                ,1931,80,762,639,123,50,205,72
+768,Wimbledon Park      ,Work                ,486,11,324,72,42,36,0,0
+768,Wimbledon Park      ,Shop                ,43,0,0,0,2,0,8,33
+768,Wimbledon Park      ,Education           ,16,12,0,3,0,0,0,0
+768,Wimbledon Park      ,Tourist             ,51,0,0,0,0,0,28,24
+768,Wimbledon Park      ,Hotel               ,3,0,0,3,0,0,0,0
+768,Wimbledon Park      ,Other               ,237,25,10,108,3,2,46,43
+768,Wimbledon Park      ,Unknown/Not Given   ,127,127,0,0,0,0,0,0
+770,Wood Green          ,Home                ,11064,377,6216,2683,79,239,578,892
+770,Wood Green          ,Work                ,3426,38,1663,509,114,77,539,485
+770,Wood Green          ,Shop                ,753,7,26,278,208,121,55,57
+770,Wood Green          ,Education           ,219,2,78,132,0,0,0,7
+770,Wood Green          ,Tourist             ,20,0,0,0,0,20,0,0
+770,Wood Green          ,Hotel               ,348,28,15,160,0,0,135,10
+770,Wood Green          ,Other               ,2378,99,385,647,303,104,362,477
+770,Wood Green          ,Unknown/Not Given   ,1143,841,264,26,1,0,0,12
+599,Wood Lane           ,Home                ,456,2,384,29,0,0,41,0
+599,Wood Lane           ,Work                ,1767,43,880,409,140,71,1,224
+599,Wood Lane           ,Shop                ,588,0,22,37,146,219,148,16
+599,Wood Lane           ,Education           ,312,0,0,43,0,0,0,268
+599,Wood Lane           ,Other               ,463,0,189,0,29,3,64,178
+599,Wood Lane           ,Unknown/Not Given   ,967,967,0,0,0,0,0,0
+769,Woodford            ,Home                ,7205,77,3471,1468,408,447,727,608
+769,Woodford            ,Work                ,228,3,153,54,0,0,3,14
+769,Woodford            ,Shop                ,132,1,1,36,35,6,12,42
+769,Woodford            ,Education           ,103,0,48,3,0,0,0,52
+769,Woodford            ,Tourist             ,5,0,0,0,0,0,0,5
+769,Woodford            ,Hotel               ,135,0,0,47,0,0,20,67
+769,Woodford            ,Other               ,432,0,5,263,15,16,17,115
+769,Woodford            ,Unknown/Not Given   ,869,598,147,10,0,0,113,0
+771,Woodside Park       ,Home                ,3282,70,1463,1111,189,57,257,136
+771,Woodside Park       ,Work                ,449,19,271,70,10,28,51,0
+771,Woodside Park       ,Shop                ,105,0,2,99,0,3,0,2
+771,Woodside Park       ,Education           ,105,0,60,45,0,0,0,0
+771,Woodside Park       ,Hotel               ,92,0,0,92,0,0,0,0
+771,Woodside Park       ,Other               ,398,40,87,42,1,28,170,28
+771,Woodside Park       ,Unknown/Not Given   ,340,248,36,18,38,0,0,0
+ ,,,,,,,,,,
+ ,,,,,,,,,,
+ Analysis by journey frequency and journey purpose,,,,,,,,,,
+,,,Total,Not Stated          ,5 or more days per w,1-4 days per week   ,Once a fortnight    ,Once a month        ,Less than once a mon,First Time Ever
+zone 1,Early       ,Home                ,20,0,2,18,0,0,0,0
+zone 1,Early       ,Work                ,128,0,86,10,12,0,6,12
+zone 1,Early       ,Education           ,0,0,0,0,0,0,0,0
+zone 1,Early       ,Hotel               ,1,0,0,1,0,0,0,0
+zone 1,Early       ,Other               ,8,0,2,0,2,0,0,5
+zone 1,Early       ,Unknown/Not Given   ,63161,63160,1,0,0,0,0,0
+zone 1,AM peak     ,Home                ,15439,112,6413,3432,889,1189,2424,980
+zone 1,AM peak     ,Work                ,694213,8326,468449,146796,15420,11275,24381,19566
+zone 1,AM peak     ,Shop                ,3107,63,151,384,505,231,1264,509
+zone 1,AM peak     ,Education           ,27136,452,14122,10792,337,129,755,549
+zone 1,AM peak     ,Tourist             ,3876,140,234,212,37,226,1360,1667
+zone 1,AM peak     ,Hotel               ,2111,0,90,454,48,731,396,391
+zone 1,AM peak     ,Other               ,33234,846,2999,5828,3238,2504,9427,8392
+zone 1,AM peak     ,Unknown/Not Given   ,75476,66994,5417,1648,297,252,350,519
+zone 1,Midday      ,Home                ,94030,1817,18134,22117,7830,7460,22198,14474
+zone 1,Midday      ,Work                ,234302,3451,66136,59540,19530,15768,36469,33409
+zone 1,Midday      ,Shop                ,56663,1544,2753,7379,7227,7243,18389,12128
+zone 1,Midday      ,Education           ,57775,953,24496,25120,1019,1151,2275,2762
+zone 1,Midday      ,Tourist             ,30662,505,655,1861,720,1222,7354,18345
+zone 1,Midday      ,Hotel               ,19660,512,648,1988,1197,857,6518,7942
+zone 1,Midday      ,Other               ,181569,5567,6065,25252,16532,18447,56985,52721
+zone 1,Midday      ,Unknown/Not Given   ,47283,34187,2396,2455,811,1213,3314,2908
+zone 1,PM Peak     ,Home                ,252712,2242,131579,61663,7801,7750,24462,17215
+zone 1,PM Peak     ,Work                ,61110,535,16669,14020,4882,4610,9565,10829
+zone 1,PM Peak     ,Shop                ,19322,208,459,3374,3304,1863,6287,3827
+zone 1,PM Peak     ,Education           ,19020,404,3076,11259,489,545,1229,2018
+zone 1,PM Peak     ,Tourist             ,5587,210,83,105,42,379,1641,3126
+zone 1,PM Peak     ,Hotel               ,23853,369,1350,3484,1059,1591,6554,9446
+zone 1,PM Peak     ,Other               ,149784,2934,6324,26670,17327,16585,43052,36890
+zone 1,PM Peak     ,Unknown/Not Given   ,51645,40032,4671,2106,653,413,1952,1817
+zone 1,Evening     ,Home                ,128687,1979,54258,32798,7197,6934,15533,9987
+zone 1,Evening     ,Work                ,19224,494,10148,4718,547,708,1194,1415
+zone 1,Evening     ,Shop                ,3101,46,141,680,543,372,774,545
+zone 1,Evening     ,Education           ,2545,25,721,1292,56,189,79,182
+zone 1,Evening     ,Tourist             ,935,29,0,87,265,31,54,469
+zone 1,Evening     ,Hotel               ,6633,124,423,1025,452,319,1397,2893
+zone 1,Evening     ,Other               ,48150,761,1858,10213,6593,4791,13173,10761
+zone 1,Evening     ,Unknown/Not Given   ,22070,18972,1047,465,424,334,241,587
+zone 1,Late        ,Home                ,43034,625,9869,8941,4624,3262,8874,6839
+zone 1,Late        ,Work                ,4906,86,3292,689,123,96,122,497
+zone 1,Late        ,Shop                ,24,0,2,0,5,0,14,3
+zone 1,Late        ,Education           ,686,0,284,266,31,0,20,85
+zone 1,Late        ,Tourist             ,618,0,0,0,0,2,91,525
+zone 1,Late        ,Hotel               ,4833,114,364,594,83,60,1174,2444
+zone 1,Late        ,Other               ,5321,82,439,1136,868,618,805,1374
+zone 1,Late        ,Unknown/Not Given   ,31543,30724,211,151,235,34,111,78
+zone 1,   Total day,Home                ,533921,6775,220254,128969,28341,26596,73491,49494
+zone 1,   Total day,Work                ,1013883,12894,564779,225774,40515,32457,71736,65728
+zone 1,   Total day,Shop                ,82217,1861,3506,11817,11584,9709,26728,17012
+zone 1,   Total day,Education           ,107162,1834,42700,48729,1933,2014,4357,5595
+zone 1,   Total day,Tourist             ,41677,884,972,2264,1064,1861,10501,24132
+zone 1,   Total day,Hotel               ,57092,1118,2875,7546,2838,3558,16041,23116
+zone 1,   Total day,Other               ,418066,10190,17686,69100,44559,42946,123443,110142
+zone 1,   Total day,Unknown/Not Given   ,291179,254070,13741,6824,2420,2246,5969,5909
+zone 2,Early       ,Home                ,10,0,5,5,0,0,0,0
+zone 2,Early       ,Work                ,289,0,238,25,10,0,0,17
+zone 2,Early       ,Education           ,2,0,2,0,0,0,0,0
+zone 2,Early       ,Other               ,5,0,0,5,0,0,0,0
+zone 2,Early       ,Unknown/Not Given   ,31975,31943,32,0,0,0,0,0
+zone 2,AM peak     ,Home                ,10606,198,4932,2997,358,591,1230,299
+zone 2,AM peak     ,Work                ,220842,2328,157126,46560,3829,1912,3986,5100
+zone 2,AM peak     ,Shop                ,1309,56,120,409,178,264,243,40
+zone 2,AM peak     ,Education           ,12793,187,7265,4812,118,30,243,137
+zone 2,AM peak     ,Tourist             ,494,0,11,175,12,25,63,207
+zone 2,AM peak     ,Hotel               ,608,33,5,84,33,41,281,130
+zone 2,AM peak     ,Other               ,10064,387,1086,3437,1061,696,1863,1535
+zone 2,AM peak     ,Unknown/Not Given   ,43981,39555,3489,492,76,27,163,179
+zone 2,Midday      ,Home                ,73227,1426,21422,19728,5981,5106,11423,8141
+zone 2,Midday      ,Work                ,69927,1248,23931,19853,4847,3651,8094,8303
+zone 2,Midday      ,Shop                ,17106,356,764,3196,3245,1945,3777,3823
+zone 2,Midday      ,Education           ,19682,506,5786,10936,688,222,594,951
+zone 2,Midday      ,Tourist             ,4721,50,108,434,107,167,1113,2742
+zone 2,Midday      ,Hotel               ,4066,329,197,1059,200,237,1159,885
+zone 2,Midday      ,Other               ,52215,1834,2904,10101,5421,6162,13038,12754
+zone 2,Midday      ,Unknown/Not Given   ,36366,30018,1759,1835,784,611,668,690
+zone 2,PM Peak     ,Home                ,210308,2382,123587,45394,7390,5338,16092,10126
+zone 2,PM Peak     ,Work                ,20762,852,7450,5278,1274,860,1992,3055
+zone 2,PM Peak     ,Shop                ,7548,315,1069,1133,1865,497,1113,1555
+zone 2,PM Peak     ,Education           ,7491,183,2070,3601,185,295,472,684
+zone 2,PM Peak     ,Tourist             ,1311,109,205,86,147,209,355,201
+zone 2,PM Peak     ,Hotel               ,7952,23,530,2088,625,590,1844,2253
+zone 2,PM Peak     ,Other               ,50824,809,4793,11958,5264,3927,11996,12078
+zone 2,PM Peak     ,Unknown/Not Given   ,56038,50800,2712,1000,252,88,416,771
+zone 2,Evening     ,Home                ,155578,2149,78787,39384,8985,6299,12011,7963
+zone 2,Evening     ,Work                ,7924,243,4481,2363,104,293,195,244
+zone 2,Evening     ,Shop                ,1434,0,188,289,282,56,148,472
+zone 2,Evening     ,Education           ,1503,3,706,592,43,13,104,41
+zone 2,Evening     ,Tourist             ,84,0,1,0,0,0,5,78
+zone 2,Evening     ,Hotel               ,4547,26,214,991,653,270,1001,1394
+zone 2,Evening     ,Other               ,23287,713,1736,6244,3039,1652,4993,4910
+zone 2,Evening     ,Unknown/Not Given   ,24366,21677,1574,527,282,22,226,59
+zone 2,Late        ,Home                ,56362,607,16298,13748,5282,4056,9648,6723
+zone 2,Late        ,Work                ,2130,56,1282,643,55,39,15,40
+zone 2,Late        ,Shop                ,223,0,0,84,101,19,0,19
+zone 2,Late        ,Education           ,50,0,3,46,0,0,1,0
+zone 2,Late        ,Tourist             ,40,0,0,0,0,0,0,40
+zone 2,Late        ,Hotel               ,812,41,19,246,3,16,161,324
+zone 2,Late        ,Other               ,2959,92,206,1193,384,292,409,383
+zone 2,Late        ,Unknown/Not Given   ,34856,34148,254,168,97,6,89,93
+zone 2,   Total day,Home                ,506090,6762,245032,121255,27995,21390,50405,33251
+zone 2,   Total day,Work                ,321874,4728,194509,74721,10119,6756,14283,16759
+zone 2,   Total day,Shop                ,27619,727,2141,5110,5671,2781,5281,5908
+zone 2,   Total day,Education           ,41521,879,15833,19987,1034,561,1414,1813
+zone 2,   Total day,Tourist             ,6650,159,325,694,266,401,1536,3269
+zone 2,   Total day,Hotel               ,17984,452,965,4468,1514,1153,4446,4986
+zone 2,   Total day,Other               ,139354,3835,10725,32937,15170,12729,32299,31660
+zone 2,   Total day,Unknown/Not Given   ,227581,208141,9820,4022,1490,754,1562,1792
+zone 3,Early       ,Home                ,1,0,0,1,0,0,0,0
+zone 3,Early       ,Work                ,16,0,12,4,0,0,0,0
+zone 3,Early       ,Unknown/Not Given   ,7711,7689,22,0,0,0,0,0
+zone 3,AM peak     ,Home                ,6478,215,3680,1754,126,58,394,250
+zone 3,AM peak     ,Work                ,43548,577,30284,8425,1346,851,1240,825
+zone 3,AM peak     ,Shop                ,450,12,41,122,47,1,81,146
+zone 3,AM peak     ,Education           ,5124,70,3171,1754,5,0,11,113
+zone 3,AM peak     ,Tourist             ,54,0,11,22,0,3,0,18
+zone 3,AM peak     ,Hotel               ,118,0,28,25,11,0,53,2
+zone 3,AM peak     ,Other               ,3328,91,603,1116,189,240,560,530
+zone 3,AM peak     ,Unknown/Not Given   ,10128,8264,1358,287,57,4,24,135
+zone 3,Midday      ,Home                ,43577,1067,15057,12049,2775,2155,6440,4033
+zone 3,Midday      ,Work                ,16991,794,5655,4114,1237,822,2037,2331
+zone 3,Midday      ,Shop                ,6416,73,617,1702,1023,801,1249,951
+zone 3,Midday      ,Education           ,6079,100,2071,3067,149,124,264,304
+zone 3,Midday      ,Tourist             ,926,4,0,12,105,128,371,306
+zone 3,Midday      ,Hotel               ,1714,119,4,418,357,223,208,385
+zone 3,Midday      ,Other               ,16360,586,1136,3578,1844,2161,3907,3148
+zone 3,Midday      ,Unknown/Not Given   ,7889,4123,810,1366,311,532,502,244
+zone 3,PM Peak     ,Home                ,142674,1598,88631,30299,4649,2838,8352,6308
+zone 3,PM Peak     ,Work                ,8415,57,3975,2257,202,115,1123,686
+zone 3,PM Peak     ,Shop                ,2731,437,434,490,570,148,392,260
+zone 3,PM Peak     ,Education           ,4666,1,1436,1561,352,213,177,925
+zone 3,PM Peak     ,Tourist             ,176,0,0,159,0,0,17,0
+zone 3,PM Peak     ,Hotel               ,4936,25,1105,626,450,561,1149,1019
+zone 3,PM Peak     ,Other               ,15593,534,2510,5095,1363,1001,2246,2844
+zone 3,PM Peak     ,Unknown/Not Given   ,14626,10630,2142,1420,180,44,108,102
+zone 3,Evening     ,Home                ,87277,1218,46457,22297,4675,2946,5782,3901
+zone 3,Evening     ,Work                ,3191,119,1704,951,14,136,201,65
+zone 3,Evening     ,Shop                ,699,2,103,210,42,165,132,45
+zone 3,Evening     ,Education           ,355,0,47,284,3,20,0,1
+zone 3,Evening     ,Tourist             ,16,0,0,0,1,0,10,5
+zone 3,Evening     ,Hotel               ,1046,5,80,215,13,121,389,223
+zone 3,Evening     ,Other               ,7179,116,610,2582,843,510,934,1586
+zone 3,Evening     ,Unknown/Not Given   ,7629,6141,991,440,24,0,26,8
+zone 3,Late        ,Home                ,33869,391,11622,8289,2652,2037,4895,3982
+zone 3,Late        ,Work                ,924,284,516,51,0,0,73,0
+zone 3,Late        ,Shop                ,39,0,0,18,4,0,0,17
+zone 3,Late        ,Education           ,37,0,37,0,0,0,0,0
+zone 3,Late        ,Hotel               ,262,0,8,59,0,8,84,103
+zone 3,Late        ,Other               ,1420,36,83,578,111,153,234,223
+zone 3,Late        ,Unknown/Not Given   ,14954,14587,178,68,73,3,8,37
+zone 3,   Total day,Home                ,313876,4490,165447,74689,14878,10034,25863,18475
+zone 3,   Total day,Work                ,73085,1832,42146,15802,2799,1924,4674,3907
+zone 3,   Total day,Shop                ,10335,524,1194,2543,1686,1114,1855,1420
+zone 3,   Total day,Education           ,16261,171,6761,6666,509,358,452,1344
+zone 3,   Total day,Tourist             ,1172,4,12,192,106,131,398,329
+zone 3,   Total day,Hotel               ,8075,149,1225,1342,831,914,1883,1732
+zone 3,   Total day,Other               ,43881,1363,4942,12949,4350,4065,7882,8330
+zone 3,   Total day,Unknown/Not Given   ,62937,51434,5500,3581,645,582,669,525
+zone 4,Early       ,Home                ,22,0,22,0,0,0,0,0
+zone 4,Early       ,Work                ,54,0,54,0,0,0,0,0
+zone 4,Early       ,Unknown/Not Given   ,4313,4313,0,0,0,0,0,0
+zone 4,AM peak     ,Home                ,3805,59,2237,709,95,256,409,38
+zone 4,AM peak     ,Work                ,26391,335,18429,5638,556,334,309,790
+zone 4,AM peak     ,Shop                ,388,25,84,186,51,0,22,19
+zone 4,AM peak     ,Education           ,2770,27,1565,1055,0,0,6,117
+zone 4,AM peak     ,Tourist             ,122,0,0,0,0,12,0,110
+zone 4,AM peak     ,Hotel               ,231,0,105,99,6,1,20,0
+zone 4,AM peak     ,Other               ,2044,121,207,775,183,220,421,118
+zone 4,AM peak     ,Unknown/Not Given   ,6728,6040,648,37,0,2,0,0
+zone 4,Midday      ,Home                ,23367,492,8287,6804,1564,1401,3197,1622
+zone 4,Midday      ,Work                ,9539,321,2794,2487,568,628,1738,1002
+zone 4,Midday      ,Shop                ,2941,182,103,758,492,170,763,472
+zone 4,Midday      ,Education           ,2643,191,907,1292,108,16,11,118
+zone 4,Midday      ,Tourist             ,561,4,0,36,0,7,223,290
+zone 4,Midday      ,Hotel               ,1342,20,70,333,95,170,320,334
+zone 4,Midday      ,Other               ,8766,335,1128,1839,619,833,2239,1772
+zone 4,Midday      ,Unknown/Not Given   ,6881,5081,338,460,191,188,380,243
+zone 4,PM Peak     ,Home                ,78234,835,50980,15982,1508,1562,4852,2514
+zone 4,PM Peak     ,Work                ,3151,30,1487,1011,164,87,182,190
+zone 4,PM Peak     ,Shop                ,734,1,26,251,198,44,105,111
+zone 4,PM Peak     ,Education           ,1573,84,773,581,0,12,32,91
+zone 4,PM Peak     ,Tourist             ,80,40,0,0,0,0,13,26
+zone 4,PM Peak     ,Hotel               ,2337,39,360,818,210,0,475,434
+zone 4,PM Peak     ,Other               ,8278,240,1633,2032,496,686,1904,1287
+zone 4,PM Peak     ,Unknown/Not Given   ,15317,12433,2115,595,7,18,130,18
+zone 4,Evening     ,Home                ,41878,650,22814,10560,1764,1795,2879,1416
+zone 4,Evening     ,Work                ,1954,12,853,498,33,36,517,5
+zone 4,Evening     ,Shop                ,159,0,77,62,4,15,2,0
+zone 4,Evening     ,Education           ,273,10,129,124,0,10,0,0
+zone 4,Evening     ,Hotel               ,731,0,6,482,48,26,66,103
+zone 4,Evening     ,Other               ,3094,64,434,1001,291,445,351,506
+zone 4,Evening     ,Unknown/Not Given   ,7188,6343,440,376,2,15,9,3
+zone 4,Late        ,Home                ,13794,136,4668,3335,780,819,2677,1378
+zone 4,Late        ,Work                ,679,48,525,51,0,0,53,2
+zone 4,Late        ,Shop                ,50,0,0,6,16,28,0,0
+zone 4,Late        ,Education           ,53,0,0,0,0,0,0,53
+zone 4,Late        ,Hotel               ,161,0,31,16,7,0,43,63
+zone 4,Late        ,Other               ,598,36,45,183,32,12,179,110
+zone 4,Late        ,Unknown/Not Given   ,7508,7429,66,8,0,0,1,4
+zone 4,   Total day,Home                ,161100,2173,89009,37390,5712,5834,14014,6968
+zone 4,   Total day,Work                ,41768,745,24143,9685,1321,1085,2798,1990
+zone 4,   Total day,Shop                ,4272,208,290,1264,760,257,892,602
+zone 4,   Total day,Education           ,7312,312,3374,3051,108,38,49,380
+zone 4,   Total day,Tourist             ,763,45,0,36,0,20,236,427
+zone 4,   Total day,Hotel               ,4802,59,573,1748,367,196,924,935
+zone 4,   Total day,Other               ,22780,796,3448,5832,1622,2196,5094,3793
+zone 4,   Total day,Unknown/Not Given   ,47935,41640,3607,1476,199,223,520,269
+zone 5,Early       ,Home                ,14,14,0,0,0,0,0,0
+zone 5,Early       ,Work                ,10,0,10,0,0,0,0,0
+zone 5,Early       ,Education           ,3,0,0,3,0,0,0,0
+zone 5,Early       ,Unknown/Not Given   ,4044,4036,7,0,0,0,0,0
+zone 5,AM peak     ,Home                ,2498,47,1444,525,42,27,204,209
+zone 5,AM peak     ,Work                ,20881,569,14371,4125,297,168,786,566
+zone 5,AM peak     ,Shop                ,760,40,95,461,82,28,19,34
+zone 5,AM peak     ,Education           ,3035,61,2013,830,26,0,1,104
+zone 5,AM peak     ,Tourist             ,149,19,0,108,0,11,0,12
+zone 5,AM peak     ,Hotel               ,146,16,29,44,0,39,18,0
+zone 5,AM peak     ,Other               ,1592,34,238,341,106,232,475,167
+zone 5,AM peak     ,Unknown/Not Given   ,5625,5121,403,59,0,33,1,7
+zone 5,Midday      ,Home                ,17807,532,5878,4999,768,1534,2729,1368
+zone 5,Midday      ,Work                ,7892,117,3019,2059,482,375,727,1114
+zone 5,Midday      ,Shop                ,3670,168,71,1043,850,582,505,450
+zone 5,Midday      ,Education           ,2548,35,1362,851,38,14,87,162
+zone 5,Midday      ,Tourist             ,428,17,0,13,5,39,100,254
+zone 5,Midday      ,Hotel               ,1159,18,18,471,100,160,333,60
+zone 5,Midday      ,Other               ,9213,338,346,1747,833,611,3241,2097
+zone 5,Midday      ,Unknown/Not Given   ,5071,3749,609,166,54,60,297,135
+zone 5,PM Peak     ,Home                ,61601,774,38030,12587,1254,1501,4639,2816
+zone 5,PM Peak     ,Work                ,3991,32,1255,962,244,196,691,612
+zone 5,PM Peak     ,Shop                ,1079,159,100,335,197,5,165,118
+zone 5,PM Peak     ,Education           ,800,1,330,426,0,0,43,0
+zone 5,PM Peak     ,Tourist             ,47,0,26,0,0,0,18,3
+zone 5,PM Peak     ,Hotel               ,923,111,91,121,122,14,71,393
+zone 5,PM Peak     ,Other               ,6428,132,691,1743,691,480,1417,1274
+zone 5,PM Peak     ,Unknown/Not Given   ,9116,7722,617,280,98,45,133,221
+zone 5,Evening     ,Home                ,30496,270,17182,7811,1038,627,2089,1480
+zone 5,Evening     ,Work                ,1587,42,798,735,0,0,7,5
+zone 5,Evening     ,Shop                ,92,0,35,0,6,0,51,0
+zone 5,Evening     ,Education           ,229,8,5,142,73,0,1,0
+zone 5,Evening     ,Tourist             ,18,0,0,0,18,0,0,0
+zone 5,Evening     ,Hotel               ,878,0,79,375,94,29,207,93
+zone 5,Evening     ,Other               ,2885,68,158,907,228,278,699,547
+zone 5,Evening     ,Unknown/Not Given   ,6469,5360,677,372,0,26,12,22
+zone 5,Late        ,Home                ,9072,85,3148,2414,457,653,1400,914
+zone 5,Late        ,Work                ,293,24,227,42,0,0,0,0
+zone 5,Late        ,Shop                ,0,0,0,0,0,0,0,0
+zone 5,Late        ,Education           ,7,0,7,0,0,0,0,0
+zone 5,Late        ,Hotel               ,27,0,0,7,0,10,2,8
+zone 5,Late        ,Other               ,385,0,22,76,35,81,113,57
+zone 5,Late        ,Unknown/Not Given   ,7706,7609,32,44,6,15,0,0
+zone 5,   Total day,Home                ,121487,1721,65682,28337,3559,4341,11060,6786
+zone 5,   Total day,Work                ,34655,784,19678,7922,1023,739,2211,2297
+zone 5,   Total day,Shop                ,5601,367,301,1839,1135,617,741,601
+zone 5,   Total day,Education           ,6622,105,3716,2252,137,14,132,266
+zone 5,   Total day,Tourist             ,642,36,26,121,23,49,118,269
+zone 5,   Total day,Hotel               ,3134,145,218,1017,316,253,630,555
+zone 5,   Total day,Other               ,20502,572,1455,4815,1893,1682,5945,4141
+zone 5,   Total day,Unknown/Not Given   ,38030,33597,2345,921,159,179,443,385
+ ,,,,,,,,,,
+System total,Early       ,Home                ,66,14,29,24,0,0,0,0
+System total,Early       ,Work                ,496,0,399,39,22,0,6,29
+System total,Early       ,Education           ,5,0,2,3,0,0,0,0
+System total,Early       ,Hotel               ,1,0,0,1,0,0,0,0
+System total,Early       ,Other               ,13,0,2,5,2,0,0,5
+System total,Early       ,Unknown/Not Given   ,111204,111142,62,0,0,0,0,0
+System total,AM peak     ,Home                ,38825,632,18706,9418,1511,2121,4662,1775
+System total,AM peak     ,Work                ,1005876,12135,688659,211543,21448,14540,30702,26848
+System total,AM peak     ,Shop                ,6013,196,491,1563,863,523,1629,748
+System total,AM peak     ,Education           ,50858,797,28136,19242,487,160,1016,1021
+System total,AM peak     ,Tourist             ,4694,159,257,516,48,277,1423,2014
+System total,AM peak     ,Hotel               ,3213,49,258,705,98,812,768,523
+System total,AM peak     ,Other               ,50262,1478,5132,11497,4777,3892,12746,10741
+System total,AM peak     ,Unknown/Not Given   ,141938,125974,11315,2523,430,318,538,840
+System total,Midday      ,Home                ,252009,5334,68779,65698,18918,17656,45986,29637
+System total,Midday      ,Work                ,338651,5931,101535,88053,26664,21244,49065,46159
+System total,Midday      ,Shop                ,86795,2323,4307,14078,12837,10741,24684,17824
+System total,Midday      ,Education           ,88728,1784,34622,41266,2001,1527,3231,4296
+System total,Midday      ,Tourist             ,37298,580,764,2356,936,1564,9161,21938
+System total,Midday      ,Hotel               ,27941,997,937,4269,1948,1647,8538,9606
+System total,Midday      ,Other               ,268124,8661,11579,42519,25249,28215,79410,72491
+System total,Midday      ,Unknown/Not Given   ,103491,77159,5913,6281,2151,2605,5163,4220
+System total,PM Peak     ,Home                ,745529,7831,432807,165924,22602,18987,58397,38980
+System total,PM Peak     ,Work                ,97430,1506,30836,23528,6767,5867,13553,15372
+System total,PM Peak     ,Shop                ,31414,1119,2088,5583,6133,2558,8063,5871
+System total,PM Peak     ,Education           ,33549,673,7684,17428,1027,1066,1952,3719
+System total,PM Peak     ,Tourist             ,7200,360,313,350,189,588,2043,3357
+System total,PM Peak     ,Hotel               ,40001,566,3436,7136,2467,2757,10093,13545
+System total,PM Peak     ,Other               ,230907,4649,15952,47498,25141,22679,60616,54373
+System total,PM Peak     ,Unknown/Not Given   ,146742,121618,12257,5402,1190,607,2739,2929
+System total,Evening     ,Home                ,443916,6267,219499,112849,23659,18601,38295,24746
+System total,Evening     ,Work                ,33880,911,17983,9266,698,1174,2113,1735
+System total,Evening     ,Shop                ,5485,48,544,1241,877,607,1106,1062
+System total,Evening     ,Education           ,4905,46,1608,2434,175,233,185,224
+System total,Evening     ,Tourist             ,1053,29,1,87,284,31,70,552
+System total,Evening     ,Hotel               ,13835,155,802,3088,1259,766,3060,4707
+System total,Evening     ,Other               ,84596,1722,4796,20947,10995,7675,20151,18310
+System total,Evening     ,Unknown/Not Given   ,67721,58493,4728,2179,731,397,514,679
+System total,Late        ,Home                ,156129,1843,45606,36727,13796,10828,27493,19836
+System total,Late        ,Work                ,8932,498,5841,1476,179,136,264,539
+System total,Late        ,Shop                ,336,0,2,108,126,48,14,39
+System total,Late        ,Education           ,833,0,330,313,31,0,21,138
+System total,Late        ,Tourist             ,658,0,0,0,0,2,91,565
+System total,Late        ,Hotel               ,6095,155,422,923,93,94,1465,2943
+System total,Late        ,Other               ,10682,246,794,3166,1431,1157,1740,2147
+System total,Late        ,Unknown/Not Given   ,96566,94498,741,439,411,58,209,212
+System total,Total day,Home                ,1636474,21920,785425,390641,80486,68194,174833,114974
+System total,Total day,Work                ,1485265,20982,845255,333905,55778,42962,95703,90681
+System total,Total day,Shop                ,130043,3687,7431,22572,20836,14476,35496,25544
+System total,Total day,Education           ,178878,3301,72384,80686,3721,2986,6404,9397
+System total,Total day,Tourist             ,50903,1127,1335,3308,1458,2462,12788,28425
+System total,Total day,Hotel               ,91087,1923,5855,16122,5866,6074,23924,31324
+System total,Total day,Other               ,644585,16755,38256,125632,67594,63617,174663,158067
+System total,Total day,Unknown/Not Given   ,667662,588882,35014,16825,4913,3985,9163,8880

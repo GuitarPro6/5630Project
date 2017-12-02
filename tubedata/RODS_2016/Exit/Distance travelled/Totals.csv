@@ -1,3 +1,275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2b3da28226219fd2c98dc44b7300b301e954aae65cc3cfd840dffc97a9b913b9
-size 21702
+ RODS report2b created at 13:27:32 on 29-03-2017,,,,,,
+ based on survey data up to 2016 and reconciled to Autumn 2016 counts,,,,,,
+(extracted from 'by ticket type' worksheet),,,,,,
+ Report 2b - Analysis of distance by ticket type and exit station,,,,,,
+ NLC,Station name,Time period,Ticket Type,Total passengers,Total passenger kilometres,Average journey length (kms)
+,All stations,   Total day,     Total all types,4884896,42693690.89,8.74
+500,Acton Town          ,   Total day,     Total all types,9604,99744.09,10.39
+502,Aldgate             ,   Total day,     Total all types,13604,131857.53,9.69
+503,Aldgate East        ,   Total day,     Total all types,20696,157125.02,7.59
+505,Alperton            ,   Total day,     Total all types,4981,63026.88,12.65
+506,Amersham            ,   Total day,     Total all types,2374,41738.02,17.58
+507,Angel               ,   Total day,     Total all types,31781,237601.91,7.48
+508,Archway             ,   Total day,     Total all types,15809,133377.66,8.44
+509,Arnos Grove         ,   Total day,     Total all types,7168,93374.6,13.03
+510,Arsenal             ,   Total day,     Total all types,4483,31566.72,7.04
+511,Baker Street        ,   Total day,     Total all types,47009,386299,8.22
+512,Balham              ,   Total day,     Total all types,23937,215954.19,9.02
+513,Bank / Monument     ,   Total day,     Total all types,134408,928262.94,6.91
+501,Barbican            ,   Total day,     Total all types,20861,171887.09,8.24
+514,Barking             ,   Total day,     Total all types,26736,285908.84,10.69
+515,Barkingside         ,   Total day,     Total all types,2569,47423.84,18.46
+516,Barons Court        ,   Total day,     Total all types,11284,107099.75,9.49
+517,Bayswater           ,   Total day,     Total all types,6166,38894.43,6.31
+518,Becontree           ,   Total day,     Total all types,5833,69518.31,11.92
+519,Belsize Park        ,   Total day,     Total all types,10051,83426.48,8.3
+787,Bermondsey          ,   Total day,     Total all types,16825,126955.82,7.55
+520,Bethnal Green       ,   Total day,     Total all types,23931,172093.77,7.19
+521,Blackfriars         ,   Total day,     Total all types,25639,173604.42,6.77
+522,Blackhorse Road     ,   Total day,     Total all types,12811,147830.44,11.54
+524,Bond Street         ,   Total day,     Total all types,62427,503759.72,8.07
+525,Borough             ,   Total day,     Total all types,9287,72991.87,7.86
+526,Boston Manor        ,   Total day,     Total all types,3567,50138.35,14.05
+527,Bounds Green        ,   Total day,     Total all types,10012,126509.57,12.64
+528,Bow Road            ,   Total day,     Total all types,9023,71493.61,7.92
+529,Brent Cross         ,   Total day,     Total all types,3848,44429.62,11.55
+778,Brixton             ,   Total day,     Total all types,50599,484037.06,9.57
+530,Bromley-by-Bow      ,   Total day,     Total all types,6206,55748.9,8.98
+531,Buckhurst Hill      ,   Total day,     Total all types,3521,61602.12,17.49
+532,Burnt Oak           ,   Total day,     Total all types,7321,102169.27,13.95
+534,Caledonian Road     ,   Total day,     Total all types,8910,66812.62,7.5
+535,Camden Town         ,   Total day,     Total all types,31678,236899.63,7.48
+788,Canada Water        ,   Total day,     Total all types,74303,573649.75,7.72
+852,Canary Wharf        ,   Total day,     Total all types,100162,999501.31,9.98
+884,Canning Town        ,   Total day,     Total all types,49290,470621.78,9.55
+536,Cannon Street       ,   Total day,     Total all types,13590,81545.07,6
+537,Canons Park         ,   Total day,     Total all types,4742,85116.55,17.95
+539,Chalfont & Latimer  ,   Total day,     Total all types,1428,33666.13,23.58
+540,Chalk Farm          ,   Total day,     Total all types,7680,63489.92,8.27
+541,Chancery Lane       ,   Total day,     Total all types,33913,285668.47,8.42
+718,Charing Cross       ,   Total day,     Total all types,27620,172037.86,6.23
+543,Chesham             ,   Total day,     Total all types,1834,61102.14,33.31
+544,Chigwell            ,   Total day,     Total all types,792,17352.63,21.91
+545,Chiswick Park       ,   Total day,     Total all types,4052,42470.59,10.48
+546,Chorleywood         ,   Total day,     Total all types,1246,32022.24,25.69
+547,Clapham Common      ,   Total day,     Total all types,16371,142031.27,8.68
+548,Clapham North       ,   Total day,     Total all types,11566,91861.47,7.94
+549,Clapham South       ,   Total day,     Total all types,14362,134801.13,9.39
+550,Cockfosters         ,   Total day,     Total all types,3140,63258.1,20.15
+551,Colindale           ,   Total day,     Total all types,10059,137626.28,13.68
+552,Colliers Wood       ,   Total day,     Total all types,10364,133029.91,12.84
+553,Covent Garden       ,   Total day,     Total all types,23530,161403.45,6.86
+554,Croxley             ,   Total day,     Total all types,1718,45787.23,26.65
+555,Dagenham East       ,   Total day,     Total all types,4853,68798.16,14.18
+556,Dagenham Heathway   ,   Total day,     Total all types,9748,136597.59,14.01
+557,Debden              ,   Total day,     Total all types,3938,75754.15,19.24
+558,Dollis Hill         ,   Total day,     Total all types,6346,69634.2,10.97
+560,Ealing Broadway     ,   Total day,     Total all types,34635,444481.5,12.83
+561,Ealing Common       ,   Total day,     Total all types,4953,52481.98,10.6
+562,Earl's Court        ,   Total day,     Total all types,29802,243845.02,8.18
+563,East Acton          ,   Total day,     Total all types,6560,59079.55,9.01
+565,East Finchley       ,   Total day,     Total all types,12478,140476.05,11.26
+566,East Ham            ,   Total day,     Total all types,23204,269503.53,11.61
+567,East Putney         ,   Total day,     Total all types,10254,99253.34,9.68
+564,Eastcote            ,   Total day,     Total all types,4963,78513.66,15.82
+568,Edgware             ,   Total day,     Total all types,8366,143728.09,17.18
+774,Edgware Road (Bak)  ,   Total day,     Total all types,8008,70433.18,8.79
+569,Edgware Road (Cir)  ,   Total day,     Total all types,10956,72785.93,6.64
+570,Elephant & Castle   ,   Total day,     Total all types,29297,230601.41,7.87
+571,Elm Park            ,   Total day,     Total all types,5388,104984.46,19.49
+542,Embankment          ,   Total day,     Total all types,34448,207255.42,6.02
+572,Epping              ,   Total day,     Total all types,6304,169621.88,26.91
+574,Euston              ,   Total day,     Total all types,63538,367503.59,5.78
+575,Euston Square       ,   Total day,     Total all types,24855,188694.34,7.59
+576,Fairlop             ,   Total day,     Total all types,1792,35302.94,19.71
+577,Farringdon          ,   Total day,     Total all types,30097,240231.53,7.98
+578,Finchley Central    ,   Total day,     Total all types,11597,146369.95,12.62
+579,Finchley Road       ,   Total day,     Total all types,15261,144083.83,9.44
+580,Finsbury Park       ,   Total day,     Total all types,56612,471030.13,8.32
+581,Fulham Broadway     ,   Total day,     Total all types,16400,155373.09,9.47
+582,Gants Hill          ,   Total day,     Total all types,11019,175387.91,15.92
+583,Gloucester Road     ,   Total day,     Total all types,20874,159436.33,7.64
+584,Golders Green       ,   Total day,     Total all types,13781,126262.14,9.16
+585,Goldhawk Road       ,   Total day,     Total all types,3173,23043.05,7.26
+586,Goodge Street       ,   Total day,     Total all types,14512,99028.99,6.82
+587,Grange Hill         ,   Total day,     Total all types,1130,24234.4,21.44
+588,Great Portland Stree,   Total day,     Total all types,14799,124065.93,8.38
+590,Green Park          ,   Total day,     Total all types,70259,521456.88,7.42
+589,Greenford           ,   Total day,     Total all types,7338,119695.22,16.31
+591,Gunnersbury         ,   Total day,     Total all types,2486,24448.03,9.83
+592,Hainault            ,   Total day,     Total all types,5855,124510.12,21.27
+593,Hammersmith (Dis)   ,   Total day,     Total all types,43245,429240.91,9.93
+773,Hammersmith (H&C)   ,   Total day,     Total all types,11533,99039.99,8.59
+594,Hampstead           ,   Total day,     Total all types,7228,62376.87,8.63
+595,Hanger Lane         ,   Total day,     Total all types,6759,98693.51,14.6
+596,Harlesden           ,   Total day,     Total all types,3336,26361.66,7.9
+597,Harrow & Wealdstone ,   Total day,     Total all types,6271,63867.12,10.19
+598,Harrow-on-the-Hill  ,   Total day,     Total all types,15737,216729.73,13.77
+779,Hatton Cross        ,   Total day,     Total all types,4854,77588.9,15.99
+781,Heathrow Terminal 4 ,   Total day,     Total all types,2591,58319.21,22.51
+783,Heathrow Terminal 5 ,   Total day,     Total all types,5309,143068.38,26.95
+780,Heathrow Terminals 1,   Total day,     Total all types,9519,202096.27,21.23
+601,Hendon Central      ,   Total day,     Total all types,13175,167481.25,12.71
+602,High Barnet         ,   Total day,     Total all types,6416,120031.28,18.71
+605,High Street Kensingt,   Total day,     Total all types,20640,173789.94,8.42
+603,Highbury & Islington,   Total day,     Total all types,61160,448144.44,7.33
+604,Highgate            ,   Total day,     Total all types,9463,91175.83,9.63
+606,Hillingdon          ,   Total day,     Total all types,2732,60291.67,22.07
+607,Holborn             ,   Total day,     Total all types,59527,457334.34,7.68
+608,Holland Park        ,   Total day,     Total all types,4927,44989.07,9.13
+609,Holloway Road       ,   Total day,     Total all types,10681,82399.7,7.71
+610,Hornchurch          ,   Total day,     Total all types,3869,59973.28,15.5
+611,Hounslow Central    ,   Total day,     Total all types,6155,97541.05,15.85
+612,Hounslow East       ,   Total day,     Total all types,6203,104634.08,16.87
+613,Hounslow West       ,   Total day,     Total all types,5301,95392.55,18
+614,Hyde Park Corner    ,   Total day,     Total all types,8622,71654.23,8.31
+615,Ickenham            ,   Total day,     Total all types,2038,38442.06,18.86
+616,Kennington          ,   Total day,     Total all types,8207,51748.78,6.31
+617,Kensal Green        ,   Total day,     Total all types,2948,26744.56,9.07
+618,Kensington (Olympia),   Total day,     Total all types,1385,7234.61,5.22
+619,Kentish Town        ,   Total day,     Total all types,13581,104080.37,7.66
+620,Kenton              ,   Total day,     Total all types,2035,18598.85,9.14
+621,Kew Gardens         ,   Total day,     Total all types,6144,77081.33,12.55
+622,Kilburn             ,   Total day,     Total all types,13385,135545.72,10.13
+623,Kilburn Park        ,   Total day,     Total all types,5120,42105.34,8.22
+625,King's Cross St. Pan,   Total day,     Total all types,140940,914952.25,6.49
+624,Kingsbury           ,   Total day,     Total all types,8063,113514.64,14.08
+626,Knightsbridge       ,   Total day,     Total all types,25483,208010.19,8.16
+627,Ladbroke Grove      ,   Total day,     Total all types,8316,73959.34,8.89
+628,Lambeth North       ,   Total day,     Total all types,4813,42111.01,8.75
+629,Lancaster Gate      ,   Total day,     Total all types,10574,80280.11,7.59
+630,Latimer Road        ,   Total day,     Total all types,4302,38023.15,8.84
+631,Leicester Square    ,   Total day,     Total all types,48356,317115.91,6.56
+632,Leyton              ,   Total day,     Total all types,21584,232374.91,10.77
+633,Leytonstone         ,   Total day,     Total all types,17610,210279.52,11.94
+634,Liverpool Street    ,   Total day,     Total all types,114504,908251.94,7.93
+635,London Bridge       ,   Total day,     Total all types,113305,817968.25,7.22
+636,Loughton            ,   Total day,     Total all types,5560,102216.01,18.39
+637,Maida Vale          ,   Total day,     Total all types,5288,44062.3,8.33
+638,Manor House         ,   Total day,     Total all types,13837,128829.66,9.31
+639,Mansion House       ,   Total day,     Total all types,11425,94008.93,8.23
+640,Marble Arch         ,   Total day,     Total all types,20345,163533.27,8.04
+641,Marylebone          ,   Total day,     Total all types,21026,140118.33,6.66
+642,Mile End            ,   Total day,     Total all types,24204,188829.34,7.8
+643,Mill Hill East      ,   Total day,     Total all types,2191,30478.08,13.91
+646,Moor Park           ,   Total day,     Total all types,1511,26078.86,17.25
+645,Moorgate            ,   Total day,     Total all types,56503,472866.88,8.37
+647,Morden              ,   Total day,     Total all types,15977,218317.38,13.66
+648,Mornington Crescent ,   Total day,     Total all types,6950,52045.31,7.49
+649,Neasden             ,   Total day,     Total all types,5638,71241.05,12.64
+650,Newbury Park        ,   Total day,     Total all types,7802,133508.69,17.11
+653,North Acton         ,   Total day,     Total all types,10343,106859.52,10.33
+654,North Ealing        ,   Total day,     Total all types,1447,15191.57,10.5
+789,North Greenwich     ,   Total day,     Total all types,40924,401026.34,9.8
+656,North Harrow        ,   Total day,     Total all types,3406,58820.05,17.27
+659,North Wembley       ,   Total day,     Total all types,2079,22692.78,10.91
+655,Northfields         ,   Total day,     Total all types,6389,82238.13,12.87
+657,Northolt            ,   Total day,     Total all types,8247,132294.56,16.04
+660,Northwick Park      ,   Total day,     Total all types,7279,106779.34,14.67
+661,Northwood           ,   Total day,     Total all types,4159,80034.07,19.24
+662,Northwood Hills     ,   Total day,     Total all types,3051,56236.17,18.43
+663,Notting Hill Gate   ,   Total day,     Total all types,24113,195486.14,8.11
+664,Oakwood             ,   Total day,     Total all types,4489,92274.97,20.56
+665,Old Street          ,   Total day,     Total all types,41742,291333.66,6.98
+667,Osterley            ,   Total day,     Total all types,3752,63812.66,17.01
+668,Oval                ,   Total day,     Total all types,10173,71884.66,7.07
+669,Oxford Circus       ,   Total day,     Total all types,126296,832628.75,6.59
+670,Paddington          ,   Total day,     Total all types,80288,578192.44,7.2
+671,Park Royal          ,   Total day,     Total all types,3235,33065.88,10.22
+672,Parsons Green       ,   Total day,     Total all types,11294,102152.83,9.04
+673,Perivale            ,   Total day,     Total all types,3959,45872.63,11.59
+674,Piccadilly Circus   ,   Total day,     Total all types,56753,369540.75,6.51
+776,Pimlico             ,   Total day,     Total all types,18105,147664.72,8.16
+675,Pinner              ,   Total day,     Total all types,5288,98463.56,18.62
+676,Plaistow            ,   Total day,     Total all types,8765,80885.11,9.23
+677,Preston Road        ,   Total day,     Total all types,5211,58749.37,11.27
+678,Putney Bridge       ,   Total day,     Total all types,9136,90027.51,9.85
+680,Queen's Park        ,   Total day,     Total all types,8204,62780.04,7.65
+679,Queensbury          ,   Total day,     Total all types,7491,119928.34,16.01
+681,Queensway           ,   Total day,     Total all types,12506,99728.31,7.97
+682,Ravenscourt Park    ,   Total day,     Total all types,5206,49589.26,9.53
+683,Rayners Lane        ,   Total day,     Total all types,7272,105913.23,14.56
+684,Redbridge           ,   Total day,     Total all types,4479,63315.56,14.14
+685,Regent's Park       ,   Total day,     Total all types,5922,32716.14,5.52
+686,Richmond            ,   Total day,     Total all types,17606,225503.8,12.81
+687,Rickmansworth       ,   Total day,     Total all types,3792,89721.41,23.66
+688,Roding Valley       ,   Total day,     Total all types,618,11738.14,19
+690,Royal Oak           ,   Total day,     Total all types,3969,31126.7,7.84
+691,Ruislip             ,   Total day,     Total all types,3264,47934.4,14.69
+692,Ruislip Gardens     ,   Total day,     Total all types,1656,30698.39,18.54
+693,Ruislip Manor       ,   Total day,     Total all types,3362,46968.37,13.97
+694,Russell Square      ,   Total day,     Total all types,18651,136695.44,7.33
+698,Seven Sisters       ,   Total day,     Total all types,53700,593923.94,11.06
+700,Shepherd's Bush (Cen,   Total day,     Total all types,31685,311668.06,9.84
+775,Shepherd's Bush Mark,   Total day,     Total all types,5073,46872.88,9.24
+702,Sloane Square       ,   Total day,     Total all types,27030,202301.31,7.48
+703,Snaresbrook         ,   Total day,     Total all types,3999,46741.86,11.69
+704,South Ealing        ,   Total day,     Total all types,5703,72664.64,12.74
+707,South Harrow        ,   Total day,     Total all types,4065,50703.61,12.47
+708,South Kensington    ,   Total day,     Total all types,50387,397048.38,7.88
+709,South Kenton        ,   Total day,     Total all types,1258,15716.06,12.49
+710,South Ruislip       ,   Total day,     Total all types,2587,43339.56,16.75
+711,South Wimbledon     ,   Total day,     Total all types,7384,96106.78,13.01
+712,South Woodford      ,   Total day,     Total all types,9488,130031.43,13.7
+705,Southfields         ,   Total day,     Total all types,9881,89773.85,9.09
+706,Southgate           ,   Total day,     Total all types,9104,137314.55,15.08
+784,Southwark           ,   Total day,     Total all types,30319,261915.14,8.64
+695,St. James's Park    ,   Total day,     Total all types,26789,212032.13,7.91
+696,St. John's Wood     ,   Total day,     Total all types,12585,122552.6,9.74
+697,St. Paul's          ,   Total day,     Total all types,31225,272313.06,8.72
+713,Stamford Brook      ,   Total day,     Total all types,4173,40871.18,9.8
+714,Stanmore            ,   Total day,     Total all types,6462,117971.75,18.26
+715,Stepney Green       ,   Total day,     Total all types,10316,74527.86,7.22
+716,Stockwell           ,   Total day,     Total all types,15828,113169.51,7.15
+717,Stonebridge Park    ,   Total day,     Total all types,3488,35747.73,10.25
+719,Stratford           ,   Total day,     Total all types,123024,*********,10
+720,Sudbury Hill        ,   Total day,     Total all types,3221,43893.56,13.63
+721,Sudbury Town        ,   Total day,     Total all types,2846,33963.69,11.93
+723,Swiss Cottage       ,   Total day,     Total all types,12187,108976.85,8.94
+724,Temple              ,   Total day,     Total all types,14694,99798.65,6.79
+725,Theydon Bois        ,   Total day,     Total all types,1269,27968.4,22.05
+726,Tooting Bec         ,   Total day,     Total all types,12365,126373.77,10.22
+727,Tooting Broadway    ,   Total day,     Total all types,25330,275845.28,10.89
+728,Tottenham Court Road,   Total day,     Total all types,59540,410513.88,6.89
+729,Tottenham Hale      ,   Total day,     Total all types,19704,229884.98,11.67
+730,Totteridge & Whetsto,   Total day,     Total all types,3656,60342.15,16.5
+731,Tower Hill          ,   Total day,     Total all types,32272,225551.13,6.99
+733,Tufnell Park        ,   Total day,     Total all types,5667,44119.27,7.79
+734,Turnham Green       ,   Total day,     Total all types,9279,93794.62,10.11
+735,Turnpike Lane       ,   Total day,     Total all types,16756,184723.19,11.02
+736,Upminster           ,   Total day,     Total all types,4090,68576.67,16.77
+737,Upminster Bridge    ,   Total day,     Total all types,2099,37088.15,17.67
+738,Upney               ,   Total day,     Total all types,4157,53398.97,12.85
+739,Upton Park          ,   Total day,     Total all types,15237,174278.58,11.44
+740,Uxbridge            ,   Total day,     Total all types,13534,253839.33,18.76
+777,Vauxhall            ,   Total day,     Total all types,50131,425087.88,8.48
+741,Victoria            ,   Total day,     Total all types,134912,892370.81,6.61
+742,Walthamstow Central ,   Total day,     Total all types,37658,541022,14.37
+743,Wanstead            ,   Total day,     Total all types,4908,63563.2,12.95
+745,Warren Street       ,   Total day,     Total all types,35309,242679.13,6.87
+746,Warwick Avenue      ,   Total day,     Total all types,6752,51096.97,7.57
+747,Waterloo            ,   Total day,     Total all types,147602,845065.06,5.73
+748,Watford             ,   Total day,     Total all types,2889,73447.37,25.43
+751,Wembley Central     ,   Total day,     Total all types,5691,60188.05,10.58
+752,Wembley Park        ,   Total day,     Total all types,22924,293993.63,12.82
+753,West Acton          ,   Total day,     Total all types,2755,28244.97,10.25
+755,West Brompton       ,   Total day,     Total all types,7543,70823.91,9.39
+756,West Finchley       ,   Total day,     Total all types,2776,38073.17,13.71
+757,West Ham            ,   Total day,     Total all types,23907,163053.83,6.82
+758,West Hampstead      ,   Total day,     Total all types,17306,168637.73,9.74
+759,West Harrow         ,   Total day,     Total all types,2357,34801.92,14.77
+760,West Kensington     ,   Total day,     Total all types,7846,62467.01,7.96
+762,West Ruislip        ,   Total day,     Total all types,2231,45220.64,20.27
+754,Westbourne Park     ,   Total day,     Total all types,6065,46569.48,7.68
+761,Westminster         ,   Total day,     Total all types,42572,318416.88,7.48
+764,White City          ,   Total day,     Total all types,13782,156272.72,11.34
+763,Whitechapel         ,   Total day,     Total all types,33283,251158.19,7.55
+765,Willesden Green     ,   Total day,     Total all types,13827,139309.91,10.08
+766,Willesden Junction  ,   Total day,     Total all types,7655,57740.73,7.54
+767,Wimbledon           ,   Total day,     Total all types,21361,214809.11,10.06
+768,Wimbledon Park      ,   Total day,     Total all types,2894,21790.13,7.53
+770,Wood Green          ,   Total day,     Total all types,19350,211119.88,10.91
+599,Wood Lane           ,   Total day,     Total all types,4552,32294.96,7.09
+769,Woodford            ,   Total day,     Total all types,9107,138083.16,15.16
+771,Woodside Park       ,   Total day,     Total all types,4771,65516.71,13.73
+,,,,,,
