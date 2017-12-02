@@ -168,6 +168,7 @@ class MAP {
                     da.Exit_Sat = +da.Exit_Sat;
                     da.Exit_Sun = +da.Exit_Sun;
                 });
+                console.log(csvData);
 
                 keyValues.forEach(function (d, i) {
                     let val = csvData.filter(function (n) {
