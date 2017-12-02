@@ -47,7 +47,7 @@
             .attr('width', lineChartWidth + lineChartMargin.left + lineChartMargin.right)
             .attr('height', lineChartHeight + lineChartMargin.top + lineChartMargin.bottom)
 
-        const barChartWidth = 450;
+        const barChartWidth = 300;
         const barChartHeight = 250;
 
         const BAR_OFFSET = 20;
@@ -1051,7 +1051,7 @@
             d3.select('#tube-map').select('svg').attr('height', '200')
             d3.select('.legendWrapper').style('display', 'none')
 
-            d3.select('body').style('overflow', 'auto')
+           // d3.select('body').style('overflow', 'auto')
             d3.select('.stationWrapper')
                 .attr("transform", "translate(5,-100  )");
 
@@ -1390,7 +1390,7 @@
             d3.select('.lineMode').classed('showMe', false);
             d3.select('.barChartWrapper').classed('showMe', false);
             d3.select('.barChartDropDown').classed('showMe', false);
-            var lines = d3.select("#tube-map").selectAll(".line");
+            var lines = d3.select("#tube-mapargin").selectAll(".line");
             var stations = d3.select("#tube-map").selectAll(".station");
             var labels = d3.select("#tube-map").selectAll(".labels");
             var river = d3.select("#tube-map").selectAll(".river");

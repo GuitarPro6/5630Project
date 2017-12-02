@@ -19,9 +19,11 @@ html, body {
 
 body {
   overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
-1
+
 @font-face {
   font-family: 'digital-7';
 src: url('digital-7/digital-7 (mono).ttf');
@@ -55,6 +57,9 @@ a:hover {
   font-size: 13px;
 }
 
+#sidebar{
+    display: none;
+}
 .toggle-pub-button {
   margin: -30px 8px 10px;
   background-color: rgb(0,152,212);
@@ -282,7 +287,7 @@ text.highlighted {
 
 .barChartWrapper, .barDiffChartWrapper {
   display: none;
-  border: 1px solid;
+  justify-content: center;
 }
 
 .row {
@@ -321,9 +326,7 @@ text.highlighted {
   padding: 5px;
 }
 
-select {
-  font-size: 17px;
-}
+
 
 .showBarDiff {
   display: block;
@@ -335,17 +338,19 @@ select {
 
 .legendWrapper {
   position: absolute;
-  right: 300px;
+  right: 20px;
+  bottom: 10px;
+  font-size: 15px;
 }
 
 .legendTitle {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 
 .rowLegend {
   height: 20px;
-  font-size: 20px;
+  font-size: 15px;
   width: 150px;
   display: flex;
   justify-content: center;
@@ -372,8 +377,8 @@ select {
 
 .lineMode {
   display: none;
-  height: 30px;
-  font-size: 20px;
+  /*height: 30px;*/
+  /*//font-size: 20px;*/
 }
 .showMe {
   display: flex;
