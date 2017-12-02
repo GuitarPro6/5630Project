@@ -25,6 +25,8 @@
         var gEnter;
         var zoom$$1;
 
+        var timer;
+
         var timeStop = false;
 
         var t;
@@ -603,15 +605,22 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
 		//create a data structure that ties each station to the time passed through, and whether it was an entry or exit
 		//Take that data and tie the count to the circles that will be at each staation
-		let t = setInterval(function(elapsed) {
+		map.timer = setInterval(function(elapsed) {
 			var time = timeTable[tick];
 
-			console.log(time);
-			console.log(elapsed);
+
 
       if(time === "12:00"){
         day = "pm";
       }
+      if(time === "00:00"){
+        day = "am";
+      }
+      if(time === "04:45"){
+        console.log("we stopped")
+        map.timeStop = true;
+      }
+
       d3.select("#clock").text(time + " " + day );
 
 			if(tick % 15 === 0){
@@ -739,7 +748,7 @@ console.log(time_data);
 
   if (elapsed > 72000 || map.timeStop){
 
-    clearInterval(t);
+    clearInterval(map.timer)
     river.style("visibility", "visible");
     d3.select("#tube-map").selectAll("circle").remove();
     lines.style("opacity", 1);
@@ -761,6 +770,29 @@ d3.select("#stopButton").remove();
 
 
 	};
+
+
+  map.stopTubeTimer = function(){
+
+    document.getElementById("stopButton").click();
+     var lines = d3.select("#tube-map").selectAll(".line");
+      var river = d3.select("#tube-map").selectAll(".river");
+      clearInterval(this.timer);
+
+    river.style("visibility", "visible");
+    d3.select("#tube-map").selectAll("circle").remove();
+    lines.style("opacity", 1);
+    d3.timerFlush();
+    var button = document.getElementById("tube-button");
+      d3.select("#journey").text("");
+      d3.select("#clock").text("");
+
+    button.addEventListener("click", function() {
+  startTimeAnimation();
+}, false);
+
+d3.select("#stopButton").remove();
+  }
 
         map.unhighlightAll = function () {
             var lines = d3.select("#tube-map").selectAll(".line");
