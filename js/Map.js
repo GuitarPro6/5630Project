@@ -57,12 +57,12 @@ class MAP {
             d3.csv("tubedata/counts/" + year + "_Entry_Exit.csv", function (error, csvData) {
                 console.log("read function");
                 csvData.forEach(function (da, i) {
-                    da.Entry_Week = +da.Entry_Week;
+                    da.Entry_Weekday = +da.Entry_Weekday;
                     da.Entry_Saturday = +da.Entry_Saturday;
-                    da.Entry_Sun = +da.Entry_Sun;
-                    da.Exit_Week = +da.Exit_Week;
-                    da.Exit_Sat = +da.Exit_Sat;
-                    da.Exit_Sun = +da.Exit_Sun;
+                    da.Entry_Sunday = +da.Entry_Sunday;
+                    da.Exit_Weekday = +da.Exit_Weekday;
+                    da.Exit_Saturday = +da.Exit_Saturday;
+                    da.Exit_Sunday = +da.Exit_Sunday;
                 });
 
                 keyValues.forEach(function (d, i) {
@@ -83,12 +83,13 @@ class MAP {
 
                     //Construct object with all the information for the bubble chart
                     citymap.push({
-                        title: d.title, center: {lat: d.position.lat, lng: d.position.lon}, entWeek: val[0].Entry_Week,
+                        title: d.title, center: {lat: d.position.lat, lng: d.position.lon},
+                        entWeek: val[0].Entry_Weekday,
                         entSat: val[0].Entry_Saturday,
-                        entSun: val[0].Entry_Sun,
-                        extWeek: val[0].Exit_Week,
-                        extSat: val[0].Exit_Sat,
-                        extSun: val[0].Exit_Sun
+                        entSun: val[0].Entry_Sunday,
+                        extWeek: val[0].Exit_Weekday,
+                        extSat: val[0].Exit_Saturday,
+                        extSun: val[0].Exit_Sunday
                     });
                 });
 
@@ -288,18 +289,12 @@ class MAP {
     }
 
     changeGradient(gradient) {
-        let menu = document.getElementById("vis-type");
-        let type = menu.options[menu.selectedIndex].value;
-
         if (this.heatmap) {
             this.heatmap.set('gradient', this.heatmap.get('gradient') ? null : gradient);
         }
     }
 
     changeRadius(radius) {
-        let menu = document.getElementById("vis-type");
-        let type = menu.options[menu.selectedIndex].value;
-
         let currRadius = this.heatmap.get('radius');
         let newRadius = currRadius + radius;
 
@@ -311,9 +306,6 @@ class MAP {
 
 //Changes the opacity of the circles and the heatmap
     changeOpacity(opacity) {
-        let menu = document.getElementById("vis-type");
-        let type = menu.options[menu.selectedIndex].value;
-
         let currOpacity = this.heatmap.get('opacity');
         let newOpacity = currOpacity + opacity;
 
