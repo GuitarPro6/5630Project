@@ -1,8 +1,4 @@
- RODS report2f created at 13:27:42 on 29-03-2017,,,,,,,,,,,
- based on survey data up to 2016 and reconciled to Autumn 2016 counts,,,,,,,,,,,
- ,,,,,,,,,,,
- Report 1f - Analysis by average time spent on journey (minutes) by exit station,,,,,,,,,,,
-NLC,Station Name,Time period,Total,Total time,Average,< 15 mins,15 - 30,30 - 45,45 - 60,60 - 90,over 90
+NLC,Station,Time_period,Total,Total time,Average,l_15_mins,f15_30,f30_45,f45_60,f60_90,over_90
 500,Acton Town          ,Early       ,283,6446,22.77,166,24,60,31,2,0
 500,Acton Town          ,AM peak     ,2024,51110,25.25,566,811,470,154,23,0
 500,Acton Town          ,Midday      ,1828,45556,24.92,440,722,588,77,1,0

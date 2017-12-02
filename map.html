@@ -233,6 +233,8 @@
         d3.selectAll('.tempSelect').remove();
         let menu = document.getElementById("survey-stat");
         let type = menu.options[menu.selectedIndex].value;
+        let mapType = document.getElementById('vis-type2').selectedOptions[0].value;
+
 
         if (type === "purpose") {
 
@@ -303,10 +305,12 @@
             });
             //Should also further subset based on time section of day
 
-            let sections = ['-- select an option --', "Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
+            let sections = ['-- select an option --', "Early", "AM peak", "Midday", "PM Peak", "Evening", "Late", "Total day"]
             let select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu")
                 .on('change', function () {
                     changeDisplayBox2();
+                    globeSurvey.clearMarkers();
+                    globeSurvey.setHeatmap(globalMap2, "avJourneyTime");
                 });
             select.selectAll('option').data(sections).enter().append('option').attr('value', function (d) {
                 return d;
@@ -545,7 +549,6 @@
             let cate = document.getElementById("categoryMenu").selectedOptions[0].text;
             if (cate === badText)
                 cate = "";
-            console.log(cate);
             document.getElementById("disp-category").innerHTML = "Category: ".bold() + cate;
         }
         else {
@@ -556,7 +559,6 @@
             let cate = document.getElementById("dayMenu").selectedOptions[0].text;
             if (cate === badText)
                 cate = "";
-            console.log(cate);
             document.getElementById("disp-day").innerHTML = "Time: ".bold() + cate;
         }
         else {

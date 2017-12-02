@@ -193,9 +193,6 @@ class MAP {
                         extSun: val[0].Exit_Sunday
                     });
 
-                    console.log(val[0])
-                    console.log(citymap[0])
-
                     //here we construct an object that stores the information we need.
                     //Construct heat map data
                     // {location: new google.maps.LatLng(37.782, -122.443), weight: 2}
