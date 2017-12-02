@@ -52,7 +52,7 @@ class SurveyMap {
         d3.csv("tubedata/counts/2007_Entry_Exit.csv", function (error, csvData) {
             csvData.forEach(function (da, i) {
                 da.Entry_Week = +da.Entry_Week;
-                da.Entry_Sat = +da.Entry_Sat;
+                da.Entry_Saturday = +da.Entry_Saturday;
                 da.Entry_Sun = +da.Entry_Sun;
                 da.Exit_Week = +da.Exit_Week;
                 da.Exit_Sat = +da.Exit_Sat;
@@ -79,7 +79,7 @@ class SurveyMap {
                 //Construct object with all the information for the bubble chart
                 citymap.push({
                     title: d.title, center: {lat: d.position.lat, lng: d.position.lon}, entWeek: val[0].Entry_Week,
-                    entSat: val[0].Entry_Sat,
+                    entSat: val[0].Entry_Saturday,
                     entSun: val[0].Entry_Sun,
                     extWeek: val[0].Exit_Week,
                     extSat: val[0].Exit_Sat,
@@ -139,7 +139,7 @@ class SurveyMap {
             d3.csv("tubedata/counts/2007_Entry_Exit.csv", function (error, csvData) {
                 csvData.forEach(function (da, i) {
                     da.Entry_Week = +da.Entry_Week;
-                    da.Entry_Sat = +da.Entry_Sat;
+                    da.Entry_Saturday = +da.Entry_Saturday;
                     da.Entry_Sun = +da.Entry_Sun;
                     da.Exit_Week = +da.Exit_Week;
                     da.Exit_Sat = +da.Exit_Sat;
@@ -165,7 +165,7 @@ class SurveyMap {
                             title: d.title,
                             center: {lat: d.position.lat, lng: d.position.lon},
                             entWeek: val[0].Entry_Week,
-                            entSat: val[0].Entry_Sat,
+                            entSat: val[0].Entry_Saturday,
                             entSun: val[0].Entry_Sun,
                             extWeek: val[0].Exit_Week,
                             extSat: val[0].Exit_Sat,

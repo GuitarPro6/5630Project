@@ -1,4 +1,4 @@
-nlc,Station,Borough,Note,Weekday,Saturday,Sunday,Weekday,Saturday,Sunday,million,
+nlc,Station,Borough,Note,Entry_Weekday,Entry_Saturday,Entry_Sunday,Exit_Weekday,Exit_Saturday,Exit_Sunday,million,
 500,Acton Town,Ealing, ,9861,7278,5000,9540,6919,4972,6.235045,
 502,Aldgate   ,City of London, ,13645,3700,2911,12787,4796,3847,7.52781,
 503,Aldgate East,Tower Hamlets, ,20579,15511,12110,19291,12510,9841,12.839311,

@@ -1,4 +1,4 @@
-nlc,Station,Note,Entry_Week,Entry_Saturday,Entry_Sunday,Exit_Week,Exit_Saturday,Exit_Sunday,million,
+nlc,Station,Note,Entry_Weekday,Entry_Saturday,Entry_Sunday,Exit_Weekday,Exit_Saturday,Exit_Sunday,million,
 500,Acton Town,,9285,6574,4358,9028,6295,4361,5.82,
 502,Aldgate,,11044,2604,2088,11393,2993,2582,6.24,
 503,Aldgate East,,13281,7268,6543,13066,6008,6959,8.15,
