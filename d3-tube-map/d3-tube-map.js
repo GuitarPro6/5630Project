@@ -31,583 +31,12 @@
 
         var t;
         var s;
-        let dataStore = null;
-        let currentStationSelection = null;
-        const selectColor = 'steelblue';
-        const otherColor = 'grey';
-        const parseTime = d3.timeParse("%Y");
-        const lineChartWidth = 600;
-        const lineChartHeight = 400;
-        const lineChartMargin = {top: 20, right: 20, bottom: 30, left: 40};
-        const entryChartSVG = d3.select('.entry').append('svg')
-            .attr('width', lineChartWidth + lineChartMargin.left + lineChartMargin.right)
-            .attr('height', lineChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-
-        const exitChartSVG = d3.select('.exit').append('svg')
-            .attr('width', lineChartWidth + lineChartMargin.left + lineChartMargin.right)
-            .attr('height', lineChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-
-        const barChartWidth = 450;
-        const barChartHeight = 250;
-
-        const BAR_OFFSET = 20;
-        const BAR_TOP_OFFSET = 10;
-
-        const ageSVG = d3.select('.ageChart').append('svg')
-            .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
-            .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-            .append("g")
-            .classed('ageBarChart', true)
-            .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
-
-        const sexSVG = d3.select('.sexChart').append('svg')
-            .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
-            .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-            .append("g")
-            .classed('sexChart', true)
-            .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
-
-        const journeyChartSVG = d3.select('.journeyChart').append('svg')
-            .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
-            .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-            .append("g")
-            .classed('journeyChart', true)
-            .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
-
-        const marketSVG = d3.select('.marketChart').append('svg')
-            .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
-            .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-            .append("g")
-            .classed('marketChart', true)
-            .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
-
-
-        // const ageDiffSVG = d3.select(".ageDiffChart").append('svg')
-        //     .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
-        //     .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-        //     .append("g")
-        //     .classed('ageDiffChart', true)
-        //     .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
-        //
-        //
-        // const sexDiffSVG = d3.select(".sexDiffChart").append('svg')
-        //     .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
-        //     .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-        //     .append("g")
-        //     .classed('sexDiffChart', true)
-        //     .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
-        //
-        // const journeyDiffSVG = d3.select(".journeyDiffChart").append('svg')
-        //     .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
-        //     .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-        //     .append("g")
-        //     .classed('journeyDiffChart', true)
-        //     .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
-        //
-        // const marketDiffSVG = d3.select(".marketDiffChart").append('svg')
-        //     .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
-        //     .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
-        //     .append("g")
-        //     .classed('marketDiffChart', true)
-        //     .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
-
-
-        const calcExtents = data => {
-            let yExtents = [0, 0];
-            data.forEach((d)=> {
-                const temp = d3.extent([d.saturday, d.sunday, d.week])
-                yExtents = [Math.min(temp[0], yExtents[0]), Math.max(temp[1], yExtents[1])];
-        });
-
-            return yExtents
-
-        }
-
-        const alphabet = "abcdefghijklmnopqrstuvwxyz";
-        const alphabetArray = alphabet.split('');
-        const formatEntryData = data=> {
-            return data.map(d=>({
-                saturday: d.entry_saturday,
-                sunday: d.entry_sunday,
-                week: d.entry_week,
-                station: d.station,
-                year: parseTime(d.year)
-            }));
-        }
-        const formatExitData = data => {
-
-            return data.map(d=>({
-                saturday: d.exit_saturday,
-                sunday: d.exit_sunday,
-                week: d.exit_week,
-                station: d.station,
-                year: parseTime(d.year)
-            }));
-
-        }
-
-        const aggregateData = ({yearData}) => {
-            const entryData = formatEntryData(yearData);
-            const exitData = formatExitData(yearData);
-            return prepareDataForLine(entryData, exitData);
-        }
-
-
-        const filterDataByCity = city => {
-            const filtered = dataStore.yearData.filter(d=>d.station === city);
-            const entryData = formatEntryData(filtered);
-            const exitData = formatExitData(filtered);
-            return prepareDataForLine(entryData, exitData)
-        };
-
-        const prepareDataForLine = (entryData, exitData) => {
-            const entryExtents = calcExtents(entryData);
-            const entrySaturday = entryData.map(d=>({
-                day: 'saturday',
-                value: d.saturday,
-                year: d.year,
-                type: 'entry',
-                color: 'green',
-                extents: entryExtents
-            })).filter(d=>!isNaN(d.value));
-            const entrySunday = entryData.map(d=>({
-                day: 'sunday',
-                value: d.sunday,
-                year: d.year,
-                type: 'entry',
-                color: 'blue',
-                extents: entryExtents
-            })).filter(d=>!isNaN(d.value));
-            const entryWeek = entryData.map(d=>({
-                day: 'week',
-                value: d.week,
-                year: d.year,
-                type: 'entry',
-                color: 'orange',
-                extents: entryExtents
-            })).filter(d=>!isNaN(d.value));
-
-            const exitExtents = calcExtents(exitData);
-            const exitSaturday = exitData.map(d=>({
-                day: 'saturday',
-                value: d.saturday,
-                year: d.year,
-                type: 'exit',
-                color: 'green',
-                extents: exitExtents
-            })).filter(d=>!isNaN(d.value));
-            const exitSunday = exitData.map(d=>({
-                day: 'sunday',
-                value: d.sunday,
-                year: d.year,
-                type: 'exit',
-                color: 'blue',
-                extents: exitExtents
-            })).filter(d=>!isNaN(d.value));
-            const exitWeek = exitData.map(d=>({
-                day: 'week',
-                value: d.week,
-                year: d.year,
-                type: 'exit',
-                color: 'orange',
-                extents: exitExtents
-            })).filter(d=>!isNaN(d.value));
-
-            return [entrySaturday, entrySunday, entryWeek, exitSaturday, exitSunday, exitWeek];
-
-        }
-
-        const formatBarData = (data)=> {
-            if (!data) return;
-            const {age, journey, market} = data;
-            const ageData = [];
-            if (age.length === 0 || journey.length === 0 || market.length === 0) alert(' Error in CSV and JSON name');
-            ageMap.forEach((category, key)=> ageData.push({category, value: age[0][key] + age[1][key]}));
-
-            const sexData = [{category: 'Male', value: age[0].male + age[1].male},
-                {category: 'Female', value: age[0].female + age[1].female}];
-
-            const journeyData = [];
-            journeyMap.forEach((category, key)=> journeyData.push({
-                category,
-                value: journey[0][key] + journey[1][key]
-            }))
-
-            const marketData = [];
-            marketMap.forEach((category, key)=> marketData.push({category, value: market[0][key] + market[1][key]}));
-
-            return [
-                {label: 'Age', data: ageData, selector: 'ageChart', color: 'green'},
-                {label: 'Sex', data: sexData, selector: 'sexChart', color: 'steelblue'},
-                {label: 'Journey', data: journeyData, selector: 'journeyChart', color: 'orange'},
-                {label: 'Market', data: marketData, selector: 'marketChart', color: 'grey'}];
-        }
-        const filetBarDataByStation = station => {
-            const {ageData, marketData, journeyData} = dataStore;
-            const age = ageData.filter(d=>d.station === station);
-            const journey = journeyData.filter(d=>d.station === station);
-            const market = marketData.filter(d=>d.station === station);
-            return formatBarData({age, journey, market});
-
-        }
-
-        const makeBarChart = (bardata) => {
-            const {label, selector, data, color} = bardata;
-            const x = d3.scaleBand()
-                .range([0, barChartWidth])
-                .padding(0.1);
-            const y = d3.scaleLinear()
-                .range([barChartHeight - BAR_OFFSET, 0]);
-
-            x.domain(data.map(d=>d.category));
-            y.domain([0, d3.max(data, d=>d.value)]);
-
-            let barChart = null;
-
-            switch (label) {
-                case 'Age':
-                    barChart = ageSVG;
-                    break;
-                case 'Sex':
-                    barChart = sexSVG
-                    break;
-                case 'Journey':
-                    barChart = journeyChartSVG;
-                    break;
-                case 'Market':
-                    barChart = marketSVG;
-                    break;
-                default:
-                    return barChart;
-            }
-
-            const barGroup = barChart.append('g').classed('barGroup', true);
-            barGroup.selectAll(".bar")
-                .data(data)
-                .enter().append("rect")
-                .attr("class", "bar")
-                .attr('fill', selectColor)
-                .attr("x", d=>x(d.category))
-        .attr("width", x.bandwidth())
-                .attr("y", d=>y(d.value))
-        .attr("height", d=> barChartHeight - BAR_OFFSET - y(d.value));
-
-
-            barGroup.append("g")
-                .attr("transform", "translate(0," + (barChartHeight - BAR_OFFSET) + ")")
-                .call(d3.axisBottom(x))
-                .selectAll("text")
-                .style("text-anchor", "end")
-                .attr("dx", "-.8em")
-                .attr("dy", ".15em")
-                .attr("transform", "rotate(-65)");
-
-
-            barGroup.append("g")
-                .call(d3.axisLeft(y)
-                    .ticks(6, 's'));
-
-            // d3.select('body').classed('modal', true);
-            // d3.select('.zoomRect').classed('modal', true);
-            // d3.select('.closebarChart').on('click', ()=> {
-            //     d3.select('body').classed('modal', false);
-            //     d3.select('.zoomRect').classed('modal', false);
-            //     d3.select('.barChartWrapper').classed('showMe', false);
-            // })
-
-        }
-
-        const barChartFactory = station => {
-            console.log(station, 'clicked')
-            currentStationSelection = station;
-            const bardata = filetBarDataByStation(station);
-            d3.select('.mainBarWrapper').classed('showMe', true);
-            d3.select('.barChartWrapper').classed('showMe', true);
-            d3.selectAll('.barGroup').remove();
-            bardata.forEach(bar=>makeBarChart(bar))
-
-        }
-
-        const formatBarDiffData = (options)=> {
-            console.log(options, 'Selected')
-            // const selectA = filetBarDataByStation('WoodLane');
-            // const selectB = filetBarDataByStation('RoyalOak');
-            const selectA = filetBarDataByStation(options[0]);
-            const selectB = filetBarDataByStation(options[1]);
-            const barDiffData = [];
-            selectA.forEach((item, index)=> {
-                const data = item.data.map((d, i)=> {
-                    const nextVal = selectB.filter(d=>d.label === item.label)[0];
-            return {
-                category: alphabetArray[i].toUpperCase(),
-                valueA: d.value,
-                valueB: nextVal.data.filter(e=>e.category === d.category)[0].value,
-                label: d.category
-        }
-        })
-            barDiffData.push({label: item.label, data});
-        })
-
-            return barDiffData;
-
-        }
-
-
-        const dropDownFactory = ({nodes})=> {
-            const stations = nodes.map(d=>d.name).filter(d=>d !== undefined);
-            d3.select('.showBarDiff').style('display', 'block');
-            d3.select('.barChartDropDown').classed('showMe', true);
-            d3.selectAll('select').remove();
-            makeDropDown(stations);
-            d3.select('.lineMode').classed('showMe', true)
-        }
-
-
-        const barDiffFactory = () => {
-            //  d3.select('.showBarDiff').on('click', ()=> {
-            // d3.select('.barChartWrapper').classed('showMe', true);
-            const leftSelect = d3.select('.selectLeft').property('value')
-            const el = d3.selectAll('.station-circle');
-            const circles = el._groups[0];
-            const selection = Array.from(circles).filter(el=>d3.select(el).datum().name === leftSelect)[0];
-            d3.select(selection).attr('fill', otherColor)
-            //  const rightSelect = d3.select('.selectRight').property('value')
-            const barDiffdata = formatBarDiffData([currentStationSelection, leftSelect]);
-            d3.select('.barChartWrapper').classed('showMe', true);
-            d3.selectAll('.barGroup').remove();
-            barDiffdata.forEach(bar=>makeBarDiffChart(bar))
-
-            //   })
-
-
-        }
-        const makeBarDiffChart = (bardata)=> {
-            const {label, color, data} = bardata;
-            const width = barChartWidth;
-            const x0 = d3.scaleBand()
-                .rangeRound([0, width - BAR_OFFSET])
-                .paddingInner(0.1);
-
-            const x1 = d3.scaleBand()
-                .padding(0.05);
-            const z = d3.scaleOrdinal()
-                .range([selectColor, otherColor]);
-            const alphas = data.map(d=>d.category).reverse();
-            const y = d3.scaleLinear()
-                .rangeRound([barChartHeight, 0]);
-            const keys = ['valueA', 'valueB'];
-            x0.domain(data.map(d=> d.category));
-            x1.domain(keys).rangeRound([0, x0.bandwidth()]);
-            y.domain([0, d3.max(data, d=> d3.max(keys, key=> d[key]))]).nice(); //Same as Math.floor
-
-            let barChart = null;
-            let legendData = null;
-            switch (label) {
-                case 'Age':
-                    barChart = ageSVG;
-                    legendData = ageInCSV.slice().reverse();
-                    break;
-                case 'Sex':
-                    barChart = sexSVG;
-                    legendData = ['Male', 'Female'].slice().reverse();
-                    break;
-                case 'Journey':
-                    barChart = journeyChartSVG;
-                    legendData = journeyInCSV.slice().reverse();
-                    break;
-                case 'Market':
-                    barChart = marketSVG;
-                    legendData = marketInCSV.slice().reverse();
-                    break;
-                default:
-                    return barChart;
-            }
-
-
-            const barGroup = barChart.append("g").classed('barGroup', true)
-            barGroup.append('g').selectAll("g")
-                .data(data)
-                .enter().append("g")
-                .attr("transform", d=> "translate(" + x0(d.category) + ",0)")
-        .selectAll("rect")
-                .data(d=>keys.map(key=> ({key: key, value: d[key]})))
-        .enter().append("rect")
-                .attr("x", d=>x1(d.key))
-        .attr("y", d=>y(d.value))
-        .attr("width", x1.bandwidth())
-                .attr("height", d=> barChartHeight - y(d.value))
-        .attr("fill", (d)=> z(d.key));
-
-            barGroup.append("g")
-                .attr("class", "axis")
-                .attr("transform", "translate(0," + (barChartHeight) + ")")
-                .call(d3.axisBottom(x0));
-
-            barGroup.append("g")
-                .attr("class", "axis")
-                .call(d3.axisLeft(y).ticks(null, "s"))
-                .append("text")
-                .attr("x", 2)
-                .attr("y", y(y.ticks().pop()) + 0.5)
-
-
-            const legend = barGroup.append("g")
-
-                .attr("font-family", "sans-serif")
-                .attr("font-size", 10)
-                .attr("text-anchor", "end")
-                .selectAll("g")
-                .data(legendData)
-                .enter().append("g")
-                .attr("transform", (d, i)=> "translate(0," + i * 20 + ")");
-
-            legend.append("rect")
-                .attr("x", width - BAR_OFFSET)
-                .attr("width", 19)
-                .attr("height", 19)
-                .attr("fill", 'lightgrey');
-
-            legend.append("text")
-                .attr("x", width - BAR_OFFSET - 14)
-                .attr("y", 9.5)
-                .attr("dy", "0.32em")
-                .text(d=> d);
-
-            legend.append("text")
-                .attr("x", width - BAR_OFFSET + 12)
-                .attr("y", 9.5)
-                .attr("dy", "0.32em")
-                .text((d, i)=> alphas[i]);
-
-
-            // d3.select('body').classed('modal', true);
-            // d3.select('.zoomRect').classed('modal', true);
-            // d3.select('.closebarDiifChart').on('click', ()=> {
-            //     d3.select('body').classed('modal', false);
-            //     d3.select('.zoomRect').classed('modal', false);
-            //     d3.select('.barDiffChartWrapper').classed('showMe', false);
-            // })
-
-
-        }
-
-
-        const makeLine = (data, station) => {
-            if (data.length < 1) return;
-            d3.select('.linechart').classed('showMe', true);
-            const {type, extents, color, day} = data[0];
-            const x = d3.scaleTime().range([0, lineChartWidth]);
-            const y = d3.scaleLinear().range([lineChartHeight, 0]);
-            const mySVG = (type === 'entry') ? entryChartSVG : exitChartSVG;
-            const xAxis = d3.axisBottom(x);
-            const yAxis = d3.axisLeft(y)
-                .ticks(6, 's')
-
-            const valueline = d3.line()
-                .x(d=>x(d.year))
-        .y(d=>y(d.value));
-
-            x.domain(d3.extent(data, d=> d.year));
-            y.domain(extents);
-
-            const line = mySVG.append("g")
-                .classed('lineGroup', true)
-                .classed(`line-${day}`, true)
-                .classed('visible', true)
-                .attr("transform", "translate(" + lineChartMargin.left + "," + lineChartMargin.top + ")");
-
-            line.append("g")
-                .attr("class", "axis axis--x")
-                .attr("transform", "translate(0," + lineChartHeight + ")")
-                .call(xAxis);
-
-            line.append("g")
-                .attr("class", "axis axis--y")
-                .attr("transform", 'translate(0,0 )')
-                .call(yAxis)
-                .append("text")
-                .attr("class", "axis-title")
-                .attr("transform", "rotate(-90)")
-                .attr("y", 6)
-                .attr("dy", ".71em")
-                .style("text-anchor", "end")
-                .attr("fill", "#5D6971")
-                .text("Unit");
-
-            line.append("path")
-                .datum(data)
-                .attr("class", "line")
-                .attr("d", valueline)
-                .attr('stroke', color)
-
-            d3.select(`.${day}`).style('background', color)
-            d3.select('.station').text(station ? station : 'Summary Data');
-            d3.select('body').classed('modal', true);
-            d3.select('.zoomRect').classed('modal', true);
-            d3.select('.close').on('click', ()=> {
-                d3.select('body').classed('modal', false);
-            d3.select('.zoomRect').classed('modal', false);
-            d3.select('.linechart').classed('showMe', false);
-        })
-
-            d3.select(`.${day}`).on('click', ()=> {
-                const isVisible = d3.select(`.line-${day}`).attr('class').indexOf('notVisible') > 0;
-            d3.selectAll(`.line-${day}`).classed('notVisible', !isVisible);
-            d3.select(`.${day}`).classed('notVisibleLegend', !isVisible);
-
-        })
-
-        }
-
-
-        const lineFactory = station => {
-            const lineData = filterDataByCity(station)
-            d3.selectAll('.lineGroup').remove();
-            lineData.forEach(line=>makeLine(line, station))
-
-        }
-
-        const addSummaryListener = ()=> {
-            // const aggData = aggregateData(dataStore);
-            d3.select('.lineMode').on('click', ()=> {
-                d3.selectAll('.lineGroup').remove();
-            lineFactory(currentStationSelection);
-            //aggData.forEach(line=>makeLine(line))
-        })
-        }
-
-
-        const makeDropDown = categories => {
-            const dropleft = d3.select('.dropleft')
-                .append('select')
-                .attr('class', 'selectLeft')
-                .on('change', ()=> barDiffFactory())
-
-            dropleft.selectAll('option')
-                .data(categories).enter()
-                .append('option')
-                .text(d=>d);
-
-
-            //
-            // const dropRight = d3.select('.dropRight')
-            //     .append('select')
-            //     .attr('class', 'selectRight')
-            //
-            // dropRight.selectAll('option')
-            //     .data(categories).enter()
-            //     .append('option')
-            //     .text(d=> d);
-        }
-
 
         function map(selection) {
             selection.each(function (data) {
                 // Convert data to standard representation
-                dataStore = data;
-                console.log(dataStore, 'store')
-                data = mangleData(data.stations);
-                addSummaryListener();
+                data = mangleData(data);
+
                 model = data;
 
                 var minX = d3.min(data.raw, function (line$$1) {
@@ -682,14 +111,10 @@
                 svg = d3.select(this).selectAll("svg").data([data]);
 
 
-                var g = svg.enter().append("g").classed('stationWrapper', true);
+                var g = svg.enter().append("svg").append("g");
 
                 // Fill with white rectangle to capture zoom events
-                g.append("rect")
-                    .attr("width", "100%")
-                    .attr("height", "100%")
-                    .attr('fill', 'white')
-                    .classed('zoomRect', true);
+                g.append("rect").attr("width", "100%").attr("height", "100%").attr('fill', 'white');
 
                 var zoomed = function zoomed() {
                     gEnter.attr("transform", d3.event.transform.toString());
@@ -755,9 +180,7 @@
                     .attr("class", function (d) {
                         return d.name;
                     })
-                    .classed("line", true).on("click", function (line) {
-                    dropDownFactory(line);
-
+                    .classed("line", true).on("click", function () {
                     //Here we transform the path
                     // keep this path so we can use it later
                     var pathElement = d3.select(this).node();
@@ -833,12 +256,6 @@
                         })
                         .attr("r", 6).style("visibility", "visible")
                         .on("click", function (d) {
-                            console.log(d, 'sss')
-                            svgCir.selectAll('circle').attr('fill', bgColor)
-                            d3.select(this).attr('fill', selectColor)
-                            barChartFactory(d.name)
-
-
                         })
                         .on("mouseover", function (d) {
                         })
@@ -846,11 +263,13 @@
                         .attr("fill", bgColor)
                         .attr("stroke-width", lineWidth / 2);
 
-                    //Set the staion names, first append g
-                    var station_text = d3.select("#line").selectAll("g").data(stationPoints);
-                    station_text.exit().remove();
-                    station_text = station_text.enter().append("g").attr("display", "inline").merge(station_text);
-                    // console.log(stationPoints);
+//Set the staion names, first append g
+var station_text = d3.select("#line").selectAll("g").data(stationPoints);
+
+station_text.exit().remove();
+
+station_text = station_text.enter().append("g").attr("display", "inline").merge(station_text);
+
 
                     var text = station_text.selectAll('text')
                         .data(stationPoints);
@@ -965,34 +384,34 @@
                     })
                     .classed("station", true);
 
-                // Update the label text
-                labels.enter().append("g").attr("id", function (d) {
-                    return d.name;
-                }).classed("label", true).on("click", function () {
-                    var label = d3.select(this);
-                    var name = label.attr("id");
+      // Update the label text
+      labels.enter().append("g").attr("id", function (d) {
+        return d.name;
+      }).classed("label", true).on("click", function () {
+        var label = d3.select(this);
+        var name = label.attr("id");
 
-                    selectStation(name);
+        selectStation(name);
 
-                    dispatch$$1.call("click", this, name);
-                }).append("text").text(function (d) {
-                    return d.text;
-                }).attr("dy", 0.1).attr("x", function (d) {
-                    return xScale(d.x + d.labelShiftX) + textPos(d).pos[0];
-                }).attr("y", function (d) {
-                    return yScale(d.y + d.labelShiftY) - textPos(d).pos[1];
-                }) // Flip y-axis
-                    .attr("text-anchor", function (d) {
-                        return textPos(d).textAnchor;
-                    }).style("display", function (d) {
-                    return d.hide !== true ? "block" : "none";
-                }).style("font-size", 1.2 * lineWidth / lineWidthMultiplier + "px").style("-webkit-user-select", "none").attr("class", function (d) {
-                    return d.marker.map(function (marker) {
-                        return marker.line;
-                    }).join(" ");
-                }).classed("highlighted", function (d) {
-                    return d.visited;
-                }).call(wrap);
+        dispatch$$1.call("click", this, name);
+      }).append("text").text(function (d) {
+        return d.text;
+      }).attr("dy", 0.1).attr("x", function (d) {
+        return xScale(d.x + d.labelShiftX) + textPos(d).pos[0];
+      }).attr("y", function (d) {
+        return yScale(d.y + d.labelShiftY) - textPos(d).pos[1];
+      }) // Flip y-axis
+      .attr("text-anchor", function (d) {
+        return textPos(d).textAnchor;
+      }).style("display", function (d) {
+        return d.hide !== true ? "block" : "none";
+      }).style("font-size", 1.2 * lineWidth / lineWidthMultiplier + "px").style("-webkit-user-select", "none").attr("class", function (d) {
+        return d.marker.map(function (marker) {
+          return marker.line;
+        }).join(" ");
+      }).classed("highlighted", function (d) {
+        return d.visited;
+      }).call(wrap);
 
                 var markerGeoFunction = d3.arc().innerRadius(0).outerRadius(lineWidth / 4).startAngle(0).endAngle(2 * Math.PI);
 
@@ -1048,14 +467,6 @@
 
             interchanges.style("visibility", "hidden");
 
-            d3.select('#tube-map').select('svg').attr('height', '200')
-            d3.select('.legendWrapper').style('display', 'none')
-
-            d3.select('body').style('overflow', 'auto')
-            d3.select('.stationWrapper')
-                .attr("transform", "translate(5,-100  )");
-
-
             lines.style("visibility", function (e) {
                 return (e.title === name) ? "visible" : "hidden";
             });
@@ -1071,325 +482,319 @@
             river.style("visibility", "hidden");
         };
 
-        map.setTimeStop = function(){
-            this.timeStop = false;
-        }
+         map.setTimeStop = function(){
+           this.timeStop = false;
+         }
 
         map.endTimer = function(){
-            this.timeStop = !this.timeStop;
+          this.timeStop = !this.timeStop;
 
         }
 
-        map.startTimer = function(csvData, timeTable, stationData, type){
+	map.startTimer = function(csvData, timeTable, stationData, type){
 
-            //append circles to the stations with initial counts
-
-
-            var lines = d3.select("#tube-map").selectAll(".line");
-            var labels = d3.select("#tube-map").selectAll(".labels");
-            var interchanges = d3.select("#tube-map").selectAll(".interchanges");
-            var river = d3.select("#tube-map").selectAll(".river");
+		//append circles to the stations with initial counts
 
 
-            river.style("visibility", "hidden");
-
-            lines.style("opacity", 0.5);
-            // stations.classed("translucent", true);
-            //labels.classed("translucent", true);
-
-
-            var stations = d3.select("#tube-map").selectAll(".station");
-
-            var self_item = map;
-
-            var journeyCount = "";
-
-            if(type === "both"){
-                var obj = ["entry", "exit"];
-                journeyCount = "entry";
-            }
-            else if(type === "entry"){
-                var obj = ["entry"];
-                journeyCount = "entry";
-            }
-            else if(type === "exit"){
-                var obj = ["exit"];
-                journeyCount = "exit";
-
-            }
+		    var lines = d3.select("#tube-map").selectAll(".line");
+		    var labels = d3.select("#tube-map").selectAll(".labels");
+				var interchanges = d3.select("#tube-map").selectAll(".interchanges");
+        var river = d3.select("#tube-map").selectAll(".river");
 
 
+        river.style("visibility", "hidden");
 
-            var svg = d3.select("#tube-map").selectAll(".station").selectAll("g").selectAll("circle").data(obj);
+				lines.style("opacity", 0.5);
+				// stations.classed("translucent", true);
+				//labels.classed("translucent", true);
 
-            svg.exit().remove();
 
-            svg = svg.enter().append("circle").attr("class", function(d,i){
-                if(d === "entry"){
-                    return "entry";
+		var stations = d3.select("#tube-map").selectAll(".station");
+
+		var self_item = map;
+
+    var journeyCount = "";
+
+    if(type === "both"){
+		var obj = ["entry", "exit"];
+    journeyCount = "entry";
+  }
+  else if(type === "entry"){
+    var obj = ["entry"];
+    journeyCount = "entry";
+  }
+  else if(type === "exit"){
+    var obj = ["exit"];
+    journeyCount = "exit";
+
+  }
+
+
+
+		var svg = d3.select("#tube-map").selectAll(".station").selectAll("g").selectAll("circle").data(obj);
+
+		svg.exit().remove();
+
+		svg = svg.enter().append("circle").attr("class", function(d,i){
+			if(d === "entry"){
+				return "entry";
+			}
+			else{
+				return "exit";
+			}
+
+		}).merge(svg);
+
+		svg.attr("class", "time_circle").attr("r", 6).attr("cx", function(d){
+
+
+			if(d === "entry"){
+					return xScale(d3.select(this.parentNode)._groups[0][0].__data__.x + 1);
+			}
+			else{
+					return xScale(d3.select(this.parentNode)._groups[0][0].__data__.x - 1);
+			}
+
+		}).attr("cy", function(d){
+
+			if(d === "entry"){
+				return yScale(d3.select(this.parentNode)._groups[0][0].__data__.y);
+			}
+			else{
+				return yScale(d3.select(this.parentNode)._groups[0][0].__data__.y);
+			}
+
+		}).attr("class", function(d){
+			if(d === "entry"){
+				var mystring = d3.select(this.parentNode)._groups[0][0].__data__.name + "e";
+
+				mystring = mystring.split('&').join('');
+				mystring = mystring.replace(' ','');
+				mystring = mystring.split('\'').join('');
+
+				return mystring;
+			}else{
+				var mystring = d3.select(this.parentNode)._groups[0][0].__data__.name + "x";
+				mystring = mystring.split('&').join('');
+				mystring = mystring.replace(' ','');
+				mystring = mystring.split('\'').join('');
+
+				return mystring;
+			}
+
+		}).style("fill", function(d){
+			if(d === "entry"){
+				return "red";
+			}
+			else{
+				return "blue";
+			}
+		});
+
+
+
+
+			var time_data = setTimeData(csvData, timeTable, stationData);
+
+
+		var format_entry = d3.timeFormat("%S:%L");
+
+		var tick = 0;
+
+    var day = "am";
+
+		//create a data structure that ties each station to the time passed through, and whether it was an entry or exit
+		//Take that data and tie the count to the circles that will be at each staation
+		map.timer = setInterval(function(elapsed) {
+			var time = timeTable[tick];
+
+
+
+      if(time === "12:00"){
+        day = "pm";
+      }
+      if(time === "00:00"){
+        day = "am";
+      }
+      if(time === "04:45"){
+        console.log("we stopped")
+        map.timeStop = true;
+      }
+
+      d3.select("#clock").text(time + " " + day );
+
+			if(tick % 15 === 0){
+        var journeys = 0;
+
+
+
+console.log(time_data);
+
+		time_data.forEach(function(d){
+			//Select Al Entries
+
+
+			var mystring = d.txt_name;
+
+			mystring = mystring.split('&').join('');
+				mystring = mystring.split(' ').join('');
+			mystring = mystring.split('\'').join('');
+			mystring = mystring.split('.').join('');
+			mystring = mystring.split('\n').join('');
+			var entries  = d3.select("#tube-map").selectAll("." + mystring + "e");
+			var exits = d3.select("#tube-map").selectAll("." + mystring + "x");
+
+
+
+      // var exitScale = d3.scale.linear()
+      // .domain([0,d3.max(d.ext[0])])
+      // .range([3,20])
+
+
+			entries.transition().ease(d3.easeSin).duration(1000).attr("r", function(c){
+
+				if(d != null){
+					if(d.ent[0] != null){
+						if(d.ent[0][""+ time + ""] != null){
+
+
+
+              var entryScale = d3.scaleLinear()
+              .domain([0,+d.ent[0].Total])
+              .range([2,300]);
+
+              var num = 0;
+
+              if(d.int[0] != null){
+                if(d.int[0][""+ time + ""]){
+                  num = +d.ent[0]["" + time + ""] + +d.int[0][""+ time + ""];
                 }
                 else{
-                    return "exit";
+                 num = +d.ent[0]["" + time + ""];
+                }
+              }
+              else{
+                num = +d.ent[0]["" + time + ""];
+              }
+
+
+              journeys+=+d.ent[0][""+ time + ""];
+							return entryScale(num);
+
+						}
+
+				}
+					else{
+						return 0;
+					};
+				}});
+
+        d3.select("#journey").text("" + journeys + " Journeys");
+
+				exits.transition().ease(d3.easeSin).duration(1000).attr("r", function(c){
+
+					if(d != null){
+						if(d.ext[0] != null){
+							if(d.ext[0][""+ time + ""] != null){
+                if(journeyCount === "exit"){
+                    journeys+=+d.ext[0][""+ time + ""];
                 }
 
-            }).merge(svg);
+                var num = 0;
 
-            svg.attr("class", "time_circle").attr("r", 6).attr("cx", function(d){
-
-
-                if(d === "entry"){
-                    return xScale(d3.select(this.parentNode)._groups[0][0].__data__.x + 1);
-                }
-                else{
-                    return xScale(d3.select(this.parentNode)._groups[0][0].__data__.x - 1);
-                }
-
-            }).attr("cy", function(d){
-
-                if(d === "entry"){
-                    return yScale(d3.select(this.parentNode)._groups[0][0].__data__.y);
-                }
-                else{
-                    return yScale(d3.select(this.parentNode)._groups[0][0].__data__.y);
-                }
-
-            }).attr("class", function(d){
-                if(d === "entry"){
-                    var mystring = d3.select(this.parentNode)._groups[0][0].__data__.name + "e";
-
-                    mystring = mystring.split('&').join('');
-                    mystring = mystring.replace(' ','');
-                    mystring = mystring.split('\'').join('');
-
-                    return mystring;
-                }else{
-                    var mystring = d3.select(this.parentNode)._groups[0][0].__data__.name + "x";
-                    mystring = mystring.split('&').join('');
-                    mystring = mystring.replace(' ','');
-                    mystring = mystring.split('\'').join('');
-
-                    return mystring;
-                }
-
-            }).style("fill", function(d){
-                if(d === "entry"){
-                    return "red";
+                if(d.int[0] != null){
+                  if(d.int[0][""+ time + ""]){
+                    num = +d.ext[0]["" + time + ""] + +d.int[0][""+ time + ""];
+                  }
+                  else{
+                   num = +d.ext[0]["" + time + ""];
+                  }
                 }
                 else{
-                    return "blue";
-                }
-            });
-
-
-
-
-            var time_data = setTimeData(csvData, timeTable, stationData);
-
-
-            var format_entry = d3.timeFormat("%S:%L");
-
-            var tick = 0;
-
-            var day = "am";
-
-            //create a data structure that ties each station to the time passed through, and whether it was an entry or exit
-            //Take that data and tie the count to the circles that will be at each staation
-            map.timer = setInterval(function(elapsed) {
-                var time = timeTable[tick];
-
-
-
-                if(time === "12:00"){
-                    day = "pm";
-                }
-                if(time === "00:00"){
-                    day = "am";
-                }
-                if(time === "04:45"){
-                    console.log("we stopped")
-                    map.timeStop = true;
-                }
-
-                d3.select("#clock").text(time + " " + day );
-
-                if(tick % 15 === 0){
-                    var journeys = 0;
-
-
-
-                    console.log(time_data);
-
-                    time_data.forEach(function(d){
-                        //Select Al Entries
-
-
-                        var mystring = d.txt_name;
-
-                        mystring = mystring.split('&').join('');
-                        mystring = mystring.split(' ').join('');
-                        mystring = mystring.split('\'').join('');
-                        mystring = mystring.split('.').join('');
-                        mystring = mystring.split('\n').join('');
-                        var entries  = d3.select("#tube-map").selectAll("." + mystring + "e");
-                        var exits = d3.select("#tube-map").selectAll("." + mystring + "x");
-
-
-
-                        // var exitScale = d3.scale.linear()
-                        // .domain([0,d3.max(d.ext[0])])
-                        // .range([3,20])
-
-
-                        entries.transition().ease(d3.easeSin).duration(1000).attr("r", function(c){
-
-                            if(d != null){
-                                if(d.ent[0] != null){
-                                    if(d.ent[0][""+ time + ""] != null){
-
-
-
-                                        var entryScale = d3.scaleLinear()
-                                            .domain([0,+d.ent[0].Total])
-                                            .range([2,300]);
-
-                                        var num = 0;
-
-                                        if(d.int[0] != null){
-                                            if(d.int[0][""+ time + ""]){
-                                                num = +d.ent[0]["" + time + ""] + +d.int[0][""+ time + ""];
-                                            }
-                                            else{
-                                                num = +d.ent[0]["" + time + ""];
-                                            }
-                                        }
-                                        else{
-                                            num = +d.ent[0]["" + time + ""];
-                                        }
-
-
-                                        journeys+=+d.ent[0][""+ time + ""];
-                                        return entryScale(num);
-
-                                    }
-
-                                }
-                                else{
-                                    return 0;
-                                };
-                            }});
-
-                        d3.select("#journey").text("" + journeys + " Journeys");
-
-                        exits.transition().ease(d3.easeSin).duration(1000).attr("r", function(c){
-
-                            if(d != null){
-                                if(d.ext[0] != null){
-                                    if(d.ext[0][""+ time + ""] != null){
-                                        if(journeyCount === "exit"){
-                                            journeys+=+d.ext[0][""+ time + ""];
-                                        }
-
-                                        var num = 0;
-
-                                        if(d.int[0] != null){
-                                            if(d.int[0][""+ time + ""]){
-                                                num = +d.ext[0]["" + time + ""] + +d.int[0][""+ time + ""];
-                                            }
-                                            else{
-                                                num = +d.ext[0]["" + time + ""];
-                                            }
-                                        }
-                                        else{
-                                            num = +d.ext[0]["" + time + ""];
-                                        }
-
-
-
-
-                                        var exitScale = d3.scaleLinear()
-                                            .domain([0,+d.ext[0].Total])
-                                            .range([2,300]);
-
-                                        return exitScale(num);
-                                    }
-                                    else{
-                                        return 0;
-                                    }
-
-                                }
-                                else{
-                                    return 0;
-                                };
-                            }});
-
-
-
-
-                        //
-
-                    });
+                  num = +d.ext[0]["" + time + ""];
                 }
 
 
 
 
-                tick++;
+                var exitScale = d3.scaleLinear()
+                .domain([0,+d.ext[0].Total])
+                .range([2,300]);
 
-                if (elapsed > 72000 || map.timeStop){
+								return exitScale(num);
+							}
+							else{
+								return 0;
+							}
 
-                    clearInterval(map.timer)
-                    river.style("visibility", "visible");
-                    d3.select("#tube-map").selectAll("circle").remove();
-                    lines.style("opacity", 1);
-                    d3.timerFlush();
-                    var button = document.getElementById("tube-button");
-                    d3.select("#journey").text("");
-                    d3.select("#clock").text("");
-
-                    button.addEventListener("click", function() {
-                        startTimeAnimation();
-                    }, false);
-
-                    d3.select("#stopButton").remove();
+						}
+						else{
+							return 0;
+						};
+					}});
 
 
-                    return;
-                }
-            }, 50,2000);
 
 
-        };
+    //
+
+		});
+}
 
 
-        map.stopTubeTimer = function(){
 
-            document.getElementById("stopButton").click();
-            var lines = d3.select("#tube-map").selectAll(".line");
-            var river = d3.select("#tube-map").selectAll(".river");
-            clearInterval(this.timer);
 
-            river.style("visibility", "visible");
-            d3.select("#tube-map").selectAll("circle").remove();
-            lines.style("opacity", 1);
-            d3.timerFlush();
-            var button = document.getElementById("tube-button");
-            d3.select("#journey").text("");
-            d3.select("#clock").text("");
+	tick++;
 
-            button.addEventListener("click", function() {
-                startTimeAnimation();
-            }, false);
+  if (elapsed > 72000 || map.timeStop){
 
-            d3.select("#stopButton").remove();
-        }
+    clearInterval(map.timer)
+    river.style("visibility", "visible");
+    d3.select("#tube-map").selectAll("circle").remove();
+    lines.style("opacity", 1);
+    d3.timerFlush();
+    var button = document.getElementById("tube-button");
+      d3.select("#journey").text("");
+      d3.select("#clock").text("");
+
+    button.addEventListener("click", function() {
+  startTimeAnimation();
+}, false);
+
+d3.select("#stopButton").remove();
+
+
+    return;
+  }
+}, 50,2000);
+
+
+	};
+
+
+  map.stopTubeTimer = function(){
+
+    document.getElementById("stopButton").click();
+     var lines = d3.select("#tube-map").selectAll(".line");
+      var river = d3.select("#tube-map").selectAll(".river");
+      clearInterval(this.timer);
+
+    river.style("visibility", "visible");
+    d3.select("#tube-map").selectAll("circle").remove();
+    lines.style("opacity", 1);
+    d3.timerFlush();
+    var button = document.getElementById("tube-button");
+      d3.select("#journey").text("");
+      d3.select("#clock").text("");
+
+    button.addEventListener("click", function() {
+  startTimeAnimation();
+}, false);
+
+d3.select("#stopButton").remove();
+  }
 
         map.unhighlightAll = function () {
-            d3.select('#tube-map').select('svg').attr('height', '1024')
-            d3.select('body').style('overflow', 'hidden')
-            d3.select('.legendWrapper').style('display', 'none')
-            d3.select('.lineMode').classed('showMe', false);
-            d3.select('.barChartWrapper').classed('showMe', false);
-            d3.select('.barChartDropDown').classed('showMe', false);
             var lines = d3.select("#tube-map").selectAll(".line");
             var stations = d3.select("#tube-map").selectAll(".station");
             var labels = d3.select("#tube-map").selectAll(".labels");
@@ -1462,97 +867,97 @@
             d3.select(".labels").select("#" + name).select("text").classed("highlighted", highlighted);
         }
 
-        function setTimeData(csvData, timeTable, stationData){
+	function setTimeData(csvData, timeTable, stationData){
 
 
-            var stations = d3.select("#tube-map").selectAll(".station");
-
-
-
-
-
-            var format_exit = d3.timeFormat("%S:%L");
+		var stations = d3.select("#tube-map").selectAll(".station");
 
 
 
 
-            var time_stamp = 0;
 
-            var time_table_initial = [];
-
-            var station_time_structure = [];
+				var format_exit = d3.timeFormat("%S:%L");
 
 
-            var stations_array = []; // This will be the resulting array
-            for(var key in stationData.stations) {
-                var entry = stationData.stations[key]; // This will be each of the three graded things
-                entry.id = key; // e.g. "id": "assessment1"
-                stations_array.push(entry)
-            }
+
+
+		var time_stamp = 0;
+
+		var time_table_initial = [];
+
+		var station_time_structure = [];
+
+
+		var stations_array = []; // This will be the resulting array
+for(var key in stationData.stations) {
+  var entry = stationData.stations[key]; // This will be each of the three graded things
+  entry.id = key; // e.g. "id": "assessment1"
+  stations_array.push(entry)
+}
 
 
 //for each unique station, add the data of station numbers
-            stations_array.forEach(function(da){
+stations_array.forEach(function(da){
 
 
 
 
 
 
-                var entry = csvData.filter(function(d,i){
-                    //Access
-                    return d.StartStn === da.title && d.AEI === "A";
-                    // var string = da.toString();
-                    // return d.EntTimeHHMM === string;
-                });
+				var entry = csvData.filter(function(d,i){
+					//Access
+						return d.StartStn === da.title && d.AEI === "A";
+					// var string = da.toString();
+					// return d.EntTimeHHMM === string;
+				});
 
 
-                var exit = csvData.filter(function(d,i){
-                    //Egress or exit
-                    return d.StartStn === da.title && d.AEI === "E";
-                    // var string = da.toString();
-                    // return d.EXTimeHHMM === string;
-                });
+				var exit = csvData.filter(function(d,i){
+					//Egress or exit
+					return d.StartStn === da.title && d.AEI === "E";
+					// var string = da.toString();
+					// return d.EXTimeHHMM === string;
+				});
 
-                var inter = csvData.filter(function(d,i){
+				var inter = csvData.filter(function(d,i){
 
-                    return d.StartStn === da.title && d.AEI === "I";
-                })
-
-
-
-                //
-                // var ent_filt = entry.filter(function(d){
-                // 	return d.StartStn === data.__data__.name;
-                // })
-                //
-                // var ext_filt = exit.filter(function(d){
-                // 	return d.EndStation === data.__data__.name;
-                // })
-
-                var mystring = da.title;
-                mystring = mystring.split(' ').join('')
-                mystring = mystring.split('\n').join('')
+					return d.StartStn === da.title && d.AEI === "I";
+				})
 
 
 
+          //
+					// var ent_filt = entry.filter(function(d){
+					// 	return d.StartStn === data.__data__.name;
+					// })
+          //
+					// var ext_filt = exit.filter(function(d){
+					// 	return d.EndStation === data.__data__.name;
+					// })
 
-                station_time_structure.push({gname: da.title, txt_name: mystring,  ent: entry, ext: exit, int: inter})
+					var mystring = da.title;
+					mystring = mystring.split(' ').join('')
+					mystring = mystring.split('\n').join('')
 
 
 
 
-            });
+					station_time_structure.push({gname: da.title, txt_name: mystring,  ent: entry, ext: exit, int: inter})
+
+
+
+
+			});
 
 
 
 
 
-            return station_time_structure;
-        }
+		return station_time_structure;
+	}
 
-        function drawLine(data) {
-            var path = "";
+  function drawLine(data) {
+    var path = "";
 
             var lineNodes = data.nodes;
 
@@ -1784,25 +1189,25 @@
             var numLines = 0;
             if(data.text != null){
 
-                numLines = data.text.split('\n').length;
-            }
-            else{
-                numLines = data.name.split('\n').length;
-            }
+            numLines = data.text.split('\n').length;
+          }
+          else{
+            numLines = data.name.split('\n').length;
+          }
 
 
             var sqrt2 = Math.sqrt(2);
 
             switch (data.labelPos.toLowerCase()) {
                 case "n":
-                    if(numLines != 1){
-                        pos = [0, lineWidth * (numLines) + offset];
-                        textAnchor = "middle";
-                    }
-                    else{
-                        pos = [0, lineWidth * (numLines-1) + offset];
-                        textAnchor = "middle";
-                    }
+                if(numLines != 1){
+                  pos = [0, lineWidth * (numLines) + offset];
+                  textAnchor = "middle";
+                }
+                else{
+                  pos = [0, lineWidth * (numLines-1) + offset];
+                  textAnchor = "middle";
+                }
 
                     break;
                 case "ne":
