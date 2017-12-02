@@ -1098,23 +1098,38 @@ stations_array.forEach(function(da){
         function textPos(data) {
             var pos;
             var textAnchor;
-            var offset = lineWidth * 1.8;
+            var offset = lineWidth * 2;
 
-            var numLines = data.label.split(/\n/).length;
+            var numLines = 0;
+            if(data.text != null){
+
+            numLines = data.text.split('\n').length;
+          }
+          else{
+            numLines = data.name.split('\n').length;
+          }
+
 
             var sqrt2 = Math.sqrt(2);
 
             switch (data.labelPos.toLowerCase()) {
                 case "n":
-                    pos = [0, lineWidth * (numLines - 1) + offset];
-                    textAnchor = "middle";
+                if(numLines != 1){
+                  pos = [0, lineWidth * (numLines) + offset];
+                  textAnchor = "middle";
+                }
+                else{
+                  pos = [0, lineWidth * (numLines-1) + offset];
+                  textAnchor = "middle";
+                }
+
                     break;
                 case "ne":
-                    pos = [offset / sqrt2, (lineWidth * (numLines - 1) + offset) / sqrt2];
+                    pos = [offset / sqrt2, (lineWidth * (numLines -1) + offset) / sqrt2];
                     textAnchor = "start";
                     break;
                 case "e":
-                    pos = [offset, 0];
+                    pos = [lineWidth*1.8, 0];
                     textAnchor = "start";
                     break;
                 case "se":
