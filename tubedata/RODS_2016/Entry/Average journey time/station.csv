@@ -1,4 +1,4 @@
-NLC,Station,Time period,Total,Total time,Average,< 15 mins,15 - 30,30 - 45,45 - 60,60 - 90,over 90,
+NLC,Station,Time_period,Total,Total time,Average,l_15_mins,f15_30,f30_45,f45_60,f60_90,over_90
 500,Acton Town,Early ,622,19100,30.73,168,96,179,178,0,0,
 500,Acton Town,AM peak ,3219,81614,25.35,757,1235,1010,214,4,0,
 500,Acton Town,Midday,2436,65663,26.95,459,919,931,108,20,0,
