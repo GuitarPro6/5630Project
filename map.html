@@ -256,7 +256,7 @@
             let select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
                 .on('change', function () {
                     changeDisplayBox2();
-                    changeVis2("kilometers");
+                    changeVis2(type);
                 });
             select.selectAll('option').data(kilometers).enter().append('option').attr('value', function (d) {
                 return d;
@@ -289,7 +289,7 @@
             let select1 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
                 .on('change', function () {
                     changeDisplayBox2();
-                    changeVis2("avJourneyTime");
+                    changeVis2(type);
                 });
             select1.selectAll('option').data(times).enter().append('option').attr('value', function (d) {
                 return d;
@@ -304,7 +304,7 @@
             let select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu")
                 .on('change', function () {
                     changeDisplayBox2();
-                    changeVis2("avJourneyTime");
+                    changeVis2(type);
                 });
             select.selectAll('option').data(sections).enter().append('option').attr('value', function (d) {
                 return d;
@@ -456,11 +456,17 @@
         document.getElementById("display-data-week").innerHTML = "Selected Weekday(s): ".bold() + dataWeek;
     }
 
-    //Callback functions for global survey map
-
     //CLears the heat map on the entry/exit map
     function toggleData2() {
-        globeSurvey.clearMarkers();
+
+          if (map2Vis) {
+              globeEntry.clearMarkers();
+              map2Vis = false;
+          }
+          else {
+              changeVis2(document.getElementById("survey-stat").selectedOptions[0].value);
+              map2Vis = true;
+          }
     }
 
     //Changes the gradient on the entry/exit heatmap

@@ -128,7 +128,7 @@ class SurveyMap {
         let citymap = [];
         let heatMapData = [];
 
-        if (type === "avJourneyTime") {
+        if (type === "avtime") {
             let e = document.getElementById("categoryMenu");
             let cate = e.options[e.selectedIndex].value;
 
@@ -268,7 +268,7 @@ class SurveyMap {
                 self_item.markers.push(self_item.heatmap);
             });
         }
-        else if (type === "kilometers") {
+        else if (type === "distancekm") {
             //Retrieve the necessary data
             d3.csv("tubedata/RODS_2016/Entry/Distance_travelled/By_station.csv", function (error, csvData) {
 
@@ -375,7 +375,7 @@ class SurveyMap {
                 self_item.markers.push(self_item.heatmap);
             });
         }
-        else if (type === "avDistance") {
+        else if (type === "avdistance") {
             //from Totals.csv
             //Retrieve the necessary data
             d3.csv("tubedata/RODS_2016/Entry/Distance_travelled/Totals.csv", function (error, csvData) {
