@@ -76,10 +76,10 @@ class MAP {
                     //here we construct an object that stores the information we need.
                     //Construct heat map data
                     // {location: new google.maps.LatLng(37.782, -122.443), weight: 2}
-                    heatMapData.push({
-                        location: new google.maps.LatLng(d.position.lat, d.position.lon),
-                        weight: val[0].Entry_Week
-                    });
+                    // heatMapData.push({
+                    //     location: new google.maps.LatLng(d.position.lat, d.position.lon),
+                    //     weight: val[0].Entry_Week
+                    // });
 
                     //Construct object with all the information for the bubble chart
                     citymap.push({
@@ -107,7 +107,7 @@ class MAP {
                         map: map,
                         center: citymap[city].center,
                         //Here we set the radius according to some data gathered by the csv
-                        radius: citymap[city]["" + type + week + ""] / 20
+                        radius: citymap[city]["" + type + week + ""] / 50
 
                         //Math.sqrt(citymap[city].population) * 100
                     });
