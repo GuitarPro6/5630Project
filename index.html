@@ -2,65 +2,24 @@
 <html lang="en">
 <head>
 
-    <meta charset="UTF-8">
-    <title>Jonathan Bown, jonvzw6@gmail.com, U0696785</title>
-    <head>
-        <link rel="stylesheet" href="tubeMap.css">
-        <script src="https://d3js.org/d3.v4.js"></script>
-        <script src=d3-tube-map/d3-tube-map.js></script>
-        <script src=script.js></script>
-        <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+	<title>Jonathan Bown, jonvzw6@gmail.com, U0696785</title>
+	<head>
+  <link rel="stylesheet" href="tubeMap.css">
+  <script src="https://d3js.org/d3.v4.js"></script>
+	<script src=d3-tube-map/d3-tube-map.js></script>
+	<script src=script.js></script>
+  <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
 
-    </head>
-    <div class="linechart">
-        <div class="close">Close</div>
-        <div class="station"></div>
-        <div class="legends">
-            <div class="sunday">Sunday</div>
-            <div class="saturday">Saturday</div>
-            <div class="week">Week</div>
-        </div>
-        <div class="chartWrapper">
-            <div class="entry"></div>
-            <div class="exit"></div>
-        </div>
-    </div>
+</head>
+<img src="https://vignette.wikia.nocookie.net/logopedia/images/3/3a/London_Underground_1970_roundel_small.png/revision/latest?cb=20120209090410" style="float: right; width: 100px; height: 80px" />
+<nav>
+  <ul>
+    <li><a href="map.html">Google Map</a></li>
+      <li><a href="video.html">Video</a></li>
+	</ul>
 
-        <div class="barChartWrapper">
-            <div class="row">
-                <div class="innerBarChart ageWrapper">
-                    <div class="label">Age</div>
-                    <div class="ageChart"></div>
-                </div>
-                <div class="innerBarChart sexWrapper">
-                    <div class="label">Sex</div>
-                    <div class="sexChart"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="innerBarChart journeyWrapper">
-                    <div class="label">Journey</div>
-                    <div class="journeyChart"></div>
-                </div>
-
-                <div class="innerBarChart marketWrapper">
-                    <div class="label">Market</div>
-                    <div class="marketChart"></div>
-                </div>
-
-            </div>
-            <div class="closebarChart">Close</div>
-
-        </div>
-
-
-    <nav>
-        <ul>
-            <li><a href="map.html">Google Map</a></li>
-            <li><a href="video.html">Video</a></li>
-        </ul>
-    </nav>
-
+</nav>
 <body>
 
 	<div id="floating-panel1" style ="margin-left:30px;  margin-bottom:10px;">
@@ -79,8 +38,6 @@
 
 <text id="clock" style="text-align: center; float: right"></text>
 <text id ="journey" style="text-align: center; float: right"></text>
-    <button class="summary">Summary Stat</button>
-
 
 </div>
 
@@ -93,195 +50,34 @@
     var el = document.getElementById('tube-map');
 		var width = 1600;
 		var height = 1024;
-
-    const ageInCSV = ["Under 16", "16 - 19", "20 - 24", "25 - 34", "35 - 44", "45 - 59", "60 - 64", "65 - 70", "Over 70"];
-    const ageMap = new Map();
-    ageInCSV.forEach((d, i)=>ageMap.set(`cat${i}`, d));
-
-    const journeyInCSV = ["< 15 mins", "15 - 30", "30 - 45", "45 - 60", "60 - 90:", "over 90"];
-    const journeyMap = new Map();
-    journeyInCSV.forEach((d, i)=>journeyMap.set(`cat${i}`, d));
-
-    const maketInCSV = ["Commuter", "Leisure", "Tourist", "Not known"];
-    const marketMap = new Map();
-    maketInCSV.forEach((d, i)=>marketMap.set(`cat${i}`, d));
-
     var svg = d3.select(el)
-            .append('svg')
-            .style('width', width)
-            .style('height', height).attr("id", "container");
-
-
+        .append('svg')
+        .style('width', "100%")
+        .style('height', "100%").attr("id", "container");
     const map = tubeMap.tubeMap()
-            .width(width)
-            .height(height)
-            .margin({
-                top: height / 50,
-                right: width / 7,
-                bottom: height / 10,
-                left: width / 7,
-            });
-
-    d3.queue()
-            .defer(d3.json, 'stations.json')
-            .defer(d3.csv, 'tubedata/counts/2007_Entry_Exit.csv') // Line Charts
-            .defer(d3.csv, 'tubedata/counts/2008_Entry_Exit.csv')
-            .defer(d3.csv, 'tubedata/counts/2009_Entry_Exit.csv')
-            .defer(d3.csv, 'tubedata/counts/2010_Entry_Exit.csv')
-            .defer(d3.csv, 'tubedata/counts/2011_Entry_Exit.csv')
-            .defer(d3.csv, 'tubedata/counts/2012_Entry_Exit.csv')
-            .defer(d3.csv, 'tubedata/counts/2013_Entry_Exit.csv')
-            .defer(d3.csv, 'tubedata/counts/2014_Entry_Exit.csv')
-            .defer(d3.csv, 'tubedata/counts/2015_Entry_Exit.csv')
-            .defer(d3.csv, 'tubedata/counts/2016_Entry_Exit.csv')
-            .defer(d3.csv, 'tubedata/RODS_2016/age/1.csv')  // For Bar Charts
-            .defer(d3.csv, 'tubedata/RODS_2016/age/2.csv')
-            .defer(d3.csv, 'tubedata/RODS_2016/journeytime/1.csv')
-            .defer(d3.csv, 'tubedata/RODS_2016/journeytime/2.csv')
-            .defer(d3.csv, 'tubedata/RODS_2016/market/1.csv')
-            .defer(d3.csv, 'tubedata/RODS_2016/market/2.csv')
-            .awaitAll(readyForData);
-
-    function readyForData(error, response) {
-
-        if (error != null) {
-            console.log("something went wrong");
-        }
-        console.log(response, 'RESPONSE DATA')
-        const dataFactory = {
-            stations: response[0],
-            yeardata: [
-                {year: '2007', data: response[1]},
-                {year: '2008', data: response[2]},  // To Do other year attribute rename
-                {year: '2009', data: response[3]},
-                {year: '2010', data: response[4]},
-                {year: '2011', data: response[5]},
-                {year: '2012', data: response[6]},
-                {year: '2013', data: response[7]},
-                {year: '2014', data: response[8]},
-                {year: '2015', data: response[9]},
-                {year: '2016', data: response[10]},
-            ],
-            age: [response[11], response[12]],
-            journey: [response[13], response[14]],
-            market: [response[15], response[16]]
-        };
-   const yearData = formatEntryExit(dataFactory);
-        const ageData = formatAgeSex(dataFactory);
-        const journeyData = formatJourney(dataFactory);
-        const marketData = formatMaket(dataFactory);
-        const dataStore = {stations: response[0], yearData, ageData, journeyData, marketData}
-        svg.datum(dataStore).call(map);
-
-    }
-
-    const formatMaket = ({market}) => {
-        const marketCollection = market.map(item=> {
-            return item.map(d=>(
-            {
-                'cat0': parseFloat(d.Commuter),
-                'cat1': parseFloat(d.Leisure),
-                'cat2': parseFloat(d.Tourist),
-                'cat3': parseFloat(d.Notknown),
-                nlc: d.NLC,
-                station: d.Station,
-                period: d.timePeriod
-            }))
-        })
-        return marketCollection.reduce((a, b)=>a.concat(b), []).filter(d=>d.period === 'Totalday')
-
-    }
-
-    const formatJourney = ({journey})=> {
-        const journeyCollection = journey.map(item=> {
-            return item.map(d=>(
-            {
-                'cat0': parseFloat(d.cat0),
-                'cat1': parseFloat(d.cat1),
-                'cat2': parseFloat(d.cat2),
-                'cat3': parseFloat(d.cat3),
-                'cat4': parseFloat(d.cat4),
-                'cat5': parseFloat(d.cat5),
-                nlc: d.NLC,
-                station: d.Station,
-                period: d.Timeperiod
-            }))
-        });
-
-        return journeyCollection.reduce((a, b)=>a.concat(b), []).filter(d=>d.period === 'Totalday')
-    }
-
-
-    const formatAgeSex = ({age}) => {
-        const ageCollection = age.map(item=> {
-            return item.map(d=>(
-            {
-                'cat0': parseFloat(d.cat0),
-                'cat1': parseFloat(d.cat1),
-                'cat2': parseFloat(d.cat2),
-                'cat3': parseFloat(d.cat3),
-                'cat4': parseFloat(d.cat4),
-                'cat5': parseFloat(d.cat5),
-                'cat6': parseFloat(d.cat6),
-                'cat7': parseFloat(d.cat7),
-                'cat8': parseFloat(d.cat8),
-                period: d.timePeriod,
-                male: parseFloat(d.Male),
-                female: parseFloat(d.Female),
-                nlc: d.NLC,
-                station: d.Station
-            }))
-        })
-
-        return ageCollection.reduce((a, b)=>a.concat(b), []).filter(d=>d.period === 'Totalday')
-    }
-
-    function formatEntryExit({yeardata}) {
-        const yearCollection = yeardata.map(year=> {
-            return year.data.map(d=> ({
-                year: year.year,
-                entry_saturday: parseFloat(d.Entry_Saturday),
-                entry_sunday: parseFloat(d.Entry_Sunday),
-                entry_week: isNaN(parseFloat(d.Entry_Week)) ? 0 : parseFloat(d.Entry_Week),
-                exit_saturday: parseFloat(d.Exit_Saturday),
-                exit_sunday: parseFloat(d.Exit_Sunday),
-                exit_week: isNaN(parseFloat(d.Exit_Week)) ? 0 : parseFloat(d.Exit_Week),
-                station: d.Station.trim().replace(/ /g, ''),
-                milliion: d.million,
-                nlc: d.nlc
-            }))
-        })
-
-        return yearCollection.reduce((a, b)=>a.concat(b), []);
-    }
+      .width(width)
+      .height(height)
+      .margin({
+        top: height / 50,
+        right: width / 7,
+        bottom: height / 10,
+        left: width / 7,
+      });
     d3.json("stations.json", function(error, data) {
 			if(error != null){
 				console.log("something went wrong");
 			}
       svg.datum(data).call(map);
     });
-
-
-
-
-
 		function startTimeAnimation(){
 			//Change aesthetics so that the visualization looks Good
-
 			//start a timer
-
 			//map.highlightLine("Metropolitan");
-
 			d3.json("stations.json", function(error, data) {
 				if(error != null){
 					console.log("something went wrong");
 				}
-
-
-
-
 			d3.csv("tubedata/RODS_2016/Misc/Stationflows/AEI-Summary.csv", function(error, csvData){
-
 				var timeTable = [];
 						var myDate = new Date();
 						let stripMilliseconds_all = function(s) { return s.slice(0, -1); };
@@ -296,23 +92,15 @@
 							timeTable.push(time_stamp);
 						}
 					}
-
 					}
 					else{
-
-
-
 					for(var min = 0; min < 60; min++){
 						myDate.setHours(i, min, 0, 0);
 						time_stamp = format_entry(myDate);
 						timeTable.push(time_stamp);
 					}
 				}
-
 				}
-
-
-
 				// var filteredCsvData = csvData.filter(function(d){
 				//
 				//
@@ -320,31 +108,17 @@
 				//
 				// 	return d.StartStn !== "Unstarted";
 				// })
-
 				//console.log(csvData);
-
 				//map.createSructure(filteredCsvData);
-
 				map.startTimer(csvData, timeTable, data);
-
-
 			});
-
 			});
-
 			//select the data that meets the timer
-
-
 		}
-
-
   </script>
 
 </body>
 <script>
-
-
-
 </script>
 
 </html>
