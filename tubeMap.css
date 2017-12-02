@@ -287,6 +287,7 @@ text.highlighted {
 
 .barChartWrapper, .barDiffChartWrapper {
   display: none;
+  justify-content: center;
 }
 
 .row {
@@ -325,9 +326,7 @@ text.highlighted {
   padding: 5px;
 }
 
-select {
-  font-size: 17px;
-}
+
 
 .showBarDiff {
   display: block;
@@ -339,17 +338,19 @@ select {
 
 .legendWrapper {
   position: absolute;
-  right: 300px;
+  right: 20px;
+  bottom: 10px;
+  font-size: 15px;
 }
 
 .legendTitle {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 
 .rowLegend {
   height: 20px;
-  font-size: 20px;
+  font-size: 15px;
   width: 150px;
   display: flex;
   justify-content: center;
@@ -376,8 +377,8 @@ select {
 
 .lineMode {
   display: none;
-  height: 30px;
-  font-size: 20px;
+  /*height: 30px;*/
+  /*//font-size: 20px;*/
 }
 .showMe {
   display: flex;
