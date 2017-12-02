@@ -1,3 +1,2000 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2f4bd3c165944fe70ecfca94a3fad4329ba52b542d05de5144a00da773835e90
-size 177656
+ RODS report1a created at 13:27:01 on 29-03-2017,,,,,,,,,
+ based on survey data up to 2016 and reconciled to Autumn 2016 counts,,,,,,,,,
+ ,,,,,,,,,
+ Report 1a -  Analysis by journey purpose and distance,,,,,,,,,
+,Time period,Origin Journey Purpose : Destination Journey Purpose,Average,Total,< 3 kms,3 - 8 kms,8 - 16 kms,16 - 24 kms,over 24 kms
+zone 1,Early       ,Home : Work                             ,7.3,539,134,180,189,33,3
+zone 1,Early       ,Home : Education                        ,9.96,2,0,0,2,0,0
+zone 1,Early       ,Home : Other                            ,6.43,18,2,13,0,3,0
+zone 1,Early       ,Home : Unknown/Not Given                ,9.31,38,0,3,35,0,0
+zone 1,Early       ,Work : Home                             ,10.88,212,17,107,65,6,16
+zone 1,Early       ,Work : Work                             ,7.02,21,0,19,1,0,0
+zone 1,Early       ,Work : Other                            ,8.88,4,0,0,4,0,0
+zone 1,Early       ,Education : Home                        ,11.98,1,0,0,1,0,0
+zone 1,Early       ,Hotel : Work                            ,5.03,21,0,18,3,0,0
+zone 1,Early       ,Hotel : Hotel                           ,5.95,4,0,4,0,0,0
+zone 1,Early       ,Hotel : Other                           ,3.53,14,10,4,0,0,0
+zone 1,Early       ,Other : Home                            ,5.58,7,0,7,0,0,0
+zone 1,Early       ,Other : Work                            ,3.28,3,2,1,0,0,0
+zone 1,Early       ,Other : Other                           ,5.28,3,0,3,0,0,0
+zone 1,Early       ,Unknown/Not Given : Work                ,7,0,0,0,0,0,0
+zone 1,Early       ,Unknown/Not Given : Unknown/Not Given   ,7,38376,8464,17994,9362,1955,601
+zone 1,AM peak     ,Home : Home                             ,6.88,899,277,269,328,25,0
+zone 1,AM peak     ,Home : Work                             ,5.22,326096,104217,170043,45244,5269,1323
+zone 1,AM peak     ,Home : Shop                             ,5.3,973,309,506,158,0,0
+zone 1,AM peak     ,Home : Education                        ,6.16,13301,3724,6326,2809,342,101
+zone 1,AM peak     ,Home : Tourist                          ,4.48,666,227,350,80,10,0
+zone 1,AM peak     ,Home : Hotel                            ,9.76,625,118,97,363,41,7
+zone 1,AM peak     ,Home : Other                            ,5.94,15850,3759,8809,2708,371,202
+zone 1,AM peak     ,Home : Unknown/Not Given                ,7.17,7685,1792,3440,1897,534,22
+zone 1,AM peak     ,Work : Home                             ,8.62,17736,4233,5446,5970,1517,570
+zone 1,AM peak     ,Work : Work                             ,5.45,18490,5752,8883,3407,357,91
+zone 1,AM peak     ,Work : Shop                             ,6,169,72,7,90,0,0
+zone 1,AM peak     ,Work : Education                        ,6.06,338,59,228,46,0,5
+zone 1,AM peak     ,Work : Tourist                          ,7.72,19,4,4,11,0,0
+zone 1,AM peak     ,Work : Hotel                            ,3.89,702,31,641,30,0,0
+zone 1,AM peak     ,Work : Other                            ,5.04,1836,531,924,380,1,0
+zone 1,AM peak     ,Work : Unknown/Not Given                ,6.52,572,114,351,57,11,38
+zone 1,AM peak     ,Shop : Home                             ,6.87,162,10,137,16,0,0
+zone 1,AM peak     ,Shop : Work                             ,6.58,103,27,34,41,1,0
+zone 1,AM peak     ,Shop : Shop                             ,9.39,73,0,6,67,0,0
+zone 1,AM peak     ,Shop : Education                        ,2.67,17,17,0,0,0,0
+zone 1,AM peak     ,Shop : Tourist                          ,2.07,22,22,0,0,0,0
+zone 1,AM peak     ,Shop : Hotel                            ,0.54,49,49,0,0,0,0
+zone 1,AM peak     ,Shop : Other                            ,4.52,43,0,43,0,0,0
+zone 1,AM peak     ,Education : Home                        ,7.93,1000,230,370,242,146,11
+zone 1,AM peak     ,Education : Work                        ,5.13,957,241,580,136,0,0
+zone 1,AM peak     ,Education : Shop                        ,3.7,28,24,0,1,3,0
+zone 1,AM peak     ,Education : Education                   ,6.19,1568,691,389,323,156,9
+zone 1,AM peak     ,Education : Other                       ,9.94,219,25,119,0,74,0
+zone 1,AM peak     ,Education : Unknown/Not Given           ,9.02,84,4,53,12,16,0
+zone 1,AM peak     ,Tourist : Home                          ,18.23,5,0,0,0,5,0
+zone 1,AM peak     ,Tourist : Work                          ,2.86,22,22,0,0,0,0
+zone 1,AM peak     ,Tourist : Shop                          ,4.94,25,0,25,0,0,0
+zone 1,AM peak     ,Tourist : Tourist                       ,4.99,191,25,149,18,0,0
+zone 1,AM peak     ,Tourist : Hotel                         ,2.9,31,30,2,0,0,0
+zone 1,AM peak     ,Tourist : Other                         ,3.01,3,0,3,0,0,0
+zone 1,AM peak     ,Tourist : Unknown/Not Given             ,4.35,2,0,2,0,0,0
+zone 1,AM peak     ,Hotel : Home                            ,7.95,895,165,490,122,16,103
+zone 1,AM peak     ,Hotel : Work                            ,5.11,8752,2860,4415,1337,93,46
+zone 1,AM peak     ,Hotel : Shop                            ,4.99,756,357,295,104,0,0
+zone 1,AM peak     ,Hotel : Education                       ,4.58,395,130,186,79,0,0
+zone 1,AM peak     ,Hotel : Tourist                         ,5.36,1935,652,879,387,17,0
+zone 1,AM peak     ,Hotel : Hotel                           ,4.65,32,7,24,0,0,0
+zone 1,AM peak     ,Hotel : Other                           ,5.49,2663,722,1486,368,47,40
+zone 1,AM peak     ,Hotel : Unknown/Not Given               ,4.52,197,29,132,36,0,0
+zone 1,AM peak     ,Other : Home                            ,8.68,4051,497,2029,1120,292,113
+zone 1,AM peak     ,Other : Work                            ,5.7,6338,1635,3286,1276,129,12
+zone 1,AM peak     ,Other : Shop                            ,5.62,169,51,42,76,0,0
+zone 1,AM peak     ,Other : Education                       ,7.46,461,97,270,28,66,0
+zone 1,AM peak     ,Other : Tourist                         ,5.78,294,17,240,25,0,12
+zone 1,AM peak     ,Other : Hotel                           ,7.03,193,0,164,29,0,0
+zone 1,AM peak     ,Other : Other                           ,5.59,2780,792,1492,306,181,9
+zone 1,AM peak     ,Other : Unknown/Not Given               ,6.85,227,16,176,33,1,0
+zone 1,AM peak     ,Unknown/Not Given : Home                ,8.52,1192,102,606,336,147,0
+zone 1,AM peak     ,Unknown/Not Given : Work                ,5.57,1858,553,934,320,52,0
+zone 1,AM peak     ,Unknown/Not Given : Shop                ,4.72,114,69,37,9,0,0
+zone 1,AM peak     ,Unknown/Not Given : Education           ,5.13,87,36,32,15,5,0
+zone 1,AM peak     ,Unknown/Not Given : Tourist             ,3.36,63,31,31,0,0,0
+zone 1,AM peak     ,Unknown/Not Given : Hotel               ,3.71,9,0,9,0,0,0
+zone 1,AM peak     ,Unknown/Not Given : Other               ,4.75,395,60,255,80,0,0
+zone 1,AM peak     ,Unknown/Not Given : Unknown/Not Given   ,6.41,5688,1187,2898,1320,236,47
+zone 1,Midday      ,Home : Home                             ,8.31,3097,878,988,951,129,152
+zone 1,Midday      ,Home : Work                             ,5.83,53465,15654,26529,9195,1528,558
+zone 1,Midday      ,Home : Shop                             ,4.59,14386,5416,7124,1556,256,34
+zone 1,Midday      ,Home : Education                        ,5.72,22136,6046,11757,3661,564,108
+zone 1,Midday      ,Home : Tourist                          ,5.44,8625,2561,4473,1125,427,39
+zone 1,Midday      ,Home : Hotel                            ,6.67,6735,1554,3786,883,367,145
+zone 1,Midday      ,Home : Other                            ,5.68,73700,20448,38743,11573,2089,847
+zone 1,Midday      ,Home : Unknown/Not Given                ,8.15,10305,2334,3601,3418,738,214
+zone 1,Midday      ,Work : Home                             ,8.79,73830,11866,28867,23683,7150,2263
+zone 1,Midday      ,Work : Work                             ,4.99,81263,29095,40166,10007,1564,432
+zone 1,Midday      ,Work : Shop                             ,3.29,7080,4398,2293,328,51,10
+zone 1,Midday      ,Work : Education                        ,6.78,3625,772,1594,1156,53,49
+zone 1,Midday      ,Work : Tourist                          ,3.81,1318,437,877,4,0,0
+zone 1,Midday      ,Work : Hotel                            ,6.47,3390,866,1789,350,334,52
+zone 1,Midday      ,Work : Other                            ,5.5,16661,6292,7103,2553,567,145
+zone 1,Midday      ,Work : Unknown/Not Given                ,6.6,987,255,396,314,23,0
+zone 1,Midday      ,Shop : Home                             ,7.98,14608,2517,6210,4619,1046,215
+zone 1,Midday      ,Shop : Work                             ,3.38,3137,1920,933,284,0,0
+zone 1,Midday      ,Shop : Shop                             ,5.38,5892,2352,2488,617,387,48
+zone 1,Midday      ,Shop : Education                        ,5.13,1000,337,561,64,25,14
+zone 1,Midday      ,Shop : Tourist                          ,3.69,783,364,399,0,20,0
+zone 1,Midday      ,Shop : Hotel                            ,6.07,1691,434,1097,75,0,84
+zone 1,Midday      ,Shop : Other                            ,3.87,4139,1933,1993,168,39,7
+zone 1,Midday      ,Shop : Unknown/Not Given                ,3.74,462,207,252,3,0,0
+zone 1,Midday      ,Education : Home                        ,7.99,28780,5544,10943,9858,2171,265
+zone 1,Midday      ,Education : Work                        ,5.32,2354,537,1460,302,55,0
+zone 1,Midday      ,Education : Shop                        ,3.68,2726,1719,608,398,0,0
+zone 1,Midday      ,Education : Education                   ,6.92,4544,1438,1540,1202,270,95
+zone 1,Midday      ,Education : Tourist                     ,4.44,260,0,260,0,0,0
+zone 1,Midday      ,Education : Hotel                       ,9.03,262,52,0,195,15,0
+zone 1,Midday      ,Education : Other                       ,4.77,5096,1914,2449,655,78,0
+zone 1,Midday      ,Education : Unknown/Not Given           ,9.45,490,45,137,262,1,45
+zone 1,Midday      ,Tourist : Home                          ,7.63,5119,1111,2229,1365,257,157
+zone 1,Midday      ,Tourist : Work                          ,3.06,399,230,167,3,0,0
+zone 1,Midday      ,Tourist : Shop                          ,3.93,844,251,593,0,0,0
+zone 1,Midday      ,Tourist : Education                     ,8.77,352,49,135,73,95,0
+zone 1,Midday      ,Tourist : Tourist                       ,5.47,4215,1575,1767,711,106,56
+zone 1,Midday      ,Tourist : Hotel                         ,7.76,1767,229,937,303,298,0
+zone 1,Midday      ,Tourist : Other                         ,4.89,3093,1448,1302,110,223,10
+zone 1,Midday      ,Tourist : Unknown/Not Given             ,3.57,372,115,256,0,0,0
+zone 1,Midday      ,Hotel : Home                            ,7.14,5816,1078,3240,825,441,230
+zone 1,Midday      ,Hotel : Work                            ,5.79,3830,1081,2113,336,227,72
+zone 1,Midday      ,Hotel : Shop                            ,3.7,4673,1899,2739,34,0,0
+zone 1,Midday      ,Hotel : Education                       ,3.66,335,143,160,32,0,0
+zone 1,Midday      ,Hotel : Tourist                         ,4.69,5433,1721,2886,825,1,0
+zone 1,Midday      ,Hotel : Hotel                           ,5.96,2298,532,1326,372,38,30
+zone 1,Midday      ,Hotel : Other                           ,4.87,10040,3123,5679,942,232,64
+zone 1,Midday      ,Hotel : Unknown/Not Given               ,8.26,306,99,95,59,52,0
+zone 1,Midday      ,Other : Home                            ,8.19,49081,7926,22514,13895,2909,1837
+zone 1,Midday      ,Other : Work                            ,4.81,8618,2722,4819,973,102,1
+zone 1,Midday      ,Other : Shop                            ,4.45,5952,2552,2568,715,96,21
+zone 1,Midday      ,Other : Education                       ,5.86,2171,512,1139,418,101,0
+zone 1,Midday      ,Other : Tourist                         ,5.02,3663,1333,1888,399,2,42
+zone 1,Midday      ,Other : Hotel                           ,5.36,5809,1584,3238,872,94,21
+zone 1,Midday      ,Other : Other                           ,5.54,27986,9044,13922,3707,1069,244
+zone 1,Midday      ,Other : Unknown/Not Given               ,6.47,1542,307,809,357,69,0
+zone 1,Midday      ,Unknown/Not Given : Home                ,8.39,3565,291,1819,1106,266,84
+zone 1,Midday      ,Unknown/Not Given : Work                ,7.61,1035,190,563,108,175,0
+zone 1,Midday      ,Unknown/Not Given : Shop                ,7.1,481,108,223,143,6,0
+zone 1,Midday      ,Unknown/Not Given : Education           ,6.94,358,16,222,94,25,0
+zone 1,Midday      ,Unknown/Not Given : Tourist             ,5.81,178,32,116,30,0,0
+zone 1,Midday      ,Unknown/Not Given : Hotel               ,7.92,445,1,254,190,0,0
+zone 1,Midday      ,Unknown/Not Given : Other               ,4.59,2276,1315,486,468,8,0
+zone 1,Midday      ,Unknown/Not Given : Unknown/Not Given   ,7.06,42392,9464,19925,9288,3309,405
+zone 1,PM Peak     ,Home : Home                             ,9.27,6408,1275,2101,2028,925,79
+zone 1,PM Peak     ,Home : Work                             ,7.31,16702,4230,6526,4711,754,481
+zone 1,PM Peak     ,Home : Shop                             ,6.49,3326,953,1154,1185,33,0
+zone 1,PM Peak     ,Home : Education                        ,6.34,4543,1455,1965,860,213,50
+zone 1,PM Peak     ,Home : Tourist                          ,5.53,644,174,410,26,34,0
+zone 1,PM Peak     ,Home : Hotel                            ,6.58,3296,660,1796,670,169,0
+zone 1,PM Peak     ,Home : Other                            ,5.75,42370,14045,19451,6870,1462,542
+zone 1,PM Peak     ,Home : Unknown/Not Given                ,8.53,11511,2218,4564,3166,1340,223
+zone 1,PM Peak     ,Work : Home                             ,9.33,385419,61497,133919,131284,47212,11507
+zone 1,PM Peak     ,Work : Work                             ,5.59,25042,8831,10923,3909,1218,161
+zone 1,PM Peak     ,Work : Shop                             ,5.26,7511,2796,3239,1303,159,14
+zone 1,PM Peak     ,Work : Education                        ,6.24,7053,2029,3276,1428,296,24
+zone 1,PM Peak     ,Work : Tourist                          ,7.47,856,88,570,13,185,0
+zone 1,PM Peak     ,Work : Hotel                            ,7.42,15229,3329,5852,4775,1250,24
+zone 1,PM Peak     ,Work : Other                            ,6.13,57665,16223,27654,11167,1849,772
+zone 1,PM Peak     ,Work : Unknown/Not Given                ,8.39,3133,467,1251,1037,333,45
+zone 1,PM Peak     ,Shop : Home                             ,8.38,17462,2920,6403,6702,1059,378
+zone 1,PM Peak     ,Shop : Work                             ,3.91,580,220,304,56,0,0
+zone 1,PM Peak     ,Shop : Shop                             ,5.81,1913,807,556,508,43,0
+zone 1,PM Peak     ,Shop : Education                        ,5.97,516,65,343,105,2,0
+zone 1,PM Peak     ,Shop : Tourist                          ,1.74,273,241,32,0,0,0
+zone 1,PM Peak     ,Shop : Hotel                            ,4.15,1608,829,717,62,0,0
+zone 1,PM Peak     ,Shop : Other                            ,5.86,3335,1118,1558,451,190,18
+zone 1,PM Peak     ,Shop : Unknown/Not Given                ,3.35,85,39,46,0,0,0
+zone 1,PM Peak     ,Education : Home                        ,8.68,41683,5294,16925,15144,3713,608
+zone 1,PM Peak     ,Education : Work                        ,5.11,1135,402,553,170,0,10
+zone 1,PM Peak     ,Education : Shop                        ,7.19,1582,292,607,683,0,0
+zone 1,PM Peak     ,Education : Education                   ,8.69,3603,472,1364,1459,296,11
+zone 1,PM Peak     ,Education : Tourist                     ,3.87,403,83,320,0,0,0
+zone 1,PM Peak     ,Education : Hotel                       ,6.59,1223,128,667,378,49,0
+zone 1,PM Peak     ,Education : Other                       ,6.47,4275,1316,1648,1002,310,0
+zone 1,PM Peak     ,Education : Unknown/Not Given           ,6.54,201,16,91,93,0,0
+zone 1,PM Peak     ,Tourist : Home                          ,7.79,4454,1488,1439,763,693,71
+zone 1,PM Peak     ,Tourist : Work                          ,1.45,131,131,0,0,0,0
+zone 1,PM Peak     ,Tourist : Shop                          ,3.99,181,41,140,0,0,0
+zone 1,PM Peak     ,Tourist : Education                     ,4.71,173,0,173,0,0,0
+zone 1,PM Peak     ,Tourist : Tourist                       ,3.4,1791,1012,732,47,0,0
+zone 1,PM Peak     ,Tourist : Hotel                         ,3.93,2705,1120,1378,207,0,0
+zone 1,PM Peak     ,Tourist : Other                         ,5.35,2192,712,1099,351,29,0
+zone 1,PM Peak     ,Tourist : Unknown/Not Given             ,4.6,93,16,78,0,0,0
+zone 1,PM Peak     ,Hotel : Home                            ,7.4,2218,541,981,323,363,11
+zone 1,PM Peak     ,Hotel : Work                            ,6.17,667,245,273,129,0,19
+zone 1,PM Peak     ,Hotel : Shop                            ,3.41,257,106,149,2,0,0
+zone 1,PM Peak     ,Hotel : Education                       ,6.07,132,0,132,0,0,0
+zone 1,PM Peak     ,Hotel : Tourist                         ,4.1,759,301,343,115,0,0
+zone 1,PM Peak     ,Hotel : Hotel                           ,6.14,1577,99,959,459,44,16
+zone 1,PM Peak     ,Hotel : Other                           ,5.39,4778,1950,2285,365,104,74
+zone 1,PM Peak     ,Hotel : Unknown/Not Given               ,4.48,375,220,112,42,0,0
+zone 1,PM Peak     ,Other : Home                            ,8.38,52578,8409,21352,17629,3780,1408
+zone 1,PM Peak     ,Other : Work                            ,4.84,2158,593,1332,213,19,2
+zone 1,PM Peak     ,Other : Shop                            ,3.26,2483,1295,957,231,0,0
+zone 1,PM Peak     ,Other : Education                       ,6.38,1530,286,904,257,82,0
+zone 1,PM Peak     ,Other : Tourist                         ,3.96,509,180,317,0,13,0
+zone 1,PM Peak     ,Other : Hotel                           ,7.28,6009,1529,2707,1183,402,188
+zone 1,PM Peak     ,Other : Other                           ,5.61,19990,6229,9675,3332,541,214
+zone 1,PM Peak     ,Other : Unknown/Not Given               ,3.38,1073,564,457,50,3,0
+zone 1,PM Peak     ,Unknown/Not Given : Home                ,8.77,7995,1327,2944,2725,811,188
+zone 1,PM Peak     ,Unknown/Not Given : Work                ,7.75,275,50,59,166,0,0
+zone 1,PM Peak     ,Unknown/Not Given : Shop                ,10.75,186,3,5,178,0,0
+zone 1,PM Peak     ,Unknown/Not Given : Education           ,1.78,1,1,0,0,0,0
+zone 1,PM Peak     ,Unknown/Not Given : Tourist             ,0.69,30,30,0,0,0,0
+zone 1,PM Peak     ,Unknown/Not Given : Hotel               ,4.03,114,50,64,0,0,0
+zone 1,PM Peak     ,Unknown/Not Given : Other               ,5.57,1056,440,403,140,73,0
+zone 1,PM Peak     ,Unknown/Not Given : Unknown/Not Given   ,8.28,68084,12357,28688,16835,9544,661
+zone 1,Evening     ,Home : Home                             ,7.23,1615,313,778,364,77,83
+zone 1,Evening     ,Home : Work                             ,7.24,7737,1858,3057,2301,492,28
+zone 1,Evening     ,Home : Shop                             ,5.94,436,49,345,42,0,0
+zone 1,Evening     ,Home : Education                        ,5.58,1001,388,284,329,0,0
+zone 1,Evening     ,Home : Tourist                          ,4.17,63,0,63,0,0,0
+zone 1,Evening     ,Home : Hotel                            ,7.4,845,188,241,416,0,0
+zone 1,Evening     ,Home : Other                            ,5.86,10069,2744,5092,1880,264,90
+zone 1,Evening     ,Home : Unknown/Not Given                ,8.12,3023,540,1172,1186,84,41
+zone 1,Evening     ,Work : Home                             ,8.8,178421,24539,68402,67164,14652,3663
+zone 1,Evening     ,Work : Work                             ,6.84,3367,1176,1119,716,299,58
+zone 1,Evening     ,Work : Shop                             ,5.11,1045,431,358,251,6,0
+zone 1,Evening     ,Work : Education                        ,4.48,240,118,111,6,5,0
+zone 1,Evening     ,Work : Tourist                          ,9.31,1,0,0,1,0,0
+zone 1,Evening     ,Work : Hotel                            ,7.43,2297,516,1031,483,266,0
+zone 1,Evening     ,Work : Other                            ,5.64,12468,3690,6096,2259,384,38
+zone 1,Evening     ,Work : Unknown/Not Given                ,8.49,1060,258,314,345,90,52
+zone 1,Evening     ,Shop : Home                             ,8.32,6175,533,2916,2280,423,24
+zone 1,Evening     ,Shop : Work                             ,3.87,37,0,37,0,0,0
+zone 1,Evening     ,Shop : Shop                             ,4.77,363,182,115,65,2,0
+zone 1,Evening     ,Shop : Education                        ,1.72,38,38,0,0,0,0
+zone 1,Evening     ,Shop : Tourist                          ,3.28,29,0,29,0,0,0
+zone 1,Evening     ,Shop : Hotel                            ,4.94,1072,532,319,191,29,0
+zone 1,Evening     ,Shop : Other                            ,4.88,499,177,272,33,2,16
+zone 1,Evening     ,Shop : Unknown/Not Given                ,15.09,75,1,8,8,59,0
+zone 1,Evening     ,Education : Home                        ,8.43,23549,2636,9207,9954,1689,62
+zone 1,Evening     ,Education : Work                        ,5.67,76,6,57,13,0,0
+zone 1,Evening     ,Education : Shop                        ,2.79,276,181,95,0,0,0
+zone 1,Evening     ,Education : Education                   ,8.66,645,205,97,209,119,14
+zone 1,Evening     ,Education : Hotel                       ,6.81,76,16,38,18,0,5
+zone 1,Evening     ,Education : Other                       ,5.22,1279,343,707,212,16,0
+zone 1,Evening     ,Education : Unknown/Not Given           ,8.52,60,11,0,49,0,0
+zone 1,Evening     ,Tourist : Home                          ,9.64,811,84,249,317,161,0
+zone 1,Evening     ,Tourist : Shop                          ,3.3,61,34,25,2,0,0
+zone 1,Evening     ,Tourist : Tourist                       ,3.64,169,55,115,0,0,0
+zone 1,Evening     ,Tourist : Hotel                         ,7.83,529,96,313,51,6,63
+zone 1,Evening     ,Tourist : Other                         ,11.96,61,0,21,16,23,1
+zone 1,Evening     ,Tourist : Unknown/Not Given             ,18.91,6,0,0,0,6,0
+zone 1,Evening     ,Hotel : Home                            ,9.66,994,150,393,204,171,76
+zone 1,Evening     ,Hotel : Work                            ,7.85,43,0,9,35,0,0
+zone 1,Evening     ,Hotel : Shop                            ,6.17,91,0,63,28,0,0
+zone 1,Evening     ,Hotel : Tourist                         ,4.29,72,6,66,0,0,0
+zone 1,Evening     ,Hotel : Hotel                           ,4.42,431,293,104,20,0,14
+zone 1,Evening     ,Hotel : Other                           ,2.77,1570,1001,495,73,0,1
+zone 1,Evening     ,Hotel : Unknown/Not Given               ,1.99,29,26,3,0,0,0
+zone 1,Evening     ,Other : Home                            ,8.11,67622,9641,29679,23127,3961,1213
+zone 1,Evening     ,Other : Work                            ,7.58,759,248,173,305,0,32
+zone 1,Evening     ,Other : Shop                            ,3.67,314,195,98,20,0,0
+zone 1,Evening     ,Other : Education                       ,4.96,190,98,31,60,0,1
+zone 1,Evening     ,Other : Tourist                         ,6.87,12,0,11,1,0,0
+zone 1,Evening     ,Other : Hotel                           ,5.4,3655,1253,1385,977,29,11
+zone 1,Evening     ,Other : Other                           ,5.72,6904,1491,4276,909,184,44
+zone 1,Evening     ,Other : Unknown/Not Given               ,6.33,422,74,269,51,28,0
+zone 1,Evening     ,Unknown/Not Given : Home                ,7.82,2446,475,1156,546,193,77
+zone 1,Evening     ,Unknown/Not Given : Work                ,7.42,98,11,55,32,0,0
+zone 1,Evening     ,Unknown/Not Given : Education           ,2.9,23,9,14,0,0,0
+zone 1,Evening     ,Unknown/Not Given : Tourist             ,5.25,77,0,77,0,0,0
+zone 1,Evening     ,Unknown/Not Given : Hotel               ,4.51,324,11,304,10,0,0
+zone 1,Evening     ,Unknown/Not Given : Other               ,6.07,338,82,166,85,3,2
+zone 1,Evening     ,Unknown/Not Given : Unknown/Not Given   ,7.08,29607,7799,12995,5940,2122,751
+zone 1,Late        ,Home : Home                             ,8.39,259,5,160,93,0,0
+zone 1,Late        ,Home : Work                             ,5.16,2037,969,618,323,115,12
+zone 1,Late        ,Home : Shop                             ,0.66,5,5,0,0,0,0
+zone 1,Late        ,Home : Education                        ,5.05,135,23,99,13,0,0
+zone 1,Late        ,Home : Hotel                            ,3.7,130,12,119,0,0,0
+zone 1,Late        ,Home : Other                            ,6.34,1263,279,609,304,70,2
+zone 1,Late        ,Home : Unknown/Not Given                ,6.56,621,14,443,143,21,0
+zone 1,Late        ,Work : Home                             ,9.29,31946,3505,10886,14243,3088,224
+zone 1,Late        ,Work : Work                             ,8.61,777,72,169,490,47,0
+zone 1,Late        ,Work : Education                        ,1.61,0,0,0,0,0,0
+zone 1,Late        ,Work : Hotel                            ,5.15,357,67,267,17,6,0
+zone 1,Late        ,Work : Other                            ,5.03,618,148,399,70,0,1
+zone 1,Late        ,Work : Unknown/Not Given                ,6.61,230,57,111,63,0,0
+zone 1,Late        ,Shop : Home                             ,9.41,523,70,196,139,118,0
+zone 1,Late        ,Shop : Work                             ,0.67,0,0,0,0,0,0
+zone 1,Late        ,Shop : Shop                             ,6.72,0,0,0,0,0,0
+zone 1,Late        ,Shop : Hotel                            ,1.61,0,0,0,0,0,0
+zone 1,Late        ,Shop : Other                            ,5.71,57,0,44,13,0,0
+zone 1,Late        ,Shop : Unknown/Not Given                ,2.5,0,0,0,0,0,0
+zone 1,Late        ,Education : Home                        ,8.7,3188,302,1199,1556,132,0
+zone 1,Late        ,Education : Education                   ,2.74,157,129,28,0,0,0
+zone 1,Late        ,Education : Tourist                     ,3.51,342,0,342,0,0,0
+zone 1,Late        ,Education : Hotel                       ,8.2,3,0,0,3,0,0
+zone 1,Late        ,Education : Other                       ,11.21,53,9,24,0,20,0
+zone 1,Late        ,Education : Unknown/Not Given           ,7.45,17,2,0,15,0,0
+zone 1,Late        ,Tourist : Home                          ,5.6,63,3,57,0,2,0
+zone 1,Late        ,Tourist : Shop                          ,18.8,6,0,0,0,6,0
+zone 1,Late        ,Tourist : Tourist                       ,2.23,136,118,18,0,0,0
+zone 1,Late        ,Tourist : Hotel                         ,4.55,39,6,27,5,0,0
+zone 1,Late        ,Tourist : Other                         ,9.31,8,0,0,8,0,0
+zone 1,Late        ,Tourist : Unknown/Not Given             ,16.07,77,0,0,0,77,0
+zone 1,Late        ,Hotel : Home                            ,12.02,454,1,247,79,27,99
+zone 1,Late        ,Hotel : Work                            ,11.6,6,0,0,6,0,0
+zone 1,Late        ,Hotel : Tourist                         ,0.56,32,32,0,0,0,0
+zone 1,Late        ,Hotel : Hotel                           ,9.88,196,42,25,129,0,0
+zone 1,Late        ,Hotel : Other                           ,9.44,54,2,15,38,0,0
+zone 1,Late        ,Other : Home                            ,7.89,50308,7720,21968,17049,2984,586
+zone 1,Late        ,Other : Work                            ,7.99,189,0,110,75,4,0
+zone 1,Late        ,Other : Shop                            ,8.94,54,19,0,35,0,0
+zone 1,Late        ,Other : Education                       ,2.15,25,20,5,0,0,0
+zone 1,Late        ,Other : Tourist                         ,4.82,0,0,0,0,0,0
+zone 1,Late        ,Other : Hotel                           ,4.96,3485,766,2401,214,67,37
+zone 1,Late        ,Other : Other                           ,6.13,2314,654,998,535,122,4
+zone 1,Late        ,Other : Unknown/Not Given               ,9.33,260,100,64,56,0,39
+zone 1,Late        ,Unknown/Not Given : Home                ,7.03,771,209,266,248,49,0
+zone 1,Late        ,Unknown/Not Given : Work                ,2.83,102,83,18,0,0,0
+zone 1,Late        ,Unknown/Not Given : Hotel               ,1.09,2,2,0,0,0,0
+zone 1,Late        ,Unknown/Not Given : Other               ,4.76,93,0,91,1,0,0
+zone 1,Late        ,Unknown/Not Given : Unknown/Not Given   ,8.64,55045,8924,20575,19698,4562,1285
+zone 1,   Total day,Home : Home                             ,8.57,12278,2748,4296,3764,1156,314
+zone 1,   Total day,Home : Work                             ,5.43,406575,127063,206953,61963,8191,2406
+zone 1,   Total day,Home : Shop                             ,4.98,19125,6731,9129,2940,289,34
+zone 1,   Total day,Home : Education                        ,5.93,41119,11636,20430,7675,1119,258
+zone 1,   Total day,Home : Tourist                          ,5.37,9998,2961,5296,1230,472,39
+zone 1,   Total day,Home : Hotel                            ,6.83,11631,2532,6039,2331,577,152
+zone 1,   Total day,Home : Other                            ,5.75,143270,41277,72717,23335,4259,1682
+zone 1,   Total day,Home : Unknown/Not Given                ,8.03,33183,6897,13222,9846,2718,500
+zone 1,   Total day,Work : Home                             ,9.11,687563,105658,247626,242410,73626,18243
+zone 1,   Total day,Work : Work                             ,5.24,128960,44926,61280,18529,3484,742
+zone 1,   Total day,Work : Shop                             ,4.38,15805,7697,5897,1972,215,24
+zone 1,   Total day,Work : Education                        ,6.37,11255,2979,5209,2636,354,78
+zone 1,   Total day,Work : Tourist                          ,5.27,2195,529,1451,29,185,0
+zone 1,   Total day,Work : Hotel                            ,7.12,21976,4808,9580,5655,1855,77
+zone 1,   Total day,Work : Other                            ,5.91,89252,26884,42176,16434,2801,956
+zone 1,   Total day,Work : Unknown/Not Given                ,7.87,5981,1151,2423,1816,456,136
+zone 1,   Total day,Shop : Home                             ,8.23,38931,6050,15862,13756,2646,616
+zone 1,   Total day,Shop : Work                             ,3.55,3857,2167,1308,381,1,0
+zone 1,   Total day,Shop : Shop                             ,5.49,8242,3341,3164,1257,432,48
+zone 1,   Total day,Shop : Education                        ,5.29,1572,458,904,169,28,14
+zone 1,   Total day,Shop : Tourist                          ,3.17,1107,627,460,0,20,0
+zone 1,   Total day,Shop : Hotel                            ,5.04,4421,1845,2133,328,29,84
+zone 1,   Total day,Shop : Other                            ,4.77,8074,3228,3910,664,230,41
+zone 1,   Total day,Shop : Unknown/Not Given                ,5.06,623,247,306,11,59,0
+zone 1,   Total day,Education : Home                        ,8.41,98201,14006,38644,36754,7851,946
+zone 1,   Total day,Education : Work                        ,5.23,4521,1187,2650,620,55,10
+zone 1,   Total day,Education : Shop                        ,4.83,4611,2215,1310,1083,3,0
+zone 1,   Total day,Education : Education                   ,7.46,10517,2935,3418,3192,842,130
+zone 1,   Total day,Education : Tourist                     ,3.89,1005,83,922,0,0,0
+zone 1,   Total day,Education : Hotel                       ,7.01,1564,196,705,594,64,5
+zone 1,   Total day,Education : Other                       ,5.62,10922,3607,4948,1869,498,0
+zone 1,   Total day,Education : Unknown/Not Given           ,8.62,852,77,282,431,17,45
+zone 1,   Total day,Tourist : Home                          ,7.85,10453,2686,3974,2445,1119,228
+zone 1,   Total day,Tourist : Work                          ,2.67,552,383,167,3,0,0
+zone 1,   Total day,Tourist : Shop                          ,4.01,1116,325,783,2,6,0
+zone 1,   Total day,Tourist : Education                     ,7.43,526,49,309,73,95,0
+zone 1,   Total day,Tourist : Tourist                       ,4.77,6503,2785,2780,776,106,56
+zone 1,   Total day,Tourist : Hotel                         ,5.67,5071,1480,2658,565,304,63
+zone 1,   Total day,Tourist : Other                         ,5.17,5356,2160,2424,485,275,12
+zone 1,   Total day,Tourist : Unknown/Not Given             ,5.65,550,131,337,0,82,0
+zone 1,   Total day,Hotel : Home                            ,7.72,10377,1935,5351,1553,1019,519
+zone 1,   Total day,Hotel : Work                            ,5.37,13319,4186,6828,1846,321,138
+zone 1,   Total day,Hotel : Shop                            ,3.89,5777,2362,3247,167,0,0
+zone 1,   Total day,Hotel : Education                       ,4.45,861,273,478,111,0,0
+zone 1,   Total day,Hotel : Tourist                         ,4.77,8231,2712,4173,1327,18,0
+zone 1,   Total day,Hotel : Hotel                           ,6.04,4539,973,2443,980,83,60
+zone 1,   Total day,Hotel : Other                           ,4.93,19119,6808,9964,1785,383,178
+zone 1,   Total day,Hotel : Unknown/Not Given               ,5.68,906,375,342,137,52,0
+zone 1,   Total day,Other : Home                            ,8.15,223646,34194,97549,72820,13926,5157
+zone 1,   Total day,Other : Work                            ,5.28,18064,5199,9721,2842,255,47
+zone 1,   Total day,Other : Shop                            ,4.14,8972,4112,3664,1078,97,21
+zone 1,   Total day,Other : Education                       ,6.15,4377,1014,2348,764,250,1
+zone 1,   Total day,Other : Tourist                         ,4.95,4478,1530,2456,424,15,53
+zone 1,   Total day,Other : Hotel                           ,5.91,19151,5133,9895,3275,592,257
+zone 1,   Total day,Other : Other                           ,5.61,59976,18210,30365,8789,2098,515
+zone 1,   Total day,Other : Unknown/Not Given               ,5.75,3524,1061,1775,547,101,39
+zone 1,   Total day,Unknown/Not Given : Home                ,8.44,15970,2405,6791,4959,1466,349
+zone 1,   Total day,Unknown/Not Given : Work                ,6.34,3369,887,1630,626,227,0
+zone 1,   Total day,Unknown/Not Given : Shop                ,7.62,782,180,265,330,6,0
+zone 1,   Total day,Unknown/Not Given : Education           ,6.4,468,63,267,109,30,0
+zone 1,   Total day,Unknown/Not Given : Tourist             ,4.8,348,94,224,30,0,0
+zone 1,   Total day,Unknown/Not Given : Hotel               ,6.13,894,63,630,200,0,0
+zone 1,   Total day,Unknown/Not Given : Other               ,4.98,4158,1896,1401,774,85,3
+zone 1,   Total day,Unknown/Not Given : Unknown/Not Given   ,7.75,239193,48196,103075,62443,21729,3750
+zone 2,Early       ,Home : Work                             ,9.26,1235,53,330,793,59,1
+zone 2,Early       ,Home : Education                        ,16.45,0,0,0,0,0,0
+zone 2,Early       ,Home : Other                            ,7.2,11,2,5,4,0,0
+zone 2,Early       ,Home : Unknown/Not Given                ,0.82,53,53,0,0,0,0
+zone 2,Early       ,Work : Home                             ,8.83,171,0,2,169,0,0
+zone 2,Early       ,Work : Work                             ,8.41,35,0,30,2,3,0
+zone 2,Early       ,Other : Work                            ,13.39,40,0,0,40,0,0
+zone 2,Early       ,Other : Other                           ,6.16,2,0,2,0,0,0
+zone 2,Early       ,Unknown/Not Given : Unknown/Not Given   ,9.77,53316,3548,20914,21601,5667,1585
+zone 2,AM peak     ,Home : Home                             ,8.09,516,8,312,163,23,11
+zone 2,AM peak     ,Home : Work                             ,8.31,317279,27549,141093,131738,13936,2962
+zone 2,AM peak     ,Home : Shop                             ,6.39,1945,282,1055,577,30,1
+zone 2,AM peak     ,Home : Education                        ,8.48,16304,1115,7735,6238,1063,152
+zone 2,AM peak     ,Home : Tourist                          ,7.98,871,6,465,391,9,0
+zone 2,AM peak     ,Home : Hotel                            ,12.43,639,28,120,393,40,59
+zone 2,AM peak     ,Home : Other                            ,8.06,14466,1813,6642,5072,477,462
+zone 2,AM peak     ,Home : Unknown/Not Given                ,8.31,4340,441,2175,1342,319,63
+zone 2,AM peak     ,Work : Home                             ,10.3,4718,276,1677,2081,441,243
+zone 2,AM peak     ,Work : Work                             ,8.4,8945,923,3655,3977,327,62
+zone 2,AM peak     ,Work : Shop                             ,8.34,40,0,20,20,0,0
+zone 2,AM peak     ,Work : Education                        ,5.47,308,64,171,72,0,0
+zone 2,AM peak     ,Work : Hotel                            ,42.37,10,0,0,1,0,9
+zone 2,AM peak     ,Work : Other                            ,7.44,287,4,193,91,0,0
+zone 2,AM peak     ,Work : Unknown/Not Given                ,8.46,93,0,48,32,12,0
+zone 2,AM peak     ,Shop : Home                             ,4.18,174,47,109,18,0,1
+zone 2,AM peak     ,Shop : Work                             ,14.2,68,32,5,6,6,20
+zone 2,AM peak     ,Shop : Shop                             ,9.42,54,0,7,46,0,0
+zone 2,AM peak     ,Shop : Unknown/Not Given                ,5.25,48,0,48,0,0,0
+zone 2,AM peak     ,Education : Home                        ,8.98,567,108,168,220,54,17
+zone 2,AM peak     ,Education : Work                        ,8.29,1842,76,861,854,50,0
+zone 2,AM peak     ,Education : Shop                        ,6.24,20,9,0,11,0,0
+zone 2,AM peak     ,Education : Education                   ,9.55,880,67,221,464,127,1
+zone 2,AM peak     ,Education : Tourist                     ,11.68,3,0,0,3,0,0
+zone 2,AM peak     ,Education : Other                       ,9.58,275,22,69,159,25,0
+zone 2,AM peak     ,Education : Unknown/Not Given           ,5.24,18,0,13,5,0,0
+zone 2,AM peak     ,Tourist : Shop                          ,5.46,36,0,36,0,0,0
+zone 2,AM peak     ,Tourist : Tourist                       ,7.9,130,0,62,67,0,0
+zone 2,AM peak     ,Hotel : Home                            ,6.81,258,1,143,113,0,0
+zone 2,AM peak     ,Hotel : Work                            ,7.43,3359,303,1887,989,179,0
+zone 2,AM peak     ,Hotel : Shop                            ,6.88,83,0,83,0,0,0
+zone 2,AM peak     ,Hotel : Education                       ,8.81,127,9,8,110,0,0
+zone 2,AM peak     ,Hotel : Tourist                         ,9.42,232,0,63,169,0,0
+zone 2,AM peak     ,Hotel : Hotel                           ,9.7,83,0,31,53,0,0
+zone 2,AM peak     ,Hotel : Other                           ,9.45,576,24,223,330,0,0
+zone 2,AM peak     ,Hotel : Unknown/Not Given               ,10.18,64,0,15,49,0,0
+zone 2,AM peak     ,Other : Home                            ,8.96,1260,209,367,546,121,17
+zone 2,AM peak     ,Other : Work                            ,8.61,5381,288,2086,2733,251,23
+zone 2,AM peak     ,Other : Shop                            ,7.26,286,26,127,134,0,0
+zone 2,AM peak     ,Other : Education                       ,7.29,176,41,40,95,0,0
+zone 2,AM peak     ,Other : Tourist                         ,12.99,253,0,52,201,0,0
+zone 2,AM peak     ,Other : Other                           ,8.11,1526,163,616,662,66,19
+zone 2,AM peak     ,Other : Unknown/Not Given               ,10.95,77,0,14,51,12,0
+zone 2,AM peak     ,Unknown/Not Given : Home                ,8.19,573,67,242,238,27,0
+zone 2,AM peak     ,Unknown/Not Given : Work                ,7.46,1570,496,495,420,158,0
+zone 2,AM peak     ,Unknown/Not Given : Shop                ,3.82,87,0,87,0,0,0
+zone 2,AM peak     ,Unknown/Not Given : Education           ,6.07,140,19,92,23,6,0
+zone 2,AM peak     ,Unknown/Not Given : Other               ,4.95,204,13,158,29,3,0
+zone 2,AM peak     ,Unknown/Not Given : Unknown/Not Given   ,10.97,14677,2254,3218,5117,3771,318
+zone 2,Midday      ,Home : Home                             ,8.37,1300,141,474,599,85,0
+zone 2,Midday      ,Home : Work                             ,8.35,55045,4913,25783,20476,3066,807
+zone 2,Midday      ,Home : Shop                             ,6.43,16807,2677,9243,4617,258,12
+zone 2,Midday      ,Home : Education                        ,7.61,22432,2887,9382,9532,586,45
+zone 2,Midday      ,Home : Tourist                          ,8.34,2519,96,1338,845,170,70
+zone 2,Midday      ,Home : Hotel                            ,9.2,1935,184,464,1146,113,28
+zone 2,Midday      ,Home : Other                            ,8.02,48559,6534,22719,16002,2515,789
+zone 2,Midday      ,Home : Unknown/Not Given                ,9.35,5279,1064,1487,2038,530,160
+zone 2,Midday      ,Work : Home                             ,9.47,28141,3352,10390,10522,3107,770
+zone 2,Midday      ,Work : Work                             ,7.87,27507,3155,14122,8173,1608,449
+zone 2,Midday      ,Work : Shop                             ,4.88,1809,412,1179,209,9,0
+zone 2,Midday      ,Work : Education                        ,7.95,1775,256,638,845,36,0
+zone 2,Midday      ,Work : Tourist                          ,7.25,150,0,48,102,0,0
+zone 2,Midday      ,Work : Hotel                            ,9.83,806,13,310,306,163,15
+zone 2,Midday      ,Work : Other                            ,8.06,5186,663,2498,1624,283,118
+zone 2,Midday      ,Work : Unknown/Not Given                ,7.93,248,16,99,100,34,0
+zone 2,Midday      ,Shop : Home                             ,7.92,7214,1305,2352,3180,315,62
+zone 2,Midday      ,Shop : Work                             ,7.6,378,147,100,76,32,23
+zone 2,Midday      ,Shop : Shop                             ,10.85,2133,157,622,933,333,87
+zone 2,Midday      ,Shop : Education                        ,4.34,343,261,14,68,0,0
+zone 2,Midday      ,Shop : Tourist                          ,11.03,105,0,17,84,4,0
+zone 2,Midday      ,Shop : Hotel                            ,8.29,172,0,125,47,0,0
+zone 2,Midday      ,Shop : Other                            ,8.35,2161,221,876,905,160,0
+zone 2,Midday      ,Shop : Unknown/Not Given                ,3.52,797,760,0,11,26,0
+zone 2,Midday      ,Education : Home                        ,8.21,10863,2151,3949,3417,1188,157
+zone 2,Midday      ,Education : Work                        ,5.91,813,61,656,71,26,0
+zone 2,Midday      ,Education : Shop                        ,7.25,445,78,187,181,0,0
+zone 2,Midday      ,Education : Education                   ,7.86,1916,452,702,555,207,0
+zone 2,Midday      ,Education : Hotel                       ,10.33,69,0,6,63,0,0
+zone 2,Midday      ,Education : Other                       ,6.86,1790,291,1093,352,43,12
+zone 2,Midday      ,Education : Unknown/Not Given           ,8.3,232,58,71,82,21,0
+zone 2,Midday      ,Tourist : Home                          ,4.53,1457,967,235,202,43,10
+zone 2,Midday      ,Tourist : Work                          ,10.87,144,0,76,68,0,0
+zone 2,Midday      ,Tourist : Shop                          ,1.69,108,91,17,0,0,0
+zone 2,Midday      ,Tourist : Education                     ,7.87,33,0,18,15,0,0
+zone 2,Midday      ,Tourist : Tourist                       ,6.22,792,62,661,49,19,0
+zone 2,Midday      ,Tourist : Hotel                         ,9.78,112,0,8,103,0,0
+zone 2,Midday      ,Tourist : Other                         ,8.8,194,9,99,86,0,0
+zone 2,Midday      ,Hotel : Home                            ,10.85,1211,24,395,707,85,0
+zone 2,Midday      ,Hotel : Work                            ,9.81,564,0,169,354,41,0
+zone 2,Midday      ,Hotel : Shop                            ,5.44,235,40,131,64,0,0
+zone 2,Midday      ,Hotel : Education                       ,4.98,104,0,104,0,0,0
+zone 2,Midday      ,Hotel : Tourist                         ,7.83,789,66,290,433,0,0
+zone 2,Midday      ,Hotel : Hotel                           ,8.63,185,14,132,19,21,0
+zone 2,Midday      ,Hotel : Other                           ,8.42,1483,235,338,847,56,8
+zone 2,Midday      ,Hotel : Unknown/Not Given               ,4.87,104,40,64,0,0,0
+zone 2,Midday      ,Other : Home                            ,8.88,12597,1866,5387,3411,1557,375
+zone 2,Midday      ,Other : Work                            ,7.72,4222,390,1938,1774,120,0
+zone 2,Midday      ,Other : Shop                            ,8.73,2772,354,1249,813,295,61
+zone 2,Midday      ,Other : Education                       ,10.16,940,24,426,353,61,76
+zone 2,Midday      ,Other : Tourist                         ,10.01,1353,109,376,775,57,36
+zone 2,Midday      ,Other : Hotel                           ,6.09,289,39,161,89,0,0
+zone 2,Midday      ,Other : Other                           ,8.49,7537,838,3372,2761,355,212
+zone 2,Midday      ,Other : Unknown/Not Given               ,8.63,148,4,40,97,7,0
+zone 2,Midday      ,Unknown/Not Given : Home                ,9.91,648,16,265,322,2,44
+zone 2,Midday      ,Unknown/Not Given : Work                ,8.68,301,3,123,174,0,0
+zone 2,Midday      ,Unknown/Not Given : Shop                ,7.78,90,0,49,41,0,0
+zone 2,Midday      ,Unknown/Not Given : Education           ,6.63,131,19,61,51,0,0
+zone 2,Midday      ,Unknown/Not Given : Tourist             ,8.11,190,4,5,181,0,0
+zone 2,Midday      ,Unknown/Not Given : Hotel               ,4.84,7,0,7,0,0,0
+zone 2,Midday      ,Unknown/Not Given : Other               ,7.23,776,118,450,156,10,42
+zone 2,Midday      ,Unknown/Not Given : Unknown/Not Given   ,8.38,22539,5773,8221,5647,2309,589
+zone 2,PM Peak     ,Home : Home                             ,11.9,903,104,137,403,211,48
+zone 2,PM Peak     ,Home : Work                             ,8.78,14068,1720,5472,5157,1420,298
+zone 2,PM Peak     ,Home : Shop                             ,6.44,4814,483,3016,1316,0,0
+zone 2,PM Peak     ,Home : Education                        ,7.7,3586,441,1788,1050,291,16
+zone 2,PM Peak     ,Home : Tourist                          ,9.61,220,14,103,68,34,0
+zone 2,PM Peak     ,Home : Hotel                            ,10.48,795,218,226,133,136,82
+zone 2,PM Peak     ,Home : Other                            ,7.94,32419,2900,16174,11436,1548,361
+zone 2,PM Peak     ,Home : Unknown/Not Given                ,9.12,4663,455,2012,1668,442,86
+zone 2,PM Peak     ,Work : Home                             ,10.68,140458,12697,51208,49323,20116,7113
+zone 2,PM Peak     ,Work : Work                             ,8.63,8889,898,3546,3634,666,144
+zone 2,PM Peak     ,Work : Shop                             ,6.69,1776,95,1126,464,88,3
+zone 2,PM Peak     ,Work : Education                        ,7.78,1949,495,649,708,40,57
+zone 2,PM Peak     ,Work : Tourist                          ,4.48,172,0,143,29,0,0
+zone 2,PM Peak     ,Work : Hotel                            ,9.51,1612,109,574,818,107,5
+zone 2,PM Peak     ,Work : Other                            ,8.36,18833,2130,7707,7643,1034,319
+zone 2,PM Peak     ,Work : Unknown/Not Given                ,9.94,1135,15,518,419,179,5
+zone 2,PM Peak     ,Shop : Home                             ,7.8,4825,1169,1353,1913,341,50
+zone 2,PM Peak     ,Shop : Work                             ,8.01,106,0,67,39,0,0
+zone 2,PM Peak     ,Shop : Shop                             ,3.81,358,86,272,0,0,0
+zone 2,PM Peak     ,Shop : Hotel                            ,8.77,103,0,26,77,0,0
+zone 2,PM Peak     ,Shop : Other                            ,6.33,781,153,478,150,0,0
+zone 2,PM Peak     ,Shop : Unknown/Not Given                ,2.43,126,122,4,0,0,0
+zone 2,PM Peak     ,Education : Home                        ,8.38,10878,1934,4469,3003,1186,286
+zone 2,PM Peak     ,Education : Work                        ,8.07,228,13,61,154,0,0
+zone 2,PM Peak     ,Education : Shop                        ,8.63,69,1,44,24,0,0
+zone 2,PM Peak     ,Education : Education                   ,5.62,889,130,629,75,55,0
+zone 2,PM Peak     ,Education : Hotel                       ,4.27,602,115,487,0,0,0
+zone 2,PM Peak     ,Education : Other                       ,12.59,797,30,135,448,85,99
+zone 2,PM Peak     ,Education : Unknown/Not Given           ,8.28,637,0,534,71,0,32
+zone 2,PM Peak     ,Tourist : Home                          ,10.19,782,26,210,490,57,0
+zone 2,PM Peak     ,Tourist : Work                          ,5.94,7,0,7,0,0,0
+zone 2,PM Peak     ,Tourist : Shop                          ,6.75,200,0,200,0,0,0
+zone 2,PM Peak     ,Tourist : Education                     ,6.75,8,0,8,0,0,0
+zone 2,PM Peak     ,Tourist : Tourist                       ,9.26,196,0,10,186,0,0
+zone 2,PM Peak     ,Tourist : Hotel                         ,7.15,801,0,457,345,0,0
+zone 2,PM Peak     ,Tourist : Other                         ,3.86,1237,936,133,167,0,0
+zone 2,PM Peak     ,Hotel : Home                            ,10.32,635,28,194,285,128,0
+zone 2,PM Peak     ,Hotel : Work                            ,8.21,296,0,228,0,68,0
+zone 2,PM Peak     ,Hotel : Shop                            ,5.98,173,0,146,27,0,0
+zone 2,PM Peak     ,Hotel : Hotel                           ,7.62,298,0,245,53,0,0
+zone 2,PM Peak     ,Hotel : Other                           ,6.13,771,1,667,103,0,0
+zone 2,PM Peak     ,Other : Home                            ,8.63,16529,2113,8233,4445,880,857
+zone 2,PM Peak     ,Other : Work                            ,6.96,1196,156,493,516,31,0
+zone 2,PM Peak     ,Other : Shop                            ,5.47,769,122,519,128,0,0
+zone 2,PM Peak     ,Other : Education                       ,7.12,1067,269,242,556,0,0
+zone 2,PM Peak     ,Other : Tourist                         ,8.9,181,0,71,110,0,0
+zone 2,PM Peak     ,Other : Hotel                           ,7.99,302,0,195,58,49,0
+zone 2,PM Peak     ,Other : Other                           ,7.91,7456,918,3994,2150,297,98
+zone 2,PM Peak     ,Other : Unknown/Not Given               ,4.83,52,37,0,9,6,0
+zone 2,PM Peak     ,Unknown/Not Given : Home                ,10.01,2888,299,821,1314,443,11
+zone 2,PM Peak     ,Unknown/Not Given : Work                ,6.46,878,100,688,90,0,0
+zone 2,PM Peak     ,Unknown/Not Given : Shop                ,7.53,63,0,63,0,0,0
+zone 2,PM Peak     ,Unknown/Not Given : Education           ,4.77,3,2,1,0,0,0
+zone 2,PM Peak     ,Unknown/Not Given : Hotel               ,8,49,0,16,33,0,0
+zone 2,PM Peak     ,Unknown/Not Given : Other               ,7.48,329,9,206,115,0,0
+zone 2,PM Peak     ,Unknown/Not Given : Unknown/Not Given   ,9.99,46363,4808,18797,14185,5889,2684
+zone 2,Evening     ,Home : Home                             ,6.97,352,3,240,102,7,0
+zone 2,Evening     ,Home : Work                             ,8.75,7364,985,2666,3131,380,201
+zone 2,Evening     ,Home : Shop                             ,3.05,231,171,17,43,0,0
+zone 2,Evening     ,Home : Education                        ,6.78,609,0,433,175,0,0
+zone 2,Evening     ,Home : Tourist                          ,4.59,4,2,2,0,0,0
+zone 2,Evening     ,Home : Hotel                            ,4.31,308,196,58,54,0,0
+zone 2,Evening     ,Home : Other                            ,6.45,11677,2521,6017,2783,302,54
+zone 2,Evening     ,Home : Unknown/Not Given                ,8.95,1114,166,363,417,134,33
+zone 2,Evening     ,Work : Home                             ,8.93,54192,6259,22475,19295,4833,1330
+zone 2,Evening     ,Work : Work                             ,8.64,1947,354,727,482,369,16
+zone 2,Evening     ,Work : Shop                             ,5.25,664,222,302,140,0,0
+zone 2,Evening     ,Work : Education                        ,3.84,78,31,41,6,0,0
+zone 2,Evening     ,Work : Hotel                            ,5.16,363,185,92,85,1,0
+zone 2,Evening     ,Work : Other                            ,7.43,4244,492,2368,1132,179,73
+zone 2,Evening     ,Work : Unknown/Not Given                ,6.92,156,35,61,51,9,0
+zone 2,Evening     ,Shop : Home                             ,7.75,4048,845,1554,1442,181,25
+zone 2,Evening     ,Shop : Work                             ,2.33,2,2,0,0,0,0
+zone 2,Evening     ,Shop : Shop                             ,10.37,113,37,0,47,29,0
+zone 2,Evening     ,Shop : Hotel                            ,7.86,111,0,101,10,0,0
+zone 2,Evening     ,Shop : Other                            ,19.71,188,7,28,21,0,132
+zone 2,Evening     ,Education : Home                        ,8.61,4712,776,1399,2132,350,54
+zone 2,Evening     ,Education : Work                        ,12.5,13,0,0,13,0,0
+zone 2,Evening     ,Education : Shop                        ,6.16,12,0,12,0,0,0
+zone 2,Evening     ,Education : Education                   ,5.13,306,171,46,82,1,5
+zone 2,Evening     ,Education : Other                       ,6.45,121,0,97,24,0,0
+zone 2,Evening     ,Education : Unknown/Not Given           ,5.89,9,0,9,0,0,0
+zone 2,Evening     ,Tourist : Home                          ,14.44,74,2,11,58,3,0
+zone 2,Evening     ,Tourist : Tourist                       ,4.57,47,5,42,0,0,0
+zone 2,Evening     ,Tourist : Hotel                         ,7.71,67,0,67,0,0,0
+zone 2,Evening     ,Hotel : Home                            ,9.63,875,79,414,221,132,30
+zone 2,Evening     ,Hotel : Work                            ,7.48,19,0,19,0,0,0
+zone 2,Evening     ,Hotel : Tourist                         ,2.61,20,20,0,0,0,0
+zone 2,Evening     ,Hotel : Hotel                           ,5.76,75,21,33,21,0,0
+zone 2,Evening     ,Hotel : Other                           ,34.63,118,2,0,5,0,110
+zone 2,Evening     ,Hotel : Unknown/Not Given               ,11.12,21,0,0,21,0,0
+zone 2,Evening     ,Other : Home                            ,8.9,19597,3141,7497,6364,2216,378
+zone 2,Evening     ,Other : Work                            ,6.67,195,0,131,63,0,0
+zone 2,Evening     ,Other : Shop                            ,4.92,314,29,274,11,0,0
+zone 2,Evening     ,Other : Education                       ,11.7,92,2,16,25,49,0
+zone 2,Evening     ,Other : Tourist                         ,11.7,43,0,10,33,0,0
+zone 2,Evening     ,Other : Hotel                           ,7.63,650,189,95,337,28,0
+zone 2,Evening     ,Other : Other                           ,9.33,3052,536,1154,823,410,129
+zone 2,Evening     ,Other : Unknown/Not Given               ,7.27,171,0,146,0,25,0
+zone 2,Evening     ,Unknown/Not Given : Home                ,7.59,1053,383,283,208,178,0
+zone 2,Evening     ,Unknown/Not Given : Work                ,7.38,113,0,101,12,0,0
+zone 2,Evening     ,Unknown/Not Given : Hotel               ,6.14,72,57,0,0,15,0
+zone 2,Evening     ,Unknown/Not Given : Other               ,10.24,44,0,12,30,3,0
+zone 2,Evening     ,Unknown/Not Given : Unknown/Not Given   ,11.34,13815,1654,4319,5078,1482,1281
+zone 2,Late        ,Home : Home                             ,18.24,24,0,1,1,22,0
+zone 2,Late        ,Home : Work                             ,8.67,1475,81,622,701,71,0
+zone 2,Late        ,Home : Shop                             ,6.8,58,19,11,28,0,0
+zone 2,Late        ,Home : Education                        ,12.12,326,0,13,259,0,53
+zone 2,Late        ,Home : Hotel                            ,4.22,48,36,0,12,0,0
+zone 2,Late        ,Home : Other                            ,9.27,1401,54,777,238,333,0
+zone 2,Late        ,Home : Unknown/Not Given                ,8.14,411,17,201,146,47,0
+zone 2,Late        ,Work : Home                             ,9.39,10114,1362,3696,3600,1298,157
+zone 2,Late        ,Work : Work                             ,7.45,821,117,485,161,58,0
+zone 2,Late        ,Work : Shop                             ,4.14,14,0,14,0,0,0
+zone 2,Late        ,Work : Education                        ,4.79,2,0,2,0,0,0
+zone 2,Late        ,Work : Hotel                            ,8.09,320,0,204,109,8,0
+zone 2,Late        ,Work : Other                            ,9.74,156,22,43,49,42,0
+zone 2,Late        ,Work : Unknown/Not Given                ,12.27,2,0,0,2,0,0
+zone 2,Late        ,Shop : Home                             ,10.56,438,44,140,255,0,0
+zone 2,Late        ,Shop : Work                             ,4.07,2,0,2,0,0,0
+zone 2,Late        ,Shop : Shop                             ,1.69,43,43,0,0,0,0
+zone 2,Late        ,Shop : Hotel                            ,10.08,4,0,0,4,0,0
+zone 2,Late        ,Shop : Other                            ,10.64,44,0,0,44,0,0
+zone 2,Late        ,Shop : Unknown/Not Given                ,4.07,3,0,3,0,0,0
+zone 2,Late        ,Education : Home                        ,8.84,695,45,248,380,22,0
+zone 2,Late        ,Education : Shop                        ,3.46,1,0,1,0,0,0
+zone 2,Late        ,Education : Education                   ,9.94,36,1,23,0,12,0
+zone 2,Late        ,Education : Other                       ,3.89,99,77,7,14,0,0
+zone 2,Late        ,Tourist : Home                          ,10.11,9,0,0,9,0,0
+zone 2,Late        ,Tourist : Tourist                       ,4.65,38,0,37,1,0,0
+zone 2,Late        ,Tourist : Hotel                         ,8.57,37,0,23,13,0,0
+zone 2,Late        ,Hotel : Home                            ,7.47,479,146,86,217,26,4
+zone 2,Late        ,Hotel : Work                            ,4.22,12,0,12,0,0,0
+zone 2,Late        ,Hotel : Tourist                         ,3.92,54,0,54,0,0,0
+zone 2,Late        ,Hotel : Hotel                           ,10.71,83,0,1,82,0,0
+zone 2,Late        ,Hotel : Other                           ,8.96,1,0,0,1,0,0
+zone 2,Late        ,Other : Home                            ,8.65,15794,2092,6361,5647,1441,253
+zone 2,Late        ,Other : Work                            ,7.09,2,0,2,0,0,0
+zone 2,Late        ,Other : Shop                            ,5.5,17,0,17,0,0,0
+zone 2,Late        ,Other : Tourist                         ,8.31,2,0,0,2,0,0
+zone 2,Late        ,Other : Hotel                           ,6.41,423,47,347,27,2,0
+zone 2,Late        ,Other : Other                           ,7.51,1075,161,546,258,84,28
+zone 2,Late        ,Other : Unknown/Not Given               ,17.36,28,0,1,0,27,0
+zone 2,Late        ,Unknown/Not Given : Home                ,6.8,559,139,223,180,17,0
+zone 2,Late        ,Unknown/Not Given : Work                ,16.59,298,0,20,0,278,0
+zone 2,Late        ,Unknown/Not Given : Shop                ,3.15,46,0,46,0,0,0
+zone 2,Late        ,Unknown/Not Given : Other               ,3.62,42,0,42,0,0,0
+zone 2,Late        ,Unknown/Not Given : Unknown/Not Given   ,9.32,21787,3615,7488,7819,1967,897
+zone 2,   Total day,Home : Home                             ,9.27,3095,256,1164,1267,348,59
+zone 2,   Total day,Home : Work                             ,8.35,396465,35301,175966,161997,18932,4269
+zone 2,   Total day,Home : Shop                             ,6.4,23855,3632,13342,6580,288,13
+zone 2,   Total day,Home : Education                        ,7.97,43258,4443,19351,17255,1941,267
+zone 2,   Total day,Home : Tourist                          ,8.33,3613,118,1909,1304,212,70
+zone 2,   Total day,Home : Hotel                            ,9.56,3725,662,868,1738,289,169
+zone 2,   Total day,Home : Other                            ,7.85,108533,13824,52334,35536,5174,1665
+zone 2,   Total day,Home : Unknown/Not Given                ,8.91,15860,2197,6238,5610,1473,342
+zone 2,   Total day,Work : Home                             ,10.08,237794,23947,89449,84990,29795,9613
+zone 2,   Total day,Work : Work                             ,8.13,48144,5448,22564,16429,3032,671
+zone 2,   Total day,Work : Shop                             ,5.71,4303,730,2642,833,97,3
+zone 2,   Total day,Work : Education                        ,7.6,4112,846,1502,1632,76,57
+zone 2,   Total day,Work : Tourist                          ,5.77,322,0,191,131,0,0
+zone 2,   Total day,Work : Hotel                            ,9.04,3111,306,1179,1319,278,28
+zone 2,   Total day,Work : Other                            ,8.17,28705,3311,12808,10539,1538,510
+zone 2,   Total day,Work : Unknown/Not Given                ,9.27,1634,66,726,604,233,5
+zone 2,   Total day,Shop : Home                             ,7.87,16700,3410,5508,6808,837,137
+zone 2,   Total day,Shop : Work                             ,8.46,556,180,173,122,38,43
+zone 2,   Total day,Shop : Shop                             ,9.72,2701,323,901,1027,362,87
+zone 2,   Total day,Shop : Education                        ,4.34,343,261,14,68,0,0
+zone 2,   Total day,Shop : Tourist                          ,11.03,105,0,17,84,4,0
+zone 2,   Total day,Shop : Hotel                            ,8.32,390,0,252,138,0,0
+zone 2,   Total day,Shop : Other                            ,8.56,3175,381,1382,1119,160,132
+zone 2,   Total day,Shop : Unknown/Not Given                ,3.46,974,882,55,11,26,0
+zone 2,   Total day,Education : Home                        ,8.37,27716,5015,10233,9153,2800,514
+zone 2,   Total day,Education : Work                        ,7.62,2897,151,1578,1092,75,0
+zone 2,   Total day,Education : Shop                        ,7.35,548,88,244,215,0,0
+zone 2,   Total day,Education : Education                   ,7.55,4027,821,1621,1177,402,6
+zone 2,   Total day,Education : Tourist                     ,11.68,3,0,0,3,0,0
+zone 2,   Total day,Education : Hotel                       ,4.89,671,115,493,63,0,0
+zone 2,   Total day,Education : Other                       ,8.47,3082,421,1401,997,153,111
+zone 2,   Total day,Education : Unknown/Not Given           ,8.2,896,58,626,159,21,32
+zone 2,   Total day,Tourist : Home                          ,6.78,2321,994,456,759,103,10
+zone 2,   Total day,Tourist : Work                          ,10.65,151,0,83,68,0,0
+zone 2,   Total day,Tourist : Shop                          ,5.02,344,91,253,0,0,0
+zone 2,   Total day,Tourist : Education                     ,7.65,41,0,26,15,0,0
+zone 2,   Total day,Tourist : Tourist                       ,6.78,1203,67,813,304,19,0
+zone 2,   Total day,Tourist : Hotel                         ,7.53,1017,0,555,461,0,0
+zone 2,   Total day,Tourist : Other                         ,4.53,1431,945,233,253,0,0
+zone 2,   Total day,Hotel : Home                            ,9.68,3457,278,1232,1543,370,34
+zone 2,   Total day,Hotel : Work                            ,7.79,4249,303,2315,1343,287,0
+zone 2,   Total day,Hotel : Shop                            ,5.88,491,40,361,91,0,0
+zone 2,   Total day,Hotel : Education                       ,7.09,230,9,112,110,0,0
+zone 2,   Total day,Hotel : Tourist                         ,7.88,1095,86,407,602,0,0
+zone 2,   Total day,Hotel : Hotel                           ,8.28,724,35,442,227,21,0
+zone 2,   Total day,Hotel : Other                           ,9.07,2949,262,1228,1285,56,118
+zone 2,   Total day,Hotel : Unknown/Not Given               ,7.36,188,40,79,70,0,0
+zone 2,   Total day,Other : Home                            ,8.77,65778,9421,27845,20414,6215,1882
+zone 2,   Total day,Other : Work                            ,8.07,11035,834,4650,5126,402,23
+zone 2,   Total day,Other : Shop                            ,7.72,4159,532,2185,1086,295,61
+zone 2,   Total day,Other : Education                       ,8.58,2276,337,723,1029,110,76
+zone 2,   Total day,Other : Tourist                         ,10.35,1833,109,509,1122,57,36
+zone 2,   Total day,Other : Hotel                           ,7.12,1665,275,798,513,79,0
+zone 2,   Total day,Other : Other                           ,8.33,20649,2616,9684,6652,1211,486
+zone 2,   Total day,Other : Unknown/Not Given               ,8.61,476,42,201,157,76,0
+zone 2,   Total day,Unknown/Not Given : Home                ,9.05,5721,904,1834,2262,666,55
+zone 2,   Total day,Unknown/Not Given : Work                ,8.16,3159,599,1427,697,436,0
+zone 2,   Total day,Unknown/Not Given : Shop                ,5.77,287,0,245,41,0,0
+zone 2,   Total day,Unknown/Not Given : Education           ,6.32,275,39,155,74,6,0
+zone 2,   Total day,Unknown/Not Given : Tourist             ,8.11,190,4,5,181,0,0
+zone 2,   Total day,Unknown/Not Given : Hotel               ,6.79,128,57,23,33,15,0
+zone 2,   Total day,Unknown/Not Given : Other               ,6.94,1395,140,869,329,17,42
+zone 2,   Total day,Unknown/Not Given : Unknown/Not Given   ,9.82,172496,21653,62957,59446,21085,7355
+zone 3,Early       ,Home : Work                             ,13.21,714,28,105,443,126,12
+zone 3,Early       ,Home : Education                        ,14.79,27,0,1,25,0,0
+zone 3,Early       ,Home : Other                            ,20.77,38,0,1,1,36,0
+zone 3,Early       ,Home : Unknown/Not Given                ,4.74,16,14,0,0,2,0
+zone 3,Early       ,Work : Home                             ,19.4,11,0,0,4,0,7
+zone 3,Early       ,Work : Work                             ,15.89,0,0,0,0,0,0
+zone 3,Early       ,Other : Work                            ,15.45,7,0,0,7,0,0
+zone 3,Early       ,Other : Education                       ,10.03,1,0,0,1,0,0
+zone 3,Early       ,Unknown/Not Given : Work                ,13.24,8,0,0,8,0,0
+zone 3,Early       ,Unknown/Not Given : Unknown/Not Given   ,12.67,52338,2230,9078,28378,10283,2369
+zone 3,AM peak     ,Home : Home                             ,13.17,492,47,61,273,36,75
+zone 3,AM peak     ,Home : Work                             ,11.53,166777,7700,26914,107446,21919,2799
+zone 3,AM peak     ,Home : Shop                             ,10.82,826,114,178,345,184,5
+zone 3,AM peak     ,Home : Education                        ,11.05,9424,957,2014,4492,1657,305
+zone 3,AM peak     ,Home : Tourist                          ,13.51,641,8,24,526,30,53
+zone 3,AM peak     ,Home : Hotel                            ,13.13,578,18,86,357,106,12
+zone 3,AM peak     ,Home : Other                            ,10.96,8173,818,1630,4549,863,313
+zone 3,AM peak     ,Home : Unknown/Not Given                ,10.29,2446,281,557,1233,327,48
+zone 3,AM peak     ,Work : Home                             ,13.65,986,31,272,349,222,112
+zone 3,AM peak     ,Work : Work                             ,10.87,2480,176,524,1465,216,99
+zone 3,AM peak     ,Work : Shop                             ,3.83,1,0,1,0,0,0
+zone 3,AM peak     ,Work : Education                        ,5.49,81,49,0,31,1,0
+zone 3,AM peak     ,Work : Hotel                            ,23.77,26,0,0,0,26,0
+zone 3,AM peak     ,Work : Other                            ,14.15,150,16,30,57,44,3
+zone 3,AM peak     ,Work : Unknown/Not Given                ,12.6,133,12,0,111,11,0
+zone 3,AM peak     ,Shop : Home                             ,6.35,24,15,0,9,0,0
+zone 3,AM peak     ,Shop : Work                             ,8.9,108,36,24,14,34,0
+zone 3,AM peak     ,Shop : Shop                             ,8.74,22,0,10,12,0,0
+zone 3,AM peak     ,Shop : Hotel                            ,11.6,11,0,0,11,0,0
+zone 3,AM peak     ,Shop : Other                            ,8.8,6,0,0,6,0,0
+zone 3,AM peak     ,Shop : Unknown/Not Given                ,15.97,2,0,0,2,0,0
+zone 3,AM peak     ,Education : Home                        ,9.16,267,0,193,27,46,0
+zone 3,AM peak     ,Education : Work                        ,11.35,1185,96,245,601,243,0
+zone 3,AM peak     ,Education : Shop                        ,17.31,4,0,0,0,4,0
+zone 3,AM peak     ,Education : Education                   ,11.07,760,94,261,236,99,70
+zone 3,AM peak     ,Education : Other                       ,9.1,64,6,11,47,0,0
+zone 3,AM peak     ,Tourist : Home                          ,8.24,89,0,0,89,0,0
+zone 3,AM peak     ,Tourist : Tourist                       ,13.45,35,0,0,35,0,0
+zone 3,AM peak     ,Tourist : Hotel                         ,17.6,11,0,0,0,11,0
+zone 3,AM peak     ,Tourist : Other                         ,1.71,26,26,0,0,0,0
+zone 3,AM peak     ,Hotel : Home                            ,14.63,333,0,17,264,52,0
+zone 3,AM peak     ,Hotel : Work                            ,12.94,1350,3,123,949,271,4
+zone 3,AM peak     ,Hotel : Shop                            ,12.87,110,0,0,110,0,0
+zone 3,AM peak     ,Hotel : Education                       ,7.29,16,0,14,1,0,0
+zone 3,AM peak     ,Hotel : Tourist                         ,8.94,219,0,86,133,0,0
+zone 3,AM peak     ,Hotel : Hotel                           ,14.55,115,0,33,0,81,0
+zone 3,AM peak     ,Hotel : Other                           ,10.8,107,0,0,107,0,0
+zone 3,AM peak     ,Other : Home                            ,8.99,830,230,105,348,79,67
+zone 3,AM peak     ,Other : Work                            ,12.62,2078,173,289,1220,287,109
+zone 3,AM peak     ,Other : Shop                            ,11.82,47,0,0,47,0,0
+zone 3,AM peak     ,Other : Education                       ,13.47,141,0,7,86,47,2
+zone 3,AM peak     ,Other : Tourist                         ,12.31,89,0,0,74,15,0
+zone 3,AM peak     ,Other : Hotel                           ,5.53,0,0,0,0,0,0
+zone 3,AM peak     ,Other : Other                           ,12.52,462,14,78,324,44,2
+zone 3,AM peak     ,Other : Unknown/Not Given               ,2.45,30,29,0,1,0,0
+zone 3,AM peak     ,Unknown/Not Given : Home                ,4.4,44,29,0,15,0,0
+zone 3,AM peak     ,Unknown/Not Given : Work                ,13.25,1441,27,239,866,162,147
+zone 3,AM peak     ,Unknown/Not Given : Education           ,15.63,262,46,0,85,116,15
+zone 3,AM peak     ,Unknown/Not Given : Other               ,10.38,34,0,0,33,0,0
+zone 3,AM peak     ,Unknown/Not Given : Unknown/Not Given   ,12.58,6510,346,1096,3773,917,378
+zone 3,Midday      ,Home : Home                             ,8.01,985,216,284,393,63,30
+zone 3,Midday      ,Home : Work                             ,11.47,26972,984,5682,16155,3250,901
+zone 3,Midday      ,Home : Shop                             ,8.49,7759,1599,1502,4467,176,16
+zone 3,Midday      ,Home : Education                        ,11.27,10766,426,1924,6857,1389,170
+zone 3,Midday      ,Home : Tourist                          ,12.64,1558,112,28,1193,64,160
+zone 3,Midday      ,Home : Hotel                            ,11.48,849,35,151,549,99,15
+zone 3,Midday      ,Home : Other                            ,11.15,23025,1804,4574,13376,2552,719
+zone 3,Midday      ,Home : Unknown/Not Given                ,10.03,2304,763,218,934,213,175
+zone 3,Midday      ,Work : Home                             ,10.47,7392,1314,2136,2193,1180,569
+zone 3,Midday      ,Work : Work                             ,10.96,6928,510,1886,3399,882,250
+zone 3,Midday      ,Work : Shop                             ,7.44,285,66,100,96,24,0
+zone 3,Midday      ,Work : Education                        ,13.88,455,69,82,139,35,129
+zone 3,Midday      ,Work : Tourist                          ,4.46,96,64,0,31,0,0
+zone 3,Midday      ,Work : Hotel                            ,13.99,180,15,0,140,0,25
+zone 3,Midday      ,Work : Other                            ,10.18,1195,85,349,561,183,18
+zone 3,Midday      ,Work : Unknown/Not Given                ,8.98,184,50,8,126,1,0
+zone 3,Midday      ,Shop : Home                             ,5.1,2766,1294,1068,356,25,23
+zone 3,Midday      ,Shop : Work                             ,7.82,115,19,16,77,3,0
+zone 3,Midday      ,Shop : Shop                             ,10.38,844,69,107,622,1,45
+zone 3,Midday      ,Shop : Education                        ,6,63,0,55,8,0,0
+zone 3,Midday      ,Shop : Tourist                          ,16.57,34,0,0,0,34,0
+zone 3,Midday      ,Shop : Hotel                            ,9.94,34,0,4,29,0,0
+zone 3,Midday      ,Shop : Other                            ,9.24,248,49,49,137,13,0
+zone 3,Midday      ,Shop : Unknown/Not Given                ,4.79,53,0,53,0,0,0
+zone 3,Midday      ,Education : Home                        ,9.66,3360,488,1253,989,386,244
+zone 3,Midday      ,Education : Work                        ,10.23,184,55,0,103,27,0
+zone 3,Midday      ,Education : Shop                        ,12.7,249,24,2,105,118,0
+zone 3,Midday      ,Education : Education                   ,12.08,1192,61,223,599,264,45
+zone 3,Midday      ,Education : Tourist                     ,25.21,1,0,0,0,0,1
+zone 3,Midday      ,Education : Other                       ,8.84,367,21,151,152,41,3
+zone 3,Midday      ,Education : Unknown/Not Given           ,5.65,80,22,23,36,0,0
+zone 3,Midday      ,Tourist : Home                          ,19.79,137,4,6,24,71,33
+zone 3,Midday      ,Tourist : Shop                          ,5.53,26,0,26,0,0,0
+zone 3,Midday      ,Tourist : Tourist                       ,17.2,286,0,4,234,0,48
+zone 3,Midday      ,Tourist : Hotel                         ,13.55,77,0,8,45,24,0
+zone 3,Midday      ,Tourist : Other                         ,14.14,32,0,0,24,8,0
+zone 3,Midday      ,Hotel : Home                            ,10.44,706,33,311,194,130,39
+zone 3,Midday      ,Hotel : Work                            ,11.84,236,0,1,235,0,0
+zone 3,Midday      ,Hotel : Shop                            ,13.28,293,0,4,232,57,0
+zone 3,Midday      ,Hotel : Education                       ,15.62,73,0,11,32,0,31
+zone 3,Midday      ,Hotel : Tourist                         ,11.04,247,0,40,181,27,0
+zone 3,Midday      ,Hotel : Hotel                           ,11.77,230,0,0,230,0,0
+zone 3,Midday      ,Hotel : Other                           ,15.5,212,0,37,120,24,30
+zone 3,Midday      ,Hotel : Unknown/Not Given               ,13.49,154,0,0,135,19,0
+zone 3,Midday      ,Other : Home                            ,9.81,4436,866,1393,1307,605,265
+zone 3,Midday      ,Other : Work                            ,10.93,1563,117,355,794,266,30
+zone 3,Midday      ,Other : Shop                            ,9.87,532,11,83,439,0,0
+zone 3,Midday      ,Other : Education                       ,8.4,241,65,37,120,20,0
+zone 3,Midday      ,Other : Tourist                         ,10.52,430,0,49,381,0,0
+zone 3,Midday      ,Other : Hotel                           ,11.98,229,0,5,224,0,0
+zone 3,Midday      ,Other : Other                           ,10.99,3139,173,771,1750,332,112
+zone 3,Midday      ,Other : Unknown/Not Given               ,11.85,233,32,49,73,69,11
+zone 3,Midday      ,Unknown/Not Given : Home                ,11.63,374,97,17,153,89,18
+zone 3,Midday      ,Unknown/Not Given : Work                ,9.62,409,125,71,135,78,0
+zone 3,Midday      ,Unknown/Not Given : Shop                ,9.23,11,0,5,6,0,0
+zone 3,Midday      ,Unknown/Not Given : Education           ,7.43,145,0,70,75,0,0
+zone 3,Midday      ,Unknown/Not Given : Tourist             ,7.94,100,51,0,49,0,0
+zone 3,Midday      ,Unknown/Not Given : Hotel               ,11.68,29,0,0,29,0,0
+zone 3,Midday      ,Unknown/Not Given : Other               ,11.29,316,3,57,211,35,10
+zone 3,Midday      ,Unknown/Not Given : Unknown/Not Given   ,13.93,5109,123,1079,2334,1060,514
+zone 3,PM Peak     ,Home : Home                             ,17.33,228,18,55,46,20,89
+zone 3,PM Peak     ,Home : Work                             ,11.9,6723,548,751,4263,902,260
+zone 3,PM Peak     ,Home : Shop                             ,6.95,1565,444,424,697,0,0
+zone 3,PM Peak     ,Home : Education                        ,10.14,1322,104,251,895,72,0
+zone 3,PM Peak     ,Home : Tourist                          ,9.18,135,8,30,96,0,0
+zone 3,PM Peak     ,Home : Hotel                            ,16.62,497,41,73,147,102,134
+zone 3,PM Peak     ,Home : Other                            ,11.03,15868,1035,2927,9977,1662,267
+zone 3,PM Peak     ,Home : Unknown/Not Given                ,10.25,1062,379,205,190,242,47
+zone 3,PM Peak     ,Work : Home                             ,10.64,29125,4204,9229,9325,4263,2104
+zone 3,PM Peak     ,Work : Work                             ,10.78,2695,433,350,1370,368,174
+zone 3,PM Peak     ,Work : Shop                             ,10.5,265,0,99,141,25,0
+zone 3,PM Peak     ,Work : Education                        ,11.67,756,56,96,434,169,0
+zone 3,PM Peak     ,Work : Hotel                            ,9.03,545,19,249,214,64,0
+zone 3,PM Peak     ,Work : Other                            ,9.76,3987,279,1363,1896,345,103
+zone 3,PM Peak     ,Work : Unknown/Not Given                ,10.12,280,2,131,115,15,17
+zone 3,PM Peak     ,Shop : Home                             ,3.91,1428,760,548,115,4,0
+zone 3,PM Peak     ,Shop : Work                             ,9.55,62,29,4,12,0,18
+zone 3,PM Peak     ,Shop : Shop                             ,6.09,260,77,93,90,0,0
+zone 3,PM Peak     ,Shop : Education                        ,3.98,374,307,0,67,0,0
+zone 3,PM Peak     ,Shop : Hotel                            ,5.49,77,59,0,18,0,0
+zone 3,PM Peak     ,Shop : Other                            ,6.82,346,98,150,69,30,0
+zone 3,PM Peak     ,Education : Home                        ,12.57,4479,351,1611,1220,761,536
+zone 3,PM Peak     ,Education : Work                        ,9.46,56,13,0,43,0,0
+zone 3,PM Peak     ,Education : Shop                        ,8.22,117,0,8,109,0,0
+zone 3,PM Peak     ,Education : Education                   ,12.38,534,123,116,93,105,97
+zone 3,PM Peak     ,Education : Hotel                       ,5.69,59,0,59,0,0,0
+zone 3,PM Peak     ,Education : Other                       ,10.54,140,37,7,97,0,0
+zone 3,PM Peak     ,Education : Unknown/Not Given           ,15.22,128,0,0,124,0,4
+zone 3,PM Peak     ,Tourist : Home                          ,13.72,274,28,30,62,155,0
+zone 3,PM Peak     ,Tourist : Tourist                       ,3.83,8,0,8,0,0,0
+zone 3,PM Peak     ,Tourist : Hotel                         ,13.73,7,0,0,7,0,0
+zone 3,PM Peak     ,Tourist : Other                         ,18.7,13,0,0,0,13,0
+zone 3,PM Peak     ,Hotel : Home                            ,13.43,426,0,83,224,119,0
+zone 3,PM Peak     ,Hotel : Work                            ,12.59,41,0,0,41,0,0
+zone 3,PM Peak     ,Hotel : Tourist                         ,15.06,67,0,0,67,0,0
+zone 3,PM Peak     ,Hotel : Hotel                           ,6.51,89,12,8,69,0,0
+zone 3,PM Peak     ,Hotel : Other                           ,11.53,230,0,17,182,31,0
+zone 3,PM Peak     ,Hotel : Unknown/Not Given               ,1.49,4,4,0,0,0,0
+zone 3,PM Peak     ,Other : Home                            ,11.06,4811,747,1442,1343,882,397
+zone 3,PM Peak     ,Other : Work                            ,14.68,271,0,1,209,0,62
+zone 3,PM Peak     ,Other : Shop                            ,10.34,180,0,61,112,8,0
+zone 3,PM Peak     ,Other : Education                       ,7.33,77,21,24,32,0,0
+zone 3,PM Peak     ,Other : Hotel                           ,13.26,76,0,0,76,0,0
+zone 3,PM Peak     ,Other : Other                           ,10.87,2510,183,788,1144,379,17
+zone 3,PM Peak     ,Other : Unknown/Not Given               ,12.45,73,0,32,0,41,0
+zone 3,PM Peak     ,Unknown/Not Given : Home                ,10.49,532,27,222,190,55,38
+zone 3,PM Peak     ,Unknown/Not Given : Work                ,11.27,283,0,92,190,0,0
+zone 3,PM Peak     ,Unknown/Not Given : Education           ,5.12,35,28,0,0,8,0
+zone 3,PM Peak     ,Unknown/Not Given : Hotel               ,2.62,151,100,11,39,0,0
+zone 3,PM Peak     ,Unknown/Not Given : Other               ,4.32,229,119,61,46,1,2
+zone 3,PM Peak     ,Unknown/Not Given : Unknown/Not Given   ,13.38,4432,59,1431,1472,993,477
+zone 3,Evening     ,Home : Home                             ,9.45,175,16,67,86,6,0
+zone 3,Evening     ,Home : Work                             ,11.04,3285,119,647,2165,230,123
+zone 3,Evening     ,Home : Shop                             ,10.5,111,25,0,86,0,0
+zone 3,Evening     ,Home : Education                        ,10.37,265,17,45,157,46,0
+zone 3,Evening     ,Home : Tourist                          ,10.97,14,0,0,14,0,0
+zone 3,Evening     ,Home : Hotel                            ,9.73,49,13,10,18,0,7
+zone 3,Evening     ,Home : Other                            ,8.92,4746,1073,997,2247,374,55
+zone 3,Evening     ,Home : Unknown/Not Given                ,11.9,634,16,224,238,62,94
+zone 3,Evening     ,Work : Home                             ,10.3,10024,1383,3485,2807,2002,347
+zone 3,Evening     ,Work : Work                             ,8.51,406,55,142,173,35,0
+zone 3,Evening     ,Work : Shop                             ,2.26,74,47,28,0,0,0
+zone 3,Evening     ,Work : Education                        ,3.03,11,11,0,1,0,0
+zone 3,Evening     ,Work : Hotel                            ,12.36,125,2,35,88,0,0
+zone 3,Evening     ,Work : Other                            ,13.29,373,5,12,291,41,24
+zone 3,Evening     ,Work : Unknown/Not Given                ,4.04,74,62,0,12,0,0
+zone 3,Evening     ,Shop : Home                             ,6.11,309,123,79,94,0,12
+zone 3,Evening     ,Shop : Shop                             ,9.67,2,0,0,2,0,0
+zone 3,Evening     ,Shop : Other                            ,2.2,3,3,0,0,0,0
+zone 3,Evening     ,Education : Home                        ,9.34,1034,186,299,375,141,33
+zone 3,Evening     ,Education : Shop                        ,10.37,13,0,0,13,0,0
+zone 3,Evening     ,Education : Education                   ,12.05,166,0,34,132,0,0
+zone 3,Evening     ,Education : Other                       ,13.06,37,1,9,19,8,0
+zone 3,Evening     ,Education : Unknown/Not Given           ,6.85,12,0,12,0,0,0
+zone 3,Evening     ,Tourist : Home                          ,16.6,94,0,0,3,91,0
+zone 3,Evening     ,Hotel : Home                            ,12.36,267,11,126,46,59,26
+zone 3,Evening     ,Hotel : Work                            ,3.85,3,0,3,0,0,0
+zone 3,Evening     ,Hotel : Tourist                         ,13.24,3,0,0,3,0,0
+zone 3,Evening     ,Hotel : Hotel                           ,10.13,23,7,0,16,0,0
+zone 3,Evening     ,Hotel : Other                           ,1.59,35,33,0,2,0,0
+zone 3,Evening     ,Hotel : Unknown/Not Given               ,2.34,33,33,0,0,0,0
+zone 3,Evening     ,Other : Home                            ,9.46,4860,957,1590,1395,664,253
+zone 3,Evening     ,Other : Work                            ,10.29,1,0,0,1,0,0
+zone 3,Evening     ,Other : Shop                            ,3.51,41,31,11,0,0,0
+zone 3,Evening     ,Other : Hotel                           ,14.91,97,0,5,57,25,10
+zone 3,Evening     ,Other : Other                           ,10.64,819,31,304,312,100,73
+zone 3,Evening     ,Other : Unknown/Not Given               ,13.59,29,7,11,0,0,11
+zone 3,Evening     ,Unknown/Not Given : Home                ,12.64,191,33,16,74,0,68
+zone 3,Evening     ,Unknown/Not Given : Work                ,7.41,30,0,18,13,0,0
+zone 3,Evening     ,Unknown/Not Given : Other               ,3.7,75,0,75,0,0,0
+zone 3,Evening     ,Unknown/Not Given : Unknown/Not Given   ,10.77,2436,261,920,786,298,172
+zone 3,Late        ,Home : Home                             ,14.24,95,0,17,78,0,0
+zone 3,Late        ,Home : Work                             ,10.9,378,13,62,280,19,4
+zone 3,Late        ,Home : Shop                             ,5.77,34,8,25,0,0,0
+zone 3,Late        ,Home : Education                        ,9.81,54,0,0,54,0,0
+zone 3,Late        ,Home : Other                            ,12.21,229,0,64,65,98,1
+zone 3,Late        ,Home : Unknown/Not Given                ,21.81,22,0,2,0,11,10
+zone 3,Late        ,Work : Home                             ,9.82,1242,308,296,337,237,65
+zone 3,Late        ,Work : Work                             ,12.76,30,0,0,30,0,0
+zone 3,Late        ,Work : Other                            ,12.48,24,0,0,22,2,0
+zone 3,Late        ,Work : Unknown/Not Given                ,9.49,0,0,0,0,0,0
+zone 3,Late        ,Shop : Home                             ,18.69,31,10,0,0,0,20
+zone 3,Late        ,Shop : Other                            ,2.2,1,1,0,0,0,0
+zone 3,Late        ,Education : Home                        ,14.04,174,19,34,57,7,57
+zone 3,Late        ,Education : Other                       ,17.4,39,0,0,10,29,0
+zone 3,Late        ,Tourist : Home                          ,13.15,2,0,0,2,0,0
+zone 3,Late        ,Hotel : Home                            ,9.38,55,0,32,7,15,0
+zone 3,Late        ,Other : Home                            ,8.93,2196,481,647,689,319,59
+zone 3,Late        ,Other : Work                            ,11.99,9,0,0,6,2,0
+zone 3,Late        ,Other : Hotel                           ,12.12,71,0,2,64,5,0
+zone 3,Late        ,Other : Other                           ,6.7,407,23,322,27,25,10
+zone 3,Late        ,Other : Unknown/Not Given               ,9.7,43,0,0,42,1,0
+zone 3,Late        ,Unknown/Not Given : Home                ,7.71,54,28,5,22,0,0
+zone 3,Late        ,Unknown/Not Given : Work                ,35.69,13,0,0,0,0,13
+zone 3,Late        ,Unknown/Not Given : Hotel               ,14.35,50,0,0,50,0,0
+zone 3,Late        ,Unknown/Not Given : Other               ,8.52,90,0,45,45,0,0
+zone 3,Late        ,Unknown/Not Given : Unknown/Not Given   ,10.48,4108,529,1136,1729,558,155
+zone 3,   Total day,Home : Home                             ,10.8,1975,298,484,875,125,194
+zone 3,   Total day,Home : Work                             ,11.53,204849,9390,34162,130753,26446,4098
+zone 3,   Total day,Home : Shop                             ,8.45,10294,2189,2130,5594,360,21
+zone 3,   Total day,Home : Education                        ,11.1,21858,1503,4236,12480,3164,475
+zone 3,   Total day,Home : Tourist                          ,12.67,2347,128,82,1830,94,214
+zone 3,   Total day,Home : Hotel                            ,13.22,1974,107,320,1071,307,169
+zone 3,   Total day,Home : Other                            ,10.89,52078,4730,10193,30215,5586,1354
+zone 3,   Total day,Home : Unknown/Not Given                ,10.37,6484,1453,1206,2595,856,374
+zone 3,   Total day,Work : Home                             ,10.59,48781,7240,15417,15016,7904,3204
+zone 3,   Total day,Work : Work                             ,10.83,12540,1175,2902,6438,1502,523
+zone 3,   Total day,Work : Shop                             ,8.11,625,113,227,237,49,0
+zone 3,   Total day,Work : Education                        ,11.98,1303,185,178,605,206,129
+zone 3,   Total day,Work : Tourist                          ,4.46,96,64,0,31,0,0
+zone 3,   Total day,Work : Hotel                            ,10.96,876,35,284,442,90,25
+zone 3,   Total day,Work : Other                            ,10.2,5728,386,1754,2826,615,148
+zone 3,   Total day,Work : Unknown/Not Given                ,9.62,671,126,139,364,26,17
+zone 3,   Total day,Shop : Home                             ,4.89,4558,2203,1696,574,29,56
+zone 3,   Total day,Shop : Work                             ,8.61,286,84,43,103,37,18
+zone 3,   Total day,Shop : Shop                             ,9.36,1128,147,211,725,1,45
+zone 3,   Total day,Shop : Education                        ,4.27,437,307,55,75,0,0
+zone 3,   Total day,Shop : Tourist                          ,16.57,34,0,0,0,34,0
+zone 3,   Total day,Shop : Hotel                            ,7.28,122,59,4,58,0,0
+zone 3,   Total day,Shop : Other                            ,7.81,603,150,198,212,43,0
+zone 3,   Total day,Shop : Unknown/Not Given                ,5.22,55,0,53,2,0,0
+zone 3,   Total day,Education : Home                        ,11.09,9315,1044,3390,2669,1342,870
+zone 3,   Total day,Education : Work                        ,11.13,1425,164,246,746,269,0
+zone 3,   Total day,Education : Shop                        ,11.3,382,24,9,227,121,0
+zone 3,   Total day,Education : Education                   ,11.85,2651,279,634,1059,467,212
+zone 3,   Total day,Education : Tourist                     ,25.21,1,0,0,0,0,1
+zone 3,   Total day,Education : Hotel                       ,5.69,59,0,59,0,0,0
+zone 3,   Total day,Education : Other                       ,9.99,647,64,178,324,78,3
+zone 3,   Total day,Education : Unknown/Not Given           ,11.27,220,22,35,159,0,4
+zone 3,   Total day,Tourist : Home                          ,14.75,596,32,35,180,316,33
+zone 3,   Total day,Tourist : Shop                          ,5.53,26,0,26,0,0,0
+zone 3,   Total day,Tourist : Tourist                       ,16.46,329,0,12,269,0,48
+zone 3,   Total day,Tourist : Hotel                         ,14.03,95,0,8,52,35,0
+zone 3,   Total day,Tourist : Other                         ,10.37,71,26,0,24,21,0
+zone 3,   Total day,Hotel : Home                            ,12.18,1787,43,569,735,375,65
+zone 3,   Total day,Hotel : Work                            ,12.75,1630,3,128,1225,271,4
+zone 3,   Total day,Hotel : Shop                            ,13.17,403,0,4,342,57,0
+zone 3,   Total day,Hotel : Education                       ,14.14,89,0,25,33,0,31
+zone 3,   Total day,Hotel : Tourist                         ,10.7,536,0,125,384,27,0
+zone 3,   Total day,Hotel : Hotel                           ,11.35,457,19,42,315,81,0
+zone 3,   Total day,Hotel : Other                           ,12.24,584,34,53,412,55,30
+zone 3,   Total day,Hotel : Unknown/Not Given               ,11.32,191,37,0,135,19,0
+zone 3,   Total day,Other : Home                            ,9.91,17132,3282,5178,5081,2551,1040
+zone 3,   Total day,Other : Work                            ,12.09,3930,291,645,2238,555,201
+zone 3,   Total day,Other : Shop                            ,9.76,800,41,154,597,8,0
+zone 3,   Total day,Other : Education                       ,9.78,460,86,68,237,67,2
+zone 3,   Total day,Other : Tourist                         ,10.83,520,0,49,456,15,0
+zone 3,   Total day,Other : Hotel                           ,12.8,474,0,12,422,30,10
+zone 3,   Total day,Other : Other                           ,10.77,7337,423,2263,3556,880,215
+zone 3,   Total day,Other : Unknown/Not Given               ,11.16,408,69,92,115,110,22
+zone 3,   Total day,Unknown/Not Given : Home                ,10.84,1195,214,260,452,145,124
+zone 3,   Total day,Unknown/Not Given : Work                ,12.36,2184,152,421,1212,240,160
+zone 3,   Total day,Unknown/Not Given : Shop                ,9.23,11,0,5,6,0,0
+zone 3,   Total day,Unknown/Not Given : Education           ,12.11,442,73,70,159,124,15
+zone 3,   Total day,Unknown/Not Given : Tourist             ,7.94,100,51,0,49,0,0
+zone 3,   Total day,Unknown/Not Given : Hotel               ,6.34,230,100,11,119,0,0
+zone 3,   Total day,Unknown/Not Given : Other               ,8,744,121,239,335,36,12
+zone 3,   Total day,Unknown/Not Given : Unknown/Not Given   ,12.61,74932,3547,14739,38473,14109,4065
+zone 4,Early       ,Home : Work                             ,15.6,1863,54,139,771,780,119
+zone 4,Early       ,Home : Education                        ,15.05,71,7,4,34,26,0
+zone 4,Early       ,Home : Other                            ,16.76,54,0,0,12,42,0
+zone 4,Early       ,Home : Unknown/Not Given                ,19.14,6,0,0,2,0,4
+zone 4,Early       ,Work : Home                             ,17.88,12,2,0,1,9,1
+zone 4,Early       ,Work : Work                             ,16.25,6,0,0,4,3,0
+zone 4,Early       ,Other : Work                            ,13.1,13,0,0,8,5,1
+zone 4,Early       ,Unknown/Not Given : Work                ,9.73,6,0,4,0,1,0
+zone 4,Early       ,Unknown/Not Given : Unknown/Not Given   ,16.03,34330,837,4481,11464,13439,4109
+zone 4,AM peak     ,Home : Home                             ,10.44,279,29,141,36,55,18
+zone 4,AM peak     ,Home : Work                             ,15.09,89012,1800,10985,38258,32181,5788
+zone 4,AM peak     ,Home : Shop                             ,9.8,1095,250,223,423,169,30
+zone 4,AM peak     ,Home : Education                        ,13.68,7206,558,1022,2932,2226,468
+zone 4,AM peak     ,Home : Tourist                          ,16.12,640,12,2,310,262,53
+zone 4,AM peak     ,Home : Hotel                            ,18.1,279,0,6,23,243,7
+zone 4,AM peak     ,Home : Other                            ,14.3,5142,377,899,1577,1894,396
+zone 4,AM peak     ,Home : Unknown/Not Given                ,12.72,1146,19,133,774,174,47
+zone 4,AM peak     ,Work : Home                             ,16.07,989,40,292,156,355,146
+zone 4,AM peak     ,Work : Work                             ,12.7,2025,208,311,813,640,53
+zone 4,AM peak     ,Work : Shop                             ,17,1,0,0,0,1,0
+zone 4,AM peak     ,Work : Education                        ,10.13,3,0,0,3,0,0
+zone 4,AM peak     ,Work : Tourist                          ,11.02,10,0,0,9,1,0
+zone 4,AM peak     ,Work : Hotel                            ,45.47,8,0,0,0,0,8
+zone 4,AM peak     ,Work : Other                            ,13.12,93,0,0,86,7,0
+zone 4,AM peak     ,Work : Unknown/Not Given                ,19.72,16,0,0,0,15,1
+zone 4,AM peak     ,Shop : Home                             ,8.67,13,6,0,7,0,0
+zone 4,AM peak     ,Shop : Work                             ,21.85,7,0,0,0,7,0
+zone 4,AM peak     ,Shop : Shop                             ,11.06,120,9,12,60,38,0
+zone 4,AM peak     ,Education : Home                        ,8.88,341,87,63,117,50,24
+zone 4,AM peak     ,Education : Work                        ,14.79,564,0,49,238,272,5
+zone 4,AM peak     ,Education : Shop                        ,5.42,1,0,1,0,0,0
+zone 4,AM peak     ,Education : Education                   ,13.14,503,1,159,208,56,80
+zone 4,AM peak     ,Education : Other                       ,12.66,34,0,0,34,0,0
+zone 4,AM peak     ,Tourist : Tourist                       ,21.45,16,0,0,0,16,0
+zone 4,AM peak     ,Tourist : Other                         ,26.63,12,0,0,0,0,12
+zone 4,AM peak     ,Hotel : Home                            ,14.37,139,0,0,139,0,0
+zone 4,AM peak     ,Hotel : Work                            ,12.15,479,0,188,118,169,4
+zone 4,AM peak     ,Hotel : Shop                            ,12.7,74,20,0,34,20,0
+zone 4,AM peak     ,Hotel : Education                       ,6.76,8,2,2,4,0,0
+zone 4,AM peak     ,Hotel : Tourist                         ,16.4,3,0,0,2,0,1
+zone 4,AM peak     ,Hotel : Hotel                           ,16.91,60,0,0,23,36,0
+zone 4,AM peak     ,Hotel : Other                           ,18.93,16,0,0,11,0,6
+zone 4,AM peak     ,Other : Home                            ,13.79,530,66,130,40,202,92
+zone 4,AM peak     ,Other : Work                            ,15.09,1095,8,272,357,339,118
+zone 4,AM peak     ,Other : Shop                            ,14.98,24,0,0,15,9,0
+zone 4,AM peak     ,Other : Education                       ,20.12,50,0,0,10,33,7
+zone 4,AM peak     ,Other : Tourist                         ,15.95,8,0,0,4,3,0
+zone 4,AM peak     ,Other : Hotel                           ,4.37,23,0,23,0,0,0
+zone 4,AM peak     ,Other : Other                           ,15.62,623,45,72,93,390,24
+zone 4,AM peak     ,Unknown/Not Given : Home                ,6.4,193,127,0,64,3,0
+zone 4,AM peak     ,Unknown/Not Given : Work                ,15.84,225,4,12,109,71,29
+zone 4,AM peak     ,Unknown/Not Given : Shop                ,9.32,19,0,0,19,0,0
+zone 4,AM peak     ,Unknown/Not Given : Education           ,21.42,131,0,12,28,55,36
+zone 4,AM peak     ,Unknown/Not Given : Tourist             ,17.1,2,0,0,0,2,0
+zone 4,AM peak     ,Unknown/Not Given : Hotel               ,23.29,24,0,0,0,24,0
+zone 4,AM peak     ,Unknown/Not Given : Other               ,16.95,64,0,0,19,45,0
+zone 4,AM peak     ,Unknown/Not Given : Unknown/Not Given   ,13.76,5547,590,753,2378,1343,483
+zone 4,Midday      ,Home : Home                             ,11.99,296,54,50,134,35,24
+zone 4,Midday      ,Home : Work                             ,14.37,12912,534,1678,5745,4116,839
+zone 4,Midday      ,Home : Shop                             ,9.73,4443,879,1233,1721,468,142
+zone 4,Midday      ,Home : Education                        ,15.47,6128,79,585,2882,2135,447
+zone 4,Midday      ,Home : Tourist                          ,15.57,528,1,32,280,207,8
+zone 4,Midday      ,Home : Hotel                            ,12.12,697,1,181,359,132,24
+zone 4,Midday      ,Home : Other                            ,13.31,12451,1170,2176,4821,3362,922
+zone 4,Midday      ,Home : Unknown/Not Given                ,12.44,1220,161,373,247,311,128
+zone 4,Midday      ,Work : Home                             ,12.74,3852,291,1176,1109,850,427
+zone 4,Midday      ,Work : Work                             ,13.54,3244,213,573,1181,1128,150
+zone 4,Midday      ,Work : Shop                             ,10.58,213,47,5,154,6,1
+zone 4,Midday      ,Work : Education                        ,14.19,384,0,33,304,44,3
+zone 4,Midday      ,Work : Tourist                          ,16.5,4,0,0,0,4,0
+zone 4,Midday      ,Work : Hotel                            ,7.84,169,0,154,14,2,0
+zone 4,Midday      ,Work : Other                            ,13.42,642,86,91,240,163,62
+zone 4,Midday      ,Work : Unknown/Not Given                ,11.77,76,0,40,8,27,0
+zone 4,Midday      ,Shop : Home                             ,3.52,415,202,189,21,2,1
+zone 4,Midday      ,Shop : Work                             ,21.97,101,0,1,3,97,0
+zone 4,Midday      ,Shop : Shop                             ,10.75,288,22,91,136,39,0
+zone 4,Midday      ,Shop : Education                        ,5.1,45,5,36,0,3,0
+zone 4,Midday      ,Shop : Hotel                            ,6.88,69,0,62,0,7,0
+zone 4,Midday      ,Shop : Other                            ,5,8,2,5,1,0,0
+zone 4,Midday      ,Shop : Unknown/Not Given                ,8.83,77,0,0,77,0,0
+zone 4,Midday      ,Education : Home                        ,8.58,1919,399,860,323,170,167
+zone 4,Midday      ,Education : Work                        ,12.86,85,0,27,30,27,1
+zone 4,Midday      ,Education : Shop                        ,15.6,70,9,0,40,15,5
+zone 4,Midday      ,Education : Education                   ,12.74,692,5,114,341,232,0
+zone 4,Midday      ,Education : Tourist                     ,19.73,1,0,0,0,1,0
+zone 4,Midday      ,Education : Hotel                       ,19.15,10,0,0,2,7,0
+zone 4,Midday      ,Education : Other                       ,14.45,290,0,93,66,73,58
+zone 4,Midday      ,Education : Unknown/Not Given           ,3.19,122,2,119,0,0,0
+zone 4,Midday      ,Tourist : Home                          ,21.5,32,0,0,0,25,8
+zone 4,Midday      ,Tourist : Shop                          ,17.19,29,0,0,0,29,0
+zone 4,Midday      ,Tourist : Tourist                       ,11.07,15,0,5,8,1,0
+zone 4,Midday      ,Tourist : Hotel                         ,25.15,7,0,0,0,0,7
+zone 4,Midday      ,Tourist : Other                         ,13.75,9,3,0,0,7,0
+zone 4,Midday      ,Hotel : Home                            ,14.91,289,14,57,53,160,5
+zone 4,Midday      ,Hotel : Work                            ,15.56,232,0,0,101,131,0
+zone 4,Midday      ,Hotel : Shop                            ,14.05,141,0,52,0,88,0
+zone 4,Midday      ,Hotel : Education                       ,8.18,7,0,0,7,0,0
+zone 4,Midday      ,Hotel : Tourist                         ,20.67,218,0,0,29,164,25
+zone 4,Midday      ,Hotel : Hotel                           ,10.44,165,0,78,78,0,9
+zone 4,Midday      ,Hotel : Other                           ,10.82,329,0,185,116,28,0
+zone 4,Midday      ,Hotel : Unknown/Not Given               ,16.34,0,0,0,0,0,0
+zone 4,Midday      ,Other : Home                            ,10.81,2923,560,811,829,549,173
+zone 4,Midday      ,Other : Work                            ,15.76,508,18,54,260,105,72
+zone 4,Midday      ,Other : Shop                            ,12.09,281,27,88,73,92,1
+zone 4,Midday      ,Other : Education                       ,8.48,298,2,151,119,26,0
+zone 4,Midday      ,Other : Tourist                         ,14.87,191,0,12,80,94,5
+zone 4,Midday      ,Other : Hotel                           ,26.67,139,0,0,11,34,94
+zone 4,Midday      ,Other : Other                           ,13.52,1709,107,362,669,434,137
+zone 4,Midday      ,Other : Unknown/Not Given               ,13.03,186,19,13,84,71,0
+zone 4,Midday      ,Unknown/Not Given : Home                ,6.85,465,165,207,13,56,25
+zone 4,Midday      ,Unknown/Not Given : Work                ,19.04,25,0,0,2,23,1
+zone 4,Midday      ,Unknown/Not Given : Shop                ,7.73,56,18,12,26,0,0
+zone 4,Midday      ,Unknown/Not Given : Education           ,5.69,53,0,52,1,0,0
+zone 4,Midday      ,Unknown/Not Given : Tourist             ,21.83,6,0,0,0,6,0
+zone 4,Midday      ,Unknown/Not Given : Hotel               ,13.25,32,0,0,32,0,0
+zone 4,Midday      ,Unknown/Not Given : Other               ,12.34,91,10,12,40,30,0
+zone 4,Midday      ,Unknown/Not Given : Unknown/Not Given   ,13.96,6989,657,1130,2810,1495,898
+zone 4,PM Peak     ,Home : Home                             ,12.96,278,0,75,126,77,0
+zone 4,PM Peak     ,Home : Work                             ,15.19,3610,172,518,1320,1242,358
+zone 4,PM Peak     ,Home : Shop                             ,17.17,451,16,71,123,165,76
+zone 4,PM Peak     ,Home : Education                        ,11.61,1330,127,303,556,340,4
+zone 4,PM Peak     ,Home : Tourist                          ,9.25,198,0,144,40,14,0
+zone 4,PM Peak     ,Home : Hotel                            ,9.22,265,22,47,180,0,16
+zone 4,PM Peak     ,Home : Other                            ,14.05,7847,246,1293,3578,2202,528
+zone 4,PM Peak     ,Home : Unknown/Not Given                ,7.23,534,67,316,138,13,0
+zone 4,PM Peak     ,Work : Home                             ,12.09,16120,1260,5354,4716,3395,1396
+zone 4,PM Peak     ,Work : Work                             ,13.82,1774,20,384,748,462,159
+zone 4,PM Peak     ,Work : Shop                             ,10.43,212,20,57,96,39,0
+zone 4,PM Peak     ,Work : Education                        ,16.92,238,0,2,122,103,11
+zone 4,PM Peak     ,Work : Hotel                            ,12.56,290,1,106,70,114,0
+zone 4,PM Peak     ,Work : Other                            ,12.91,1984,153,418,737,574,102
+zone 4,PM Peak     ,Work : Unknown/Not Given                ,16.04,237,0,73,68,38,59
+zone 4,PM Peak     ,Shop : Home                             ,14.21,166,13,75,19,33,27
+zone 4,PM Peak     ,Shop : Work                             ,6.92,13,0,13,0,0,0
+zone 4,PM Peak     ,Shop : Shop                             ,7.03,198,98,37,63,0,0
+zone 4,PM Peak     ,Shop : Other                            ,8.42,50,0,40,4,7,0
+zone 4,PM Peak     ,Education : Home                        ,8.8,1745,248,836,357,225,80
+zone 4,PM Peak     ,Education : Work                        ,3.82,73,66,0,6,1,0
+zone 4,PM Peak     ,Education : Education                   ,7.2,537,1,379,124,25,7
+zone 4,PM Peak     ,Education : Other                       ,14.8,211,0,32,52,117,10
+zone 4,PM Peak     ,Education : Unknown/Not Given           ,8.3,0,0,0,0,0,0
+zone 4,PM Peak     ,Tourist : Home                          ,6.96,128,20,78,0,30,0
+zone 4,PM Peak     ,Tourist : Tourist                       ,20.13,18,0,0,0,18,0
+zone 4,PM Peak     ,Hotel : Home                            ,18.77,121,0,19,1,84,17
+zone 4,PM Peak     ,Hotel : Work                            ,19.78,17,0,0,0,17,0
+zone 4,PM Peak     ,Hotel : Education                       ,18.83,26,0,0,0,26,0
+zone 4,PM Peak     ,Hotel : Tourist                         ,15.77,29,0,0,24,5,0
+zone 4,PM Peak     ,Hotel : Hotel                           ,13.22,139,0,50,0,90,0
+zone 4,PM Peak     ,Hotel : Other                           ,10.64,51,27,0,0,24,0
+zone 4,PM Peak     ,Hotel : Unknown/Not Given               ,20.22,151,0,0,0,151,0
+zone 4,PM Peak     ,Other : Home                            ,13.61,1827,201,463,368,511,283
+zone 4,PM Peak     ,Other : Work                            ,7.72,135,0,110,15,10,0
+zone 4,PM Peak     ,Other : Shop                            ,16.16,51,0,0,0,51,0
+zone 4,PM Peak     ,Other : Education                       ,16.65,23,0,0,0,23,0
+zone 4,PM Peak     ,Other : Tourist                         ,28.46,49,0,0,0,0,49
+zone 4,PM Peak     ,Other : Hotel                           ,21.18,47,0,0,18,11,18
+zone 4,PM Peak     ,Other : Other                           ,11.52,1036,115,323,367,153,78
+zone 4,PM Peak     ,Other : Unknown/Not Given               ,11.63,91,0,31,31,28,0
+zone 4,PM Peak     ,Unknown/Not Given : Home                ,17.84,474,0,69,119,125,162
+zone 4,PM Peak     ,Unknown/Not Given : Work                ,25.28,12,0,1,0,0,11
+zone 4,PM Peak     ,Unknown/Not Given : Shop                ,18.16,6,0,3,0,0,3
+zone 4,PM Peak     ,Unknown/Not Given : Education           ,14.65,11,0,0,11,0,0
+zone 4,PM Peak     ,Unknown/Not Given : Other               ,24.89,150,0,0,7,20,123
+zone 4,PM Peak     ,Unknown/Not Given : Unknown/Not Given   ,10.59,5482,1013,1872,1355,507,735
+zone 4,Evening     ,Home : Home                             ,22.65,23,0,0,0,12,11
+zone 4,Evening     ,Home : Work                             ,15.07,1676,30,186,873,377,210
+zone 4,Evening     ,Home : Shop                             ,6.85,8,6,0,0,3,0
+zone 4,Evening     ,Home : Education                        ,18.37,43,0,0,12,31,0
+zone 4,Evening     ,Home : Hotel                            ,9.68,118,0,52,52,12,2
+zone 4,Evening     ,Home : Other                            ,10.98,1837,273,298,858,352,56
+zone 4,Evening     ,Home : Unknown/Not Given                ,7.98,317,0,245,47,24,1
+zone 4,Evening     ,Work : Home                             ,11.18,5278,458,1897,1657,817,448
+zone 4,Evening     ,Work : Work                             ,12.84,417,20,89,198,110,0
+zone 4,Evening     ,Work : Shop                             ,7.42,4,0,3,2,0,0
+zone 4,Evening     ,Work : Hotel                            ,16.54,22,0,0,16,5,0
+zone 4,Evening     ,Work : Other                            ,16.36,357,0,32,200,19,105
+zone 4,Evening     ,Work : Unknown/Not Given                ,4.58,66,0,66,0,0,0
+zone 4,Evening     ,Shop : Home                             ,3.79,86,69,15,0,2,0
+zone 4,Evening     ,Education : Home                        ,8.15,461,81,222,66,93,0
+zone 4,Evening     ,Education : Work                        ,23.55,10,0,0,0,10,0
+zone 4,Evening     ,Education : Education                   ,10.12,81,0,61,0,19,0
+zone 4,Evening     ,Education : Hotel                       ,12.41,20,0,0,20,0,0
+zone 4,Evening     ,Education : Other                       ,5.11,120,88,0,20,9,2
+zone 4,Evening     ,Tourist : Home                          ,18.73,1,0,0,0,1,0
+zone 4,Evening     ,Tourist : Tourist                       ,2.53,18,18,0,0,0,0
+zone 4,Evening     ,Hotel : Home                            ,8.34,180,1,125,27,26,0
+zone 4,Evening     ,Hotel : Hotel                           ,21.44,66,0,0,11,54,0
+zone 4,Evening     ,Other : Home                            ,11.13,1981,375,563,644,121,278
+zone 4,Evening     ,Other : Work                            ,13.47,56,0,5,46,1,3
+zone 4,Evening     ,Other : Shop                            ,9.87,1,0,0,1,0,0
+zone 4,Evening     ,Other : Education                       ,17.51,10,0,0,0,10,0
+zone 4,Evening     ,Other : Hotel                           ,4.64,144,0,129,1,14,0
+zone 4,Evening     ,Other : Other                           ,8.73,455,26,306,58,65,0
+zone 4,Evening     ,Unknown/Not Given : Home                ,23.86,12,0,1,0,3,8
+zone 4,Evening     ,Unknown/Not Given : Work                ,12.23,37,0,0,37,0,0
+zone 4,Evening     ,Unknown/Not Given : Other               ,5.51,115,0,115,0,0,0
+zone 4,Evening     ,Unknown/Not Given : Unknown/Not Given   ,11.63,3009,533,691,957,517,311
+zone 4,Late        ,Home : Home                             ,12.93,29,0,15,0,14,0
+zone 4,Late        ,Home : Work                             ,12.25,121,14,17,64,24,2
+zone 4,Late        ,Home : Education                        ,16.74,11,0,0,1,11,0
+zone 4,Late        ,Home : Other                            ,12.12,145,0,34,69,27,14
+zone 4,Late        ,Home : Unknown/Not Given                ,15,61,0,24,0,38,0
+zone 4,Late        ,Work : Home                             ,8.7,759,114,379,166,34,67
+zone 4,Late        ,Work : Work                             ,14.23,168,15,44,3,106,0
+zone 4,Late        ,Work : Other                            ,28.57,5,0,0,0,0,5
+zone 4,Late        ,Work : Unknown/Not Given                ,20.36,14,0,0,0,14,0
+zone 4,Late        ,Shop : Home                             ,3.38,12,0,12,0,0,0
+zone 4,Late        ,Education : Home                        ,6.12,11,3,5,3,0,0
+zone 4,Late        ,Education : Education                   ,23.2,29,0,0,0,29,0
+zone 4,Late        ,Education : Other                       ,28.81,0,0,0,0,0,0
+zone 4,Late        ,Tourist : Other                         ,6.1,1,0,1,0,0,0
+zone 4,Late        ,Hotel : Home                            ,15.29,74,0,14,17,43,0
+zone 4,Late        ,Hotel : Hotel                           ,18.89,38,0,0,20,19,0
+zone 4,Late        ,Other : Home                            ,16.42,1029,27,267,316,98,322
+zone 4,Late        ,Other : Work                            ,28.39,1,0,0,0,0,1
+zone 4,Late        ,Other : Hotel                           ,16.04,19,0,0,2,16,0
+zone 4,Late        ,Other : Other                           ,13.88,6,0,0,5,1,0
+zone 4,Late        ,Unknown/Not Given : Home                ,12.45,10,0,0,10,0,0
+zone 4,Late        ,Unknown/Not Given : Work                ,9.99,0,0,0,0,0,0
+zone 4,Late        ,Unknown/Not Given : Other               ,2.29,0,0,0,0,0,0
+zone 4,Late        ,Unknown/Not Given : Unknown/Not Given   ,13.41,3478,232,883,1098,819,445
+zone 4,   Total day,Home : Home                             ,12.11,906,82,281,296,194,53
+zone 4,   Total day,Home : Work                             ,15.02,109194,2603,13523,47032,38720,7316
+zone 4,   Total day,Home : Shop                             ,10.3,5997,1149,1527,2268,805,248
+zone 4,   Total day,Home : Education                        ,14.26,14789,771,1914,6418,4768,919
+zone 4,   Total day,Home : Tourist                          ,14.91,1366,13,178,630,482,61
+zone 4,   Total day,Home : Hotel                            ,12.57,1359,23,286,614,386,48
+zone 4,   Total day,Home : Other                            ,13.55,27475,2066,4700,10915,7879,1915
+zone 4,   Total day,Home : Unknown/Not Given                ,11.32,3285,248,1090,1207,560,180
+zone 4,   Total day,Work : Home                             ,12.06,27011,2165,9098,7803,5460,2484
+zone 4,   Total day,Work : Work                             ,13.36,7634,476,1401,2946,2448,362
+zone 4,   Total day,Work : Shop                             ,10.49,430,67,64,252,45,1
+zone 4,   Total day,Work : Education                        ,15.21,625,0,35,428,147,14
+zone 4,   Total day,Work : Tourist                          ,12.56,14,0,0,9,5,0
+zone 4,   Total day,Work : Hotel                            ,11.64,489,1,260,100,121,8
+zone 4,   Total day,Work : Other                            ,13.45,3081,239,541,1263,763,274
+zone 4,   Total day,Work : Unknown/Not Given                ,13.69,410,0,180,76,94,60
+zone 4,   Total day,Shop : Home                             ,6.22,691,289,290,47,37,27
+zone 4,   Total day,Shop : Work                             ,20.36,121,0,13,3,104,0
+zone 4,   Total day,Shop : Shop                             ,9.6,606,130,140,259,78,0
+zone 4,   Total day,Shop : Education                        ,5.1,45,5,36,0,3,0
+zone 4,   Total day,Shop : Hotel                            ,6.88,69,0,62,0,7,0
+zone 4,   Total day,Shop : Other                            ,7.93,59,2,45,5,7,0
+zone 4,   Total day,Shop : Unknown/Not Given                ,8.83,77,0,0,77,0,0
+zone 4,   Total day,Education : Home                        ,8.64,4478,817,1986,866,537,271
+zone 4,   Total day,Education : Work                        ,13.59,731,66,76,275,309,5
+zone 4,   Total day,Education : Shop                        ,15.5,71,9,1,40,15,5
+zone 4,   Total day,Education : Education                   ,11.28,1843,7,713,673,362,87
+zone 4,   Total day,Education : Tourist                     ,19.73,1,0,0,0,1,0
+zone 4,   Total day,Education : Hotel                       ,14.62,29,0,0,22,7,0
+zone 4,   Total day,Education : Other                       ,12.76,656,88,126,173,199,70
+zone 4,   Total day,Education : Unknown/Not Given           ,3.2,122,2,119,0,0,0
+zone 4,   Total day,Tourist : Home                          ,9.97,161,20,78,0,56,8
+zone 4,   Total day,Tourist : Shop                          ,17.19,29,0,0,0,29,0
+zone 4,   Total day,Tourist : Tourist                       ,13.75,66,18,5,8,35,0
+zone 4,   Total day,Tourist : Hotel                         ,25.15,7,0,0,0,0,7
+zone 4,   Total day,Tourist : Other                         ,20.18,23,3,1,0,7,12
+zone 4,   Total day,Hotel : Home                            ,13.97,804,16,215,237,313,22
+zone 4,   Total day,Hotel : Work                            ,13.41,727,0,188,219,317,4
+zone 4,   Total day,Hotel : Shop                            ,13.59,215,20,52,34,109,0
+zone 4,   Total day,Hotel : Education                       ,14.58,41,2,2,11,26,0
+zone 4,   Total day,Hotel : Tourist                         ,20.06,249,0,0,54,169,26
+zone 4,   Total day,Hotel : Hotel                           ,14.34,468,0,128,133,199,9
+zone 4,   Total day,Hotel : Other                           ,11.13,396,27,185,126,52,6
+zone 4,   Total day,Hotel : Unknown/Not Given               ,20.22,151,0,0,0,151,0
+zone 4,   Total day,Other : Home                            ,12.39,8290,1229,2234,2198,1481,1148
+zone 4,   Total day,Other : Work                            ,14.68,1809,26,441,685,461,196
+zone 4,   Total day,Other : Shop                            ,12.86,357,27,88,89,152,1
+zone 4,   Total day,Other : Education                       ,10.74,381,2,151,129,93,7
+zone 4,   Total day,Other : Tourist                         ,17.61,248,0,12,84,97,55
+zone 4,   Total day,Other : Hotel                           ,15.53,372,0,152,33,76,112
+zone 4,   Total day,Other : Other                           ,12.75,3829,294,1063,1191,1042,239
+zone 4,   Total day,Other : Unknown/Not Given               ,12.57,276,19,44,115,98,0
+zone 4,   Total day,Unknown/Not Given : Home                ,11.52,1155,292,276,204,188,195
+zone 4,   Total day,Unknown/Not Given : Work                ,15.92,305,4,17,149,95,41
+zone 4,   Total day,Unknown/Not Given : Shop                ,8.92,82,18,16,45,0,3
+zone 4,   Total day,Unknown/Not Given : Education           ,16.76,195,1,63,40,55,36
+zone 4,   Total day,Unknown/Not Given : Tourist             ,20.6,8,0,0,0,8,0
+zone 4,   Total day,Unknown/Not Given : Hotel               ,17.48,56,0,0,32,24,0
+zone 4,   Total day,Unknown/Not Given : Other               ,15.65,419,10,127,66,94,123
+zone 4,   Total day,Unknown/Not Given : Unknown/Not Given   ,14.68,58834,3862,9810,20063,18119,6980
+zone 5,Early       ,Home : Work                             ,22.02,1348,0,87,227,491,544
+zone 5,Early       ,Home : Education                        ,23.24,19,0,1,3,8,6
+zone 5,Early       ,Home : Other                            ,1.28,4,4,0,0,0,0
+zone 5,Early       ,Home : Unknown/Not Given                ,15.92,8,0,5,1,0,2
+zone 5,Early       ,Work : Home                             ,6.75,62,0,48,13,1,0
+zone 5,Early       ,Work : Work                             ,27.95,22,0,0,1,8,13
+zone 5,Early       ,Work : Other                            ,29.3,1,0,0,0,0,1
+zone 5,Early       ,Work : Unknown/Not Given                ,11.14,46,0,17,6,22,0
+zone 5,Early       ,Education : Other                       ,5.29,25,0,25,0,0,0
+zone 5,Early       ,Other : Home                            ,26.28,32,0,0,2,8,22
+zone 5,Early       ,Other : Work                            ,29.17,26,0,0,0,3,23
+zone 5,Early       ,Other : Other                           ,42.37,0,0,0,0,0,0
+zone 5,Early       ,Unknown/Not Given : Work                ,26.76,6,0,0,0,0,5
+zone 5,Early       ,Unknown/Not Given : Unknown/Not Given   ,21.09,26092,404,1944,4574,10212,8958
+zone 5,AM peak     ,Home : Home                             ,16.45,171,0,0,78,76,18
+zone 5,AM peak     ,Home : Work                             ,20.19,71025,1405,6884,12279,28156,22301
+zone 5,AM peak     ,Home : Shop                             ,10.79,1188,276,457,59,263,134
+zone 5,AM peak     ,Home : Education                        ,17.75,3304,128,558,766,1095,757
+zone 5,AM peak     ,Home : Tourist                          ,19.5,465,57,4,143,153,108
+zone 5,AM peak     ,Home : Hotel                            ,23.71,141,15,0,9,62,55
+zone 5,AM peak     ,Home : Other                            ,21.14,4953,140,354,930,1800,1729
+zone 5,AM peak     ,Home : Unknown/Not Given                ,18.79,841,59,88,179,263,251
+zone 5,AM peak     ,Work : Home                             ,12.99,1142,28,530,286,101,198
+zone 5,AM peak     ,Work : Work                             ,19.78,1238,21,65,273,592,288
+zone 5,AM peak     ,Work : Shop                             ,15.91,0,0,0,0,0,0
+zone 5,AM peak     ,Work : Education                        ,16.91,17,0,0,4,14,0
+zone 5,AM peak     ,Work : Tourist                          ,20.11,90,0,0,0,90,0
+zone 5,AM peak     ,Work : Other                            ,20.67,175,0,0,95,24,56
+zone 5,AM peak     ,Work : Unknown/Not Given                ,13.19,190,0,82,36,14,57
+zone 5,AM peak     ,Shop : Home                             ,3.02,84,50,33,0,0,0
+zone 5,AM peak     ,Shop : Shop                             ,6.92,14,0,12,0,2,0
+zone 5,AM peak     ,Shop : Education                        ,30.55,23,0,0,0,0,23
+zone 5,AM peak     ,Shop : Tourist                          ,29.88,62,0,0,0,0,62
+zone 5,AM peak     ,Shop : Other                            ,20.83,2,0,0,0,2,0
+zone 5,AM peak     ,Shop : Unknown/Not Given                ,22.38,29,0,0,0,29,0
+zone 5,AM peak     ,Education : Home                        ,11.13,210,37,75,55,20,23
+zone 5,AM peak     ,Education : Work                        ,20.09,284,0,13,69,145,56
+zone 5,AM peak     ,Education : Shop                        ,5.11,13,4,7,1,0,0
+zone 5,AM peak     ,Education : Education                   ,15.63,181,44,0,28,92,17
+zone 5,AM peak     ,Education : Hotel                       ,19.43,3,0,0,0,3,0
+zone 5,AM peak     ,Education : Other                       ,7.27,82,0,63,16,0,4
+zone 5,AM peak     ,Education : Unknown/Not Given           ,9.05,13,0,0,13,0,0
+zone 5,AM peak     ,Tourist : Tourist                       ,22.89,25,0,0,0,19,5
+zone 5,AM peak     ,Hotel : Home                            ,25.54,162,0,0,0,0,162
+zone 5,AM peak     ,Hotel : Work                            ,25.15,296,0,7,13,71,205
+zone 5,AM peak     ,Hotel : Shop                            ,27.23,79,0,0,0,13,66
+zone 5,AM peak     ,Hotel : Education                       ,19.4,22,0,0,0,22,0
+zone 5,AM peak     ,Hotel : Tourist                         ,24.61,201,0,0,0,85,115
+zone 5,AM peak     ,Hotel : Hotel                           ,28.92,4,0,0,0,0,4
+zone 5,AM peak     ,Hotel : Other                           ,21.71,103,0,0,39,16,48
+zone 5,AM peak     ,Other : Home                            ,25.05,1553,42,152,142,326,891
+zone 5,AM peak     ,Other : Work                            ,24.03,1496,19,44,115,588,729
+zone 5,AM peak     ,Other : Shop                            ,24.91,32,0,0,0,12,20
+zone 5,AM peak     ,Other : Education                       ,18.41,66,0,0,35,23,9
+zone 5,AM peak     ,Other : Tourist                         ,25.55,25,0,0,0,4,22
+zone 5,AM peak     ,Other : Hotel                           ,25.06,130,0,0,0,24,106
+zone 5,AM peak     ,Other : Other                           ,18.2,448,0,83,122,94,148
+zone 5,AM peak     ,Other : Unknown/Not Given               ,36.36,6,0,0,0,0,6
+zone 5,AM peak     ,Unknown/Not Given : Home                ,20.54,52,0,0,2,49,1
+zone 5,AM peak     ,Unknown/Not Given : Work                ,22.6,278,2,24,26,101,125
+zone 5,AM peak     ,Unknown/Not Given : Shop                ,2.02,29,29,0,0,0,0
+zone 5,AM peak     ,Unknown/Not Given : Education           ,24.9,64,0,0,0,45,19
+zone 5,AM peak     ,Unknown/Not Given : Tourist             ,27.22,32,0,0,0,0,32
+zone 5,AM peak     ,Unknown/Not Given : Other               ,12.39,109,5,4,65,24,11
+zone 5,AM peak     ,Unknown/Not Given : Unknown/Not Given   ,20.51,2789,145,197,552,923,973
+zone 5,Midday      ,Home : Home                             ,11.25,136,4,53,49,20,10
+zone 5,Midday      ,Home : Work                             ,18.74,7708,239,1088,1173,3070,2137
+zone 5,Midday      ,Home : Shop                             ,11.75,3751,376,1501,660,762,452
+zone 5,Midday      ,Home : Education                        ,17.9,2784,71,315,731,1027,640
+zone 5,Midday      ,Home : Tourist                          ,22.78,1030,0,109,82,444,395
+zone 5,Midday      ,Home : Hotel                            ,15.58,595,4,152,92,272,76
+zone 5,Midday      ,Home : Other                            ,18,10365,587,1668,1897,3497,2717
+zone 5,Midday      ,Home : Unknown/Not Given                ,16.36,1164,103,330,116,333,281
+zone 5,Midday      ,Work : Home                             ,13.44,3774,169,1292,1047,639,627
+zone 5,Midday      ,Work : Work                             ,20.94,2291,24,229,445,863,730
+zone 5,Midday      ,Work : Shop                             ,17.66,182,19,34,3,61,64
+zone 5,Midday      ,Work : Education                        ,24.88,127,10,3,5,62,46
+zone 5,Midday      ,Work : Tourist                          ,24.67,29,0,0,0,20,9
+zone 5,Midday      ,Work : Hotel                            ,21.79,106,0,0,0,106,0
+zone 5,Midday      ,Work : Other                            ,17.75,1119,98,79,314,320,307
+zone 5,Midday      ,Work : Unknown/Not Given                ,11.18,35,9,0,18,0,7
+zone 5,Midday      ,Shop : Home                             ,6.69,1130,290,632,137,0,71
+zone 5,Midday      ,Shop : Work                             ,9.79,24,0,0,24,0,0
+zone 5,Midday      ,Shop : Shop                             ,8.26,448,88,186,157,11,7
+zone 5,Midday      ,Shop : Education                        ,2.02,0,0,0,0,0,0
+zone 5,Midday      ,Shop : Tourist                          ,17.37,38,0,0,0,38,0
+zone 5,Midday      ,Shop : Other                            ,9.9,324,0,164,148,12,0
+zone 5,Midday      ,Shop : Unknown/Not Given                ,5.64,27,0,27,0,0,0
+zone 5,Midday      ,Education : Home                        ,11.26,3566,310,1508,906,484,357
+zone 5,Midday      ,Education : Work                        ,15.99,123,14,4,7,93,6
+zone 5,Midday      ,Education : Shop                        ,12.77,206,27,1,148,22,8
+zone 5,Midday      ,Education : Education                   ,17.24,341,23,37,68,179,34
+zone 5,Midday      ,Education : Hotel                       ,25.44,23,0,0,0,0,23
+zone 5,Midday      ,Education : Other                       ,19.03,458,5,51,95,201,107
+zone 5,Midday      ,Education : Unknown/Not Given           ,2.92,3,3,0,0,0,0
+zone 5,Midday      ,Tourist : Home                          ,28.13,317,0,0,4,0,313
+zone 5,Midday      ,Tourist : Tourist                       ,23.78,203,0,0,34,23,146
+zone 5,Midday      ,Tourist : Hotel                         ,20.87,23,0,0,0,23,0
+zone 5,Midday      ,Tourist : Other                         ,19.54,56,0,0,0,43,12
+zone 5,Midday      ,Tourist : Unknown/Not Given             ,11.32,2,0,0,2,0,0
+zone 5,Midday      ,Hotel : Home                            ,19.31,263,0,5,59,128,70
+zone 5,Midday      ,Hotel : Work                            ,28.68,318,0,0,0,27,291
+zone 5,Midday      ,Hotel : Shop                            ,8.4,67,34,0,24,0,9
+zone 5,Midday      ,Hotel : Education                       ,22.7,19,0,0,0,19,0
+zone 5,Midday      ,Hotel : Tourist                         ,33.4,22,0,0,0,0,22
+zone 5,Midday      ,Hotel : Hotel                           ,18.39,57,0,3,31,4,19
+zone 5,Midday      ,Hotel : Other                           ,16.52,231,54,29,0,88,60
+zone 5,Midday      ,Other : Home                            ,21.7,4020,198,503,636,775,1908
+zone 5,Midday      ,Other : Work                            ,24.6,960,0,57,25,229,650
+zone 5,Midday      ,Other : Shop                            ,17.64,348,6,52,27,185,77
+zone 5,Midday      ,Other : Education                       ,22.9,159,0,0,67,0,92
+zone 5,Midday      ,Other : Tourist                         ,20.3,217,0,54,2,38,122
+zone 5,Midday      ,Other : Hotel                           ,25.41,953,0,26,12,281,634
+zone 5,Midday      ,Other : Other                           ,17.87,1969,275,279,217,506,691
+zone 5,Midday      ,Other : Unknown/Not Given               ,7.58,101,0,79,19,2,0
+zone 5,Midday      ,Unknown/Not Given : Home                ,13.99,368,64,69,37,159,39
+zone 5,Midday      ,Unknown/Not Given : Work                ,24.33,100,0,0,3,29,68
+zone 5,Midday      ,Unknown/Not Given : Shop                ,9.67,88,13,6,61,7,0
+zone 5,Midday      ,Unknown/Not Given : Education           ,14.45,13,0,8,0,2,4
+zone 5,Midday      ,Unknown/Not Given : Tourist             ,15.54,47,0,0,34,0,12
+zone 5,Midday      ,Unknown/Not Given : Other               ,12.45,258,21,128,19,31,59
+zone 5,Midday      ,Unknown/Not Given : Unknown/Not Given   ,18.87,3702,258,516,696,929,1303
+zone 5,PM Peak     ,Home : Home                             ,10.22,119,0,51,55,9,4
+zone 5,PM Peak     ,Home : Work                             ,18.43,1913,33,326,339,730,485
+zone 5,PM Peak     ,Home : Shop                             ,8.47,555,166,186,66,124,13
+zone 5,PM Peak     ,Home : Education                        ,17.48,388,49,46,42,200,52
+zone 5,PM Peak     ,Home : Tourist                          ,15.91,90,0,25,0,64,0
+zone 5,PM Peak     ,Home : Hotel                            ,26.41,279,0,40,0,79,160
+zone 5,PM Peak     ,Home : Other                            ,20.08,5427,80,522,684,2673,1468
+zone 5,PM Peak     ,Home : Unknown/Not Given                ,13.72,353,3,129,71,140,11
+zone 5,PM Peak     ,Work : Home                             ,14.58,13866,1626,3063,3985,2199,2992
+zone 5,PM Peak     ,Work : Work                             ,17.8,1067,43,155,309,237,323
+zone 5,PM Peak     ,Work : Shop                             ,19.79,134,0,9,34,61,30
+zone 5,PM Peak     ,Work : Education                        ,15.6,291,0,17,142,84,47
+zone 5,PM Peak     ,Work : Hotel                            ,8.6,275,0,97,173,0,5
+zone 5,PM Peak     ,Work : Other                            ,20.25,1096,92,32,184,431,357
+zone 5,PM Peak     ,Work : Unknown/Not Given                ,8.35,179,0,119,34,9,17
+zone 5,PM Peak     ,Shop : Home                             ,6.27,470,160,216,29,64,0
+zone 5,PM Peak     ,Shop : Work                             ,27.7,79,0,0,0,0,79
+zone 5,PM Peak     ,Shop : Shop                             ,4.11,119,85,9,20,5,0
+zone 5,PM Peak     ,Shop : Education                        ,1.28,16,16,0,0,0,0
+zone 5,PM Peak     ,Shop : Other                            ,3.21,29,26,3,0,0,0
+zone 5,PM Peak     ,Shop : Unknown/Not Given                ,17.86,0,0,0,0,0,0
+zone 5,PM Peak     ,Education : Home                        ,13.28,3073,272,765,1169,371,497
+zone 5,PM Peak     ,Education : Work                        ,29.18,211,0,0,9,3,199
+zone 5,PM Peak     ,Education : Shop                        ,14.35,34,0,0,21,12,1
+zone 5,PM Peak     ,Education : Education                   ,14.29,450,8,77,262,98,6
+zone 5,PM Peak     ,Education : Hotel                       ,2.62,11,11,0,0,0,0
+zone 5,PM Peak     ,Education : Other                       ,24.31,239,0,50,55,14,121
+zone 5,PM Peak     ,Education : Unknown/Not Given           ,1.28,12,12,0,0,0,0
+zone 5,PM Peak     ,Tourist : Home                          ,10.73,61,1,41,0,3,16
+zone 5,PM Peak     ,Tourist : Tourist                       ,26.84,1,0,0,0,0,1
+zone 5,PM Peak     ,Tourist : Hotel                         ,18.36,1,0,0,0,1,0
+zone 5,PM Peak     ,Hotel : Home                            ,16.53,182,4,68,6,65,40
+zone 5,PM Peak     ,Hotel : Work                            ,18.92,48,0,0,0,47,0
+zone 5,PM Peak     ,Hotel : Hotel                           ,3.97,66,0,66,0,0,0
+zone 5,PM Peak     ,Hotel : Other                           ,28.94,14,0,0,0,2,12
+zone 5,PM Peak     ,Other : Home                            ,22.25,4076,156,656,529,916,1821
+zone 5,PM Peak     ,Other : Work                            ,23.15,61,0,0,5,20,35
+zone 5,PM Peak     ,Other : Shop                            ,22.69,61,0,0,15,0,45
+zone 5,PM Peak     ,Other : Tourist                         ,25.02,175,3,0,0,88,85
+zone 5,PM Peak     ,Other : Hotel                           ,25.35,391,2,0,0,150,239
+zone 5,PM Peak     ,Other : Other                           ,16.19,1029,111,231,158,290,239
+zone 5,PM Peak     ,Other : Unknown/Not Given               ,15.19,62,0,9,35,18,0
+zone 5,PM Peak     ,Unknown/Not Given : Home                ,10.55,317,26,177,44,40,30
+zone 5,PM Peak     ,Unknown/Not Given : Work                ,19.14,36,0,0,15,16,5
+zone 5,PM Peak     ,Unknown/Not Given : Shop                ,6.2,7,0,7,0,0,0
+zone 5,PM Peak     ,Unknown/Not Given : Education           ,8.14,98,0,71,24,0,4
+zone 5,PM Peak     ,Unknown/Not Given : Hotel               ,22.3,22,0,0,0,22,0
+zone 5,PM Peak     ,Unknown/Not Given : Other               ,9.59,204,0,108,77,20,0
+zone 5,PM Peak     ,Unknown/Not Given : Unknown/Not Given   ,18.92,3049,141,596,486,843,982
+zone 5,Evening     ,Home : Home                             ,1.71,19,19,0,0,0,0
+zone 5,Evening     ,Home : Work                             ,15.84,669,140,69,75,258,127
+zone 5,Evening     ,Home : Shop                             ,10.22,106,55,3,0,49,0
+zone 5,Evening     ,Home : Education                        ,9.26,38,20,1,0,15,2
+zone 5,Evening     ,Home : Tourist                          ,21.13,1,0,0,0,1,0
+zone 5,Evening     ,Home : Hotel                            ,20.94,8,0,0,2,0,6
+zone 5,Evening     ,Home : Other                            ,16.12,1134,66,266,299,290,213
+zone 5,Evening     ,Home : Unknown/Not Given                ,23.08,147,4,11,34,12,87
+zone 5,Evening     ,Work : Home                             ,13.37,3661,313,1007,1231,464,646
+zone 5,Evening     ,Work : Work                             ,13.68,160,9,18,87,26,19
+zone 5,Evening     ,Work : Education                        ,11.13,24,0,0,24,0,0
+zone 5,Evening     ,Work : Hotel                            ,22.72,18,0,0,0,18,0
+zone 5,Evening     ,Work : Other                            ,17.19,123,0,10,64,31,18
+zone 5,Evening     ,Work : Unknown/Not Given                ,20.96,28,0,0,1,22,5
+zone 5,Evening     ,Shop : Home                             ,6.5,1,0,1,0,0,0
+zone 5,Evening     ,Education : Home                        ,14.89,382,7,134,100,77,65
+zone 5,Evening     ,Education : Education                   ,24,3,0,0,0,0,3
+zone 5,Evening     ,Education : Other                       ,5.76,97,0,85,12,0,0
+zone 5,Evening     ,Education : Unknown/Not Given           ,4.31,19,0,18,1,0,0
+zone 5,Evening     ,Tourist : Tourist                       ,37.6,1,0,0,0,0,1
+zone 5,Evening     ,Hotel : Home                            ,9.43,176,69,26,0,69,12
+zone 5,Evening     ,Hotel : Hotel                           ,9.45,11,0,10,0,0,1
+zone 5,Evening     ,Hotel : Other                           ,23.11,3,0,0,0,3,0
+zone 5,Evening     ,Other : Home                            ,19.81,2729,99,595,363,682,990
+zone 5,Evening     ,Other : Work                            ,20.18,129,0,45,0,1,84
+zone 5,Evening     ,Other : Shop                            ,17.35,7,0,0,0,7,0
+zone 5,Evening     ,Other : Education                       ,28.43,17,0,0,0,0,17
+zone 5,Evening     ,Other : Tourist                         ,30.11,2,0,0,0,0,2
+zone 5,Evening     ,Other : Hotel                           ,21.56,130,0,11,4,53,62
+zone 5,Evening     ,Other : Other                           ,18,628,14,0,292,209,112
+zone 5,Evening     ,Other : Unknown/Not Given               ,8.3,0,0,0,0,0,0
+zone 5,Evening     ,Unknown/Not Given : Home                ,9.45,178,1,149,5,0,23
+zone 5,Evening     ,Unknown/Not Given : Work                ,20.31,58,0,0,0,58,0
+zone 5,Evening     ,Unknown/Not Given : Other               ,19.04,17,0,1,4,0,12
+zone 5,Evening     ,Unknown/Not Given : Unknown/Not Given   ,17.48,2351,333,352,584,397,684
+zone 5,Late        ,Home : Work                             ,14.03,53,5,13,11,24,0
+zone 5,Late        ,Home : Hotel                            ,24.37,1,0,0,0,0,1
+zone 5,Late        ,Home : Other                            ,16.37,46,14,0,10,0,21
+zone 5,Late        ,Home : Unknown/Not Given                ,8.51,15,0,0,15,0,0
+zone 5,Late        ,Work : Home                             ,10.17,711,172,236,147,65,92
+zone 5,Late        ,Work : Work                             ,15.93,0,0,0,0,0,0
+zone 5,Late        ,Work : Other                            ,2.15,39,39,0,0,0,0
+zone 5,Late        ,Work : Unknown/Not Given                ,7.32,11,7,0,4,0,0
+zone 5,Late        ,Education : Home                        ,5.74,88,32,31,21,0,3
+zone 5,Late        ,Hotel : Home                            ,1.91,22,15,7,0,0,0
+zone 5,Late        ,Other : Home                            ,15.93,443,10,94,97,171,72
+zone 5,Late        ,Other : Hotel                           ,12.82,26,0,0,26,0,0
+zone 5,Late        ,Other : Other                           ,16.25,2,0,0,1,2,0
+zone 5,Late        ,Other : Unknown/Not Given               ,8.3,1,0,0,1,0,0
+zone 5,Late        ,Unknown/Not Given : Home                ,30.67,24,0,0,0,0,24
+zone 5,Late        ,Unknown/Not Given : Unknown/Not Given   ,15.7,2934,232,616,766,662,657
+zone 5,   Total day,Home : Home                             ,12.58,444,23,104,181,104,32
+zone 5,   Total day,Home : Work                             ,20.01,82717,1823,8467,14104,32730,25593
+zone 5,   Total day,Home : Shop                             ,11.19,5600,873,2146,785,1198,599
+zone 5,   Total day,Home : Education                        ,17.77,6533,267,921,1542,2345,1458
+zone 5,   Total day,Home : Tourist                          ,21.43,1586,57,138,225,662,503
+zone 5,   Total day,Home : Hotel                            ,19.7,1025,19,192,103,412,298
+zone 5,   Total day,Home : Other                            ,19.12,21928,892,2810,3820,8259,6148
+zone 5,   Total day,Home : Unknown/Not Given                ,17.14,2528,168,564,415,748,632
+zone 5,   Total day,Work : Home                             ,13.97,23218,2307,6177,6708,3470,4554
+zone 5,   Total day,Work : Work                             ,19.73,4777,97,466,1115,1725,1373
+zone 5,   Total day,Work : Shop                             ,18.56,316,19,44,38,122,94
+zone 5,   Total day,Work : Education                        ,17.98,458,10,20,175,160,94
+zone 5,   Total day,Work : Tourist                          ,21.22,119,0,0,0,110,9
+zone 5,   Total day,Work : Hotel                            ,12.73,398,0,97,173,123,5
+zone 5,   Total day,Work : Other                            ,18.76,2553,230,120,657,806,739
+zone 5,   Total day,Work : Unknown/Not Given                ,11.4,489,16,219,100,68,86
+zone 5,   Total day,Shop : Home                             ,6.39,1684,500,882,166,65,71
+zone 5,   Total day,Shop : Work                             ,23.54,102,0,0,24,0,79
+zone 5,   Total day,Shop : Shop                             ,7.37,581,173,208,176,17,7
+zone 5,   Total day,Shop : Education                        ,18.63,38,16,0,0,0,23
+zone 5,   Total day,Shop : Tourist                          ,25.12,100,0,0,0,38,62
+zone 5,   Total day,Shop : Other                            ,9.42,355,26,168,148,14,0
+zone 5,   Total day,Shop : Unknown/Not Given                ,14.34,56,0,27,0,29,0
+zone 5,   Total day,Education : Home                        ,12.23,7320,659,2513,2250,953,945
+zone 5,   Total day,Education : Work                        ,22.38,618,14,17,86,241,261
+zone 5,   Total day,Education : Shop                        ,12.6,254,31,8,170,35,9
+zone 5,   Total day,Education : Education                   ,15.6,975,75,113,358,370,60
+zone 5,   Total day,Education : Hotel                       ,18.1,38,11,0,0,3,23
+zone 5,   Total day,Education : Other                       ,17.55,902,5,273,178,215,232
+zone 5,   Total day,Education : Unknown/Not Given           ,4.7,47,16,18,13,0,0
+zone 5,   Total day,Tourist : Home                          ,25.33,378,1,41,4,3,329
+zone 5,   Total day,Tourist : Tourist                       ,23.74,230,0,0,34,43,153
+zone 5,   Total day,Tourist : Hotel                         ,20.81,23,0,0,0,23,0
+zone 5,   Total day,Tourist : Other                         ,19.54,56,0,0,0,43,12
+zone 5,   Total day,Tourist : Unknown/Not Given             ,11.32,2,0,0,2,0,0
+zone 5,   Total day,Hotel : Home                            ,17.31,805,89,105,65,261,285
+zone 5,   Total day,Hotel : Work                            ,26.4,662,0,7,13,145,496
+zone 5,   Total day,Hotel : Shop                            ,18.56,146,34,0,24,13,75
+zone 5,   Total day,Hotel : Education                       ,20.93,40,0,0,0,40,0
+zone 5,   Total day,Hotel : Tourist                         ,25.48,223,0,0,0,85,137
+zone 5,   Total day,Hotel : Hotel                           ,11.08,138,0,79,31,4,24
+zone 5,   Total day,Hotel : Other                           ,18.59,351,54,29,39,109,120
+zone 5,   Total day,Other : Home                            ,21.69,12853,504,2000,1768,2878,5704
+zone 5,   Total day,Other : Work                            ,24.08,2673,19,146,145,841,1521
+zone 5,   Total day,Other : Shop                            ,18.84,448,6,52,42,205,143
+zone 5,   Total day,Other : Education                       ,22.05,242,0,0,101,23,118
+zone 5,   Total day,Other : Tourist                         ,22.63,419,3,54,2,130,230
+zone 5,   Total day,Other : Hotel                           ,24.86,1631,2,37,42,508,1041
+zone 5,   Total day,Other : Other                           ,17.5,4076,400,594,789,1102,1191
+zone 5,   Total day,Other : Unknown/Not Given               ,11.33,170,0,88,55,20,6
+zone 5,   Total day,Unknown/Not Given : Home                ,12.76,939,92,394,88,247,118
+zone 5,   Total day,Unknown/Not Given : Work                ,22.47,476,2,24,43,203,204
+zone 5,   Total day,Unknown/Not Given : Shop                ,7.67,123,42,13,61,7,0
+zone 5,   Total day,Unknown/Not Given : Education           ,14.74,176,0,79,24,47,27
+zone 5,   Total day,Unknown/Not Given : Tourist             ,20.27,79,0,0,34,0,44
+zone 5,   Total day,Unknown/Not Given : Hotel               ,22.3,22,0,0,0,22,0
+zone 5,   Total day,Unknown/Not Given : Other               ,11.64,589,26,241,165,74,82
+zone 5,   Total day,Unknown/Not Given : Unknown/Not Given   ,20.1,40916,1513,4221,7659,13967,13556
+,,,,,,,,,
+System total,Early       ,Home : Work                             ,14.66,5700,268,841,2423,1488,679
+System total,Early       ,Home : Education                        ,16.19,119,7,6,65,35,6
+System total,Early       ,Home : Other                            ,15.15,125,8,20,18,80,0
+System total,Early       ,Home : Unknown/Not Given                ,5.96,122,67,9,38,2,6
+System total,Early       ,Work : Home                             ,9.97,469,19,158,252,17,24
+System total,Early       ,Work : Work                             ,13.73,85,0,49,9,14,13
+System total,Early       ,Work : Other                            ,12.85,5,0,0,4,0,1
+System total,Early       ,Work : Unknown/Not Given                ,11.14,46,0,17,6,22,0
+System total,Early       ,Education : Home                        ,11.98,1,0,0,1,0,0
+System total,Early       ,Education : Other                       ,5.29,25,0,25,0,0,0
+System total,Early       ,Hotel : Work                            ,5.03,21,0,18,3,0,0
+System total,Early       ,Hotel : Hotel                           ,5.95,4,0,4,0,0,0
+System total,Early       ,Hotel : Other                           ,3.53,14,10,4,0,0,0
+System total,Early       ,Other : Home                            ,22.64,39,0,7,2,8,22
+System total,Early       ,Other : Work                            ,17.81,90,2,1,55,9,23
+System total,Early       ,Other : Education                       ,10.03,1,0,0,1,0,0
+System total,Early       ,Other : Other                           ,6.62,5,0,5,0,0,0
+System total,Early       ,Unknown/Not Given : Work                ,16.02,20,0,4,8,2,5
+System total,Early       ,Unknown/Not Given : Unknown/Not Given   ,12.49,204451,15483,54411,75380,41557,17622
+System total,AM peak     ,Home : Home                             ,9.58,2358,361,783,877,215,121
+System total,AM peak     ,Home : Work                             ,9.32,970189,142672,355918,334965,101462,35173
+System total,AM peak     ,Home : Shop                             ,8.31,6026,1229,2418,1562,646,170
+System total,AM peak     ,Home : Education                        ,9.72,49539,6482,17654,17238,6383,1782
+System total,AM peak     ,Home : Tourist                          ,11.57,3283,310,846,1450,463,214
+System total,AM peak     ,Home : Hotel                            ,13.28,2263,178,309,1145,491,140
+System total,AM peak     ,Home : Other                            ,9.85,48583,6907,18333,14836,5405,3101
+System total,AM peak     ,Home : Unknown/Not Given                ,8.91,16458,2593,6393,5425,1616,431
+System total,AM peak     ,Work : Home                             ,9.61,25571,4609,8216,8841,2636,1269
+System total,AM peak     ,Work : Work                             ,7.63,33178,7080,13438,9935,2132,593
+System total,AM peak     ,Work : Shop                             ,6.51,211,72,28,111,1,0
+System total,AM peak     ,Work : Education                        ,6.02,747,173,399,155,15,5
+System total,AM peak     ,Work : Tourist                          ,17.36,119,4,4,20,91,0
+System total,AM peak     ,Work : Hotel                            ,5.54,746,31,641,31,26,16
+System total,AM peak     ,Work : Other                            ,7.22,2542,551,1146,709,76,59
+System total,AM peak     ,Work : Unknown/Not Given                ,8.98,1003,126,482,236,63,97
+System total,AM peak     ,Shop : Home                             ,5.17,457,128,279,49,0,1
+System total,AM peak     ,Shop : Work                             ,9.65,286,96,62,61,47,20
+System total,AM peak     ,Shop : Shop                             ,9.93,283,9,47,186,40,0
+System total,AM peak     ,Shop : Education                        ,18.57,40,17,0,0,0,23
+System total,AM peak     ,Shop : Tourist                          ,22.59,84,22,0,0,0,62
+System total,AM peak     ,Shop : Hotel                            ,2.57,61,49,0,11,0,0
+System total,AM peak     ,Shop : Other                            ,5.61,51,0,43,6,2,0
+System total,AM peak     ,Shop : Unknown/Not Given                ,11.86,79,0,48,2,29,0
+System total,AM peak     ,Education : Home                        ,8.73,2386,463,870,662,316,75
+System total,AM peak     ,Education : Work                        ,9.86,4832,414,1749,1898,709,61
+System total,AM peak     ,Education : Shop                        ,5.52,66,38,8,13,7,0
+System total,AM peak     ,Education : Education                   ,9.24,3892,897,1030,1259,530,176
+System total,AM peak     ,Education : Tourist                     ,11.68,3,0,0,3,0,0
+System total,AM peak     ,Education : Hotel                       ,19.43,3,0,0,0,3,0
+System total,AM peak     ,Education : Other                       ,9.52,674,53,262,256,99,4
+System total,AM peak     ,Education : Unknown/Not Given           ,8.43,115,4,66,30,16,0
+System total,AM peak     ,Tourist : Home                          ,8.73,94,0,0,89,5,0
+System total,AM peak     ,Tourist : Work                          ,2.86,22,22,0,0,0,0
+System total,AM peak     ,Tourist : Shop                          ,5.25,60,0,60,0,0,0
+System total,AM peak     ,Tourist : Tourist                       ,8.46,396,25,211,120,35,5
+System total,AM peak     ,Tourist : Hotel                         ,6.68,42,30,2,0,11,0
+System total,AM peak     ,Tourist : Other                         ,9.22,41,26,3,0,0,12
+System total,AM peak     ,Tourist : Unknown/Not Given             ,4.35,2,0,2,0,0,0
+System total,AM peak     ,Hotel : Home                            ,11.13,1788,166,650,639,68,265
+System total,AM peak     ,Hotel : Work                            ,7.06,14235,3166,6620,3407,783,259
+System total,AM peak     ,Hotel : Shop                            ,8.03,1102,377,378,248,34,66
+System total,AM peak     ,Hotel : Education                       ,6.2,567,141,210,194,22,0
+System total,AM peak     ,Hotel : Tourist                         ,7.53,2589,652,1028,691,103,116
+System total,AM peak     ,Hotel : Hotel                           ,12.78,293,7,89,76,117,4
+System total,AM peak     ,Hotel : Other                           ,6.86,3465,745,1709,854,63,94
+System total,AM peak     ,Hotel : Unknown/Not Given               ,5.91,260,29,147,85,0,0
+System total,AM peak     ,Other : Home                            ,12.18,8224,1044,2782,2196,1021,1181
+System total,AM peak     ,Other : Work                            ,9.83,16388,2123,5978,5701,1594,992
+System total,AM peak     ,Other : Shop                            ,8.5,559,77,169,272,21,20
+System total,AM peak     ,Other : Education                       ,9.89,895,139,317,253,169,17
+System total,AM peak     ,Other : Tourist                         ,10.24,669,17,292,304,22,34
+System total,AM peak     ,Other : Hotel                           ,13.63,346,0,188,29,24,106
+System total,AM peak     ,Other : Other                           ,8.84,5839,1013,2341,1507,776,202
+System total,AM peak     ,Other : Unknown/Not Given               ,7.87,340,45,190,86,13,6
+System total,AM peak     ,Unknown/Not Given : Home                ,8.44,2054,326,848,654,226,1
+System total,AM peak     ,Unknown/Not Given : Work                ,9.49,5372,1082,1705,1741,543,301
+System total,AM peak     ,Unknown/Not Given : Shop                ,4.44,250,98,124,28,0,0
+System total,AM peak     ,Unknown/Not Given : Education           ,14.31,685,101,136,150,227,70
+System total,AM peak     ,Unknown/Not Given : Tourist             ,11.54,97,31,31,0,2,32
+System total,AM peak     ,Unknown/Not Given : Hotel               ,18.02,32,0,9,0,24,0
+System total,AM peak     ,Unknown/Not Given : Other               ,7.04,805,78,418,226,72,11
+System total,AM peak     ,Unknown/Not Given : Unknown/Not Given   ,11.73,35211,4522,8161,13140,7189,2199
+System total,Midday      ,Home : Home                             ,8.53,5815,1294,1848,2126,332,214
+System total,Midday      ,Home : Work                             ,9.04,156102,22324,60760,52745,15031,5243
+System total,Midday      ,Home : Shop                             ,6.94,47146,10946,20603,13020,1920,657
+System total,Midday      ,Home : Education                        ,8.77,64246,9508,23963,23664,5701,1410
+System total,Midday      ,Home : Tourist                          ,8.37,14259,2770,5979,3525,1312,673
+System total,Midday      ,Home : Hotel                            ,8.34,10811,1777,4733,3028,983,288
+System total,Midday      ,Home : Other                            ,8.43,168100,30543,69879,47669,14015,5994
+System total,Midday      ,Home : Unknown/Not Given                ,9.41,20272,4426,6009,6753,2125,958
+System total,Midday      ,Work : Home                             ,9.34,116990,16993,43861,38554,12927,4656
+System total,Midday      ,Work : Work                             ,6.51,121233,32997,56976,23205,6045,2011
+System total,Midday      ,Work : Shop                             ,4.15,9569,4942,3611,790,150,75
+System total,Midday      ,Work : Education                        ,8.42,6365,1107,2350,2449,230,228
+System total,Midday      ,Work : Tourist                          ,4.58,1597,501,925,138,24,9
+System total,Midday      ,Work : Hotel                            ,7.74,4652,894,2253,810,604,92
+System total,Midday      ,Work : Other                            ,7.02,24802,7224,10120,5291,1517,650
+System total,Midday      ,Work : Unknown/Not Given                ,7.46,1530,329,543,566,84,7
+System total,Midday      ,Shop : Home                             ,7.53,26132,5608,10450,8314,1388,371
+System total,Midday      ,Shop : Work                             ,4.48,3755,2086,1049,465,133,23
+System total,Midday      ,Shop : Shop                             ,7.33,9605,2688,3494,2465,772,186
+System total,Midday      ,Shop : Education                        ,4.98,1452,604,666,140,28,14
+System total,Midday      ,Shop : Tourist                          ,5.5,961,364,416,84,97,0
+System total,Midday      ,Shop : Hotel                            ,6.36,1965,434,1288,151,7,84
+System total,Midday      ,Shop : Other                            ,5.76,6881,2206,3087,1358,224,7
+System total,Midday      ,Shop : Unknown/Not Given                ,3.97,1417,967,333,91,26,0
+System total,Midday      ,Education : Home                        ,8.42,48489,8892,18513,15493,4399,1190
+System total,Midday      ,Education : Work                        ,6.26,3560,666,2147,512,227,6
+System total,Midday      ,Education : Shop                        ,5.45,3697,1858,798,872,155,14
+System total,Midday      ,Education : Education                   ,8.7,8685,1979,2615,2765,1152,174
+System total,Midday      ,Education : Tourist                     ,4.62,263,0,260,0,1,1
+System total,Midday      ,Education : Hotel                       ,10.6,364,52,6,261,22,23
+System total,Midday      ,Education : Other                       ,6.59,8001,2230,3837,1320,434,180
+System total,Midday      ,Education : Unknown/Not Given           ,7.99,928,131,350,379,22,45
+System total,Midday      ,Tourist : Home                          ,8.21,7063,2081,2470,1594,396,520
+System total,Midday      ,Tourist : Work                          ,5.12,543,230,243,70,0,0
+System total,Midday      ,Tourist : Shop                          ,4.1,1006,342,636,0,29,0
+System total,Midday      ,Tourist : Education                     ,8.69,386,49,153,88,95,0
+System total,Midday      ,Tourist : Tourist                       ,6.88,5511,1638,2438,1036,149,250
+System total,Midday      ,Tourist : Hotel                         ,8.3,1986,229,954,451,345,7
+System total,Midday      ,Tourist : Other                         ,5.47,3384,1460,1401,220,281,23
+System total,Midday      ,Tourist : Unknown/Not Given             ,3.63,374,115,256,2,0,0
+System total,Midday      ,Hotel : Home                            ,8.62,8285,1149,4008,1839,944,345
+System total,Midday      ,Hotel : Work                            ,8.34,5179,1081,2283,1026,426,363
+System total,Midday      ,Hotel : Shop                            ,4.62,5409,1973,2927,354,145,9
+System total,Midday      ,Hotel : Education                       ,6.26,538,143,275,71,19,31
+System total,Midday      ,Hotel : Tourist                         ,5.9,6709,1787,3215,1468,192,47
+System total,Midday      ,Hotel : Hotel                           ,7.08,2935,546,1539,730,63,57
+System total,Midday      ,Hotel : Other                           ,5.86,12295,3413,6267,2025,428,162
+System total,Midday      ,Hotel : Unknown/Not Given               ,9.07,564,139,159,194,72,0
+System total,Midday      ,Other : Home                            ,9.25,73057,11416,30609,20078,6395,4559
+System total,Midday      ,Other : Work                            ,7.74,15872,3247,7223,3827,822,752
+System total,Midday      ,Other : Shop                            ,6.62,9886,2950,4039,2067,669,161
+System total,Midday      ,Other : Education                       ,8,3810,603,1753,1076,209,169
+System total,Midday      ,Other : Tourist                         ,7.46,5855,1442,2379,1638,191,205
+System total,Midday      ,Other : Hotel                           ,8.57,7419,1624,3431,1208,409,749
+System total,Midday      ,Other : Other                           ,7.37,42340,10437,18707,9103,2697,1397
+System total,Midday      ,Other : Unknown/Not Given               ,7.78,2210,363,990,629,217,11
+System total,Midday      ,Unknown/Not Given : Home                ,9.04,5420,632,2376,1630,571,210
+System total,Midday      ,Unknown/Not Given : Work                ,9.26,1870,318,758,421,305,69
+System total,Midday      ,Unknown/Not Given : Shop                ,7.58,726,138,296,278,13,0
+System total,Midday      ,Unknown/Not Given : Education           ,7.03,700,36,412,222,26,4
+System total,Midday      ,Unknown/Not Given : Tourist             ,8.12,521,87,120,295,6,12
+System total,Midday      ,Unknown/Not Given : Hotel               ,8.43,513,1,260,251,0,0
+System total,Midday      ,Unknown/Not Given : Other               ,6.44,3717,1466,1133,894,113,111
+System total,Midday      ,Unknown/Not Given : Unknown/Not Given   ,9,80731,16275,30871,20775,9102,3709
+System total,PM Peak     ,Home : Home                             ,9.95,7935,1397,2418,2658,1242,221
+System total,PM Peak     ,Home : Work                             ,9.66,43016,6703,13593,15791,5048,1882
+System total,PM Peak     ,Home : Shop                             ,7.08,10710,2062,4851,3386,322,89
+System total,PM Peak     ,Home : Education                        ,8.24,11169,2175,4354,3403,1115,122
+System total,PM Peak     ,Home : Tourist                          ,7.9,1285,197,713,229,147,0
+System total,PM Peak     ,Home : Hotel                            ,9.37,5132,942,2181,1130,486,393
+System total,PM Peak     ,Home : Other                            ,8.61,103930,18306,40367,32546,9546,3165
+System total,PM Peak     ,Home : Unknown/Not Given                ,8.85,18124,3122,7226,5232,2177,366
+System total,PM Peak     ,Work : Home                             ,9.92,584988,81284,202773,198634,77185,25112
+System total,PM Peak     ,Work : Work                             ,7.33,39466,10226,15358,9970,2951,961
+System total,PM Peak     ,Work : Shop                             ,5.96,9898,2911,4530,2038,371,47
+System total,PM Peak     ,Work : Education                        ,7.44,10286,2580,4040,2835,693,139
+System total,PM Peak     ,Work : Tourist                          ,6.97,1029,88,713,42,185,0
+System total,PM Peak     ,Work : Hotel                            ,7.76,17952,3457,6877,6050,1534,34
+System total,PM Peak     ,Work : Other                            ,7.15,83564,18878,37174,21627,4232,1653
+System total,PM Peak     ,Work : Unknown/Not Given                ,9.21,4964,484,2092,1672,574,142
+System total,PM Peak     ,Shop : Home                             ,8,24351,5023,8596,8778,1501,454
+System total,PM Peak     ,Shop : Work                             ,7.12,839,249,387,107,0,97
+System total,PM Peak     ,Shop : Shop                             ,5.6,2849,1153,967,680,48,0
+System total,PM Peak     ,Shop : Education                        ,5.07,905,388,343,172,2,0
+System total,PM Peak     ,Shop : Tourist                          ,1.74,273,241,32,0,0,0
+System total,PM Peak     ,Shop : Hotel                            ,4.48,1787,888,743,157,0,0
+System total,PM Peak     ,Shop : Other                            ,6.02,4541,1394,2229,673,226,18
+System total,PM Peak     ,Shop : Unknown/Not Given                ,2.81,212,162,50,0,0,0
+System total,PM Peak     ,Education : Home                        ,9.14,61859,8099,24606,20892,6256,2006
+System total,PM Peak     ,Education : Work                        ,8.57,1702,493,614,382,3,209
+System total,PM Peak     ,Education : Shop                        ,7.45,1802,293,659,837,12,1
+System total,PM Peak     ,Education : Education                   ,8.85,6013,734,2565,2013,579,122
+System total,PM Peak     ,Education : Tourist                     ,3.87,403,83,320,0,0,0
+System total,PM Peak     ,Education : Hotel                       ,5.8,1894,254,1213,378,49,0
+System total,PM Peak     ,Education : Other                       ,8.5,5664,1382,1872,1654,526,230
+System total,PM Peak     ,Education : Unknown/Not Given           ,8.74,978,28,625,288,0,36
+System total,PM Peak     ,Tourist : Home                          ,8.41,5699,1562,1797,1315,938,87
+System total,PM Peak     ,Tourist : Work                          ,1.67,138,131,7,0,0,0
+System total,PM Peak     ,Tourist : Shop                          ,5.44,381,41,341,0,0,0
+System total,PM Peak     ,Tourist : Education                     ,4.81,182,0,182,0,0,0
+System total,PM Peak     ,Tourist : Tourist                       ,4.14,2015,1012,750,233,18,1
+System total,PM Peak     ,Tourist : Hotel                         ,4.68,3513,1120,1835,558,1,0
+System total,PM Peak     ,Tourist : Other                         ,4.86,3441,1648,1232,518,42,0
+System total,PM Peak     ,Tourist : Unknown/Not Given             ,4.6,93,16,78,0,0,0
+System total,PM Peak     ,Hotel : Home                            ,9.48,3582,573,1345,837,758,68
+System total,PM Peak     ,Hotel : Work                            ,7.77,1068,245,501,170,132,20
+System total,PM Peak     ,Hotel : Shop                            ,4.44,431,106,296,29,0,0
+System total,PM Peak     ,Hotel : Education                       ,8.15,157,0,132,0,26,0
+System total,PM Peak     ,Hotel : Tourist                         ,5.35,855,301,343,206,5,0
+System total,PM Peak     ,Hotel : Hotel                           ,6.75,2170,112,1328,581,133,16
+System total,PM Peak     ,Hotel : Other                           ,5.83,5844,1979,2969,650,160,85
+System total,PM Peak     ,Hotel : Unknown/Not Given               ,8.94,530,225,112,42,151,0
+System total,PM Peak     ,Other : Home                            ,9.42,79821,11626,32147,24314,6969,4765
+System total,PM Peak     ,Other : Work                            ,6.59,3821,749,1935,957,80,100
+System total,PM Peak     ,Other : Shop                            ,4.61,3543,1418,1536,486,59,45
+System total,PM Peak     ,Other : Education                       ,6.79,2697,576,1170,845,105,0
+System total,PM Peak     ,Other : Tourist                         ,10.3,915,183,387,110,101,134
+System total,PM Peak     ,Other : Hotel                           ,8.51,6826,1532,2902,1335,612,444
+System total,PM Peak     ,Other : Other                           ,7.09,32022,7556,15010,7150,1659,646
+System total,PM Peak     ,Other : Unknown/Not Given               ,5.03,1351,601,530,125,95,0
+System total,PM Peak     ,Unknown/Not Given : Home                ,9.54,12207,1680,4233,4391,1474,429
+System total,PM Peak     ,Unknown/Not Given : Work                ,8.07,1484,150,840,462,16,16
+System total,PM Peak     ,Unknown/Not Given : Shop                ,10.05,262,3,78,178,0,3
+System total,PM Peak     ,Unknown/Not Given : Education           ,7.78,148,30,72,35,8,4
+System total,PM Peak     ,Unknown/Not Given : Tourist             ,0.69,30,30,0,0,0,0
+System total,PM Peak     ,Unknown/Not Given : Hotel               ,5.2,337,150,92,73,22,0
+System total,PM Peak     ,Unknown/Not Given : Other               ,7.63,1968,567,778,384,114,125
+System total,PM Peak     ,Unknown/Not Given : Unknown/Not Given   ,9.43,127410,18379,51383,34334,17775,5539
+System total,Evening     ,Home : Home                             ,7.48,2184,351,1085,551,102,94
+System total,Evening     ,Home : Work                             ,9.29,20730,3133,6626,8546,1737,689
+System total,Evening     ,Home : Shop                             ,6.28,892,305,365,171,52,0
+System total,Evening     ,Home : Education                        ,6.96,1955,425,763,674,92,2
+System total,Evening     ,Home : Tourist                          ,5.57,83,2,65,14,1,0
+System total,Evening     ,Home : Hotel                            ,7.06,1328,397,361,542,12,15
+System total,Evening     ,Home : Other                            ,7.3,29462,6678,12670,8066,1581,467
+System total,Evening     ,Home : Unknown/Not Given                ,9.17,5235,725,2015,1921,317,257
+System total,Evening     ,Work : Home                             ,9,251575,32951,97266,92155,22769,6434
+System total,Evening     ,Work : Work                             ,8.08,6297,1614,2096,1655,839,93
+System total,Evening     ,Work : Shop                             ,5.05,1788,699,690,392,6,0
+System total,Evening     ,Work : Education                        ,4.74,354,160,152,37,5,0
+System total,Evening     ,Work : Tourist                          ,9.31,1,0,0,1,0,0
+System total,Evening     ,Work : Hotel                            ,7.52,2824,703,1159,672,290,0
+System total,Evening     ,Work : Other                            ,6.54,17564,4188,8518,3947,654,258
+System total,Evening     ,Work : Unknown/Not Given                ,8.14,1385,356,442,410,121,57
+System total,Evening     ,Shop : Home                             ,8,10619,1570,4565,3817,606,61
+System total,Evening     ,Shop : Work                             ,3.81,39,2,37,0,0,0
+System total,Evening     ,Shop : Shop                             ,6.12,478,219,115,113,31,0
+System total,Evening     ,Shop : Education                        ,1.72,38,38,0,0,0,0
+System total,Evening     ,Shop : Tourist                          ,3.28,29,0,29,0,0,0
+System total,Evening     ,Shop : Hotel                            ,5.22,1184,532,420,201,29,0
+System total,Evening     ,Shop : Other                            ,8.92,691,187,300,53,2,148
+System total,Evening     ,Shop : Unknown/Not Given                ,15.09,75,1,8,8,59,0
+System total,Evening     ,Education : Home                        ,8.56,30138,3685,11261,12627,2351,214
+System total,Evening     ,Education : Work                        ,8.31,99,6,57,26,10,0
+System total,Evening     ,Education : Shop                        ,3.25,301,181,108,13,0,0
+System total,Evening     ,Education : Education                   ,8.37,1200,376,239,422,140,22
+System total,Evening     ,Education : Hotel                       ,7.95,96,16,38,37,0,5
+System total,Evening     ,Education : Other                       ,5.51,1654,433,898,287,33,3
+System total,Evening     ,Education : Unknown/Not Given           ,7.3,100,11,39,50,0,0
+System total,Evening     ,Tourist : Home                          ,10.68,980,86,259,378,256,0
+System total,Evening     ,Tourist : Shop                          ,3.3,61,34,25,2,0,0
+System total,Evening     ,Tourist : Tourist                       ,3.84,235,77,157,0,0,1
+System total,Evening     ,Tourist : Hotel                         ,7.82,596,96,380,51,6,63
+System total,Evening     ,Tourist : Other                         ,11.96,61,0,21,16,23,1
+System total,Evening     ,Tourist : Unknown/Not Given             ,18.91,6,0,0,0,6,0
+System total,Evening     ,Hotel : Home                            ,9.83,2492,310,1083,499,457,143
+System total,Evening     ,Hotel : Work                            ,7.54,66,0,31,35,0,0
+System total,Evening     ,Hotel : Shop                            ,6.17,91,0,63,28,0,0
+System total,Evening     ,Hotel : Tourist                         ,4.18,95,26,66,3,0,0
+System total,Evening     ,Hotel : Hotel                           ,6.75,607,321,146,69,54,16
+System total,Evening     ,Hotel : Other                           ,4.95,1726,1037,495,80,3,111
+System total,Evening     ,Hotel : Unknown/Not Given               ,4.47,83,59,3,21,0,0
+System total,Evening     ,Other : Home                            ,8.73,96788,14214,39925,31893,7644,3113
+System total,Evening     ,Other : Work                            ,9.15,1140,248,354,416,2,119
+System total,Evening     ,Other : Shop                            ,4.39,677,255,383,32,7,0
+System total,Evening     ,Other : Education                       ,8.64,310,101,47,85,59,18
+System total,Evening     ,Other : Tourist                         ,11.2,57,0,21,34,0,2
+System total,Evening     ,Other : Hotel                           ,6.33,4677,1441,1625,1377,150,83
+System total,Evening     ,Other : Other                           ,7.75,11858,2098,6039,2393,969,359
+System total,Evening     ,Other : Unknown/Not Given               ,6.92,622,81,426,51,53,11
+System total,Evening     ,Unknown/Not Given : Home                ,8.12,3881,893,1605,832,375,176
+System total,Evening     ,Unknown/Not Given : Work                ,10.15,336,11,173,94,58,0
+System total,Evening     ,Unknown/Not Given : Education           ,2.9,23,9,14,0,0,0
+System total,Evening     ,Unknown/Not Given : Tourist             ,5.25,77,0,77,0,0,0
+System total,Evening     ,Unknown/Not Given : Hotel               ,4.8,396,67,304,10,15,0
+System total,Evening     ,Unknown/Not Given : Other               ,6.35,590,82,369,119,6,14
+System total,Evening     ,Unknown/Not Given : Unknown/Not Given   ,9.15,51218,10580,19278,13345,4816,3199
+System total,Late        ,Home : Home                             ,10.66,407,5,193,172,36,0
+System total,Late        ,Home : Work                             ,7.3,4064,1082,1333,1379,253,18
+System total,Late        ,Home : Shop                             ,6.14,97,33,37,28,0,0
+System total,Late        ,Home : Education                        ,10.16,527,24,112,328,11,53
+System total,Late        ,Home : Hotel                            ,4,180,48,119,12,0,1
+System total,Late        ,Home : Other                            ,8.53,3084,347,1484,687,528,37
+System total,Late        ,Home : Unknown/Not Given                ,7.92,1131,32,669,304,117,10
+System total,Late        ,Work : Home                             ,9.33,44773,5461,15494,18492,4722,604
+System total,Late        ,Work : Work                             ,8.68,1796,205,697,684,210,0
+System total,Late        ,Work : Shop                             ,4.14,14,0,14,0,0,0
+System total,Late        ,Work : Education                        ,4.6,2,0,2,0,0,0
+System total,Late        ,Work : Hotel                            ,6.54,677,67,471,126,14,0
+System total,Late        ,Work : Other                            ,6.11,841,209,441,142,43,5
+System total,Late        ,Work : Unknown/Not Given                ,7.43,258,64,111,69,14,0
+System total,Late        ,Shop : Home                             ,10.13,1004,124,348,393,118,20
+System total,Late        ,Shop : Work                             ,3.53,2,0,2,0,0,0
+System total,Late        ,Shop : Shop                             ,1.73,43,43,0,0,0,0
+System total,Late        ,Shop : Hotel                            ,9.44,5,0,0,4,0,0
+System total,Late        ,Shop : Other                            ,7.83,102,1,45,57,0,0
+System total,Late        ,Shop : Unknown/Not Given                ,3.93,3,0,3,0,0,0
+System total,Late        ,Education : Home                        ,8.88,4156,401,1517,2018,161,60
+System total,Late        ,Education : Shop                        ,3.46,1,0,1,0,0,0
+System total,Late        ,Education : Education                   ,6.6,222,130,51,0,42,0
+System total,Late        ,Education : Tourist                     ,3.51,342,0,342,0,0,0
+System total,Late        ,Education : Hotel                       ,8.2,3,0,0,3,0,0
+System total,Late        ,Education : Other                       ,8.69,191,86,32,23,50,0
+System total,Late        ,Education : Unknown/Not Given           ,7.45,17,2,0,15,0,0
+System total,Late        ,Tourist : Home                          ,6.33,74,3,57,11,2,0
+System total,Late        ,Tourist : Shop                          ,18.8,6,0,0,0,6,0
+System total,Late        ,Tourist : Tourist                       ,2.76,174,118,55,1,0,0
+System total,Late        ,Tourist : Hotel                         ,6.5,75,6,51,18,0,0
+System total,Late        ,Tourist : Other                         ,8.84,9,0,1,8,0,0
+System total,Late        ,Tourist : Unknown/Not Given             ,16.07,77,0,0,0,77,0
+System total,Late        ,Hotel : Home                            ,9.89,1084,163,386,320,112,103
+System total,Late        ,Hotel : Work                            ,6.79,18,0,12,6,0,0
+System total,Late        ,Hotel : Tourist                         ,2.68,86,32,54,0,0,0
+System total,Late        ,Hotel : Hotel                           ,11.19,317,42,27,230,19,0
+System total,Late        ,Hotel : Other                           ,9.43,55,2,15,38,0,0
+System total,Late        ,Other : Home                            ,8.27,69770,10330,29336,23798,5014,1291
+System total,Late        ,Other : Work                            ,8.29,201,0,112,81,7,1
+System total,Late        ,Other : Shop                            ,8.11,71,19,17,35,0,0
+System total,Late        ,Other : Education                       ,2.15,25,20,5,0,0,0
+System total,Late        ,Other : Tourist                         ,8.02,3,0,0,2,0,0
+System total,Late        ,Other : Hotel                           ,5.34,4024,814,2749,335,90,37
+System total,Late        ,Other : Other                           ,6.6,3804,838,1866,825,233,42
+System total,Late        ,Other : Unknown/Not Given               ,10.04,332,100,65,99,28,39
+System total,Late        ,Unknown/Not Given : Home                ,7.4,1419,376,494,459,66,24
+System total,Late        ,Unknown/Not Given : Work                ,13.78,412,83,39,0,278,13
+System total,Late        ,Unknown/Not Given : Shop                ,3.15,46,0,46,0,0,0
+System total,Late        ,Unknown/Not Given : Hotel               ,13.94,52,2,0,50,0,0
+System total,Late        ,Unknown/Not Given : Other               ,6.05,226,0,179,47,0,0
+System total,Late        ,Unknown/Not Given : Unknown/Not Given   ,9.32,87350,13533,30699,31110,8569,3439
+System total,Total day,Home : Home                             ,9.19,18698,3407,6329,6384,1927,651
+System total,Total day,Home : Work                             ,9.31,1199801,176181,439070,415848,125018,43683
+System total,Total day,Home : Shop                             ,7.08,64872,14575,28274,18167,2940,916
+System total,Total day,Home : Education                        ,9.08,127557,18620,46852,45371,13336,3377
+System total,Total day,Home : Tourist                          ,8.88,18910,3278,7603,5219,1923,887
+System total,Total day,Home : Hotel                            ,9.05,19714,3343,7705,5858,1972,837
+System total,Total day,Home : Other                            ,8.59,353284,62789,142753,103821,31156,12765
+System total,Total day,Home : Unknown/Not Given                ,9.05,61341,10964,22322,19673,6355,2028
+System total,Total day,Work : Home                             ,9.59,1024367,141317,367768,356928,120256,38099
+System total,Total day,Work : Work                             ,6.93,202056,52122,88614,45458,12191,3671
+System total,Total day,Work : Shop                             ,5.08,21480,8625,8873,3331,528,122
+System total,Total day,Work : Education                        ,7.68,17754,4020,6944,5476,942,372
+System total,Total day,Work : Tourist                          ,6.03,2745,594,1642,201,300,9
+System total,Total day,Work : Hotel                            ,7.64,26850,5150,11400,7689,2468,143
+System total,Total day,Work : Other                            ,7.04,129319,31050,57400,31720,6523,2627
+System total,Total day,Work : Unknown/Not Given                ,8.69,9185,1359,3686,2960,878,302
+System total,Total day,Shop : Home                             ,7.82,62563,12453,24238,21351,3614,907
+System total,Total day,Shop : Work                             ,5.23,4922,2432,1537,633,180,140
+System total,Total day,Shop : Shop                             ,6.95,13258,4113,4624,3444,890,187
+System total,Total day,Shop : Education                        ,5.18,2435,1047,1009,312,31,36
+System total,Total day,Shop : Tourist                          ,5.76,1348,627,478,84,97,62
+System total,Total day,Shop : Hotel                            ,5.37,5002,1905,2451,525,36,84
+System total,Total day,Shop : Other                            ,6.05,12265,3788,5704,2148,453,173
+System total,Total day,Shop : Unknown/Not Given                ,4.65,1786,1130,441,101,114,0
+System total,Total day,Education : Home                        ,8.77,147029,21541,56766,51693,13483,3546
+System total,Total day,Education : Work                        ,8.37,10192,1580,4567,2818,950,276
+System total,Total day,Education : Shop                        ,5.95,5865,2368,1573,1735,174,15
+System total,Total day,Education : Education                   ,8.81,20012,4116,6499,6460,2443,494
+System total,Total day,Education : Tourist                     ,3.96,1011,83,922,3,1,1
+System total,Total day,Education : Hotel                       ,6.65,2361,323,1256,679,75,28
+System total,Total day,Education : Other                       ,7.29,16209,4185,6926,3540,1143,416
+System total,Total day,Education : Unknown/Not Given           ,8.32,2136,175,1080,762,38,81
+System total,Total day,Tourist : Home                          ,8.46,13909,3733,4584,3387,1598,607
+System total,Total day,Tourist : Work                          ,4.38,703,383,250,70,0,0
+System total,Total day,Tourist : Shop                          ,4.52,1515,417,1062,2,35,0
+System total,Total day,Tourist : Education                     ,7.45,567,49,335,88,95,0
+System total,Total day,Tourist : Tourist                       ,6.12,8331,2870,3611,1390,203,257
+System total,Total day,Tourist : Hotel                         ,6.18,6212,1480,3221,1078,363,70
+System total,Total day,Tourist : Other                         ,5.25,6936,3134,2658,762,346,36
+System total,Total day,Tourist : Unknown/Not Given             ,5.68,552,131,337,2,82,0
+System total,Total day,Hotel : Home                            ,9.32,17230,2361,7472,4134,2339,924
+System total,Total day,Hotel : Work                            ,7.42,20587,4492,9466,4647,1341,642
+System total,Total day,Hotel : Shop                            ,5.16,7032,2456,3665,658,179,75
+System total,Total day,Hotel : Education                       ,6.47,1262,284,616,265,66,31
+System total,Total day,Hotel : Tourist                         ,6.22,10334,2797,4706,2368,300,163
+System total,Total day,Hotel : Hotel                           ,7.4,6326,1027,3133,1686,387,93
+System total,Total day,Hotel : Other                           ,5.94,23399,7185,11460,3647,655,452
+System total,Total day,Hotel : Unknown/Not Given               ,8.18,1436,451,421,342,222,0
+System total,Total day,Other : Home                            ,9.01,327699,48631,134806,102280,27050,14931
+System total,Total day,Other : Work                            ,8.61,37511,6368,15603,11037,2514,1988
+System total,Total day,Other : Shop                            ,6.11,14736,4719,6143,2892,756,226
+System total,Total day,Other : Education                       ,7.8,7736,1438,3291,2261,542,203
+System total,Total day,Other : Tourist                         ,8.09,7499,1642,3080,2089,314,375
+System total,Total day,Other : Hotel                           ,7.62,23293,5410,10895,4284,1285,1419
+System total,Total day,Other : Other                           ,7.38,95867,21943,43967,20978,6333,2645
+System total,Total day,Other : Unknown/Not Given               ,7.07,4854,1191,2200,990,406,67
+System total,Total day,Unknown/Not Given : Home                ,9,24981,3906,9556,7966,2712,840
+System total,Total day,Unknown/Not Given : Work                ,9.45,9494,1643,3519,2727,1201,404
+System total,Total day,Unknown/Not Given : Shop                ,7.31,1285,240,544,484,13,3
+System total,Total day,Unknown/Not Given : Education           ,10.25,1555,176,634,407,261,78
+System total,Total day,Unknown/Not Given : Tourist             ,7.96,725,149,228,295,8,44
+System total,Total day,Unknown/Not Given : Hotel               ,6.98,1330,220,665,384,61,0
+System total,Total day,Unknown/Not Given : Other               ,6.81,7306,2193,2876,1669,306,261
+System total,Total day,Unknown/Not Given : Unknown/Not Given   ,10.54,586372,78772,194802,188084,89008,35706
+zone 1,Early       ,                                     All,7.02,39264,8630,18353,9663,1998,620
+zone 1,AM peak     ,                                     All,5.54,450104,136701,228641,71838,10163,2761
+zone 1,Midday      ,                                     All,6.34,661274,182270,311546,128211,30150,9096
+zone 1,PM Peak     ,                                     All,8.12,857135,175836,336921,246987,79594,17798
+zone 1,Evening     ,                                     All,8.04,375597,64801,154905,123582,25846,6462
+zone 1,Late        ,                                     All,8.28,156437,24370,62600,55661,11518,2288
+zone 1,   Total day,                                     All,7.18,2539811,592608,1112966,635941,159270,39026
+zone 2,Early       ,                                     All,9.75,54864,3655,21283,22610,5730,1586
+zone 2,AM peak     ,                                     All,8.42,405867,36784,177007,166104,21532,4439
+zone 2,Midday      ,                                     All,8.18,310985,43409,135810,106754,19953,5060
+zone 2,PM Peak     ,                                     All,9.47,340223,36355,139803,115589,35824,12653
+zone 2,Evening     ,                                     All,8.79,133463,19581,53735,44978,11316,3852
+zone 2,Late        ,                                     All,9.02,57325,8120,21801,20257,5755,1393
+zone 2,   Total day,                                     All,8.76,1302728,147904,549439,476293,100110,28983
+zone 3,Early       ,                                     All,12.68,53159,2271,9186,28867,10447,2388
+zone 3,AM peak     ,                                     All,11.54,210045,11399,35124,130758,28147,4617
+zone 3,Midday      ,                                     All,10.86,120532,11913,26414,63587,13940,4679
+zone 3,PM Peak     ,                                     All,10.85,87930,10750,23140,37365,11832,4842
+zone 3,Evening     ,                                     All,10.05,30978,4560,9203,11724,4183,1308
+zone 3,Late        ,                                     All,10.13,9451,1421,2689,3619,1329,393
+zone 3,   Total day,                                     All,11.26,512095,42314,105756,275921,69878,18227
+zone 4,Early       ,                                     All,16.01,36362,899,4629,12297,14305,4233
+zone 4,AM peak     ,                                     All,14.76,118893,4258,15759,49535,41405,7935
+zone 4,Midday      ,                                     All,13.15,66875,5761,13258,25680,17311,4866
+zone 4,PM Peak     ,                                     All,12.58,48436,3907,13594,15558,11066,4311
+zone 4,Evening     ,                                     All,11.41,17029,1978,5103,5804,2709,1436
+zone 4,Late        ,                                     All,13.43,6022,406,1695,1773,1292,855
+zone 4,   Total day,                                     All,13.97,293617,17209,54037,110646,88087,23637
+zone 5,Early       ,                                     All,21.09,27692,408,2127,4828,10754,9574
+zone 5,AM peak     ,                                     All,20.05,93941,2506,9736,16430,35434,29834
+zone 5,Midday      ,                                     All,17.36,56787,3397,11278,10331,16065,15716
+zone 5,PM Peak     ,                                     All,16.84,40734,3126,7965,9074,10149,10420
+zone 5,Evening     ,                                     All,16.25,13075,1150,2812,3182,2743,3189
+zone 5,Late        ,                                     All,14.45,4417,527,997,1099,924,870
+zone 5,   Total day,                                     All,18.66,236646,11114,34915,44944,76070,69603
+,,,,,,,,,
+System total,Early       ,                                     All,12.54,211342,15864,55579,78265,43233,18402
+System total,AM peak     ,                                     All,9.36,1278850,191648,466268,434666,136682,49587
+System total,Midday      ,                                     All,8.15,1216453,246749,498305,334563,97419,39417
+System total,PM Peak     ,                                     All,9.04,1374459,229974,521422,424572,148465,50025
+System total,Evening     ,                                     All,8.61,570141,92070,225757,189270,46797,16247
+System total,Late        ,                                     All,8.79,233652,34843,89782,82409,20819,5799
+System total,Total day,                                     All,8.99,4884898,811149,1857113,1543745,493415,179476
