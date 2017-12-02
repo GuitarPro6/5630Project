@@ -111,7 +111,7 @@
         <option value="access">Mode of Access</option>
     </select>
 
-    <select id="vis-type2" onchange="changeVis(); changeDisplayBox2()" selected="selected">
+    <select id="vis-type2" onchange="surveyCallback(); changeDisplayBox2()" selected="selected">
         <option disabled selected value> -- select an option --</option>
         <option value="heat">Heatmap</option>
         <option value="cluster">Cluster</option>
@@ -233,8 +233,6 @@
         d3.selectAll('.tempSelect').remove();
         let menu = document.getElementById("survey-stat");
         let type = menu.options[menu.selectedIndex].value;
-        let mapType = document.getElementById('vis-type2').selectedOptions[0].value;
-
 
         if (type === "purpose") {
 
@@ -258,8 +256,7 @@
             let select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
                 .on('change', function () {
                     changeDisplayBox2();
-                    globeSurvey.clearMarkers();
-                    globeSurvey.setHeatmap(globalMap2, "kilometers");
+                    changeVis2("kilometers");
                 });
             select.selectAll('option').data(kilometers).enter().append('option').attr('value', function (d) {
                 return d;
@@ -285,7 +282,6 @@
             }).property("disabled", function (d) {
                 return d === "-- select an option --"
             });
-            globeSurvey.setHeatmap(globalMap2, "avDistance");
         }
         else if (type === 'avtime') {
             //create the new options for the menu
@@ -293,8 +289,7 @@
             let select1 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
                 .on('change', function () {
                     changeDisplayBox2();
-                    globeSurvey.clearMarkers();
-                    globeSurvey.setHeatmap(globalMap2, "avJourneyTime");
+                    changeVis2("avJourneyTime");
                 });
             select1.selectAll('option').data(times).enter().append('option').attr('value', function (d) {
                 return d;
@@ -309,8 +304,7 @@
             let select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu")
                 .on('change', function () {
                     changeDisplayBox2();
-                    globeSurvey.clearMarkers();
-                    globeSurvey.setHeatmap(globalMap2, "avJourneyTime");
+                    changeVis2("avJourneyTime");
                 });
             select.selectAll('option').data(sections).enter().append('option').attr('value', function (d) {
                 return d;
@@ -516,21 +510,19 @@
 
 
     //Changes the vis type of the google map according to what the user selects
-    function changeVis2() {
+    function changeVis2(token) {
 
         globeSurvey.clearMarkers();
         let menu = document.getElementById("vis-type2");
         let type = menu.options[menu.selectedIndex].value;
+        console.log(type)
 
-        //need to add some more code to the SurveyMap class to get this working
-        //
-        // if(type === "heat"){
-        //   globeSurvey.setHeatmap(globalMap1);
-        // }
-        // else if(type === "circle"){
-        //   //create circle chart.
-        //   globeSurvey.setCircles(globalMap1);
-        // }
+        if(type === "heat") {
+          globeSurvey.setHeatmap(globalMap2, token);
+        }
+        else if(type === "circle"){
+          globeSurvey.setCircles(globalMap2, token);
+        }
     }
 
     //Changes the display box to the right of the map based on options selected

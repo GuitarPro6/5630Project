@@ -308,8 +308,6 @@ class SurveyMap {
                     }
                 });
 
-                console.log(heatMapData)
-
 
                 self_item.heatmap = new google.maps.visualization.HeatmapLayer({
                     data: heatMapData
