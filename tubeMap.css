@@ -182,9 +182,6 @@ text.highlighted {
     left: 10%;
     top: 10%;
 }
-.showMe{
-    display: flex;
-}
 
 .chartWrapper {
     display: flex;
@@ -228,17 +225,61 @@ text.highlighted {
     cursor: pointer;
 }
 
+.closebarChart {
+    align-self: flex-start;
+    background: white !important;
+    margin-left: -50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 .modal {
     background: grey;
     fill: grey;
 }
-.hideMe{
+
+.hideMe {
     display: none;
 }
-.notVisible{
+
+.notVisible {
     opacity: 0;
 
 }
-.notVisibleLegend{
+
+.notVisibleLegend {
     opacity: 0.5;
+}
+
+.barChart {
+
+}
+
+.barChartWrapper {
+    display: none;
+    justify-content: center;
+    height: 75vh;
+    left: 15%;
+    top: 5%;
+    margin: 10px;
+    z-index: 2;
+    position: absolute;
+}
+
+.row {
+    background: white !important;
+}
+
+.innerBarChart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+
+.showMe {
+    display: flex;
 }

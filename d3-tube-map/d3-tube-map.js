@@ -28,6 +28,7 @@
         var t;
         var s;
         let dataStore = null;
+        const parseTime = d3.timeParse("%Y");
         const lineChartWidth = 600;
         const lineChartHeight = 400;
         const lineChartMargin = {top: 20, right: 20, bottom: 30, left: 40};
@@ -38,6 +39,39 @@
         const exitChartSVG = d3.select('.exit').append('svg')
             .attr('width', lineChartWidth + lineChartMargin.left + lineChartMargin.right)
             .attr('height', lineChartHeight + lineChartMargin.top + lineChartMargin.bottom)
+
+        const barChartWidth = 400;
+        const barChartHeight = 250;
+        const BAR_OFFSET = 20;
+        const BAR_TOP_OFFSET = 10;
+
+        const ageSVG = d3.select('.ageChart').append('svg')
+            .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
+            .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
+            .append("g")
+            .classed('ageBarChart', true)
+            .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
+
+        const sexSVG = d3.select('.sexChart').append('svg')
+            .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
+            .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
+            .append("g")
+            .classed('sexChart', true)
+            .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
+
+        const journeyChartSVG = d3.select('.journeyChart').append('svg')
+            .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
+            .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
+            .append("g")
+            .classed('journeyChart', true)
+            .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
+
+        const marketSVG = d3.select('.marketChart').append('svg')
+            .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
+            .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
+            .append("g")
+            .classed('marketChart', true)
+            .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
 
         const calcExtents = data => {
             let yExtents = [0, 0];
@@ -50,19 +84,19 @@
 
         }
 
-        const filterDataByCity = city => {
-            const parseTime = d3.timeParse("%Y");
-            const filtered = dataStore.yearData.filter(d=>d.station === city);
-            const entryData = filtered.map(d=>({
+
+        const formatEntryData = data=> {
+            return data.map(d=>({
                 saturday: d.entry_saturday,
                 sunday: d.entry_sunday,
                 week: d.entry_week,
                 station: d.station,
                 year: parseTime(d.year)
             }));
+        }
+        const formatExitData = data => {
 
-
-            const exitData = filtered.map(d=>({
+            return data.map(d=>({
                 saturday: d.exit_saturday,
                 sunday: d.exit_sunday,
                 week: d.exit_week,
@@ -70,8 +104,21 @@
                 year: parseTime(d.year)
             }));
 
-            return prepareDataForLine(entryData, exitData)
         }
+
+        const aggregateData = ({yearData}) => {
+            const entryData = formatEntryData(yearData);
+            const exitData = formatExitData(yearData);
+            return prepareDataForLine(entryData, exitData);
+        }
+
+
+        const filterDataByCity = city => {
+            const filtered = dataStore.yearData.filter(d=>d.station === city);
+            const entryData = formatEntryData(filtered);
+            const exitData = formatExitData(filtered);
+            return prepareDataForLine(entryData, exitData)
+        };
 
         const prepareDataForLine = (entryData, exitData) => {
             const entryExtents = calcExtents(entryData);
@@ -82,7 +129,7 @@
                 type: 'entry',
                 color: 'green',
                 extents: entryExtents
-            }));
+            })).filter(d=>!isNaN(d.value));
             const entrySunday = entryData.map(d=>({
                 day: 'sunday',
                 value: d.sunday,
@@ -90,7 +137,7 @@
                 type: 'entry',
                 color: 'blue',
                 extents: entryExtents
-            }));
+            })).filter(d=>!isNaN(d.value));
             const entryWeek = entryData.map(d=>({
                 day: 'week',
                 value: d.week,
@@ -98,7 +145,7 @@
                 type: 'entry',
                 color: 'orange',
                 extents: entryExtents
-            }));
+            })).filter(d=>!isNaN(d.value));
 
             const exitExtents = calcExtents(exitData);
             const exitSaturday = exitData.map(d=>({
@@ -108,7 +155,7 @@
                 type: 'exit',
                 color: 'green',
                 extents: exitExtents
-            }));
+            })).filter(d=>!isNaN(d.value));
             const exitSunday = exitData.map(d=>({
                 day: 'sunday',
                 value: d.sunday,
@@ -116,7 +163,7 @@
                 type: 'exit',
                 color: 'blue',
                 extents: exitExtents
-            }));
+            })).filter(d=>!isNaN(d.value));
             const exitWeek = exitData.map(d=>({
                 day: 'week',
                 value: d.week,
@@ -124,9 +171,116 @@
                 type: 'exit',
                 color: 'orange',
                 extents: exitExtents
-            }));
+            })).filter(d=>!isNaN(d.value));
 
             return [entrySaturday, entrySunday, entryWeek, exitSaturday, exitSunday, exitWeek];
+
+        }
+
+        const formatBarData = (data)=> {
+            if(!data) return;
+            const {age, journey, market} = data;
+            const ageData = [];
+            ageMap.forEach((category, key)=> ageData.push({category, value: age[0][key] + age[1][key]}));
+
+            const sexData = [{category: 'Male', value: age[0].male + age[1].male},
+                {category: 'Female', value: age[0].female + age[1].female}];
+
+            const journeyData = [];
+            journeyMap.forEach((category, key)=> journeyData.push({
+                category,
+                value: journey[0][key] + journey[1][key]
+            }))
+
+            const marketData = [];
+            marketMap.forEach((category, key)=> marketData.push({category, value: market[0][key] + market[1][key]}));
+
+            return [
+                {label: 'Age', data: ageData, selector: 'ageChart', color: 'green'},
+                {label: 'Sex', data: sexData, selector: 'sexChart', color: 'steelblue'},
+                {label: 'Journey', data: journeyData, selector: 'journeyChart', color: 'orange'},
+                {label: 'Market', data: marketData, selector: 'marketChart', color: 'grey'}];
+        }
+        const filetBarDataByStation = station => {
+            const {ageData, marketData, journeyData} = dataStore;
+            const age = ageData.filter(d=>d.station === station);
+            const journey = journeyData.filter(d=>d.station === station);
+            const market = marketData.filter(d=>d.station === station);
+            return formatBarData({age, journey, market});
+
+        }
+
+        const makeBarChart = (bardata) => {
+            const {label, selector, data, color} = bardata;
+            const x = d3.scaleBand()
+                .range([0, barChartWidth])
+                .padding(0.1);
+            const y = d3.scaleLinear()
+                .range([barChartHeight - BAR_OFFSET, 0]);
+
+            x.domain(data.map(d=>d.category));
+            y.domain([0, d3.max(data, d=>d.value)]);
+
+            let barChart = null;
+
+            switch (label) {
+                case 'Age':
+                    barChart = ageSVG;
+                    break;
+                case 'Sex':
+                    barChart = sexSVG
+                    break;
+                case 'Journey':
+                    barChart = journeyChartSVG;
+                    break;
+                case 'Market':
+                    barChart = marketSVG;
+                    break;
+                default:
+                    return barChart;
+            }
+
+            const barGroup = barChart.append('g').classed('barGroup', true);
+            barGroup.selectAll(".bar")
+                .data(data)
+                .enter().append("rect")
+                .attr("class", "bar")
+                .attr('fill', color ? color : 'steelblue')
+                .attr("x", d=>x(d.category))
+                .attr("width", x.bandwidth())
+                .attr("y", d=>y(d.value))
+                .attr("height", d=> barChartHeight - BAR_OFFSET - y(d.value));
+
+
+            barGroup.append("g")
+                .attr("transform", "translate(0," + (barChartHeight - BAR_OFFSET) + ")")
+                .call(d3.axisBottom(x))
+                .selectAll("text")
+                .style("text-anchor", "end")
+                .attr("dx", "-.8em")
+                .attr("dy", ".15em")
+                .attr("transform", "rotate(-65)");
+
+
+            barGroup.append("g")
+                .call(d3.axisLeft(y)
+                    .ticks(6, 's'));
+            d3.select('body').classed('modal', true);
+            d3.select('.zoomRect').classed('modal', true);
+            d3.select('.closebarChart').on('click', ()=> {
+                d3.select('body').classed('modal', false);
+                d3.select('.zoomRect').classed('modal', false);
+                d3.select('.barChartWrapper').classed('showMe', false);
+            })
+
+        }
+
+        const barChartFactory = station => {
+            console.log(station, 'clicked')
+            const bardata = filetBarDataByStation(station);
+            d3.select('.barChartWrapper').classed('showMe', true);
+            d3.selectAll('.barGroup').remove();
+            bardata.forEach(bar=>makeBarChart(bar))
 
         }
 
@@ -180,7 +334,7 @@
                 .attr('stroke', color)
 
             d3.select(`.${day}`).style('background', color)
-            d3.select('.station').text(station);
+            d3.select('.station').text(station ? station : 'Summary Data');
             d3.select('body').classed('modal', true);
             d3.select('.zoomRect').classed('modal', true);
             d3.select('.close').on('click', ()=> {
@@ -206,6 +360,13 @@
 
         }
 
+        const addSummaryListener = ()=> {
+            const aggData = aggregateData(dataStore);
+            d3.select('.summary').on('click', ()=> {
+                d3.selectAll('.lineGroup').remove();
+                aggData.forEach(line=>makeLine(line))
+            })
+        }
 
         function map(selection) {
             selection.each(function (data) {
@@ -213,7 +374,7 @@
                 dataStore = data;
                 console.log(dataStore, 'store')
                 data = mangleData(data.stations);
-
+                addSummaryListener();
                 model = data;
 
                 var minX = d3.min(data.raw, function (line$$1) {
@@ -437,7 +598,12 @@
                             return d.coords[1]
                         })
                         .attr("r", 6).style("visibility", "visible")
-                        .on("click", d=> lineFactory(d.name))
+                        .on("click", d=> {
+
+                            barChartFactory(d.name)
+                            // lineFactory(d.name)
+
+                        })
                         .on("mouseover", function (d) {
                         })
                         .attr("stroke", fgColor)
@@ -890,7 +1056,6 @@
 
         function mangleData(data, test) {
             var mangledData = {};
-            console.log(data, test)
             // Data manipulation
             mangledData.raw = data.lines;
             mangledData.river = data.river;

@@ -26,6 +26,34 @@
         </div>
     </div>
 
+        <div class="barChartWrapper">
+            <div class="row">
+                <div class="innerBarChart ageWrapper">
+                    <div class="label">Age</div>
+                    <div class="ageChart"></div>
+                </div>
+                <div class="innerBarChart sexWrapper">
+                    <div class="label">Sex</div>
+                    <div class="sexChart"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="innerBarChart journeyWrapper">
+                    <div class="label">Journey</div>
+                    <div class="journeyChart"></div>
+                </div>
+
+                <div class="innerBarChart marketWrapper">
+                    <div class="label">Market</div>
+                    <div class="marketChart"></div>
+                </div>
+
+            </div>
+            <div class="closebarChart">Close</div>
+
+        </div>
+
+
     <nav>
         <ul>
             <li><a href="map.html">Google Map</a></li>
@@ -45,6 +73,7 @@
     </select>
 
     <button onclick="startTimeAnimation()">24 Hour Animation</button>
+    <button class="summary">Summary Stat</button>
 </div>
 
 
@@ -55,6 +84,18 @@
     var el = document.getElementById('tube-map');
     var width = 1600;
     var height = 1024;
+
+    const ageInCSV = ["Under 16", "16 - 19", "20 - 24", "25 - 34", "35 - 44", "45 - 59", "60 - 64", "65 - 70", "Over 70"];
+    const ageMap = new Map();
+    ageInCSV.forEach((d, i)=>ageMap.set(`cat${i}`, d));
+
+    const journeyInCSV = ["< 15 mins", "15 - 30", "30 - 45", "45 - 60", "60 - 90:", "over 90"];
+    const journeyMap = new Map();
+    journeyInCSV.forEach((d, i)=>journeyMap.set(`cat${i}`, d));
+
+    const maketInCSV = ["Commuter", "Leisure", "Tourist", "Not known"];
+    const marketMap = new Map();
+    maketInCSV.forEach((d, i)=>marketMap.set(`cat${i}`, d));
 
     var svg = d3.select(el)
             .append('svg')
@@ -74,7 +115,7 @@
 
     d3.queue()
             .defer(d3.json, 'stations.json')
-            .defer(d3.csv, 'tubedata/counts/2007_Entry_Exit.csv')
+            .defer(d3.csv, 'tubedata/counts/2007_Entry_Exit.csv') // Line Charts
             .defer(d3.csv, 'tubedata/counts/2008_Entry_Exit.csv')
             .defer(d3.csv, 'tubedata/counts/2009_Entry_Exit.csv')
             .defer(d3.csv, 'tubedata/counts/2010_Entry_Exit.csv')
@@ -84,6 +125,13 @@
             .defer(d3.csv, 'tubedata/counts/2014_Entry_Exit.csv')
             .defer(d3.csv, 'tubedata/counts/2015_Entry_Exit.csv')
             .defer(d3.csv, 'tubedata/counts/2016_Entry_Exit.csv')
+
+            .defer(d3.csv, 'tubedata/RODS_2016/age/1.csv')  // For Bar Charts
+            .defer(d3.csv, 'tubedata/RODS_2016/age/2.csv')
+            .defer(d3.csv, 'tubedata/RODS_2016/journeytime/1.csv')
+            .defer(d3.csv, 'tubedata/RODS_2016/journeytime/2.csv')
+            .defer(d3.csv, 'tubedata/RODS_2016/market/1.csv')
+            .defer(d3.csv, 'tubedata/RODS_2016/market/2.csv')
             .awaitAll(readyForData);
 
     function readyForData(error, response) {
@@ -92,6 +140,7 @@
             console.log("something went wrong");
         }
 
+        console.log(response, 'RESPONSE DATA')
         const dataFactory = {
             stations: response[0],
             yeardata: [
@@ -104,16 +153,82 @@
                 {year: '2013', data: response[7]},
                 {year: '2014', data: response[8]},
                 {year: '2015', data: response[9]},
-                {year: '2016', data: response[10]}
-            ]
+                {year: '2016', data: response[10]},
+            ],
+            age: [response[11], response[12]],
+            journey: [response[13], response[14]],
+            market: [response[15], response[16]]
         };
 
         const yearData = formatEntryExit(dataFactory);
-        console.log(response[8])
-        const dataStore = {stations: response[0], yearData}
+        const ageData = formatAgeSex(dataFactory);
+        const journeyData = formatJourney(dataFactory);
+        const marketData = formatMaket(dataFactory);
+        const dataStore = {stations: response[0], yearData, ageData, journeyData, marketData}
         svg.datum(dataStore).call(map);
 
     }
+
+    const formatMaket = ({market}) => {
+        const marketCollection = market.map(item=> {
+            return item.map(d=>(
+            {
+                'cat0': parseFloat(d.Commuter),
+                'cat1': parseFloat(d.Leisure),
+                'cat2': parseFloat(d.Tourist),
+                'cat3': parseFloat(d.Notknown),
+                nlc: d.NLC,
+                station: d.Station,
+                period: d.timePeriod
+            }))
+        })
+        return marketCollection.reduce((a, b)=>a.concat(b), []).filter(d=>d.period === 'Totalday')
+
+    }
+
+    const formatJourney = ({journey})=> {
+        const journeyCollection = journey.map(item=> {
+            return item.map(d=>(
+            {
+                'cat0': parseFloat(d.cat0),
+                'cat1': parseFloat(d.cat1),
+                'cat2': parseFloat(d.cat2),
+                'cat3': parseFloat(d.cat3),
+                'cat4': parseFloat(d.cat4),
+                'cat5': parseFloat(d.cat5),
+                nlc: d.NLC,
+                station: d.Station,
+                period: d.Timeperiod
+            }))
+        });
+
+        return journeyCollection.reduce((a, b)=>a.concat(b), []).filter(d=>d.period === 'Totalday')
+    }
+
+    const formatAgeSex = ({age}) => {
+        const ageCollection = age.map(item=> {
+            return item.map(d=>(
+            {
+                'cat0': parseFloat(d.cat0),
+                'cat1': parseFloat(d.cat1),
+                'cat2': parseFloat(d.cat2),
+                'cat3': parseFloat(d.cat3),
+                'cat4': parseFloat(d.cat4),
+                'cat5': parseFloat(d.cat5),
+                'cat6': parseFloat(d.cat6),
+                'cat7': parseFloat(d.cat7),
+                'cat8': parseFloat(d.cat8),
+                period: d.timePeriod,
+                male: parseFloat(d.Male),
+                female: parseFloat(d.Female),
+                nlc: d.NLC,
+                station: d.Station
+            }))
+        })
+
+        return ageCollection.reduce((a, b)=>a.concat(b), []).filter(d=>d.period === 'Totalday')
+    }
+
 
     function formatEntryExit({yeardata}) {
         const yearCollection = yeardata.map(year=> {
@@ -124,7 +239,7 @@
                 entry_week: isNaN(parseFloat(d.Entry_Week)) ? 0 : parseFloat(d.Entry_Week),
                 exit_saturday: parseFloat(d.Exit_Saturday),
                 exit_sunday: parseFloat(d.Exit_Sunday),
-                exit_week: parseFloat(d.Exit_Week),
+                exit_week: isNaN(parseFloat(d.Exit_Week)) ? 0 : parseFloat(d.Exit_Week),
                 station: d.Station.trim().replace(/ /g, ''),
                 milliion: d.million,
                 nlc: d.nlc
