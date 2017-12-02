@@ -1,9 +1,4 @@
- RODS report2b created at 13:27:32 on 29-03-2017,,,,,,
- based on survey data up to 2016 and reconciled to Autumn 2016 counts,,,,,,
-(extracted from 'by ticket type' worksheet),,,,,,
- Report 2b - Analysis of distance by ticket type and exit station,,,,,,
- NLC,Station name,Time period,Ticket Type,Total passengers,Total passenger kilometres,Average journey length (kms)
-,All stations,   Total day,     Total all types,4884896,42693690.89,8.74
+NLC,Station,Total day   ,     Total all types,Total_passengers,Total_passenger_kilometres,Average_journey_length
 500,Acton Town          ,   Total day,     Total all types,9604,99744.09,10.39
 502,Aldgate             ,   Total day,     Total all types,13604,131857.53,9.69
 503,Aldgate East        ,   Total day,     Total all types,20696,157125.02,7.59

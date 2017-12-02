@@ -378,18 +378,21 @@ class SurveyMap {
         else if (type === "avdistance") {
             //from Totals.csv
             //Retrieve the necessary data
-            d3.csv("tubedata/RODS_2016/Entry/Distance_travelled/Totals.csv", function (error, csvData) {
+            d3.csv("tubedata/RODS_2016/Exit/Distance travelled/Totals.csv", function (csvData) {
                 let menu = document.getElementById("categoryMenu");
                 let stat = menu.options[menu.selectedIndex].value;
+
+                stat = (stat.split(' ')).splice(0, 3).join('_');
 
                 //change necessary columns
                 csvData.forEach(function (da, i) {
                     da["" + stat + ""] = +da["" + stat + ""];
+                    console.log(da["" + stat + ""]);
                 });
 
                 self_item.stations.forEach(function (d, i) {
                     let val = csvData.filter(function (n) {
-                        return n.Station === d.title;
+                        return n.Station.trim() === d.title.trim();
                     });
 
                     if (val[0]) {
@@ -413,20 +416,66 @@ class SurveyMap {
                     data: heatMapData
                 });
 
+                console.log(heatMapData)
+
                 //d3.max(heatMapData).weight
                 //
-                console.log(heatMapData);
 
                 self_item.heatmap.setMap(map);
                 self_item.heatmap.setOptions({
                     radius: 15,
-                    maxIntensity: d3.max(heatMapData).weight,
-                    gradient: ['#010107', '#02020C', '#030312', '#050417', '#07051D', '#0A0723', '#0D0829', '#100A2F', '#140B35', '#170C3B', '#1B0C41',
-                        '#1F0C48', '#230C4E', '#280B53', '#2C0B58', '#310A5D', '#350960', '#3A0963', '#3E0966', '#430A68', '#470B6A', '#4B0C6B', '#4F0D6C', '#540F6D', '#58106E', '#5C126E', '#60136E', '#64156E', '#68166E', '#6C186E', '#70196E',
-                        '#741B6E', '#781C6D', '#7D1E6D', '#811F6C', '#85216B', '#89226A', '#8D2369', '#912568', '#952667', '#992865', '#9D2964', '#A12B62', '#A52D60', '#A92E5E', '#AD305C', '#B1325A', '#B53458', '#B93656', '#BD3853', '#C03A51',
-                        '#C43C4E', '#C83F4C', '#CB4149', '#CF4446', '#D24644', '#D54941', '#D84C3E', '#DB4F3B', '#DE5338', '#E15635', '#E45A32', '#E65D2F', '#E9612B', '#EB6528', '#ED6925', '#EF6D22', '#F1711E', '#F3751B', '#F47A18', '#F67E14',
-                        '#F78311', '#F8870E', '#F98C0A', '#FA9008', '#FB9506', '#FB9A06', '#FC9F07', '#FCA409', '#FCA80D', '#FCAD12', '#FCB217', '#FBB71C', '#FBBC22', '#FAC128', '#F9C72E', '#F8CC35', '#F7D13C', '#F6D643', '#F5DB4B', '#F4E054',
-                        '#F3E45D', '#F2E967', '#F1EE71', '#F2F27C', '#F3F587', '#F5F991', '#F8FC9B', '#FCFFA4']
+                    maxIntensity: d3.max(heatMapData).weight * 50,
+                    gradient: [ 'rgba(0, 255, 255, 0)',
+                        "#00FFFF",
+                        "#00EFFF",
+                        "#00DFFF",
+                        "#00D0FF",
+                        "#00C0FF",
+                        "#00B0FF",
+                        "#00A1FF",
+                        "#0091FF",
+                        "#0082FF",
+                        "#0072FF",
+                        "#0062FF",
+                        "#0053FF",
+                        "#0043FF",
+                        "#0034FF",
+                        "#0024FF",
+                        "#0014FF",
+                        "#0005FF",
+                        "#0A00FF",
+                        "#1A00FF",
+                        "#2900FF",
+                        "#3900FF",
+                        "#4800FF",
+                        "#5800FF",
+                        "#6800FF",
+                        "#7700FF",
+                        "#8700FF",
+                        "#9600FF",
+                        "#A600FF",
+                        "#B600FF",
+                        "#C500FF",
+                        "#D500FF",
+                        "#E400FF",
+                        "#F400FF",
+                        "#FF00F9",
+                        "#FF00EA",
+                        "#FF00DA",
+                        "#FF00CA",
+                        "#FF00BB",
+                        "#FF00AB",
+                        "#FF009C",
+                        "#FF008C",
+                        "#FF007C",
+                        "#FF006D",
+                        "#FF005D",
+                        "#FF004E",
+                        "#FF003E",
+                        "#FF002E",
+                        "#FF001F",
+                        "#FF000F",
+                        "#FF0000"]
                 });
 
                 self_item.markers.push(self_item.heatmap);
@@ -496,12 +545,57 @@ class SurveyMap {
                 self_item.heatmap.setOptions({
                     radius: 15,
                     maxIntensity: d3.max(heatMapData).weight,
-                    gradient: ['#010107', '#02020C', '#030312', '#050417', '#07051D', '#0A0723', '#0D0829', '#100A2F', '#140B35', '#170C3B', '#1B0C41',
-                        '#1F0C48', '#230C4E', '#280B53', '#2C0B58', '#310A5D', '#350960', '#3A0963', '#3E0966', '#430A68', '#470B6A', '#4B0C6B', '#4F0D6C', '#540F6D', '#58106E', '#5C126E', '#60136E', '#64156E', '#68166E', '#6C186E', '#70196E',
-                        '#741B6E', '#781C6D', '#7D1E6D', '#811F6C', '#85216B', '#89226A', '#8D2369', '#912568', '#952667', '#992865', '#9D2964', '#A12B62', '#A52D60', '#A92E5E', '#AD305C', '#B1325A', '#B53458', '#B93656', '#BD3853', '#C03A51',
-                        '#C43C4E', '#C83F4C', '#CB4149', '#CF4446', '#D24644', '#D54941', '#D84C3E', '#DB4F3B', '#DE5338', '#E15635', '#E45A32', '#E65D2F', '#E9612B', '#EB6528', '#ED6925', '#EF6D22', '#F1711E', '#F3751B', '#F47A18', '#F67E14',
-                        '#F78311', '#F8870E', '#F98C0A', '#FA9008', '#FB9506', '#FB9A06', '#FC9F07', '#FCA409', '#FCA80D', '#FCAD12', '#FCB217', '#FBB71C', '#FBBC22', '#FAC128', '#F9C72E', '#F8CC35', '#F7D13C', '#F6D643', '#F5DB4B', '#F4E054',
-                        '#F3E45D', '#F2E967', '#F1EE71', '#F2F27C', '#F3F587', '#F5F991', '#F8FC9B', '#FCFFA4']
+                    gradient: [ 'rgba(0, 255, 255, 0)',
+                        "#00FFFF",
+                        "#00EFFF",
+                        "#00DFFF",
+                        "#00D0FF",
+                        "#00C0FF",
+                        "#00B0FF",
+                        "#00A1FF",
+                        "#0091FF",
+                        "#0082FF",
+                        "#0072FF",
+                        "#0062FF",
+                        "#0053FF",
+                        "#0043FF",
+                        "#0034FF",
+                        "#0024FF",
+                        "#0014FF",
+                        "#0005FF",
+                        "#0A00FF",
+                        "#1A00FF",
+                        "#2900FF",
+                        "#3900FF",
+                        "#4800FF",
+                        "#5800FF",
+                        "#6800FF",
+                        "#7700FF",
+                        "#8700FF",
+                        "#9600FF",
+                        "#A600FF",
+                        "#B600FF",
+                        "#C500FF",
+                        "#D500FF",
+                        "#E400FF",
+                        "#F400FF",
+                        "#FF00F9",
+                        "#FF00EA",
+                        "#FF00DA",
+                        "#FF00CA",
+                        "#FF00BB",
+                        "#FF00AB",
+                        "#FF009C",
+                        "#FF008C",
+                        "#FF007C",
+                        "#FF006D",
+                        "#FF005D",
+                        "#FF004E",
+                        "#FF003E",
+                        "#FF002E",
+                        "#FF001F",
+                        "#FF000F",
+                        "#FF0000"]
                 });
 
                 self_item.markers.push(self_item.heatmap);
