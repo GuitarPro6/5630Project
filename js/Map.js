@@ -289,18 +289,12 @@ class MAP {
     }
 
     changeGradient(gradient) {
-        let menu = document.getElementById("vis-type");
-        let type = menu.options[menu.selectedIndex].value;
-
         if (this.heatmap) {
             this.heatmap.set('gradient', this.heatmap.get('gradient') ? null : gradient);
         }
     }
 
     changeRadius(radius) {
-        let menu = document.getElementById("vis-type");
-        let type = menu.options[menu.selectedIndex].value;
-
         let currRadius = this.heatmap.get('radius');
         let newRadius = currRadius + radius;
 
@@ -312,9 +306,6 @@ class MAP {
 
 //Changes the opacity of the circles and the heatmap
     changeOpacity(opacity) {
-        let menu = document.getElementById("vis-type");
-        let type = menu.options[menu.selectedIndex].value;
-
         let currOpacity = this.heatmap.get('opacity');
         let newOpacity = currOpacity + opacity;
 

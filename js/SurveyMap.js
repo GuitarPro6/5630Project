@@ -429,7 +429,19 @@ class SurveyMap {
         let newRadius = currRadius + radius;
 
         this.heatmap.set('radius', currRadius >= 0 ? newRadius : 0);
+
+        return newRadius;
     }
 
 
+    //Changes the opacity of the circles and the heatmap
+    changeOpacity(opacity) {
+        let currOpacity = this.heatmap.get('opacity');
+        let newOpacity = currOpacity + opacity;
+
+        newOpacity = newOpacity > 1 ? 1 : newOpacity;
+
+        this.heatmap.set('opacity', newOpacity >= 0 ? newOpacity : 0);
+        return newOpacity;
+    }
 }
