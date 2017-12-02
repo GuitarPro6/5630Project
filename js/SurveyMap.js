@@ -488,32 +488,35 @@ class SurveyMap {
                 let menu1 = document.getElementById("categoryMenu");
                 let cat = menu1.options[menu1.selectedIndex].value;
 
+                cat = cat.split(' ').join('_');
+
                 let menu2 = document.getElementById("dayMenu");
                 let day = menu2.options[menu2.selectedIndex].value;
 
                 //change necessary columns
-                csvData.forEach(function (da, i) {
-                    da["NR/DLR/Tram"] = +da["NR/DLR/ Tram"];
-                    da["Bus/Coach"] = +da["Bus/ Coach"];
-                    da["Bicycle"] = +da["Bicycle"];
-                    da["Motorcycle"] = +da["Motorcycle"];
-                    da["Car/VanParked"] = +da["Car/Van Parked"];
-                    da["Car/Vandrivenaway"] = +da["Car/Van driven away"];
-                    da["Walked"] = +da["Walked"];
-                    da["Taxi/Minicab"] = +da["Taxi/ Minicab"];
-                    da["RiverBus/Ferry"] = +da["RiverBus/Ferry"];
-                    da["Other"] = +da["Other"];
-                    da["Not Stated"] = +da["Not Stated"];
-                    da["Heathrow Terminal 1"] = +da["Heathrow Terminal 1"];
-                    da["Heathrow Terminal 2"] = +da["Heathrow Terminal 2"];
-                    da["Heathrow Terminal 3"] = +da["Heathrow Terminal 3"];
-                    da["Heathrow Terminal 4"] = +da["Heathrow Terminal 4"];
-                    da["Heathrow Terminal 5"] = +da["Heathrow Terminal 5"];
+                csvData.forEach(function (da) {
+                  da[cat] = +da[cat];
+                    // da["NR/DLR/Tram"] = +da["NR/DLR/ Tram"];
+                    // da["Bus/Coach"] = +da["Bus/ Coach"];
+                    // da["Bicycle"] = +da["Bicycle"];
+                    // da["Motorcycle"] = +da["Motorcycle"];
+                    // da["Car/VanParked"] = +da["Car/Van Parked"];
+                    // da["Car/Vandrivenaway"] = +da["Car/Van driven away"];
+                    // da["Walked"] = +da["Walked"];
+                    // da["Taxi/Minicab"] = +da["Taxi/ Minicab"];
+                    // da["RiverBus/Ferry"] = +da["RiverBus/Ferry"];
+                    // da["Other"] = +da["Other"];
+                    // da["Not Stated"] = +da["Not Stated"];
+                    // da["Heathrow Terminal 1"] = +da["Heathrow Terminal 1"];
+                    // da["Heathrow Terminal 2"] = +da["Heathrow Terminal 2"];
+                    // da["Heathrow Terminal 3"] = +da["Heathrow Terminal 3"];
+                    // da["Heathrow Terminal 4"] = +da["Heathrow Terminal 4"];
+                    // da["Heathrow Terminal 5"] = +da["Heathrow Terminal 5"];
                 });
 
                 self_item.stations.forEach(function (d, i) {
                     let val = csvData.filter(function (n) {
-                        return n.Station === d.title && n["time period"] === day;
+                        return n.Station.trim() === d.title.trim() && n.Time_period.trim() === day;
                     });
 
                     if (val[0]) {
@@ -544,7 +547,7 @@ class SurveyMap {
                 self_item.heatmap.setMap(map);
                 self_item.heatmap.setOptions({
                     radius: 15,
-                    maxIntensity: d3.max(heatMapData).weight,
+                    maxIntensity: d3.max(heatMapData).weight*150,
                     gradient: [ 'rgba(0, 255, 255, 0)',
                         "#00FFFF",
                         "#00EFFF",

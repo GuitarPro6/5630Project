@@ -319,7 +319,7 @@
         }
         else if (type === 'access') {
             //create the new options for the menu
-            let access = ['-- select an option --', "NR/DLR/ Tram", "Bus/ Coach", "Bicycle", "Motorcycle", "Car/Van Parked", "Car/Van driven away", "Walked", "Taxi/ Minicab", "RiverBus/Ferry", "Other", "Heathrow Terminal 1", "Heathrow Terminal 2", "Heathrow Terminal 3", "Heathrow Terminal 4", "Heathrow Terminal 5"]
+            let access = ['-- select an option --', "NR/DLR/Tram", "Bus/Coach", "Bicycle", "Motorcycle", "Car/Van Parked", "Car/Van driven away", "Walked", "Taxi/ Minicab", "RiverBus/Ferry", "Other", "Heathrow Terminal 1", "Heathrow Terminal 2", "Heathrow Terminal 3", "Heathrow Terminal 4", "Heathrow Terminal 5"]
             let select1 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu")
                 .on('change', function() {
                   changeDisplayBox2();
@@ -337,7 +337,7 @@
                 return d === "-- select an option --"
             });
 
-            let sections = ['-- select an option --', "Early", "AM Peak", "Midday", "PM Peak", "Evening", "Late", "Total Day"]
+            let sections = ['-- select an option --', "Early", "AM peak", "Midday", "PM Peak", "Evening", "Late", "Total day"]
             let select2 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu")
                 .on('change', function() {
                   changeDisplayBox2();
