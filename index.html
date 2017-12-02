@@ -12,30 +12,38 @@
   <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
 
 </head>
+<img src="https://vignette.wikia.nocookie.net/logopedia/images/3/3a/London_Underground_1970_roundel_small.png/revision/latest?cb=20120209090410" style="float: right; width: 100px; height: 80px" />
 <nav>
   <ul>
     <li><a href="map.html">Google Map</a></li>
       <li><a href="video.html">Video</a></li>
 	</ul>
+
 </nav>
 <body>
 
 	<div id="floating-panel1" style ="margin-left:30px;  margin-bottom:10px;">
-		Select Vis Type
+		<h2 style = "text-align: center">London Underground</h2>
+		Select Both/Entry/Exit:
 	<select id = "data-year" onchange="callback();">
-<option value="time">Time Series</option>
-<option value="routes">Routes</option>
+<option value="null"> -- select an option -- </option>
+<option value="both">Both</option>
+<option value="entry">Entry</option>
+<option value="exit">Exit</option>
 <!-- <option value="2009">2009</option>
 <option value="2010">2010</option> -->
 </select>
 
-<button onclick = "startTimeAnimation()">24 Hour Animation</button>
+<button onclick = "startTimeAnimation()">A Day on the Tube</button>
+
+<text id="clock" style="text-align: center; float: right"></text>
+<text id ="journey" style="text-align: center; float: right"></text>
+
 </div>
 
 
 
-
-  <div id="tube-map" style ="margin-left:30px;">
+  <div id="tube-map" style ="margin-left:30px; height: 1024px">
   </div>
   <script>
 	/*  <script src="https://unpkg.com/d3-tube-map@latest/build/d3-tube-map.js"></scr>  */
@@ -45,8 +53,8 @@
 
     var svg = d3.select(el)
         .append('svg')
-        .style('width', width)
-        .style('height', height).attr("id", "container");
+        .style('width', "100%")
+        .style('height', "100%").attr("id", "container");
 
 
 
@@ -89,14 +97,28 @@
 						var myDate = new Date();
 						let stripMilliseconds_all = function(s) { return s.slice(0, -1); };
 									var format_entry = d3.timeFormat("%H:%M");
+				//The clock starts at 5 am
+				for(var i = 5; i <= 24; i++){
+					if(i === 24){
+						for(var j = 0; j < 5; j++){
+						for(var min = 0; min < 60; min++){
+							myDate.setHours(j, min, 0, 0);
+							time_stamp = format_entry(myDate);
+							timeTable.push(time_stamp);
+						}
+					}
 
-				for(var i = 0; i < 24; i++){
+					}
+					else{
+
+
 
 					for(var min = 0; min < 60; min++){
 						myDate.setHours(i, min, 0, 0);
 						time_stamp = format_entry(myDate);
 						timeTable.push(time_stamp);
 					}
+				}
 
 				}
 
