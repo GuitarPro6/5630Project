@@ -599,6 +599,8 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
 		var tick = 0;
 
+    var day = "am";
+
 		//create a data structure that ties each station to the time passed through, and whether it was an entry or exit
 		//Take that data and tie the count to the circles that will be at each staation
 		let t = setInterval(function(elapsed) {
@@ -606,11 +608,18 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
 			console.log(time);
 			console.log(elapsed);
-      d3.select("#clock").text(time);
+
+      if(time === "12:00"){
+        day = "pm";
+      }
+      d3.select("#clock").text(time + " " + day );
 
 			if(tick % 15 === 0){
         var journeys = 0;
 
+
+
+console.log(time_data);
 
 		time_data.forEach(function(d){
 			//Select Al Entries
@@ -628,14 +637,40 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
 
 
+      // var exitScale = d3.scale.linear()
+      // .domain([0,d3.max(d.ext[0])])
+      // .range([3,20])
 
-			entries.transition().duration(1000).attr("r", function(c){
+
+			entries.transition().ease(d3.easeSin).duration(1000).attr("r", function(c){
 
 				if(d != null){
 					if(d.ent[0] != null){
 						if(d.ent[0][""+ time + ""] != null){
+
+
+
+              var entryScale = d3.scaleLinear()
+              .domain([0,+d.ent[0].Total])
+              .range([2,300]);
+
+              var num = 0;
+
+              if(d.int[0] != null){
+                if(d.int[0][""+ time + ""]){
+                  num = +d.ent[0]["" + time + ""] + +d.int[0][""+ time + ""];
+                }
+                else{
+                 num = +d.ent[0]["" + time + ""];
+                }
+              }
+              else{
+                num = +d.ent[0]["" + time + ""];
+              }
+
+
               journeys+=+d.ent[0][""+ time + ""];
-							return (d.ent[0][""+ time + ""])/30;
+							return entryScale(num);
 
 						}
 
@@ -647,7 +682,7 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
         d3.select("#journey").text("" + journeys + " Journeys");
 
-				exits.transition().duration(1000).attr("r", function(c){
+				exits.transition().ease(d3.easeSin).duration(1000).attr("r", function(c){
 
 					if(d != null){
 						if(d.ext[0] != null){
@@ -655,7 +690,29 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
                 if(journeyCount === "exit"){
                     journeys+=+d.ext[0][""+ time + ""];
                 }
-								return (d.ext[0][""+ time + ""])/30;
+
+                var num = 0;
+
+                if(d.int[0] != null){
+                  if(d.int[0][""+ time + ""]){
+                    num = +d.ext[0]["" + time + ""] + +d.int[0][""+ time + ""];
+                  }
+                  else{
+                   num = +d.ext[0]["" + time + ""];
+                  }
+                }
+                else{
+                  num = +d.ext[0]["" + time + ""];
+                }
+
+
+
+
+                var exitScale = d3.scaleLinear()
+                .domain([0,+d.ext[0].Total])
+                .range([2,300]);
+
+								return exitScale(num);
 							}
 							else{
 								return 0;
@@ -849,6 +906,8 @@ stations_array.forEach(function(da){
 					var mystring = da.title;
 					mystring = mystring.split(' ').join('')
 					mystring = mystring.split('\n').join('')
+
+
 
 
 					station_time_structure.push({gname: da.title, txt_name: mystring,  ent: entry, ext: exit, int: inter})
