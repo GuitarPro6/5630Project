@@ -7,7 +7,7 @@ class SurveyMap {
     /**
      *Constructor for the map class
      * @param map instance of google map object
-     *
+     * @param stationData data of station
      */
     constructor(map, stationData) {
 
@@ -33,59 +33,44 @@ class SurveyMap {
 
         d3.selectAll(".circle").remove();
 
-
         //Use of this instance inside CSV methods
-        var self_item = this;
-
-        var citymap = [];
-
-        var heatMapData = [];
-
+        let self_item = this;
+        let citymap = [];
+        let heatMapData = [];
 
         //Get the selected year, type, and week/weekend for the data
-        var e = document.getElementById("data-type");
-        var type = e.options[e.selectedIndex].value;
+        let e = document.getElementById("data-type");
+        let type = e.options[e.selectedIndex].value;
 
-        var f = document.getElementById("data-week");
-        var week = f.options[f.selectedIndex].value;
+        let f = document.getElementById("data-week");
+        let week = f.options[f.selectedIndex].value;
 
-        var g = document.getElementById("data-year");
-        var year = g.options[g.selectedIndex].value;
-
+        let g = document.getElementById("data-year");
+        let year = g.options[g.selectedIndex].value;
 
         //Retrieve the necessary data
         d3.csv("tubedata/counts/2007_Entry_Exit.csv", function (error, csvData) {
             csvData.forEach(function (da, i) {
                 da.Entry_Week = +da.Entry_Week;
-                da.Entry_Sat = +da.Entry_Saturday;
-                da.Entry_Sun = +da.Entry_Sunday;
+                da.Entry_Sat = +da.Entry_Sat;
+                da.Entry_Sun = +da.Entry_Sun;
                 da.Exit_Week = +da.Exit_Week;
-                da.Exit_Sat = +da.Exit_Saturday;
-                da.Exit_Sun = +da.Exit_Sunday;
-
-
+                da.Exit_Sat = +da.Exit_Sat;
+                da.Exit_Sun = +da.Exit_Sun;
             });
 
-
             self_item.stations.forEach(function (d, i) {
-
-
-                var val = csvData.filter(function (n) {
-
-
+                let val = csvData.filter(function (n) {
                     return n.Station === d.title;
                 });
-
 
                 if (val.length === 0) {
                     val.push({entry: 0});
                 }
 
-
                 //here we construct an object that stores the information we need.
                 //Construct heat map data
                 // {location: new google.maps.LatLng(37.782, -122.443), weight: 2}
-
                 heatMapData.push({
                     location: new google.maps.LatLng(d.position.lat, d.position.lon),
                     weight: val[0].Entry_Week
@@ -99,19 +84,14 @@ class SurveyMap {
                     extWeek: val[0].Exit_Week,
                     extSat: val[0].Exit_Sat,
                     extSun: val[0].Exit_Sun
-
-
                 });
+            });
 
-
-            })
-
-
-            for (var city in citymap) {
+            for (let city in citymap) {
                 // Add the circle for this city to the map.
                 //  console.log(""+ type + week+ "");
                 //  console.log(citymap[city][""+ type + week+ ""]);
-                var cityCircle = new google.maps.Circle({
+                let cityCircle = new google.maps.Circle({
                     class: "circle",
                     strokeColor: '#FF0000',
                     strokeOpacity: 0.8,
@@ -122,23 +102,17 @@ class SurveyMap {
                     center: citymap[city].center,
                     //Here we set the radius according to some data gathered by the csv
                     radius: citymap[city]["" + type + week + ""] / 20
-
                     //Math.sqrt(citymap[city].population) * 100
                 });
-
                 self_item.markers.push(cityCircle);
             }
-
-
         });
-
-
     }
 
 //Methods used for clearing all the info off the map
 
     setMapOnAll(map) {
-        for (var i = 0; i < this.markers.length; i++) {
+        for (let i = 0; i < this.markers.length; i++) {
             this.markers[i].setMap(map);
         }
     }
@@ -148,54 +122,39 @@ class SurveyMap {
     }
 
     setHeatmap(map, type) {
-
-
         d3.selectAll(".circle").remove();
 
-
-        var self_item = this;
-
-        var citymap = [];
-
-        var heatMapData = [];
-
+        let self_item = this;
+        let citymap = [];
+        let heatMapData = [];
 
         if (type === "avJourneyTime") {
-
-            // var e = document.getElementById("data-type");
-            // var type = e.options[e.selectedIndex].value;
+            // let e = document.getElementById("data-type");
+            // let type = e.options[e.selectedIndex].value;
             //
-            // var f = document.getElementById("data-week");
-            // var week = f.options[f.selectedIndex].value;
+            // let f = document.getElementById("data-week");
+            // let week = f.options[f.selectedIndex].value;
 
             //Retrieve the necessary data
             d3.csv("tubedata/counts/2007_Entry_Exit.csv", function (error, csvData) {
                 csvData.forEach(function (da, i) {
                     da.Entry_Week = +da.Entry_Week;
-                    da.Entry_Sat = +da.Entry_Saturday;
-                    da.Entry_Sun = +da.Entry_Sunday;
+                    da.Entry_Sat = +da.Entry_Sat;
+                    da.Entry_Sun = +da.Entry_Sun;
                     da.Exit_Week = +da.Exit_Week;
-                    da.Exit_Sat = +da.Exit_Saturday;
-                    da.Exit_Sun = +da.Exit_Sunday;
-
-
+                    da.Exit_Sat = +da.Exit_Sat;
+                    da.Exit_Sun = +da.Exit_Sun;
                 });
                 self_item.stations.forEach(function (d, i) {
-
-
-                    var val = csvData.filter(function (n) {
-
-
+                    let val = csvData.filter(function (n) {
                         return n.Station === d.title;
                     });
-
 
                     //here we construct an object that stores the information we need.
                     //Construct heat map data
                     // {location: new google.maps.LatLng(37.782, -122.443), weight: 2}
 
-                    if (val[0] != null) {
-
+                    if (val[0]) {
                         heatMapData.push({
                             location: new google.maps.LatLng(d.position.lat, d.position.lon),
                             weight: val[0].Entry_Week.toString()
@@ -211,19 +170,13 @@ class SurveyMap {
                             extWeek: val[0].Exit_Week,
                             extSat: val[0].Exit_Sat,
                             extSun: val[0].Exit_Sun
-
-
                         });
-
                     }
-
-
-                })
-
+                });
 
 //Code to add cluster markers
 //
-//         var markers = heatMapData.map(function(location, i) {
+//         let markers = heatMapData.map(function(location, i) {
 //           console.log(location.location);
 //   return new google.maps.Marker({
 //     position: location.location,
@@ -232,9 +185,8 @@ class SurveyMap {
 // });
 //
 // // Add a marker clusterer to manage the markers.
-// var markerCluster = new MarkerClusterer(map, markers,
+// let markerCluster = new MarkerClusterer(map, markers,
 //     {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-
 
                 self_item.heatmap = new google.maps.visualization.HeatmapLayer({
                     data: heatMapData
@@ -253,76 +205,51 @@ class SurveyMap {
                 });
 
                 self_item.markers.push(self_item.heatmap);
-
-
             });
-
         }
         else if (type === "kilometers") {
-
-
-
-
-
-
             //Retrieve the necessary data
             d3.csv("tubedata/RODS_2016/Entry/Distance_travelled/By_station.csv", function (error, csvData) {
 
-                var menu = document.getElementById("categoryMenu");
-                var kms = menu.options[menu.selectedIndex].value;
+                let menu = document.getElementById("categoryMenu");
+                let kms = menu.options[menu.selectedIndex].value;
 
                 if (kms === "<1 km") {
                     kms = "<1km";
                 }
                 else if (kms === "+30kms") {
-
-
                 }
 
                 //change necessary columns
                 csvData.forEach(function (da, i) {
-
-
                     da["" + kms + ""] = +da["" + kms + ""] / da["Total"];
-
-
                 });
+
                 self_item.stations.forEach(function (d, i) {
-
-
-                    var val = csvData.filter(function (n) {
-
-
+                    let val = csvData.filter(function (n) {
                         return n.Station === d.title;
                     });
-
-                    if (val[0] != null) {
-
+                    if (val[0]) {
 //Here we could add the logic for a cumulative slider bar
-// for(var counter in val[0]){
+// for(let counter in val[0]){
 //   console.log(counter);
 //
 // }
-
                         //Construct object with all the information for heatmap based on what the user selects
                         citymap.push({
                             title: d.title,
                             center: {lat: d.position.lat, lng: d.position.lon},
                             kilo: val[0]["" + kms + ""]
                         });
-
                     }
 
-
-                    for (var city in citymap) {
+                    for (let city in citymap) {
                         heatMapData.push({
                             location: new google.maps.LatLng(citymap[city].center.lat, citymap[city].center.lng),
                             weight: citymap[city].kilo
                         });
                     }
-
-
-                })
+                });
 
 
                 self_item.heatmap = new google.maps.visualization.HeatmapLayer({
@@ -331,7 +258,6 @@ class SurveyMap {
 
 //d3.max(heatMapData).weight
 //
-
                 self_item.heatmap.setMap(map);
                 self_item.heatmap.setOptions({
                     radius: 15, maxIntensity: 1, gradient: [
@@ -353,63 +279,41 @@ class SurveyMap {
                 });
 
                 self_item.markers.push(self_item.heatmap);
-
-
             });
-
-
         }
         else if (type === "avDistance") {
             //from Totals.csv
-
-
             //Retrieve the necessary data
             d3.csv("tubedata/RODS_2016/Entry/Distance_travelled/Totals.csv", function (error, csvData) {
-
-                var menu = document.getElementById("categoryMenu");
-                var stat = menu.options[menu.selectedIndex].value;
-
+                let menu = document.getElementById("categoryMenu");
+                let stat = menu.options[menu.selectedIndex].value;
 
                 //change necessary columns
                 csvData.forEach(function (da, i) {
-
-
                     da["" + stat + ""] = +da["" + stat + ""];
-
-
                 });
+
                 self_item.stations.forEach(function (d, i) {
-
-
-                    var val = csvData.filter(function (n) {
-
-
+                    let val = csvData.filter(function (n) {
                         return n.Station === d.title;
                     });
 
-                    if (val[0] != null) {
-
+                    if (val[0]) {
                         //Construct object with all the information for heatmap based on what the user selects
                         citymap.push({
                             title: d.title,
                             center: {lat: d.position.lat, lng: d.position.lon},
                             dist: val[0]["" + stat + ""]
                         });
-
                     }
 
-
-                    for (var city in citymap) {
-
+                    for (let city in citymap) {
                         heatMapData.push({
                             location: new google.maps.LatLng(citymap[city].center.lat, citymap[city].center.lng),
                             weight: citymap[city].dist
                         });
                     }
-
-
-                })
-
+                });
 
                 self_item.heatmap = new google.maps.visualization.HeatmapLayer({
                     data: heatMapData
@@ -432,29 +336,20 @@ class SurveyMap {
                 });
 
                 self_item.markers.push(self_item.heatmap);
-
-
             });
-
         }
         else if (type === "access") {
             //from Access.csv
-
-
             //Retrieve the necessary data
             d3.csv("tubedata/RODS_2016/Entry/Access mode/Access.csv", function (error, csvData) {
+                let menu1 = document.getElementById("categoryMenu");
+                let cat = menu1.options[menu1.selectedIndex].value;
 
-                var menu1 = document.getElementById("categoryMenu");
-                var cat = menu1.options[menu1.selectedIndex].value;
-
-                var menu2 = document.getElementById("dayMenu");
-                var day = menu2.options[menu2.selectedIndex].value;
-
+                let menu2 = document.getElementById("dayMenu");
+                let day = menu2.options[menu2.selectedIndex].value;
 
                 //change necessary columns
                 csvData.forEach(function (da, i) {
-
-
                     da["NR/DLR/Tram"] = +da["NR/DLR/ Tram"];
                     da["Bus/Coach"] = +da["Bus/ Coach"];
                     da["Bicycle"] = +da["Bicycle"];
@@ -471,41 +366,29 @@ class SurveyMap {
                     da["Heathrow Terminal 3"] = +da["Heathrow Terminal 3"];
                     da["Heathrow Terminal 4"] = +da["Heathrow Terminal 4"];
                     da["Heathrow Terminal 5"] = +da["Heathrow Terminal 5"];
-
-
                 });
+
                 self_item.stations.forEach(function (d, i) {
-
-
-                    var val = csvData.filter(function (n) {
-
-
+                    let val = csvData.filter(function (n) {
                         return n.Station === d.title && n["time period"] === day;
                     });
 
-                    if (val[0] != null) {
-
+                    if (val[0]) {
                         //Construct object with all the information for heatmap based on what the user selects
                         citymap.push({
                             title: d.title,
                             center: {lat: d.position.lat, lng: d.position.lon},
                             num: val[0]["" + cat + ""]
                         });
-
                     }
 
-
-                    for (var city in citymap) {
-
+                    for (let city in citymap) {
                         heatMapData.push({
                             location: new google.maps.LatLng(citymap[city].center.lat, citymap[city].center.lng),
                             weight: citymap[city].num
                         });
                     }
-
-
                 });
-
 
                 self_item.heatmap = new google.maps.visualization.HeatmapLayer({
                     data: heatMapData
@@ -528,36 +411,22 @@ class SurveyMap {
                 });
 
                 self_item.markers.push(self_item.heatmap);
-
-
             });
-
         }
         else if (type === "purpose") {
 //from journey purpose
         }
-
-
     }
 
     changeGradient(gradient) {
-
-
-        if (this.heatmap != null) {
-
+        if (this.heatmap) {
             this.heatmap.set('gradient', this.heatmap.get('gradient') ? null : gradient);
-
-
         }
-
-
     }
 
     changeRadius(radius) {
-
-        var currRadius = this.heatmap.get('radius');
-
-        var newRadius = currRadius + radius;
+        let currRadius = this.heatmap.get('radius');
+        let newRadius = currRadius + radius;
 
         this.heatmap.set('radius', currRadius >= 0 ? newRadius : 0);
     }
