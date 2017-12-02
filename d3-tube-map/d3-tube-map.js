@@ -25,6 +25,8 @@
         var gEnter;
         var zoom$$1;
 
+        var timeStop = false;
+
         var t;
         var s;
 
@@ -282,9 +284,7 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
                             }
                             else return d.coords[1] - 20;
                         })
-                        .attr("position", "absolute").attr("transform", function (d) {
-                        return "rotate(-45) translate(0%,0%)";
-                    })
+                        .attr("position", "absolute")
                         .text(function (d) {
                             return d.name;
                         })
@@ -480,7 +480,16 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
             river.style("visibility", "hidden");
         };
 
-	map.startTimer = function(csvData, timeTable, stationData){
+         map.setTimeStop = function(){
+           this.timeStop = false;
+         }
+
+        map.endTimer = function(){
+          this.timeStop = !this.timeStop;
+
+        }
+
+	map.startTimer = function(csvData, timeTable, stationData, type){
 
 		//append circles to the stations with initial counts
 
@@ -502,8 +511,22 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
 		var self_item = map;
 
+    var journeyCount = "";
 
+    if(type === "both"){
 		var obj = ["entry", "exit"];
+    journeyCount = "entry";
+  }
+  else if(type === "entry"){
+    var obj = ["entry"];
+    journeyCount = "entry";
+  }
+  else if(type === "exit"){
+    var obj = ["exit"];
+    journeyCount = "exit";
+
+  }
+
 
 
 		var svg = d3.select("#tube-map").selectAll(".station").selectAll("g").selectAll("circle").data(obj);
@@ -511,7 +534,7 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 		svg.exit().remove();
 
 		svg = svg.enter().append("circle").attr("class", function(d,i){
-			if(i === 0){
+			if(d === "entry"){
 				return "entry";
 			}
 			else{
@@ -546,7 +569,6 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 				mystring = mystring.split('&').join('');
 				mystring = mystring.replace(' ','');
 				mystring = mystring.split('\'').join('');
-				console.log(mystring);
 
 				return mystring;
 			}else{
@@ -568,38 +590,9 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 		});
 
 
-				//  var svgCir = d3.select(".station").selectAll(".time_circle").data(stations._groups[0]);
-        //
-				//  svgCir.exit().remove();
-        //
-				//  svgCir = svgCir.enter().append("circle").merge(svgCir);
-        //
-				//  svgCir.append("circle").attr("class", "time_circle").attr("cx", function(d,i){ return d.__data__.x;})
-		 		// .attr("cy", function(d){ console.log(d.__data__); return d.__data__.y;}).attr("r", 6).style("visibility", "visible")
-		 		// .on("click", function(d){})
-		 		// .on("mouseover", function(d){})
-		 		// .attr("stroke", "black")
-		 		// .attr("fill", "white")
-		 		// .attr("stroke-width", lineWidth / 2);
 
-				function wait(ms) {
-  return new Promise(r => setTimeout(r, ms));
-			}
 
 			var time_data = setTimeData(csvData, timeTable, stationData);
-      //
-			// await wait(1000);
-
-		//console.log(time_data);
-
-    //
-		// svgCir.append("circle").attr("class", "time_circle").attr("cx", function(d,i){console.log(this); return 0;})
-		// .attr("cy", function(d){ console.log(d); return 0;}).attr("r", 6).style("visibility", "visible")
-		// .on("click", function(d){})
-		// .on("mouseover", function(d){})
-		// .attr("stroke", fgColor)
-		// .attr("fill", bgColor)
-		// .attr("stroke-width", lineWidth / 2);
 
 
 		var format_entry = d3.timeFormat("%S:%L");
@@ -608,11 +601,11 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
 		//create a data structure that ties each station to the time passed through, and whether it was an entry or exit
 		//Take that data and tie the count to the circles that will be at each staation
-		var t = d3.interval(function(elapsed) {
+		let t = setInterval(function(elapsed) {
 			var time = timeTable[tick];
 
 			console.log(time);
-			console.log(tick);
+			console.log(elapsed);
       d3.select("#clock").text(time);
 
 			if(tick % 15 === 0){
@@ -645,12 +638,7 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 							return (d.ent[0][""+ time + ""])/30;
 
 						}
-					// 	else if(d.ent[0] != null){
-					// 		return d.ent[0][""+ time + ""]/30;
-					// 	}
-					// 	else if(d.int[0] != null)
-					// 	return d.int[0][""+ time + ""]/30;
-					// }
+
 				}
 					else{
 						return 0;
@@ -664,6 +652,9 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 					if(d != null){
 						if(d.ext[0] != null){
 							if(d.ext[0][""+ time + ""] != null){
+                if(journeyCount === "exit"){
+                    journeys+=+d.ext[0][""+ time + ""];
+                }
 								return (d.ext[0][""+ time + ""])/30;
 							}
 							else{
@@ -679,16 +670,6 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
 
 
-
-		// 	exits.transition().duration(1000).tween('radius', function(a) {
-    //       	var that = d3.select(this);
-    //
-    //       	var i = d3.interpolate(a.radius, d.ext[0]["" + time + ""]);
-    //       	return function(t) {
-    //           d.radius = i(t);
-    //           that.attr('r', function(b) { return b.radius; });
-		// 				}
-		// 			});
     //
 
 		});
@@ -699,11 +680,25 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
 	tick++;
 
-  if (elapsed > 72000){
-    t.stop();
+  if (elapsed > 72000 || map.timeStop){
+
+    clearInterval(t);
     river.style("visibility", "visible");
-    d3.selectAll("time_circle").remove();
+    d3.select("#tube-map").selectAll("circle").remove();
     lines.style("opacity", 1);
+    d3.timerFlush();
+    var button = document.getElementById("tube-button");
+      d3.select("#journey").text("");
+      d3.select("#clock").text("");
+
+    button.addEventListener("click", function() {
+  startTimeAnimation();
+}, false);
+
+d3.select("#stopButton").remove();
+
+
+    return;
   }
 }, 50,2000);
 
