@@ -1,4 +1,4 @@
-nlc,Station,Borough,Note,Weekday,Saturday,Sunday,Weekday,Saturday,Sunday,million,
+nlc,Station,Note,Entry_Week,Entry_Saturday,Entry_Sunday,Exit_Week,Exit_Saturday,Exit_Sunday,million,
 500,Acton Town,Ealing, ,9379,7119,4824,9418,6863,4944,6.06,
 502,Aldgate,City of London, ,12779,2985,2429,12967,3951,3455,7.22,
 503,Aldgate East,Tower Hamlets, ,19298,14234,11571,18545,12624,10075,12.25,
@@ -267,3 +267,4 @@ nlc,Station,Borough,Note,Weekday,Saturday,Sunday,Weekday,Saturday,Sunday,million
 599,Wood Lane,Hammersmith and Fulham, ,5671,4790,2898,6612,5161,3167,3.98,
 769,Woodford,Redbridge, ,9339,6588,3802,9394,6201,4094,5.87,
 771,Woodside Park,Barnet, ,4328,2763,1705,4143,2839,1896,2.65
+

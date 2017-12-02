@@ -1,4 +1,4 @@
-nlc,Station,Note,Weekday,Saturday,Sunday,Weekday,Saturday,Sunday,million
+nlc,Station,Note,Entry_Week,Entry_Saturday,Entry_Sunday,Exit_Week,Exit_Saturday,Exit_Sunday,million,
 500,Acton Town, ,9994,7082,4955,9581,6878,5151,6.27
 501,Barbican  , ,21154,7092,4662,21000,7336,4794,11.97
 502,Aldgate, ,14212,4102,3058,13745,5728,4149,8.01
@@ -266,6 +266,5 @@ nlc,Station,Note,Weekday,Saturday,Sunday,Weekday,Saturday,Sunday,million
 788,Canada Water , ,20736,19810,14071,21528,19967,14360,14.44
 789,North Greenwich , ,38592,36290,24531,39497,37460,23954,26.45
 852,Canary Wharf , ,93297,35247,25111,96171,37211,27135,54.79
-884,Canning Town , ,18634,15102,10578,17731,13752,9974,11.91
- ,,,,,,,,,
-,Total,,4731801,3438078,2356991,4618089,3307043,2268070,2989.15
+884,Canning Town , ,18634,15102,10578,17731,13752,9974,11.91,
+
