@@ -496,22 +496,6 @@ class SurveyMap {
                 //change necessary columns
                 csvData.forEach(function (da) {
                   da[cat] = +da[cat];
-                    // da["NR/DLR/Tram"] = +da["NR/DLR/ Tram"];
-                    // da["Bus/Coach"] = +da["Bus/ Coach"];
-                    // da["Bicycle"] = +da["Bicycle"];
-                    // da["Motorcycle"] = +da["Motorcycle"];
-                    // da["Car/VanParked"] = +da["Car/Van Parked"];
-                    // da["Car/Vandrivenaway"] = +da["Car/Van driven away"];
-                    // da["Walked"] = +da["Walked"];
-                    // da["Taxi/Minicab"] = +da["Taxi/ Minicab"];
-                    // da["RiverBus/Ferry"] = +da["RiverBus/Ferry"];
-                    // da["Other"] = +da["Other"];
-                    // da["Not Stated"] = +da["Not Stated"];
-                    // da["Heathrow Terminal 1"] = +da["Heathrow Terminal 1"];
-                    // da["Heathrow Terminal 2"] = +da["Heathrow Terminal 2"];
-                    // da["Heathrow Terminal 3"] = +da["Heathrow Terminal 3"];
-                    // da["Heathrow Terminal 4"] = +da["Heathrow Terminal 4"];
-                    // da["Heathrow Terminal 5"] = +da["Heathrow Terminal 5"];
                 });
 
                 self_item.stations.forEach(function (d, i) {
@@ -606,6 +590,119 @@ class SurveyMap {
         }
         else if (type === "purpose") {
           //from journey purpose
+          //Retrieve the necessary data
+          d3.csv("tubedata/RODS_2016/Entry/Journey purpose/journey purpose.csv", function (csvData) {
+              let menu1 = document.getElementById("categoryMenu");
+              let cat   = menu1.options[menu1.selectedIndex].value;
+
+              let menu2 = document.getElementById("placeMenu");
+              let place = menu2.options[menu2.selectedIndex].value;
+
+              let menu3 = document.getElementById("dayMenu");
+              let day   = menu3.options[menu3.selectedIndex].value;
+
+              if (place === "Destination Purpose")
+                cat = "D" + cat;
+
+              //change necessary columns
+              csvData.forEach(function (da) {
+                if (cat === "Work" || cat === "Home") {
+                  da[cat] = +da[cat + '1'] + da[cat + '2'];
+                }
+                else {
+                  da[cat] = +da[cat];
+                }
+              });
+
+              self_item.stations.forEach(function (d, i) {
+                  let val = csvData.filter(function (n) {
+                      return n.Station.trim() === d.title.trim() && n["Time period"].trim() === day;
+                  });
+
+                  if (val[0]) {
+                      //Construct object with all the information for heatmap based on what the user selects
+                      citymap.push({
+                          title: d.title,
+                          center: {lat: d.position.lat, lng: d.position.lon},
+                          num: val[0]["" + cat + ""]
+                      });
+                  }
+
+                  for (let city in citymap) {
+                      heatMapData.push({
+                          location: new google.maps.LatLng(citymap[city].center.lat, citymap[city].center.lng),
+                          weight: parseInt(citymap[city].num)
+                      });
+                  }
+              });
+
+              self_item.heatmap = new google.maps.visualization.HeatmapLayer({
+                  data: heatMapData
+              });
+
+              //d3.max(heatMapData).weight
+              //
+              console.log(heatMapData);
+
+              self_item.heatmap.setMap(map);
+              self_item.heatmap.setOptions({
+                  radius: 15,
+                  maxIntensity: d3.max(heatMapData).weight*200,
+                  gradient: [ 'rgba(0, 255, 255, 0)',
+                      "#00FFFF",
+                      "#00EFFF",
+                      "#00DFFF",
+                      "#00D0FF",
+                      "#00C0FF",
+                      "#00B0FF",
+                      "#00A1FF",
+                      "#0091FF",
+                      "#0082FF",
+                      "#0072FF",
+                      "#0062FF",
+                      "#0053FF",
+                      "#0043FF",
+                      "#0034FF",
+                      "#0024FF",
+                      "#0014FF",
+                      "#0005FF",
+                      "#0A00FF",
+                      "#1A00FF",
+                      "#2900FF",
+                      "#3900FF",
+                      "#4800FF",
+                      "#5800FF",
+                      "#6800FF",
+                      "#7700FF",
+                      "#8700FF",
+                      "#9600FF",
+                      "#A600FF",
+                      "#B600FF",
+                      "#C500FF",
+                      "#D500FF",
+                      "#E400FF",
+                      "#F400FF",
+                      "#FF00F9",
+                      "#FF00EA",
+                      "#FF00DA",
+                      "#FF00CA",
+                      "#FF00BB",
+                      "#FF00AB",
+                      "#FF009C",
+                      "#FF008C",
+                      "#FF007C",
+                      "#FF006D",
+                      "#FF005D",
+                      "#FF004E",
+                      "#FF003E",
+                      "#FF002E",
+                      "#FF001F",
+                      "#FF000F",
+                      "#FF0000"]
+              });
+
+              self_item.markers.push(self_item.heatmap);
+          });
         }
     }
 

@@ -65,7 +65,7 @@
         <option value="Sat">Saturday</option>
         <option value="Sun">Sunday</option>
     </select>
-    <select id="vis-type" onchange="changeVis(); changeDisplayBox1();" selected="selected">
+    <select id="vis-type" onchange="changeVis(document.getElementById("survey-stat").selectedOptions[0].value); changeDisplayBox1();" selected="selected">
         <option disabled selected value> -- select an option --</option>
         <option value="heat">Heatmap</option>
         <option value="circle">Bubbles</option>
@@ -111,7 +111,7 @@
         <option value="access">Mode of Access</option>
     </select>
 
-    <select id="vis-type2" onchange="surveyCallback(); changeDisplayBox2()" selected="selected">
+    <select id="vis-type2" onchange="changeVis(); changeDisplayBox2()" selected="selected">
         <option disabled selected value> -- select an option --</option>
         <option value="heat">Heatmap</option>
         <option value="cluster">Cluster</option>
@@ -133,6 +133,7 @@
         <div id="display-survey-stat"><b>Selected Survey: </b></div>
         <div id="disp-category"></div>
         <div id="disp-day"></div>
+        <div id="disp-place"></div>
         <br>
         <div id="display-radius-2"><b>Radius: </b></div>
         <div id="display-opacity-2"><b>Opacity: </b></div>
@@ -237,7 +238,7 @@
         if (type === "purpose") {
 
             //create the new options for the menu
-            let purposes = ['-- select an option --', 'Work', 'Home', 'School'];
+            let purposes = ['-- select an option --', 'Work', 'Home', 'Shop', 'Education', 'Tourist', 'Hotel', 'Other', 'Unknown/Not Given'];
             let select = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "categoryMenu");
             select.on('change', function() {
               changeDisplayBox2();
@@ -245,6 +246,34 @@
             });
             //.attr('onChange',method for changing categories )
             select.selectAll('option').data(purposes).enter().append('option').attr('value', function (d) {
+                return d;
+            }).text(function (d) {
+                return d;
+            }).property("disabled", function (d) {
+                return d === "-- select an option --"
+            });
+
+            let sections = ['-- select an option --', "Early", "AM peak", "Midday", "PM Peak", "Evening", "Late", "Total day"]
+            let select2 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "dayMenu")
+                .on('change', function() {
+                  changeDisplayBox2();
+                  changeVis2(type);
+                });
+            select2.selectAll('option').data(sections).enter().append('option').attr('value', function (d) {
+                return d;
+            }).text(function (d) {
+                return d;
+            }).property("disabled", function (d) {
+                return d === "-- select an option --"
+            })
+
+            let loc = ['Origin Purpose', 'Destination Purpose'];
+            let select3 = d3.select('#floating-panel2').insert('select', 'button').attr('class', 'tempSelect').attr("id", "placeMenu");
+            select3.on('change', function() {
+              changeDisplayBox2();
+              changeVis2(type);
+            });
+            select3.selectAll('option').data(loc).enter().append('option').attr('value', function (d) {
                 return d;
             }).text(function (d) {
                 return d;
@@ -519,11 +548,9 @@
 
     //Changes the vis type of the google map according to what the user selects
     function changeVis2(token) {
-
         globeSurvey.clearMarkers();
         let menu = document.getElementById("vis-type2");
         let type = menu.options[menu.selectedIndex].value;
-        console.log(type)
 
         if(type === "heat") {
           globeSurvey.setHeatmap(globalMap2, token);
@@ -563,6 +590,16 @@
         }
         else {
             document.getElementById("disp-day").innerHTML = "";
+        }
+
+        if (!!document.getElementById("placeMenu")) {
+            let cate = document.getElementById("placeMenu").selectedOptions[0].text;
+            if (cate === badText)
+                cate = "";
+            document.getElementById("disp-place").innerHTML = "Place: ".bold() + cate.split(' ')[0];
+        }
+        else {
+            document.getElementById("disp-place").innerHTML = "";
         }
     }
 

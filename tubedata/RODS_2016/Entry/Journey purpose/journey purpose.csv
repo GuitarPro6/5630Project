@@ -1,4 +1,4 @@
-NLC,Station name,Time period,all modes,Work,Home,Home    ,Work    ,Shop    ,Education     ,Tourist ,Hotel   ,Other   ,Unknown/Not Given   ,Home    ,Work    ,Shop    ,Education     ,Tourist ,Hotel   ,Other   ,Unknown/Not Given
+NLC,Station,Time period,all modes,Work1,Home1,Home2,Work2,Shop,Education,Tourist,Hotel,Other,Unknown/Not Given,DHome,DWork,DShop,DEducation,DTourist,DHotel,DOther,DUnknown/Not Given
 500,Acton Town    ,Early ,622,0,0,0,0,0,0,0,0,0,622,0,0,0,0,0,0,0,622
 500,Acton Town    ,AM peak     ,3219,2169,27,2584,44,0,9,0,6,153,424,63,2286,0,126,22,0,235,488
 500,Acton Town    ,Midday,2436,584,291,1480,454,0,276,30,28,123,45,549,684,255,165,76,57,609,40
