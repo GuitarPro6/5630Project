@@ -37,7 +37,7 @@ class MAP {
             let keys = Object.keys(data.stations);
             let vals = Object.keys(data.stations).map(function (key) {
                 //combine this object to use later.
-                keyValues.push({k: key, title: data.stations[key].title, position: data.stations[key].position});
+                keyValues.push({k: key, title: data.stations[key].title.trim(), position: data.stations[key].position});
                 return data.stations[key];
             });
 
@@ -67,7 +67,7 @@ class MAP {
 
                 keyValues.forEach(function (d, i) {
                     let val = csvData.filter(function (n) {
-                        return n.Station === d.title;
+                        return n.Station.trim() === d.title;
                     });
                     if (val.length === 0) {
                         val.push({entry: 0});
@@ -144,7 +144,7 @@ class MAP {
             let keys = Object.keys(data.stations);
             let vals = Object.keys(data.stations).map(function (key) {
                 //combine this object to use later.
-                keyValues.push({k: key, title: data.stations[key].title, position: data.stations[key].position});
+                keyValues.push({k: key, title: data.stations[key].title.trim(), position: data.stations[key].position});
                 return data.stations[key];
             });
 
@@ -173,7 +173,7 @@ class MAP {
 
                 keyValues.forEach(function (d) {
                     let val = csvData.filter(function (n) {
-                        return n.Station === d.title;
+                        return n.Station.trim() === d.title;
                     });
 
                     if (val.length === 0) {
@@ -192,6 +192,7 @@ class MAP {
                         extSun: val[0].Exit_Sunday
                     });
 
+                    console.log(val[0])
                     console.log(citymap[0])
 
                     //here we construct an object that stores the information we need.
@@ -202,7 +203,7 @@ class MAP {
                 for (let city in citymap) {
                     heatMapData.push({
                         location: new google.maps.LatLng(citymap[city].center.lat, citymap[city].center.lng),
-                        weight: citymap[city]["" + type + week + ""]
+                        weight: parseInt(citymap[city]["" + type + week + ""])
                     });
                 }
 
@@ -216,19 +217,69 @@ class MAP {
                     radius: 15,
                     maxIntensity: d3.max(heatMapData).weight,
                     gradient: [ 'rgba(0, 255, 255, 0)',
-                        'rgba(0, 255, 255, 1)',
-                        'rgba(0, 191, 255, 1)',
-                        'rgba(0, 127, 255, 1)',
-                        'rgba(0, 63, 255, 1)',
-                        'rgba(0, 0, 255, 1)',
-                        'rgba(0, 0, 223, 1)',
-                        'rgba(0, 0, 191, 1)',
-                        'rgba(0, 0, 159, 1)',
-                        'rgba(0, 0, 127, 1)',
-                        'rgba(63, 0, 91, 1)',
-                        'rgba(127, 0, 63, 1)',
-                        'rgba(191, 0, 31, 1)',
-                        'rgba(255, 0, 0, 1)']
+                        "#00FFFF",
+                        "#00EFFF",
+                        "#00DFFF",
+                        "#00D0FF",
+                        "#00C0FF",
+                        "#00B0FF",
+                        "#00A1FF",
+                        "#0091FF",
+                        "#0082FF",
+                        "#0072FF",
+                        "#0062FF",
+                        "#0053FF",
+                        "#0043FF",
+                        "#0034FF",
+                        "#0024FF",
+                        "#0014FF",
+                        "#0005FF",
+                        "#0A00FF",
+                        "#1A00FF",
+                        "#2900FF",
+                        "#3900FF",
+                        "#4800FF",
+                        "#5800FF",
+                        "#6800FF",
+                        "#7700FF",
+                        "#8700FF",
+                        "#9600FF",
+                        "#A600FF",
+                        "#B600FF",
+                        "#C500FF",
+                        "#D500FF",
+                        "#E400FF",
+                        "#F400FF",
+                        "#FF00F9",
+                        "#FF00EA",
+                        "#FF00DA",
+                        "#FF00CA",
+                        "#FF00BB",
+                        "#FF00AB",
+                        "#FF009C",
+                        "#FF008C",
+                        "#FF007C",
+                        "#FF006D",
+                        "#FF005D",
+                        "#FF004E",
+                        "#FF003E",
+                        "#FF002E",
+                        "#FF001F",
+                        "#FF000F",
+                        "#FF0000"]
+                        // 'rgba(0, 255, 255, 1)',
+                        // 'rgba(0, 191, 255, 1)',
+                        // 'rgba(0, 127, 255, 1)',
+                        // 'rgba(0, 63, 255, 1)',
+                        // 'rgba(0, 0, 255, 1)',
+                        // 'rgba(0, 0, 223, 1)',
+                        // 'rgba(0, 0, 191, 1)',
+                        // 'rgba(0, 0, 159, 1)',
+                        // 'rgba(0, 0, 127, 1)',
+                        // 'rgba(63, 0, 91, 1)',
+                        // 'rgba(127, 0, 63, 1)',
+                        // 'rgba(191, 0, 31, 1)',
+                        // 'rgba(255, 0, 0, 1)']
                 });
 
                 self_item.markers.push(self_item.heatmap);
