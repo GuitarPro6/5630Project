@@ -2633,17 +2633,23 @@
   }, {
   "name": "Northern",
   "label": "Northern(viaMillHillEast)",
-  "color": "#a0a5a9",
+  "color": "#000000",
   "shiftCoords": [0, 0],
   "nodes": [ {
-    "coords": [42, -6],
+    "coords": [5.14, 57.66],
     "name": "MillHillEast",
     "labelPos": "NW"
   },
   {
-    "coords": [42, -6],
+    "coords": [7.84, 56.96]
+  },
+  {
+    "coords": [9.46, 53.28],
     "name": "FinchleyCentral",
-    "labelPos": "NW"
+    "labelPos": "W"
+  },
+  {
+    "coords": [9.46, 51.96]
   }]
   }, {
     "name": "Northern",
@@ -2663,17 +2669,17 @@
     {
       "coords": [9.46, 59.34],
       "name": "WoodsidePark",
-      "labelPos": "W"
+      "labelPos": "E"
     },
     {
       "coords": [9.46, 56.58],
       "name": "WestFinchley",
-      "labelPos": "W"
+      "labelPos": "E"
     },
     {
       "coords": [9.46, 53.28],
       "name": "FinchleyCentral",
-      "labelPos": "SW"
+      "labelPos": "W"
     },
     {
       "coords": [9.46, 50.64],
@@ -3826,19 +3832,28 @@
  {
 "name": "Metropolitan",
 "label": "Metropolitan(viaChesham)",
-"color": "#a0a5a9",
+"color": "#9B0056",
 "shiftCoords": [0, 0],
 "nodes": [ {
-  "coords": [42, -6],
+  "coords": [-93.56, 67.72],
   "name": "Chesham",
   "labelPos": "NW"
-},{
-  "coords": [42, -6],
-  "name": "Chalfont&Latimer",
-  "labelPos": "NW"
-}
+},
 
-]
+{
+  "coords": [-93.56, 66.72],
+  "name": "Chesham",
+  "labelPos": "NW"
+},
+{
+  "coords": [-84.54, 65.4],
+  "name": "Chalfont&Latimer",
+  "labelPos": "N",
+  "hide": true
+},
+{
+  "coords": [-79, 65.4]
+}]
 },
 {
 "name": "Metropolitan",
