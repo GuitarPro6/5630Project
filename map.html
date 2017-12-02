@@ -65,8 +65,8 @@
         <option value="Sat">Saturday</option>
         <option value="Sun">Sunday</option>
     </select>
-    <select id="vis-type" onchange="changeVis(document.getElementById("survey-stat").selectedOptions[0].value); changeDisplayBox1();" selected="selected">
-        <option disabled selected value> -- select an option --</option>
+    <select id="vis-type" onchange="changeVis(); changeDisplayBox1();" selected="selected">
+        <option disabled selected value>-- select an option --</option>
         <option value="heat">Heatmap</option>
         <option value="circle">Bubbles</option>
     </select>
@@ -111,7 +111,7 @@
         <option value="access">Mode of Access</option>
     </select>
 
-    <select id="vis-type2" onchange="changeVis(); changeDisplayBox2()" selected="selected">
+    <select id="vis-type2" onchange="changeVis2(document.getElementById(&quot;survey-stat&quot;).selectedOptions[0].value); changeDisplayBox2()" selected="selected">
         <option disabled selected value> -- select an option --</option>
         <option value="heat">Heatmap</option>
         <option value="cluster">Cluster</option>

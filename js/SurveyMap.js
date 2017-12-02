@@ -202,7 +202,6 @@ class SurveyMap {
                 // let markerCluster = new MarkerClusterer(map, markers,
                 //     {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
-                console.log(heatMapData)
 
                 self_item.heatmap = new google.maps.visualization.HeatmapLayer({
                     data: heatMapData
@@ -387,7 +386,6 @@ class SurveyMap {
                 //change necessary columns
                 csvData.forEach(function (da, i) {
                     da["" + stat + ""] = +da["" + stat + ""];
-                    console.log(da["" + stat + ""]);
                 });
 
                 self_item.stations.forEach(function (d, i) {
@@ -415,11 +413,6 @@ class SurveyMap {
                 self_item.heatmap = new google.maps.visualization.HeatmapLayer({
                     data: heatMapData
                 });
-
-                console.log(heatMapData)
-
-                //d3.max(heatMapData).weight
-                //
 
                 self_item.heatmap.setMap(map);
                 self_item.heatmap.setOptions({
@@ -523,10 +516,6 @@ class SurveyMap {
                 self_item.heatmap = new google.maps.visualization.HeatmapLayer({
                     data: heatMapData
                 });
-
-                //d3.max(heatMapData).weight
-                //
-                console.log(heatMapData);
 
                 self_item.heatmap.setMap(map);
                 self_item.heatmap.setOptions({
@@ -639,10 +628,6 @@ class SurveyMap {
               self_item.heatmap = new google.maps.visualization.HeatmapLayer({
                   data: heatMapData
               });
-
-              //d3.max(heatMapData).weight
-              //
-              console.log(heatMapData);
 
               self_item.heatmap.setMap(map);
               self_item.heatmap.setOptions({
