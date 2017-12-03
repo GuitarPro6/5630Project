@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  RODS report2a created at 13:27:27 on 29-03-2017,,,,,,,
  based on survey data up to 2016 and reconciled to Autumn 2016 counts,,,,,,,
  ,,,,,,,
@@ -1883,3 +1884,1890 @@
 771,Woodside Park       , Total day,4771,3026,1086,106,554
  ,,,,,,,
  End of report,,,,,,,
+=======
+ RODS report2a created at 13:27:27 on 29-03-2017,,,,,,,
+ based on survey data up to 2016 and reconciled to Autumn 2016 counts,,,,,,,
+ ,,,,,,,
+ Report 2a - Analysis by journey purpose and exit station,,,,,,,
+,,,Total,Commuter,Leisure,Tourist,Not known
+,Proportion,Time,,66.67%,27.64%,5.69%,
+,TOTALS,Period,4884891.5,2779715,1152485,237116.5,715589
+500,Acton Town          ,Early     ,283,0,0,0,283
+500,Acton Town          ,AM peak   ,2024,1486,71,44,422
+500,Acton Town          ,Midday    ,1828,991,560,42,235
+500,Acton Town          ,PM Peak   ,2770,1874,718,27,151
+500,Acton Town          ,Evening   ,1749,1131,570,2,46
+500,Acton Town          ,Late      ,950,228,366,0,357
+500,Acton Town          , Total day,9604,5710,2285,115,1495
+502,Aldgate             ,Early     ,359,2,0,0,357
+502,Aldgate             ,AM peak   ,6207,5264,139,94,709
+502,Aldgate             ,Midday    ,2975,1845,447,306,377
+502,Aldgate             ,PM Peak   ,2780,1642,533,77,529
+502,Aldgate             ,Evening   ,994,494,199,12,289
+502,Aldgate             ,Late      ,290,136,111,0,43
+502,Aldgate             , Total day,13604,9383,1429,489,2304
+503,Aldgate East        ,Early     ,428,0,0,0,428
+503,Aldgate East        ,AM peak   ,7579,6858,41,77,604
+503,Aldgate East        ,Midday    ,5466,3157,1094,454,762
+503,Aldgate East        ,PM Peak   ,4012,1842,1055,55,1061
+503,Aldgate East        ,Evening   ,2155,1077,673,162,244
+503,Aldgate East        ,Late      ,1054,248,431,20,356
+503,Aldgate East        , Total day,20696,13182,3292,767,3454
+505,Alperton            ,Early     ,122,0,0,0,122
+505,Alperton            ,AM peak   ,855,548,119,0,188
+505,Alperton            ,Midday    ,987,492,389,63,42
+505,Alperton            ,PM Peak   ,1857,1235,299,183,140
+505,Alperton            ,Evening   ,783,418,343,0,21
+505,Alperton            ,Late      ,377,36,300,0,42
+505,Alperton            , Total day,4981,2729,1451,246,555
+506,Amersham            ,Early     ,50,0,0,0,50
+506,Amersham            ,AM peak   ,364,112,41,9,202
+506,Amersham            ,Midday    ,448,158,254,2,33
+506,Amersham            ,PM Peak   ,614,416,194,0,4
+506,Amersham            ,Evening   ,466,404,61,0,0
+506,Amersham            ,Late      ,432,28,212,0,192
+506,Amersham            , Total day,2374,1118,763,12,481
+507,Angel               ,Early     ,426,0,0,0,426
+507,Angel               ,AM peak   ,10128,8598,593,159,777
+507,Angel               ,Midday    ,8891,4732,3385,220,553
+507,Angel               ,PM Peak   ,7102,3206,3169,137,590
+507,Angel               ,Evening   ,3877,1924,1491,43,420
+507,Angel               ,Late      ,1357,261,472,30,594
+507,Angel               , Total day,31781,18721,9110,589,3361
+508,Archway             ,Early     ,196,0,0,0,196
+508,Archway             ,AM peak   ,2618,1892,172,85,469
+508,Archway             ,Midday    ,3361,1680,1362,121,198
+508,Archway             ,PM Peak   ,4787,3440,1149,41,157
+508,Archway             ,Evening   ,3175,1801,1216,17,140
+508,Archway             ,Late      ,1672,462,726,24,461
+508,Archway             , Total day,15809,9275,4625,289,1620
+509,Arnos Grove         ,Early     ,92,0,0,0,92
+509,Arnos Grove         ,AM peak   ,872,490,104,63,215
+509,Arnos Grove         ,Midday    ,1421,464,690,58,208
+509,Arnos Grove         ,PM Peak   ,2420,1670,478,11,260
+509,Arnos Grove         ,Evening   ,1480,1122,314,35,9
+509,Arnos Grove         ,Late      ,884,354,338,0,192
+509,Arnos Grove         , Total day,7168,4100,1924,168,976
+510,Arsenal             ,Early     ,24,0,0,0,24
+510,Arsenal             ,AM peak   ,445,400,0,7,38
+510,Arsenal             ,Midday    ,1033,431,289,80,233
+510,Arsenal             ,PM Peak   ,1337,682,408,30,217
+510,Arsenal             ,Evening   ,1085,439,476,45,125
+510,Arsenal             ,Late      ,558,68,380,72,39
+510,Arsenal             , Total day,4483,2021,1553,233,676
+511,Baker Street        ,Early     ,1019,1,0,0,1018
+511,Baker Street        ,AM peak   ,16583,13887,846,238,1613
+511,Baker Street        ,Midday    ,15236,7610,4058,1691,1878
+511,Baker Street        ,PM Peak   ,9390,4343,2546,534,1967
+511,Baker Street        ,Evening   ,3398,1824,1240,12,323
+511,Baker Street        ,Late      ,1381,260,535,36,550
+511,Baker Street        , Total day,47009,27925,9224,2510,7349
+512,Balham              ,Early     ,313,0,0,0,313
+512,Balham              ,AM peak   ,3033,2515,269,0,249
+512,Balham              ,Midday    ,3924,2388,1357,80,100
+512,Balham              ,PM Peak   ,8616,6222,1921,303,169
+512,Balham              ,Evening   ,5511,3553,1473,35,450
+512,Balham              ,Late      ,2540,780,1038,0,722
+512,Balham              , Total day,23937,15458,6058,418,2002
+513,Bank / Monument     ,Early     ,6097,21,2,0,6074
+513,Bank / Monument     ,AM peak   ,71393,61305,2043,2481,5564
+513,Bank / Monument     ,Midday    ,30132,16214,8936,2539,2442
+513,Bank / Monument     ,PM Peak   ,18552,9161,5403,1942,2047
+513,Bank / Monument     ,Evening   ,5758,3009,2034,170,545
+513,Bank / Monument     ,Late      ,2475,659,568,169,1078
+513,Bank / Monument     , Total day,134408,90369,18986,7302,17750
+501,Barbican            ,Early     ,645,0,0,0,645
+501,Barbican            ,AM peak   ,10349,8169,474,226,1480
+501,Barbican            ,Midday    ,5593,3305,1745,305,238
+501,Barbican            ,PM Peak   ,2834,863,1318,66,587
+501,Barbican            ,Evening   ,1089,348,456,68,217
+501,Barbican            ,Late      ,352,50,104,0,198
+501,Barbican            , Total day,20861,12735,4096,665,3365
+514,Barking             ,Early     ,928,7,0,0,921
+514,Barking             ,AM peak   ,5149,4051,477,110,510
+514,Barking             ,Midday    ,5242,1857,1199,109,2078
+514,Barking             ,PM Peak   ,9410,4230,698,237,4245
+514,Barking             ,Evening   ,4361,2205,788,65,1303
+514,Barking             ,Late      ,1645,413,244,8,981
+514,Barking             , Total day,26736,12762,3407,529,10038
+515,Barkingside         ,Early     ,23,0,0,0,23
+515,Barkingside         ,AM peak   ,360,173,137,0,50
+515,Barkingside         ,Midday    ,381,292,87,2,1
+515,Barkingside         ,PM Peak   ,1212,1157,37,0,18
+515,Barkingside         ,Evening   ,426,260,101,0,65
+515,Barkingside         ,Late      ,165,139,9,0,17
+515,Barkingside         , Total day,2569,2021,372,2,175
+516,Barons Court        ,Early     ,113,0,0,0,113
+516,Barons Court        ,AM peak   ,3626,3219,54,0,353
+516,Barons Court        ,Midday    ,2254,1538,597,38,81
+516,Barons Court        ,PM Peak   ,2517,1635,767,63,53
+516,Barons Court        ,Evening   ,1864,1047,581,39,196
+516,Barons Court        ,Late      ,911,177,520,0,213
+516,Barons Court        , Total day,11284,7616,2519,141,1009
+517,Bayswater           ,Early     ,62,0,0,0,62
+517,Bayswater           ,AM peak   ,734,700,22,4,7
+517,Bayswater           ,Midday    ,1805,575,777,330,122
+517,Bayswater           ,PM Peak   ,1762,671,462,328,302
+517,Bayswater           ,Evening   ,1219,457,347,222,193
+517,Bayswater           ,Late      ,584,81,140,74,290
+517,Bayswater           , Total day,6166,2484,1749,957,975
+518,Becontree           ,Early     ,80,0,0,0,80
+518,Becontree           ,AM peak   ,464,355,50,0,59
+518,Becontree           ,Midday    ,1151,371,326,171,284
+518,Becontree           ,PM Peak   ,2521,1110,156,79,1176
+518,Becontree           ,Evening   ,1147,275,119,159,595
+518,Becontree           ,Late      ,469,42,25,0,403
+518,Becontree           , Total day,5833,2152,676,409,2596
+519,Belsize Park        ,Early     ,147,0,0,0,147
+519,Belsize Park        ,AM peak   ,2625,1698,443,214,270
+519,Belsize Park        ,Midday    ,2805,1183,1310,192,120
+519,Belsize Park        ,PM Peak   ,2091,1031,870,58,132
+519,Belsize Park        ,Evening   ,1661,784,844,25,8
+519,Belsize Park        ,Late      ,723,138,285,24,275
+519,Belsize Park        , Total day,10051,4834,3753,512,952
+787,Bermondsey          ,Early     ,695,166,0,0,529
+787,Bermondsey          ,AM peak   ,3684,2538,64,101,982
+787,Bermondsey          ,Midday    ,2953,1198,1140,3,613
+787,Bermondsey          ,PM Peak   ,4676,2593,947,159,977
+787,Bermondsey          ,Evening   ,3218,1903,656,142,517
+787,Bermondsey          ,Late      ,1599,559,652,9,379
+787,Bermondsey          , Total day,16825,8956,3457,415,3996
+520,Bethnal Green       ,Early     ,618,0,0,0,618
+520,Bethnal Green       ,AM peak   ,4304,3328,229,71,675
+520,Bethnal Green       ,Midday    ,5354,1885,2229,160,1080
+520,Bethnal Green       ,PM Peak   ,6262,2710,1254,583,1716
+520,Bethnal Green       ,Evening   ,4861,2103,1317,216,1225
+520,Bethnal Green       ,Late      ,2532,499,1109,0,924
+520,Bethnal Green       , Total day,23931,10526,6138,1029,6238
+521,Blackfriars         ,Early     ,748,1,0,0,748
+521,Blackfriars         ,AM peak   ,13557,12038,301,327,890
+521,Blackfriars         ,Midday    ,5479,3128,1376,623,352
+521,Blackfriars         ,PM Peak   ,4432,2398,607,122,1305
+521,Blackfriars         ,Evening   ,1105,788,168,6,144
+521,Blackfriars         ,Late      ,318,69,152,0,97
+521,Blackfriars         , Total day,25639,18422,2604,1079,3535
+522,Blackhorse Road     ,Early     ,84,0,0,0,84
+522,Blackhorse Road     ,AM peak   ,1174,945,54,0,174
+522,Blackhorse Road     ,Midday    ,1727,738,702,63,223
+522,Blackhorse Road     ,PM Peak   ,5353,3845,372,312,824
+522,Blackhorse Road     ,Evening   ,3068,1813,670,9,576
+522,Blackhorse Road     ,Late      ,1405,424,406,0,576
+522,Blackhorse Road     , Total day,12811,7765,2204,385,2457
+524,Bond Street         ,Early     ,1783,15,0,4,1764
+524,Bond Street         ,AM peak   ,21109,16970,1613,606,1919
+524,Bond Street         ,Midday    ,23484,7403,12891,1871,1319
+524,Bond Street         ,PM Peak   ,11896,2991,6717,569,1620
+524,Bond Street         ,Evening   ,3468,1333,1589,127,419
+524,Bond Street         ,Late      ,687,287,186,58,156
+524,Bond Street         , Total day,62427,28999,22995,3235,7197
+525,Borough             ,Early     ,152,0,0,0,151
+525,Borough             ,AM peak   ,3567,3043,212,28,285
+525,Borough             ,Midday    ,2505,1131,982,281,112
+525,Borough             ,PM Peak   ,1566,844,342,87,293
+525,Borough             ,Evening   ,980,666,285,23,6
+525,Borough             ,Late      ,518,70,265,9,174
+525,Borough             , Total day,9287,5754,2085,427,1021
+526,Boston Manor        ,Early     ,73,0,0,0,73
+526,Boston Manor        ,AM peak   ,810,520,86,0,204
+526,Boston Manor        ,Midday    ,704,217,222,161,103
+526,Boston Manor        ,PM Peak   ,1013,737,207,53,16
+526,Boston Manor        ,Evening   ,636,366,186,0,85
+526,Boston Manor        ,Late      ,330,58,90,19,163
+526,Boston Manor        , Total day,3567,1898,790,234,645
+527,Bounds Green        ,Early     ,73,0,0,0,73
+527,Bounds Green        ,AM peak   ,923,733,27,0,163
+527,Bounds Green        ,Midday    ,1676,994,645,29,7
+527,Bounds Green        ,PM Peak   ,3684,2365,703,20,596
+527,Bounds Green        ,Evening   ,2392,1462,737,36,157
+527,Bounds Green        ,Late      ,1264,333,723,0,208
+527,Bounds Green        , Total day,10012,5886,2835,85,1205
+528,Bow Road            ,Early     ,169,0,0,0,169
+528,Bow Road            ,AM peak   ,1128,643,307,23,155
+528,Bow Road            ,Midday    ,1561,954,523,58,27
+528,Bow Road            ,PM Peak   ,2727,1605,391,125,606
+528,Bow Road            ,Evening   ,2130,1206,541,82,301
+528,Bow Road            ,Late      ,1308,58,570,0,680
+528,Bow Road            , Total day,9023,4466,2331,287,1938
+529,Brent Cross         ,Early     ,57,0,0,0,57
+529,Brent Cross         ,AM peak   ,491,294,13,24,160
+529,Brent Cross         ,Midday    ,860,269,517,0,74
+529,Brent Cross         ,PM Peak   ,1450,1085,114,91,160
+529,Brent Cross         ,Evening   ,652,418,208,24,2
+529,Brent Cross         ,Late      ,337,104,122,0,110
+529,Brent Cross         , Total day,3848,2169,975,139,564
+778,Brixton             ,Early     ,522,4,0,0,518
+778,Brixton             ,AM peak   ,4456,3357,279,107,712
+778,Brixton             ,Midday    ,8201,4054,2632,440,1075
+778,Brixton             ,PM Peak   ,17702,9410,3582,802,3909
+778,Brixton             ,Evening   ,13687,7986,3102,25,2574
+778,Brixton             ,Late      ,6030,1294,2009,30,2697
+778,Brixton             , Total day,50599,26105,11604,1404,11485
+530,Bromley-by-Bow      ,Early     ,230,0,0,0,230
+530,Bromley-by-Bow      ,AM peak   ,1270,965,51,0,254
+530,Bromley-by-Bow      ,Midday    ,1102,629,407,50,16
+530,Bromley-by-Bow      ,PM Peak   ,1772,828,254,0,690
+530,Bromley-by-Bow      ,Evening   ,1255,448,332,90,385
+530,Bromley-by-Bow      ,Late      ,578,15,177,0,385
+530,Bromley-by-Bow      , Total day,6206,2884,1221,140,1961
+531,Buckhurst Hill      ,Early     ,28,0,0,0,28
+531,Buckhurst Hill      ,AM peak   ,280,233,34,0,13
+531,Buckhurst Hill      ,Midday    ,589,243,280,1,65
+531,Buckhurst Hill      ,PM Peak   ,1536,1338,153,9,36
+531,Buckhurst Hill      ,Evening   ,805,555,190,38,22
+531,Buckhurst Hill      ,Late      ,283,143,114,0,26
+531,Buckhurst Hill      , Total day,3521,2512,771,48,190
+532,Burnt Oak           ,Early     ,67,0,0,0,67
+532,Burnt Oak           ,AM peak   ,729,611,22,0,96
+532,Burnt Oak           ,Midday    ,1395,620,634,5,136
+532,Burnt Oak           ,PM Peak   ,3256,2753,201,0,302
+532,Burnt Oak           ,Evening   ,1375,825,291,33,227
+532,Burnt Oak           ,Late      ,499,273,39,0,188
+532,Burnt Oak           , Total day,7321,5081,1187,38,1015
+534,Caledonian Road     ,Early     ,241,0,0,0,241
+534,Caledonian Road     ,AM peak   ,1956,1729,21,32,173
+534,Caledonian Road     ,Midday    ,1857,1132,579,4,142
+534,Caledonian Road     ,PM Peak   ,2265,1136,841,0,288
+534,Caledonian Road     ,Evening   ,1741,568,645,0,528
+534,Caledonian Road     ,Late      ,850,235,354,0,262
+534,Caledonian Road     , Total day,8910,4800,2441,36,1633
+535,Camden Town         ,Early     ,520,5,0,0,516
+535,Camden Town         ,AM peak   ,7427,6484,193,179,571
+535,Camden Town         ,Midday    ,11333,4261,4724,1205,1143
+535,Camden Town         ,PM Peak   ,6868,2072,2935,126,1734
+535,Camden Town         ,Evening   ,3957,1899,1621,19,418
+535,Camden Town         ,Late      ,1573,351,736,11,475
+535,Camden Town         , Total day,31678,15071,10210,1541,4857
+788,Canada Water        ,Early     ,1444,1,0,0,1442
+788,Canada Water        ,AM peak   ,14575,11219,752,114,2491
+788,Canada Water        ,Midday    ,14778,6567,4868,1100,2243
+788,Canada Water        ,PM Peak   ,23228,12964,5543,676,4045
+788,Canada Water        ,Evening   ,14415,9628,3156,297,1334
+788,Canada Water        ,Late      ,5864,2289,2129,12,1433
+788,Canada Water        , Total day,74303,42668,16448,2200,12988
+852,Canary Wharf        ,Early     ,5204,12,3,0,5189
+852,Canary Wharf        ,AM peak   ,58672,51558,1367,907,4840
+852,Canary Wharf        ,Midday    ,16798,8895,4818,753,2333
+852,Canary Wharf        ,PM Peak   ,10898,6579,2823,449,1047
+852,Canary Wharf        ,Evening   ,5583,2689,2311,50,533
+852,Canary Wharf        ,Late      ,3006,776,903,105,1222
+852,Canary Wharf        , Total day,100162,70508,12226,2263,15165
+884,Canning Town        ,Early     ,2793,5,2,0,2786
+884,Canning Town        ,AM peak   ,10796,7487,805,247,2257
+884,Canning Town        ,Midday    ,11966,5857,4081,819,1208
+884,Canning Town        ,PM Peak   ,14020,7605,3153,105,3158
+884,Canning Town        ,Evening   ,6899,4610,1428,260,601
+884,Canning Town        ,Late      ,2816,1180,387,89,1160
+884,Canning Town        , Total day,49290,26743,9856,1520,11171
+536,Cannon Street       ,Early     ,397,0,0,0,397
+536,Cannon Street       ,AM peak   ,5001,4069,346,32,554
+536,Cannon Street       ,Midday    ,2793,1403,982,17,392
+536,Cannon Street       ,PM Peak   ,4250,3030,962,143,115
+536,Cannon Street       ,Evening   ,508,338,29,127,13
+536,Cannon Street       ,Late      ,641,629,12,0,0
+536,Cannon Street       , Total day,13590,9469,2332,318,1471
+537,Canons Park         ,Early     ,48,0,0,0,48
+537,Canons Park         ,AM peak   ,478,456,0,21,1
+537,Canons Park         ,Midday    ,724,211,251,0,262
+537,Canons Park         ,PM Peak   ,1986,1358,65,69,494
+537,Canons Park         ,Evening   ,1118,733,262,85,38
+537,Canons Park         ,Late      ,389,118,48,0,223
+537,Canons Park         , Total day,4742,2877,626,175,1065
+539,Chalfont & Latimer  ,Early     ,6,0,0,0,6
+539,Chalfont & Latimer  ,AM peak   ,40,38,0,0,3
+539,Chalfont & Latimer  ,Midday    ,159,60,70,15,14
+539,Chalfont & Latimer  ,PM Peak   ,549,418,90,0,41
+539,Chalfont & Latimer  ,Evening   ,431,350,56,0,25
+539,Chalfont & Latimer  ,Late      ,242,43,69,0,129
+539,Chalfont & Latimer  , Total day,1428,910,285,15,218
+540,Chalk Farm          ,Early     ,73,0,0,0,73
+540,Chalk Farm          ,AM peak   ,1550,1364,26,25,135
+540,Chalk Farm          ,Midday    ,1764,972,681,41,69
+540,Chalk Farm          ,PM Peak   ,1965,880,715,86,285
+540,Chalk Farm          ,Evening   ,1684,674,706,197,106
+540,Chalk Farm          ,Late      ,643,42,361,9,232
+540,Chalk Farm          , Total day,7680,3933,2488,358,901
+541,Chancery Lane       ,Early     ,931,1,0,0,929
+541,Chancery Lane       ,AM peak   ,17975,16121,416,251,1187
+541,Chancery Lane       ,Midday    ,10325,6447,3028,366,484
+541,Chancery Lane       ,PM Peak   ,3501,1769,1473,56,203
+541,Chancery Lane       ,Evening   ,969,379,480,0,110
+541,Chancery Lane       ,Late      ,212,73,68,0,71
+541,Chancery Lane       , Total day,33913,24790,5465,673,2984
+718,Charing Cross       ,Early     ,353,0,0,0,353
+718,Charing Cross       ,AM peak   ,5239,4508,182,136,413
+718,Charing Cross       ,Midday    ,7281,2424,3382,1133,343
+718,Charing Cross       ,PM Peak   ,9911,4647,4004,643,617
+718,Charing Cross       ,Evening   ,3495,2047,1240,63,145
+718,Charing Cross       ,Late      ,1342,576,424,6,336
+718,Charing Cross       , Total day,27620,14202,9230,1981,2207
+543,Chesham             ,Early     ,6,0,0,0,6
+543,Chesham             ,AM peak   ,272,220,0,0,51
+543,Chesham             ,Midday    ,191,70,117,1,3
+543,Chesham             ,PM Peak   ,764,638,103,0,23
+543,Chesham             ,Evening   ,437,430,2,4,1
+543,Chesham             ,Late      ,165,15,70,0,79
+543,Chesham             , Total day,1834,1374,292,5,164
+544,Chigwell            ,Early     ,0,0,0,0,0
+544,Chigwell            ,AM peak   ,169,146,0,0,23
+544,Chigwell            ,Midday    ,103,70,30,0,3
+544,Chigwell            ,PM Peak   ,317,197,96,0,24
+544,Chigwell            ,Evening   ,195,93,17,0,84
+544,Chigwell            ,Late      ,8,0,8,0,0
+544,Chigwell            , Total day,792,506,151,0,134
+545,Chiswick Park       ,Early     ,44,0,0,0,44
+545,Chiswick Park       ,AM peak   ,1243,1048,33,0,162
+545,Chiswick Park       ,Midday    ,733,413,241,42,37
+545,Chiswick Park       ,PM Peak   ,1090,797,193,35,65
+545,Chiswick Park       ,Evening   ,666,483,131,0,51
+545,Chiswick Park       ,Late      ,276,52,84,0,141
+545,Chiswick Park       , Total day,4052,2793,682,77,500
+546,Chorleywood         ,Early     ,0,0,0,0,0
+546,Chorleywood         ,AM peak   ,36,26,0,0,10
+546,Chorleywood         ,Midday    ,230,91,139,0,0
+546,Chorleywood         ,PM Peak   ,334,257,68,0,9
+546,Chorleywood         ,Evening   ,393,282,64,0,47
+546,Chorleywood         ,Late      ,252,45,33,0,174
+546,Chorleywood         , Total day,1246,701,305,0,240
+547,Clapham Common      ,Early     ,190,0,0,0,190
+547,Clapham Common      ,AM peak   ,2275,1619,261,25,369
+547,Clapham Common      ,Midday    ,2771,1109,1130,171,361
+547,Clapham Common      ,PM Peak   ,5363,3502,1217,102,542
+547,Clapham Common      ,Evening   ,3905,2312,1373,36,185
+547,Clapham Common      ,Late      ,1867,573,636,71,588
+547,Clapham Common      , Total day,16371,9114,4616,406,2235
+548,Clapham North       ,Early     ,154,5,0,0,150
+548,Clapham North       ,AM peak   ,1255,1019,35,23,177
+548,Clapham North       ,Midday    ,1679,466,1024,9,180
+548,Clapham North       ,PM Peak   ,3854,2707,710,239,198
+548,Clapham North       ,Evening   ,3141,1454,1212,35,441
+548,Clapham North       ,Late      ,1484,370,493,22,599
+548,Clapham North       , Total day,11566,6021,3473,328,1744
+549,Clapham South       ,Early     ,117,0,0,0,117
+549,Clapham South       ,AM peak   ,1795,1213,142,0,439
+549,Clapham South       ,Midday    ,2041,860,888,151,142
+549,Clapham South       ,PM Peak   ,4712,3284,1036,71,320
+549,Clapham South       ,Evening   ,4005,2570,887,159,389
+549,Clapham South       ,Late      ,1693,433,625,3,632
+549,Clapham South       , Total day,14362,8361,3579,383,2039
+550,Cockfosters         ,Early     ,28,0,0,0,28
+550,Cockfosters         ,AM peak   ,392,236,23,0,133
+550,Cockfosters         ,Midday    ,660,157,267,26,210
+550,Cockfosters         ,PM Peak   ,1133,573,169,133,259
+550,Cockfosters         ,Evening   ,576,365,135,6,71
+550,Cockfosters         ,Late      ,351,40,161,0,150
+550,Cockfosters         , Total day,3140,1371,754,165,850
+551,Colindale           ,Early     ,162,0,0,0,162
+551,Colindale           ,AM peak   ,1812,1109,85,0,616
+551,Colindale           ,Midday    ,1649,641,658,89,261
+551,Colindale           ,PM Peak   ,3547,2250,438,218,641
+551,Colindale           ,Evening   ,1938,1103,321,0,514
+551,Colindale           ,Late      ,952,236,83,2,631
+551,Colindale           , Total day,10059,5339,1585,310,2825
+552,Colliers Wood       ,Early     ,168,0,0,0,168
+552,Colliers Wood       ,AM peak   ,953,647,60,0,245
+552,Colliers Wood       ,Midday    ,1826,587,971,0,268
+552,Colliers Wood       ,PM Peak   ,3974,2502,577,0,895
+552,Colliers Wood       ,Evening   ,2286,1397,516,1,371
+552,Colliers Wood       ,Late      ,1157,490,338,0,330
+552,Colliers Wood       , Total day,10364,5624,2462,1,2277
+553,Covent Garden       ,Early     ,322,0,0,0,322
+553,Covent Garden       ,AM peak   ,4346,3653,278,99,315
+553,Covent Garden       ,Midday    ,9605,2777,4968,1389,471
+553,Covent Garden       ,PM Peak   ,6496,755,4664,565,512
+553,Covent Garden       ,Evening   ,2346,213,1483,213,437
+553,Covent Garden       ,Late      ,414,22,173,52,167
+553,Covent Garden       , Total day,23530,7420,11567,2319,2224
+554,Croxley             ,Early     ,20,0,0,0,20
+554,Croxley             ,AM peak   ,334,217,37,0,80
+554,Croxley             ,Midday    ,191,129,51,0,12
+554,Croxley             ,PM Peak   ,668,504,156,0,9
+554,Croxley             ,Evening   ,459,362,47,10,40
+554,Croxley             ,Late      ,45,0,35,1,8
+554,Croxley             , Total day,1718,1212,326,12,168
+555,Dagenham East       ,Early     ,58,0,0,0,58
+555,Dagenham East       ,AM peak   ,648,490,56,0,102
+555,Dagenham East       ,Midday    ,856,421,368,21,46
+555,Dagenham East       ,PM Peak   ,2012,1742,211,0,58
+555,Dagenham East       ,Evening   ,967,378,253,0,337
+555,Dagenham East       ,Late      ,311,160,34,0,117
+555,Dagenham East       , Total day,4853,3192,923,21,718
+556,Dagenham Heathway   ,Early     ,125,0,0,0,125
+556,Dagenham Heathway   ,AM peak   ,1187,669,218,0,300
+556,Dagenham Heathway   ,Midday    ,2206,796,868,20,521
+556,Dagenham Heathway   ,PM Peak   ,3722,1582,252,55,1834
+556,Dagenham Heathway   ,Evening   ,1912,634,200,145,933
+556,Dagenham Heathway   ,Late      ,597,169,25,0,403
+556,Dagenham Heathway   , Total day,9748,3850,1563,219,4116
+557,Debden              ,Early     ,78,0,0,0,78
+557,Debden              ,AM peak   ,999,837,9,0,153
+557,Debden              ,Midday    ,801,559,221,0,21
+557,Debden              ,PM Peak   ,1472,1057,285,0,129
+557,Debden              ,Evening   ,561,362,135,0,64
+557,Debden              ,Late      ,27,27,0,0,0
+557,Debden              , Total day,3938,2843,651,0,445
+558,Dollis Hill         ,Early     ,118,0,0,0,118
+558,Dollis Hill         ,AM peak   ,1030,821,37,0,172
+558,Dollis Hill         ,Midday    ,1267,519,599,0,149
+558,Dollis Hill         ,PM Peak   ,2113,1534,421,88,71
+558,Dollis Hill         ,Evening   ,1151,822,285,18,27
+558,Dollis Hill         ,Late      ,666,259,330,0,78
+558,Dollis Hill         , Total day,6346,3954,1671,105,615
+560,Ealing Broadway     ,Early     ,541,2,0,0,539
+560,Ealing Broadway     ,AM peak   ,4672,3143,198,38,1293
+560,Ealing Broadway     ,Midday    ,5907,2767,2106,342,691
+560,Ealing Broadway     ,PM Peak   ,14484,9856,2689,1225,714
+560,Ealing Broadway     ,Evening   ,6510,4255,1623,239,392
+560,Ealing Broadway     ,Late      ,2521,799,955,41,727
+560,Ealing Broadway     , Total day,34635,20822,7571,1885,4357
+561,Ealing Common       ,Early     ,82,4,0,0,78
+561,Ealing Common       ,AM peak   ,977,782,88,0,107
+561,Ealing Common       ,Midday    ,773,273,400,34,67
+561,Ealing Common       ,PM Peak   ,1727,1193,242,55,236
+561,Ealing Common       ,Evening   ,974,730,192,0,51
+561,Ealing Common       ,Late      ,421,165,101,23,132
+561,Ealing Common       , Total day,4953,3147,1023,112,671
+562,Earl's Court        ,Early     ,770,2,0,0,768
+562,Earl's Court        ,AM peak   ,6401,4799,490,166,946
+562,Earl's Court        ,Midday    ,7499,2407,2939,1201,953
+562,Earl's Court        ,PM Peak   ,6912,2903,2508,948,554
+562,Earl's Court        ,Evening   ,5286,1985,1706,491,1103
+562,Earl's Court        ,Late      ,2934,677,968,568,721
+562,Earl's Court        , Total day,29802,12774,8610,3374,5045
+563,East Acton          ,Early     ,129,1,0,0,129
+563,East Acton          ,AM peak   ,1332,1120,71,0,141
+563,East Acton          ,Midday    ,1336,460,777,22,77
+563,East Acton          ,PM Peak   ,1881,1321,376,6,179
+563,East Acton          ,Evening   ,1177,703,233,72,170
+563,East Acton          ,Late      ,704,327,247,17,113
+563,East Acton          , Total day,6560,3932,1703,117,808
+565,East Finchley       ,Early     ,80,0,0,0,80
+565,East Finchley       ,AM peak   ,1444,821,150,97,376
+565,East Finchley       ,Midday    ,1970,863,723,228,156
+565,East Finchley       ,PM Peak   ,4582,3318,921,254,89
+565,East Finchley       ,Evening   ,3034,2265,644,14,111
+565,East Finchley       ,Late      ,1368,524,362,0,483
+565,East Finchley       , Total day,12478,7791,2800,593,1294
+566,East Ham            ,Early     ,266,0,0,0,265
+566,East Ham            ,AM peak   ,2151,1824,51,0,275
+566,East Ham            ,Midday    ,4512,2111,1277,74,1049
+566,East Ham            ,PM Peak   ,9215,3968,972,4,4272
+566,East Ham            ,Evening   ,4955,2237,401,26,2292
+566,East Ham            ,Late      ,2106,635,56,0,1415
+566,East Ham            , Total day,23204,10774,2757,104,9569
+567,East Putney         ,Early     ,126,0,0,0,126
+567,East Putney         ,AM peak   ,1798,1426,101,20,251
+567,East Putney         ,Midday    ,1563,764,630,50,119
+567,East Putney         ,PM Peak   ,3454,2329,1053,22,50
+567,East Putney         ,Evening   ,2302,1621,492,25,164
+567,East Putney         ,Late      ,1010,164,546,1,299
+567,East Putney         , Total day,10254,6304,2822,119,1010
+564,Eastcote            ,Early     ,39,0,0,0,39
+564,Eastcote            ,AM peak   ,415,272,18,0,126
+564,Eastcote            ,Midday    ,1030,492,441,52,46
+564,Eastcote            ,PM Peak   ,2187,1655,396,0,137
+564,Eastcote            ,Evening   ,1006,659,319,0,28
+564,Eastcote            ,Late      ,287,114,47,0,125
+564,Eastcote            , Total day,4963,3192,1220,52,499
+568,Edgware             ,Early     ,93,0,0,0,93
+568,Edgware             ,AM peak   ,949,691,100,8,149
+568,Edgware             ,Midday    ,1998,960,825,85,127
+568,Edgware             ,PM Peak   ,3159,2121,344,358,337
+568,Edgware             ,Evening   ,1635,886,403,58,288
+568,Edgware             ,Late      ,533,213,221,0,100
+568,Edgware             , Total day,8366,4870,1893,509,1094
+774,Edgware Road (Bak)  ,Early     ,177,0,0,0,177
+774,Edgware Road (Bak)  ,AM peak   ,3158,2760,58,22,318
+774,Edgware Road (Bak)  ,Midday    ,2115,1498,428,133,57
+774,Edgware Road (Bak)  ,PM Peak   ,1317,545,338,228,206
+774,Edgware Road (Bak)  ,Evening   ,804,287,128,51,337
+774,Edgware Road (Bak)  ,Late      ,437,65,75,33,264
+774,Edgware Road (Bak)  , Total day,8008,5155,1026,468,1359
+569,Edgware Road (Cir)  ,Early     ,242,0,0,0,242
+569,Edgware Road (Cir)  ,AM peak   ,4105,3146,239,58,662
+569,Edgware Road (Cir)  ,Midday    ,2844,1612,819,121,293
+569,Edgware Road (Cir)  ,PM Peak   ,2294,1214,966,90,23
+569,Edgware Road (Cir)  ,Evening   ,1064,607,365,60,32
+569,Edgware Road (Cir)  ,Late      ,407,110,106,0,192
+569,Edgware Road (Cir)  , Total day,10956,6689,2495,329,1443
+570,Elephant & Castle   ,Early     ,591,4,0,0,587
+570,Elephant & Castle   ,AM peak   ,7134,5894,389,77,774
+570,Elephant & Castle   ,Midday    ,8456,5107,2127,371,851
+570,Elephant & Castle   ,PM Peak   ,6440,3230,1106,283,1821
+570,Elephant & Castle   ,Evening   ,4158,2343,774,314,728
+570,Elephant & Castle   ,Late      ,2517,559,819,55,1086
+570,Elephant & Castle   , Total day,29297,17137,5215,1099,5846
+571,Elm Park            ,Early     ,39,0,0,0,39
+571,Elm Park            ,AM peak   ,255,166,52,0,36
+571,Elm Park            ,Midday    ,988,354,262,8,364
+571,Elm Park            ,PM Peak   ,2642,1323,197,3,1118
+571,Elm Park            ,Evening   ,1000,329,49,0,621
+571,Elm Park            ,Late      ,464,33,25,0,407
+571,Elm Park            , Total day,5388,2205,585,11,2586
+542,Embankment          ,Early     ,674,0,0,0,674
+542,Embankment          ,AM peak   ,10528,8941,358,194,1033
+542,Embankment          ,Midday    ,9809,4170,3553,1591,495
+542,Embankment          ,PM Peak   ,9416,2980,5031,717,687
+542,Embankment          ,Evening   ,2833,1040,1501,273,19
+542,Embankment          ,Late      ,1188,235,380,49,523
+542,Embankment          , Total day,34448,17367,10824,2825,3432
+572,Epping              ,Early     ,141,1,0,0,140
+572,Epping              ,AM peak   ,685,295,109,0,281
+572,Epping              ,Midday    ,967,256,206,150,355
+572,Epping              ,PM Peak   ,2657,1850,403,40,363
+572,Epping              ,Evening   ,1222,497,138,82,505
+572,Epping              ,Late      ,632,141,124,10,357
+572,Epping              , Total day,6304,3040,979,282,2002
+574,Euston              ,Early     ,1630,8,0,0,1622
+574,Euston              ,AM peak   ,15201,12311,1084,599,1207
+574,Euston              ,Midday    ,19447,9200,5554,2839,1854
+574,Euston              ,PM Peak   ,17684,9450,5755,1849,630
+574,Euston              ,Evening   ,6874,3943,2101,613,218
+574,Euston              ,Late      ,2703,577,692,620,814
+574,Euston              , Total day,63538,35489,15185,6519,6345
+575,Euston Square       ,Early     ,561,0,0,0,561
+575,Euston Square       ,AM peak   ,9154,7772,600,69,712
+575,Euston Square       ,Midday    ,7125,4537,1681,309,598
+575,Euston Square       ,PM Peak   ,6069,3744,1590,440,295
+575,Euston Square       ,Evening   ,1554,949,326,90,189
+575,Euston Square       ,Late      ,392,141,167,16,69
+575,Euston Square       , Total day,24855,17142,4363,924,2425
+576,Fairlop             ,Early     ,20,0,0,0,20
+576,Fairlop             ,AM peak   ,201,145,0,0,56
+576,Fairlop             ,Midday    ,279,86,21,0,172
+576,Fairlop             ,PM Peak   ,765,515,203,0,47
+576,Fairlop             ,Evening   ,403,190,123,0,90
+576,Fairlop             ,Late      ,123,0,54,0,70
+576,Fairlop             , Total day,1792,937,401,0,454
+577,Farringdon          ,Early     ,729,6,0,0,723
+577,Farringdon          ,AM peak   ,14977,13370,372,103,1133
+577,Farringdon          ,Midday    ,6406,4151,1489,243,523
+577,Farringdon          ,PM Peak   ,5628,3873,1097,206,452
+577,Farringdon          ,Evening   ,1709,1289,187,12,221
+577,Farringdon          ,Late      ,647,123,154,0,370
+577,Farringdon          , Total day,30097,22812,3298,564,3423
+578,Finchley Central    ,Early     ,82,0,0,0,82
+578,Finchley Central    ,AM peak   ,1897,1472,59,122,245
+578,Finchley Central    ,Midday    ,2197,1066,766,96,268
+578,Finchley Central    ,PM Peak   ,4027,2450,1227,144,207
+578,Finchley Central    ,Evening   ,2242,1432,535,7,268
+578,Finchley Central    ,Late      ,1153,345,488,0,320
+578,Finchley Central    , Total day,11597,6764,3075,369,1389
+579,Finchley Road       ,Early     ,356,1,0,0,355
+579,Finchley Road       ,AM peak   ,3147,2326,352,25,444
+579,Finchley Road       ,Midday    ,3384,1501,1548,62,273
+579,Finchley Road       ,PM Peak   ,4682,2609,1133,454,485
+579,Finchley Road       ,Evening   ,2790,1833,809,24,124
+579,Finchley Road       ,Late      ,902,259,384,3,256
+579,Finchley Road       , Total day,15261,8530,4225,569,1937
+580,Finsbury Park       ,Early     ,951,0,6,0,945
+580,Finsbury Park       ,AM peak   ,8586,5685,1067,194,1641
+580,Finsbury Park       ,Midday    ,11861,5451,3640,1063,1707
+580,Finsbury Park       ,PM Peak   ,20181,12323,5766,551,1540
+580,Finsbury Park       ,Evening   ,10507,5592,3251,187,1477
+580,Finsbury Park       ,Late      ,4527,1231,2116,72,1109
+580,Finsbury Park       , Total day,56612,30282,15845,2066,8419
+581,Fulham Broadway     ,Early     ,289,0,0,0,289
+581,Fulham Broadway     ,AM peak   ,4550,3712,242,105,492
+581,Fulham Broadway     ,Midday    ,3944,1542,1744,343,314
+581,Fulham Broadway     ,PM Peak   ,4113,1912,1696,288,217
+581,Fulham Broadway     ,Evening   ,2597,1443,809,34,311
+581,Fulham Broadway     ,Late      ,907,208,260,22,418
+581,Fulham Broadway     , Total day,16400,8818,4751,791,2040
+582,Gants Hill          ,Early     ,74,6,0,0,68
+582,Gants Hill          ,AM peak   ,783,471,94,44,174
+582,Gants Hill          ,Midday    ,1915,979,740,20,176
+582,Gants Hill          ,PM Peak   ,4695,3063,812,48,773
+582,Gants Hill          ,Evening   ,2625,1707,231,0,686
+582,Gants Hill          ,Late      ,928,191,334,6,397
+582,Gants Hill          , Total day,11019,6417,2212,118,2272
+583,Gloucester Road     ,Early     ,401,0,0,0,401
+583,Gloucester Road     ,AM peak   ,5031,4092,239,45,656
+583,Gloucester Road     ,Midday    ,5928,2303,1361,1767,498
+583,Gloucester Road     ,PM Peak   ,4830,1944,1010,992,884
+583,Gloucester Road     ,Evening   ,3077,1407,1034,583,53
+583,Gloucester Road     ,Late      ,1606,318,407,449,433
+583,Gloucester Road     , Total day,20874,10063,4051,3835,2925
+584,Golders Green       ,Early     ,229,8,0,0,221
+584,Golders Green       ,AM peak   ,2081,1535,212,43,291
+584,Golders Green       ,Midday    ,2849,1115,1385,259,90
+584,Golders Green       ,PM Peak   ,4304,2820,859,227,399
+584,Golders Green       ,Evening   ,2863,1934,618,7,304
+584,Golders Green       ,Late      ,1454,530,512,10,401
+584,Golders Green       , Total day,13781,7942,3586,546,1706
+585,Goldhawk Road       ,Early     ,40,0,0,0,40
+585,Goldhawk Road       ,AM peak   ,439,292,77,7,63
+585,Goldhawk Road       ,Midday    ,812,270,444,51,47
+585,Goldhawk Road       ,PM Peak   ,1018,737,157,0,124
+585,Goldhawk Road       ,Evening   ,627,413,76,57,80
+585,Goldhawk Road       ,Late      ,237,24,51,0,163
+585,Goldhawk Road       , Total day,3173,1736,805,115,517
+586,Goodge Street       ,Early     ,296,0,0,0,295
+586,Goodge Street       ,AM peak   ,6939,6310,279,63,286
+586,Goodge Street       ,Midday    ,4541,3009,1172,153,207
+586,Goodge Street       ,PM Peak   ,2045,797,1233,11,3
+586,Goodge Street       ,Evening   ,532,67,418,39,8
+586,Goodge Street       ,Late      ,160,39,58,45,19
+586,Goodge Street       , Total day,14512,10223,3160,311,819
+587,Grange Hill         ,Early     ,0,0,0,0,0
+587,Grange Hill         ,AM peak   ,101,89,0,0,12
+587,Grange Hill         ,Midday    ,139,11,101,1,25
+587,Grange Hill         ,PM Peak   ,549,184,3,0,362
+587,Grange Hill         ,Evening   ,251,182,26,0,43
+587,Grange Hill         ,Late      ,91,0,0,0,91
+587,Grange Hill         , Total day,1130,467,130,2,532
+588,Great Portland Stree,Early     ,358,1,0,0,357
+588,Great Portland Stree,AM peak   ,7587,6144,815,90,538
+588,Great Portland Stree,Midday    ,4028,2145,1095,295,493
+588,Great Portland Stree,PM Peak   ,1851,799,764,198,89
+588,Great Portland Stree,Evening   ,710,276,353,60,22
+588,Great Portland Stree,Late      ,265,40,69,57,99
+588,Great Portland Stree, Total day,14799,9405,3095,700,1598
+590,Green Park          ,Early     ,2630,3,0,0,2627
+590,Green Park          ,AM peak   ,31099,27190,1252,495,2162
+590,Green Park          ,Midday    ,22361,8389,9462,3357,1154
+590,Green Park          ,PM Peak   ,9958,2866,5014,1366,712
+590,Green Park          ,Evening   ,3231,1440,1464,89,238
+590,Green Park          ,Late      ,980,254,269,175,281
+590,Green Park          , Total day,70259,40142,17462,5482,7174
+589,Greenford           ,Early     ,166,0,0,0,166
+589,Greenford           ,AM peak   ,842,600,18,0,224
+589,Greenford           ,Midday    ,1266,576,416,0,273
+589,Greenford           ,PM Peak   ,2945,2399,462,29,54
+589,Greenford           ,Evening   ,1502,889,455,0,158
+589,Greenford           ,Late      ,618,281,187,0,150
+589,Greenford           , Total day,7338,4746,1538,29,1025
+591,Gunnersbury         ,Early     ,123,0,0,0,123
+591,Gunnersbury         ,AM peak   ,1080,941,4,12,123
+591,Gunnersbury         ,Midday    ,202,86,102,0,14
+591,Gunnersbury         ,PM Peak   ,817,575,174,25,43
+591,Gunnersbury         ,Evening   ,95,20,75,0,0
+591,Gunnersbury         ,Late      ,169,7,47,52,64
+591,Gunnersbury         , Total day,2486,1630,401,88,367
+592,Hainault            ,Early     ,26,0,0,0,26
+592,Hainault            ,AM peak   ,380,235,29,0,115
+592,Hainault            ,Midday    ,985,608,314,0,63
+592,Hainault            ,PM Peak   ,2715,2132,363,0,220
+592,Hainault            ,Evening   ,1225,932,72,128,93
+592,Hainault            ,Late      ,524,194,124,0,205
+592,Hainault            , Total day,5855,4102,902,128,723
+593,Hammersmith (Dis)   ,Early     ,1065,0,0,0,1065
+593,Hammersmith (Dis)   ,AM peak   ,14667,11405,1101,211,1950
+593,Hammersmith (Dis)   ,Midday    ,9497,4789,3827,464,417
+593,Hammersmith (Dis)   ,PM Peak   ,9609,4411,3883,680,635
+593,Hammersmith (Dis)   ,Evening   ,5661,3044,2102,174,341
+593,Hammersmith (Dis)   ,Late      ,2745,425,1338,48,934
+593,Hammersmith (Dis)   , Total day,43245,24073,12252,1578,5342
+773,Hammersmith (H&C)   ,Early     ,217,0,0,0,217
+773,Hammersmith (H&C)   ,AM peak   ,3352,2873,243,76,159
+773,Hammersmith (H&C)   ,Midday    ,2716,1132,1171,303,109
+773,Hammersmith (H&C)   ,PM Peak   ,3107,1999,995,97,16
+773,Hammersmith (H&C)   ,Evening   ,1552,690,482,93,288
+773,Hammersmith (H&C)   ,Late      ,589,159,202,0,228
+773,Hammersmith (H&C)   , Total day,11533,6854,3093,570,1016
+594,Hampstead           ,Early     ,108,1,0,0,107
+594,Hampstead           ,AM peak   ,1715,1403,193,2,117
+594,Hampstead           ,Midday    ,2038,774,918,202,144
+594,Hampstead           ,PM Peak   ,1666,615,847,173,32
+594,Hampstead           ,Evening   ,1192,668,383,129,12
+594,Hampstead           ,Late      ,508,91,247,9,161
+594,Hampstead           , Total day,7228,3553,2588,514,573
+595,Hanger Lane         ,Early     ,221,0,0,0,221
+595,Hanger Lane         ,AM peak   ,1740,1514,10,9,207
+595,Hanger Lane         ,Midday    ,1011,754,103,13,140
+595,Hanger Lane         ,PM Peak   ,2036,1214,303,120,398
+595,Hanger Lane         ,Evening   ,1203,860,83,0,260
+595,Hanger Lane         ,Late      ,547,281,138,0,127
+595,Hanger Lane         , Total day,6759,4623,638,143,1354
+596,Harlesden           ,Early     ,185,0,0,0,185
+596,Harlesden           ,AM peak   ,943,802,34,0,108
+596,Harlesden           ,Midday    ,843,666,113,0,63
+596,Harlesden           ,PM Peak   ,668,523,92,0,54
+596,Harlesden           ,Evening   ,425,160,91,144,30
+596,Harlesden           ,Late      ,272,73,61,31,107
+596,Harlesden           , Total day,3336,2224,390,175,547
+597,Harrow & Wealdstone ,Early     ,89,0,0,0,89
+597,Harrow & Wealdstone ,AM peak   ,1117,809,68,0,240
+597,Harrow & Wealdstone ,Midday    ,1196,487,432,115,161
+597,Harrow & Wealdstone ,PM Peak   ,2435,2109,207,33,86
+597,Harrow & Wealdstone ,Evening   ,1058,831,173,0,54
+597,Harrow & Wealdstone ,Late      ,375,166,29,0,180
+597,Harrow & Wealdstone , Total day,6271,4403,908,149,811
+598,Harrow-on-the-Hill  ,Early     ,226,3,0,0,223
+598,Harrow-on-the-Hill  ,AM peak   ,2828,2218,296,13,300
+598,Harrow-on-the-Hill  ,Midday    ,3763,1159,2097,2,505
+598,Harrow-on-the-Hill  ,PM Peak   ,5027,3576,996,16,439
+598,Harrow-on-the-Hill  ,Evening   ,2578,1512,552,85,429
+598,Harrow-on-the-Hill  ,Late      ,1316,332,233,0,751
+598,Harrow-on-the-Hill  , Total day,15737,8801,4173,116,2647
+779,Hatton Cross        ,Early     ,246,0,0,0,246
+779,Hatton Cross        ,AM peak   ,1251,828,46,11,367
+779,Hatton Cross        ,Midday    ,929,624,256,36,13
+779,Hatton Cross        ,PM Peak   ,1226,875,222,0,129
+779,Hatton Cross        ,Evening   ,788,622,71,91,3
+779,Hatton Cross        ,Late      ,414,154,42,2,216
+779,Hatton Cross        , Total day,4854,3103,637,140,974
+781,Heathrow Terminal 4 ,Early     ,108,0,0,0,108
+781,Heathrow Terminal 4 ,AM peak   ,432,240,77,12,102
+781,Heathrow Terminal 4 ,Midday    ,1012,401,405,166,40
+781,Heathrow Terminal 4 ,PM Peak   ,671,120,398,66,88
+781,Heathrow Terminal 4 ,Evening   ,340,231,109,0,0
+781,Heathrow Terminal 4 ,Late      ,27,27,0,0,0
+781,Heathrow Terminal 4 , Total day,2591,1020,989,244,339
+783,Heathrow Terminal 5 ,Early     ,383,0,0,0,383
+783,Heathrow Terminal 5 ,AM peak   ,984,621,19,55,289
+783,Heathrow Terminal 5 ,Midday    ,2163,669,673,118,702
+783,Heathrow Terminal 5 ,PM Peak   ,1262,568,412,0,281
+783,Heathrow Terminal 5 ,Evening   ,371,1,116,63,191
+783,Heathrow Terminal 5 ,Late      ,146,0,74,0,72
+783,Heathrow Terminal 5 , Total day,5309,1859,1295,237,1918
+780,Heathrow Terminals 1,Early     ,497,1,0,0,496
+780,Heathrow Terminals 1,AM peak   ,2003,1127,307,156,413
+780,Heathrow Terminals 1,Midday    ,3436,1471,1205,532,228
+780,Heathrow Terminals 1,PM Peak   ,2356,1023,1081,126,126
+780,Heathrow Terminals 1,Evening   ,979,205,482,224,68
+780,Heathrow Terminals 1,Late      ,248,76,59,0,114
+780,Heathrow Terminals 1, Total day,9519,3902,3134,1038,1445
+601,Hendon Central      ,Early     ,147,0,0,0,147
+601,Hendon Central      ,AM peak   ,2445,1805,205,49,385
+601,Hendon Central      ,Midday    ,3402,2322,921,64,95
+601,Hendon Central      ,PM Peak   ,3850,2580,937,163,170
+601,Hendon Central      ,Evening   ,2164,1768,342,1,53
+601,Hendon Central      ,Late      ,1167,384,323,0,460
+601,Hendon Central      , Total day,13175,8858,2728,278,1311
+602,High Barnet         ,Early     ,53,0,0,0,53
+602,High Barnet         ,AM peak   ,1044,770,40,44,191
+602,High Barnet         ,Midday    ,1101,369,646,34,52
+602,High Barnet         ,PM Peak   ,2273,1553,612,64,43
+602,High Barnet         ,Evening   ,1296,840,337,23,96
+602,High Barnet         ,Late      ,649,168,235,19,226
+602,High Barnet         , Total day,6416,3700,1870,184,661
+605,High Street Kensingt,Early     ,434,2,0,0,432
+605,High Street Kensingt,AM peak   ,6723,5609,366,27,722
+605,High Street Kensingt,Midday    ,7066,2576,2839,783,868
+605,High Street Kensingt,PM Peak   ,3910,1688,1396,452,374
+605,High Street Kensingt,Evening   ,1762,936,585,113,128
+605,High Street Kensingt,Late      ,744,393,82,57,212
+605,High Street Kensingt, Total day,20640,11204,5267,1431,2737
+603,Highbury & Islington,Early     ,1760,0,0,0,1760
+603,Highbury & Islington,AM peak   ,13203,8739,627,55,3782
+603,Highbury & Islington,Midday    ,11599,3681,2628,272,5017
+603,Highbury & Islington,PM Peak   ,19097,8329,3831,1016,5920
+603,Highbury & Islington,Evening   ,11561,4994,2857,277,3433
+603,Highbury & Islington,Late      ,3940,511,1007,56,2366
+603,Highbury & Islington, Total day,61160,26254,10950,1676,22279
+604,Highgate            ,Early     ,54,0,1,0,53
+604,Highgate            ,AM peak   ,1006,694,154,2,156
+604,Highgate            ,Midday    ,1589,592,706,121,170
+604,Highgate            ,PM Peak   ,3364,2563,641,137,23
+604,Highgate            ,Evening   ,2394,1643,644,76,31
+604,Highgate            ,Late      ,1056,148,605,10,293
+604,Highgate            , Total day,9463,5640,2752,345,727
+606,Hillingdon          ,Early     ,88,0,0,0,88
+606,Hillingdon          ,AM peak   ,378,259,2,0,118
+606,Hillingdon          ,Midday    ,496,283,152,0,61
+606,Hillingdon          ,PM Peak   ,1019,789,140,22,69
+606,Hillingdon          ,Evening   ,538,456,48,5,30
+606,Hillingdon          ,Late      ,213,59,41,10,103
+606,Hillingdon          , Total day,2732,1844,383,36,469
+607,Holborn             ,Early     ,1342,5,0,0,1337
+607,Holborn             ,AM peak   ,25485,21957,1371,569,1588
+607,Holborn             ,Midday    ,19932,11916,5803,1220,992
+607,Holborn             ,PM Peak   ,9223,3301,4657,1080,185
+607,Holborn             ,Evening   ,2758,967,1382,213,196
+607,Holborn             ,Late      ,789,125,53,85,525
+607,Holborn             , Total day,59527,38270,13267,3167,4823
+608,Holland Park        ,Early     ,119,0,0,0,119
+608,Holland Park        ,AM peak   ,1479,1282,27,0,170
+608,Holland Park        ,Midday    ,1157,511,533,70,42
+608,Holland Park        ,PM Peak   ,1088,712,310,31,35
+608,Holland Park        ,Evening   ,783,581,172,29,1
+608,Holland Park        ,Late      ,299,139,77,25,58
+608,Holland Park        , Total day,4927,3226,1120,155,426
+609,Holloway Road       ,Early     ,114,0,0,0,114
+609,Holloway Road       ,AM peak   ,2076,1801,71,17,186
+609,Holloway Road       ,Midday    ,2973,2093,573,211,95
+609,Holloway Road       ,PM Peak   ,2772,1885,456,218,213
+609,Holloway Road       ,Evening   ,1820,1122,542,11,146
+609,Holloway Road       ,Late      ,927,208,450,0,269
+609,Holloway Road       , Total day,10681,7109,2091,458,1023
+610,Hornchurch          ,Early     ,36,7,0,0,28
+610,Hornchurch          ,AM peak   ,410,380,11,0,19
+610,Hornchurch          ,Midday    ,652,411,70,109,62
+610,Hornchurch          ,PM Peak   ,1871,1461,323,15,71
+610,Hornchurch          ,Evening   ,601,403,66,0,131
+610,Hornchurch          ,Late      ,299,105,71,0,123
+610,Hornchurch          , Total day,3869,2768,542,125,435
+611,Hounslow Central    ,Early     ,82,1,0,0,82
+611,Hounslow Central    ,AM peak   ,1112,810,29,5,267
+611,Hounslow Central    ,Midday    ,1281,668,533,0,80
+611,Hounslow Central    ,PM Peak   ,2018,1474,118,98,328
+611,Hounslow Central    ,Evening   ,1161,837,204,10,110
+611,Hounslow Central    ,Late      ,500,215,144,62,79
+611,Hounslow Central    , Total day,6155,4005,1029,176,946
+612,Hounslow East       ,Early     ,108,24,0,0,84
+612,Hounslow East       ,AM peak   ,705,486,58,1,161
+612,Hounslow East       ,Midday    ,1112,763,274,17,58
+612,Hounslow East       ,PM Peak   ,2232,1468,181,47,535
+612,Hounslow East       ,Evening   ,1387,714,256,7,410
+612,Hounslow East       ,Late      ,660,160,217,0,283
+612,Hounslow East       , Total day,6203,3614,986,73,1530
+613,Hounslow West       ,Early     ,80,0,0,0,80
+613,Hounslow West       ,AM peak   ,409,279,47,2,80
+613,Hounslow West       ,Midday    ,1026,737,163,66,61
+613,Hounslow West       ,PM Peak   ,1974,1046,496,63,369
+613,Hounslow West       ,Evening   ,1214,872,65,0,277
+613,Hounslow West       ,Late      ,597,133,234,8,222
+613,Hounslow West       , Total day,5301,3067,1005,140,1090
+614,Hyde Park Corner    ,Early     ,248,0,0,0,248
+614,Hyde Park Corner    ,AM peak   ,3151,2601,156,40,354
+614,Hyde Park Corner    ,Midday    ,3007,1227,517,960,304
+614,Hyde Park Corner    ,PM Peak   ,1473,348,408,169,548
+614,Hyde Park Corner    ,Evening   ,573,128,289,75,81
+614,Hyde Park Corner    ,Late      ,170,21,84,0,65
+614,Hyde Park Corner    , Total day,8622,4325,1454,1243,1600
+615,Ickenham            ,Early     ,24,0,0,0,24
+615,Ickenham            ,AM peak   ,309,282,9,0,18
+615,Ickenham            ,Midday    ,384,103,264,0,17
+615,Ickenham            ,PM Peak   ,791,521,202,62,7
+615,Ickenham            ,Evening   ,411,278,103,27,2
+615,Ickenham            ,Late      ,119,29,48,0,42
+615,Ickenham            , Total day,2038,1213,626,89,111
+616,Kennington          ,Early     ,120,0,0,0,120
+616,Kennington          ,AM peak   ,1246,1029,57,14,147
+616,Kennington          ,Midday    ,1544,725,759,7,53
+616,Kennington          ,PM Peak   ,2385,1376,830,74,104
+616,Kennington          ,Evening   ,1910,1101,570,16,223
+616,Kennington          ,Late      ,1003,164,506,14,318
+616,Kennington          , Total day,8207,4395,2722,125,965
+617,Kensal Green        ,Early     ,13,0,0,0,13
+617,Kensal Green        ,AM peak   ,339,273,32,0,34
+617,Kensal Green        ,Midday    ,370,170,147,13,41
+617,Kensal Green        ,PM Peak   ,821,552,203,0,66
+617,Kensal Green        ,Evening   ,999,424,334,43,198
+617,Kensal Green        ,Late      ,406,131,109,15,151
+617,Kensal Green        , Total day,2948,1550,824,70,503
+618,Kensington (Olympia),Early     ,0,0,0,0,0
+618,Kensington (Olympia),AM peak   ,199,0,96,103,0
+618,Kensington (Olympia),Midday    ,553,38,304,0,212
+618,Kensington (Olympia),PM Peak   ,306,150,0,0,156
+618,Kensington (Olympia),Evening   ,316,309,7,0,0
+618,Kensington (Olympia),Late      ,11,10,0,0,2
+618,Kensington (Olympia), Total day,1385,506,407,103,370
+619,Kentish Town        ,Early     ,227,0,0,0,227
+619,Kentish Town        ,AM peak   ,4044,3105,241,115,584
+619,Kentish Town        ,Midday    ,3115,1836,1127,147,5
+619,Kentish Town        ,PM Peak   ,3424,1875,1060,75,414
+619,Kentish Town        ,Evening   ,1861,921,552,10,378
+619,Kentish Town        ,Late      ,911,54,477,0,381
+619,Kentish Town        , Total day,13581,7791,3457,346,1987
+620,Kenton              ,Early     ,17,1,0,0,16
+620,Kenton              ,AM peak   ,360,343,2,0,14
+620,Kenton              ,Midday    ,411,174,86,6,145
+620,Kenton              ,PM Peak   ,680,339,113,64,163
+620,Kenton              ,Evening   ,419,212,134,0,73
+620,Kenton              ,Late      ,148,27,72,0,49
+620,Kenton              , Total day,2035,1097,407,71,460
+621,Kew Gardens         ,Early     ,71,0,0,0,71
+621,Kew Gardens         ,AM peak   ,1078,502,169,146,261
+621,Kew Gardens         ,Midday    ,1300,322,557,389,32
+621,Kew Gardens         ,PM Peak   ,2063,1063,801,28,171
+621,Kew Gardens         ,Evening   ,1167,767,151,17,232
+621,Kew Gardens         ,Late      ,464,221,130,11,102
+621,Kew Gardens         , Total day,6144,2874,1808,592,869
+622,Kilburn             ,Early     ,327,0,0,0,327
+622,Kilburn             ,AM peak   ,1494,1073,122,0,299
+622,Kilburn             ,Midday    ,2398,1105,1127,93,73
+622,Kilburn             ,PM Peak   ,4391,2906,1001,407,77
+622,Kilburn             ,Evening   ,3015,1695,978,221,121
+622,Kilburn             ,Late      ,1759,660,731,0,368
+622,Kilburn             , Total day,13385,7439,3959,721,1266
+623,Kilburn Park        ,Early     ,71,16,0,0,55
+623,Kilburn Park        ,AM peak   ,794,625,98,4,66
+623,Kilburn Park        ,Midday    ,1159,466,621,33,40
+623,Kilburn Park        ,PM Peak   ,1575,1227,338,1,9
+623,Kilburn Park        ,Evening   ,1006,645,272,49,40
+623,Kilburn Park        ,Late      ,515,176,246,0,93
+623,Kilburn Park        , Total day,5120,3155,1575,87,303
+625,King's Cross St. Pan,Early     ,3587,6,0,0,3581
+625,King's Cross St. Pan,AM peak   ,32787,25407,3091,1655,2634
+625,King's Cross St. Pan,Midday    ,39682,16356,13648,5743,3935
+625,King's Cross St. Pan,PM Peak   ,41345,23282,9455,4228,4381
+625,King's Cross St. Pan,Evening   ,16011,7762,5778,653,1818
+625,King's Cross St. Pan,Late      ,7528,2116,3160,170,2083
+625,King's Cross St. Pan, Total day,140940,74928,35133,12449,18431
+624,Kingsbury           ,Early     ,25,0,0,0,25
+624,Kingsbury           ,AM peak   ,912,647,38,0,227
+624,Kingsbury           ,Midday    ,1588,503,439,121,525
+624,Kingsbury           ,PM Peak   ,3693,1639,263,13,1778
+624,Kingsbury           ,Evening   ,1399,658,392,153,196
+624,Kingsbury           ,Late      ,446,110,163,0,172
+624,Kingsbury           , Total day,8063,3558,1296,287,2922
+626,Knightsbridge       ,Early     ,465,0,0,0,465
+626,Knightsbridge       ,AM peak   ,7176,5999,299,195,684
+626,Knightsbridge       ,Midday    ,11139,3579,4917,1976,667
+626,Knightsbridge       ,PM Peak   ,5066,931,2235,695,1204
+626,Knightsbridge       ,Evening   ,1393,549,392,0,452
+626,Knightsbridge       ,Late      ,244,21,79,7,137
+626,Knightsbridge       , Total day,25483,11079,7922,2873,3609
+627,Ladbroke Grove      ,Early     ,114,0,0,0,114
+627,Ladbroke Grove      ,AM peak   ,2284,1804,64,5,410
+627,Ladbroke Grove      ,Midday    ,2202,1167,728,52,255
+627,Ladbroke Grove      ,PM Peak   ,2037,1290,472,79,196
+627,Ladbroke Grove      ,Evening   ,1183,745,306,23,109
+627,Ladbroke Grove      ,Late      ,496,115,197,21,163
+627,Ladbroke Grove      , Total day,8316,5122,1768,181,1246
+628,Lambeth North       ,Early     ,76,0,0,0,76
+628,Lambeth North       ,AM peak   ,1209,874,87,61,187
+628,Lambeth North       ,Midday    ,1531,648,476,281,125
+628,Lambeth North       ,PM Peak   ,1018,764,170,15,70
+628,Lambeth North       ,Evening   ,644,384,259,1,0
+628,Lambeth North       ,Late      ,335,37,128,50,120
+628,Lambeth North       , Total day,4813,2706,1120,408,579
+629,Lancaster Gate      ,Early     ,194,0,0,0,194
+629,Lancaster Gate      ,AM peak   ,2001,1668,13,145,175
+629,Lancaster Gate      ,Midday    ,2281,876,469,495,442
+629,Lancaster Gate      ,PM Peak   ,3294,1655,297,605,737
+629,Lancaster Gate      ,Evening   ,1815,1201,249,336,29
+629,Lancaster Gate      ,Late      ,989,107,414,246,223
+629,Lancaster Gate      , Total day,10574,5508,1441,1826,1799
+630,Latimer Road        ,Early     ,65,0,0,0,65
+630,Latimer Road        ,AM peak   ,1559,1085,83,28,362
+630,Latimer Road        ,Midday    ,979,397,306,0,276
+630,Latimer Road        ,PM Peak   ,987,544,282,63,98
+630,Latimer Road        ,Evening   ,517,192,205,0,121
+630,Latimer Road        ,Late      ,196,36,36,0,123
+630,Latimer Road        , Total day,4302,2254,912,91,1045
+631,Leicester Square    ,Early     ,658,0,0,0,658
+631,Leicester Square    ,AM peak   ,9918,7827,316,372,1403
+631,Leicester Square    ,Midday    ,16341,4416,7816,2353,1756
+631,Leicester Square    ,PM Peak   ,13715,2672,8184,1070,1789
+631,Leicester Square    ,Evening   ,5916,964,3062,493,1397
+631,Leicester Square    ,Late      ,1808,269,938,0,601
+631,Leicester Square    , Total day,48356,16148,20316,4288,7604
+632,Leyton              ,Early     ,279,0,0,0,279
+632,Leyton              ,AM peak   ,1691,1395,105,0,190
+632,Leyton              ,Midday    ,3565,1804,1192,140,429
+632,Leyton              ,PM Peak   ,8751,5531,1817,367,1036
+632,Leyton              ,Evening   ,4807,2917,1047,115,727
+632,Leyton              ,Late      ,2492,932,841,0,719
+632,Leyton              , Total day,21584,12578,5003,623,3380
+633,Leytonstone         ,Early     ,211,0,0,0,211
+633,Leytonstone         ,AM peak   ,1991,1433,208,14,336
+633,Leytonstone         ,Midday    ,3414,1658,1265,34,457
+633,Leytonstone         ,PM Peak   ,6401,4643,1412,28,317
+633,Leytonstone         ,Evening   ,3625,2679,767,43,137
+633,Leytonstone         ,Late      ,1968,598,808,86,475
+633,Leytonstone         , Total day,17610,11011,4460,206,1933
+634,Liverpool Street    ,Early     ,901,0,0,0,900
+634,Liverpool Street    ,AM peak   ,37739,31927,1433,1368,3012
+634,Liverpool Street    ,Midday    ,28157,11792,10386,2879,3100
+634,Liverpool Street    ,PM Peak   ,35352,22896,8775,890,2790
+634,Liverpool Street    ,Evening   ,10864,5660,3147,144,1913
+634,Liverpool Street    ,Late      ,1490,363,562,11,555
+634,Liverpool Street    , Total day,114504,72639,24303,5292,12270
+635,London Bridge       ,Early     ,2380,23,0,0,2357
+635,London Bridge       ,AM peak   ,34856,29248,2306,636,2667
+635,London Bridge       ,Midday    ,28863,13431,10401,3471,1560
+635,London Bridge       ,PM Peak   ,28522,17725,8385,1203,1209
+635,London Bridge       ,Evening   ,12409,7951,3632,35,791
+635,London Bridge       ,Late      ,6276,1645,1874,100,2656
+635,London Bridge       , Total day,113305,70023,26598,5445,11239
+636,Loughton            ,Early     ,52,0,0,0,52
+636,Loughton            ,AM peak   ,629,446,125,0,58
+636,Loughton            ,Midday    ,916,383,357,107,69
+636,Loughton            ,PM Peak   ,2377,1782,439,111,44
+636,Loughton            ,Evening   ,1143,727,207,113,96
+636,Loughton            ,Late      ,442,105,184,66,88
+636,Loughton            , Total day,5560,3443,1313,397,407
+637,Maida Vale          ,Early     ,61,0,2,0,60
+637,Maida Vale          ,AM peak   ,916,672,39,30,176
+637,Maida Vale          ,Midday    ,1055,584,366,83,21
+637,Maida Vale          ,PM Peak   ,1513,875,605,21,12
+637,Maida Vale          ,Evening   ,1243,829,313,36,65
+637,Maida Vale          ,Late      ,499,151,188,57,103
+637,Maida Vale          , Total day,5288,3111,1512,227,437
+638,Manor House         ,Early     ,132,0,0,0,132
+638,Manor House         ,AM peak   ,1360,1016,130,0,213
+638,Manor House         ,Midday    ,2486,957,1174,270,85
+638,Manor House         ,PM Peak   ,4421,2514,1245,225,437
+638,Manor House         ,Evening   ,3365,2129,1007,63,166
+638,Manor House         ,Late      ,2072,589,912,0,571
+638,Manor House         , Total day,13837,7206,4469,557,1605
+639,Mansion House       ,Early     ,450,0,0,0,450
+639,Mansion House       ,AM peak   ,7192,6324,209,57,602
+639,Mansion House       ,Midday    ,2530,1561,773,129,67
+639,Mansion House       ,PM Peak   ,963,451,434,64,14
+639,Mansion House       ,Evening   ,218,155,63,0,0
+639,Mansion House       ,Late      ,72,18,34,7,13
+639,Mansion House       , Total day,11425,8510,1513,258,1144
+640,Marble Arch         ,Early     ,574,0,0,1,573
+640,Marble Arch         ,AM peak   ,6283,5094,349,165,675
+640,Marble Arch         ,Midday    ,6892,2311,3205,874,502
+640,Marble Arch         ,PM Peak   ,4087,831,947,841,1469
+640,Marble Arch         ,Evening   ,1843,1007,567,74,195
+640,Marble Arch         ,Late      ,664,84,101,139,340
+640,Marble Arch         , Total day,20345,9327,5169,2095,3754
+641,Marylebone          ,Early     ,339,8,0,0,330
+641,Marylebone          ,AM peak   ,4708,3827,357,52,472
+641,Marylebone          ,Midday    ,4458,2520,1573,112,253
+641,Marylebone          ,PM Peak   ,7250,4777,1578,283,613
+641,Marylebone          ,Evening   ,2972,2239,600,85,49
+641,Marylebone          ,Late      ,1299,275,501,0,523
+641,Marylebone          , Total day,21026,13645,4610,531,2240
+642,Mile End            ,Early     ,354,4,0,0,351
+642,Mile End            ,AM peak   ,4458,3982,101,29,345
+642,Mile End            ,Midday    ,6618,3331,2590,108,589
+642,Mile End            ,PM Peak   ,6168,3281,1800,222,865
+642,Mile End            ,Evening   ,4306,2291,1626,65,324
+642,Mile End            ,Late      ,2300,501,856,0,944
+642,Mile End            , Total day,24204,13389,6972,425,3418
+643,Mill Hill East      ,Early     ,44,0,0,0,44
+643,Mill Hill East      ,AM peak   ,501,319,11,0,171
+643,Mill Hill East      ,Midday    ,430,205,175,51,0
+643,Mill Hill East      ,PM Peak   ,758,588,171,0,0
+643,Mill Hill East      ,Evening   ,293,197,95,0,1
+643,Mill Hill East      ,Late      ,165,128,9,0,28
+643,Mill Hill East      , Total day,2191,1437,460,51,243
+646,Moor Park           ,Early     ,21,0,0,0,21
+646,Moor Park           ,AM peak   ,502,367,81,0,54
+646,Moor Park           ,Midday    ,179,131,21,0,26
+646,Moor Park           ,PM Peak   ,454,396,58,0,0
+646,Moor Park           ,Evening   ,273,226,28,17,3
+646,Moor Park           ,Late      ,83,21,6,0,56
+646,Moor Park           , Total day,1511,1141,194,17,160
+645,Moorgate            ,Early     ,2680,0,0,0,2680
+645,Moorgate            ,AM peak   ,35484,30492,811,428,3753
+645,Moorgate            ,Midday    ,11236,6679,2664,134,1760
+645,Moorgate            ,PM Peak   ,5431,2314,1851,202,1063
+645,Moorgate            ,Evening   ,1250,753,381,2,114
+645,Moorgate            ,Late      ,422,78,28,103,213
+645,Moorgate            , Total day,56503,40317,5734,868,9584
+647,Morden              ,Early     ,259,10,0,0,249
+647,Morden              ,AM peak   ,1763,1196,259,6,302
+647,Morden              ,Midday    ,3022,1382,987,446,207
+647,Morden              ,PM Peak   ,6108,5066,700,0,342
+647,Morden              ,Evening   ,3157,2478,652,0,26
+647,Morden              ,Late      ,1669,923,415,0,331
+647,Morden              , Total day,15977,11054,3013,452,1458
+648,Mornington Crescent ,Early     ,158,0,0,0,158
+648,Mornington Crescent ,AM peak   ,3361,3042,91,24,204
+648,Mornington Crescent ,Midday    ,1456,838,587,1,30
+648,Mornington Crescent ,PM Peak   ,1065,612,417,21,15
+648,Mornington Crescent ,Evening   ,674,328,281,27,38
+648,Mornington Crescent ,Late      ,236,10,101,0,124
+648,Mornington Crescent , Total day,6950,4830,1478,73,568
+649,Neasden             ,Early     ,104,0,0,0,104
+649,Neasden             ,AM peak   ,842,603,54,22,163
+649,Neasden             ,Midday    ,1100,694,193,69,144
+649,Neasden             ,PM Peak   ,2162,1669,347,65,82
+649,Neasden             ,Evening   ,970,622,250,0,97
+649,Neasden             ,Late      ,461,81,31,0,349
+649,Neasden             , Total day,5638,3669,874,156,939
+650,Newbury Park        ,Early     ,63,2,0,0,61
+650,Newbury Park        ,AM peak   ,728,528,44,0,156
+650,Newbury Park        ,Midday    ,1293,759,377,62,95
+650,Newbury Park        ,PM Peak   ,3404,2535,707,6,156
+650,Newbury Park        ,Evening   ,1687,1343,264,0,79
+650,Newbury Park        ,Late      ,628,340,123,0,164
+650,Newbury Park        , Total day,7802,5508,1515,68,712
+653,North Acton         ,Early     ,376,0,0,0,376
+653,North Acton         ,AM peak   ,3515,2809,23,0,683
+653,North Acton         ,Midday    ,1795,1040,603,0,152
+653,North Acton         ,PM Peak   ,2376,1577,352,13,433
+653,North Acton         ,Evening   ,1468,837,413,70,148
+653,North Acton         ,Late      ,813,251,459,0,103
+653,North Acton         , Total day,10343,6515,1850,84,1895
+654,North Ealing        ,Early     ,17,0,0,0,17
+654,North Ealing        ,AM peak   ,342,335,0,0,6
+654,North Ealing        ,Midday    ,238,95,122,0,22
+654,North Ealing        ,PM Peak   ,427,355,27,0,45
+654,North Ealing        ,Evening   ,312,144,100,13,55
+654,North Ealing        ,Late      ,110,3,40,16,51
+654,North Ealing        , Total day,1447,932,289,29,196
+789,North Greenwich     ,Early     ,1053,4,0,0,1049
+789,North Greenwich     ,AM peak   ,5673,3723,213,152,1585
+789,North Greenwich     ,Midday    ,8803,2908,3918,715,1262
+789,North Greenwich     ,PM Peak   ,14962,4747,4039,597,5579
+789,North Greenwich     ,Evening   ,7457,3917,2381,27,1132
+789,North Greenwich     ,Late      ,2975,740,515,25,1695
+789,North Greenwich     , Total day,40924,16039,11066,1516,12303
+656,North Harrow        ,Early     ,24,0,0,0,24
+656,North Harrow        ,AM peak   ,256,201,8,25,21
+656,North Harrow        ,Midday    ,551,237,255,0,59
+656,North Harrow        ,PM Peak   ,1450,1351,77,6,15
+656,North Harrow        ,Evening   ,790,560,164,0,67
+656,North Harrow        ,Late      ,336,56,110,0,169
+656,North Harrow        , Total day,3406,2406,615,31,355
+659,North Wembley       ,Early     ,29,4,0,0,25
+659,North Wembley       ,AM peak   ,281,247,1,0,32
+659,North Wembley       ,Midday    ,279,202,42,17,18
+659,North Wembley       ,PM Peak   ,781,427,8,63,283
+659,North Wembley       ,Evening   ,480,376,44,32,29
+659,North Wembley       ,Late      ,229,77,12,0,141
+659,North Wembley       , Total day,2079,1333,107,112,527
+655,Northfields         ,Early     ,87,0,0,0,87
+655,Northfields         ,AM peak   ,922,469,94,25,334
+655,Northfields         ,Midday    ,1024,383,282,11,348
+655,Northfields         ,PM Peak   ,2092,1188,539,77,289
+655,Northfields         ,Evening   ,1482,956,262,27,238
+655,Northfields         ,Late      ,781,99,439,4,240
+655,Northfields         , Total day,6389,3095,1615,143,1537
+657,Northolt            ,Early     ,93,0,0,0,93
+657,Northolt            ,AM peak   ,707,569,27,0,111
+657,Northolt            ,Midday    ,1374,687,378,142,167
+657,Northolt            ,PM Peak   ,3576,2924,581,0,71
+657,Northolt            ,Evening   ,1738,1106,296,20,316
+657,Northolt            ,Late      ,759,262,198,6,292
+657,Northolt            , Total day,8247,5549,1481,168,1049
+660,Northwick Park      ,Early     ,100,0,0,0,100
+660,Northwick Park      ,AM peak   ,1713,1339,224,0,150
+660,Northwick Park      ,Midday    ,1949,1102,470,19,358
+660,Northwick Park      ,PM Peak   ,2114,1703,119,44,249
+660,Northwick Park      ,Evening   ,1045,719,159,20,146
+660,Northwick Park      ,Late      ,357,83,153,15,105
+660,Northwick Park      , Total day,7279,4946,1125,98,1109
+661,Northwood           ,Early     ,56,2,0,0,54
+661,Northwood           ,AM peak   ,867,635,28,0,205
+661,Northwood           ,Midday    ,749,297,363,72,18
+661,Northwood           ,PM Peak   ,1355,930,294,32,99
+661,Northwood           ,Evening   ,801,495,123,11,172
+661,Northwood           ,Late      ,331,65,116,0,149
+661,Northwood           , Total day,4159,2424,924,114,697
+662,Northwood Hills     ,Early     ,40,0,0,0,40
+662,Northwood Hills     ,AM peak   ,394,322,46,0,26
+662,Northwood Hills     ,Midday    ,604,313,219,2,70
+662,Northwood Hills     ,PM Peak   ,1211,865,296,39,10
+662,Northwood Hills     ,Evening   ,596,330,100,0,165
+662,Northwood Hills     ,Late      ,207,31,35,0,141
+662,Northwood Hills     , Total day,3051,1861,697,42,452
+663,Notting Hill Gate   ,Early     ,552,0,0,0,552
+663,Notting Hill Gate   ,AM peak   ,6642,4913,435,328,967
+663,Notting Hill Gate   ,Midday    ,6938,2905,2478,647,908
+663,Notting Hill Gate   ,PM Peak   ,5301,3067,1616,307,311
+663,Notting Hill Gate   ,Evening   ,3360,1983,1102,158,117
+663,Notting Hill Gate   ,Late      ,1319,264,585,92,379
+663,Notting Hill Gate   , Total day,24113,13131,6217,1531,3234
+664,Oakwood             ,Early     ,49,0,0,0,49
+664,Oakwood             ,AM peak   ,562,316,49,0,197
+664,Oakwood             ,Midday    ,1049,400,260,69,321
+664,Oakwood             ,PM Peak   ,1341,480,197,0,665
+664,Oakwood             ,Evening   ,903,164,117,0,622
+664,Oakwood             ,Late      ,585,73,185,1,326
+664,Oakwood             , Total day,4489,1433,808,69,2179
+665,Old Street          ,Early     ,703,11,0,0,692
+665,Old Street          ,AM peak   ,16526,13778,1088,425,1234
+665,Old Street          ,Midday    ,10818,5747,3148,837,1086
+665,Old Street          ,PM Peak   ,7476,2027,3234,135,2080
+665,Old Street          ,Evening   ,4227,1055,1312,48,1812
+665,Old Street          ,Late      ,1992,156,407,116,1312
+665,Old Street          , Total day,41742,22775,9189,1563,8216
+667,Osterley            ,Early     ,65,0,0,0,65
+667,Osterley            ,AM peak   ,581,416,27,19,119
+667,Osterley            ,Midday    ,588,192,203,24,168
+667,Osterley            ,PM Peak   ,1317,1078,168,39,32
+667,Osterley            ,Evening   ,863,769,78,6,9
+667,Osterley            ,Late      ,339,149,98,0,92
+667,Osterley            , Total day,3752,2604,575,89,484
+668,Oval                ,Early     ,160,0,0,0,160
+668,Oval                ,AM peak   ,2297,1772,239,35,252
+668,Oval                ,Midday    ,2216,1019,1034,100,63
+668,Oval                ,PM Peak   ,2592,1470,478,178,465
+668,Oval                ,Evening   ,1890,1202,431,53,204
+668,Oval                ,Late      ,1018,268,477,1,273
+668,Oval                , Total day,10173,5730,2659,368,1417
+669,Oxford Circus       ,Early     ,2903,1,0,0,2902
+669,Oxford Circus       ,AM peak   ,44874,39257,2322,601,2694
+669,Oxford Circus       ,Midday    ,47025,17780,23280,3156,2809
+669,Oxford Circus       ,PM Peak   ,23661,4761,13246,1011,4644
+669,Oxford Circus       ,Evening   ,6646,1093,3794,529,1230
+669,Oxford Circus       ,Late      ,1187,386,565,24,212
+669,Oxford Circus       , Total day,126296,63278,43207,5322,14490
+670,Paddington          ,Early     ,1817,0,2,0,1815
+670,Paddington          ,AM peak   ,19038,14696,1527,1008,1808
+670,Paddington          ,Midday    ,20422,9571,7425,2607,820
+670,Paddington          ,PM Peak   ,24771,17256,5202,1472,841
+670,Paddington          ,Evening   ,9893,5830,2955,504,604
+670,Paddington          ,Late      ,4347,913,1547,388,1498
+670,Paddington          , Total day,80288,48266,18658,5979,7385
+671,Park Royal          ,Early     ,188,0,0,0,188
+671,Park Royal          ,AM peak   ,1373,1184,72,1,116
+671,Park Royal          ,Midday    ,591,346,223,0,22
+671,Park Royal          ,PM Peak   ,625,462,141,0,23
+671,Park Royal          ,Evening   ,341,140,168,26,7
+671,Park Royal          ,Late      ,116,50,21,6,40
+671,Park Royal          , Total day,3235,2180,626,33,396
+672,Parsons Green       ,Early     ,162,0,0,0,162
+672,Parsons Green       ,AM peak   ,2981,2197,326,0,458
+672,Parsons Green       ,Midday    ,2132,1076,905,52,100
+672,Parsons Green       ,PM Peak   ,3164,1869,879,51,364
+672,Parsons Green       ,Evening   ,2155,1412,633,0,110
+672,Parsons Green       ,Late      ,701,214,284,0,202
+672,Parsons Green       , Total day,11294,6769,3027,103,1396
+673,Perivale            ,Early     ,102,0,0,0,102
+673,Perivale            ,AM peak   ,554,509,0,0,45
+673,Perivale            ,Midday    ,649,429,151,0,69
+673,Perivale            ,PM Peak   ,1659,1321,110,60,169
+673,Perivale            ,Evening   ,719,346,203,19,151
+673,Perivale            ,Late      ,277,185,74,0,18
+673,Perivale            , Total day,3959,2790,537,79,554
+674,Piccadilly Circus   ,Early     ,856,0,0,0,856
+674,Piccadilly Circus   ,AM peak   ,15070,12846,722,381,1121
+674,Piccadilly Circus   ,Midday    ,19534,5955,9697,2234,1648
+674,Piccadilly Circus   ,PM Peak   ,13625,2267,6524,1247,3587
+674,Piccadilly Circus   ,Evening   ,6195,733,3177,280,2005
+674,Piccadilly Circus   ,Late      ,1471,237,278,91,866
+674,Piccadilly Circus   , Total day,56753,22037,20399,4234,10084
+776,Pimlico             ,Early     ,263,0,0,0,263
+776,Pimlico             ,AM peak   ,6642,5687,217,171,566
+776,Pimlico             ,Midday    ,4697,1701,1969,750,276
+776,Pimlico             ,PM Peak   ,3139,1445,1071,441,182
+776,Pimlico             ,Evening   ,2236,1098,926,114,98
+776,Pimlico             ,Late      ,1128,159,409,98,462
+776,Pimlico             , Total day,18105,10090,4593,1574,1848
+675,Pinner              ,Early     ,34,0,0,0,34
+675,Pinner              ,AM peak   ,367,221,35,76,35
+675,Pinner              ,Midday    ,858,342,394,63,59
+675,Pinner              ,PM Peak   ,2381,1742,369,30,240
+675,Pinner              ,Evening   ,1259,961,219,0,79
+675,Pinner              ,Late      ,391,86,205,25,74
+675,Pinner              , Total day,5288,3352,1222,194,521
+676,Plaistow            ,Early     ,143,0,0,0,143
+676,Plaistow            ,AM peak   ,1092,774,73,0,245
+676,Plaistow            ,Midday    ,1710,881,668,42,120
+676,Plaistow            ,PM Peak   ,3279,1373,1578,0,328
+676,Plaistow            ,Evening   ,1705,1128,488,0,89
+676,Plaistow            ,Late      ,835,307,152,0,376
+676,Plaistow            , Total day,8765,4464,2958,42,1301
+677,Preston Road        ,Early     ,61,0,0,0,61
+677,Preston Road        ,AM peak   ,407,283,67,0,58
+677,Preston Road        ,Midday    ,1028,205,608,38,177
+677,Preston Road        ,PM Peak   ,2281,1615,365,40,261
+677,Preston Road        ,Evening   ,1041,791,189,13,49
+677,Preston Road        ,Late      ,392,62,180,5,145
+677,Preston Road        , Total day,5211,2956,1408,96,751
+678,Putney Bridge       ,Early     ,103,0,0,0,103
+678,Putney Bridge       ,AM peak   ,2210,1781,185,10,233
+678,Putney Bridge       ,Midday    ,1885,877,682,277,49
+678,Putney Bridge       ,PM Peak   ,2583,1523,951,91,18
+678,Putney Bridge       ,Evening   ,1644,868,721,50,6
+678,Putney Bridge       ,Late      ,710,179,345,12,174
+678,Putney Bridge       , Total day,9136,5227,2885,440,584
+680,Queen's Park        ,Early     ,46,0,0,0,46
+680,Queen's Park        ,AM peak   ,788,614,30,0,144
+680,Queen's Park        ,Midday    ,1546,654,522,92,279
+680,Queen's Park        ,PM Peak   ,2831,1464,1036,95,237
+680,Queen's Park        ,Evening   ,2067,1417,525,96,30
+680,Queen's Park        ,Late      ,926,163,513,37,213
+680,Queen's Park        , Total day,8204,4311,2626,319,948
+679,Queensbury          ,Early     ,69,0,0,0,69
+679,Queensbury          ,AM peak   ,447,351,23,0,74
+679,Queensbury          ,Midday    ,1084,358,452,59,215
+679,Queensbury          ,PM Peak   ,3933,2088,435,90,1319
+679,Queensbury          ,Evening   ,1546,884,315,0,346
+679,Queensbury          ,Late      ,413,233,25,14,141
+679,Queensbury          , Total day,7491,3915,1250,163,2164
+681,Queensway           ,Early     ,197,0,0,0,197
+681,Queensway           ,AM peak   ,1921,1364,221,27,309
+681,Queensway           ,Midday    ,3241,1488,972,689,92
+681,Queensway           ,PM Peak   ,3260,1462,668,491,639
+681,Queensway           ,Evening   ,2496,1150,757,325,263
+681,Queensway           ,Late      ,1392,332,261,226,572
+681,Queensway           , Total day,12506,5796,2880,1757,2073
+682,Ravenscourt Park    ,Early     ,68,0,0,0,68
+682,Ravenscourt Park    ,AM peak   ,1860,1606,128,9,117
+682,Ravenscourt Park    ,Midday    ,984,623,191,134,34
+682,Ravenscourt Park    ,PM Peak   ,1180,563,306,216,95
+682,Ravenscourt Park    ,Evening   ,734,462,118,13,141
+682,Ravenscourt Park    ,Late      ,380,124,94,51,111
+682,Ravenscourt Park    , Total day,5206,3378,837,423,568
+683,Rayners Lane        ,Early     ,59,0,0,0,59
+683,Rayners Lane        ,AM peak   ,772,626,1,0,146
+683,Rayners Lane        ,Midday    ,1347,637,507,109,94
+683,Rayners Lane        ,PM Peak   ,2962,1556,855,131,420
+683,Rayners Lane        ,Evening   ,1471,1009,276,63,124
+683,Rayners Lane        ,Late      ,661,327,137,0,198
+683,Rayners Lane        , Total day,7272,4154,1775,302,1040
+684,Redbridge           ,Early     ,92,0,0,0,92
+684,Redbridge           ,AM peak   ,234,176,4,0,53
+684,Redbridge           ,Midday    ,798,359,415,0,24
+684,Redbridge           ,PM Peak   ,1856,1656,156,0,44
+684,Redbridge           ,Evening   ,1095,648,356,92,0
+684,Redbridge           ,Late      ,404,55,298,0,50
+684,Redbridge           , Total day,4479,2895,1229,92,263
+685,Regent's Park       ,Early     ,103,0,0,0,103
+685,Regent's Park       ,AM peak   ,2574,2330,124,15,105
+685,Regent's Park       ,Midday    ,2099,889,900,227,83
+685,Regent's Park       ,PM Peak   ,775,265,398,97,15
+685,Regent's Park       ,Evening   ,259,142,82,22,12
+685,Regent's Park       ,Late      ,113,58,29,18,7
+685,Regent's Park       , Total day,5922,3684,1534,379,325
+686,Richmond            ,Early     ,365,0,0,0,365
+686,Richmond            ,AM peak   ,5169,3746,365,18,1040
+686,Richmond            ,Midday    ,4425,1996,1486,576,366
+686,Richmond            ,PM Peak   ,5179,2876,1584,629,90
+686,Richmond            ,Evening   ,1693,1288,339,36,30
+686,Richmond            ,Late      ,775,228,203,22,323
+686,Richmond            , Total day,17606,10133,3978,1280,2214
+687,Rickmansworth       ,Early     ,49,0,0,0,49
+687,Rickmansworth       ,AM peak   ,962,830,15,0,117
+687,Rickmansworth       ,Midday    ,464,157,109,57,141
+687,Rickmansworth       ,PM Peak   ,1023,649,278,43,53
+687,Rickmansworth       ,Evening   ,880,548,324,0,8
+687,Rickmansworth       ,Late      ,413,72,108,10,223
+687,Rickmansworth       , Total day,3792,2256,833,110,592
+688,Roding Valley       ,Early     ,0,0,0,0,0
+688,Roding Valley       ,AM peak   ,20,20,0,0,0
+688,Roding Valley       ,Midday    ,121,79,34,5,3
+688,Roding Valley       ,PM Peak   ,311,289,22,0,0
+688,Roding Valley       ,Evening   ,111,75,34,1,0
+688,Roding Valley       ,Late      ,55,0,5,0,50
+688,Roding Valley       , Total day,618,463,95,7,53
+690,Royal Oak           ,Early     ,78,0,0,0,78
+690,Royal Oak           ,AM peak   ,991,791,91,0,109
+690,Royal Oak           ,Midday    ,830,337,197,109,187
+690,Royal Oak           ,PM Peak   ,1118,724,174,0,220
+690,Royal Oak           ,Evening   ,721,450,228,0,44
+690,Royal Oak           ,Late      ,230,113,54,0,63
+690,Royal Oak           , Total day,3969,2414,744,109,702
+691,Ruislip             ,Early     ,45,3,0,0,42
+691,Ruislip             ,AM peak   ,311,261,24,0,27
+691,Ruislip             ,Midday    ,949,344,489,47,69
+691,Ruislip             ,PM Peak   ,1281,970,291,3,17
+691,Ruislip             ,Evening   ,505,402,59,39,5
+691,Ruislip             ,Late      ,173,27,58,12,76
+691,Ruislip             , Total day,3264,2008,921,100,235
+692,Ruislip Gardens     ,Early     ,16,0,0,0,16
+692,Ruislip Gardens     ,AM peak   ,164,150,0,0,14
+692,Ruislip Gardens     ,Midday    ,268,109,103,57,0
+692,Ruislip Gardens     ,PM Peak   ,743,620,112,0,11
+692,Ruislip Gardens     ,Evening   ,348,266,71,6,5
+692,Ruislip Gardens     ,Late      ,117,54,53,0,10
+692,Ruislip Gardens     , Total day,1656,1198,338,63,56
+693,Ruislip Manor       ,Early     ,31,14,0,0,17
+693,Ruislip Manor       ,AM peak   ,482,432,26,0,24
+693,Ruislip Manor       ,Midday    ,746,228,354,7,156
+693,Ruislip Manor       ,PM Peak   ,1383,861,332,0,189
+693,Ruislip Manor       ,Evening   ,567,385,148,16,18
+693,Ruislip Manor       ,Late      ,154,75,30,1,48
+693,Ruislip Manor       , Total day,3362,1995,890,25,452
+694,Russell Square      ,Early     ,303,0,0,0,303
+694,Russell Square      ,AM peak   ,5251,4176,355,177,543
+694,Russell Square      ,Midday    ,6778,3049,2427,1134,168
+694,Russell Square      ,PM Peak   ,3558,1550,886,853,269
+694,Russell Square      ,Evening   ,1696,399,549,477,271
+694,Russell Square      ,Late      ,1066,73,392,300,301
+694,Russell Square      , Total day,18651,9246,4609,2941,1856
+698,Seven Sisters       ,Early     ,843,0,0,0,843
+698,Seven Sisters       ,AM peak   ,6641,5327,399,7,907
+698,Seven Sisters       ,Midday    ,9845,5111,3034,554,1147
+698,Seven Sisters       ,PM Peak   ,20701,14308,2937,761,2696
+698,Seven Sisters       ,Evening   ,10370,7480,2081,53,756
+698,Seven Sisters       ,Late      ,5299,1495,2035,68,1701
+698,Seven Sisters       , Total day,53700,33721,10486,1444,8050
+700,Shepherd's Bush (Cen,Early     ,935,0,0,0,935
+700,Shepherd's Bush (Cen,AM peak   ,6186,4509,372,31,1275
+700,Shepherd's Bush (Cen,Midday    ,7917,3067,3256,396,1198
+700,Shepherd's Bush (Cen,PM Peak   ,8861,4976,2332,338,1215
+700,Shepherd's Bush (Cen,Evening   ,5455,3133,1242,677,403
+700,Shepherd's Bush (Cen,Late      ,2332,778,879,32,642
+700,Shepherd's Bush (Cen, Total day,31685,16464,8081,1473,5668
+775,Shepherd's Bush Mark,Early     ,61,0,0,0,61
+775,Shepherd's Bush Mark,AM peak   ,592,447,13,0,132
+775,Shepherd's Bush Mark,Midday    ,1416,655,524,0,237
+775,Shepherd's Bush Mark,PM Peak   ,1655,1291,347,0,17
+775,Shepherd's Bush Mark,Evening   ,928,543,291,15,78
+775,Shepherd's Bush Mark,Late      ,421,83,240,0,98
+775,Shepherd's Bush Mark, Total day,5073,3019,1415,16,623
+702,Sloane Square       ,Early     ,744,1,0,0,743
+702,Sloane Square       ,AM peak   ,8349,6511,570,151,1117
+702,Sloane Square       ,Midday    ,8276,2704,4611,587,374
+702,Sloane Square       ,PM Peak   ,6182,2274,3003,466,439
+702,Sloane Square       ,Evening   ,2710,1091,1217,215,187
+702,Sloane Square       ,Late      ,768,140,295,54,280
+702,Sloane Square       , Total day,27030,12721,9696,1473,3140
+703,Snaresbrook         ,Early     ,23,0,0,0,23
+703,Snaresbrook         ,AM peak   ,576,372,67,0,136
+703,Snaresbrook         ,Midday    ,719,254,253,63,149
+703,Snaresbrook         ,PM Peak   ,1402,1185,169,11,37
+703,Snaresbrook         ,Evening   ,917,536,296,1,85
+703,Snaresbrook         ,Late      ,362,39,164,0,159
+703,Snaresbrook         , Total day,3999,2386,948,76,590
+704,South Ealing        ,Early     ,75,0,0,0,75
+704,South Ealing        ,AM peak   ,802,528,94,24,156
+704,South Ealing        ,Midday    ,1177,677,355,57,88
+704,South Ealing        ,PM Peak   ,1806,1395,389,0,22
+704,South Ealing        ,Evening   ,1197,900,287,4,5
+704,South Ealing        ,Late      ,646,156,297,0,193
+704,South Ealing        , Total day,5703,3657,1422,85,539
+707,South Harrow        ,Early     ,69,1,0,0,69
+707,South Harrow        ,AM peak   ,483,352,26,3,103
+707,South Harrow        ,Midday    ,761,303,397,12,49
+707,South Harrow        ,PM Peak   ,1739,1346,344,20,29
+707,South Harrow        ,Evening   ,712,478,185,6,44
+707,South Harrow        ,Late      ,300,83,126,0,91
+707,South Harrow        , Total day,4065,2562,1078,40,384
+708,South Kensington    ,Early     ,924,1,0,0,923
+708,South Kensington    ,AM peak   ,15674,12156,1633,403,1482
+708,South Kensington    ,Midday    ,18766,6159,9384,2698,525
+708,South Kensington    ,PM Peak   ,9371,3616,4312,1128,314
+708,South Kensington    ,Evening   ,4153,1585,2106,178,284
+708,South Kensington    ,Late      ,1498,211,631,219,437
+708,South Kensington    , Total day,50387,23728,18067,4626,3966
+709,South Kenton        ,Early     ,3,0,0,0,3
+709,South Kenton        ,AM peak   ,194,134,0,0,60
+709,South Kenton        ,Midday    ,245,158,80,0,7
+709,South Kenton        ,PM Peak   ,368,237,7,0,124
+709,South Kenton        ,Evening   ,222,154,25,0,43
+709,South Kenton        ,Late      ,225,75,30,0,121
+709,South Kenton        , Total day,1258,757,142,0,359
+710,South Ruislip       ,Early     ,22,0,0,0,22
+710,South Ruislip       ,AM peak   ,363,239,87,0,38
+710,South Ruislip       ,Midday    ,405,194,168,0,43
+710,South Ruislip       ,PM Peak   ,1038,738,101,14,184
+710,South Ruislip       ,Evening   ,530,398,94,0,39
+710,South Ruislip       ,Late      ,229,63,143,0,23
+710,South Ruislip       , Total day,2587,1631,593,14,349
+711,South Wimbledon     ,Early     ,148,0,0,0,148
+711,South Wimbledon     ,AM peak   ,1479,1191,9,0,279
+711,South Wimbledon     ,Midday    ,1381,848,413,64,55
+711,South Wimbledon     ,PM Peak   ,2315,1540,346,393,35
+711,South Wimbledon     ,Evening   ,1390,655,629,85,22
+711,South Wimbledon     ,Late      ,672,225,292,0,155
+711,South Wimbledon     , Total day,7384,4459,1689,542,695
+712,South Woodford      ,Early     ,109,0,0,0,109
+712,South Woodford      ,AM peak   ,919,754,102,0,63
+712,South Woodford      ,Midday    ,1629,661,699,248,21
+712,South Woodford      ,PM Peak   ,3821,2774,747,131,169
+712,South Woodford      ,Evening   ,2145,1521,431,106,87
+712,South Woodford      ,Late      ,865,405,248,28,184
+712,South Woodford      , Total day,9488,6114,2227,513,634
+705,Southfields         ,Early     ,94,0,0,0,94
+705,Southfields         ,AM peak   ,1276,909,213,0,154
+705,Southfields         ,Midday    ,1620,848,653,13,106
+705,Southfields         ,PM Peak   ,3469,2522,505,13,429
+705,Southfields         ,Evening   ,2282,1218,858,13,194
+705,Southfields         ,Late      ,1140,318,449,46,327
+705,Southfields         , Total day,9881,5814,2678,85,1304
+706,Southgate           ,Early     ,60,0,0,0,60
+706,Southgate           ,AM peak   ,1143,788,128,55,172
+706,Southgate           ,Midday    ,1885,1131,550,66,138
+706,Southgate           ,PM Peak   ,3320,2135,884,145,157
+706,Southgate           ,Evening   ,1871,1149,477,18,227
+706,Southgate           ,Late      ,825,288,396,0,142
+706,Southgate           , Total day,9104,5490,2435,283,896
+784,Southwark           ,Early     ,987,10,0,0,977
+784,Southwark           ,AM peak   ,12816,10988,137,321,1371
+784,Southwark           ,Midday    ,6707,3935,1639,678,455
+784,Southwark           ,PM Peak   ,6873,4217,1948,563,144
+784,Southwark           ,Evening   ,2106,1068,957,39,42
+784,Southwark           ,Late      ,829,383,224,0,223
+784,Southwark           , Total day,30319,20601,4905,1601,3212
+695,St. James's Park    ,Early     ,763,0,0,1,761
+695,St. James's Park    ,AM peak   ,14615,12709,440,387,1079
+695,St. James's Park    ,Midday    ,7615,4652,1972,812,179
+695,St. James's Park    ,PM Peak   ,2586,903,1311,97,276
+695,St. James's Park    ,Evening   ,901,573,226,11,90
+695,St. James's Park    ,Late      ,309,98,132,0,80
+695,St. James's Park    , Total day,26789,18935,4081,1308,2465
+696,St. John's Wood     ,Early     ,516,1,0,0,515
+696,St. John's Wood     ,AM peak   ,3930,2805,413,3,709
+696,St. John's Wood     ,Midday    ,3056,1077,1266,490,223
+696,St. John's Wood     ,PM Peak   ,2642,1076,927,171,467
+696,St. John's Wood     ,Evening   ,1743,1094,441,103,105
+696,St. John's Wood     ,Late      ,698,71,392,4,232
+696,St. John's Wood     , Total day,12585,6124,3439,771,2251
+697,St. Paul's          ,Early     ,1251,0,0,0,1251
+697,St. Paul's          ,AM peak   ,15725,12670,1096,365,1594
+697,St. Paul's          ,Midday    ,9410,3382,3215,2323,490
+697,St. Paul's          ,PM Peak   ,3507,1318,1704,282,204
+697,St. Paul's          ,Evening   ,992,312,359,74,247
+697,St. Paul's          ,Late      ,339,232,76,26,5
+697,St. Paul's          , Total day,31225,17914,6450,3069,3791
+713,Stamford Brook      ,Early     ,36,0,0,0,36
+713,Stamford Brook      ,AM peak   ,833,676,19,57,81
+713,Stamford Brook      ,Midday    ,722,272,391,5,54
+713,Stamford Brook      ,PM Peak   ,1328,923,386,14,6
+713,Stamford Brook      ,Evening   ,873,615,140,13,104
+713,Stamford Brook      ,Late      ,380,65,195,17,103
+713,Stamford Brook      , Total day,4173,2551,1131,106,384
+714,Stanmore            ,Early     ,133,0,0,0,133
+714,Stanmore            ,AM peak   ,982,755,31,149,47
+714,Stanmore            ,Midday    ,1087,524,335,187,40
+714,Stanmore            ,PM Peak   ,2242,1551,560,56,75
+714,Stanmore            ,Evening   ,1394,1063,192,85,54
+714,Stanmore            ,Late      ,624,63,213,145,203
+714,Stanmore            , Total day,6462,3957,1331,622,553
+715,Stepney Green       ,Early     ,248,0,0,0,248
+715,Stepney Green       ,AM peak   ,2115,1856,63,2,194
+715,Stepney Green       ,Midday    ,2657,1630,523,0,503
+715,Stepney Green       ,PM Peak   ,2796,480,281,50,1985
+715,Stepney Green       ,Evening   ,1699,758,333,117,491
+715,Stepney Green       ,Late      ,802,131,130,1,540
+715,Stepney Green       , Total day,10316,4856,1330,171,3960
+716,Stockwell           ,Early     ,204,0,0,0,204
+716,Stockwell           ,AM peak   ,1618,1085,184,41,308
+716,Stockwell           ,Midday    ,2770,1440,1156,120,54
+716,Stockwell           ,PM Peak   ,5243,3145,736,196,1165
+716,Stockwell           ,Evening   ,3962,1466,1662,206,628
+716,Stockwell           ,Late      ,2031,278,719,0,1034
+716,Stockwell           , Total day,15828,7415,4456,564,3394
+717,Stonebridge Park    ,Early     ,73,1,0,0,71
+717,Stonebridge Park    ,AM peak   ,459,319,49,0,92
+717,Stonebridge Park    ,Midday    ,784,532,177,0,76
+717,Stonebridge Park    ,PM Peak   ,1150,692,96,0,362
+717,Stonebridge Park    ,Evening   ,742,360,227,0,154
+717,Stonebridge Park    ,Late      ,280,62,0,0,219
+717,Stonebridge Park    , Total day,3488,1966,548,0,974
+719,Stratford           ,Early     ,3225,37,0,0,3189
+719,Stratford           ,AM peak   ,20846,16477,1091,558,2720
+719,Stratford           ,Midday    ,31897,13036,9372,2421,7067
+719,Stratford           ,PM Peak   ,42566,24795,8894,1502,7376
+719,Stratford           ,Evening   ,17300,10863,4145,419,1873
+719,Stratford           ,Late      ,7190,2333,1605,274,2977
+719,Stratford           , Total day,123024,67539,25108,5174,25202
+720,Sudbury Hill        ,Early     ,37,0,0,0,37
+720,Sudbury Hill        ,AM peak   ,416,339,55,13,9
+720,Sudbury Hill        ,Midday    ,661,403,192,48,19
+720,Sudbury Hill        ,PM Peak   ,1360,912,289,0,158
+720,Sudbury Hill        ,Evening   ,563,513,43,0,7
+720,Sudbury Hill        ,Late      ,183,85,32,32,35
+720,Sudbury Hill        , Total day,3221,2252,612,93,264
+721,Sudbury Town        ,Early     ,38,0,0,0,38
+721,Sudbury Town        ,AM peak   ,260,150,68,0,41
+721,Sudbury Town        ,Midday    ,480,256,190,3,32
+721,Sudbury Town        ,PM Peak   ,1232,959,195,52,26
+721,Sudbury Town        ,Evening   ,573,401,112,27,32
+721,Sudbury Town        ,Late      ,262,78,47,0,137
+721,Sudbury Town        , Total day,2846,1844,613,82,307
+723,Swiss Cottage       ,Early     ,198,0,0,0,197
+723,Swiss Cottage       ,AM peak   ,2726,2267,126,17,316
+723,Swiss Cottage       ,Midday    ,2783,1307,1026,241,210
+723,Swiss Cottage       ,PM Peak   ,3365,2037,922,0,407
+723,Swiss Cottage       ,Evening   ,2136,1084,613,152,286
+723,Swiss Cottage       ,Late      ,979,179,404,124,273
+723,Swiss Cottage       , Total day,12187,6874,3090,533,1691
+724,Temple              ,Early     ,300,0,0,0,300
+724,Temple              ,AM peak   ,6775,5997,231,144,404
+724,Temple              ,Midday    ,5028,3503,882,464,179
+724,Temple              ,PM Peak   ,1905,852,977,74,3
+724,Temple              ,Evening   ,473,127,301,45,0
+724,Temple              ,Late      ,213,101,81,0,31
+724,Temple              , Total day,14694,10579,2472,727,916
+725,Theydon Bois        ,Early     ,0,0,0,0,0
+725,Theydon Bois        ,AM peak   ,89,58,0,0,31
+725,Theydon Bois        ,Midday    ,247,156,48,9,34
+725,Theydon Bois        ,PM Peak   ,593,479,33,39,43
+725,Theydon Bois        ,Evening   ,269,135,115,5,14
+725,Theydon Bois        ,Late      ,70,32,27,0,11
+725,Theydon Bois        , Total day,1269,860,223,53,133
+726,Tooting Bec         ,Early     ,106,0,0,0,106
+726,Tooting Bec         ,AM peak   ,1282,1062,44,0,176
+726,Tooting Bec         ,Midday    ,1869,740,970,69,90
+726,Tooting Bec         ,PM Peak   ,4302,2890,1049,224,139
+726,Tooting Bec         ,Evening   ,3210,2273,783,92,63
+726,Tooting Bec         ,Late      ,1596,360,842,7,387
+726,Tooting Bec         , Total day,12365,7326,3688,392,960
+727,Tooting Broadway    ,Early     ,346,0,0,0,346
+727,Tooting Broadway    ,AM peak   ,4345,3374,456,48,467
+727,Tooting Broadway    ,Midday    ,5075,2521,1979,24,551
+727,Tooting Broadway    ,PM Peak   ,8153,6018,1553,319,263
+727,Tooting Broadway    ,Evening   ,4972,3602,1127,73,170
+727,Tooting Broadway    ,Late      ,2439,702,911,63,764
+727,Tooting Broadway    , Total day,25330,16218,6025,527,2560
+728,Tottenham Court Road,Early     ,1377,0,0,0,1377
+728,Tottenham Court Road,AM peak   ,19824,16138,1244,383,2059
+728,Tottenham Court Road,Midday    ,19831,7563,7829,2499,1941
+728,Tottenham Court Road,PM Peak   ,12418,2580,6508,620,2711
+728,Tottenham Court Road,Evening   ,4702,899,2094,226,1483
+728,Tottenham Court Road,Late      ,1388,207,638,140,404
+728,Tottenham Court Road, Total day,59540,27385,18312,3867,9975
+729,Tottenham Hale      ,Early     ,508,0,0,0,508
+729,Tottenham Hale      ,AM peak   ,2258,1793,193,23,249
+729,Tottenham Hale      ,Midday    ,4359,1444,2112,79,724
+729,Tottenham Hale      ,PM Peak   ,7511,5210,746,815,740
+729,Tottenham Hale      ,Evening   ,3428,2504,729,63,132
+729,Tottenham Hale      ,Late      ,1641,503,894,14,230
+729,Tottenham Hale      , Total day,19704,11454,4673,994,2583
+730,Totteridge & Whetsto,Early     ,21,0,0,0,21
+730,Totteridge & Whetsto,AM peak   ,464,264,57,0,143
+730,Totteridge & Whetsto,Midday    ,648,421,85,35,107
+730,Totteridge & Whetsto,PM Peak   ,1433,1057,263,100,12
+730,Totteridge & Whetsto,Evening   ,771,565,191,0,15
+730,Totteridge & Whetsto,Late      ,319,142,97,0,80
+730,Totteridge & Whetsto, Total day,3656,2449,694,135,378
+731,Tower Hill          ,Early     ,581,0,0,0,581
+731,Tower Hill          ,AM peak   ,9756,8084,309,593,769
+731,Tower Hill          ,Midday    ,9797,3866,2167,2738,1026
+731,Tower Hill          ,PM Peak   ,9152,5361,1729,1117,944
+731,Tower Hill          ,Evening   ,2601,1581,565,269,186
+731,Tower Hill          ,Late      ,385,53,123,17,192
+731,Tower Hill          , Total day,32272,18946,4894,4734,3698
+733,Tufnell Park        ,Early     ,45,0,0,0,44
+733,Tufnell Park        ,AM peak   ,632,352,53,0,227
+733,Tufnell Park        ,Midday    ,1007,362,429,162,54
+733,Tufnell Park        ,PM Peak   ,1887,1108,586,138,55
+733,Tufnell Park        ,Evening   ,1402,919,424,21,37
+733,Tufnell Park        ,Late      ,695,220,334,6,135
+733,Tufnell Park        , Total day,5667,2961,1825,327,553
+734,Turnham Green       ,Early     ,111,0,0,0,111
+734,Turnham Green       ,AM peak   ,1648,1174,276,0,199
+734,Turnham Green       ,Midday    ,1750,765,885,62,38
+734,Turnham Green       ,PM Peak   ,3023,2098,620,247,58
+734,Turnham Green       ,Evening   ,1862,1385,434,9,35
+734,Turnham Green       ,Late      ,884,159,411,12,301
+734,Turnham Green       , Total day,9279,5580,2626,330,742
+735,Turnpike Lane       ,Early     ,130,0,0,0,130
+735,Turnpike Lane       ,AM peak   ,1179,934,50,0,195
+735,Turnpike Lane       ,Midday    ,3233,1550,1304,20,359
+735,Turnpike Lane       ,PM Peak   ,6119,4579,928,140,472
+735,Turnpike Lane       ,Evening   ,3876,2581,1022,186,86
+735,Turnpike Lane       ,Late      ,2220,1031,743,0,446
+735,Turnpike Lane       , Total day,16756,10675,4047,345,1688
+736,Upminster           ,Early     ,177,0,0,0,177
+736,Upminster           ,AM peak   ,549,510,5,0,34
+736,Upminster           ,Midday    ,626,182,405,15,24
+736,Upminster           ,PM Peak   ,1590,1210,304,38,38
+736,Upminster           ,Evening   ,772,514,236,0,22
+736,Upminster           ,Late      ,375,128,92,0,154
+736,Upminster           , Total day,4090,2545,1043,53,450
+737,Upminster Bridge    ,Early     ,21,0,0,0,21
+737,Upminster Bridge    ,AM peak   ,600,583,0,0,17
+737,Upminster Bridge    ,Midday    ,437,203,201,33,0
+737,Upminster Bridge    ,PM Peak   ,677,617,50,0,9
+737,Upminster Bridge    ,Evening   ,245,142,39,52,11
+737,Upminster Bridge    ,Late      ,119,0,70,0,49
+737,Upminster Bridge    , Total day,2099,1546,361,85,107
+738,Upney               ,Early     ,44,21,0,0,24
+738,Upney               ,AM peak   ,478,393,47,1,38
+738,Upney               ,Midday    ,843,196,334,20,293
+738,Upney               ,PM Peak   ,1880,1352,153,27,347
+738,Upney               ,Evening   ,719,584,121,0,14
+738,Upney               ,Late      ,194,183,0,0,11
+738,Upney               , Total day,4157,2728,654,48,726
+739,Upton Park          ,Early     ,140,0,0,0,140
+739,Upton Park          ,AM peak   ,1433,912,96,0,424
+739,Upton Park          ,Midday    ,3415,1753,1109,196,357
+739,Upton Park          ,PM Peak   ,5742,4534,895,173,140
+739,Upton Park          ,Evening   ,3059,2500,523,0,36
+739,Upton Park          ,Late      ,1447,832,215,10,391
+739,Upton Park          , Total day,15237,10532,2838,379,1488
+740,Uxbridge            ,Early     ,340,1,0,0,339
+740,Uxbridge            ,AM peak   ,4661,3689,521,4,446
+740,Uxbridge            ,Midday    ,3729,1889,1564,143,133
+740,Uxbridge            ,PM Peak   ,2688,1931,619,22,116
+740,Uxbridge            ,Evening   ,1519,924,329,20,246
+740,Uxbridge            ,Late      ,598,129,300,2,167
+740,Uxbridge            , Total day,13534,8562,3333,191,1448
+777,Vauxhall            ,Early     ,2914,0,0,0,2914
+777,Vauxhall            ,AM peak   ,14319,10005,187,207,3919
+777,Vauxhall            ,Midday    ,8915,4642,3316,412,546
+777,Vauxhall            ,PM Peak   ,12717,8299,3177,587,654
+777,Vauxhall            ,Evening   ,7698,5008,2154,76,460
+777,Vauxhall            ,Late      ,3569,492,1959,51,1067
+777,Vauxhall            , Total day,50131,28445,10794,1333,9559
+741,Victoria            ,Early     ,3643,5,5,0,3634
+741,Victoria            ,AM peak   ,29487,21269,2254,907,5058
+741,Victoria            ,Midday    ,35015,13465,14903,4136,2511
+741,Victoria            ,PM Peak   ,39617,22204,12181,3982,1251
+741,Victoria            ,Evening   ,18697,10603,6209,1242,643
+741,Victoria            ,Late      ,8452,1619,3622,371,2840
+741,Victoria            , Total day,134912,69165,39173,10638,15937
+742,Walthamstow Central ,Early     ,355,0,0,0,355
+742,Walthamstow Central ,AM peak   ,2821,2019,340,16,446
+742,Walthamstow Central ,Midday    ,7434,3266,2949,598,621
+742,Walthamstow Central ,PM Peak   ,15516,11769,2796,592,359
+742,Walthamstow Central ,Evening   ,8099,5042,2336,269,452
+742,Walthamstow Central ,Late      ,3433,1472,1106,2,853
+742,Walthamstow Central , Total day,37658,23568,9527,1477,3086
+743,Wanstead            ,Early     ,36,0,0,0,36
+743,Wanstead            ,AM peak   ,546,486,18,26,16
+743,Wanstead            ,Midday    ,898,346,359,18,174
+743,Wanstead            ,PM Peak   ,1900,1077,507,238,78
+743,Wanstead            ,Evening   ,1032,612,365,15,40
+743,Wanstead            ,Late      ,497,78,358,0,61
+743,Wanstead            , Total day,4908,2599,1606,298,405
+745,Warren Street       ,Early     ,915,2,0,0,913
+745,Warren Street       ,AM peak   ,18479,16516,762,264,937
+745,Warren Street       ,Midday    ,9929,5782,3379,445,323
+745,Warren Street       ,PM Peak   ,3981,1122,2003,337,519
+745,Warren Street       ,Evening   ,1487,579,685,79,143
+745,Warren Street       ,Late      ,518,246,205,1,66
+745,Warren Street       , Total day,35309,24246,7035,1127,2901
+746,Warwick Avenue      ,Early     ,114,0,0,0,114
+746,Warwick Avenue      ,AM peak   ,1350,1155,51,2,143
+746,Warwick Avenue      ,Midday    ,1456,796,530,55,75
+746,Warwick Avenue      ,PM Peak   ,1755,995,588,107,66
+746,Warwick Avenue      ,Evening   ,1454,983,429,39,4
+746,Warwick Avenue      ,Late      ,624,119,370,8,127
+746,Warwick Avenue      , Total day,6752,4048,1967,210,527
+747,Waterloo            ,Early     ,3067,3,0,0,3064
+747,Waterloo            ,AM peak   ,22942,17522,2489,629,2302
+747,Waterloo            ,Midday    ,29951,14460,10995,3345,1151
+747,Waterloo            ,PM Peak   ,59782,39225,15704,2523,2330
+747,Waterloo            ,Evening   ,22459,14004,7309,282,864
+747,Waterloo            ,Late      ,9401,2126,3293,179,3802
+747,Waterloo            , Total day,147602,87340,39791,6959,13513
+748,Watford             ,Early     ,35,0,0,0,35
+748,Watford             ,AM peak   ,696,525,44,0,128
+748,Watford             ,Midday    ,431,103,271,9,47
+748,Watford             ,PM Peak   ,925,691,124,16,93
+748,Watford             ,Evening   ,571,406,138,18,9
+748,Watford             ,Late      ,231,28,96,0,107
+748,Watford             , Total day,2889,1754,673,44,419
+751,Wembley Central     ,Early     ,59,1,0,0,58
+751,Wembley Central     ,AM peak   ,895,802,67,0,26
+751,Wembley Central     ,Midday    ,1407,663,646,32,66
+751,Wembley Central     ,PM Peak   ,1990,851,682,169,288
+751,Wembley Central     ,Evening   ,856,566,127,103,61
+751,Wembley Central     ,Late      ,484,289,128,12,54
+751,Wembley Central     , Total day,5691,3172,1650,316,553
+752,Wembley Park        ,Early     ,553,0,0,0,553
+752,Wembley Park        ,AM peak   ,4788,3834,244,105,605
+752,Wembley Park        ,Midday    ,4790,2230,1433,333,795
+752,Wembley Park        ,PM Peak   ,6931,2972,930,161,2868
+752,Wembley Park        ,Evening   ,4455,1905,1016,0,1535
+752,Wembley Park        ,Late      ,1406,357,372,54,623
+752,Wembley Park        , Total day,22924,11296,3995,653,6979
+753,West Acton          ,Early     ,34,0,0,0,34
+753,West Acton          ,AM peak   ,429,263,109,0,58
+753,West Acton          ,Midday    ,564,148,226,132,58
+753,West Acton          ,PM Peak   ,831,535,192,0,105
+753,West Acton          ,Evening   ,616,429,178,0,9
+753,West Acton          ,Late      ,281,196,47,0,37
+753,West Acton          , Total day,2755,1571,752,132,301
+755,West Brompton       ,Early     ,141,6,0,0,135
+755,West Brompton       ,AM peak   ,3177,2275,86,10,806
+755,West Brompton       ,Midday    ,1983,863,927,138,54
+755,West Brompton       ,PM Peak   ,1287,833,308,56,90
+755,West Brompton       ,Evening   ,813,466,304,7,37
+755,West Brompton       ,Late      ,142,32,85,15,9
+755,West Brompton       , Total day,7543,4476,1710,226,1131
+756,West Finchley       ,Early     ,9,0,0,0,9
+756,West Finchley       ,AM peak   ,209,120,54,0,34
+756,West Finchley       ,Midday    ,503,315,113,52,23
+756,West Finchley       ,PM Peak   ,1112,793,294,18,7
+756,West Finchley       ,Evening   ,673,547,76,0,51
+756,West Finchley       ,Late      ,270,162,77,0,32
+756,West Finchley       , Total day,2776,1937,614,70,156
+757,West Ham            ,Early     ,760,5,0,0,755
+757,West Ham            ,AM peak   ,2971,918,47,0,2006
+757,West Ham            ,Midday    ,5979,497,351,35,5096
+757,West Ham            ,PM Peak   ,8606,1830,431,225,6120
+757,West Ham            ,Evening   ,3874,727,651,6,2491
+757,West Ham            ,Late      ,1717,49,13,0,1655
+757,West Ham            , Total day,23907,4027,1493,265,18122
+758,West Hampstead      ,Early     ,937,7,0,0,930
+758,West Hampstead      ,AM peak   ,2704,1830,145,0,729
+758,West Hampstead      ,Midday    ,2673,1317,1082,205,69
+758,West Hampstead      ,PM Peak   ,5695,3921,1394,163,216
+758,West Hampstead      ,Evening   ,3695,2813,768,27,88
+758,West Hampstead      ,Late      ,1602,383,809,18,392
+758,West Hampstead      , Total day,17306,10270,4199,413,2424
+759,West Harrow         ,Early     ,27,0,0,0,27
+759,West Harrow         ,AM peak   ,174,174,0,0,0
+759,West Harrow         ,Midday    ,361,189,117,0,56
+759,West Harrow         ,PM Peak   ,1114,930,146,0,37
+759,West Harrow         ,Evening   ,512,422,72,18,0
+759,West Harrow         ,Late      ,169,15,88,0,67
+759,West Harrow         , Total day,2357,1730,422,18,186
+760,West Kensington     ,Early     ,56,0,0,0,56
+760,West Kensington     ,AM peak   ,1763,1291,283,48,142
+760,West Kensington     ,Midday    ,1564,658,754,9,143
+760,West Kensington     ,PM Peak   ,2014,1308,629,10,68
+760,West Kensington     ,Evening   ,1618,1158,265,55,141
+760,West Kensington     ,Late      ,830,188,286,52,304
+760,West Kensington     , Total day,7846,4603,2216,173,854
+762,West Ruislip        ,Early     ,9,0,0,0,9
+762,West Ruislip        ,AM peak   ,147,86,12,0,50
+762,West Ruislip        ,Midday    ,307,244,63,0,0
+762,West Ruislip        ,PM Peak   ,981,868,76,8,29
+762,West Ruislip        ,Evening   ,547,434,54,0,59
+762,West Ruislip        ,Late      ,241,112,85,0,44
+762,West Ruislip        , Total day,2231,1743,290,8,190
+754,Westbourne Park     ,Early     ,68,0,0,0,68
+754,Westbourne Park     ,AM peak   ,1515,1108,96,148,163
+754,Westbourne Park     ,Midday    ,1359,900,386,0,72
+754,Westbourne Park     ,PM Peak   ,1663,1154,425,82,2
+754,Westbourne Park     ,Evening   ,1004,584,305,27,89
+754,Westbourne Park     ,Late      ,456,47,143,0,266
+754,Westbourne Park     , Total day,6065,3792,1356,256,660
+761,Westminster         ,Early     ,1052,0,0,0,1052
+761,Westminster         ,AM peak   ,17498,14860,584,772,1282
+761,Westminster         ,Midday    ,15904,5807,4321,4935,840
+761,Westminster         ,PM Peak   ,5794,2607,1832,790,564
+761,Westminster         ,Evening   ,1739,866,582,221,70
+761,Westminster         ,Late      ,586,168,140,95,183
+761,Westminster         , Total day,42572,24308,7459,6814,3991
+764,White City          ,Early     ,530,0,0,0,530
+764,White City          ,AM peak   ,6137,5221,117,55,744
+764,White City          ,Midday    ,3207,2562,543,26,76
+764,White City          ,PM Peak   ,2080,1538,364,0,178
+764,White City          ,Evening   ,1249,661,408,85,95
+764,White City          ,Late      ,579,42,410,0,127
+764,White City          , Total day,13782,10025,1841,166,1750
+763,Whitechapel         ,Early     ,1153,0,0,0,1153
+763,Whitechapel         ,AM peak   ,12563,9271,784,188,2320
+763,Whitechapel         ,Midday    ,7206,3627,2563,415,602
+763,Whitechapel         ,PM Peak   ,7462,3282,2124,5,2051
+763,Whitechapel         ,Evening   ,3478,2287,894,37,260
+763,Whitechapel         ,Late      ,1420,429,506,17,469
+763,Whitechapel         , Total day,33283,18896,6871,661,6855
+765,Willesden Green     ,Early     ,132,0,0,0,132
+765,Willesden Green     ,AM peak   ,1051,677,99,0,275
+765,Willesden Green     ,Midday    ,2467,950,1261,71,185
+765,Willesden Green     ,PM Peak   ,5092,3757,1021,163,151
+765,Willesden Green     ,Evening   ,3259,2383,785,35,56
+765,Willesden Green     ,Late      ,1827,701,838,0,288
+765,Willesden Green     , Total day,13827,8468,4004,268,1086
+766,Willesden Junction  ,Early     ,266,14,0,0,252
+766,Willesden Junction  ,AM peak   ,1828,1371,5,0,451
+766,Willesden Junction  ,Midday    ,1500,1054,332,46,68
+766,Willesden Junction  ,PM Peak   ,2386,1677,591,91,27
+766,Willesden Junction  ,Evening   ,1096,781,267,45,4
+766,Willesden Junction  ,Late      ,580,165,102,0,313
+766,Willesden Junction  , Total day,7655,5061,1298,182,1115
+767,Wimbledon           ,Early     ,488,0,0,0,488
+767,Wimbledon           ,AM peak   ,3174,2608,247,16,303
+767,Wimbledon           ,Midday    ,4405,1731,2109,160,405
+767,Wimbledon           ,PM Peak   ,8672,6065,1996,411,200
+767,Wimbledon           ,Evening   ,3477,1936,1207,221,113
+767,Wimbledon           ,Late      ,1145,212,569,0,364
+767,Wimbledon           , Total day,21361,12552,6129,807,1873
+768,Wimbledon Park      ,Early     ,46,0,0,0,46
+768,Wimbledon Park      ,AM peak   ,480,457,17,2,4
+768,Wimbledon Park      ,Midday    ,569,235,268,44,22
+768,Wimbledon Park      ,PM Peak   ,1010,575,358,8,68
+768,Wimbledon Park      ,Evening   ,577,445,99,0,33
+768,Wimbledon Park      ,Late      ,213,63,96,0,54
+768,Wimbledon Park      , Total day,2894,1774,838,54,228
+770,Wood Green          ,Early     ,172,0,0,0,172
+770,Wood Green          ,AM peak   ,2433,1876,333,19,205
+770,Wood Green          ,Midday    ,4380,1965,1979,271,165
+770,Wood Green          ,PM Peak   ,6623,4470,1746,82,324
+770,Wood Green          ,Evening   ,3595,2296,1138,113,48
+770,Wood Green          ,Late      ,2147,861,814,48,424
+770,Wood Green          , Total day,19350,11469,6010,534,1337
+599,Wood Lane           ,Early     ,131,0,0,0,131
+599,Wood Lane           ,AM peak   ,1339,1135,46,0,157
+599,Wood Lane           ,Midday    ,1324,529,543,63,188
+599,Wood Lane           ,PM Peak   ,1218,346,712,0,160
+599,Wood Lane           ,Evening   ,457,191,0,0,266
+599,Wood Lane           ,Late      ,84,19,0,0,65
+599,Wood Lane           , Total day,4552,2220,1302,63,967
+769,Woodford            ,Early     ,57,0,0,0,57
+769,Woodford            ,AM peak   ,726,310,219,22,176
+769,Woodford            ,Midday    ,1769,541,921,23,285
+769,Woodford            ,PM Peak   ,3819,2822,440,203,354
+769,Woodford            ,Evening   ,1907,1450,357,24,77
+769,Woodford            ,Late      ,829,314,305,0,209
+769,Woodford            , Total day,9107,5436,2240,272,1159
+771,Woodside Park       ,Early     ,25,0,0,0,25
+771,Woodside Park       ,AM peak   ,419,369,2,0,49
+771,Woodside Park       ,Midday    ,842,439,237,5,161
+771,Woodside Park       ,PM Peak   ,2085,1451,517,58,58
+771,Woodside Park       ,Evening   ,1034,692,177,43,121
+771,Woodside Park       ,Late      ,365,74,153,0,139
+771,Woodside Park       , Total day,4771,3026,1086,106,554
+ ,,,,,,,
+ End of report,,,,,,,
+>>>>>>> Andrew
