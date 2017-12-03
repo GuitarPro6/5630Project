@@ -2,94 +2,156 @@
 <html lang="en">
 <head>
 
-	<meta charset="UTF-8">
-	<title>6630 London Tube Project</title>
-	<head>
-  <link rel="stylesheet" href="tubeMap.css">
-  <script src="https://d3js.org/d3.v4.js"></script>
-	<script src=d3-tube-map/d3-tube-map.js></script>
-	<script src=script.js></script>
-  <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>6630 London Tube Project</title>
+    <head>
+        <link rel="stylesheet" href="tubeMap.css">
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <script src=d3-tube-map/d3-tube-map.js></script>
+        <script src=script.js></script>
+        <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
 
-</head>
-	<a href="https://tfl.gov.uk/modes/tube/">
-<img src="https://vignette.wikia.nocookie.net/logopedia/images/3/3a/London_Underground_1970_roundel_small.png/revision/latest?cb=20120209090410" href="https://tfl.gov.uk/modes/tube/" style="float: right; width: 100px; height: 80px" />
-	</a>
-<nav>
+    </head>
+    <a href="https://tfl.gov.uk/modes/tube/">
+        <img src="https://vignette.wikia.nocookie.net/logopedia/images/3/3a/London_Underground_1970_roundel_small.png/revision/latest?cb=20120209090410" href="https://tfl.gov.uk/modes/tube/" style="float: right; width: 100px; height: 80px" />
+    </a>
+    <div class="linechart">
+        <div class="close">Close</div>
+        <div class="station"></div>
+        <div class="legends">
+            <div class="sunday">Sunday</div>
+            <div class="saturday">Saturday</div>
+            <div class="week">Week</div>
+        </div>
+        <div class="chartWrapper">
+            <div class="entry"></div>
+            <div class="exit"></div>
+        </div>
+    </div>
+    <nav>
 
 
-</nav>
+    </nav>
 <body>
 
-	<div id="floating-panel1" style ="margin-left:30px;  margin-bottom:10px;">
-		<h2 style = "text-align: center">Explore the London Underground</h2>
-		Select Both/Entry/Exit:
-	<select id = "entry-exit">
-<option value="null"> -- select an option -- </option>
-<option value="both">Both Entry & Exit</option>
-<option value="entry">Entry</option>
-<option value="exit">Exit</option>
-<!-- <option value="2009">2009</option>
-<option value="2010">2010</option> -->
-</select>
+<div id="floating-panel1" style ="margin-left:30px;  margin-bottom:10px;">
+    <h2 style = "text-align: center">Explore the London Underground</h2>
+    Select Both/Entry/Exit:
+    <select id = "entry-exit">
+        <option value="null"> -- select an option -- </option>
+        <option value="both">Both Entry & Exit</option>
+        <option value="entry">Entry</option>
+        <option value="exit">Exit</option>
+        <!-- <option value="2009">2009</option>
+        <option value="2010">2010</option> -->
+    </select>
 
-<button id = "tube-button" onclick = "startTimeAnimation()">A Day on the Tube</button>
+    <button id = "tube-button" onclick = "startTimeAnimation()">A Day on the Tube</button>
 
-<!-- <text id="clock" style="text-align: center; float: right"></text>
-<text id ="journey" style="text-align: center; float: right"></text> -->
-
-
+    <!-- <text id="clock" style="text-align: center; float: right"></text>
+    <text id ="journey" style="text-align: center; float: right"></text> -->
 
 
 
-  <div id="tube-map" style ="margin-left:30px; height: 1024px;  width: 1600px; margin-right:20px; float:left">
+    <div class="barChartDropDown">
+        <button class="lineMode">Show Line</button>
+        <div class="selectItems">
+            <div class="dropleft"></div>
+            <div class="dropRight"></div>
+        </div>
+        <!--<button class="showBarDiff">Differences</button>-->
+    </div>
+</div>
+<div class="legendWrapper">
+    <div class="legendTitle">Legends</div>
+    <div class="stationLegend"></div>
+</div>
 
-	</div>
-	<div id = "sidebar" style="float: right;">
-	<td style="vertical-align: middle;">
-		<h4>Line Key:</h4>
-		<div style="clear: both;">
-			<div class="keyLineItem" style="background-color: #B36305;">&nbsp;</div><div class="keyItemText">Bakerloo</div>
-			<div style="clear: both;"><div class="keyLineItem" style="background-color: #E32017;">&nbsp;</div><div class="keyItemText">Central</div>
-			<div style="clear: both;"><div class="keyLineItem" style="background-color: #FFD300;">&nbsp;</div><div class="keyItemText">Circle</div>
-			<div style="clear: both;"><div class="keyLineItem" style="background-color: #00782a;">&nbsp;</div><div class="keyItemText">District</div>
-			<div style="clear: both;"><div class="keyLineItem" style="background-color: #F3A9BB;">&nbsp;</div><div class="keyItemText">Hammersmith &amp; City</div>
-				<div style="clear: both;"><div class="keyLineItem" style="background-color: #A0A5A9;" >&nbsp;</div><div class="keyItemText">Jubilee</div>
-				<div style="clear: both;"><div class="keyLineItem" style="background-color: #9B0056;" >&nbsp;</div><div class="keyItemText">Metropolitan</div>
-				<div style="clear: both;"><div class="keyLineItem" style="background-color: #000000;" >&nbsp;</div><div class="keyItemText">Northern</div>
-				<div style="clear: both;"><div class="keyLineItem" style="background-color: #003688;">&nbsp;</div><div class="keyItemText">Piccadilly</div>
-					<div style="clear: both;"><div class="keyLineItem" style="background-color: #0098D4;">&nbsp;</div><div class="keyItemText">Victoria</div><div style="clear: both;">
+<div id="tube-map" style ="margin-left:30px;">
 
-					</div></div>
+</div>
+<div id = "sidebar" style="float: right;">
+    <td style="vertical-align: middle;">
+        <h4>Line Key:</h4>
+        <div style="clear: both;">
+            <div class="keyLineItem" style="background-color: #B36305;">&nbsp;</div><div class="keyItemText">Bakerloo</div>
+            <div style="clear: both;"><div class="keyLineItem" style="background-color: #E32017;">&nbsp;</div><div class="keyItemText">Central</div>
+                <div style="clear: both;"><div class="keyLineItem" style="background-color: #FFD300;">&nbsp;</div><div class="keyItemText">Circle</div>
+                    <div style="clear: both;"><div class="keyLineItem" style="background-color: #00782a;">&nbsp;</div><div class="keyItemText">District</div>
+                        <div style="clear: both;"><div class="keyLineItem" style="background-color: #F3A9BB;">&nbsp;</div><div class="keyItemText">Hammersmith &amp; City</div>
+                            <div style="clear: both;"><div class="keyLineItem" style="background-color: #A0A5A9;" >&nbsp;</div><div class="keyItemText">Jubilee</div>
+                                <div style="clear: both;"><div class="keyLineItem" style="background-color: #9B0056;" >&nbsp;</div><div class="keyItemText">Metropolitan</div>
+                                    <div style="clear: both;"><div class="keyLineItem" style="background-color: #000000;" >&nbsp;</div><div class="keyItemText">Northern</div>
+                                        <div style="clear: both;"><div class="keyLineItem" style="background-color: #003688;">&nbsp;</div><div class="keyItemText">Piccadilly</div>
+                                            <div style="clear: both;"><div class="keyLineItem" style="background-color: #0098D4;">&nbsp;</div><div class="keyItemText">Victoria</div><div style="clear: both;">
 
-					<h4>Other Views:</h4>
+                                            </div></div>
 
-					<ul>
-						<li><a href="map.html">Google Map</a></li>
-							<li><a href="video.html">Video</a></li>
-					</ul>
+                                            <h4>Other Views:</h4>
 
-					<text id="clock" class = "clock" style="text-align: center; float: right"></text><div style="clear: both;"></div>
-					<text id ="journey" class = "journey" style="text-align: center; float: right"></div></div></text></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></td>
-			</div>
-	</div>
+                                            <ul>
+                                                <li><a href="map.html">Google Map</a></li>
+                                                <li><a href="video.html">Video</a></li>
+                                            </ul>
 
-
-
-	</div>
+                                            <text id="clock" class = "clock" style="text-align: center; float: right"></text><div style="clear: both;"></div>
+                                            <text id ="journey" class = "journey" style="text-align: center; float: right"></div></div></text></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></td>
+</div>
+</div>
 
 
-  <script>
-	/*  <script src="https://unpkg.com/d3-tube-map@latest/build/d3-tube-map.js"></scr>  */
+
+</div>
+
+
+<div class="barChartWrapper">
+
+    <div class="innerBarChart ageWrapper">
+        <div class="label">Age</div>
+        <div class="ageChart"></div>
+    </div>
+    <div class="innerBarChart sexWrapper">
+        <div class="label">Sex</div>
+        <div class="sexChart"></div>
+    </div>
+
+    <div class="innerBarChart journeyWrapper">
+        <div class="label">Journey</div>
+        <div class="journeyChart"></div>
+    </div>
+
+    <div class="innerBarChart marketWrapper">
+        <div class="label">Market</div>
+        <div class="marketChart"></div>
+    </div>
+
+</div>
+<script>
+    /*  <script src="https://unpkg.com/d3-tube-map@latest/build/d3-tube-map.js"></scr>  */
     var el = document.getElementById('tube-map');
-		var width = 1600;
-		var height = 1024;
+    var width = 1600;
+    var height = 1024;
+
+    const ageInCSV = ["Under 16", "16 - 19", "20 - 24", "25 - 34", "35 - 44", "45 - 59", "60 - 64", "65 - 70", "Over 70"];
+    const ageMap = new Map();
+    ageInCSV.forEach((d, i)=>ageMap.set(`cat${i}`, d));
+
+    const journeyInCSV = ["< 15 mins", "15 - 30", "30 - 45", "45 - 60", "60 - 90:", "over 90"];
+    const journeyMap = new Map();
+    journeyInCSV.forEach((d, i)=>journeyMap.set(`cat${i}`, d));
+
+    const marketInCSV = ["Commuter", "Leisure", "Tourist", "Not known"];
+    const marketMap = new Map();
+    marketInCSV.forEach((d, i)=>marketMap.set(`cat${i}`, d));
+
     var svg = d3.select(el)
         .append('svg')
-        .style('width', "100%")
-        .style('height', "100%").attr("id", "container");
-    const map = tubeMap.tubeMap()
+        .attr('width', width)
+        .attr('height', height)
+        .attr("id", "container");
 
+
+    const map = tubeMap.tubeMap()
         .width(width)
         .height(height)
         .margin({
@@ -274,69 +336,68 @@
 
     function startTimeAnimation(){
 
-        var menu = document.getElementById("entry-exit");
-        var type = menu.options[menu.selectedIndex].value;
+			var menu = document.getElementById("entry-exit");
+			var type = menu.options[menu.selectedIndex].value;
 
-        if(type === "null"){
-            alert("Please choose data type");
-            return;
-        }
+			if(type === "null"){
+				alert("Please choose data type");
+				return;
+			}
 
-        var button = document.getElementById("tube-button");
-        button.removeAttribute('onclick');
+			var button = document.getElementById("tube-button");
+			button.removeAttribute('onclick');
 
-        d3.select("#floating-panel1").append("input").attr("type","button").attr("class","button").attr("value", "Stop Animation").attr("id","stopButton");
+			d3.select("#floating-panel1").append("input").attr("type","button").attr("class","button").attr("value", "Stop Animation").attr("id","stopButton");
 
-        var stopButton = document.getElementById("stopButton");
+			var stopButton = document.getElementById("stopButton");
 
-        stopButton.addEventListener("click", function() {
-            map.endTimer();
-        }, false);
+			stopButton.addEventListener("click", function() {
+    map.endTimer();
+}, false);
 
-        map.setTimeStop();
-        //Change aesthetics so that the visualization looks Good
-        //start a timer
-        //map.highlightLine("Metropolitan");
-        d3.json("stations.json", function(error, data) {
-            if(error != null){
-                console.log("something went wrong");
-            }
-            d3.csv("tubedata/RODS_2016/Misc/Stationflows/AEI-Summary.csv", function(error, csvData){
-                var timeTable = [];
-                var myDate = new Date();
-                let stripMilliseconds_all = function(s) { return s.slice(0, -1); };
-                var format_entry = d3.timeFormat("%H:%M");
-                //The clock starts at 5 am
-                for(var i = 5; i <= 24; i++){
-                    if(i === 24){
-                        for(var j = 0; j < 5; j++){
-                            for(var min = 0; min < 60; min++){
-                                myDate.setHours(j, min, 0, 0);
-                                time_stamp = format_entry(myDate);
-                                timeTable.push(time_stamp);
-                            }
-                        }
-                    }
-                    else{
-                        for(var min = 0; min < 60; min++){
-                            myDate.setHours(i, min, 0, 0);
-                            time_stamp = format_entry(myDate);
-                            timeTable.push(time_stamp);
-                        }
-                    }
-                }
-                var menu = document.getElementById("entry-exit");
-                var type = menu.options[menu.selectedIndex].value;
+		map.setTimeStop();
+			//Change aesthetics so that the visualization looks Good
+			//start a timer
+			//map.highlightLine("Metropolitan");
+			d3.json("stations.json", function(error, data) {
+				if(error != null){
+					console.log("something went wrong");
+				}
+			d3.csv("tubedata/RODS_2016/Misc/Stationflows/AEI-Summary.csv", function(error, csvData){
+				var timeTable = [];
+						var myDate = new Date();
+						let stripMilliseconds_all = function(s) { return s.slice(0, -1); };
+									var format_entry = d3.timeFormat("%H:%M");
+				//The clock starts at 5 am
+				for(var i = 5; i <= 24; i++){
+					if(i === 24){
+						for(var j = 0; j < 5; j++){
+						for(var min = 0; min < 60; min++){
+							myDate.setHours(j, min, 0, 0);
+							time_stamp = format_entry(myDate);
+							timeTable.push(time_stamp);
+						}
+					}
+					}
+					else{
+					for(var min = 0; min < 60; min++){
+						myDate.setHours(i, min, 0, 0);
+						time_stamp = format_entry(myDate);
+						timeTable.push(time_stamp);
+					}
+				}
+				}
+				var menu = document.getElementById("entry-exit");
+				var type = menu.options[menu.selectedIndex].value;
 
-                map.startTimer(csvData, timeTable, data, type);
-            });
-        });
+				map.startTimer(csvData, timeTable, data, type);
+			});
+			});
 
 
-        //select the data that meets the timer
-    }
-</script>
-
+			//select the data that meets the timer
+		}
+  </script>
 
 </body>
 <script>
