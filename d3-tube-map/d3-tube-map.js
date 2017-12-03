@@ -735,7 +735,7 @@
 
 
                 // Update the river
-                river.enter().append("path").attr("d", drawLine).attr("stroke", "#C4E8F8").attr("fill", "none").attr("stroke-width", 1.8 * lineWidth);
+                river.enter().append("path").attr("d", drawLine).attr("stroke", "#C4E8F8").attr("fill", "none").attr("a", 1.8 * lineWidth);
 
                 var self_item = this;
                 var pathStorage = [];
@@ -752,7 +752,7 @@
                         return d.color;
                     })
                     .attr("fill", "none").attr("stroke-width", function (d) {
-                    return d.highlighted ? lineWidth * 1.5 : lineWidth;
+                    return d.highlighted ? lineWidth * 1.5 : 1.5*lineWidth;
                 })
                     .attr("class", function (d) {
                         return d.name;
@@ -1189,7 +1189,7 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 			}
 		});
 
-    d3.select("#clock").text("" + 10 + " Seconds");
+    d3.select("#clock").text("Departing in 10 sec");
 
 
     function wait(ms) {
@@ -1522,7 +1522,7 @@ stations_array.forEach(function(da){
 
 				var entry = csvData.filter(function(d,i){
 					//Access
-						return d.StartStn === da.title && d.AEI === "A";
+						return d.StartStn.trim() === da.title && d.AEI === "A";
 					// var string = da.toString();
 					// return d.EntTimeHHMM === string;
 				});
@@ -1530,14 +1530,14 @@ stations_array.forEach(function(da){
 
 				var exit = csvData.filter(function(d,i){
 					//Egress or exit
-					return d.StartStn === da.title && d.AEI === "E";
+					return d.StartStn.trim() === da.title && d.AEI === "E";
 					// var string = da.toString();
 					// return d.EXTimeHHMM === string;
 				});
 
 				var inter = csvData.filter(function(d,i){
 
-					return d.StartStn === da.title && d.AEI === "I";
+					return d.StartStn.trim() === da.title && d.AEI === "I";
 				})
 
 
