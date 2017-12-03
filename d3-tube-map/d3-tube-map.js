@@ -1185,7 +1185,7 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 				return "red";
 			}
 			else{
-				return "#66CCCC";
+				return "#00A4A7";
 			}
 		});
 
