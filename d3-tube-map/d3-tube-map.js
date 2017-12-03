@@ -1390,7 +1390,7 @@
             d3.select('.lineMode').classed('showMe', false);
             d3.select('.barChartWrapper').classed('showMe', false);
             d3.select('.barChartDropDown').classed('showMe', false);
-            var lines = d3.select("#tube-mapargin").selectAll(".line");
+            var lines = d3.select("#tube-map").selectAll(".line");
             var stations = d3.select("#tube-map").selectAll(".station");
             var labels = d3.select("#tube-map").selectAll(".labels");
             var river = d3.select("#tube-map").selectAll(".river");

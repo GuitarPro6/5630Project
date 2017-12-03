@@ -324,7 +324,7 @@
                 exit_saturday: parseFloat(d.Exit_Saturday),
                 exit_sunday: parseFloat(d.Exit_Sunday),
                 exit_week: isNaN(parseFloat(d.Exit_Week)) ? 0 : parseFloat(d.Exit_Week),
-                station: d.Station.trim().replace(/ /g, ''),
+                station: d.Station,//.trim().replace(/ /g, ''),
                 milliion: d.million,
                 nlc: d.nlc
             }))
