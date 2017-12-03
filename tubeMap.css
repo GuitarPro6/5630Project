@@ -35,8 +35,10 @@ src: url('digital-7/digital-7 (mono).ttf');
   font-family: 'digital-7';
   background-color:#333;
   font-size:60px;
+
   text-shadow:0px 0px 1px #fff;
-  color:#fff;
+  color: #F7F122;
+  /*color:#fff;*/
 
 }
 
