@@ -202,8 +202,6 @@ class SurveyMap {
                         center: citymap[city].center,
                         //Here we set the radius according to some data gathered by the csv
                         radius: citymap[city].dist / d3.mean(radMulti)
-
-                        //Math.sqrt(citymap[city].population) * 100
                     });
                     self_item.markers.push(cityCircle);
                   }
@@ -264,8 +262,6 @@ class SurveyMap {
                         center: citymap[city].center,
                         //Here we set the radius according to some data gathered by the csv
                         radius: (citymap[city].num / change) * 5
-
-                        //Math.sqrt(citymap[city].population) * 100
                     });
                     self_item.markers.push(cityCircle);
                   }
@@ -404,36 +400,8 @@ class SurveyMap {
                             location: new google.maps.LatLng(d.position.lat, d.position.lon),
                             weight: val[0][currCate[cate]]
                         });
-
-                        //Construct object with all the information for the heatmap
-                        // citymap.push({
-                        //     title:      d.title,
-                        //     center:     {lat: d.position.lat, lng: d.position.lon},
-                        //     average:    val[0].Average,
-                        //     less15:     val[0].l_15_mins,
-                        //     f15to30:    val[0].f15_30,
-                        //     f30to45:    val[0].f30_45,
-                        //     f45to60:    val[0].f45_60,
-                        //     f60to90:    val[0].f60_90,
-                        //     over90:     val[0].over90
-                        // });
                     }
                 });
-
-                //Code to add cluster markers
-                //
-                //         let markers = heatMapData.map(function(location, i) {
-                //           console.log(location.location);
-                //   return new google.maps.Marker({
-                //     position: location.location,
-                //     label: location.weight
-                //   });
-                // });
-                //
-                // // Add a marker clusterer to manage the markers.
-                // let markerCluster = new MarkerClusterer(map, markers,
-                //     {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-
 
                 self_item.heatmap = new google.maps.visualization.HeatmapLayer({
                     data: heatMapData

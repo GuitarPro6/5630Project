@@ -96,8 +96,6 @@ class MAP {
                         center: citymap[city].center,
                         //Here we set the radius according to some data gathered by the csv
                         radius: citymap[city]["" + type + week + ""] / 50
-
-                        //Math.sqrt(citymap[city].population) * 100
                     });
                     self_item.markers.push(cityCircle);
                 }
@@ -180,10 +178,6 @@ class MAP {
                         extSat: val[0].Exit_Saturday,
                         extSun: val[0].Exit_Sunday
                     });
-
-                    //here we construct an object that stores the information we need.
-                    //Construct heat map data
-                    // {location: new google.maps.LatLng(37.782, -122.443), weight: 2}
                 });
 
                 for (let city in citymap) {
@@ -202,7 +196,7 @@ class MAP {
                 self_item.heatmap.setOptions({
                     radius: 15,
                     maxIntensity: d3.max(heatMapData).weight,
-                    gradient: [ 'rgba(0, 255, 255, 0)',
+                    gradient: ['rgba(0, 255, 255, 0)',
                         "#00FFFF",
                         "#00EFFF",
                         "#00DFFF",
@@ -253,19 +247,6 @@ class MAP {
                         "#FF001F",
                         "#FF000F",
                         "#FF0000"]
-                        // 'rgba(0, 255, 255, 1)',
-                        // 'rgba(0, 191, 255, 1)',
-                        // 'rgba(0, 127, 255, 1)',
-                        // 'rgba(0, 63, 255, 1)',
-                        // 'rgba(0, 0, 255, 1)',
-                        // 'rgba(0, 0, 223, 1)',
-                        // 'rgba(0, 0, 191, 1)',
-                        // 'rgba(0, 0, 159, 1)',
-                        // 'rgba(0, 0, 127, 1)',
-                        // 'rgba(63, 0, 91, 1)',
-                        // 'rgba(127, 0, 63, 1)',
-                        // 'rgba(191, 0, 31, 1)',
-                        // 'rgba(255, 0, 0, 1)']
                 });
 
                 self_item.markers.push(self_item.heatmap);
