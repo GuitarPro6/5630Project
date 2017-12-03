@@ -795,6 +795,14 @@ d3.select("#stopButton").remove();
   }
 
         map.unhighlightAll = function () {
+
+            d3.select('#tube-map').select('svg').attr('height', '1024')
+            d3.select('body').style('overflow', 'hidden')
+            d3.select('.legendWrapper').style('display', 'none')
+            d3.select('.lineMode').classed('showMe', false);
+            d3.select('.barChartWrapper').classed('showMe', false);
+            d3.select('.barChartDropDown').classed('showMe', false);
+
             var lines = d3.select("#tube-map").selectAll(".line");
             var stations = d3.select("#tube-map").selectAll(".station");
             var labels = d3.select("#tube-map").selectAll(".labels");
