@@ -2,12 +2,10 @@ NLC,TLC,Station Name,Government Office Region (GOR),County or Unitary Authority,
 Unit Code",NUTS2 Spatial Unit,Station Facility Owner,Station Group,PTE Urban Area Station,London Travelcard Area,London Joint Station,"Entries
 Full","Entries
 Reduced","Entries
-Season","Entries
-Total","Exits
+Season","Entries Total","Exits
 Full","Exits
 Reduced","Exits
-Season","Exits
-Total","0910
+Season","Exits Total","0910
 Entries & Exits","0809
 Entries & Exits",0910 interchanges,Check,Check Detail,Check Reason
 5131,ABW,Abbey Wood,London,Greater London,Greenwich,UKI2,Outer London,Southeastern,,,London Travelcard Area Station,,"206,421","344,832","890,181","1,441,434","206,421","344,832","890,181","1,441,434","2,882,868","3,029,176",0,,,

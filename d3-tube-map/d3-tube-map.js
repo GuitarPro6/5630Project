@@ -28,6 +28,31 @@
         var t;
         var s;
 
+
+        //Creates tooltip text for tooltips
+        function tooltipText(data) {
+            let name = data.name.replace(/([A-Z]|&)/g, ' $1').trim();
+
+            let record = {};
+
+            for (let i = 2007; i < 2017; i ++) {
+                let filepath = "tubedata/station-usage_" + i + "-" + (i+1-2000) + ".csv";
+                //exception to add 0
+                if (filepath === "tubedata/station-usage_2008-9.csv")
+                    filepath = "tubedata/station-usage_2008-09.csv";
+                d3.csv(filepath, function(data) {
+                    data.forEach(function (curr) {
+                        if (name === curr["Station Name"]){
+                            console.log(curr)
+                        }
+                    })
+                });
+            }
+
+            return name;
+        }
+
+
         function map(selection) {
             selection.each(function (data) {
                 // Convert data to standard representation
@@ -274,6 +299,24 @@
                     text = text.enter()
                         .append('text').merge(text);
                     //Set station names
+
+                    let tip = d3.tip()
+                        .attr('class', 'd3-tip')
+                        .direction(function(d, i){
+                            return [i % 2 === 0 ? 's' : 'n'];
+                    })
+                        .offset(function(d, i) {
+                            return [i % 2 === 0 ? 10 : -10, 0]
+                        })
+                        .html(function(d) {
+                            return tooltipText(d);
+                    });
+
+                    d3.select("svg").call(tip);
+
+                    text.on('mouseover', tip.show)
+                        .on('mouseout', tip.hide);
+
                     text.attr('x', function (d) {
                         return d.coords[0] + 30;
                     })
@@ -283,9 +326,7 @@
                             }
                             else return d.coords[1] - 20;
                         })
-                        .attr("position", "absolute").attr("transform", function (d) {
-                        return "rotate(-45) translate(0%,0%)";
-                    })
+                        .attr("position", "absolute")
                         .text(function (d) {
                             return d.name;
                         })

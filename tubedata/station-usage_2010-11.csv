@@ -2,12 +2,10 @@ NLC,TLC,Station Name,Government Office Region (GOR),County or Unitary Authority,
 Unit Code",NUTS2 Spatial Unit,Station Facility Owner,Station Group,PTE Urban Area Station,London Travelcard Area,London Joint Station,"Entries
 Full","Entries
 Reduced","Entries
-Season","Entries
-Total","Exits
+Season","Entries Total","Exits
 Full","Exits
 Reduced","Exits
-Season","Exits
-Total","1011
+Season","Exits Total","1011
 Entries & Exits","0910
 Entries & Exits",1011 interchanges,Check,Check Detail,Check Reason
 5598,WAT,Waterloo,London,Greater London,Lambeth,UKI1,Inner London,Network Rail,LONDON BR,,London Travelcard Area Station,,"7,910,462","13,226,618","24,739,216","45,876,296","7,910,185","13,225,666","24,738,235","45,874,086","91,750,382","86,397,666","5,772,501",,,
