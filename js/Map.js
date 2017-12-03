@@ -65,7 +65,7 @@ class MAP {
 
                 keyValues.forEach(function (d, i) {
                     let val = csvData.filter(function (n) {
-                        return n.Station.trim() === d.title;
+                        return n.Station.trim() === d.title.trim();
                     });
                     if (val.length === 0) {
                         val.push({entry: 0});
