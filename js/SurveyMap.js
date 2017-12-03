@@ -239,77 +239,36 @@ class SurveyMap {
                             num: val[0]["" + cat + ""]
                         });
                     }
-
-                    for (let city in citymap) {
-                        heatMapData.push({
-                            location: new google.maps.LatLng(citymap[city].center.lat, citymap[city].center.lng),
-                            weight: citymap[city].num
-                        });
-                    }
                 });
 
-                self_item.heatmap = new google.maps.visualization.HeatmapLayer({
-                    data: heatMapData
+                let radMulti = [];
+                citymap.forEach(function(d) {
+                  let temp = d.num
+                  radMulti.push(d.num / 90);
                 });
 
-                self_item.heatmap.setMap(map);
-                self_item.heatmap.setOptions({
-                    radius: 15,
-                    maxIntensity: d3.max(heatMapData).weight*150,
-                    gradient: [ 'rgba(0, 255, 255, 0)',
-                        "#00FFFF",
-                        "#00EFFF",
-                        "#00DFFF",
-                        "#00D0FF",
-                        "#00C0FF",
-                        "#00B0FF",
-                        "#00A1FF",
-                        "#0091FF",
-                        "#0082FF",
-                        "#0072FF",
-                        "#0062FF",
-                        "#0053FF",
-                        "#0043FF",
-                        "#0034FF",
-                        "#0024FF",
-                        "#0014FF",
-                        "#0005FF",
-                        "#0A00FF",
-                        "#1A00FF",
-                        "#2900FF",
-                        "#3900FF",
-                        "#4800FF",
-                        "#5800FF",
-                        "#6800FF",
-                        "#7700FF",
-                        "#8700FF",
-                        "#9600FF",
-                        "#A600FF",
-                        "#B600FF",
-                        "#C500FF",
-                        "#D500FF",
-                        "#E400FF",
-                        "#F400FF",
-                        "#FF00F9",
-                        "#FF00EA",
-                        "#FF00DA",
-                        "#FF00CA",
-                        "#FF00BB",
-                        "#FF00AB",
-                        "#FF009C",
-                        "#FF008C",
-                        "#FF007C",
-                        "#FF006D",
-                        "#FF005D",
-                        "#FF004E",
-                        "#FF003E",
-                        "#FF002E",
-                        "#FF001F",
-                        "#FF000F",
-                        "#FF0000"]
-                });
+                let change = d3.mean(radMulti) < 0.05 ? 0.1 : d3.mean(radMulti);
 
-                self_item.markers.push(self_item.heatmap);
+                console.log(change)
+
+                for (let city in citymap) {
+                    // Add the circle for this city to the map.
+                    let cityCircle = new google.maps.Circle({
+                        class: "circle",
+                        strokeColor: '#FF0000',
+                        strokeOpacity: 0.8,
+                        strokeWeight: 1,
+                        fillColor: '#FF0000',
+                        fillOpacity: 0.25,
+                        map: map,
+                        center: citymap[city].center,
+                        //Here we set the radius according to some data gathered by the csv
+                        radius: (citymap[city].num / change) * 5
+
+                        //Math.sqrt(citymap[city].population) * 100
+                    });
+                    self_item.markers.push(cityCircle);
+                  }
             });
         }
         else if (type === "purpose") {
