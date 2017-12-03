@@ -28,28 +28,45 @@
         var t;
         var s;
 
+        var daysDict = {
+            2007: [261, 52, 52],
+            2008: [262, 52, 52],
+            2009: [261, 52, 52],
+            2010: [261, 52, 52],
+            2011: [260, 53, 52],
+            2012: [261, 52, 53],
+            2013: [261, 52, 52],
+            2014: [261, 52, 52],
+            2015: [261, 52, 52],
+            2016: [262, 52, 52],
+        }
 
         //Creates tooltip text for tooltips
         function tooltipText(data) {
             let name = data.name.replace(/([A-Z]|&)/g, ' $1').trim();
 
-            let record = {};
+            let en = [];
+            let ex = [];
+
+            let htmlText = "<table><tr><th></th><th>Entries</th><th>Exits</th></tr>";
 
             for (let i = 2007; i < 2017; i ++) {
-                let filepath = "tubedata/station-usage_" + i + "-" + (i+1-2000) + ".csv";
-                //exception to add 0
-                if (filepath === "tubedata/station-usage_2008-9.csv")
-                    filepath = "tubedata/station-usage_2008-09.csv";
+                let filepath = "tubedata/counts/" + i + "_Entry_Exit.csv";
                 d3.csv(filepath, function(data) {
                     data.forEach(function (curr) {
-                        if (name === curr["Station Name"]){
-                            console.log(curr)
+                        if (name === curr["Station"].trim()){
+                            htmlText = htmlText + "<tr><th>" + i + "</th>" +
+                                "<td>" + (curr["Entry_Weekday"] * daysDict[i][0] + curr["Entry_Saturday"] * daysDict[i][1] + curr["Entry_Sunday"] * daysDict[i][2]) +"</td>" + "<td>" + (curr["Exit_Weekday"] * daysDict[i][0] + curr["Exit_Saturday"] * daysDict[i][1] + curr["Exit_Sunday"] * daysDict[i][2]) +"</td></tr>";
+                        console.log(htmlText)
                         }
                     })
                 });
             }
 
-            return name;
+            htmlText = htmlText + "</table>";
+
+            return htmlText;
+
         }
 
 
@@ -310,11 +327,12 @@
                         })
                         .html(function(d) {
                             return tooltipText(d);
+
                     });
 
                     d3.select("svg").call(tip);
 
-                    text.on('mouseover', tip.show)
+                    text.on('mouseover', tip.hide)//show)
                         .on('mouseout', tip.hide);
 
                     text.attr('x', function (d) {
