@@ -846,11 +846,13 @@
                         .attr("fill", bgColor)
                         .attr("stroke-width", lineWidth / 2);
 
-                    //Set the staion names, first append g
-                    var station_text = d3.select("#line").selectAll("g").data(stationPoints);
-                    station_text.exit().remove();
-                    station_text = station_text.enter().append("g").attr("display", "inline").merge(station_text);
-                    // console.log(stationPoints);
+//Set the staion names, first append g
+var station_text = d3.select("#line").selectAll("g").data(stationPoints);
+
+station_text.exit().remove();
+
+station_text = station_text.enter().append("g").attr("display", "inline").merge(station_text);
+
 
                     var text = station_text.selectAll('text')
                         .data(stationPoints);
@@ -965,34 +967,34 @@
                     })
                     .classed("station", true);
 
-                // Update the label text
-                labels.enter().append("g").attr("id", function (d) {
-                    return d.name;
-                }).classed("label", true).on("click", function () {
-                    var label = d3.select(this);
-                    var name = label.attr("id");
+      // Update the label text
+      labels.enter().append("g").attr("id", function (d) {
+        return d.name;
+      }).classed("label", true).on("click", function () {
+        var label = d3.select(this);
+        var name = label.attr("id");
 
-                    selectStation(name);
+        selectStation(name);
 
-                    dispatch$$1.call("click", this, name);
-                }).append("text").text(function (d) {
-                    return d.text;
-                }).attr("dy", 0.1).attr("x", function (d) {
-                    return xScale(d.x + d.labelShiftX) + textPos(d).pos[0];
-                }).attr("y", function (d) {
-                    return yScale(d.y + d.labelShiftY) - textPos(d).pos[1];
-                }) // Flip y-axis
-                    .attr("text-anchor", function (d) {
-                        return textPos(d).textAnchor;
-                    }).style("display", function (d) {
-                    return d.hide !== true ? "block" : "none";
-                }).style("font-size", 1.2 * lineWidth / lineWidthMultiplier + "px").style("-webkit-user-select", "none").attr("class", function (d) {
-                    return d.marker.map(function (marker) {
-                        return marker.line;
-                    }).join(" ");
-                }).classed("highlighted", function (d) {
-                    return d.visited;
-                }).call(wrap);
+        dispatch$$1.call("click", this, name);
+      }).append("text").text(function (d) {
+        return d.text;
+      }).attr("dy", 0.1).attr("x", function (d) {
+        return xScale(d.x + d.labelShiftX) + textPos(d).pos[0];
+      }).attr("y", function (d) {
+        return yScale(d.y + d.labelShiftY) - textPos(d).pos[1];
+      }) // Flip y-axis
+      .attr("text-anchor", function (d) {
+        return textPos(d).textAnchor;
+      }).style("display", function (d) {
+        return d.hide !== true ? "block" : "none";
+      }).style("font-size", 1.2 * lineWidth / lineWidthMultiplier + "px").style("-webkit-user-select", "none").attr("class", function (d) {
+        return d.marker.map(function (marker) {
+          return marker.line;
+        }).join(" ");
+      }).classed("highlighted", function (d) {
+        return d.visited;
+      }).call(wrap);
 
                 var markerGeoFunction = d3.arc().innerRadius(0).outerRadius(lineWidth / 4).startAngle(0).endAngle(2 * Math.PI);
 
@@ -1071,325 +1073,328 @@
             river.style("visibility", "hidden");
         };
 
-        map.setTimeStop = function(){
-            this.timeStop = false;
-        }
+         map.setTimeStop = function(){
+           this.timeStop = false;
+         }
 
         map.endTimer = function(){
-            this.timeStop = !this.timeStop;
+          this.timeStop = !this.timeStop;
 
         }
 
-        map.startTimer = function(csvData, timeTable, stationData, type){
+	map.startTimer = function(csvData, timeTable, stationData, type){
 
-            //append circles to the stations with initial counts
-
-
-            var lines = d3.select("#tube-map").selectAll(".line");
-            var labels = d3.select("#tube-map").selectAll(".labels");
-            var interchanges = d3.select("#tube-map").selectAll(".interchanges");
-            var river = d3.select("#tube-map").selectAll(".river");
+		//append circles to the stations with initial counts
 
 
-            river.style("visibility", "hidden");
-
-            lines.style("opacity", 0.5);
-            // stations.classed("translucent", true);
-            //labels.classed("translucent", true);
-
-
-            var stations = d3.select("#tube-map").selectAll(".station");
-
-            var self_item = map;
-
-            var journeyCount = "";
-
-            if(type === "both"){
-                var obj = ["entry", "exit"];
-                journeyCount = "entry";
-            }
-            else if(type === "entry"){
-                var obj = ["entry"];
-                journeyCount = "entry";
-            }
-            else if(type === "exit"){
-                var obj = ["exit"];
-                journeyCount = "exit";
-
-            }
+		    var lines = d3.select("#tube-map").selectAll(".line");
+		    var labels = d3.select("#tube-map").selectAll(".labels");
+				var interchanges = d3.select("#tube-map").selectAll(".interchanges");
+        var river = d3.select("#tube-map").selectAll(".river");
 
 
+        river.style("visibility", "hidden");
 
-            var svg = d3.select("#tube-map").selectAll(".station").selectAll("g").selectAll("circle").data(obj);
+				lines.style("opacity", 0.5);
+				// stations.classed("translucent", true);
+				//labels.classed("translucent", true);
 
-            svg.exit().remove();
 
-            svg = svg.enter().append("circle").attr("class", function(d,i){
-                if(d === "entry"){
-                    return "entry";
+		var stations = d3.select("#tube-map").selectAll(".station");
+
+		var self_item = map;
+
+    var journeyCount = "";
+
+    if(type === "both"){
+		var obj = ["entry", "exit"];
+    journeyCount = "entry";
+  }
+  else if(type === "entry"){
+    var obj = ["entry"];
+    journeyCount = "entry";
+  }
+  else if(type === "exit"){
+    var obj = ["exit"];
+    journeyCount = "exit";
+
+  }
+
+
+
+		var svg = d3.select("#tube-map").selectAll(".station").selectAll("g").selectAll("circle").data(obj);
+
+		svg.exit().remove();
+
+		svg = svg.enter().append("circle").attr("class", function(d,i){
+			if(d === "entry"){
+				return "entry";
+			}
+			else{
+				return "exit";
+			}
+
+		}).merge(svg);
+
+		svg.attr("class", "time_circle").attr("r", 6).attr("cx", function(d){
+
+
+			if(d === "entry"){
+					return xScale(d3.select(this.parentNode)._groups[0][0].__data__.x + 1);
+			}
+			else{
+					return xScale(d3.select(this.parentNode)._groups[0][0].__data__.x - 1);
+			}
+
+		}).attr("cy", function(d){
+
+			if(d === "entry"){
+				return yScale(d3.select(this.parentNode)._groups[0][0].__data__.y);
+			}
+			else{
+				return yScale(d3.select(this.parentNode)._groups[0][0].__data__.y);
+			}
+
+		}).attr("class", function(d){
+			if(d === "entry"){
+				var mystring = d3.select(this.parentNode)._groups[0][0].__data__.name + "e";
+
+				mystring = mystring.split('&').join('');
+				mystring = mystring.replace(' ','');
+				mystring = mystring.split('\'').join('');
+
+				return mystring;
+			}else{
+				var mystring = d3.select(this.parentNode)._groups[0][0].__data__.name + "x";
+				mystring = mystring.split('&').join('');
+				mystring = mystring.replace(' ','');
+				mystring = mystring.split('\'').join('');
+
+				return mystring;
+			}
+
+		}).style("fill", function(d){
+			if(d === "entry"){
+				return "red";
+			}
+			else{
+				return "blue";
+			}
+		});
+
+
+
+
+			var time_data = setTimeData(csvData, timeTable, stationData);
+
+
+		var format_entry = d3.timeFormat("%S:%L");
+
+		var tick = 0;
+
+    var day = "am";
+
+		//create a data structure that ties each station to the time passed through, and whether it was an entry or exit
+		//Take that data and tie the count to the circles that will be at each staation
+		map.timer = setInterval(function(elapsed) {
+			var time = timeTable[tick];
+
+
+
+      if(time === "12:00"){
+        day = "pm";
+      }
+      if(time === "00:00"){
+        day = "am";
+      }
+      if(time === "04:45"){
+        console.log("we stopped")
+        map.timeStop = true;
+      }
+
+      d3.select("#clock").text(time + " " + day );
+
+			if(tick % 15 === 0){
+        var journeys = 0;
+
+
+
+console.log(time_data);
+
+		time_data.forEach(function(d){
+			//Select Al Entries
+
+
+			var mystring = d.txt_name;
+
+			mystring = mystring.split('&').join('');
+				mystring = mystring.split(' ').join('');
+			mystring = mystring.split('\'').join('');
+			mystring = mystring.split('.').join('');
+			mystring = mystring.split('\n').join('');
+			var entries  = d3.select("#tube-map").selectAll("." + mystring + "e");
+			var exits = d3.select("#tube-map").selectAll("." + mystring + "x");
+
+
+
+      // var exitScale = d3.scale.linear()
+      // .domain([0,d3.max(d.ext[0])])
+      // .range([3,20])
+
+
+			entries.transition().ease(d3.easeSin).duration(1000).attr("r", function(c){
+
+				if(d != null){
+					if(d.ent[0] != null){
+						if(d.ent[0][""+ time + ""] != null){
+
+
+
+              var entryScale = d3.scaleLinear()
+              .domain([0,+d.ent[0].Total])
+              .range([2,300]);
+
+              var num = 0;
+
+              if(d.int[0] != null){
+                if(d.int[0][""+ time + ""]){
+                  num = +d.ent[0]["" + time + ""] + +d.int[0][""+ time + ""];
                 }
                 else{
-                    return "exit";
+                 num = +d.ent[0]["" + time + ""];
+                }
+              }
+              else{
+                num = +d.ent[0]["" + time + ""];
+              }
+
+
+              journeys+=+d.ent[0][""+ time + ""];
+							return entryScale(num);
+
+						}
+
+				}
+					else{
+						return 0;
+					};
+				}});
+
+        d3.select("#journey").text("" + journeys + " Journeys");
+
+				exits.transition().ease(d3.easeSin).duration(1000).attr("r", function(c){
+
+					if(d != null){
+						if(d.ext[0] != null){
+							if(d.ext[0][""+ time + ""] != null){
+                if(journeyCount === "exit"){
+                    journeys+=+d.ext[0][""+ time + ""];
                 }
 
-            }).merge(svg);
+                var num = 0;
 
-            svg.attr("class", "time_circle").attr("r", 6).attr("cx", function(d){
-
-
-                if(d === "entry"){
-                    return xScale(d3.select(this.parentNode)._groups[0][0].__data__.x + 1);
-                }
-                else{
-                    return xScale(d3.select(this.parentNode)._groups[0][0].__data__.x - 1);
-                }
-
-            }).attr("cy", function(d){
-
-                if(d === "entry"){
-                    return yScale(d3.select(this.parentNode)._groups[0][0].__data__.y);
-                }
-                else{
-                    return yScale(d3.select(this.parentNode)._groups[0][0].__data__.y);
-                }
-
-            }).attr("class", function(d){
-                if(d === "entry"){
-                    var mystring = d3.select(this.parentNode)._groups[0][0].__data__.name + "e";
-
-                    mystring = mystring.split('&').join('');
-                    mystring = mystring.replace(' ','');
-                    mystring = mystring.split('\'').join('');
-
-                    return mystring;
-                }else{
-                    var mystring = d3.select(this.parentNode)._groups[0][0].__data__.name + "x";
-                    mystring = mystring.split('&').join('');
-                    mystring = mystring.replace(' ','');
-                    mystring = mystring.split('\'').join('');
-
-                    return mystring;
-                }
-
-            }).style("fill", function(d){
-                if(d === "entry"){
-                    return "red";
+                if(d.int[0] != null){
+                  if(d.int[0][""+ time + ""]){
+                    num = +d.ext[0]["" + time + ""] + +d.int[0][""+ time + ""];
+                  }
+                  else{
+                   num = +d.ext[0]["" + time + ""];
+                  }
                 }
                 else{
-                    return "blue";
-                }
-            });
-
-
-
-
-            var time_data = setTimeData(csvData, timeTable, stationData);
-
-
-            var format_entry = d3.timeFormat("%S:%L");
-
-            var tick = 0;
-
-            var day = "am";
-
-            //create a data structure that ties each station to the time passed through, and whether it was an entry or exit
-            //Take that data and tie the count to the circles that will be at each staation
-            map.timer = setInterval(function(elapsed) {
-                var time = timeTable[tick];
-
-
-
-                if(time === "12:00"){
-                    day = "pm";
-                }
-                if(time === "00:00"){
-                    day = "am";
-                }
-                if(time === "04:45"){
-                    console.log("we stopped")
-                    map.timeStop = true;
-                }
-
-                d3.select("#clock").text(time + " " + day );
-
-                if(tick % 15 === 0){
-                    var journeys = 0;
-
-
-
-                    console.log(time_data);
-
-                    time_data.forEach(function(d){
-                        //Select Al Entries
-
-
-                        var mystring = d.txt_name;
-
-                        mystring = mystring.split('&').join('');
-                        mystring = mystring.split(' ').join('');
-                        mystring = mystring.split('\'').join('');
-                        mystring = mystring.split('.').join('');
-                        mystring = mystring.split('\n').join('');
-                        var entries  = d3.select("#tube-map").selectAll("." + mystring + "e");
-                        var exits = d3.select("#tube-map").selectAll("." + mystring + "x");
-
-
-
-                        // var exitScale = d3.scale.linear()
-                        // .domain([0,d3.max(d.ext[0])])
-                        // .range([3,20])
-
-
-                        entries.transition().ease(d3.easeSin).duration(1000).attr("r", function(c){
-
-                            if(d != null){
-                                if(d.ent[0] != null){
-                                    if(d.ent[0][""+ time + ""] != null){
-
-
-
-                                        var entryScale = d3.scaleLinear()
-                                            .domain([0,+d.ent[0].Total])
-                                            .range([2,300]);
-
-                                        var num = 0;
-
-                                        if(d.int[0] != null){
-                                            if(d.int[0][""+ time + ""]){
-                                                num = +d.ent[0]["" + time + ""] + +d.int[0][""+ time + ""];
-                                            }
-                                            else{
-                                                num = +d.ent[0]["" + time + ""];
-                                            }
-                                        }
-                                        else{
-                                            num = +d.ent[0]["" + time + ""];
-                                        }
-
-
-                                        journeys+=+d.ent[0][""+ time + ""];
-                                        return entryScale(num);
-
-                                    }
-
-                                }
-                                else{
-                                    return 0;
-                                };
-                            }});
-
-                        d3.select("#journey").text("" + journeys + " Journeys");
-
-                        exits.transition().ease(d3.easeSin).duration(1000).attr("r", function(c){
-
-                            if(d != null){
-                                if(d.ext[0] != null){
-                                    if(d.ext[0][""+ time + ""] != null){
-                                        if(journeyCount === "exit"){
-                                            journeys+=+d.ext[0][""+ time + ""];
-                                        }
-
-                                        var num = 0;
-
-                                        if(d.int[0] != null){
-                                            if(d.int[0][""+ time + ""]){
-                                                num = +d.ext[0]["" + time + ""] + +d.int[0][""+ time + ""];
-                                            }
-                                            else{
-                                                num = +d.ext[0]["" + time + ""];
-                                            }
-                                        }
-                                        else{
-                                            num = +d.ext[0]["" + time + ""];
-                                        }
-
-
-
-
-                                        var exitScale = d3.scaleLinear()
-                                            .domain([0,+d.ext[0].Total])
-                                            .range([2,300]);
-
-                                        return exitScale(num);
-                                    }
-                                    else{
-                                        return 0;
-                                    }
-
-                                }
-                                else{
-                                    return 0;
-                                };
-                            }});
-
-
-
-
-                        //
-
-                    });
+                  num = +d.ext[0]["" + time + ""];
                 }
 
 
 
 
-                tick++;
+                var exitScale = d3.scaleLinear()
+                .domain([0,+d.ext[0].Total])
+                .range([2,300]);
 
-                if (elapsed > 72000 || map.timeStop){
+								return exitScale(num);
+							}
+							else{
+								return 0;
+							}
 
-                    clearInterval(map.timer)
-                    river.style("visibility", "visible");
-                    d3.select("#tube-map").selectAll("circle").remove();
-                    lines.style("opacity", 1);
-                    d3.timerFlush();
-                    var button = document.getElementById("tube-button");
-                    d3.select("#journey").text("");
-                    d3.select("#clock").text("");
-
-                    button.addEventListener("click", function() {
-                        startTimeAnimation();
-                    }, false);
-
-                    d3.select("#stopButton").remove();
+						}
+						else{
+							return 0;
+						};
+					}});
 
 
-                    return;
-                }
-            }, 50,2000);
 
 
-        };
+    //
+
+		});
+}
 
 
-        map.stopTubeTimer = function(){
 
-            document.getElementById("stopButton").click();
-            var lines = d3.select("#tube-map").selectAll(".line");
-            var river = d3.select("#tube-map").selectAll(".river");
-            clearInterval(this.timer);
 
-            river.style("visibility", "visible");
-            d3.select("#tube-map").selectAll("circle").remove();
-            lines.style("opacity", 1);
-            d3.timerFlush();
-            var button = document.getElementById("tube-button");
-            d3.select("#journey").text("");
-            d3.select("#clock").text("");
+	tick++;
 
-            button.addEventListener("click", function() {
-                startTimeAnimation();
-            }, false);
+  if (elapsed > 72000 || map.timeStop){
 
-            d3.select("#stopButton").remove();
-        }
+    clearInterval(map.timer)
+    river.style("visibility", "visible");
+    d3.select("#tube-map").selectAll("circle").remove();
+    lines.style("opacity", 1);
+    d3.timerFlush();
+    var button = document.getElementById("tube-button");
+      d3.select("#journey").text("");
+      d3.select("#clock").text("");
+
+    button.addEventListener("click", function() {
+  startTimeAnimation();
+}, false);
+
+d3.select("#stopButton").remove();
+
+
+    return;
+  }
+}, 50,2000);
+
+
+	};
+
+
+  map.stopTubeTimer = function(){
+
+    document.getElementById("stopButton").click();
+     var lines = d3.select("#tube-map").selectAll(".line");
+      var river = d3.select("#tube-map").selectAll(".river");
+      clearInterval(this.timer);
+
+    river.style("visibility", "visible");
+    d3.select("#tube-map").selectAll("circle").remove();
+    lines.style("opacity", 1);
+    d3.timerFlush();
+    var button = document.getElementById("tube-button");
+      d3.select("#journey").text("");
+      d3.select("#clock").text("");
+
+    button.addEventListener("click", function() {
+  startTimeAnimation();
+}, false);
+
+d3.select("#stopButton").remove();
+  }
 
         map.unhighlightAll = function () {
+
             d3.select('#tube-map').select('svg').attr('height', '1024')
             d3.select('body').style('overflow', 'hidden')
             d3.select('.legendWrapper').style('display', 'none')
             d3.select('.lineMode').classed('showMe', false);
             d3.select('.barChartWrapper').classed('showMe', false);
             d3.select('.barChartDropDown').classed('showMe', false);
+
+            var lines = d3.select("#tube-map").selectAll(".line");
             var lines = d3.select("#tube-map").selectAll(".line");
             var stations = d3.select("#tube-map").selectAll(".station");
             var labels = d3.select("#tube-map").selectAll(".labels");
@@ -1462,97 +1467,97 @@
             d3.select(".labels").select("#" + name).select("text").classed("highlighted", highlighted);
         }
 
-        function setTimeData(csvData, timeTable, stationData){
+	function setTimeData(csvData, timeTable, stationData){
 
 
-            var stations = d3.select("#tube-map").selectAll(".station");
-
-
-
-
-
-            var format_exit = d3.timeFormat("%S:%L");
+		var stations = d3.select("#tube-map").selectAll(".station");
 
 
 
 
-            var time_stamp = 0;
 
-            var time_table_initial = [];
-
-            var station_time_structure = [];
+				var format_exit = d3.timeFormat("%S:%L");
 
 
-            var stations_array = []; // This will be the resulting array
-            for(var key in stationData.stations) {
-                var entry = stationData.stations[key]; // This will be each of the three graded things
-                entry.id = key; // e.g. "id": "assessment1"
-                stations_array.push(entry)
-            }
+
+
+		var time_stamp = 0;
+
+		var time_table_initial = [];
+
+		var station_time_structure = [];
+
+
+		var stations_array = []; // This will be the resulting array
+for(var key in stationData.stations) {
+  var entry = stationData.stations[key]; // This will be each of the three graded things
+  entry.id = key; // e.g. "id": "assessment1"
+  stations_array.push(entry)
+}
 
 
 //for each unique station, add the data of station numbers
-            stations_array.forEach(function(da){
+stations_array.forEach(function(da){
 
 
 
 
 
 
-                var entry = csvData.filter(function(d,i){
-                    //Access
-                    return d.StartStn === da.title && d.AEI === "A";
-                    // var string = da.toString();
-                    // return d.EntTimeHHMM === string;
-                });
+				var entry = csvData.filter(function(d,i){
+					//Access
+						return d.StartStn === da.title && d.AEI === "A";
+					// var string = da.toString();
+					// return d.EntTimeHHMM === string;
+				});
 
 
-                var exit = csvData.filter(function(d,i){
-                    //Egress or exit
-                    return d.StartStn === da.title && d.AEI === "E";
-                    // var string = da.toString();
-                    // return d.EXTimeHHMM === string;
-                });
+				var exit = csvData.filter(function(d,i){
+					//Egress or exit
+					return d.StartStn === da.title && d.AEI === "E";
+					// var string = da.toString();
+					// return d.EXTimeHHMM === string;
+				});
 
-                var inter = csvData.filter(function(d,i){
+				var inter = csvData.filter(function(d,i){
 
-                    return d.StartStn === da.title && d.AEI === "I";
-                })
-
-
-
-                //
-                // var ent_filt = entry.filter(function(d){
-                // 	return d.StartStn === data.__data__.name;
-                // })
-                //
-                // var ext_filt = exit.filter(function(d){
-                // 	return d.EndStation === data.__data__.name;
-                // })
-
-                var mystring = da.title;
-                mystring = mystring.split(' ').join('')
-                mystring = mystring.split('\n').join('')
+					return d.StartStn === da.title && d.AEI === "I";
+				})
 
 
 
+          //
+					// var ent_filt = entry.filter(function(d){
+					// 	return d.StartStn === data.__data__.name;
+					// })
+          //
+					// var ext_filt = exit.filter(function(d){
+					// 	return d.EndStation === data.__data__.name;
+					// })
 
-                station_time_structure.push({gname: da.title, txt_name: mystring,  ent: entry, ext: exit, int: inter})
+					var mystring = da.title;
+					mystring = mystring.split(' ').join('')
+					mystring = mystring.split('\n').join('')
 
 
 
 
-            });
+					station_time_structure.push({gname: da.title, txt_name: mystring,  ent: entry, ext: exit, int: inter})
+
+
+
+
+			});
 
 
 
 
 
-            return station_time_structure;
-        }
+		return station_time_structure;
+	}
 
-        function drawLine(data) {
-            var path = "";
+  function drawLine(data) {
+    var path = "";
 
             var lineNodes = data.nodes;
 
@@ -1784,25 +1789,25 @@
             var numLines = 0;
             if(data.text != null){
 
-                numLines = data.text.split('\n').length;
-            }
-            else{
-                numLines = data.name.split('\n').length;
-            }
+            numLines = data.text.split('\n').length;
+          }
+          else{
+            numLines = data.name.split('\n').length;
+          }
 
 
             var sqrt2 = Math.sqrt(2);
 
             switch (data.labelPos.toLowerCase()) {
                 case "n":
-                    if(numLines != 1){
-                        pos = [0, lineWidth * (numLines) + offset];
-                        textAnchor = "middle";
-                    }
-                    else{
-                        pos = [0, lineWidth * (numLines-1) + offset];
-                        textAnchor = "middle";
-                    }
+                if(numLines != 1){
+                  pos = [0, lineWidth * (numLines) + offset];
+                  textAnchor = "middle";
+                }
+                else{
+                  pos = [0, lineWidth * (numLines-1) + offset];
+                  textAnchor = "middle";
+                }
 
                     break;
                 case "ne":
