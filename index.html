@@ -2,156 +2,94 @@
 <html lang="en">
 <head>
 
-    <meta charset="UTF-8">
-    <title>6630 London Tube Project</title>
-    <head>
-        <link rel="stylesheet" href="tubeMap.css">
-        <script src="https://d3js.org/d3.v4.js"></script>
-        <script src=d3-tube-map/d3-tube-map.js></script>
-        <script src=script.js></script>
-        <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+	<title>6630 London Tube Project</title>
+	<head>
+  <link rel="stylesheet" href="tubeMap.css">
+  <script src="https://d3js.org/d3.v4.js"></script>
+	<script src=d3-tube-map/d3-tube-map.js></script>
+	<script src=script.js></script>
+  <link href='https://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
 
-    </head>
-    <a href="https://tfl.gov.uk/modes/tube/">
-        <img src="https://vignette.wikia.nocookie.net/logopedia/images/3/3a/London_Underground_1970_roundel_small.png/revision/latest?cb=20120209090410" href="https://tfl.gov.uk/modes/tube/" style="float: right; width: 100px; height: 80px" />
-    </a>
-    <div class="linechart">
-        <div class="close">Close</div>
-        <div class="station"></div>
-        <div class="legends">
-            <div class="sunday">Sunday</div>
-            <div class="saturday">Saturday</div>
-            <div class="week">Week</div>
-        </div>
-        <div class="chartWrapper">
-            <div class="entry"></div>
-            <div class="exit"></div>
-        </div>
-    </div>
-    <nav>
+</head>
+	<a href="https://tfl.gov.uk/modes/tube/">
+<img src="https://vignette.wikia.nocookie.net/logopedia/images/3/3a/London_Underground_1970_roundel_small.png/revision/latest?cb=20120209090410" href="https://tfl.gov.uk/modes/tube/" style="float: right; width: 100px; height: 80px" />
+	</a>
+<nav>
 
 
-    </nav>
+</nav>
 <body>
 
-<div id="floating-panel1" style ="margin-left:80px;  margin-bottom:10px;">
-    <h2 style = "text-align: center">Explore the London Underground</h2>
-    Select Both/Entry/Exit:
-    <select id = "entry-exit">
-        <option value="null"> -- select an option -- </option>
-        <option value="both">Both Entry & Exit</option>
-        <option value="entry">Entry</option>
-        <option value="exit">Exit</option>
-        <!-- <option value="2009">2009</option>
-        <option value="2010">2010</option> -->
-    </select>
+	<div id="floating-panel1" style ="margin-left:30px;  margin-bottom:10px;">
+		<h2 style = "text-align: center">Explore the London Underground</h2>
+		Select Both/Entry/Exit:
+	<select id = "entry-exit">
+<option value="null"> -- select an option -- </option>
+<option value="both">Both Entry & Exit</option>
+<option value="entry">Entry</option>
+<option value="exit">Exit</option>
+<!-- <option value="2009">2009</option>
+<option value="2010">2010</option> -->
+</select>
 
-    <button id = "tube-button" onclick = "startTimeAnimation()">A Day on the Tube</button>
+<button id = "tube-button" onclick = "startTimeAnimation()">A Day on the Tube</button>
 
-    <!-- <text id="clock" style="text-align: center; float: right"></text>
-    <text id ="journey" style="text-align: center; float: right"></text> -->
-
-
-
-    <div class="barChartDropDown">
-        <button class="lineMode">Show Line</button>
-        <div class="selectItems">
-            <div class="dropleft"></div>
-            <div class="dropRight"></div>
-        </div>
-        <!--<button class="showBarDiff">Differences</button>-->
-    </div>
-</div>
-<div class="legendWrapper">
-    <div class="legendTitle">Legends</div>
-    <div class="stationLegend"></div>
-</div>
-
-<div id="tube-map" style ="margin-left:30px;">
-
-</div>
-<div id = "sidebar" style="float: right;">
-    <td style="vertical-align: middle;">
-        <h4>Line Key:</h4>
-        <div style="clear: both;">
-            <div class="keyLineItem" style="background-color: #B36305;">&nbsp;</div><div class="keyItemText">Bakerloo</div>
-            <div style="clear: both;"><div class="keyLineItem" style="background-color: #E32017;">&nbsp;</div><div class="keyItemText">Central</div>
-                <div style="clear: both;"><div class="keyLineItem" style="background-color: #FFD300;">&nbsp;</div><div class="keyItemText">Circle</div>
-                    <div style="clear: both;"><div class="keyLineItem" style="background-color: #00782a;">&nbsp;</div><div class="keyItemText">District</div>
-                        <div style="clear: both;"><div class="keyLineItem" style="background-color: #F3A9BB;">&nbsp;</div><div class="keyItemText">Hammersmith &amp; City</div>
-                            <div style="clear: both;"><div class="keyLineItem" style="background-color: #A0A5A9;" >&nbsp;</div><div class="keyItemText">Jubilee</div>
-                                <div style="clear: both;"><div class="keyLineItem" style="background-color: #9B0056;" >&nbsp;</div><div class="keyItemText">Metropolitan</div>
-                                    <div style="clear: both;"><div class="keyLineItem" style="background-color: #000000;" >&nbsp;</div><div class="keyItemText">Northern</div>
-                                        <div style="clear: both;"><div class="keyLineItem" style="background-color: #003688;">&nbsp;</div><div class="keyItemText">Piccadilly</div>
-                                            <div style="clear: both;"><div class="keyLineItem" style="background-color: #0098D4;">&nbsp;</div><div class="keyItemText">Victoria</div><div style="clear: both;">
-
-                                            </div></div>
-
-                                            <h4>Other Views:</h4>
-
-                                            <ul>
-                                                <li><a href="map.html">Google Map</a></li>
-                                                <li><a href="video.html">Video</a></li>
-                                            </ul>
-
-                                            <text id="clock" class = "clock" style="text-align: center; float: right"></text><div style="clear: both;"></div>
-                                            <text id ="journey" class = "journey" style="text-align: center; float: right"></div></div></text></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></td>
-</div>
-</div>
+<!-- <text id="clock" style="text-align: center; float: right"></text>
+<text id ="journey" style="text-align: center; float: right"></text> -->
 
 
 
-</div>
 
 
-<div class="barChartWrapper">
+  <div id="tube-map" style ="margin-left:30px; height: 1024px;  width: 1600px; margin-right:20px; float:left">
 
-    <div class="innerBarChart ageWrapper">
-        <div class="label">Age</div>
-        <div class="ageChart"></div>
-    </div>
-    <div class="innerBarChart sexWrapper">
-        <div class="label">Sex</div>
-        <div class="sexChart"></div>
-    </div>
+	</div>
+	<div id = "sidebar" style="float: right;">
+	<td style="vertical-align: middle;">
+		<h4>Line Key:</h4>
+		<div style="clear: both;">
+			<div class="keyLineItem" style="background-color: #B36305;">&nbsp;</div><div class="keyItemText">Bakerloo</div>
+			<div style="clear: both;"><div class="keyLineItem" style="background-color: #E32017;">&nbsp;</div><div class="keyItemText">Central</div>
+			<div style="clear: both;"><div class="keyLineItem" style="background-color: #FFD300;">&nbsp;</div><div class="keyItemText">Circle</div>
+			<div style="clear: both;"><div class="keyLineItem" style="background-color: #00782a;">&nbsp;</div><div class="keyItemText">District</div>
+			<div style="clear: both;"><div class="keyLineItem" style="background-color: #F3A9BB;">&nbsp;</div><div class="keyItemText">Hammersmith &amp; City</div>
+				<div style="clear: both;"><div class="keyLineItem" style="background-color: #A0A5A9;" >&nbsp;</div><div class="keyItemText">Jubilee</div>
+				<div style="clear: both;"><div class="keyLineItem" style="background-color: #9B0056;" >&nbsp;</div><div class="keyItemText">Metropolitan</div>
+				<div style="clear: both;"><div class="keyLineItem" style="background-color: #000000;" >&nbsp;</div><div class="keyItemText">Northern</div>
+				<div style="clear: both;"><div class="keyLineItem" style="background-color: #003688;">&nbsp;</div><div class="keyItemText">Piccadilly</div>
+					<div style="clear: both;"><div class="keyLineItem" style="background-color: #0098D4;">&nbsp;</div><div class="keyItemText">Victoria</div><div style="clear: both;">
 
-    <div class="innerBarChart journeyWrapper">
-        <div class="label">Journey</div>
-        <div class="journeyChart"></div>
-    </div>
+					</div></div>
 
-    <div class="innerBarChart marketWrapper">
-        <div class="label">Market</div>
-        <div class="marketChart"></div>
-    </div>
+					<h4>Other Views:</h4>
 
-</div>
-<script>
-    /*  <script src="https://unpkg.com/d3-tube-map@latest/build/d3-tube-map.js"></scr>  */
+					<ul>
+						<li><a href="map.html">Google Map</a></li>
+							<li><a href="video.html">Video</a></li>
+					</ul>
+
+					<text id="clock" class = "clock" style="text-align: center; float: right"></text><div style="clear: both;"></div>
+					<text id ="journey" class = "journey" style="text-align: center; float: right"></div></div></text></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></td>
+			</div>
+	</div>
+
+
+
+	</div>
+
+
+  <script>
+	/*  <script src="https://unpkg.com/d3-tube-map@latest/build/d3-tube-map.js"></scr>  */
     var el = document.getElementById('tube-map');
-    var width = 1600;
-    var height = 1024;
-
-    const ageInCSV = ["Under 16", "16 - 19", "20 - 24", "25 - 34", "35 - 44", "45 - 59", "60 - 64", "65 - 70", "Over 70"];
-    const ageMap = new Map();
-    ageInCSV.forEach((d, i)=>ageMap.set(`cat${i}`, d));
-
-    const journeyInCSV = ["< 15 mins", "15 - 30", "30 - 45", "45 - 60", "60 - 90:", "over 90"];
-    const journeyMap = new Map();
-    journeyInCSV.forEach((d, i)=>journeyMap.set(`cat${i}`, d));
-
-    const marketInCSV = ["Commuter", "Leisure", "Tourist", "Not known"];
-    const marketMap = new Map();
-    marketInCSV.forEach((d, i)=>marketMap.set(`cat${i}`, d));
-
+		var width = 1600;
+		var height = 1024;
     var svg = d3.select(el)
         .append('svg')
-        .attr('width', width)
-        .attr('height', height)
-        .attr("id", "container");
-
-
+        .style('width', "100%")
+        .style('height', "100%").attr("id", "container");
     const map = tubeMap.tubeMap()
+
         .width(width)
         .height(height)
         .margin({
@@ -398,6 +336,7 @@
         //select the data that meets the timer
     }
 </script>
+
 
 </body>
 <script>
