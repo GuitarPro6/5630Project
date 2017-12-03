@@ -151,6 +151,7 @@ text.highlighted {
   transition-property: opacity;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
+  stroke-width: 5;
 }
 .line.translucent {
   opacity: 0.3;
@@ -226,10 +227,7 @@ text.highlighted {
   margin-right: 10px;
 }
 
-.line {
-  fill: none;
-  stroke-width: 3;
-}
+
 
 .legends {
   display: flex;
@@ -290,6 +288,9 @@ text.highlighted {
 .barChartWrapper, .barDiffChartWrapper {
   display: none;
   justify-content: center;
+}
+.river{
+  stroke-width: 10;
 }
 
 .row {
