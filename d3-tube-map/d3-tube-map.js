@@ -1226,7 +1226,7 @@ return new Promise(r => setTimeout(r, ms));
         map.timeStop = true;
       }
 
-      d3.select("#clock").text(time);
+      d3.select("#clock").style("color", "#F7F122").text(time);
 
 			if(tick % 15 === 0){
         var journeys = 0;
