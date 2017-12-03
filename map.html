@@ -76,6 +76,7 @@
     <button onclick="reduceRadius()">Reduce Radius</button>
     <button onclick="addOpacity()">Add Opacity</button>
     <button onclick="reduceOpacity()">Reduce Opacity</button>
+    <div>Note: Gradient, radius and opacity only work with the heatmap.</div>
 
 
     <div id="container" style="">
@@ -114,7 +115,7 @@
     <select id="vis-type2" onchange="changeVis2(document.getElementById(&quot;survey-stat&quot;).selectedOptions[0].value); changeDisplayBox2()" selected="selected">
         <option disabled selected value> -- select an option --</option>
         <option value="heat">Heatmap</option>
-        <option value="cluster">Cluster</option>
+        <option value="circle">Bubble</option>
     </select>
     <button onclick="toggleData2()">Show/Hide</button>
     <button onclick="changeGradient2()">Change gradient</button>
@@ -122,6 +123,7 @@
     <button onclick="reduceRadius2()">Reduce Radius</button>
     <button onclick="addOpacity2()">Add Opacity</button>
     <button onclick="reduceOpacity2()">Reduce Opacity</button>
+    <div>Note: Gradient, radius and opacity only work with the heatmap.</div>
 </div>
 
 <div id="container-2">

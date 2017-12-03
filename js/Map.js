@@ -51,11 +51,9 @@ class MAP {
             let g = document.getElementById("data-year");
             let year = g.options[g.selectedIndex].value;
 
-            console.log(year);
 
             //Retrieve the necessary data
             d3.csv("tubedata/counts/" + year + "_Entry_Exit.csv", function (error, csvData) {
-                console.log("read function");
                 csvData.forEach(function (da, i) {
                     da.Entry_Weekday = +da.Entry_Weekday;
                     da.Entry_Saturday = +da.Entry_Saturday;
@@ -73,14 +71,6 @@ class MAP {
                         val.push({entry: 0});
                     }
 
-                    //here we construct an object that stores the information we need.
-                    //Construct heat map data
-                    // {location: new google.maps.LatLng(37.782, -122.443), weight: 2}
-                    // heatMapData.push({
-                    //     location: new google.maps.LatLng(d.position.lat, d.position.lon),
-                    //     weight: val[0].Entry_Week
-                    // });
-
                     //Construct object with all the information for the bubble chart
                     citymap.push({
                         title: d.title, center: {lat: d.position.lat, lng: d.position.lon},
@@ -95,8 +85,6 @@ class MAP {
 
                 for (let city in citymap) {
                     // Add the circle for this city to the map.
-                    //  console.log(""+ type + week+ "");
-                    //  console.log(citymap[city][""+ type + week+ ""]);
                     let cityCircle = new google.maps.Circle({
                         class: "circle",
                         strokeColor: '#FF0000',
