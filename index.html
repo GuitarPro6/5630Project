@@ -6,6 +6,7 @@
     <title>6630 London Tube Project</title>
     <head>
         <link rel="stylesheet" href="tubeMap.css">
+				<audio id="tubesounds" src="audio/TubeSounds.mp3"></audio>
         <script src="https://d3js.org/d3.v4.js"></script>
         <script src=d3-tube-map/d3-tube-map.js></script>
         <script src=script.js></script>
@@ -15,27 +16,28 @@
     <a href="https://tfl.gov.uk/modes/tube/">
         <img src="https://vignette.wikia.nocookie.net/logopedia/images/3/3a/London_Underground_1970_roundel_small.png/revision/latest?cb=20120209090410" href="https://tfl.gov.uk/modes/tube/" style="float: right; width: 100px; height: 80px" />
     </a>
-    <div class="linechart">
-        <div class="close">Close</div>
-        <div class="station"></div>
-        <div class="legends">
-            <div class="sunday">Sunday</div>
-            <div class="saturday">Saturday</div>
-            <div class="week">Week</div>
-        </div>
-        <div class="chartWrapper">
-            <div class="entry"></div>
-            <div class="exit"></div>
-        </div>
-    </div>
-    <nav>
 
 
-    </nav>
 <body>
 
+	<div class="linechart">
+			<div class="close">Close</div>
+			<div class="station"></div>
+			<div class="legends">
+					<div class="sunday">Sunday</div>
+					<div class="saturday">Saturday</div>
+					<div class="week">Week</div>
+			</div>
+			<div class="chartWrapper">
+					<div class="entry"></div>
+					<div class="exit"></div>
+			</div>
+	</div>
+
 <div id="floating-panel1" style ="margin-left:30px;  margin-bottom:10px;">
-    <h2 style = "text-align: center">Explore the London Underground</h2>
+    <h1 style = "text-align: center">A Typical Day on the Tube: Who goes where? And When?</h1>
+		<h5 style = "text-align: center">Click and Drag; Scroll to Zoom; Click a Line to see more</h5>
+
     Select Both/Entry/Exit:
     <select id = "entry-exit">
         <option value="null"> -- select an option -- </option>
@@ -54,7 +56,7 @@
 
 
     <div class="barChartDropDown">
-        <button class="lineMode">Show Line</button>
+        <h4 class="lineMode">Click a Station; Then Select Station to Compare:</h4>
         <div class="selectItems">
             <div class="dropleft"></div>
             <div class="dropRight"></div>
@@ -62,49 +64,44 @@
         <!--<button class="showBarDiff">Differences</button>-->
     </div>
 </div>
-<div class="legendWrapper">
+<!-- <div id = "sidebar" style="float: right;">
+
+
+
+																					</div> -->
+<div id = "legend" class="legendWrapper" style = "vertical-alighn: top">
+
+  <div id ="circlekey" style = "display:none">
+    <h4  >Circle Key:</h4>
+    <div style="clear: both;">
+      <div class="keyLineItem" style="background-color: red;">&nbsp;</div><div class="keyItemText">Entries</div>
+      <div style="clear: both;"><div class="keyLineItem" style="background-color: #66CCCC;">&nbsp;</div><div class="keyItemText">Exits</div>
+    </div>
+  </div>
+  </div>
+	<div>
+		<h4>Other Views:</h4>
+	<ul>
+			<li><a href="map.html">Google Map</a></li>
+			<li><a href="video.html">Video</a></li>
+	</ul>
+</div>
+
+
+	<text id="clock" class = "clock" style="text-align: center; float: right"></text><div style="clear: both;"></div>
+	<text id ="journey" class = "journey" style="text-align: center; float: right"></text>
     <div class="legendTitle">Legends</div>
     <div class="stationLegend"></div>
 </div>
 
-<div id="tube-map" style ="margin-left:30px;">
 
-</div>
-<div id = "sidebar" style="float: right;">
-    <td style="vertical-align: middle;">
-        <h4>Line Key:</h4>
-        <div style="clear: both;">
-            <div class="keyLineItem" style="background-color: #B36305;">&nbsp;</div><div class="keyItemText">Bakerloo</div>
-            <div style="clear: both;"><div class="keyLineItem" style="background-color: #E32017;">&nbsp;</div><div class="keyItemText">Central</div>
-                <div style="clear: both;"><div class="keyLineItem" style="background-color: #FFD300;">&nbsp;</div><div class="keyItemText">Circle</div>
-                    <div style="clear: both;"><div class="keyLineItem" style="background-color: #00782a;">&nbsp;</div><div class="keyItemText">District</div>
-                        <div style="clear: both;"><div class="keyLineItem" style="background-color: #F3A9BB;">&nbsp;</div><div class="keyItemText">Hammersmith &amp; City</div>
-                            <div style="clear: both;"><div class="keyLineItem" style="background-color: #A0A5A9;" >&nbsp;</div><div class="keyItemText">Jubilee</div>
-                                <div style="clear: both;"><div class="keyLineItem" style="background-color: #9B0056;" >&nbsp;</div><div class="keyItemText">Metropolitan</div>
-                                    <div style="clear: both;"><div class="keyLineItem" style="background-color: #000000;" >&nbsp;</div><div class="keyItemText">Northern</div>
-                                        <div style="clear: both;"><div class="keyLineItem" style="background-color: #003688;">&nbsp;</div><div class="keyItemText">Piccadilly</div>
-                                            <div style="clear: both;"><div class="keyLineItem" style="background-color: #0098D4;">&nbsp;</div><div class="keyItemText">Victoria</div><div style="clear: both;">
-
-                                            </div></div>
-
-                                            <h4>Other Views:</h4>
-
-                                            <ul>
-                                                <li><a href="map.html">Google Map</a></li>
-                                                <li><a href="video.html">Video</a></li>
-                                            </ul>
-
-                                            <text id="clock" class = "clock" style="text-align: center; float: right"></text><div style="clear: both;"></div>
-                                            <text id ="journey" class = "journey" style="text-align: center; float: right"></div></div></text></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></td>
-</div>
-</div>
-
-
+<div id="tube-map" style ="width:80%; height:80%;margin-left:30px; margin-right:30px; margin-bottom: 30px;">
 
 </div>
 
 
-<div class="barChartWrapper">
+
+<div class="barChartWrapper" style = "margin-bottom: 200px margin-right:30px;">
 
     <div class="innerBarChart ageWrapper">
         <div class="label">Age</div>
@@ -352,13 +349,59 @@
 			var stopButton = document.getElementById("stopButton");
 
 			stopButton.addEventListener("click", function() {
-    map.endTimer();
+				var sound = document.getElementById('tubesounds');
+
+				sound.pause();
+
+				sound.currentTime = 0;
+
+				d3.select("#pause").remove();
+				d3.select("#volup").remove();
+				d3.select("#voldown").remove();
+
+
+		map.endTimer();
+}, false);
+
+d3.select("#floating-panel1").append("input").attr("type","button").attr("class","button").attr("value", "Pause Audio").attr("id","pause");
+
+var pauseButton = document.getElementById("pause");
+
+pauseButton.addEventListener("click", function() {
+
+	var attr = d3.select(this).attr("value");
+
+	if(attr === "Pause Audio"){
+		d3.select(this).attr("value", "Play Audio");
+		document.getElementById('tubesounds').pause();
+	}else{
+		d3.select(this).attr("value", "Pause Audio");
+		document.getElementById('tubesounds').play();
+	}
+
+
+}, false);
+
+d3.select("#floating-panel1").append("input").attr("type","button").attr("class","button").attr("value", "Vol +").attr("id","volup");
+
+var upButton = document.getElementById("volup");
+
+upButton.addEventListener("click", function() {
+	document.getElementById('tubesounds').volume+=0.1;
+}, false);
+d3.select("#floating-panel1").append("input").attr("type","button").attr("class","button").attr("value", "Vol -").attr("id","voldown");
+
+var downButton = document.getElementById("voldown");
+
+downButton.addEventListener("click", function() {
+	document.getElementById('tubesounds').volume-=0.1;
 }, false);
 
 		map.setTimeStop();
 			//Change aesthetics so that the visualization looks Good
 			//start a timer
 			//map.highlightLine("Metropolitan");
+			document.getElementById('tubesounds').play();
 			d3.json("stations.json", function(error, data) {
 				if(error != null){
 					console.log("something went wrong");
