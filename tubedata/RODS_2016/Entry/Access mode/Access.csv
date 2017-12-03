@@ -1,4 +1,4 @@
- NLC,Station,time period,NR/DLR/Tram,Bus/Coach,Bicycle,Motorcycle,Car/VanParked,Car/Vandrivenaway,Walked,Taxi/Minicab,RiverBus/Ferry,Other,Not Stated,Heathrow Terminal 1,Heathrow Terminal 2,Heathrow Terminal 3,Heathrow Terminal 4,Heathrow Terminal 5,Total all modes,
+ NLC,Station,Time_period,NR/DLR/Tram,Bus/Coach,Bicycle,Motorcycle,Car/VanParked,Car/Vandrivenaway,Walked,Taxi/Minicab,RiverBus/Ferry,Other,Not_Stated,Heathrow_Terminal_1,Heathrow_Terminal_2,Heathrow_Terminal_3,Heathrow_Terminal_4,Heathrow_Terminal_5,Total all modes,
 500,Acton Town,Early ,0,47,13,0,0,0,468,0,0,28,65,0,0,0,0,0,622,
 500,Acton Town,AM peak,0,249,32,0,15,13,2289,0,0,198,424,0,0,0,0,0,3219,
 500,Acton Town,Midday,0,262,55,0,53,31,1844,0,0,62,129,0,0,0,0,0,2436,

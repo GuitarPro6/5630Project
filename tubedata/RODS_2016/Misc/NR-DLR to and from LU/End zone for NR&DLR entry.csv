@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  RODS report3 created at 13:27:47 on 29-03-2017,,,,,,,,,,,
  based on survey data up to 2016 and reconciled to Autumn 2016 counts,,,,,,,,,,,
 Journeys Entering from NR/DLR,,,,,,,,,,,
@@ -927,3 +928,934 @@ Entry Station,,Period,,Total,To Zone 1,2,3,4,5,6,7
 767,Wimbledon                     ,Evening     ,All     ,1135,151,442,511,31,0,0,0
 767,Wimbledon                     ,Late        ,NR      ,126,9,4,113,0,0,0,0
 767,Wimbledon                     ,Late        ,All     ,401,45,167,190,0,0,0,0
+=======
+ RODS report3 created at 13:27:47 on 29-03-2017,,,,,,,,,,,
+ based on survey data up to 2016 and reconciled to Autumn 2016 counts,,,,,,,,,,,
+Journeys Entering from NR/DLR,,,,,,,,,,,
+Entry Station,,Period,,Total,To Zone 1,2,3,4,5,6,7
+502,Aldgate                       ,Early       ,NR      ,83,81,0,2,0,0,0,0
+502,Aldgate                       ,Early       ,DLR     ,0,0,0,0,0,0,0,0
+502,Aldgate                       ,Early       ,All     ,234,219,5,2,2,5,0,1
+502,Aldgate                       ,AM peak     ,NR      ,969,929,15,17,0,8,0,0
+502,Aldgate                       ,AM peak     ,DLR     ,34,31,0,0,0,3,0,0
+502,Aldgate                       ,AM peak     ,All     ,2451,2264,52,22,46,60,0,8
+502,Aldgate                       ,Midday      ,NR      ,171,135,0,37,0,0,0,0
+502,Aldgate                       ,Midday      ,All     ,2791,2150,217,172,90,91,57,14
+502,Aldgate                       ,PM Peak     ,NR      ,89,20,0,0,0,69,0,0
+502,Aldgate                       ,PM Peak     ,All     ,6714,3732,710,523,492,646,411,200
+502,Aldgate                       ,Evening     ,NR      ,38,8,0,0,0,30,0,0
+502,Aldgate                       ,Evening     ,All     ,1542,667,310,63,236,180,81,6
+502,Aldgate                       ,Late        ,All     ,406,158,50,41,50,83,1,24
+505,Alperton                      ,Early       ,All     ,543,183,164,86,108,0,2,0
+505,Alperton                      ,AM peak     ,All     ,1824,530,533,248,174,80,245,15
+505,Alperton                      ,Midday      ,NR      ,54,0,0,30,0,0,24,0
+505,Alperton                      ,Midday      ,All     ,1110,214,32,339,219,171,135,0
+505,Alperton                      ,PM Peak     ,NR      ,7,0,0,7,0,0,0,0
+505,Alperton                      ,PM Peak     ,All     ,901,113,153,168,54,411,0,0
+505,Alperton                      ,Evening     ,All     ,328,6,8,21,155,88,51,0
+505,Alperton                      ,Late        ,All     ,112,10,33,56,3,10,0,0
+506,Amersham                      ,Early       ,All     ,514,359,87,0,37,6,25,0
+506,Amersham                      ,AM peak     ,NR      ,80,80,0,0,0,0,0,0
+506,Amersham                      ,AM peak     ,All     ,1566,1175,165,19,90,24,43,50
+506,Amersham                      ,Midday      ,NR      ,3,3,0,0,0,0,0,0
+506,Amersham                      ,Midday      ,All     ,408,274,34,6,2,21,35,35
+506,Amersham                      ,PM Peak     ,All     ,81,15,1,0,16,16,2,30
+506,Amersham                      ,Evening     ,All     ,50,0,34,0,0,4,6,6
+506,Amersham                      ,Late        ,All     ,9,0,0,0,0,4,3,2
+508,Archway                       ,Early       ,All     ,641,459,117,2,62,0,0,0
+508,Archway                       ,AM peak     ,NR      ,48,35,3,0,10,0,0,0
+508,Archway                       ,AM peak     ,All     ,6412,4858,1202,94,242,15,0,0
+508,Archway                       ,Midday      ,NR      ,54,54,0,0,0,0,0,0
+508,Archway                       ,Midday      ,All     ,4502,2771,1147,298,113,163,10,0
+508,Archway                       ,PM Peak     ,NR      ,10,10,0,0,0,0,0,0
+508,Archway                       ,PM Peak     ,All     ,3267,1388,828,353,562,137,0,0
+508,Archway                       ,Evening     ,NR      ,32,19,14,0,0,0,0,0
+508,Archway                       ,Evening     ,All     ,1191,442,438,107,127,70,7,0
+508,Archway                       ,Late        ,All     ,379,54,198,75,53,0,0,0
+511,Baker Street                  ,Early       ,NR      ,344,242,102,0,0,0,0,0
+511,Baker Street                  ,Early       ,All     ,691,404,212,16,24,20,15,0
+511,Baker Street                  ,AM peak     ,NR      ,3213,2674,513,2,24,0,0,0
+511,Baker Street                  ,AM peak     ,All     ,7773,5609,1679,147,163,88,87,0
+511,Baker Street                  ,Midday      ,NR      ,2154,1997,147,0,10,0,0,0
+511,Baker Street                  ,Midday      ,All     ,12912,8362,2570,723,708,497,53,0
+511,Baker Street                  ,PM Peak     ,NR      ,359,240,25,65,9,0,0,19
+511,Baker Street                  ,PM Peak     ,All     ,16646,7380,5312,1270,1154,984,452,95
+511,Baker Street                  ,Evening     ,NR      ,251,214,4,0,32,0,0,0
+511,Baker Street                  ,Evening     ,All     ,6433,2162,2388,578,546,368,258,134
+511,Baker Street                  ,Late        ,All     ,1817,660,502,287,153,153,62,0
+512,Balham                        ,Early       ,NR      ,196,72,66,49,9,0,0,0
+512,Balham                        ,Early       ,All     ,1385,911,306,121,43,5,0,0
+512,Balham                        ,AM peak     ,NR      ,1930,983,489,363,95,0,0,0
+512,Balham                        ,AM peak     ,All     ,11484,8100,2487,744,142,11,0,0
+512,Balham                        ,Midday      ,NR      ,1119,406,241,427,45,0,0,0
+512,Balham                        ,Midday      ,All     ,4572,2760,798,913,90,11,0,0
+512,Balham                        ,PM Peak     ,NR      ,1217,213,301,628,75,0,0,0
+512,Balham                        ,PM Peak     ,All     ,3733,1033,1278,1120,295,7,0,0
+512,Balham                        ,Evening     ,NR      ,465,29,142,287,7,0,0,0
+512,Balham                        ,Evening     ,All     ,1528,395,658,417,48,0,10,0
+512,Balham                        ,Late        ,NR      ,238,81,92,65,0,0,0,0
+512,Balham                        ,Late        ,All     ,567,128,200,201,38,0,0,0
+513,Bank / Monument               ,Early       ,NR      ,629,474,74,43,27,0,11,0
+513,Bank / Monument               ,Early       ,DLR     ,701,325,99,166,111,0,0,0
+513,Bank / Monument               ,Early       ,All     ,1729,968,288,319,138,0,16,0
+513,Bank / Monument               ,AM peak     ,NR      ,6916,6349,323,44,166,0,34,0
+513,Bank / Monument               ,AM peak     ,DLR     ,6471,5182,493,529,267,0,0,0
+513,Bank / Monument               ,AM peak     ,All     ,17435,13868,1643,1193,567,33,130,0
+513,Bank / Monument               ,Midday      ,NR      ,3826,3569,102,79,0,0,0,76
+513,Bank / Monument               ,Midday      ,DLR     ,7873,6047,961,701,158,0,6,0
+513,Bank / Monument               ,Midday      ,All     ,30823,22117,4484,2372,864,626,284,76
+513,Bank / Monument               ,PM Peak     ,NR      ,2700,1689,843,80,48,28,13,0
+513,Bank / Monument               ,PM Peak     ,DLR     ,8573,5444,965,1722,409,33,0,0
+513,Bank / Monument               ,PM Peak     ,All     ,64703,34887,14876,8550,3877,1440,1027,46
+513,Bank / Monument               ,Evening     ,NR      ,1269,774,464,2,12,18,0,0
+513,Bank / Monument               ,Evening     ,DLR     ,4802,2308,1634,777,7,76,0,0
+513,Bank / Monument               ,Evening     ,All     ,26934,13359,8553,3295,1091,451,169,16
+513,Bank / Monument               ,Late        ,NR      ,453,59,394,0,0,0,0,0
+513,Bank / Monument               ,Late        ,DLR     ,3471,2371,678,284,109,0,28,0
+513,Bank / Monument               ,Late        ,All     ,9432,5082,2940,746,538,66,61,0
+514,Barking                       ,Early       ,NR      ,136,28,92,2,0,0,13,0
+514,Barking                       ,Early       ,All     ,4511,1670,2136,390,71,123,120,0
+514,Barking                       ,AM peak     ,NR      ,1101,159,380,140,141,163,119,0
+514,Barking                       ,AM peak     ,All     ,9205,2768,4249,967,229,602,389,0
+514,Barking                       ,Midday      ,NR      ,1201,249,293,138,19,163,339,0
+514,Barking                       ,Midday      ,All     ,7348,2155,2891,516,242,691,688,165
+514,Barking                       ,PM Peak     ,NR      ,1295,282,258,6,27,685,36,0
+514,Barking                       ,PM Peak     ,All     ,6413,879,2664,1015,69,1364,422,0
+514,Barking                       ,Evening     ,NR      ,1379,0,95,20,41,1086,137,0
+514,Barking                       ,Evening     ,All     ,3306,376,1085,258,53,1267,266,0
+514,Barking                       ,Late        ,NR      ,348,5,34,0,0,264,45,0
+514,Barking                       ,Late        ,All     ,876,93,274,2,13,352,142,0
+520,Bethnal Green                 ,Early       ,NR      ,88,45,5,38,0,0,0,0
+520,Bethnal Green                 ,Early       ,All     ,839,493,236,69,39,0,2,0
+520,Bethnal Green                 ,AM peak     ,NR      ,269,122,96,41,10,0,0,0
+520,Bethnal Green                 ,AM peak     ,All     ,6899,5062,1266,218,264,10,78,0
+520,Bethnal Green                 ,Midday      ,NR      ,86,22,30,0,34,0,0,0
+520,Bethnal Green                 ,Midday      ,All     ,6628,4537,1236,187,440,145,83,0
+520,Bethnal Green                 ,PM Peak     ,All     ,5383,1677,1762,810,849,157,128,0
+520,Bethnal Green                 ,Evening     ,NR      ,276,86,189,0,0,0,0,0
+520,Bethnal Green                 ,Evening     ,All     ,2355,499,844,417,322,64,124,84
+520,Bethnal Green                 ,Late        ,All     ,1082,43,492,189,315,41,3,0
+521,Blackfriars                   ,Early       ,NR      ,273,236,15,1,0,15,6,0
+521,Blackfriars                   ,Early       ,All     ,313,255,29,2,5,15,6,0
+521,Blackfriars                   ,AM peak     ,NR      ,3986,3540,404,11,9,17,3,0
+521,Blackfriars                   ,AM peak     ,All     ,5122,4205,817,21,20,20,39,0
+521,Blackfriars                   ,Midday      ,NR      ,1524,1164,261,0,1,98,0,0
+521,Blackfriars                   ,Midday      ,All     ,5586,4204,753,275,119,146,89,0
+521,Blackfriars                   ,PM Peak     ,NR      ,1222,529,567,117,9,0,0,0
+521,Blackfriars                   ,PM Peak     ,All     ,11530,6043,2837,1707,444,250,247,2
+521,Blackfriars                   ,Evening     ,NR      ,262,128,92,0,42,0,0,0
+521,Blackfriars                   ,Evening     ,All     ,4146,2114,1247,326,375,21,27,36
+521,Blackfriars                   ,Late        ,NR      ,57,53,4,0,0,0,0,0
+521,Blackfriars                   ,Late        ,All     ,1029,558,252,136,21,0,45,16
+522,Blackhorse Road               ,Early       ,NR      ,129,2,87,40,0,0,0,0
+522,Blackhorse Road               ,Early       ,All     ,1786,1112,307,226,139,2,0,0
+522,Blackhorse Road               ,AM peak     ,NR      ,881,34,544,287,16,0,0,0
+522,Blackhorse Road               ,AM peak     ,All     ,6586,3565,1726,961,323,11,0,0
+522,Blackhorse Road               ,Midday      ,NR      ,490,244,245,0,0,0,0,0
+522,Blackhorse Road               ,Midday      ,All     ,2975,1432,859,546,56,82,0,0
+522,Blackhorse Road               ,PM Peak     ,NR      ,316,0,236,70,10,0,0,0
+522,Blackhorse Road               ,PM Peak     ,All     ,1634,555,676,311,76,16,0,0
+522,Blackhorse Road               ,Evening     ,NR      ,33,0,0,33,0,0,0,0
+522,Blackhorse Road               ,Evening     ,All     ,494,165,134,183,12,0,0,0
+522,Blackhorse Road               ,Late        ,NR      ,3,0,0,3,0,0,0,0
+522,Blackhorse Road               ,Late        ,All     ,97,17,74,6,0,0,0,0
+528,Bow Road                      ,Early       ,DLR     ,17,12,0,0,0,5,0,0
+528,Bow Road                      ,Early       ,All     ,549,398,62,9,0,37,43,0
+528,Bow Road                      ,AM peak     ,DLR     ,71,30,0,6,12,23,0,0
+528,Bow Road                      ,AM peak     ,All     ,4185,2525,1313,62,190,32,63,0
+528,Bow Road                      ,Midday      ,DLR     ,235,72,87,0,57,0,19,0
+528,Bow Road                      ,Midday      ,All     ,2285,1152,551,343,154,48,36,0
+528,Bow Road                      ,PM Peak     ,DLR     ,13,0,0,12,0,1,0,0
+528,Bow Road                      ,PM Peak     ,All     ,1456,484,625,163,100,27,56,0
+528,Bow Road                      ,Evening     ,DLR     ,53,0,49,0,0,2,1,0
+528,Bow Road                      ,Evening     ,All     ,534,175,237,55,41,4,23,0
+528,Bow Road                      ,Late        ,DLR     ,8,0,8,0,0,0,0,0
+528,Bow Road                      ,Late        ,All     ,177,145,20,4,2,6,0,0
+778,Brixton                       ,Early       ,NR      ,169,117,7,46,0,0,0,0
+778,Brixton                       ,Early       ,All     ,3199,2378,479,227,45,28,35,7
+778,Brixton                       ,AM peak     ,NR      ,877,692,118,63,3,0,0,0
+778,Brixton                       ,AM peak     ,All     ,24751,18237,4751,1075,415,105,82,86
+778,Brixton                       ,Midday      ,NR      ,190,169,7,14,0,0,0,0
+778,Brixton                       ,Midday      ,All     ,10592,7082,2331,819,301,42,17,0
+778,Brixton                       ,PM Peak     ,NR      ,79,25,45,9,0,0,0,0
+778,Brixton                       ,PM Peak     ,All     ,7225,3810,1633,1438,195,56,94,0
+778,Brixton                       ,Evening     ,NR      ,64,16,11,38,0,0,0,0
+778,Brixton                       ,Evening     ,All     ,3103,1296,890,557,278,30,50,0
+778,Brixton                       ,Late        ,NR      ,118,95,0,23,0,0,0,0
+778,Brixton                       ,Late        ,All     ,3614,1474,1298,525,195,94,28,0
+535,Camden Town                   ,Early       ,NR      ,31,0,0,10,21,0,0,0
+535,Camden Town                   ,Early       ,All     ,392,252,33,31,28,48,0,0
+535,Camden Town                   ,AM peak     ,NR      ,295,68,46,77,85,19,0,0
+535,Camden Town                   ,AM peak     ,All     ,3520,2156,667,291,301,105,0,0
+535,Camden Town                   ,Midday      ,NR      ,486,225,76,153,23,9,0,0
+535,Camden Town                   ,Midday      ,All     ,9067,6375,994,1148,348,84,104,14
+535,Camden Town                   ,PM Peak     ,NR      ,379,27,122,148,81,2,0,0
+535,Camden Town                   ,PM Peak     ,All     ,10109,5221,1425,1791,1269,398,5,0
+535,Camden Town                   ,Evening     ,NR      ,78,39,0,38,0,1,0,0
+535,Camden Town                   ,Evening     ,All     ,3952,1600,905,1017,254,154,0,22
+535,Camden Town                   ,Late        ,NR      ,86,0,1,0,86,0,0,0
+535,Camden Town                   ,Late        ,All     ,3495,1399,924,730,384,24,29,5
+788,Canada Water                  ,Early       ,NR      ,1616,801,769,19,12,15,0,0
+788,Canada Water                  ,Early       ,All     ,2672,1633,896,64,34,42,4,0
+788,Canada Water                  ,AM peak     ,NR      ,25912,15250,10193,310,76,47,36,0
+788,Canada Water                  ,AM peak     ,All     ,32055,19672,11377,573,185,114,135,0
+788,Canada Water                  ,Midday      ,NR      ,14413,8270,5638,264,131,47,8,55
+788,Canada Water                  ,Midday      ,All     ,18166,10636,6639,423,221,160,32,55
+788,Canada Water                  ,PM Peak     ,NR      ,10452,4268,4414,994,714,3,60,0
+788,Canada Water                  ,PM Peak     ,All     ,13569,6133,5269,1106,929,12,120,0
+788,Canada Water                  ,Evening     ,NR      ,5375,1929,2761,504,76,106,0,0
+788,Canada Water                  ,Evening     ,All     ,6705,2441,3322,647,189,106,0,0
+788,Canada Water                  ,Late        ,NR      ,1561,492,823,232,0,13,0,0
+788,Canada Water                  ,Late        ,All     ,2045,622,1178,232,0,13,0,0
+852,Canary Wharf                  ,Early       ,DLR     ,220,110,81,14,7,8,0,0
+852,Canary Wharf                  ,Early       ,All     ,1149,464,558,90,23,13,0,0
+852,Canary Wharf                  ,AM peak     ,DLR     ,2265,1438,763,21,18,23,2,0
+852,Canary Wharf                  ,AM peak     ,All     ,8821,5561,2798,215,81,70,96,0
+852,Canary Wharf                  ,Midday      ,DLR     ,2702,1513,940,94,121,0,18,16
+852,Canary Wharf                  ,Midday      ,All     ,15903,9424,4990,684,416,202,171,16
+852,Canary Wharf                  ,PM Peak     ,DLR     ,3848,1694,1002,505,368,143,85,50
+852,Canary Wharf                  ,PM Peak     ,All     ,48331,21192,18087,3071,2744,1965,1059,213
+852,Canary Wharf                  ,Evening     ,DLR     ,949,291,414,112,86,46,0,0
+852,Canary Wharf                  ,Evening     ,All     ,15625,6288,6841,968,743,544,231,9
+852,Canary Wharf                  ,Late        ,DLR     ,161,145,6,0,0,0,10,0
+852,Canary Wharf                  ,Late        ,All     ,3317,1120,1678,453,0,30,36,0
+884,Canning Town                  ,Early       ,DLR     ,1503,539,757,177,12,18,0,0
+884,Canning Town                  ,Early       ,All     ,4191,2492,1382,177,122,18,0,0
+884,Canning Town                  ,AM peak     ,DLR     ,6535,2833,3060,357,185,95,5,0
+884,Canning Town                  ,AM peak     ,All     ,12986,5909,6107,462,324,139,44,0
+884,Canning Town                  ,Midday      ,DLR     ,6252,2058,3271,718,97,0,107,0
+884,Canning Town                  ,Midday      ,All     ,10509,3925,5338,915,193,1,138,0
+884,Canning Town                  ,PM Peak     ,DLR     ,7339,1734,3998,526,600,249,232,0
+884,Canning Town                  ,PM Peak     ,All     ,10092,2593,5528,616,820,295,240,0
+884,Canning Town                  ,Evening     ,DLR     ,3913,1602,1785,208,243,11,64,0
+884,Canning Town                  ,Evening     ,All     ,5753,2259,2833,271,272,53,64,0
+884,Canning Town                  ,Late        ,DLR     ,1935,680,1061,188,6,0,0,0
+884,Canning Town                  ,Late        ,All     ,2449,868,1238,333,9,0,0,0
+536,Cannon Street                 ,Early       ,NR      ,344,300,41,3,0,0,0,0
+536,Cannon Street                 ,Early       ,All     ,439,343,93,3,0,0,0,0
+536,Cannon Street                 ,AM peak     ,NR      ,3739,3135,534,46,17,7,0,0
+536,Cannon Street                 ,AM peak     ,All     ,4555,3831,627,66,25,7,0,0
+536,Cannon Street                 ,Midday      ,NR      ,1104,866,141,96,0,0,0,0
+536,Cannon Street                 ,Midday      ,All     ,3075,2258,433,309,35,3,28,9
+536,Cannon Street                 ,PM Peak     ,NR      ,797,522,141,71,0,1,45,16
+536,Cannon Street                 ,PM Peak     ,All     ,4580,2681,995,470,222,34,162,16
+536,Cannon Street                 ,Evening     ,NR      ,211,149,62,0,0,0,0,0
+536,Cannon Street                 ,Evening     ,All     ,1618,862,598,52,46,36,24,0
+539,Chalfont & Latimer            ,Early       ,All     ,285,229,3,0,12,34,0,6
+539,Chalfont & Latimer            ,AM peak     ,NR      ,1,0,1,0,0,0,0,0
+539,Chalfont & Latimer            ,AM peak     ,All     ,973,716,78,6,35,53,9,77
+539,Chalfont & Latimer            ,Midday      ,All     ,560,268,46,0,114,1,0,131
+539,Chalfont & Latimer            ,PM Peak     ,NR      ,78,0,8,0,0,0,0,70
+539,Chalfont & Latimer            ,PM Peak     ,All     ,392,194,54,0,13,12,3,116
+539,Chalfont & Latimer            ,Evening     ,All     ,54,12,0,12,0,2,0,28
+539,Chalfont & Latimer            ,Late        ,All     ,27,0,0,3,0,13,0,12
+718,Charing Cross                 ,Early       ,NR      ,685,530,62,78,15,1,0,0
+718,Charing Cross                 ,Early       ,All     ,759,580,76,78,15,3,7,0
+718,Charing Cross                 ,AM peak     ,NR      ,6745,5199,904,423,147,42,11,18
+718,Charing Cross                 ,AM peak     ,All     ,7833,5995,1162,436,151,46,24,18
+718,Charing Cross                 ,Midday      ,NR      ,3527,2738,606,87,64,17,12,2
+718,Charing Cross                 ,Midday      ,All     ,8702,6069,1357,609,321,141,161,45
+718,Charing Cross                 ,PM Peak     ,NR      ,1231,775,338,60,0,25,32,0
+718,Charing Cross                 ,PM Peak     ,All     ,8483,3608,2390,1248,620,310,226,80
+718,Charing Cross                 ,Evening     ,NR      ,231,161,31,7,31,2,0,0
+718,Charing Cross                 ,Evening     ,All     ,4636,1723,1426,613,522,153,73,126
+718,Charing Cross                 ,Late        ,NR      ,180,55,118,7,0,0,0,0
+718,Charing Cross                 ,Late        ,All     ,3110,938,1178,478,146,153,55,162
+546,Chorleywood                   ,Early       ,NR      ,2,2,0,0,0,0,0,0
+546,Chorleywood                   ,Early       ,All     ,245,134,105,0,1,2,0,2
+546,Chorleywood                   ,AM peak     ,NR      ,6,2,0,0,0,0,4,0
+546,Chorleywood                   ,AM peak     ,All     ,820,637,80,10,6,18,13,55
+546,Chorleywood                   ,Midday      ,All     ,374,273,32,0,1,30,15,23
+546,Chorleywood                   ,PM Peak     ,NR      ,8,0,8,0,0,0,0,0
+546,Chorleywood                   ,PM Peak     ,All     ,264,184,8,1,0,52,5,14
+546,Chorleywood                   ,Evening     ,All     ,47,5,0,0,0,0,0,42
+546,Chorleywood                   ,Late        ,All     ,20,0,0,0,13,0,0,7
+548,Clapham North                 ,Early       ,All     ,620,346,168,107,0,0,0,0
+548,Clapham North                 ,AM peak     ,NR      ,58,0,25,14,19,0,0,0
+548,Clapham North                 ,AM peak     ,All     ,3787,2568,714,480,25,0,0,0
+548,Clapham North                 ,Midday      ,NR      ,39,0,0,39,0,0,0,0
+548,Clapham North                 ,Midday      ,All     ,2080,1347,304,343,44,42,0,0
+548,Clapham North                 ,PM Peak     ,NR      ,77,0,0,77,0,0,0,0
+548,Clapham North                 ,PM Peak     ,All     ,1712,927,381,353,6,44,0,0
+548,Clapham North                 ,Evening     ,NR      ,126,90,2,34,0,0,0,0
+548,Clapham North                 ,Evening     ,All     ,871,386,302,147,36,0,0,0
+548,Clapham North                 ,Late        ,NR      ,30,0,0,30,0,0,0,0
+548,Clapham North                 ,Late        ,All     ,377,226,54,80,16,0,0,0
+560,Ealing Broadway               ,Early       ,NR      ,1018,613,262,123,0,0,20,0
+560,Ealing Broadway               ,Early       ,All     ,3035,1900,782,211,119,0,23,0
+560,Ealing Broadway               ,AM peak     ,NR      ,3165,1964,894,249,8,0,51,0
+560,Ealing Broadway               ,AM peak     ,All     ,12865,8301,3328,864,249,37,86,0
+560,Ealing Broadway               ,Midday      ,NR      ,1914,987,607,173,95,51,0,0
+560,Ealing Broadway               ,Midday      ,All     ,7218,3346,2756,608,330,175,2,0
+560,Ealing Broadway               ,PM Peak     ,NR      ,513,88,207,170,32,16,0,0
+560,Ealing Broadway               ,PM Peak     ,All     ,4970,1611,1931,726,381,130,190,0
+560,Ealing Broadway               ,Evening     ,NR      ,239,23,110,103,2,0,0,0
+560,Ealing Broadway               ,Evening     ,All     ,1834,479,827,283,134,81,30,0
+560,Ealing Broadway               ,Late        ,NR      ,102,77,6,19,0,0,0,0
+560,Ealing Broadway               ,Late        ,All     ,579,384,88,70,12,26,0,0
+567,East Putney                   ,Early       ,NR      ,17,0,0,17,0,0,0,0
+567,East Putney                   ,Early       ,All     ,514,345,71,87,12,0,0,0
+567,East Putney                   ,AM peak     ,NR      ,109,2,101,6,0,0,0,0
+567,East Putney                   ,AM peak     ,All     ,5152,3828,796,445,57,19,7,0
+567,East Putney                   ,Midday      ,NR      ,22,16,0,7,0,0,0,0
+567,East Putney                   ,Midday      ,All     ,2064,1210,495,345,0,1,12,0
+567,East Putney                   ,PM Peak     ,NR      ,43,0,2,41,0,0,0,0
+567,East Putney                   ,PM Peak     ,All     ,1897,479,389,1003,15,11,0,0
+567,East Putney                   ,Evening     ,NR      ,7,0,4,3,0,0,0,0
+567,East Putney                   ,Evening     ,All     ,669,179,70,341,76,0,3,0
+567,East Putney                   ,Late        ,All     ,178,115,31,32,0,0,0,0
+569,Edgware Road (Cir)            ,Early       ,NR      ,38,21,17,0,0,0,0,0
+569,Edgware Road (Cir)            ,Early       ,All     ,192,130,46,11,0,0,5,0
+569,Edgware Road (Cir)            ,AM peak     ,NR      ,439,272,159,9,0,0,0,0
+569,Edgware Road (Cir)            ,AM peak     ,All     ,2012,1336,534,101,16,18,8,0
+569,Edgware Road (Cir)            ,Midday      ,NR      ,297,172,125,0,0,0,0,0
+569,Edgware Road (Cir)            ,Midday      ,All     ,3283,1969,797,169,166,118,56,8
+569,Edgware Road (Cir)            ,PM Peak     ,NR      ,124,64,59,0,0,0,0,0
+569,Edgware Road (Cir)            ,PM Peak     ,All     ,4228,1797,1345,627,293,114,43,10
+569,Edgware Road (Cir)            ,Evening     ,NR      ,12,12,0,0,0,0,0,0
+569,Edgware Road (Cir)            ,Evening     ,All     ,1463,600,462,291,37,68,0,5
+569,Edgware Road (Cir)            ,Late        ,NR      ,6,6,0,0,0,0,0,0
+569,Edgware Road (Cir)            ,Late        ,All     ,465,157,123,131,4,40,0,9
+570,Elephant & Castle             ,Early       ,NR      ,195,188,1,0,0,0,5,0
+570,Elephant & Castle             ,Early       ,All     ,1038,683,174,110,64,0,5,2
+570,Elephant & Castle             ,AM peak     ,NR      ,1651,1336,254,27,20,0,14,0
+570,Elephant & Castle             ,AM peak     ,All     ,8095,5368,1860,574,232,21,34,7
+570,Elephant & Castle             ,Midday      ,NR      ,783,560,76,147,0,0,0,0
+570,Elephant & Castle             ,Midday      ,All     ,9188,5313,1999,1286,377,96,33,83
+570,Elephant & Castle             ,PM Peak     ,NR      ,457,96,145,217,0,0,0,0
+570,Elephant & Castle             ,PM Peak     ,All     ,9007,3592,2477,1725,833,192,160,28
+570,Elephant & Castle             ,Evening     ,NR      ,161,5,60,70,26,0,0,0
+570,Elephant & Castle             ,Evening     ,All     ,3243,1144,838,981,186,62,24,7
+570,Elephant & Castle             ,Late        ,NR      ,2,0,0,0,2,0,0,0
+570,Elephant & Castle             ,Late        ,All     ,1258,411,392,378,43,27,0,7
+542,Embankment                    ,Early       ,NR      ,345,264,64,17,0,0,0,0
+542,Embankment                    ,Early       ,All     ,437,328,79,17,14,0,0,0
+542,Embankment                    ,AM peak     ,NR      ,2755,2057,518,180,0,0,0,0
+542,Embankment                    ,AM peak     ,All     ,4637,3698,713,205,21,0,1,0
+542,Embankment                    ,Midday      ,NR      ,1232,967,191,31,0,43,0,0
+542,Embankment                    ,Midday      ,All     ,7832,5591,1236,453,389,79,84,0
+542,Embankment                    ,PM Peak     ,NR      ,383,241,117,4,22,0,0,0
+542,Embankment                    ,PM Peak     ,All     ,10588,6007,2414,1312,515,110,158,72
+542,Embankment                    ,Evening     ,NR      ,100,60,25,15,0,0,0,0
+542,Embankment                    ,Evening     ,All     ,5686,2447,1659,1047,317,117,88,10
+542,Embankment                    ,Late        ,NR      ,82,61,20,0,0,0,0,0
+542,Embankment                    ,Late        ,All     ,4523,1676,1808,813,187,16,21,2
+574,Euston                        ,Early       ,NR      ,1061,853,128,72,8,0,0,0
+574,Euston                        ,Early       ,All     ,1343,1054,151,126,12,0,0,0
+574,Euston                        ,AM peak     ,NR      ,11821,9829,1357,488,107,41,0,0
+574,Euston                        ,AM peak     ,All     ,16105,12393,2190,1169,305,45,2,0
+574,Euston                        ,Midday      ,NR      ,11214,8499,1743,716,71,55,131,0
+574,Euston                        ,Midday      ,All     ,18573,13227,3147,1718,234,116,131,0
+574,Euston                        ,PM Peak     ,NR      ,6197,3884,969,918,296,94,38,0
+574,Euston                        ,PM Peak     ,All     ,16218,8409,3096,3324,1076,234,80,0
+574,Euston                        ,Evening     ,NR      ,3348,1917,829,479,98,26,0,0
+574,Euston                        ,Evening     ,All     ,8918,4684,2001,1639,373,221,0,0
+574,Euston                        ,Late        ,NR      ,787,495,109,152,30,0,0,0
+574,Euston                        ,Late        ,All     ,2638,1291,627,513,173,35,0,0
+575,Euston Square                 ,Early       ,NR      ,216,203,12,0,0,0,0,0
+575,Euston Square                 ,Early       ,All     ,301,255,44,0,2,0,0,0
+575,Euston Square                 ,AM peak     ,NR      ,3729,3372,313,20,0,0,24,0
+575,Euston Square                 ,AM peak     ,All     ,5152,4354,559,20,92,89,37,0
+575,Euston Square                 ,Midday      ,NR      ,1896,1515,256,6,13,105,1,0
+575,Euston Square                 ,Midday      ,All     ,5837,3262,1616,411,105,324,111,8
+575,Euston Square                 ,PM Peak     ,NR      ,493,391,75,5,3,0,20,0
+575,Euston Square                 ,PM Peak     ,All     ,8635,4603,1337,491,589,565,657,392
+575,Euston Square                 ,Evening     ,NR      ,110,109,1,0,0,0,0,0
+575,Euston Square                 ,Evening     ,All     ,3667,1568,1029,200,310,389,138,34
+575,Euston Square                 ,Late        ,NR      ,22,7,15,0,0,0,0,0
+575,Euston Square                 ,Late        ,All     ,799,258,269,53,29,120,61,10
+577,Farringdon                    ,Early       ,NR      ,373,306,55,0,0,6,7,0
+577,Farringdon                    ,Early       ,All     ,472,343,82,10,3,6,22,6
+577,Farringdon                    ,AM peak     ,NR      ,5174,4668,321,61,28,55,41,0
+577,Farringdon                    ,AM peak     ,All     ,6091,5212,429,173,101,73,63,39
+577,Farringdon                    ,Midday      ,NR      ,710,639,28,21,6,1,0,15
+577,Farringdon                    ,Midday      ,All     ,5468,3253,1027,224,202,273,435,53
+577,Farringdon                    ,PM Peak     ,NR      ,820,489,195,61,38,3,29,5
+577,Farringdon                    ,PM Peak     ,All     ,16069,7971,3671,2071,1165,508,352,332
+577,Farringdon                    ,Evening     ,NR      ,151,54,78,0,0,5,14,0
+577,Farringdon                    ,Evening     ,All     ,4883,1627,2058,560,207,278,116,37
+577,Farringdon                    ,Late        ,NR      ,42,36,0,0,0,6,0,0
+577,Farringdon                    ,Late        ,All     ,1495,632,343,281,48,167,13,10
+579,Finchley Road                 ,Early       ,NR      ,6,0,1,0,2,0,3,0
+579,Finchley Road                 ,Early       ,All     ,452,256,95,5,40,21,22,13
+579,Finchley Road                 ,AM peak     ,NR      ,126,0,6,13,65,0,40,2
+579,Finchley Road                 ,AM peak     ,All     ,5147,3621,808,36,329,151,177,27
+579,Finchley Road                 ,Midday      ,NR      ,28,7,0,0,21,0,0,0
+579,Finchley Road                 ,Midday      ,All     ,4025,2265,889,87,359,255,162,7
+579,Finchley Road                 ,PM Peak     ,NR      ,109,14,9,0,35,45,0,5
+579,Finchley Road                 ,PM Peak     ,All     ,4106,1375,971,365,694,412,227,62
+579,Finchley Road                 ,Evening     ,NR      ,88,20,0,0,3,44,22,0
+579,Finchley Road                 ,Evening     ,All     ,1764,444,526,59,301,223,105,107
+579,Finchley Road                 ,Late        ,NR      ,7,0,0,0,7,0,0,0
+579,Finchley Road                 ,Late        ,All     ,651,74,299,37,148,76,16,0
+580,Finsbury Park                 ,Early       ,NR      ,1159,940,51,146,23,0,0,0
+580,Finsbury Park                 ,Early       ,All     ,3236,2397,319,368,150,1,0,1
+580,Finsbury Park                 ,AM peak     ,NR      ,6234,5123,631,398,48,0,33,0
+580,Finsbury Park                 ,AM peak     ,All     ,21669,16500,2673,2049,268,93,80,5
+580,Finsbury Park                 ,Midday      ,NR      ,2280,1880,300,92,7,0,0,0
+580,Finsbury Park                 ,Midday      ,All     ,10173,5632,2108,1936,305,97,93,0
+580,Finsbury Park                 ,PM Peak     ,NR      ,1460,840,143,369,76,33,0,0
+580,Finsbury Park                 ,PM Peak     ,All     ,5813,2932,1025,1365,352,118,22,0
+580,Finsbury Park                 ,Evening     ,NR      ,601,259,104,237,0,0,0,0
+580,Finsbury Park                 ,Evening     ,All     ,2809,909,850,932,87,32,0,0
+580,Finsbury Park                 ,Late        ,NR      ,469,181,91,196,0,0,0,0
+580,Finsbury Park                 ,Late        ,All     ,1065,353,332,345,2,33,0,0
+589,Greenford                     ,Early       ,All     ,1318,810,395,113,0,0,0,0
+589,Greenford                     ,AM peak     ,NR      ,2,0,0,2,0,0,0,0
+589,Greenford                     ,AM peak     ,All     ,2967,1733,1033,95,61,43,2,0
+589,Greenford                     ,Midday      ,NR      ,85,8,0,0,61,16,0,0
+589,Greenford                     ,Midday      ,All     ,1673,714,707,106,61,85,0,0
+589,Greenford                     ,PM Peak     ,NR      ,46,31,0,5,0,9,0,0
+589,Greenford                     ,PM Peak     ,All     ,1213,451,329,273,99,59,1,0
+589,Greenford                     ,Evening     ,NR      ,28,7,0,0,0,21,0,0
+589,Greenford                     ,Evening     ,All     ,441,65,199,55,9,75,37,0
+589,Greenford                     ,Late        ,All     ,108,24,25,32,0,28,0,0
+591,Gunnersbury                   ,Early       ,NR      ,12,0,0,12,0,0,0,0
+591,Gunnersbury                   ,Early       ,All     ,365,197,54,19,93,2,0,0
+591,Gunnersbury                   ,AM peak     ,NR      ,169,1,94,37,29,0,0,9
+591,Gunnersbury                   ,AM peak     ,All     ,2055,933,635,105,331,42,0,9
+591,Gunnersbury                   ,Midday      ,NR      ,100,8,19,0,74,0,0,0
+591,Gunnersbury                   ,Midday      ,All     ,1125,391,306,87,327,5,0,9
+591,Gunnersbury                   ,PM Peak     ,NR      ,92,0,0,0,92,0,0,0
+591,Gunnersbury                   ,PM Peak     ,All     ,3493,1201,857,610,744,73,9,0
+591,Gunnersbury                   ,Evening     ,NR      ,43,0,0,40,3,0,0,0
+591,Gunnersbury                   ,Evening     ,All     ,430,222,78,84,47,0,0,0
+591,Gunnersbury                   ,Late        ,NR      ,32,0,1,15,16,0,0,0
+591,Gunnersbury                   ,Late        ,All     ,99,3,6,73,18,0,0,0
+596,Harlesden                     ,Early       ,NR      ,10,0,2,0,8,0,0,0
+596,Harlesden                     ,Early       ,All     ,209,117,66,8,15,4,0,0
+596,Harlesden                     ,AM peak     ,NR      ,22,0,19,0,4,0,0,0
+596,Harlesden                     ,AM peak     ,All     ,1062,619,382,6,22,33,0,0
+596,Harlesden                     ,Midday      ,NR      ,8,0,0,0,8,0,0,0
+596,Harlesden                     ,Midday      ,All     ,1205,729,105,105,169,96,0,0
+596,Harlesden                     ,PM Peak     ,All     ,1247,634,215,52,260,87,0,0
+596,Harlesden                     ,Evening     ,All     ,248,100,62,13,73,0,0,0
+596,Harlesden                     ,Late        ,All     ,129,45,12,31,40,0,0,0
+597,Harrow & Wealdstone           ,Early       ,NR      ,13,0,1,8,4,0,0,0
+597,Harrow & Wealdstone           ,Early       ,All     ,832,605,169,18,39,0,0,0
+597,Harrow & Wealdstone           ,AM peak     ,NR      ,496,49,4,224,219,0,0,0
+597,Harrow & Wealdstone           ,AM peak     ,All     ,1939,1191,191,286,271,0,0,0
+597,Harrow & Wealdstone           ,Midday      ,NR      ,210,77,42,52,40,0,0,0
+597,Harrow & Wealdstone           ,Midday      ,All     ,1370,557,493,125,196,0,0,0
+597,Harrow & Wealdstone           ,PM Peak     ,NR      ,37,0,0,0,37,0,0,0
+597,Harrow & Wealdstone           ,PM Peak     ,All     ,927,293,408,106,110,10,0,0
+597,Harrow & Wealdstone           ,Evening     ,All     ,133,44,42,2,46,0,0,0
+597,Harrow & Wealdstone           ,Late        ,NR      ,67,0,2,0,65,0,0,0
+597,Harrow & Wealdstone           ,Late        ,All     ,257,32,2,41,183,0,0,0
+598,Harrow-on-the-Hill            ,Early       ,NR      ,1,0,0,0,0,0,1,0
+598,Harrow-on-the-Hill            ,Early       ,All     ,1415,611,358,102,132,0,139,74
+598,Harrow-on-the-Hill            ,AM peak     ,NR      ,75,28,16,0,2,23,7,0
+598,Harrow-on-the-Hill            ,AM peak     ,All     ,5489,2898,839,318,344,72,829,190
+598,Harrow-on-the-Hill            ,Midday      ,NR      ,89,6,0,0,25,0,57,0
+598,Harrow-on-the-Hill            ,Midday      ,All     ,4095,1469,495,137,722,459,776,38
+598,Harrow-on-the-Hill            ,PM Peak     ,NR      ,419,56,84,14,0,135,130,0
+598,Harrow-on-the-Hill            ,PM Peak     ,All     ,3544,773,459,303,694,515,679,121
+598,Harrow-on-the-Hill            ,Evening     ,NR      ,267,41,0,0,0,155,6,64
+598,Harrow-on-the-Hill            ,Evening     ,All     ,1059,188,125,62,180,242,181,80
+598,Harrow-on-the-Hill            ,Late        ,NR      ,50,0,0,0,0,0,1,48
+598,Harrow-on-the-Hill            ,Late        ,All     ,317,3,17,4,34,47,70,143
+780,Heathrow Terminals 123        ,Early       ,NR      ,28,24,0,0,0,4,0,0
+780,Heathrow Terminals 123        ,Early       ,All     ,393,181,94,56,39,12,12,0
+780,Heathrow Terminals 123        ,AM peak     ,NR      ,85,77,0,0,0,9,0,0
+780,Heathrow Terminals 123        ,AM peak     ,All     ,1818,854,504,189,108,152,11,0
+780,Heathrow Terminals 123        ,Midday      ,NR      ,43,25,0,17,0,0,0,0
+780,Heathrow Terminals 123        ,Midday      ,All     ,3980,2042,834,488,195,303,118,0
+780,Heathrow Terminals 123        ,PM Peak     ,NR      ,29,26,0,0,0,3,0,0
+780,Heathrow Terminals 123        ,PM Peak     ,All     ,2253,935,547,324,241,140,66,0
+780,Heathrow Terminals 123        ,Evening     ,NR      ,32,3,28,0,0,0,0,0
+780,Heathrow Terminals 123        ,Evening     ,All     ,1835,584,374,274,480,123,0,0
+780,Heathrow Terminals 123        ,Late        ,All     ,767,157,153,208,108,141,0,0
+603,Highbury & Islington          ,Early       ,NR      ,1185,659,447,77,2,0,0,0
+603,Highbury & Islington          ,Early       ,All     ,2185,1111,809,136,115,9,6,0
+603,Highbury & Islington          ,AM peak     ,NR      ,12231,9061,2034,920,80,21,114,0
+603,Highbury & Islington          ,AM peak     ,All     ,21102,14736,3777,1882,439,46,184,37
+603,Highbury & Islington          ,Midday      ,NR      ,7854,3176,3044,1191,128,1,314,0
+603,Highbury & Islington          ,Midday      ,All     ,14299,7086,3943,2608,164,86,412,0
+603,Highbury & Islington          ,PM Peak     ,NR      ,9738,4691,2483,1783,354,105,321,0
+603,Highbury & Islington          ,PM Peak     ,All     ,19279,8116,3873,5724,817,412,336,0
+603,Highbury & Islington          ,Evening     ,NR      ,3746,1621,580,1393,121,32,0,0
+603,Highbury & Islington          ,Evening     ,All     ,7597,2473,1485,3266,305,68,1,0
+603,Highbury & Islington          ,Late        ,NR      ,1604,336,480,705,81,3,0,0
+603,Highbury & Islington          ,Late        ,All     ,3499,660,1183,1366,286,3,0,0
+617,Kensal Green                  ,Early       ,All     ,213,189,15,4,3,3,0,0
+617,Kensal Green                  ,AM peak     ,NR      ,9,9,0,0,0,0,0,0
+617,Kensal Green                  ,AM peak     ,All     ,1521,1319,111,62,28,1,0,0
+617,Kensal Green                  ,Midday      ,NR      ,1,1,0,0,0,0,0,0
+617,Kensal Green                  ,Midday      ,All     ,899,540,197,87,73,1,2,0
+617,Kensal Green                  ,PM Peak     ,All     ,551,254,135,9,49,102,1,0
+617,Kensal Green                  ,Evening     ,All     ,212,175,11,0,25,1,0,0
+617,Kensal Green                  ,Late        ,All     ,75,42,10,0,23,0,0,0
+619,Kentish Town                  ,Early       ,NR      ,45,9,36,0,0,0,0,0
+619,Kentish Town                  ,Early       ,All     ,337,232,59,21,19,6,0,0
+619,Kentish Town                  ,AM peak     ,NR      ,793,301,395,22,74,0,0,0
+619,Kentish Town                  ,AM peak     ,All     ,3978,2699,754,185,307,33,0,1
+619,Kentish Town                  ,Midday      ,NR      ,568,242,129,56,141,0,0,0
+619,Kentish Town                  ,Midday      ,All     ,3689,2286,832,277,250,44,0,0
+619,Kentish Town                  ,PM Peak     ,NR      ,632,141,60,171,246,13,0,0
+619,Kentish Town                  ,PM Peak     ,All     ,4053,2376,791,428,355,95,8,0
+619,Kentish Town                  ,Evening     ,NR      ,204,10,91,48,56,0,0,0
+619,Kentish Town                  ,Evening     ,All     ,1149,217,615,85,171,61,0,0
+619,Kentish Town                  ,Late        ,NR      ,52,0,28,13,11,0,0,0
+619,Kentish Town                  ,Late        ,All     ,846,553,155,68,67,4,0,0
+620,Kenton                        ,Early       ,All     ,420,123,163,69,57,8,0,0
+620,Kenton                        ,AM peak     ,All     ,710,139,270,189,97,15,0,0
+620,Kenton                        ,Midday      ,All     ,706,63,77,181,297,88,0,0
+620,Kenton                        ,PM Peak     ,All     ,404,93,130,139,35,8,0,0
+620,Kenton                        ,Evening     ,All     ,164,62,53,0,50,0,0,0
+620,Kenton                        ,Late        ,All     ,43,0,21,0,22,0,0,0
+621,Kew Gardens                   ,Early       ,All     ,185,114,51,17,0,2,1,0
+621,Kew Gardens                   ,AM peak     ,All     ,1892,1145,350,81,303,12,1,0
+621,Kew Gardens                   ,Midday      ,NR      ,58,2,56,0,0,0,0,0
+621,Kew Gardens                   ,Midday      ,All     ,1424,686,353,41,270,18,55,0
+621,Kew Gardens                   ,PM Peak     ,NR      ,64,48,0,0,16,0,0,0
+621,Kew Gardens                   ,PM Peak     ,All     ,1073,497,125,105,305,0,41,0
+621,Kew Gardens                   ,Evening     ,All     ,583,236,131,66,151,0,0,0
+621,Kew Gardens                   ,Late        ,All     ,91,66,15,6,4,0,0,0
+622,Kilburn                       ,Early       ,All     ,872,421,368,13,29,29,12,0
+622,Kilburn                       ,AM peak     ,All     ,5479,3850,839,63,350,259,69,50
+622,Kilburn                       ,Midday      ,NR      ,64,0,0,0,0,44,20,0
+622,Kilburn                       ,Midday      ,All     ,3272,2078,679,242,124,117,20,13
+622,Kilburn                       ,PM Peak     ,NR      ,23,0,0,23,0,0,0,0
+622,Kilburn                       ,PM Peak     ,All     ,2425,1103,639,218,349,116,0,0
+622,Kilburn                       ,Evening     ,NR      ,32,0,0,32,0,0,0,0
+622,Kilburn                       ,Evening     ,All     ,923,155,564,97,0,33,74,0
+622,Kilburn                       ,Late        ,All     ,312,69,85,29,74,54,0,0
+625,King's Cross St. Pancras      ,Early       ,NR      ,2102,1603,279,136,51,9,24,0
+625,King's Cross St. Pancras      ,Early       ,All     ,2828,1987,481,208,88,9,40,13
+625,King's Cross St. Pancras      ,AM peak     ,NR      ,28754,23604,3278,1232,374,182,84,0
+625,King's Cross St. Pancras      ,AM peak     ,All     ,36599,28987,4672,1720,720,283,185,33
+625,King's Cross St. Pancras      ,Midday      ,NR      ,26459,20861,2763,1535,629,182,431,58
+625,King's Cross St. Pancras      ,Midday      ,All     ,42662,29419,6058,4023,1715,567,796,84
+625,King's Cross St. Pancras      ,PM Peak     ,NR      ,13600,8502,3274,763,505,73,108,373
+625,King's Cross St. Pancras      ,PM Peak     ,All     ,37760,19670,8847,4649,2430,1035,556,573
+625,King's Cross St. Pancras      ,Evening     ,NR      ,7272,3822,2135,835,251,209,21,0
+625,King's Cross St. Pancras      ,Evening     ,All     ,18700,8169,6345,2486,829,592,102,176
+625,King's Cross St. Pancras      ,Late        ,NR      ,2573,1476,704,298,43,52,0,0
+625,King's Cross St. Pancras      ,Late        ,All     ,6885,3014,2430,791,385,188,72,6
+629,Lancaster Gate                ,Early       ,NR      ,82,77,5,0,0,0,0,0
+629,Lancaster Gate                ,Early       ,All     ,231,166,24,11,19,11,0,0
+629,Lancaster Gate                ,AM peak     ,NR      ,1168,1126,41,0,2,0,0,0
+629,Lancaster Gate                ,AM peak     ,All     ,4039,3437,423,98,32,19,31,0
+629,Lancaster Gate                ,Midday      ,NR      ,214,195,18,0,0,0,0,0
+629,Lancaster Gate                ,Midday      ,All     ,3048,2032,385,435,87,109,0,0
+629,Lancaster Gate                ,PM Peak     ,NR      ,29,7,21,0,0,0,0,0
+629,Lancaster Gate                ,PM Peak     ,All     ,2391,1669,298,186,155,60,23,0
+629,Lancaster Gate                ,Evening     ,NR      ,7,0,7,0,0,0,0,0
+629,Lancaster Gate                ,Evening     ,All     ,789,450,115,174,50,0,0,0
+629,Lancaster Gate                ,Late        ,NR      ,2,0,2,0,0,0,0,0
+629,Lancaster Gate                ,Late        ,All     ,391,104,154,56,31,30,16,0
+633,Leytonstone                   ,Early       ,All     ,2034,1127,727,93,35,34,18,0
+633,Leytonstone                   ,AM peak     ,NR      ,53,0,0,16,27,0,10,0
+633,Leytonstone                   ,AM peak     ,All     ,7512,4222,2707,383,81,49,71,0
+633,Leytonstone                   ,Midday      ,NR      ,52,13,39,0,0,0,0,0
+633,Leytonstone                   ,Midday      ,All     ,4220,1180,2564,166,283,22,4,0
+633,Leytonstone                   ,PM Peak     ,NR      ,76,27,50,0,0,0,0,0
+633,Leytonstone                   ,PM Peak     ,All     ,2765,914,1387,4,423,15,23,0
+633,Leytonstone                   ,Evening     ,NR      ,7,0,7,0,0,0,0,0
+633,Leytonstone                   ,Evening     ,All     ,973,441,307,50,136,0,39,0
+633,Leytonstone                   ,Late        ,All     ,287,39,140,20,34,0,54,0
+634,Liverpool Street              ,Early       ,NR      ,1928,1518,182,88,121,13,5,0
+634,Liverpool Street              ,Early       ,All     ,2365,1701,330,115,187,13,20,0
+634,Liverpool Street              ,AM peak     ,NR      ,21340,18554,2239,148,231,98,69,0
+634,Liverpool Street              ,AM peak     ,All     ,27574,22757,3299,509,583,215,174,36
+634,Liverpool Street              ,Midday      ,NR      ,11898,9882,1284,215,216,140,158,4
+634,Liverpool Street              ,Midday      ,All     ,28805,20205,5521,1004,1385,400,267,23
+634,Liverpool Street              ,PM Peak     ,NR      ,7391,6014,751,206,263,117,40,0
+634,Liverpool Street              ,PM Peak     ,All     ,36793,18295,7846,2724,4305,1933,1387,302
+634,Liverpool Street              ,Evening     ,NR      ,1697,1201,246,184,17,21,30,0
+634,Liverpool Street              ,Evening     ,All     ,13848,6166,3466,1431,1563,501,684,37
+634,Liverpool Street              ,Late        ,NR      ,424,303,44,46,31,0,0,0
+634,Liverpool Street              ,Late        ,All     ,4336,1607,1237,708,455,235,76,18
+635,London Bridge                 ,Early       ,NR      ,2214,995,865,102,195,36,14,5
+635,London Bridge                 ,Early       ,All     ,2831,1304,1152,106,206,43,14,5
+635,London Bridge                 ,AM peak     ,NR      ,23587,14083,7783,971,452,113,117,69
+635,London Bridge                 ,AM peak     ,All     ,29973,17546,10241,1214,596,151,156,69
+635,London Bridge                 ,Midday      ,NR      ,11204,7044,2934,1016,104,104,1,0
+635,London Bridge                 ,Midday      ,All     ,30108,17753,8840,1929,893,410,284,0
+635,London Bridge                 ,PM Peak     ,NR      ,8021,3726,2808,539,464,368,117,0
+635,London Bridge                 ,PM Peak     ,All     ,34830,12810,13234,4628,2025,1223,667,242
+635,London Bridge                 ,Evening     ,NR      ,2007,729,709,265,188,101,15,0
+635,London Bridge                 ,Evening     ,All     ,13662,4001,6421,1942,682,330,229,58
+635,London Bridge                 ,Late        ,NR      ,737,124,206,289,49,69,0,0
+635,London Bridge                 ,Late        ,All     ,5853,1637,3040,836,173,167,0,0
+641,Marylebone                    ,Early       ,NR      ,339,301,29,4,4,0,0,0
+641,Marylebone                    ,Early       ,All     ,444,397,36,6,4,0,0,0
+641,Marylebone                    ,AM peak     ,NR      ,5129,4744,296,48,40,0,0,0
+641,Marylebone                    ,AM peak     ,All     ,6761,6033,481,166,75,5,0,0
+641,Marylebone                    ,Midday      ,NR      ,3568,2847,492,139,90,0,0,0
+641,Marylebone                    ,Midday      ,All     ,5597,4647,640,212,94,0,0,5
+641,Marylebone                    ,PM Peak     ,NR      ,1999,1478,400,95,2,0,25,0
+641,Marylebone                    ,PM Peak     ,All     ,4881,3346,1014,310,111,42,58,0
+641,Marylebone                    ,Evening     ,NR      ,334,179,135,4,15,0,0,0
+641,Marylebone                    ,Evening     ,All     ,1758,1049,549,134,20,6,0,0
+641,Marylebone                    ,Late        ,NR      ,154,81,52,13,7,0,0,0
+641,Marylebone                    ,Late        ,All     ,573,173,375,13,11,0,0,0
+645,Moorgate                      ,Early       ,NR      ,9,8,1,0,0,0,0,0
+645,Moorgate                      ,Early       ,All     ,1080,469,219,106,206,35,22,23
+645,Moorgate                      ,AM peak     ,NR      ,1834,1656,78,101,0,0,0,0
+645,Moorgate                      ,AM peak     ,All     ,15544,8964,3234,1866,970,243,170,97
+645,Moorgate                      ,Midday      ,NR      ,1560,1162,210,139,17,31,0,0
+645,Moorgate                      ,Midday      ,All     ,8499,3757,2403,1346,759,92,110,32
+645,Moorgate                      ,PM Peak     ,NR      ,2525,2019,153,23,282,0,48,0
+645,Moorgate                      ,PM Peak     ,All     ,20116,8291,5450,3188,1883,737,368,199
+645,Moorgate                      ,Evening     ,NR      ,934,722,90,0,88,33,0,0
+645,Moorgate                      ,Evening     ,All     ,6642,3107,1747,730,625,270,139,24
+645,Moorgate                      ,Late        ,NR      ,168,124,0,11,34,0,0,0
+645,Moorgate                      ,Late        ,All     ,1913,1105,252,200,152,200,0,4
+653,North Acton                   ,Early       ,All     ,443,249,27,78,32,56,0,0
+653,North Acton                   ,AM peak     ,NR      ,33,8,0,25,0,0,0,0
+653,North Acton                   ,AM peak     ,All     ,3009,1945,515,262,53,201,34,0
+653,North Acton                   ,Midday      ,NR      ,4,4,0,0,0,0,0,0
+653,North Acton                   ,Midday      ,All     ,2477,1253,636,339,87,133,28,0
+653,North Acton                   ,PM Peak     ,NR      ,25,0,0,25,0,0,0,0
+653,North Acton                   ,PM Peak     ,All     ,3652,912,859,1012,536,230,89,14
+653,North Acton                   ,Evening     ,NR      ,21,21,0,0,0,0,0,0
+653,North Acton                   ,Evening     ,All     ,955,333,205,280,109,12,17,0
+653,North Acton                   ,Late        ,All     ,228,42,21,110,17,38,0,0
+659,North Wembley                 ,Early       ,NR      ,16,16,0,0,0,0,0,0
+659,North Wembley                 ,Early       ,All     ,354,86,208,27,25,9,0,0
+659,North Wembley                 ,AM peak     ,NR      ,8,8,0,0,0,0,0,0
+659,North Wembley                 ,AM peak     ,All     ,985,347,366,116,62,73,3,19
+659,North Wembley                 ,Midday      ,NR      ,6,6,0,0,0,0,0,0
+659,North Wembley                 ,Midday      ,All     ,497,270,109,0,94,24,0,0
+659,North Wembley                 ,PM Peak     ,All     ,445,60,326,20,5,34,0,0
+659,North Wembley                 ,Evening     ,All     ,153,0,32,8,113,0,0,0
+659,North Wembley                 ,Late        ,All     ,27,2,10,4,12,0,0,0
+660,Northwick Park                ,Early       ,NR      ,0,0,0,0,0,0,0,0
+660,Northwick Park                ,Early       ,All     ,688,449,189,0,3,8,38,0
+660,Northwick Park                ,AM peak     ,NR      ,14,1,13,0,0,0,0,0
+660,Northwick Park                ,AM peak     ,All     ,2362,1547,434,4,119,58,150,49
+660,Northwick Park                ,Midday      ,All     ,1948,899,206,115,303,252,168,5
+660,Northwick Park                ,PM Peak     ,NR      ,158,62,6,0,78,0,13,0
+660,Northwick Park                ,PM Peak     ,All     ,1923,583,435,177,311,195,164,59
+660,Northwick Park                ,Evening     ,All     ,631,126,192,38,85,71,103,16
+660,Northwick Park                ,Late        ,All     ,108,31,24,0,53,0,0,0
+665,Old Street                    ,Early       ,NR      ,164,145,19,0,0,0,0,0
+665,Old Street                    ,Early       ,All     ,563,277,160,81,40,3,2,0
+665,Old Street                    ,AM peak     ,NR      ,2344,2069,256,2,17,0,0,0
+665,Old Street                    ,AM peak     ,All     ,7174,4922,1356,570,266,52,8,0
+665,Old Street                    ,Midday      ,NR      ,733,514,88,89,43,0,0,0
+665,Old Street                    ,Midday      ,All     ,10207,6376,1996,952,477,297,110,0
+665,Old Street                    ,PM Peak     ,NR      ,748,640,65,44,0,0,0,0
+665,Old Street                    ,PM Peak     ,All     ,15123,8543,2802,2334,1116,307,21,0
+665,Old Street                    ,Evening     ,NR      ,66,55,11,0,0,0,0,0
+665,Old Street                    ,Evening     ,All     ,6237,2129,2117,949,826,87,131,0
+665,Old Street                    ,Late        ,All     ,3170,789,1178,601,519,65,18,0
+670,Paddington                    ,Early       ,NR      ,1446,1045,376,13,12,0,0,0
+670,Paddington                    ,Early       ,All     ,1749,1209,494,13,33,0,0,0
+670,Paddington                    ,AM peak     ,NR      ,19434,15511,3456,359,71,35,2,0
+670,Paddington                    ,AM peak     ,All     ,24228,18783,4614,483,184,42,121,0
+670,Paddington                    ,Midday      ,NR      ,16019,12257,2914,586,154,50,56,1
+670,Paddington                    ,Midday      ,All     ,23571,16458,5210,937,531,289,128,17
+670,Paddington                    ,PM Peak     ,NR      ,9137,5778,2283,941,67,46,5,16
+670,Paddington                    ,PM Peak     ,All     ,19972,10498,5973,2376,740,304,27,56
+670,Paddington                    ,Evening     ,NR      ,3638,1722,1586,243,82,5,0,0
+670,Paddington                    ,Evening     ,All     ,7231,2834,3380,662,218,43,42,53
+670,Paddington                    ,Late        ,NR      ,612,211,322,11,68,0,0,0
+670,Paddington                    ,Late        ,All     ,1765,753,752,120,75,65,0,0
+680,Queen's Park                  ,Early       ,NR      ,41,41,0,0,0,0,0,0
+680,Queen's Park                  ,Early       ,All     ,368,282,27,14,11,13,21,0
+680,Queen's Park                  ,AM peak     ,NR      ,1115,1098,17,0,0,0,0,0
+680,Queen's Park                  ,AM peak     ,All     ,4487,4134,208,48,17,44,18,18
+680,Queen's Park                  ,Midday      ,NR      ,114,81,33,0,0,0,0,0
+680,Queen's Park                  ,Midday      ,All     ,2056,1388,343,125,61,54,86,0
+680,Queen's Park                  ,PM Peak     ,NR      ,315,314,1,0,0,0,0,0
+680,Queen's Park                  ,PM Peak     ,All     ,1405,996,311,26,61,6,0,6
+680,Queen's Park                  ,Evening     ,NR      ,666,666,0,0,0,0,0,0
+680,Queen's Park                  ,Evening     ,All     ,1153,909,173,45,17,0,8,1
+680,Queen's Park                  ,Late        ,NR      ,3,0,3,0,0,0,0,0
+680,Queen's Park                  ,Late        ,All     ,226,65,37,64,15,4,40,0
+686,Richmond                      ,Early       ,NR      ,49,13,25,11,0,0,0,0
+686,Richmond                      ,Early       ,All     ,268,152,77,33,1,0,4,0
+686,Richmond                      ,AM peak     ,NR      ,605,189,211,188,11,5,0,0
+686,Richmond                      ,AM peak     ,All     ,2253,1282,587,244,74,15,51,0
+686,Richmond                      ,Midday      ,NR      ,488,200,170,116,1,1,0,0
+686,Richmond                      ,Midday      ,All     ,2484,1359,679,248,87,88,19,4
+686,Richmond                      ,PM Peak     ,NR      ,756,254,335,93,68,6,0,0
+686,Richmond                      ,PM Peak     ,All     ,2887,1261,1098,298,122,108,0,0
+686,Richmond                      ,Evening     ,NR      ,414,170,104,121,19,0,0,0
+686,Richmond                      ,Evening     ,All     ,1100,517,329,214,39,0,0,0
+686,Richmond                      ,Late        ,NR      ,219,164,31,24,0,0,0,0
+686,Richmond                      ,Late        ,All     ,798,423,150,173,52,0,0,0
+687,Rickmansworth                 ,Early       ,All     ,389,253,21,14,34,0,0,68
+687,Rickmansworth                 ,AM peak     ,NR      ,10,10,0,0,0,0,0,0
+687,Rickmansworth                 ,AM peak     ,All     ,1616,1183,128,35,30,28,24,187
+687,Rickmansworth                 ,Midday      ,NR      ,21,0,0,0,0,0,21,0
+687,Rickmansworth                 ,Midday      ,All     ,1095,630,316,0,14,5,52,79
+687,Rickmansworth                 ,PM Peak     ,All     ,624,237,137,24,50,64,59,54
+687,Rickmansworth                 ,Evening     ,All     ,137,0,50,20,0,0,42,25
+687,Rickmansworth                 ,Late        ,All     ,40,0,0,0,0,0,38,2
+691,Ruislip                       ,Early       ,All     ,250,157,3,0,76,0,15,0
+691,Ruislip                       ,AM peak     ,All     ,1378,642,158,29,144,30,356,20
+691,Ruislip                       ,Midday      ,NR      ,5,0,0,0,0,5,0,0
+691,Ruislip                       ,Midday      ,All     ,894,232,91,31,85,226,229,0
+691,Ruislip                       ,PM Peak     ,All     ,447,75,94,66,36,55,119,1
+691,Ruislip                       ,Evening     ,All     ,136,27,22,0,7,28,44,7
+691,Ruislip                       ,Late        ,All     ,42,4,0,0,11,20,6,0
+698,Seven Sisters                 ,Early       ,NR      ,1517,851,378,201,26,25,36,0
+698,Seven Sisters                 ,Early       ,All     ,5165,3215,1219,411,191,35,94,0
+698,Seven Sisters                 ,AM peak     ,NR      ,6594,4298,1650,544,54,19,30,0
+698,Seven Sisters                 ,AM peak     ,All     ,16550,11157,3970,852,288,106,177,0
+698,Seven Sisters                 ,Midday      ,NR      ,2958,1803,545,572,30,0,9,0
+698,Seven Sisters                 ,Midday      ,All     ,8814,5463,1767,1356,115,50,64,0
+698,Seven Sisters                 ,PM Peak     ,NR      ,2425,691,980,754,0,0,0,0
+698,Seven Sisters                 ,PM Peak     ,All     ,5396,2605,1743,968,0,80,0,0
+698,Seven Sisters                 ,Evening     ,NR      ,881,299,382,178,0,22,0,0
+698,Seven Sisters                 ,Evening     ,All     ,2404,828,1006,547,1,22,0,0
+698,Seven Sisters                 ,Late        ,NR      ,290,160,57,72,0,0,0,0
+698,Seven Sisters                 ,Late        ,All     ,862,326,409,81,11,7,0,28
+709,South Kenton                  ,Early       ,All     ,79,58,8,4,7,2,0,0
+709,South Kenton                  ,AM peak     ,All     ,583,405,85,39,50,4,0,0
+709,South Kenton                  ,Midday      ,All     ,394,63,10,61,232,28,0,0
+709,South Kenton                  ,PM Peak     ,All     ,179,99,50,0,22,9,0,0
+709,South Kenton                  ,Evening     ,All     ,65,65,0,0,0,0,0,0
+709,South Kenton                  ,Late        ,All     ,44,42,0,0,0,3,0,0
+710,South Ruislip                 ,Early       ,NR      ,22,5,17,0,0,0,0,0
+710,South Ruislip                 ,Early       ,All     ,378,235,124,8,11,0,0,0
+710,South Ruislip                 ,AM peak     ,NR      ,170,33,122,15,0,0,0,0
+710,South Ruislip                 ,AM peak     ,All     ,1548,901,524,82,35,6,0,0
+710,South Ruislip                 ,Midday      ,NR      ,9,0,0,0,9,0,0,0
+710,South Ruislip                 ,Midday      ,All     ,493,277,90,28,26,67,5,0
+710,South Ruislip                 ,PM Peak     ,NR      ,78,78,0,0,0,0,0,0
+710,South Ruislip                 ,PM Peak     ,All     ,402,214,112,41,31,1,3,0
+710,South Ruislip                 ,Evening     ,All     ,99,43,37,0,0,12,8,0
+710,South Ruislip                 ,Late        ,All     ,33,29,4,0,0,0,0,0
+784,Southwark                     ,Early       ,NR      ,491,194,285,3,0,4,5,0
+784,Southwark                     ,Early       ,All     ,639,246,366,3,15,4,5,0
+784,Southwark                     ,AM peak     ,NR      ,4535,2387,1957,72,43,46,31,0
+784,Southwark                     ,AM peak     ,All     ,6960,3540,3074,141,114,54,38,0
+784,Southwark                     ,Midday      ,NR      ,881,445,368,17,17,11,24,0
+784,Southwark                     ,Midday      ,All     ,6707,3387,2474,217,230,269,48,82
+784,Southwark                     ,PM Peak     ,NR      ,929,505,286,92,1,45,0,0
+784,Southwark                     ,PM Peak     ,All     ,11654,3311,5374,1152,1114,289,301,113
+784,Southwark                     ,Evening     ,NR      ,194,71,97,0,0,0,26,0
+784,Southwark                     ,Evening     ,All     ,3069,741,1789,245,118,142,34,0
+784,Southwark                     ,Late        ,All     ,1055,161,687,62,73,59,12,0
+717,Stonebridge Park              ,Early       ,NR      ,2,2,0,0,0,0,0,0
+717,Stonebridge Park              ,Early       ,All     ,444,298,107,25,13,0,0,0
+717,Stonebridge Park              ,AM peak     ,NR      ,24,24,0,0,0,0,0,0
+717,Stonebridge Park              ,AM peak     ,All     ,1165,537,521,39,62,6,0,0
+717,Stonebridge Park              ,Midday      ,All     ,889,638,87,93,64,7,0,0
+717,Stonebridge Park              ,PM Peak     ,NR      ,14,0,0,0,14,0,0,0
+717,Stonebridge Park              ,PM Peak     ,All     ,677,181,414,5,73,4,0,0
+717,Stonebridge Park              ,Evening     ,All     ,287,13,221,15,0,37,0,0
+717,Stonebridge Park              ,Late        ,All     ,82,32,48,0,2,0,0,0
+719,Stratford                     ,Early       ,NR      ,1506,539,732,132,97,7,0,0
+719,Stratford                     ,Early       ,DLR     ,138,23,115,0,0,0,0,0
+719,Stratford                     ,Early       ,All     ,7139,2764,3347,461,201,188,179,0
+719,Stratford                     ,AM peak     ,NR      ,20060,8836,10153,494,539,38,0,0
+719,Stratford                     ,AM peak     ,DLR     ,922,217,651,17,25,0,11,0
+719,Stratford                     ,AM peak     ,All     ,40655,20968,16391,1476,1383,315,122,0
+719,Stratford                     ,Midday      ,NR      ,8584,3713,3582,336,725,46,183,0
+719,Stratford                     ,Midday      ,DLR     ,2670,1479,708,0,376,0,106,0
+719,Stratford                     ,Midday      ,All     ,34378,14547,12676,2059,3621,489,984,2
+719,Stratford                     ,PM Peak     ,NR      ,5848,1552,1969,1236,658,48,386,0
+719,Stratford                     ,PM Peak     ,DLR     ,951,235,100,129,277,56,154,0
+719,Stratford                     ,PM Peak     ,All     ,35659,10991,12082,5529,4626,1633,785,13
+719,Stratford                     ,Evening     ,NR      ,3653,433,2320,457,281,0,162,0
+719,Stratford                     ,Evening     ,DLR     ,221,0,24,0,196,0,0,0
+719,Stratford                     ,Evening     ,All     ,15563,2652,6092,2725,2767,981,347,0
+719,Stratford                     ,Late        ,NR      ,674,201,302,44,128,0,0,0
+719,Stratford                     ,Late        ,DLR     ,112,0,74,0,0,0,37,0
+719,Stratford                     ,Late        ,All     ,4465,804,2168,299,900,204,83,7
+720,Sudbury Hill                  ,Early       ,All     ,527,127,13,146,42,33,166,0
+720,Sudbury Hill                  ,AM peak     ,NR      ,1,0,0,1,0,0,0,0
+720,Sudbury Hill                  ,AM peak     ,All     ,1343,364,233,312,132,87,215,0
+720,Sudbury Hill                  ,Midday      ,All     ,652,219,79,115,146,79,14,0
+720,Sudbury Hill                  ,PM Peak     ,All     ,413,100,96,88,60,32,33,4
+720,Sudbury Hill                  ,Evening     ,All     ,148,9,14,72,3,0,49,0
+720,Sudbury Hill                  ,Late        ,All     ,32,0,0,15,0,0,17,0
+721,Sudbury Town                  ,Early       ,All     ,491,199,121,109,41,12,8,0
+721,Sudbury Town                  ,AM peak     ,NR      ,12,12,0,0,0,0,0,0
+721,Sudbury Town                  ,AM peak     ,All     ,1553,511,472,416,57,58,39,0
+721,Sudbury Town                  ,Midday      ,All     ,724,194,88,191,30,127,93,0
+721,Sudbury Town                  ,PM Peak     ,All     ,429,53,85,109,23,138,22,0
+721,Sudbury Town                  ,Evening     ,All     ,159,17,23,71,0,31,16,0
+721,Sudbury Town                  ,Late        ,All     ,45,0,0,35,0,0,10,0
+729,Tottenham Hale                ,Early       ,NR      ,806,527,170,97,0,12,0,0
+729,Tottenham Hale                ,Early       ,All     ,1485,939,346,131,14,34,20,0
+729,Tottenham Hale                ,AM peak     ,NR      ,5240,3657,1236,237,78,19,13,0
+729,Tottenham Hale                ,AM peak     ,All     ,8817,5799,2187,560,176,64,31,0
+729,Tottenham Hale                ,Midday      ,NR      ,2541,1878,431,210,1,21,0,0
+729,Tottenham Hale                ,Midday      ,All     ,5196,2939,1086,1063,79,29,0,0
+729,Tottenham Hale                ,PM Peak     ,NR      ,1737,756,717,260,3,0,0,0
+729,Tottenham Hale                ,PM Peak     ,All     ,3473,1388,1170,811,72,12,0,20
+729,Tottenham Hale                ,Evening     ,NR      ,913,125,559,147,47,34,0,0
+729,Tottenham Hale                ,Evening     ,All     ,1621,398,706,395,77,45,0,0
+729,Tottenham Hale                ,Late        ,NR      ,267,76,12,178,0,0,0,0
+729,Tottenham Hale                ,Late        ,All     ,471,196,22,200,53,0,0,0
+731,Tower Hill                    ,Early       ,NR      ,884,806,54,4,19,2,0,0
+731,Tower Hill                    ,Early       ,DLR     ,37,37,0,0,0,0,0,0
+731,Tower Hill                    ,Early       ,All     ,1218,1025,115,29,24,2,23,0
+731,Tower Hill                    ,AM peak     ,NR      ,5571,4906,512,83,54,15,0,0
+731,Tower Hill                    ,AM peak     ,DLR     ,587,573,11,0,3,0,0,0
+731,Tower Hill                    ,AM peak     ,All     ,8698,7568,836,133,90,22,50,0
+731,Tower Hill                    ,Midday      ,NR      ,2711,2553,104,17,9,28,0,0
+731,Tower Hill                    ,Midday      ,DLR     ,378,360,0,18,0,0,0,0
+731,Tower Hill                    ,Midday      ,All     ,9021,7255,1065,284,219,181,16,1
+731,Tower Hill                    ,PM Peak     ,NR      ,340,312,2,6,21,0,0,0
+731,Tower Hill                    ,PM Peak     ,DLR     ,433,333,8,0,0,0,92,0
+731,Tower Hill                    ,PM Peak     ,All     ,10483,6175,1886,1201,498,233,435,57
+731,Tower Hill                    ,Evening     ,NR      ,75,43,32,0,0,0,0,0
+731,Tower Hill                    ,Evening     ,DLR     ,11,11,0,0,0,0,0,0
+731,Tower Hill                    ,Evening     ,All     ,2990,1277,942,320,378,60,13,0
+731,Tower Hill                    ,Late        ,NR      ,88,50,37,0,0,0,0,0
+731,Tower Hill                    ,Late        ,DLR     ,3,3,0,0,0,0,0,0
+731,Tower Hill                    ,Late        ,All     ,1114,389,433,73,114,78,27,0
+736,Upminster                     ,Early       ,NR      ,0,0,0,0,0,0,0,0
+736,Upminster                     ,Early       ,All     ,485,291,133,21,40,0,0,0
+736,Upminster                     ,AM peak     ,NR      ,346,65,3,31,1,90,157,0
+736,Upminster                     ,AM peak     ,All     ,1523,610,242,163,210,121,177,0
+736,Upminster                     ,Midday      ,NR      ,126,126,0,0,0,0,0,0
+736,Upminster                     ,Midday      ,All     ,869,415,97,50,129,113,65,0
+736,Upminster                     ,PM Peak     ,NR      ,724,50,0,0,12,28,634,0
+736,Upminster                     ,PM Peak     ,All     ,1449,170,72,24,187,162,834,0
+736,Upminster                     ,Evening     ,NR      ,96,16,9,0,0,0,71,0
+736,Upminster                     ,Evening     ,All     ,372,35,61,0,105,92,78,0
+736,Upminster                     ,Late        ,NR      ,115,41,8,0,0,0,66,0
+736,Upminster                     ,Late        ,All     ,248,41,8,0,48,4,147,0
+777,Vauxhall                      ,Early       ,NR      ,1077,639,263,147,13,14,2,0
+777,Vauxhall                      ,Early       ,All     ,1631,895,430,252,34,16,4,0
+777,Vauxhall                      ,AM peak     ,NR      ,9115,7029,1467,451,107,46,15,0
+777,Vauxhall                      ,AM peak     ,All     ,16715,11485,3462,1277,336,120,34,0
+777,Vauxhall                      ,Midday      ,NR      ,4798,3526,678,534,60,0,0,0
+777,Vauxhall                      ,Midday      ,All     ,11906,7667,2282,1380,462,56,57,2
+777,Vauxhall                      ,PM Peak     ,NR      ,4714,2101,1451,1058,33,71,0,0
+777,Vauxhall                      ,PM Peak     ,All     ,15957,5628,4782,4061,727,516,231,12
+777,Vauxhall                      ,Evening     ,NR      ,1925,580,874,376,7,88,0,0
+777,Vauxhall                      ,Evening     ,All     ,4413,1225,1623,1116,350,92,7,0
+777,Vauxhall                      ,Late        ,NR      ,507,212,134,146,15,0,0,0
+777,Vauxhall                      ,Late        ,All     ,1396,317,641,404,21,12,0,0
+741,Victoria                      ,Early       ,NR      ,2811,1800,603,233,126,30,11,7
+741,Victoria                      ,Early       ,All     ,3427,2065,876,290,132,44,12,7
+741,Victoria                      ,AM peak     ,NR      ,25192,17428,5835,1320,360,121,96,34
+741,Victoria                      ,AM peak     ,All     ,32250,21606,7952,1792,505,228,133,34
+741,Victoria                      ,Midday      ,NR      ,18278,13020,3120,1335,455,142,175,32
+741,Victoria                      ,Midday      ,All     ,38075,24484,8187,3410,1080,404,477,32
+741,Victoria                      ,PM Peak     ,NR      ,6943,3798,1461,975,308,86,315,0
+741,Victoria                      ,PM Peak     ,All     ,29930,12884,8538,4923,2175,743,610,56
+741,Victoria                      ,Evening     ,NR      ,2802,1324,741,478,96,131,32,0
+741,Victoria                      ,Evening     ,All     ,13260,4894,4776,2204,761,410,194,20
+741,Victoria                      ,Late        ,NR      ,924,488,181,227,28,0,0,0
+741,Victoria                      ,Late        ,All     ,5734,1954,2129,1145,325,175,2,4
+742,Walthamstow Central           ,Early       ,NR      ,1254,723,318,213,0,0,0,0
+742,Walthamstow Central           ,Early       ,All     ,5675,3217,1641,659,120,29,9,0
+742,Walthamstow Central           ,AM peak     ,NR      ,1335,940,311,71,1,0,12,0
+742,Walthamstow Central           ,AM peak     ,All     ,12173,6994,3689,1200,172,106,12,0
+742,Walthamstow Central           ,Midday      ,NR      ,783,254,109,397,0,0,24,0
+742,Walthamstow Central           ,Midday      ,All     ,6659,3306,1582,1241,171,228,131,0
+742,Walthamstow Central           ,PM Peak     ,NR      ,279,134,139,6,0,0,0,0
+742,Walthamstow Central           ,PM Peak     ,All     ,3459,1122,1187,881,46,224,0,0
+742,Walthamstow Central           ,Evening     ,NR      ,56,0,3,53,0,0,0,0
+742,Walthamstow Central           ,Evening     ,All     ,1096,440,283,336,23,15,0,0
+742,Walthamstow Central           ,Late        ,All     ,357,61,178,98,0,19,0,0
+747,Waterloo                      ,Early       ,NR      ,3533,2551,896,10,46,14,6,10
+747,Waterloo                      ,Early       ,All     ,4141,2787,1111,77,90,52,15,10
+747,Waterloo                      ,AM peak     ,NR      ,54218,40039,12895,517,421,170,149,26
+747,Waterloo                      ,AM peak     ,All     ,61108,43937,15149,919,625,266,185,26
+747,Waterloo                      ,Midday      ,NR      ,24306,15129,7484,574,516,349,215,38
+747,Waterloo                      ,Midday      ,All     ,33304,19156,10559,1604,1191,476,280,38
+747,Waterloo                      ,PM Peak     ,NR      ,12895,5789,5302,681,735,246,139,4
+747,Waterloo                      ,PM Peak     ,All     ,28518,9599,12492,2658,2827,590,286,67
+747,Waterloo                      ,Evening     ,NR      ,3977,1275,1721,607,296,59,18,0
+747,Waterloo                      ,Evening     ,All     ,12260,2484,6405,2286,801,178,93,14
+747,Waterloo                      ,Late        ,NR      ,772,317,262,124,66,2,1,0
+747,Waterloo                      ,Late        ,All     ,5783,1745,3000,750,166,85,15,22
+751,Wembley Central               ,Early       ,All     ,734,441,215,70,8,0,0,0
+751,Wembley Central               ,AM peak     ,NR      ,8,2,0,6,0,0,0,0
+751,Wembley Central               ,AM peak     ,All     ,1882,1287,271,179,141,2,0,0
+751,Wembley Central               ,Midday      ,NR      ,40,7,34,0,0,0,0,0
+751,Wembley Central               ,Midday      ,All     ,1717,704,664,273,69,6,0,0
+751,Wembley Central               ,PM Peak     ,NR      ,73,38,34,0,0,0,0,0
+751,Wembley Central               ,PM Peak     ,All     ,1065,346,56,122,127,415,0,0
+751,Wembley Central               ,Evening     ,NR      ,40,0,40,0,0,0,0,0
+751,Wembley Central               ,Evening     ,All     ,577,101,82,150,17,197,30,0
+751,Wembley Central               ,Late        ,All     ,329,72,76,10,46,125,0,0
+755,West Brompton                 ,Early       ,NR      ,26,1,10,15,0,0,0,0
+755,West Brompton                 ,Early       ,All     ,54,29,10,15,0,0,0,0
+755,West Brompton                 ,AM peak     ,NR      ,489,179,229,36,40,0,3,0
+755,West Brompton                 ,AM peak     ,All     ,1134,671,334,69,40,16,3,0
+755,West Brompton                 ,Midday      ,NR      ,390,315,49,26,0,0,0,0
+755,West Brompton                 ,Midday      ,All     ,2366,1556,298,371,36,91,0,14
+755,West Brompton                 ,PM Peak     ,NR      ,562,233,108,167,0,53,0,0
+755,West Brompton                 ,PM Peak     ,All     ,2065,709,398,496,222,210,19,12
+755,West Brompton                 ,Evening     ,NR      ,145,57,0,83,5,0,0,0
+755,West Brompton                 ,Evening     ,All     ,619,242,124,205,30,18,0,0
+755,West Brompton                 ,Late        ,NR      ,38,19,0,16,3,0,0,0
+755,West Brompton                 ,Late        ,All     ,228,41,136,49,3,0,0,0
+757,West Ham                      ,Early       ,NR      ,604,181,414,1,7,0,0,0
+757,West Ham                      ,Early       ,DLR     ,303,49,107,0,82,63,2,0
+757,West Ham                      ,Early       ,All     ,1506,504,742,100,95,63,2,0
+757,West Ham                      ,AM peak     ,NR      ,2731,548,2017,4,132,6,25,0
+757,West Ham                      ,AM peak     ,DLR     ,913,264,339,106,111,70,23,0
+757,West Ham                      ,AM peak     ,All     ,5611,1623,3263,213,329,91,93,0
+757,West Ham                      ,Midday      ,NR      ,1210,275,761,70,101,0,1,0
+757,West Ham                      ,Midday      ,DLR     ,654,337,273,0,43,0,0,0
+757,West Ham                      ,Midday      ,All     ,3131,899,1522,398,219,59,33,0
+757,West Ham                      ,PM Peak     ,NR      ,876,277,363,118,38,1,80,0
+757,West Ham                      ,PM Peak     ,DLR     ,348,86,76,66,119,0,1,0
+757,West Ham                      ,PM Peak     ,All     ,2151,607,801,264,319,32,128,0
+757,West Ham                      ,Evening     ,NR      ,434,104,253,66,7,3,0,0
+757,West Ham                      ,Evening     ,DLR     ,215,0,0,97,54,35,29,0
+757,West Ham                      ,Evening     ,All     ,1284,208,689,167,109,40,71,0
+757,West Ham                      ,Late        ,NR      ,120,0,92,22,5,0,0,0
+757,West Ham                      ,Late        ,DLR     ,44,0,0,0,44,0,0,0
+757,West Ham                      ,Late        ,All     ,291,0,199,22,53,0,16,0
+758,West Hampstead                ,Early       ,NR      ,211,111,42,12,30,16,0,0
+758,West Hampstead                ,Early       ,All     ,711,412,163,16,42,44,34,0
+758,West Hampstead                ,AM peak     ,NR      ,1874,993,589,62,88,141,0,0
+758,West Hampstead                ,AM peak     ,All     ,7870,5509,1543,236,237,152,192,0
+758,West Hampstead                ,Midday      ,NR      ,410,283,40,59,0,13,15,0
+758,West Hampstead                ,Midday      ,All     ,3468,1951,1145,145,63,136,29,0
+758,West Hampstead                ,PM Peak     ,NR      ,752,287,227,81,64,93,0,0
+758,West Hampstead                ,PM Peak     ,All     ,3936,1570,1009,438,663,159,97,0
+758,West Hampstead                ,Evening     ,NR      ,137,38,27,0,0,72,0,0
+758,West Hampstead                ,Evening     ,All     ,1286,571,277,102,61,276,0,0
+758,West Hampstead                ,Late        ,NR      ,57,20,33,4,0,0,0,0
+758,West Hampstead                ,Late        ,All     ,441,154,258,8,21,0,0,0
+762,West Ruislip                  ,Early       ,All     ,251,155,92,0,3,0,0,0
+762,West Ruislip                  ,AM peak     ,NR      ,18,0,9,5,4,0,0,0
+762,West Ruislip                  ,AM peak     ,All     ,1185,840,273,27,8,36,0,0
+762,West Ruislip                  ,Midday      ,NR      ,11,0,11,0,0,0,0,0
+762,West Ruislip                  ,Midday      ,All     ,492,152,225,3,23,90,0,0
+762,West Ruislip                  ,PM Peak     ,NR      ,16,0,16,0,0,0,0,0
+762,West Ruislip                  ,PM Peak     ,All     ,339,176,106,0,41,16,0,0
+762,West Ruislip                  ,Evening     ,All     ,104,16,5,36,2,44,0,0
+762,West Ruislip                  ,Late        ,All     ,32,6,4,3,11,8,0,0
+763,Whitechapel                   ,Early       ,NR      ,846,412,149,145,90,0,50,0
+763,Whitechapel                   ,Early       ,All     ,1252,645,230,172,144,7,54,0
+763,Whitechapel                   ,AM peak     ,NR      ,3467,2355,603,270,170,4,65,0
+763,Whitechapel                   ,AM peak     ,All     ,6470,4379,1132,472,345,31,111,0
+763,Whitechapel                   ,Midday      ,NR      ,3840,2050,948,420,225,0,197,0
+763,Whitechapel                   ,Midday      ,All     ,9750,4342,2155,1601,1378,31,244,0
+763,Whitechapel                   ,PM Peak     ,NR      ,5704,3400,1285,700,78,88,153,0
+763,Whitechapel                   ,PM Peak     ,All     ,14072,5860,4607,1793,1319,114,378,0
+763,Whitechapel                   ,Evening     ,NR      ,2443,1397,590,411,0,0,46,0
+763,Whitechapel                   ,Evening     ,All     ,6234,2303,2137,1031,519,187,57,0
+763,Whitechapel                   ,Late        ,NR      ,668,113,367,94,0,0,95,0
+763,Whitechapel                   ,Late        ,All     ,1561,228,660,308,249,0,116,0
+766,Willesden Junction            ,Early       ,NR      ,94,4,21,33,2,34,0,0
+766,Willesden Junction            ,Early       ,All     ,481,114,173,80,58,56,0,0
+766,Willesden Junction            ,AM peak     ,NR      ,1326,347,327,168,293,192,0,0
+766,Willesden Junction            ,AM peak     ,All     ,2562,984,517,222,471,367,0,0
+766,Willesden Junction            ,Midday      ,NR      ,1072,313,302,111,205,139,0,0
+766,Willesden Junction            ,Midday      ,All     ,2789,1371,623,210,254,330,1,0
+766,Willesden Junction            ,PM Peak     ,NR      ,1707,0,7,151,604,946,0,0
+766,Willesden Junction            ,PM Peak     ,All     ,3281,350,283,376,979,1251,42,0
+766,Willesden Junction            ,Evening     ,NR      ,542,89,136,120,187,9,0,0
+766,Willesden Junction            ,Evening     ,All     ,1643,474,212,310,378,264,0,5
+766,Willesden Junction            ,Late        ,NR      ,162,0,1,39,108,13,0,0
+766,Willesden Junction            ,Late        ,All     ,495,0,97,131,146,121,0,0
+767,Wimbledon                     ,Early       ,NR      ,741,170,376,174,13,5,1,0
+767,Wimbledon                     ,Early       ,All     ,1830,648,845,251,13,18,54,0
+767,Wimbledon                     ,AM peak     ,NR      ,2799,870,1327,580,5,9,8,0
+767,Wimbledon                     ,AM peak     ,All     ,6717,2561,2823,1167,61,26,80,0
+767,Wimbledon                     ,Midday      ,NR      ,1141,468,310,339,0,0,24,0
+767,Wimbledon                     ,Midday      ,All     ,4135,1713,1199,1072,68,0,83,0
+767,Wimbledon                     ,PM Peak     ,NR      ,1833,430,866,463,0,12,63,0
+767,Wimbledon                     ,PM Peak     ,All     ,4701,1109,1686,1290,150,337,129,0
+767,Wimbledon                     ,Evening     ,NR      ,404,44,171,190,0,0,0,0
+767,Wimbledon                     ,Evening     ,All     ,1135,151,442,511,31,0,0,0
+767,Wimbledon                     ,Late        ,NR      ,126,9,4,113,0,0,0,0
+767,Wimbledon                     ,Late        ,All     ,401,45,167,190,0,0,0,0
+>>>>>>> Andrew
