@@ -7,8 +7,8 @@
 
     function tubeMap() {
         var margin = {top: 80, right: 80, bottom: 20, left: 80};
-        var width = 760;
-        var height = 640;
+        var width = 800;
+        var height = 800;
         var xScale = d3.scaleLinear();
         var yScale = d3.scaleLinear();
         var xGeoScale = d3.scaleLinear();
@@ -357,7 +357,7 @@
             const stations = nodes.map(d=>d.name).filter(d=>d !== undefined);
             d3.select('.showBarDiff').style('display', 'block');
             d3.select('.barChartDropDown').classed('showMe', true);
-            d3.selectAll('select').remove();
+            d3.selectAll('select').attr("display", "none");
             makeDropDown(stations);
             d3.select('.lineMode').classed('showMe', true)
         }
@@ -589,6 +589,8 @@
                 .text(d=>d);
 
 
+
+
             //
             // const dropRight = d3.select('.dropRight')
             //     .append('select')
@@ -750,7 +752,7 @@
                         return d.color;
                     })
                     .attr("fill", "none").attr("stroke-width", function (d) {
-                    return d.highlighted ? lineWidth * 1.3 : lineWidth;
+                    return d.highlighted ? lineWidth * 1.5 : lineWidth;
                 })
                     .attr("class", function (d) {
                         return d.name;
@@ -1051,7 +1053,7 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
             interchanges.style("visibility", "hidden");
 
             d3.select('#tube-map').select('svg').attr('height', '200')
-            d3.select('.legendWrapper').style('display', 'none')
+            //d3.select('.legendWrapper').style('display', 'none');
 
            // d3.select('body').style('overflow', 'auto')
             d3.select('.stationWrapper')
@@ -1082,7 +1084,7 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
         }
 
-	map.startTimer = function(csvData, timeTable, stationData, type){
+	map.startTimer =  async function(csvData, timeTable, stationData, type){
 
 		//append circles to the stations with initial counts
 
@@ -1119,6 +1121,11 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
     journeyCount = "exit";
 
   }
+
+
+
+
+      d3.select("#circlekey").style("display", "inline");
 
 
 
@@ -1178,9 +1185,26 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 				return "red";
 			}
 			else{
-				return "blue";
+				return "#66CCCC";
 			}
 		});
+
+    d3.select("#clock").text("" + 10 + " Seconds");
+
+
+    function wait(ms) {
+
+
+
+return new Promise(r => setTimeout(r, ms));
+  }
+
+
+
+
+
+
+ var wait = await  wait(10000);
 
 
 
@@ -1192,34 +1216,22 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
 
 		var tick = 0;
 
-    var day = "am";
-
 		//create a data structure that ties each station to the time passed through, and whether it was an entry or exit
 		//Take that data and tie the count to the circles that will be at each staation
 		map.timer = setInterval(function(elapsed) {
 			var time = timeTable[tick];
 
 
-
-      if(time === "12:00"){
-        day = "pm";
-      }
-      if(time === "00:00"){
-        day = "am";
-      }
       if(time === "04:45"){
-        console.log("we stopped")
         map.timeStop = true;
       }
 
-      d3.select("#clock").text(time + " " + day );
+      d3.select("#clock").text(time);
 
 			if(tick % 15 === 0){
         var journeys = 0;
 
 
-
-console.log(time_data);
 
 		time_data.forEach(function(d){
 			//Select Al Entries
@@ -1357,7 +1369,7 @@ d3.select("#stopButton").remove();
 
     return;
   }
-}, 50,2000);
+}, 50,6000);
 
 
 	};
@@ -1389,10 +1401,14 @@ d3.select("#stopButton").remove();
 
             d3.select('#tube-map').select('svg').attr('height', '1024')
             d3.select('body').style('overflow', 'hidden')
-            d3.select('.legendWrapper').style('display', 'none')
+            d3.select('.legendWrapper').style('display', 'inline')
             d3.select('.lineMode').classed('showMe', false);
             d3.select('.barChartWrapper').classed('showMe', false);
             d3.select('.barChartDropDown').classed('showMe', false);
+            d3.select("#circlekey").style("display", "none");
+
+              d3.selectAll('.selectLeft').remove();
+              d3.selectAll('select').attr('display', "inline")
 
             var lines = d3.select("#tube-map").selectAll(".line");
             var lines = d3.select("#tube-map").selectAll(".line");
