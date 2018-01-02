@@ -281,6 +281,21 @@ text.highlighted {
 
 }
 
+.notSelected{
+  fill: #ffffff;
+}
+.stationSelect{
+
+}
+
+.stationSelected{
+  fill: steelblue;
+}
+
+.stationSelect:hover{
+  fill: orange;
+}
+
 .mainBarWrapper {
   display: none;
 }

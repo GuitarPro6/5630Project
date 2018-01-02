@@ -53,12 +53,13 @@
         const BAR_OFFSET = 20;
         const BAR_TOP_OFFSET = 10;
 
-        const ageSVG = d3.select('.ageChart').append('svg')
-            .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
+        const ageSVG = d3.select('.ageChart').append('svg').attr("id", "ageChart")
             .attr('height', barChartHeight + lineChartMargin.top + lineChartMargin.bottom)
+            .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
+
             .append("g")
             .classed('ageBarChart', true)
-            .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET + ")");
+            .attr("transform", "translate(" + lineChartMargin.left + "," + BAR_TOP_OFFSET+ ")");
 
         const sexSVG = d3.select('.sexChart').append('svg')
             .attr('width', barChartWidth + lineChartMargin.left + lineChartMargin.right)
@@ -256,56 +257,138 @@
             const x = d3.scaleBand()
                 .range([0, barChartWidth])
                 .padding(0.1);
-            const y = d3.scaleLinear()
+            var y = d3.scaleLinear().domain([0, d3.max(data, d=>d.value)])
                 .range([barChartHeight - BAR_OFFSET, 0]);
 
             x.domain(data.map(d=>d.category));
-            y.domain([0, d3.max(data, d=>d.value)]);
+
 
             let barChart = null;
+
+            let barGroup = null;
 
             switch (label) {
                 case 'Age':
                     barChart = ageSVG;
+                    y = d3.scaleLinear().domain([0, d3.max(data, d=>d.value)])
+                        .range([barChartHeight - BAR_OFFSET, 0]);
+                        barGroup = barChart.append('g').classed('barGroup', true);
+                        barGroup.selectAll(".bar")
+                            .data(data)
+                            .enter().append("rect")
+                            .attr("class", "bar")
+                            .attr('fill', selectColor)
+                            .attr("x", d=>x(d.category))
+                    .attr("width", x.bandwidth())
+                            .attr("y", d=>y(d.value))
+                    .attr("height", d=> barChartHeight - BAR_OFFSET - y(d.value))
+
+                    d3.select("#ageChart").attr("height", 300)
+
+
+                        barGroup.append("g")
+                            .attr("transform", "translate(0," + (barChartHeight - BAR_OFFSET) + ")")
+                            .call(d3.axisBottom(x))
+                            .selectAll("text")
+                            .style("text-anchor", "end")
+                            .attr("dx", "-.8em")
+                            .attr("dy", ".15em")
+                            .attr("transform", "rotate(-50)");
+
+
+                        barGroup.append("g")
+                            .call(d3.axisLeft(y)
+                                .ticks(6, 's'));
                     break;
                 case 'Sex':
                     barChart = sexSVG
+                    barGroup = barChart.append('g').classed('barGroup', true);
+                    barGroup.selectAll(".bar")
+                        .data(data)
+                        .enter().append("rect")
+                        .attr("class", "bar")
+                        .attr('fill', selectColor)
+                        .attr("x", d=>x(d.category))
+                .attr("width", x.bandwidth())
+                        .attr("y", d=>y(d.value))
+                .attr("height", d=> barChartHeight - BAR_OFFSET - y(d.value));
+
+
+                    barGroup.append("g")
+                        .attr("transform", "translate(0," + (barChartHeight - BAR_OFFSET) + ")")
+                        .call(d3.axisBottom(x))
+                        .selectAll("text")
+                        .style("text-anchor", "end")
+                        .attr("dx", "-.8em")
+                        .attr("dy", ".15em")
+                        .attr("transform", "rotate(-50)");
+
+
+                    barGroup.append("g")
+                        .call(d3.axisLeft(y)
+                            .ticks(6, 's'));
                     break;
                 case 'Journey':
                     barChart = journeyChartSVG;
+                    barGroup = barChart.append('g').classed('barGroup', true);
+                    barGroup.selectAll(".bar")
+                        .data(data)
+                        .enter().append("rect")
+                        .attr("class", "bar")
+                        .attr('fill', selectColor)
+                        .attr("x", d=>x(d.category))
+                .attr("width", x.bandwidth())
+                        .attr("y", d=>y(d.value))
+                .attr("height", d=> barChartHeight - BAR_OFFSET - y(d.value));
+
+
+                    barGroup.append("g")
+                        .attr("transform", "translate(0," + (barChartHeight - BAR_OFFSET) + ")")
+                        .call(d3.axisBottom(x))
+                        .selectAll("text")
+                        .style("text-anchor", "end")
+                        .attr("dx", "-.8em")
+                        .attr("dy", ".15em")
+                        .attr("transform", "rotate(-50)");
+
+
+                    barGroup.append("g")
+                        .call(d3.axisLeft(y)
+                            .ticks(6, 's'));
                     break;
                 case 'Market':
                     barChart = marketSVG;
+                    barGroup = barChart.append('g').classed('barGroup', true);
+                    barGroup.selectAll(".bar")
+                        .data(data)
+                        .enter().append("rect")
+                        .attr("class", "bar")
+                        .attr('fill', selectColor)
+                        .attr("x", d=>x(d.category))
+                .attr("width", x.bandwidth())
+                        .attr("y", d=>y(d.value))
+                .attr("height", d=> barChartHeight - BAR_OFFSET - y(d.value));
+
+
+                    barGroup.append("g")
+                        .attr("transform", "translate(0," + (barChartHeight - BAR_OFFSET) + ")")
+                        .call(d3.axisBottom(x))
+                        .selectAll("text")
+                        .style("text-anchor", "end")
+                        .attr("dx", "-.8em")
+                        .attr("dy", ".15em")
+                        .attr("transform", "rotate(-50)");
+
+
+                    barGroup.append("g")
+                        .call(d3.axisLeft(y)
+                            .ticks(6, 's'));
                     break;
                 default:
                     return barChart;
             }
 
-            const barGroup = barChart.append('g').classed('barGroup', true);
-            barGroup.selectAll(".bar")
-                .data(data)
-                .enter().append("rect")
-                .attr("class", "bar")
-                .attr('fill', selectColor)
-                .attr("x", d=>x(d.category))
-        .attr("width", x.bandwidth())
-                .attr("y", d=>y(d.value))
-        .attr("height", d=> barChartHeight - BAR_OFFSET - y(d.value));
 
-
-            barGroup.append("g")
-                .attr("transform", "translate(0," + (barChartHeight - BAR_OFFSET) + ")")
-                .call(d3.axisBottom(x))
-                .selectAll("text")
-                .style("text-anchor", "end")
-                .attr("dx", "-.8em")
-                .attr("dy", ".15em")
-                .attr("transform", "rotate(-65)");
-
-
-            barGroup.append("g")
-                .call(d3.axisLeft(y)
-                    .ticks(6, 's'));
 
             // d3.select('body').classed('modal', true);
             // d3.select('.zoomRect').classed('modal', true);
@@ -826,7 +909,7 @@
                     svgCir.exit().remove();
                     svgCir = svgCir.enter().append("g").merge(svgCir);
                     svgCir.append("circle")
-                        .attr("class", "station-circle")
+                        .attr("class", "station-circle").classed('stationSelect', true)
                         .attr("cx", function (d, i) {
                             return d.coords[0]
                         })
@@ -835,15 +918,16 @@
                         })
                         .attr("r", 6).style("visibility", "visible")
                         .on("click", function (d) {
-                            console.log(d, 'sss')
-                            svgCir.selectAll('circle').attr('fill', bgColor)
-                            d3.select(this).attr('fill', selectColor)
+
+                            svgCir.selectAll('.stationSelect').classed('notSelected', true);
+                            svgCir.selectAll('.stationSelected').classed('stationSelected', false);
+
+                            d3.select(this).classed('stationSelected', true);
                             barChartFactory(d.name)
 
+                          })
 
-                        })
-                        .on("mouseover", function (d) {
-                        })
+
                         .attr("stroke", fgColor)
                         .attr("fill", bgColor)
                         .attr("stroke-width", lineWidth / 2);
@@ -879,6 +963,15 @@ station_text = station_text.enter().append("g").attr("display", "inline").merge(
                         .style("visibility", "visible")// change dx and dy in order to center in the circle.
                         .style("text-anchor", "end");
                     d3.select(this).transition().duration(4000).attr("d", newPath);
+                }).on("mouseover", function (d) {
+                  var name = d3.select(this).attr("id");
+                  //map.highlightLine(name);
+                  d3.select(this).style('stroke-width', 10);
+
+
+                }).on("mouseout", function(d){
+                  d3.select(this).style('stroke-width', lineWidth);
+                    //map.unhighlightAll();
                 });
 
 
